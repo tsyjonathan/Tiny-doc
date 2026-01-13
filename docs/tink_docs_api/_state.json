@@ -1,0 +1,18 @@
+{
+  "visited": [
+    "https://docs.tink.com/api-introduction",
+    "https://docs.tink.com/api-general",
+    "https://docs.tink.com/api-connectivity-v1",
+    "https://docs.tink.com/api-connectivity-v2",
+    "https://docs.tink.com/api-connector",
+    "https://docs.tink.com/api-data-v1",
+    "https://docs.tink.com/api-data-v2",
+    "https://docs.tink.com/api-enrichment",
+    "https://docs.tink.com/api-events-v2",
+    "https://docs.tink.com/api-finance-management",
+    "https://docs.tink.com/api-partner-integration",
+    "https://docs.tink.com/api-payment",
+    "https://docs.tink.com/api-risk",
+    "https://docs.tink.com/api"
+  ]
+}
