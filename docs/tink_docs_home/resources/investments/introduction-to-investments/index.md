@@ -18,7 +18,7 @@ In today's dynamic financial landscape, staying on top of your investments and p
 -   The SDK allows your users to securely select and connect their investment account from their bank or platform in order to fetch real-time investment and pension data in less than a minute
 -   Once the user has connected his bank account(s), Tink fetches the investment and pension account data from the bank's API and returns it in a standardized format via the Investment API
 
-![Investments-journey-alt1](https://images.ctfassets.net/tmqu5vj33f7w/4Eg142SsoU8S5JN25d2GhY/c9290cc2495f5d81ba5ad90fc1d3bd6a/Investments_journey_1.png)
+*Image removed: Investments-journey-alt1*
 
 ## Use cases with Investments[](#use-cases-with-investments)
 
@@ -26,6 +26,6 @@ In today's dynamic financial landscape, staying on top of your investments and p
 
 **Streamline account transfers**: Historically, transferring assets between financial institutions has been a labyrinthine process, fraught with inefficiencies and complications, deterring clients from exploring better investment opportunities. Investments removes these roadblocks, enabling you to facilitate a seamless transfer of investments by validating users existing investments in under a minute.
 
-![Investments-wealth-advisor](https://images.ctfassets.net/tmqu5vj33f7w/1zncUSus1m8qI268REijSl/ef44f26e64633df01f17392b31356fbc/Investments_personalised_wealth_advisor.png)
+*Image removed: Investments-wealth-advisor*
 
 **Personalise wealth advisory**: Understanding your clients investments is the cornerstone of delivering exceptional financial services. Without timely access to this crucial data, your ability to provide personalized recommendations, optimize product offerings, and nurture strong client relationships is severely compromised. With Investments, you can drive personalisation and automation of wealth advisory with a holistic understanding of your client’s net worth across providers.

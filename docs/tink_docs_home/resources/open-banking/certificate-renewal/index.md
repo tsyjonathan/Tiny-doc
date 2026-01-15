@@ -33,7 +33,7 @@ It is your responsibility as a TPP to renew your certificates with your issuer b
 
 The eIDAS certificates that you’ve uploaded can be found in Console under “App settings”. You can also monitor the expiry date of certificates there.
 
-![Console - App Settings - eIDAS](https://images.ctfassets.net/tmqu5vj33f7w/3uBM76bkBWoGfDm7V2s7Xr/bd27a61161313d3d746892f462d3c259/console-app-settings-eidas.png)
+*Image removed: Console - App Settings - eIDAS*
 
 We monitor your certificates and notify you of impending expirations. However, you should also track expiration dates and plan renewals in advance. Mark these dates and schedule certificate renewals with ample time to ensure continuous Open Banking operations.
 
@@ -57,7 +57,7 @@ After creating the CSR files, uploading them to the Open Banking Implementation 
 
 ## Certificate renewal with Tink[](#certificate-renewal-with-tink)
 
-To start the certificate renewal process with Tink, create a [technical support ticket](https://support.tink.com/) and select the option "eIDAS Registration and Rotation." This establishes a direct communication channel with our technical team, ensuring a smooth renewal process. Our experts will guide you through each step, monitor your traffic, and quickly respond to any issues that may arise.
+To start the certificate renewal process with Tink, create a technical support ticket and select the option "eIDAS Registration and Rotation." This establishes a direct communication channel with our technical team, ensuring a smooth renewal process. Our experts will guide you through each step, monitor your traffic, and quickly respond to any issues that may arise.
 
 ### New certificates installation[](#new-certificates-installation)
 

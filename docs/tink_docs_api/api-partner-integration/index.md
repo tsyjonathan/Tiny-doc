@@ -28,7 +28,7 @@ Creates a new merchant.
   "externalId": "string",
   "name": "Example Inc.",
   "organizationNumber": "12345",
-  "url": "https://endpoint.example.com"
+  "url": "[external url removed]"
 }
 ```
 
@@ -58,7 +58,7 @@ The organization/company/registration number of the merchant. The identification
 
 url `string` required
 
-The url to the merchant's website without a path, e.g. [https://example.com](https://example.com/).
+The url to the merchant's website without a path, e.g. [external url removed]
 
 > Response Example
 
@@ -72,7 +72,7 @@ The url to the merchant's website without a path, e.g. [https://example.com](htt
   "name": "Example Inc.",
   "organizationNumber": "12345",
   "status": "VERIFIED",
-  "url": "https://endpoint.example.com"
+  "url": "[external url removed]"
 }
 ```
 
@@ -114,7 +114,7 @@ The status of the merchant.
 
 url `string` required
 
-The url to the merchant's website without a path, e.g. [https://example.com](https://example.com/).
+The url to the merchant's website without a path, e.g. [external url removed]
 
 #### MerchantStatus[](#partner-integration/merchants/create-merchant/response-merchant/merchantstatus)
 
@@ -162,7 +162,7 @@ Retrieve information about an existing merchant.
   "name": "Example Inc.",
   "organizationNumber": "12345",
   "status": "VERIFIED",
-  "url": "https://endpoint.example.com"
+  "url": "[external url removed]"
 }
 ```
 
@@ -204,7 +204,7 @@ The status of the merchant.
 
 url `string` required
 
-The url to the merchant's website without a path, e.g. [https://example.com](https://example.com/).
+The url to the merchant's website without a path, e.g. [external url removed]
 
 #### MerchantStatus[](#partner-integration/merchants/get-merchant/response-merchant/merchantstatus)
 
@@ -258,7 +258,7 @@ List all merchants associated with the given application.
       "name": "Example Inc.",
       "organizationNumber": "123",
       "status": "VERIFIED",
-      "url": "https://endpoint.example.com"
+      "url": "[external url removed]"
     }
   ],
   "nextPageToken": "MA=",
@@ -321,7 +321,7 @@ The status of the merchant.
 
 url `string` required
 
-The url to the merchant's website without a path, e.g. [https://example.com](https://example.com/).
+The url to the merchant's website without a path, e.g. [external url removed]
 
 #### MerchantStatus[](#partner-integration/merchants/list-merchants/response-listmerchantsresponse/merchantstatus)
 

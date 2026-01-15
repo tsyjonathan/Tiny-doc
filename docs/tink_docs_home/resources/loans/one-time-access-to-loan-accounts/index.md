@@ -35,8 +35,8 @@ Let's define some parameters that you can append to your URL.
 
 | Parameter | Required | Description |
 | --- | --- | --- |
-| client\_id | Required | Your client ID (retrieved from [Tink Console](https://console.tink.com/)). |
-| redirect\_uri | Required | The page the end-user is redirected to after completing the flow together with the response parameters (configured in [Tink Console](https://console.tink.com/)). |
+| client\_id | Required | Your client ID (retrieved from Tink Console). |
+| redirect\_uri | Required | The page the end-user is redirected to after completing the flow together with the response parameters (configured in Tink Console). |
 | market | Optional (default `SE`) | Market code for which providers should be listed. See below for a list of available markets. |
 | locale | Optional (default `en_US`) | Locale to be used for end-user facing text. See below for an available list of locales. |
 | products | Required | A comma separated list of products for which to aggregate data (`ACCOUNT_CHECK`, `INVESTMENTS`, `LOANS`, `TRANSACTIONS`). |
@@ -46,10 +46,10 @@ Let's define some parameters that you can append to your URL.
 Tink Link URL example
 
 ```
-https://link.tink.com/1.0/products/connect-accounts?products=LOANS&client_id=&state=&redirect_uri=https://console.tink.com/callback&market=SE&locale=en_US
+[external url removed]
 ```
 
-When the end user opens the Tink Link URL, they're prompted to authenticate with their bank and then choose a bank account. To test the Tink URL, find demo-user credentials in **Console** > **[Demo Bank](https://console.tink.com/demobank)**. Select the username and password for a Demo Bank user that suits your use case.
+When the end user opens the Tink Link URL, they're prompted to authenticate with their bank and then choose a bank account. To test the Tink URL, find demo-user credentials in **Console** > **Demo Bank**. Select the username and password for a Demo Bank user that suits your use case.
 
 When the Tink flow is completed, the end user is redirected to the redirect URL. The redirect URL contains `user access token`, `credentialsId` and a `state` if you provided that.
 
@@ -64,7 +64,7 @@ If you don't include the `state` parameter in your Tink URL, it won’t be inclu
 **Example callback URL**
 
 ```
-https://console.tink.com/callback?code={USER_ACCESS_TOKEN}&credentialsId={CREDENTIALS_ID}&state={OPTIONAL_STATE_CODE_THAT_YOU_SPECIFIED}&redirect_uri=https://console.tink.com/callback
+[external url removed]
 ```
 
 ## 2\. Fetch Loan data[](#fetch-loan-data)
@@ -78,7 +78,7 @@ Use the `user access token` from the Tink Link response to make a request to the
 Fetch a list of loan accounts
 
 ```
-curl "https://api.tink.com/data/v2/loan-accounts" \
+curl "[external url removed]" \
   -H 'Authorization: Bearer '
 ```
 

@@ -26,14 +26,14 @@ At a high level, the payment cancellation process consists of three steps:
 2.  Poll for cancellation status
 3.  Handle end-user interaction if needed
 
-To begin the cancellation process, make a `POST` request to `https://api.tink.com/api/v1/payments/{paymentId}/cancellation`. Calling this endpoint creates a new cancellation resource and begins the cancellation process at the bank where the payment was initiated.
+To begin the cancellation process, make a `POST` request to `[external url removed] Calling this endpoint creates a new cancellation resource and begins the cancellation process at the bank where the payment was initiated.
 
 **Example request**
 
 Create cancellation resource
 
 ```
-curl -v -X POST https://api.tink.com/api/v1/payments/{paymentId}/cancellation \
+curl -v -X POST [external url removed] \
    -H 'Authorization: Bearer ' \
    -H 'Content-Type: application/json'
 ```
@@ -44,7 +44,7 @@ curl -v -X POST https://api.tink.com/api/v1/payments/{paymentId}/cancellation \
 201 Accepted
 ```
 
-To poll the status of the cancellation, make a GET request to `https://api.tink.com/api/v1/payments/{paymentId}/cancellation`. The endpoint will return one of these statuses:
+To poll the status of the cancellation, make a GET request to `[external url removed] The endpoint will return one of these statuses:
 
 -   `PROCESSING`: The cancellation has begun
 -   `AWAITING_AUTHENTICATION`: The bank requires the user to authenticate before continuing
@@ -56,7 +56,7 @@ To poll the status of the cancellation, make a GET request to `https://api.tink.
 Poll cancellation status
 
 ```
-curl -v -X GET https://api.tink.com/api/v1/payments/{paymentId}/cancellation \
+curl -v -X GET [external url removed] \
    -H 'Authorization: Bearer ' \
    -H 'Content-Type: application/json'
 ```
@@ -78,7 +78,7 @@ Some banks require a Strong Customer Authentication (SCA) from the user who init
 ```
 {
     "status": "AWAITING_AUTHENTICATION",
-    "tinkLink": "https://link.tink.com/1.0/pay/cancellation?client_id={CLIENT_ID}&market={MARKET}&authorization_code={AUTHORIZATION_CODE}&credentials_id={CREDENTIALS_ID}&payment_request_id={PAYMENT_REQUEST_ID}",
+    "tinkLink": "[external url removed]",
 }
 ```
 

@@ -10,7 +10,7 @@ To archive a budget, you need to use the [Archive budgets](/Tiny-doc/tink_docs_a
 Example request:
 
 ```
-curl -X PUT 'https://api.tink.com/api/v1/budgets//archive' \
+curl -X PUT '[external url removed]' \
 -H 'Authorization: Bearer '
 ```
 

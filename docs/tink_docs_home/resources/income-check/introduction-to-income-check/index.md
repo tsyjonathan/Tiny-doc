@@ -5,7 +5,7 @@ exportedAt: "2026-01-13T12:41:31.287Z"
 ---
 Businesses require an accurate picture of an individual's income, for example, to assess loan applications. Most companies currently rely on a combination of two ways to verify income: credit reference agencies and user-provided material, such as payslips.
 
-![income-check-comparison-of-methods](https://images.ctfassets.net/tmqu5vj33f7w/NnwpIYtJigBNl6VvvNIL8/70b34a63dffdc3935698168240808626/income-check-comparison-of-methods.jpg)
+*Image removed: income-check-comparison-of-methods*
 
 There are significant problems with both. Credit-reference agencies usually depend on tax returns to be able to assess income, and these can be up to a year old. Reviewing payslips or bank statements on the other hand, is a slow, fraud-prone, and tedious process.
 
@@ -17,7 +17,7 @@ We deliver Income Check through our [SDK](/Tiny-doc/tink_docs_home/resources/inc
 
 When an end user has consented to share their data and authenticated to their bank, an automated JSON report is made available to you in less than a minute.
 
-![Income-check-flow-SE](https://images.ctfassets.net/tmqu5vj33f7w/oOOm7agiaEVQ1VOwXOwVq/d719e36278bbe6fa9cfd1fe795d45e98/Income-check-flow-SE.gif)
+*Image removed: Income-check-flow-SE*
 
 Tink handles the complexities involved with connecting with thousands of banks across Europe, including all connection and authentication methods that risk being updated at any time.
 
@@ -54,7 +54,7 @@ Next, the model **classifies transaction data**:
 -   Other income
 -   No income
 
-![How does Income Check work 1](https://images.ctfassets.net/tmqu5vj33f7w/2BXuLeabtqnfvyC6uSfNXh/8fc7b0d4533a96db3f7f4e7ac5d0061c/How_does_Income_Check_Work1.png)
+*Image removed: How does Income Check work 1*
 
 ### Classification[](#classification)
 
@@ -102,7 +102,7 @@ Our model is continuously updated by using new transactional data. We do this to
 
 The metrics that we use to evaluate model performance are **accuracy**, **precision**, and **recall**. These metrics are derived from the **confusion matrix**. This is a matrix that tells us how we are right or wrong when classifying the income type (or no income) for a set of transactions. The confusion matrix summarizes the number of correct and incorrect transaction classifications.
 
-![How does Income Check work 3](https://images.ctfassets.net/tmqu5vj33f7w/1ZQZ58BosYuE1qDOqp2FzH/dc1b52cd468ec5633bc3e16d0a5ab8d0/How_does_Income_Check_Work3.png)
+*Image removed: How does Income Check work 3*
 
 -   True positives (TP): transactions correctly predicted as income
 -   True negatives (TN): transactions correctly predicted as not being income
@@ -113,12 +113,12 @@ The metrics that we use to evaluate model performance are **accuracy**, **precis
 
 **Accuracy** is the share of correctly predicted transactions. Accuracy provides us with an understanding of certainty in the Income Check model and how well we can trust our classifications.
 
-![How does Income Check work 4](https://images.ctfassets.net/tmqu5vj33f7w/1b21KlH5syGpHMpBQl1anD/3d118da8bd486922b05b28cd8368e8ea/How_does_Income_Check_Work4.png)
+*Image removed: How does Income Check work 4*
 
 **Precision** lets us know how certain we can be that transactions that have been predicted as income are actually income. High precision means we can trust the Income Check classifications of a person’s income.
 
-![How does Income Check work 5](https://images.ctfassets.net/tmqu5vj33f7w/2xkn97skngEVpnvMWlPD3J/04be02f8f6cc6ece006df360ea3d38ea/How_does_Income_Check_Work5.png)
+*Image removed: How does Income Check work 5*
 
 **Recall** tells us how good our model is at identifying transactions as income. High recall means that no income transactions are missed.
 
-![How does Income Check work 6](https://images.ctfassets.net/tmqu5vj33f7w/6ZyUNO1rTXPixjWjbyYyar/d3b01eb567d696c67f7b9aacd91b070c/How_does_Income_Check_Work6.webp)
+*Image removed: How does Income Check work 6*

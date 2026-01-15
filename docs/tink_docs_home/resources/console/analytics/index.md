@@ -3,13 +3,13 @@ title: "Analytics - Tink Docs"
 source: "/Tiny-doc/tink_docs_home/resources/console/analytics/"
 exportedAt: "2026-01-13T12:54:42.279Z"
 ---
-![Account Check - Analytics](https://images.ctfassets.net/tmqu5vj33f7w/22lXbQgxBB3jctJQHBf4kS/3032b10373a5366c87f13c7409a154a8/Account_Check_-_Analytics.png)
+*Image removed: Account Check - Analytics*
 
 Analytics is used to track key performance integration metrics of your integration. Use the results to make data-driven decisions, track where users drop off, and monitor individual bank connections.
 
 To access Analytics:
 
-1.  [Log in to Console](https://console.tink.com/login).
+1.  Log in to Console.
 2.  Select the product for which you want to see analytics.
 3.  Select the **Analytics** tab.
 

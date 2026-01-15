@@ -7,7 +7,7 @@ To fetch the user’s recurring transactions, call the `/enrichment/v1/predicted
 
 ```
 curl -X 'GET' \
-'https://api.tink.com/enrichment/v1/predicted-recurring-transactions’ \
+'[external url removed] \
   -H 'Authorization: Bearer '
   -H 'accept: application/json'
 ```
@@ -62,7 +62,7 @@ Example request with query parameters:
 
 ```
 curl -X 'GET' \
-'https://api.tink.com/enrichment/v1/predicted-recurring-transactions?groupIdIn={arrayOfIds}&predictionSpanDays={numberOfDays}&pageToken={pageToken}&pageSize={pageSize}' \
+'[external url removed]' \
   -H 'Authorization: Bearer '\
   -H 'accept: application/json'
 ```

@@ -3,7 +3,7 @@ title: "Variable Recurring Payments SDK reference"
 source: "/Tiny-doc/tink_docs_home/resources/payments/variable-recurring-payments-sdk-reference/"
 exportedAt: "2026-01-13T12:57:22.304Z"
 ---
-`https://link.tink.com/1.0/pay/vrp-mandate`
+`[external url removed]
 
 ### URL parameters[](#url-parameters)
 
@@ -11,10 +11,10 @@ Use these parameters when building the SDK URL. Integrate the URL into your webs
 
 | Parameter | Required | Description |
 | --- | --- | --- |
-| client\_id | Required | Your client ID (retrieved from [Tink Console](https://console.tink.com/)). |
+| client\_id | Required | Your client ID (retrieved from Tink Console). |
 | consent\_id | Required | Your generated Consent ID. |
 | authorization\_code | Required | Your generated authorization code from the [delegated authorization](/Tiny-doc/tink_docs_api/api/#general/oauth/create-delegated-authorization). |
-| redirect\_uri | Required | The page the end-user is redirected to after completing the flow together with the response parameters (configured in [Tink Console](https://console.tink.com/)). |
+| redirect\_uri | Required | The page the end-user is redirected to after completing the flow together with the response parameters (configured in Tink Console). |
 | locale | Optional (default `en_US`) | Locale to be used for end-user facing text. See below for an available list of locales. |
 | app\_uri | Optional | Should be used if Tink Link is embedded inside an Android/iOS app. Will use the deep link specified to redirect the user back to the hosting app after authenticating in a third-party app (such as Mobile Bank ID). |
 | state | Optional | Optional, but highly recommended parameter that's useful in preventing Cross-site Request Forgery (CSRF) attacks. The application provides a randomised state value to Tink Link at initiation, and that value will be sent back verbatim to the callback URL after a successful grant. The application can then verify the returned value to make sure the request came from the application itself. |
@@ -23,7 +23,7 @@ Use these parameters when building the SDK URL. Integrate the URL into your webs
 **Example URL**
 
 ```
-https://link.tink.com/1.0/pay/vrp-mandate?client_id={YOUR_CLIENT_ID}&consent_id={YOUR_CONSENT_ID}&authorization_code={YOUR_AUTHORIZATION_CODE}&redirect_uri=http://localhost:3000/callback
+[external url removed]
 ```
 
 #### Response parameters (success)[](#response-parameters-success-)
@@ -38,7 +38,7 @@ The success response details are delivered to the specified `redirect_uri`.
 ##### Redirect[](#redirect)
 
 ```
-http://localhost:3000/callback?consent_id=6915ab99857fec1e6f2f6c078
+[external url removed]
 ```
 
 #### Response parameters (failure)[](#response-parameters-failure-)
@@ -53,7 +53,7 @@ http://localhost:3000/callback?consent_id=6915ab99857fec1e6f2f6c078
 The failure response details are delivered to the specified `redirect_uri`.
 
 ```
-http://localhost:3000/callback?error=INTERNAL_ERROR&message=Something%20went%20wrong%2E&consentId=9d547e5b7b1442658878843539a32148
+[external url removed]
 ```
 
 ```

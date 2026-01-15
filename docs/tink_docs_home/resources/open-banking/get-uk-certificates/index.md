@@ -3,15 +3,15 @@ title: "Get UK certificates - Tink Docs"
 source: "/Tiny-doc/tink_docs_home/resources/open-banking/get-uk-certificates/"
 exportedAt: "2026-01-13T12:54:57.057Z"
 ---
-In the UK, the [Open Banking Implementation Entity (OBIE)](https://directory.openbanking.org.uk/s/login/) serves as a trust anchor, ensuring the authenticity of both banks and application providers. For a TPP to access PSD2 APIs, they must be enrolled in the OBIE directory.
+In the UK, the Open Banking Implementation Entity (OBIE) serves as a trust anchor, ensuring the authenticity of both banks and application providers. For a TPP to access PSD2 APIs, they must be enrolled in the OBIE directory.
 
 ## Enrol with OBIE[](#enrol-with-obie)
 
-To start the enrolment process with OBIE, an authorised representative from your organisation, usually the primary business contact, must first complete identity verification. The representative should visit the OBIE directory, initiate the enrolment, and fill out the sign-up form. For detailed information about enrolment, see [OBIE’s Enrolling Onto Open Banking Guide](https://www.openbanking.org.uk/wp-content/uploads/Enrolling-Onto-Open-Banking-Guide.pdf).
+To start the enrolment process with OBIE, an authorised representative from your organisation, usually the primary business contact, must first complete identity verification. The representative should visit the OBIE directory, initiate the enrolment, and fill out the sign-up form. For detailed information about enrolment, see OBIE’s Enrolling Onto Open Banking Guide.
 
 ### 1\. Generate the CSR files[](#generate-the-csr-files)
 
-For a step-by-step guide on generating CSR files and managing them within the OBIE Directory, see "Generate and manage Transport and Signing Certificates for Open Banking ETSI Certificates" in the [official UK Open Banking documentation](https://openbanking.atlassian.net/wiki/spaces/DZ/pages/3242196993/Open+Banking+Directory+Usage+-+eIDAS+release+Production+-+v2.5#OpenBankingDirectoryUsage-eIDASrelease\(Production\)-v2.5-9.GenerateandmanageTransportandSigningCertificatesforOpenBankingETSIcertificates\(OBWACandOBSeal\)).
+For a step-by-step guide on generating CSR files and managing them within the OBIE Directory, see "Generate and manage Transport and Signing Certificates for Open Banking ETSI Certificates" in the official UK Open Banking documentation-v2.5-9.GenerateandmanageTransportandSigningCertificatesforOpenBankingETSIcertificates\(OBWACandOBSeal\)).
 
 ### 2\. Upload the CSR to the OBIE directory[](#upload-the-csr-to-the-obie-directory)
 

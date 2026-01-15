@@ -34,7 +34,7 @@ The following example shows how to use your `client_id` and `client_secret` to f
 Fetch your client access token
 
 ```
-curl -v -X POST https://api.tink.com/api/v1/oauth/token \
+curl -v -X POST [external url removed] \
 -d 'client_id=' \
 -d 'client_secret=' \
 -d 'grant_type=client_credentials' \
@@ -67,7 +67,7 @@ In this example, we create a new user with `user_123_abc` as the `external_user_
 Create a new user
 
 ```
-curl -v -X POST https://api.tink.com/api/v1/user/create \
+curl -v -X POST [external url removed] \
 -H 'Authorization: Bearer ' \
 -H 'Content-Type: application/json' \
 -d '
@@ -101,7 +101,7 @@ The request example generates a new authorization code specifically for your app
 Generate an authorization code
 
 ```
-curl -v -X POST https://api.tink.com/api/v1/oauth/token \
+curl -v -X POST [external url removed] \
 -d 'client_id=' \
 -d 'client_secret=' \
 -d 'grant_type=client_credentials' \
@@ -132,7 +132,7 @@ In this example, user access is granted.
 Grant user access
 
 ```
-curl -v -X POST https://api.tink.com/api/v1/oauth/authorization-grant/delegate \
+curl -v -X POST [external url removed] \
 -H 'Authorization: Bearer ' \
 -d 'actor_client_id=df05e4b379934cd09963197cc855bfe9' \
 -d 'user_id=' \
@@ -156,7 +156,7 @@ A Tink URL consists of different parameters and is used to allow users to authen
 Let's define some parameters that you can append to your URL.
 
 -   `authorization_code={USER_AUTHORIZATION_CODE}` is used to identify a user in the Tink flow. This value was generated at the end of section 2.
--   `client_id={YOUR_CLIENT_ID}` is the unique ID for your app, which is found in \[**your\_app**\] > **App settings** > **[API client](https://console.tink.com/app-settings/client)**.
+-   `client_id={YOUR_CLIENT_ID}` is the unique ID for your app, which is found in \[**your\_app**\] > **App settings** > **API client**.
 -   `locale={LOCALE}` is the language to use for user-facing text.
 -   `market={MARKET_CODE}` is the country for which a user is allowed to connect accounts.
 -   `redirect_uri={REDIRECT_URI}` is a URI that the end user is redirected to after they have completed the Tink flow, together with response parameters.
@@ -165,12 +165,12 @@ Let's define some parameters that you can append to your URL.
 Tink URL example
 
 ```
-https://link.tink.com/1.0/transactions/connect-accounts?client_id=&state=&redirect_uri=https://console.tink.com/callback&authorization_code=&market=GB&locale=en_US
+[external url removed]
 ```
 
-When your users access the URL, they'll see a list of demo banks. Once they choose a bank, they'll see a list of demo bank accounts to choose from. Find demo-user credentials in **Console** > **[Demo Bank](https://console.tink.com/demobank)**. Select the username and password for a Demo Bank user that suits your use case.
+When your users access the URL, they'll see a list of demo banks. Once they choose a bank, they'll see a list of demo bank accounts to choose from. Find demo-user credentials in **Console** > **Demo Bank**. Select the username and password for a Demo Bank user that suits your use case.
 
-![transactions-flow-example](https://images.ctfassets.net/tmqu5vj33f7w/3wWVoQiT8tq9Fpc8nPaETA/9bba00a95828824edfb81d969ccf5544/transactions-flow-example.gif)
+*Image removed: transactions-flow-example*
 
 When the Tink flow is completed, the end user is redirected to the redirect URL.
 
@@ -185,7 +185,7 @@ If you don't include the `state` parameter in your Tink URL, it won’t be inclu
 **Example callback URL**
 
 ```
-https://console.tink.com/callback?client_id=&df05e4b379934cd09963197cc855bfe8&credentials_id=e5331af8d98f4c58800960202b6ec50d&state={OPTIONAL_STATE_CODE_THAT_YOU_SPECIFIED}&redirect_uri=https://console.tink.com/callback
+[external url removed]
 ```
 
 ## 4\. Fetch user data[](#fetch-user-data)
@@ -203,7 +203,7 @@ Get a `user access token` (not to be confused with `client access token`). This 
 Generate authorization code
 
 ```
-curl -X POST https://api.tink.com/api/v1/oauth/authorization-grant \
+curl -X POST [external url removed] \
 -H 'Authorization: Bearer ' \
 -d 'user_id=' \
 -d 'external_user_id=' \
@@ -223,7 +223,7 @@ Once you've obtained the `authorization_code` you can exchange it for a `user ac
 Get a user access token
 
 ```
-curl -v -X POST https://api.tink.com/api/v1/oauth/token \
+curl -v -X POST [external url removed] \
 -d 'code=' \
 -d 'client_id=' \
 -d 'client_secret=' \

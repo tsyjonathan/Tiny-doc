@@ -3,7 +3,7 @@ title: "Customization for Money Manager on Android"
 source: "/Tiny-doc/tink_docs_home/resources/money-manager-android/pfm-sdk-android-customization/"
 exportedAt: "2026-01-13T12:59:13.362Z"
 ---
-![Customization of Money Manager SDK for Android](https://images.ctfassets.net/tmqu5vj33f7w/17P2wvmXsxV7aSlErdbJ0T/261931095a52922e43fa40bb2660c3c3/customization.png)
+*Image removed: Customization of Money Manager SDK for Android*
 
 ## Overview[](#overview)
 
@@ -25,7 +25,7 @@ The Money Manager SDK for Android offers multiple ways of customization. You can
 
 You can add custom font resources in your application's `styles.xml` for three font typefaces which are represented by the custom attributes - `tink_font_bold`, `tink_font_semi_bold` and `tink_font_regular`. Set these custom attributes to the resource IDs of the font files you want to use.
 
-![Fonts](https://images.ctfassets.net/tmqu5vj33f7w/2a0b4UVbonjl6gPSIOVGsh/36476e25cbc91ebe986a77cfdd2a234e/Fonts.png)
+*Image removed: Fonts*
 
 ```
 <resources>
@@ -39,7 +39,7 @@ You can add custom font resources in your application's `styles.xml` for three f
 
 You can customize colors by extending the existing `TinkMoneyManagerStyle` from the SDK and overriding the custom attributes that are available.
 
-![Colors](https://images.ctfassets.net/tmqu5vj33f7w/4cZiAvLIDA8WIC5bShs4aA/5c59d04259720e4d8737c19be3e720c0/Color.png)
+*Image removed: Colors*
 
 Add your extended style in your application's `styles.xml`.
 
@@ -128,7 +128,7 @@ You can also customize only a specific feature if you wish. Customizing a specif
 
 You can customize icons by extending the existing `TinkMoneyManagerStyle` from the SDK and overriding the icon resource attributes that are available.
 
-![Icons](https://images.ctfassets.net/tmqu5vj33f7w/PQDPdn1IIkqUFPWMpfXZ1/dd368dd41f4bd657c44729b5dbb567f0/Icons.png)
+*Image removed: Icons*
 
 Add your extended style in your application's `styles.xml`.
 
@@ -165,7 +165,7 @@ Add your extended style in your application's `styles.xml`.
 </style>
 ```
 
-By default, the SDK uses [material icons](https://material.io/resources/icons/?style=baseline). It is recommended to take a look at the [material icon design principles](https://material.io/design/iconography/system-icons.html#design-principles) before adding your custom icons. Here's a list of all the icon resource attributes in the SDK that can be overridden:
+By default, the SDK uses material icons. It is recommended to take a look at the material icon design principles before adding your custom icons. Here's a list of all the icon resource attributes in the SDK that can be overridden:
 
 | Icon Resource ID | Description |
 | --- | --- |
@@ -200,11 +200,11 @@ By default, the SDK uses [material icons](https://material.io/resources/icons/?s
 
 ### Customize icon background shapes[](#customize-icon-background-shapes)
 
-Money Manager SDK uses [ShapeableImageView](https://developer.android.com/reference/com/google/android/material/imageview/ShapeableImageView) for displaying icons with shape styling for backgrounds.
+Money Manager SDK uses ShapeableImageView for displaying icons with shape styling for backgrounds.
 
 You can customize the icon background shapes by extending the existing `TinkMoneyManagerStyle` from the SDK and overriding the shape style resource attributes that are available.
 
-1.  Add dependency on the Material Components library. You can follow the [material components getting started guide](https://material.io/develop/android/docs/getting-started) for more information to set it up.
+1.  Add dependency on the Material Components library. You can follow the material components getting started guide for more information to set it up.
 
 ```
 dependencies {
@@ -229,7 +229,7 @@ dependencies {
 </resources>
 ```
 
-It is recommended to take a look at how material shaping works [as shown here](https://material.io/develop/android/theming/shape) before adding your custom styles.
+It is recommended to take a look at how material shaping works as shown here before adding your custom styles.
 
 By default, the SDK uses the shape style that inherits from `ShapeAppearance.MaterialComponents.MediumComponent`.
 
@@ -257,7 +257,7 @@ Shape style resource attributes in the SDK that can be overridden:
 
 You can customize the buttons shown in the finance overview UI by extending the existing `TinkMoneyManagerStyle` from the SDK and overriding the button style resource attributes that are available.
 
-![Buttons](https://images.ctfassets.net/tmqu5vj33f7w/5r1L5o2Lad7MTf38z7HYYa/afc9603fafb0b7e9037fca3d3b3e269f/Buttons.png)
+*Image removed: Buttons*
 
 Add your extended style in your application's `styles.xml`.
 
@@ -274,7 +274,7 @@ Add your extended style in your application's `styles.xml`.
 </resources>
 ```
 
-By default, the SDK uses [material buttons](https://material.io/components/buttons). It is recommended to take a look at the material button styles [as shown here](https://material.io/develop/android/components/buttons) before adding your custom styles.
+By default, the SDK uses material buttons. It is recommended to take a look at the material button styles as shown here before adding your custom styles.
 
 You can also override from the default Tink button styles:
 
@@ -303,7 +303,7 @@ Button style resource attributes in the SDK that can be overridden:
 
 You can customize the format of dates shown in the finance overview UI by overriding the date formatter string resources that are publicly available in the SDK.
 
-![Date format](https://images.ctfassets.net/tmqu5vj33f7w/6uAmb2car3NqdzB1uGRt1Z/f872421cee971d243bab133a7f560f6f/Date_format.png)
+*Image removed: Date format*
 
 Override the date formatter string resource values in your application's `res/values/strings.xml`
 
@@ -340,7 +340,7 @@ Date formatter string resources in the SDK that can be overridden:
 
 You can customize the color and alpha value (for disabled state) of the period picker arrow icons shown in the finance overview UI by overriding the style resource attributes that are available.
 
-![Period picker](https://images.ctfassets.net/tmqu5vj33f7w/2zo1HFvPVpGEx2QX1kFxch/d7dc26249943dba738e743c9d5c9fa83/Period_picker.png)
+*Image removed: Period picker*
 
 Add your extended `TinkPeriodPickerButtonStyle` style in your application's `styles.xml`.
 
@@ -361,7 +361,7 @@ Add your extended `TinkPeriodPickerButtonStyle` style in your application's `sty
 
 You can modify the appearance of checkboxes shown in the finance overview UI by setting a custom corner radius value. This can be done by extending the existing `TinkMoneyManagerStyle` from the SDK and overriding the checkbox corner radius dimension resource attribute that is available.
 
-![Checkbox corner radius](https://images.ctfassets.net/tmqu5vj33f7w/10X9i4sB98YbnkGefkyHcr/1cf0d411d9d2e6dd34dc798db321decf/Checkbox_corner_radius.png)
+*Image removed: Checkbox corner radius*
 
 Add your extended style in your application's `styles.xml`.
 
@@ -393,7 +393,7 @@ Add your extended style in your application's `styles.xml`.
 
 You can customize the appearance of transaction date group text in the finance overview UI by overriding the text appearance attribute that is publicly available in the SDK.
 
-![Transaction date group text appearance](https://images.ctfassets.net/tmqu5vj33f7w/35RUOk3mQlcwxbRS9467R9/2d830da2135b6471730ed9a7b73e3fd1/Transaction_date_group_text_appearance.png)
+*Image removed: Transaction date group text appearance*
 
 Add your extended `TinkDateGroupTextAppearance` style in your application's `styles.xml`.
 
@@ -415,7 +415,7 @@ Add your extended `TinkDateGroupTextAppearance` style in your application's `sty
 
 You can customize the appearance of text fields used in the finance overview UI by extending the `TinkTextInputLayoutStyle` and `TinkEditTextStyle` and overriding the style attributes that are available.
 
-![Text fields](https://images.ctfassets.net/tmqu5vj33f7w/Z5htUdUYzXyj0bZP0BL6c/3a29135cf9421a09d3bfc78812d6d997/Text_fields.png)
+*Image removed: Text fields*
 
 Add your extended styles in your application's `styles.xml`.
 
@@ -439,7 +439,7 @@ Add your extended styles in your application's `styles.xml`.
 
 You can customize the appearance of the date picker shown in the finance overview UI by extending the `TinkDatePickerStyle` and overriding the style attribute that is available.
 
-![Date pickers](https://images.ctfassets.net/tmqu5vj33f7w/3ozoAuhnzlLvF0WKa6fg05/107a8f4a324618157030d979f23c8480/Date_pickers.png)
+*Image removed: Date pickers*
 
 Add your extended styles in your application's `styles.xml`.
 
@@ -459,7 +459,7 @@ Add your extended styles in your application's `styles.xml`.
 
 You can customize the appearance of the alert dialogs shown in the finance overview UI by extending the `TinkMaterialAlertDialogStyle` and overriding the style attribute that is available. The `TinkMaterialAlertDialogStyle` extends from `ThemeOverlay.MaterialComponents.Dialog.Alert`.
 
-![Alert dialogs](https://images.ctfassets.net/tmqu5vj33f7w/3IvVNykCl1Hx2sEx3imEHF/fcb61e6cdf2b9748434e4e111bb812b1/Alert_dialogs.png)
+*Image removed: Alert dialogs*
 
 Add your extended styles in your application's `styles.xml`.
 

@@ -17,7 +17,7 @@ The user will need to select the account she wants to aggregate and provide it a
 -   If an account is opted in and then at a later time it is opted out, the account and all available data related to that accounts will be deleted.
 -   Subsequent credential refreshes will only refresh the data associated with the accounts that the user has opted in for.
 -   It is possible to perform a [credential refresh](/Tiny-doc/tink_docs_api/api/#connectivity/credentials/refresh-credentials) and initiate `Opt-In` flow again by using the [query parameter](/Tiny-doc/tink_docs_api/api/#connectivity/credentials/refresh-credentials/query-parameters) `optIn=true`.
--   `Opt-In` will be skipped in cases when there are no accounts to be fetched from that provider for the user. For testing such cases, you can use Tink's [Demo Bank](https://docs.preprod.oxford.tink.se/resources/aggregation/test-providers).
+-   `Opt-In` will be skipped in cases when there are no accounts to be fetched from that provider for the user. For testing such cases, you can use Tink's Demo Bank.
 -   `Opt-In` is currently not supported in Tink Link.
 
 ## Why use Opt-In:[](#why-use-opt-in-)
@@ -81,7 +81,7 @@ In this scenario, we want to give the user the ability to choose which accounts 
     Send supplemental information
     
     ```
-    curl --location --request POST https://api.tink.com/api/v1/credentials//supplemental-information \
+    curl --location --request POST [external url removed] \
     -H 'Authorization: Bearer ' \
     -H 'Content-Type: application/json' \
     -d '{"information": {"GB07ETWA87781001740799":"true"}}' \

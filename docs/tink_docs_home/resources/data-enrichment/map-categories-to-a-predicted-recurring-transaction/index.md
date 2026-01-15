@@ -16,7 +16,7 @@ The first step is to call the predicted recurring transactions endpoint with you
 
 ```
 curl -X 'GET' \
-'https://api.tink.com/enrichment/v1/predicted-recurring-transactions’ \
+'[external url removed] \
   -H 'Authorization: Bearer '\
   -H 'accept: application/json'
 ```
@@ -61,7 +61,7 @@ Next, you’ll call the list recurring transactions groups endpoint to get the u
 
 ```
 curl -X 'GET' \
-'https://api.tink.com/enrichment/v1/recurring-transactions-groups’ \
+'[external url removed] \
   -H 'Authorization: Bearer '\
   -H 'accept: application/json'
 ```
@@ -139,7 +139,7 @@ Next, you’ll call the list categories endpoint to get a list of all categories
 ```
 curl -X GET \
 -H 'Authorization: bearer ' \
-https://api.tink.com/enrichment/v1/categories?localeEq=en_US
+[external url removed]
 ```
 
 **Example response:**

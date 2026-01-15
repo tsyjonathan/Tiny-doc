@@ -14,7 +14,7 @@ Using your user access token, call the list enriched transactions endpoint:
 **Example request:**
 
 ```
-curl "https://api.tink.com/enrichment/v1/transactions" \ 
+curl "[external url removed]" \ 
 -H 'Authorization: Bearer '
 ```
 

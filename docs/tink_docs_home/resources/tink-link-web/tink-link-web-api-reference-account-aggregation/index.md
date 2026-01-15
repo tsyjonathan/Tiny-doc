@@ -7,20 +7,20 @@ You can get access to the Tink's products and APIs using Tink Link, which uses i
 
 From a high level, this is how Tink Link for web works:
 
-1.  You direct the end user to the respective `https://link.tink.com/...` flow
+1.  You direct the end user to the respective `[external url removed] flow
 2.  The end user completes the Tink Link flow by choosing a bank, consenting and authenticating
 3.  The end user is taken back to your application's `redirect_uri` with the result of the operation
 
 ## Snapshot aggregation[](#snapshot-aggregation)
 
-`https://link.tink.com/1.0/authorize`
+`[external url removed]
 
 #### Authorize: Request parameters[](#authorize-request-parameters)
 
 | Parameter | Required | Description |
 | --- | --- | --- |
-| `client_id` | Required | Your client ID (retrieved from [Console](https://console.tink.com/)). |
-| `redirect_uri` | Required | The page the end-user is redirected to after completing the flow together with the response parameters (configured in [Console](https://console.tink.com/)). |
+| `client_id` | Required | Your client ID (retrieved from Console). |
+| `redirect_uri` | Required | The page the end-user is redirected to after completing the flow together with the response parameters (configured in Console). |
 | scope | Optional | A comma separated list of OAuth scopes (eg. `accounts:read,transactions:read`). By default, the ACCOUNTS, EINVOICES, and TRANSFER\_DESTINATIONS refreshable items will be included. In addition, you can also include TRANSACTIONAL\_ACCOUNTS\_AND\_TRANSACTIONS and IDENTITY\_DATA by specifying `transactions:read` and `identity:read` respectively. |
 | `market` | Optional (default `SE`) | The market code for the country Tink should list providers for. See [supported markets](#supported-markets). |
 | `locale` | Optional (default `en_US`) | The locale used for UI text. See [supported locales](#supported-locales). |
@@ -28,14 +28,14 @@ From a high level, this is how Tink Link for web works:
 | `session_id` | Optional | Used to securely configure Tink Link, prefill data or apply merchant customization. See [sessions](/Tiny-doc/tink_docs_api/api/#general/tink-link/session). |
 | `input_username` | Optional | Prefills the username field for supported providers. Useful when the username is a personal identifier that could be valid for multiple banks, such as a social security number. |
 | `input_provider` | Optional | The unique name of the provider (ex: `sbab-bankid`). If provided, user can skip provider selection. Otherwise, they will choose the provider from a list in the Tink UI. If `input_provider` is invalid, Tink will throw an error. Make sure you have the right provider name by using the [List Providers endpoint](/Tiny-doc/tink_docs_api/api-connectivity-v1/#connectivity-v1/provider/list-providers). |
-| `iframe` | Optional (default `false`) | Should be used if Tink Link is embedded inside an iframe. If the parameter is set to `true`, the redirect with the authentication `code` will be replaced by a `postMessage` to the parent. Note that iframe embedding can be made available after verifying your developer account. For more information, contact [Support](https://support.tink.com/). `redirect_uri` is used for validating the hosting page. |
+| `iframe` | Optional (default `false`) | Should be used if Tink Link is embedded inside an iframe. If the parameter is set to `true`, the redirect with the authentication `code` will be replaced by a `postMessage` to the parent. Note that iframe embedding can be made available after verifying your developer account. For more information, contact Support. `redirect_uri` is used for validating the hosting page. |
 | `app_uri` | Optional | The deep link for an Android or iOS hosting app. Use when Tink Link is embedded in an [Android](/Tiny-doc/tink_docs_home/resources/payments/one-time-payments/integrate-one-time-payments-in-android-apps/)/[iOS](/Tiny-doc/tink_docs_home/resources/payments/one-time-payments/integrate-one-time-payments-in-ios-apps/) app to redirect the user back to the hosting app after authenticating in a third-party app (such as Mobile Bank ID). |
 | `theme` | Optional | Specifying `LIGHT` or `DARK` overrides the user’s system preference and displays the specified theme. Requires both themes to be configured to have any effect. Reach out to [support](/Tiny-doc/tink_docs_home/resources/support/) to enable dark theme. |
 
 The resulting Tink Link URL with the request parameters:
 
 ```
-https://link.tink.com/1.0/authorize?client_id={YOUR_CLIENT_ID}&redirect_uri=http://localhost:3000/callback&market=GB&locale=en_GB&scope=accounts:read,transactions:read
+[external url removed]
 ```
 
 #### Authorize: Response parameters (success)[](#authorize-response-parameters-success-)
@@ -49,7 +49,7 @@ https://link.tink.com/1.0/authorize?client_id={YOUR_CLIENT_ID}&redirect_uri=http
 The result is delivered to the specified `redirect_uri` with the success response parameters:
 
 ```
-http://localhost:3000/callback?code=6915ab99857fec1e6f2f6c078&credentials_id=b189db88c1dc4ac3a95f4308527e6362
+[external url removed]
 ```
 
 #### Authorize: Response parameters (failure)[](#authorize-response-parameters-failure-)
@@ -62,7 +62,7 @@ http://localhost:3000/callback?code=6915ab99857fec1e6f2f6c078&credentials_id=b18
 | `credentials` | If credentials were provided | The identifier of the created credentials. |
 
 ```
-http://localhost:3000/callback?error=INTERNAL_ERROR&message=Something%20went%20wrong%2E&credentials=9d547e5b7b1442658878843539a32148
+[external url removed]
 ```
 
 ```
@@ -80,14 +80,14 @@ http://localhost:3000/callback?error=INTERNAL_ERROR&message=Something%20went%20w
 
 ### Add credentials[](#add-credentials)
 
-`https://link.tink.com/1.0/credentials/add`
+`[external url removed]
 
 #### Add credentials: Request parameters[](#add-credentials-request-parameters)
 
 | Parameter | Required | Description |
 | --- | --- | --- |
-| `client_id` | Required | Your client ID (retrieved from [Console](https://console.tink.com/)). |
-| `redirect_uri` | Required | The page the end-user is redirected to after completing the flow together with the response parameters (configured in [Console](https://console.tink.com/)). |
+| `client_id` | Required | Your client ID (retrieved from Console). |
+| `redirect_uri` | Required | The page the end-user is redirected to after completing the flow together with the response parameters (configured in Console). |
 | `authorization_code` | Required | The created `USER_AUTHORIZATION_CODE` (see [generating a user authorization code](/Tiny-doc/tink_docs_home/resources/tink-link-web/tink-link-web-permanent-users/#generate-a-user-authorization-code)). |
 | scope | Optional | A comma separated list of OAuth scopes (eg. `accounts:read,transactions:read`). By default, the ACCOUNTS, EINVOICES, and TRANSFER\_DESTINATIONS refreshable items will be included. In addition, you can also include TRANSACTIONAL\_ACCOUNTS\_AND\_TRANSACTIONS and IDENTITY\_DATA by specifying `transactions:read` and `identity:read` respectively. |
 | `market` | Optional (default `SE`) | The market code for the country Tink should list providers for. See [supported markets](#supported-markets). |
@@ -96,14 +96,14 @@ http://localhost:3000/callback?error=INTERNAL_ERROR&message=Something%20went%20w
 | `session_id` | Optional | Used to securely configure Tink Link, prefill data or apply merchant customization. See [sessions](/Tiny-doc/tink_docs_api/api/#general/tink-link/session). |
 | `input_username` | Optional | Prefills the username field for supported providers. Useful when the username is a personal identifier that could be valid for multiple banks, such as a social security number. |
 | `input_provider` | Optional | The unique name of the provider (ex: `sbab-bankid`). If provided, user can skip provider selection. Otherwise, they will choose the provider from a list in the Tink UI. If `input_provider` is invalid, Tink will throw an error. Make sure you have the right provider name by using the [List Providers endpoint](/Tiny-doc/tink_docs_api/api-connectivity-v1/#connectivity-v1/provider/list-providers). |
-| `iframe` | Optional (default `false`) | Should be used if Tink Link is embedded inside an iframe. If the parameter is set to `true`, the redirect with the authentication `code` will be replaced by a `postMessage` to the parent. Note that iframe embedding can be made available after verifying your developer account. For more information, contact [Support](https://support.tink.com/). `redirect_uri` is used for validating the hosting page. |
+| `iframe` | Optional (default `false`) | Should be used if Tink Link is embedded inside an iframe. If the parameter is set to `true`, the redirect with the authentication `code` will be replaced by a `postMessage` to the parent. Note that iframe embedding can be made available after verifying your developer account. For more information, contact Support. `redirect_uri` is used for validating the hosting page. |
 | `app_uri` | Optional | The deep link for an Android or iOS hosting app. Use when Tink Link is embedded in an [Android](/Tiny-doc/tink_docs_home/resources/payments/one-time-payments/integrate-one-time-payments-in-android-apps/)/[iOS](/Tiny-doc/tink_docs_home/resources/payments/one-time-payments/integrate-one-time-payments-in-ios-apps/) app to redirect the user back to the hosting app after authenticating in a third-party app (such as Mobile Bank ID). |
 | `theme` | Optional | Specifying `LIGHT` or `DARK` overrides the user’s system preference and displays the specified theme. Requires both themes to be configured to have any effect. Reach out to [support](/Tiny-doc/tink_docs_home/resources/support/) to enable dark theme. |
 
 The resulting Tink Link URL with the request parameters:
 
 ```
-https://link.tink.com/1.0/credentials/add?client_id={YOUR_CLIENT_ID}&redirect_uri=http://localhost:3000/callback&authorization_code={USER_AUTHORIZATION_CODE}&scope=accounts:read,transactions:read
+[external url removed]
 ```
 
 #### Add credentials: Response parameters (success)[](#add-credentials-response-parameters-success-)
@@ -116,7 +116,7 @@ https://link.tink.com/1.0/credentials/add?client_id={YOUR_CLIENT_ID}&redirect_ur
 The result is delivered to the specified `redirect_uri` with the success response parameters:
 
 ```
-http://localhost:3000/callback?credentials_id=6915ab99857fec1e6f2f6c078
+[external url removed]
 ```
 
 #### Add credentials: Response parameters (failure)[](#add-credentials-response-parameters-failure-)
@@ -129,7 +129,7 @@ http://localhost:3000/callback?credentials_id=6915ab99857fec1e6f2f6c078
 | `credentials` | If credentials were provided | The identifier of the created credentials. |
 
 ```
-http://localhost:3000/callback?error=INTERNAL_ERROR&message=Something%20went%20wrong%2E&credentials=9d547e5b7b1442658878843539a32148
+[external url removed]
 ```
 
 ```
@@ -145,19 +145,19 @@ http://localhost:3000/callback?error=INTERNAL_ERROR&message=Something%20went%20w
 
 ### Refresh credentials[](#refresh-credentials)
 
-`https://link.tink.com/1.0/credentials/refresh`
+`[external url removed]
 
 #### Refresh credentials: Request parameters[](#refresh-credentials-request-parameters)
 
 | Parameter | Required | Description |
 | --- | --- | --- |
-| `client_id` | Required | Your client ID (retrieved from [Console](https://console.tink.com/)). |
-| `redirect_uri` | Required | The page the end-user is redirected to after completing the flow together with the response parameters (configured in [Console](https://console.tink.com/)). |
+| `client_id` | Required | Your client ID (retrieved from Console). |
+| `redirect_uri` | Required | The page the end-user is redirected to after completing the flow together with the response parameters (configured in Console). |
 | `authorization_code` | Required | The created `USER_AUTHORIZATION_CODE` (see [generating a user authorization code](/Tiny-doc/tink_docs_home/resources/tink-link-web/tink-link-web-permanent-users/#generate-a-user-authorization-code)). |
 | credentials\_id | Required | The identifier of the credentials to refresh. |
 | authenticate | Optional (default `false`) | If set to true, the user will be requested to perform a full authentication flow to renew refresh tokens with ASPSPs. |
 | `state` | Optional, but recommended | Helps defend against Cross-Site Request Forgery (CSRF) attacks. To use `state`, provide a randomized `state` value when initiating the SDK. Tink will return this value in the callback after a successful grant. You can then compare this value to the value in your request to ensure it came from your app. |
-| `iframe` | Optional (default `false`) | Should be used if Tink Link is embedded inside an iframe. If the parameter is set to `true`, the redirect with the authentication `code` will be replaced by a `postMessage` to the parent. Note that iframe embedding can be made available after verifying your developer account. For more information, contact [Support](https://support.tink.com/). `redirect_uri` is used for validating the hosting page. |
+| `iframe` | Optional (default `false`) | Should be used if Tink Link is embedded inside an iframe. If the parameter is set to `true`, the redirect with the authentication `code` will be replaced by a `postMessage` to the parent. Note that iframe embedding can be made available after verifying your developer account. For more information, contact Support. `redirect_uri` is used for validating the hosting page. |
 | `app_uri` | Optional | The deep link for an Android or iOS hosting app. Use when Tink Link is embedded in an [Android](/Tiny-doc/tink_docs_home/resources/payments/one-time-payments/integrate-one-time-payments-in-android-apps/)/[iOS](/Tiny-doc/tink_docs_home/resources/payments/one-time-payments/integrate-one-time-payments-in-ios-apps/) app to redirect the user back to the hosting app after authenticating in a third-party app (such as Mobile Bank ID). |
 | `theme` | Optional | Specifying `LIGHT` or `DARK` overrides the user’s system preference and displays the specified theme. Requires both themes to be configured to have any effect. Reach out to [support](/Tiny-doc/tink_docs_home/resources/support/) to enable dark theme. |
 
@@ -171,7 +171,7 @@ http://localhost:3000/callback?error=INTERNAL_ERROR&message=Something%20went%20w
 The result is delivered to the specified `redirect_uri` with the success response parameters:
 
 ```
-http://localhost:3000/callback?credentials_id=6915ab99857fec1e6f2f6c078
+[external url removed]
 ```
 
 #### Refresh credentials: Response parameters (failure)[](#refresh-credentials-response-parameters-failure-)
@@ -184,7 +184,7 @@ http://localhost:3000/callback?credentials_id=6915ab99857fec1e6f2f6c078
 | `credentials` | Always | The identifier of the credentials. |
 
 ```
-http://localhost:3000/callback?error=INTERNAL_ERROR&message=Something%20went%20wrong%2E&credentials=9d547e5b7b1442658878843539a32148
+[external url removed]
 ```
 
 ```
@@ -200,18 +200,18 @@ http://localhost:3000/callback?error=INTERNAL_ERROR&message=Something%20went%20w
 
 ### Authenticate credentials[](#authenticate-credentials)
 
-`https://link.tink.com/1.0/credentials/authenticate`
+`[external url removed]
 
 #### Authenticate credentials: Request parameters[](#authenticate-credentials-request-parameters)
 
 | Parameter | Required | Description |
 | --- | --- | --- |
-| `client_id` | Required | Your client ID (retrieved from [Console](https://console.tink.com/)). |
-| `redirect_uri` | Required | The page the end-user is redirected to after completing the flow together with the response parameters (configured in [Console](https://console.tink.com/)). |
+| `client_id` | Required | Your client ID (retrieved from Console). |
+| `redirect_uri` | Required | The page the end-user is redirected to after completing the flow together with the response parameters (configured in Console). |
 | `authorization_code` | Required | The created `USER_AUTHORIZATION_CODE` (see [generating a user authorization code](/Tiny-doc/tink_docs_home/resources/tink-link-web/tink-link-web-permanent-users/#generate-a-user-authorization-code)). |
 | credentials\_id | Required | The identifier of the credentials to refresh. |
 | `state` | Optional, but recommended | Helps defend against Cross-Site Request Forgery (CSRF) attacks. To use `state`, provide a randomized `state` value when initiating the SDK. Tink will return this value in the callback after a successful grant. You can then compare this value to the value in your request to ensure it came from your app. |
-| `iframe` | Optional (default `false`) | Should be used if Tink Link is embedded inside an iframe. If the parameter is set to `true`, the redirect with the authentication `code` will be replaced by a `postMessage` to the parent. Note that iframe embedding can be made available after verifying your developer account. For more information, contact [Support](https://support.tink.com/). `redirect_uri` is used for validating the hosting page. |
+| `iframe` | Optional (default `false`) | Should be used if Tink Link is embedded inside an iframe. If the parameter is set to `true`, the redirect with the authentication `code` will be replaced by a `postMessage` to the parent. Note that iframe embedding can be made available after verifying your developer account. For more information, contact Support. `redirect_uri` is used for validating the hosting page. |
 | `app_uri` | Optional | The deep link for an Android or iOS hosting app. Use when Tink Link is embedded in an [Android](/Tiny-doc/tink_docs_home/resources/payments/one-time-payments/integrate-one-time-payments-in-android-apps/)/[iOS](/Tiny-doc/tink_docs_home/resources/payments/one-time-payments/integrate-one-time-payments-in-ios-apps/) app to redirect the user back to the hosting app after authenticating in a third-party app (such as Mobile Bank ID). |
 | `theme` | Optional | Specifying `LIGHT` or `DARK` overrides the user’s system preference and displays the specified theme. Requires both themes to be configured to have any effect. Reach out to [support](/Tiny-doc/tink_docs_home/resources/support/) to enable dark theme. |
 
@@ -225,7 +225,7 @@ http://localhost:3000/callback?error=INTERNAL_ERROR&message=Something%20went%20w
 The result is delivered to the specified `redirect_uri` with the success response parameters:
 
 ```
-http://localhost:3000/callback?credentials_id=6915ab99857fec1e6f2f6c078
+[external url removed]
 ```
 
 #### Authenticate credentials: Response parameters (failure)[](#authenticate-credentials-response-parameters-failure-)
@@ -239,18 +239,18 @@ http://localhost:3000/callback?credentials_id=6915ab99857fec1e6f2f6c078
 
 ### Extend consent[](#extend-consent)
 
-`https://link.tink.com/1.0/credentials/extend-consent`
+`[external url removed]
 
 #### Extend consent: Request parameters[](#extend-consent-request-parameters)
 
 | Parameter | Required | Description |
 | --- | --- | --- |
-| `client_id` | Required | Your client ID (retrieved from [Console](https://console.tink.com/)). |
-| `redirect_uri` | Required | The page the end-user is redirected to after completing the flow together with the response parameters (configured in [Console](https://console.tink.com/)). |
+| `client_id` | Required | Your client ID (retrieved from Console). |
+| `redirect_uri` | Required | The page the end-user is redirected to after completing the flow together with the response parameters (configured in Console). |
 | `authorization_code` | Required | The created `USER_AUTHORIZATION_CODE` (see [generating a user authorization code](/Tiny-doc/tink_docs_home/resources/tink-link-web/tink-link-web-permanent-users/#generate-a-user-authorization-code)). |
 | credentials\_id | Required | The identifier of the credentials to extend consent for. |
 | `state` | Optional, but recommended | Helps defend against Cross-Site Request Forgery (CSRF) attacks. To use `state`, provide a randomized `state` value when initiating the SDK. Tink will return this value in the callback after a successful grant. You can then compare this value to the value in your request to ensure it came from your app. |
-| `iframe` | Optional (default `false`) | Should be used if Tink Link is embedded inside an iframe. If the parameter is set to `true`, the redirect with the authentication `code` will be replaced by a `postMessage` to the parent. Note that iframe embedding can be made available after verifying your developer account. For more information, contact [Support](https://support.tink.com/). `redirect_uri` is used for validating the hosting page. |
+| `iframe` | Optional (default `false`) | Should be used if Tink Link is embedded inside an iframe. If the parameter is set to `true`, the redirect with the authentication `code` will be replaced by a `postMessage` to the parent. Note that iframe embedding can be made available after verifying your developer account. For more information, contact Support. `redirect_uri` is used for validating the hosting page. |
 | `app_uri` | Optional | The deep link for an Android or iOS hosting app. Use when Tink Link is embedded in an [Android](/Tiny-doc/tink_docs_home/resources/payments/one-time-payments/integrate-one-time-payments-in-android-apps/)/[iOS](/Tiny-doc/tink_docs_home/resources/payments/one-time-payments/integrate-one-time-payments-in-ios-apps/) app to redirect the user back to the hosting app after authenticating in a third-party app (such as Mobile Bank ID). |
 | `theme` | Optional | Specifying `LIGHT` or `DARK` overrides the user’s system preference and displays the specified theme. Requires both themes to be configured to have any effect. Reach out to [support](/Tiny-doc/tink_docs_home/resources/support/) to enable dark theme. |
 
@@ -264,7 +264,7 @@ http://localhost:3000/callback?credentials_id=6915ab99857fec1e6f2f6c078
 The result is delivered to the specified `redirect_uri` with the success response parameters:
 
 ```
-http://localhost:3000/callback?credentials_id=6915ab99857fec1e6f2f6c078
+[external url removed]
 ```
 
 #### Extend consent: Response parameters (failure)[](#extend-consent-response-parameters-failure-)
@@ -277,7 +277,7 @@ http://localhost:3000/callback?credentials_id=6915ab99857fec1e6f2f6c078
 | `credentials` | Always | The identifier of the credentials. |
 
 ```
-http://localhost:3000/callback?error=INTERNAL_ERROR&message=Something%20went%20wrong%2E&credentials=9d547e5b7b1442658878843539a32148
+[external url removed]
 ```
 
 ```

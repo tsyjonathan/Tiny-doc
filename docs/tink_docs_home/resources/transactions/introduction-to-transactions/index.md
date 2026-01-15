@@ -3,7 +3,7 @@ title: "Introduction to Transactions - Tink Docs"
 source: "/Tiny-doc/tink_docs_home/resources/transactions/introduction-to-transactions/"
 exportedAt: "2026-01-13T12:41:26.103Z"
 ---
-![Transactions-intro](https://images.ctfassets.net/tmqu5vj33f7w/39ObJjvpYoQiRARWw4Ezqy/d25e47c658f9d3b12e87e05b892d61aa/Transactions-intro.jpg)
+*Image removed: Transactions-intro*
 
 Open banking enables companies to fetch transaction data from financial institutions. Fetching and handling transaction data from individuals poses different complex challenges:
 
@@ -18,13 +18,13 @@ Transactions handles these challenges.
 -   Fetched data is standardized. All transactions are structured the same way, which makes integration simple.
 -   We continuously monitor and update all of our 3,400+ connections with financial institutions to ensure that your back-end integrations work.
 
-![Transactions-data-cleaning](https://images.ctfassets.net/tmqu5vj33f7w/y2MgIkkWT7pFQXit6LewE/fc65452bb2e12b1dd578e71b184dc8aa/Transactions-data-cleaning.jpg)
+*Image removed: Transactions-data-cleaning*
 
 ## How it works[](#how-it-works)
 
 Use Tink Console (from where you manage your apps and find your API credentials) to create a URL that is provided to the end user. When your user selects their URL, they go through a flow where they authenticate with their bank and connect to their bank accounts. You are allowed to access all transactions from accounts for which the end user has given their consent.
 
-![transactions-flow-example](https://images.ctfassets.net/tmqu5vj33f7w/2T0Y84MaaHJj1rLPQFU59w/96803f2bdaf091c3226dd4ac33069243/transactions-flow-example.gif)
+*Image removed: transactions-flow-example*
 
 ## Data-type availability[](#data-type-availability)
 
@@ -41,7 +41,7 @@ Here's a list of data types that we offer.
 
 **Note**: Transactions is dependent on data availability. The data you can fetch depends on what the bank has made available.
 
-![Transactions-data-cleaning](https://images.ctfassets.net/tmqu5vj33f7w/y2MgIkkWT7pFQXit6LewE/fc65452bb2e12b1dd578e71b184dc8aa/Transactions-data-cleaning.jpg)
+*Image removed: Transactions-data-cleaning*
 
 ## Data-access models[](#data-access-models)
 

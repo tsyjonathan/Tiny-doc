@@ -10,7 +10,7 @@ Tink requires only a single authentication to fetch multiple data points from a 
 To combine multiple products, build an SDK URL for our product bundling journey and specify the products you wish to use.
 
 ```
-https://link.tink.com/1.0/products/connect-accounts
+[external url removed]
 ```
 
 This URL can include these parameters:
@@ -30,7 +30,7 @@ For a full list of parameters and options, see [Loans SDK reference](/Tiny-doc/t
 **Example URL**
 
 ```
-https://link.tink.com/1.0/products/connect-accounts?client_id={YOUR_CLIENT_ID}&redirect_uri=https://console.tink.com/callback&market=GB&products=TRANSACTIONS,INVESTMENTS,LOANS
+[external url removed]
 ```
 
 When the end user accesses the URL, they're requested to authenticate towards their bank.
@@ -48,7 +48,7 @@ When the end user completes the authentication journey, they're redirected to th
 **Example response**
 
 ```
-https://console.tink.com/callback?code=ff8ae53bc46e45fe9a37c4fd1353e60d 
+[external url removed] 
 ```
 
 ## 3\. Authenticate your client[](#authenticate-your-client)
@@ -60,7 +60,7 @@ To access the user's data, you need a valid user access token with specific scop
 Exchange your code for an access\_token
 
 ```
-curl -v -X POST https://api.tink.com/api/v1/oauth/token \
+curl -v -X POST [external url removed] \
   -d 'code=' \
   -d 'client_id=' \
   -d 'client_secret=' \
@@ -88,20 +88,20 @@ To retrieve the report, we need to call the API endpoints for the [respective pr
 Fetch Transactions data
 
 ```
-curl https://api.tink.com/data/v2/transactions \
+curl [external url removed] \
   -H 'Authorization: Bearer '
 ```
 
 Fetch Investments data
 
 ```
-curl https://api.tink.com/data/v2/investment-accounts \
+curl [external url removed] \
   -H 'Authorization: Bearer '
 ```
 
 Fetch Loans data
 
 ```
-curl https://api.tink.com/data/v2/loan-accounts \
+curl [external url removed] \
   -H 'Authorization: Bearer '
 ```

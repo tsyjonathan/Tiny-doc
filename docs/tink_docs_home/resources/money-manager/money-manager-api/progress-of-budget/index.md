@@ -12,7 +12,7 @@ Using the `id` of the budget you've previously set-up, you're going to call the 
 Example request:
 
 ```
-curl -X GET 'https://api.tink.com/api/v1/budgets//details?start=1549976786000&end=1552395986000' \
+curl -X GET '[external url removed]' \
 -H 'Authorization: Bearer '
 ```
 

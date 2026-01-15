@@ -50,7 +50,7 @@ Since this endpoint takes a list of partial transactions in the body, you can re
 Call the endpoint with the body constructed in step 1.
 
 ```
-curl -v -X PATCH "https://api.tink.com/enrichment/v1/transactions" \
+curl -v -X PATCH "[external url removed]" \
    -H 'Authorization: Bearer ' \
    -H 'Content-Type: application/json' \
    -d '[

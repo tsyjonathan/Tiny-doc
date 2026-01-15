@@ -27,7 +27,7 @@ If a bank connection does not have one SCA step as default behavior, you can sti
 
 When a source account is provided, the user skips the first AIS SCA step and goes straight to the payment initiation SCA step.
 
-![The flow is reduced to the consent screen, signing the payment, and a payment success screen when the source account is provided and the bank is pre-selected](https://images.ctfassets.net/tmqu5vj33f7w/5sZ3k571S0nTt45Ow2kONw/a566f30d9188ba17ca117fb294324592/Flow_optimization_-_source_account_provided.jpg) _Payments flow when the source account is provided and the bank is pre-selected._
+*Image removed: The flow is reduced to the consent screen, signing the payment, and a payment success screen when the source account is provided and the bank is pre-selected* _Payments flow when the source account is provided and the bank is pre-selected._
 
 To use this feature, send the user's source account through a [Tink Link session](/Tiny-doc/tink_docs_home/resources/payments/one-time-payments/one-time-payments-sdk-sessions/).
 
@@ -36,7 +36,7 @@ To use this feature, send the user's source account through a [Tink Link session
 **Example session request**
 
 ```
-curl -X POST https://api.tink.com/link/v1/session \
+curl -X POST [external url removed] \
 -H 'Authorization: Bearer ' \
 -H 'Content-Type: application/json' \
 -d '{ "source_account_number" : "iban://DE03500105177564668331"
@@ -75,15 +75,15 @@ There are two strategies for achieving a one SCA experience with permanent users
 
 With this strategy, you fetch consent during the [AIS + PIS journey](/Tiny-doc/tink_docs_home/resources/payments/one-time-payments/payments-flow-optimization-overview/).
 
-![Payment flow including bank selection and consent, aggregating the source account and approving consent, selecting the account, and payment signing](https://images.ctfassets.net/tmqu5vj33f7w/6b0veiKmKRyt5Av3HSzKX3/e6fc483b3204d19b657ec6d56f7da04c/AIS_PIS_flow_with_consent.jpg) _Payment flow for permanent users who don't have valid consent before starting the flow_
+*Image removed: Payment flow including bank selection and consent, aggregating the source account and approving consent, selecting the account, and payment signing* _Payment flow for permanent users who don't have valid consent before starting the flow_
 
-![Payment flow skipping AIS SCA, aggregation of source accounts, and account selection](https://images.ctfassets.net/tmqu5vj33f7w/5qp5PQk1CTNQHtO8oIvzxS/0172039e507c35bc08e451b7135022f4/Flow_overview_-_permanent_users_with_source_account_preselected.jpg) _Payment flow for returning permanent users who have valid consent with source account preselected._
+*Image removed: Payment flow skipping AIS SCA, aggregation of source accounts, and account selection* _Payment flow for returning permanent users who have valid consent with source account preselected._
 
 **Using Payments with Transactions continuous access**
 
 With this strategy, you trigger a standalone AIS while connecting source accounts as part of the [Transactions continuous access journey](/Tiny-doc/tink_docs_home/resources/transactions/continuous-connect-to-a-bank-account/).
 
-![Bank selection and consent, AIS, connecting source accounts and approving long-lived consent screens](https://images.ctfassets.net/tmqu5vj33f7w/3f0pIbekLs24iE1sMVZtTX/0abdab6cca38b151b4019e15a7a58231/Connect_source_account_and_collect_consent.png) _Connecting a user's source account and collecting consent_
+*Image removed: Bank selection and consent, AIS, connecting source accounts and approving long-lived consent screens* _Connecting a user's source account and collecting consent_
 
 For each strategy, you will create a permanent user and generate a user authorization code. Then, you’ll create a URL that is specific to the strategy you’re using.
 
@@ -98,7 +98,7 @@ When creating the [client access token](/Tiny-doc/tink_docs_home/resources/api-s
 **Example of creating a client access token**
 
 ```
-curl -X POST 'https://api.tink.com/api/v1/oauth/token' \
+curl -X POST '[external url removed]' \
 -H 'Content-Type: application/x-www-form-urlencoded' \
 -d 'client_id=' \
 -d 'client_secret=' \
@@ -111,7 +111,7 @@ When creating [delegated authorization](/Tiny-doc/tink_docs_api/api-general/#gen
 **Example of creating delegated authorization**
 
 ```
-curl -X POST 'https://api.tink.com/api/v1/oauth/authorization-grant/delegate' \
+curl -X POST '[external url removed]' \
 -H 'Authorization: Bearer ' \
 -H 'Content-Type: application/x-www-form-urlencoded' \
 -d 'user_id=' \
@@ -128,7 +128,7 @@ Build a Payments URL and append `authorization_code={USER_AUTHORIZATION_CODE}` a
 **Example Payments URL**
 
 ```
-https://link.tink.com/1.0/pay/direct?client_id=&redirect_uri=&market=&payment_request_id=&authorization_code=
+[external url removed]
 ```
 
 The success callback returns `&payment_request_id={YOUR_REQUEST_ID}`.
@@ -148,7 +148,7 @@ When creating the [client access token](/Tiny-doc/tink_docs_home/resources/api-s
 **Example of creating a client access token**
 
 ```
-curl -X POST 'https://api.tink.com/api/v1/oauth/token' \
+curl -X POST '[external url removed]' \
 -H 'Content-Type: application/x-www-form-urlencoded' \
 -d 'client_id=' \
 -d 'client_secret=' \
@@ -161,7 +161,7 @@ When creating \[delegated authorization\] to retrieve an authorization code, use
 **Example of creating delegated authorization**
 
 ```
-curl -X POST 'https://api.tink.com/api/v1/oauth/authorization-grant/delegate' \
+curl -X POST '[external url removed]' \
 -H 'Authorization: Bearer ' \
 -H 'Content-Type: application/x-www-form-urlencoded' \
 -d 'user_id=' \
@@ -178,7 +178,7 @@ Build a Transactions URL and append `authorization_code={USER_AUTHORIZATION_CODE
 **Example bundled Payments and Transactions URL**
 
 ```
-https://link.tink.com/1.0/transactions/connect-accounts?client_id=&refreshable_items=CHECKING_ACCOUNTS,CHECKING_TRANSACTIONS,SAVING_ACCOUNTS,SAVING_TRANSACTIONS,CREDITCARD_ACCOUNTS,CREDITCARD_TRANSACTIONS,TRANSFER_DESTINATIONS&redirect_uri=&locale=en_US&market=&authorization_code=
+[external url removed]
 ```
 
 [Learn more about the `transactions/connected-accounts` endpoint](/Tiny-doc/tink_docs_home/resources/tink-link-web/tink-link-web-api-reference-products/#continuous-access-connect-accounts)
@@ -192,7 +192,7 @@ For as long as the user's consent is valid, you can build a Payments URL and app
 **Example Payments URL with `credentials_id`**
 
 ```
-https://link.tink.com/1.0/pay/credentials?client_id=&redirect_uri=&market=&payment_request_id=&authorization_code=&credentials_id=
+[external url removed]
 ```
 
 Whenever you trigger any AIS flow for a permanent user for another product, that user’s credentials will renew automatically. Otherwise, to refresh the user’s consent once it expires, follow the [managing consents guide](/Tiny-doc/tink_docs_home/resources/transactions/managing-consents/).

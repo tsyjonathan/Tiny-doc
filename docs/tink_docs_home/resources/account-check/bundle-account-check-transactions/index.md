@@ -5,7 +5,7 @@ exportedAt: "2026-01-13T12:43:34.467Z"
 ---
 Tink only requires one single authentication to fetch multiple data points from a bank account. In other words, a user must authenticate only once to fetch data from more than one Tink product. There's no need for users to reauthenticate. This is useful when, for example, you will need to fetch account verification data and transaction data at the same time.
 
-**Note**: You are billed for each product that you use simultaneously. Please [contact Sales](https://tink.com/contact-us) if you have questions about this.
+**Note**: You are billed for each product that you use simultaneously. Please contact Sales if you have questions about this.
 
 ## Early redirect[](#early-redirect)
 
@@ -30,7 +30,7 @@ To get started with webhooks you can follow this [guide](/Tiny-doc/tink_docs_hom
   "enabledEvents": [
     "reports-generation:completed"
   ],
-  "url": "https://my.webhook.endpoint.com/"
+  "url": "[external url removed]"
 }
 ```
 
@@ -49,7 +49,7 @@ The response from the webhook service.
   "id": "d8f37f7d19c240abb4ef5d5dbebae4ef",
   "secret": "string",
   "updatedAt": "2024-03-24T15:27:59Z",
-  "url": "https://my.webhook.endpoint.com/"
+  "url": "[external url removed]"
 }
 ```
 
@@ -98,7 +98,7 @@ These are possible error responses for failures of report generations.
 The base URL to combine two products or more differs from the base URL that's used for only one product. The base URL to combine multiple products:
 
 ```
-https://link.tink.com/1.0/reports/create-report?
+[external url removed]
 ```
 
 This URL can include these parameters:
@@ -127,10 +127,10 @@ In this example URL, the market is `SE` and its output will generate both an Acc
 Generate an Account Check and a Transactions report
 
 ```
-https://link.tink.com/1.0/reports/create-report?client_id=&redirect_uri=https://console.tink.com/callback&market=SE&report_types=TRANSACTION_REPORT,ACCOUNT_VERIFICATION_REPORT&refreshable_items=IDENTITY_DATA,CHECKING_ACCOUNTS,SAVING_ACCOUNTS,CHECKING_TRANSACTIONS,SAVING_TRANSACTIONS&account_dialog_type=NONE
+[external url removed]
 ```
 
-When the end user accesses the URL, they are requested to authenticate to their bank. To use Demo Bank credentials instead of real ones, make sure to use a sandbox app (not a production app), and see [Demo Bank in Console](https://console.tink.com/demobank).
+When the end user accesses the URL, they are requested to authenticate to their bank. To use Demo Bank credentials instead of real ones, make sure to use a sandbox app (not a production app), and see Demo Bank in Console.
 
 ## 2\. Handle callback[](#handle-callback)
 
@@ -149,7 +149,7 @@ There are several reasons why the flow may fail. For a list of all error codes, 
 **In this example:**
 
 ```
-https://console.tink.com/callback?account_verification_report_id=ff8ae53bc46e45fe9a37c4fd1353e60d&transaction_report_id=f4064408473947129e71ab2bf28a763a
+[external url removed]
 ```
 
 Relay the parameters `account_verification_report_id` and `transaction_report_id` to your app and continue to section 3 to retrieve data.
@@ -173,7 +173,7 @@ After a successful authentication, a `reports_generation_job_id` value is displa
 **Callback example:**
 
 ```
-https://console.tink.com/callback?reports_generation_job_id=e54489df577643ddb3e5ffcfaf3bf5c1
+[external url removed]
 ```
 
 ## 3\. Authenticate your client[](#authenticate-your-client)
@@ -189,7 +189,7 @@ To access your user's account information, you must have a valid client access t
 Authenticate your client
 
 ```
-curl -X POST https://api.tink.com/api/v1/oauth/token \
+curl -X POST [external url removed] \
 -d 'client_id='\
 -d 'client_secret=' \
 -d 'grant_type=client_credentials' \
@@ -214,7 +214,7 @@ curl -X POST https://api.tink.com/api/v1/oauth/token \
 Authenticate your client
 
 ```
-curl -X POST https://api.tink.com/api/v1/oauth/token \
+curl -X POST [external url removed] \
 -d 'client_id=' \
 -d 'client_secret=' \
 -d 'grant_type=client_credentials' \
@@ -243,7 +243,7 @@ To see the statuses and IDs of the reports that are being created in the backgro
 Fetch Reports Generation Job
 
 ```
-https://api.tink.com/api/v1/reports-generation-jobs/ \
+[external url removed] \
 -H 'Authorization: Bearer '
 ```
 
@@ -289,14 +289,14 @@ To retrieve transactions, call the [Transactions Report API](/Tiny-doc/tink_docs
 Fetch your Account Check report
 
 ```
-https://api.tink.com/api/v1/account-verification-reports/ \
+[external url removed] \
 -H 'Authorization: Bearer '
 ```
 
 Fetch your Transactions report
 
 ```
-curl -X GET https://api.tink.com/data/v2/transaction-reports/ \
+curl -X GET [external url removed] \
   -H 'Authorization: Bearer '
 ```
 

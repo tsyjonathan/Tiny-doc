@@ -38,7 +38,7 @@ As part of the request, you will need to include a `user access token` with the 
 Example request:
 
 ```
-curl 'https://api.tink.com/api/v1/statistics/query' \
+curl '[external url removed]' \
   -X POST \
   -H 'Authorization: Bearer ' \
   -H 'Content-Type: application/json' \
@@ -85,7 +85,7 @@ In the response, the description field will contain an identifier of the categor
 Example request:
 
 ```
-curl 'https://api.tink.com/api/v1/statistics/query' \
+curl '[external url removed]' \
   -X POST \
   -H 'Authorization: Bearer ' \
   -H 'Content-Type: application/json' \
@@ -132,7 +132,7 @@ In the response, the description field will contain an identifier of the categor
 Example request:
 
 ```
-curl 'https://api.tink.com/api/v1/statistics/query' \
+curl '[external url removed]' \
   -X POST \
   -H 'Authorization: Bearer ' \
   -H 'Content-Type: application/json' \
@@ -179,7 +179,7 @@ In the response, the description field will contain a tag of the transactions. T
 Example request:
 
 ```
-curl 'https://api.tink.com/api/v1/statistics/query' \
+curl '[external url removed]' \
   -X POST \
   -H 'Authorization: Bearer ' \
   -H 'Content-Type: application/json' \

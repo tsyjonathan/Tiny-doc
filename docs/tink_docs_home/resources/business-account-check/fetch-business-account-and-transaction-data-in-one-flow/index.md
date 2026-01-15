@@ -5,7 +5,7 @@ exportedAt: "2026-01-13T12:44:29.193Z"
 ---
 Tink only requires one single authentication to fetch multiple data points from a business account. In other words, a user must only authenticate once to fetch data from more than one Tink product. There's no need for users to reauthenticate. This is useful when, for example, you need to fetch business-account verification data and transaction data at the same time.
 
-**Note**: You are billed for each product that you use simultaneously. Please [contact Sales](https://tink.com/get-started/) if you have questions about this.
+**Note**: You are billed for each product that you use simultaneously. Please contact Sales if you have questions about this.
 
 ## 1\. Build the URL[](#build-the-url)
 
@@ -14,7 +14,7 @@ The base URL that's required to combine two Tink products is different from the 
 The base URL for combining multiple products is:
 
 ```
-https://link.tink.com/1.0/reports/create-report?
+[external url removed]
 ```
 
 This URL can include these parameters:
@@ -32,10 +32,10 @@ This URL can include these parameters:
 In this example URL, the market is `SE` and its output will generate both an Account Check report and a Transactions report.
 
 ```
-https://link.tink.com/1.0/reports/create-report?client_id={YOUR_CLIENT_ID}&redirect_uri=https://console.tink.com/callback&market=SE&report_types=TRANSACTION_REPORT,BUSINESS_ACCOUNT_VERIFICATION_REPORT&refreshable_items=CHECKING_ACCOUNTS,SAVING_ACCOUNTS,IDENTITY_DATA,CHECKING_TRANSACTIONS&account_dialog_type=SINGLE
+[external url removed]
 ```
 
-When the end user accesses the URL, they are requested to authenticate to their bank. To use Demo Bank credentials, see [Demo Bank in Console](https://console.tink.com/demobank).
+When the end user accesses the URL, they are requested to authenticate to their bank. To use Demo Bank credentials, see Demo Bank in Console.
 
 ## 2\. Handle callback[](#handle-callback)
 
@@ -56,7 +56,7 @@ Some possible failure reasons:
 **In this example:**
 
 ```
-https://console.tink.com/callback?business_account_verification_report_id=ff8ae53bc46e45fe9a37c4fd1353e60d&transaction_report_id=f4064408473947129e71ab2bf28a763a
+[external url removed]
 ```
 
 Relay the parameters `business_account_verification_report_id` and `transaction_report_id` to your app and continue to section 3 to retrieve data.
@@ -70,7 +70,7 @@ In our example, the necessary scopes are `transaction-reports:readonly` and `bus
 cURL example
 
 ```
-curl -X POST https://api.tink.com/api/v1/oauth/token \
+curl -X POST [external url removed] \
 -d 'client_id=' \
 -d 'client_secret=' \
 -d 'grant_type=client_credentials' \
@@ -99,7 +99,7 @@ To retrieve transactions, call the [Transactions Report API](/Tiny-doc/tink_docs
 cURL example
 
 ```
-curl https://api.tink.com/data/v2/transaction-reports/ \
+curl [external url removed] \
   -H 'Authorization: Bearer '
 ```
 
@@ -107,4 +107,4 @@ The response will include **all** retrieved transactions from the bank in a sing
 
 ## Need help?[](#need-help-)
 
-[Contact Sales](https://tink.com/contact-us) and let us help you get started.
+Contact Sales and let us help you get started.

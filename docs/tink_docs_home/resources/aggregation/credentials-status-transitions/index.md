@@ -13,7 +13,7 @@ The aggregation journey can last from a few seconds to a few minutes, depending 
 
 The credentials objects are not re-created for subsequent refreshes of data; the state machine can transition back to the beginning, but this is considered as another Aggregation Journey.
 
-![FinalDiagram withoutBack v2](https://images.ctfassets.net/tmqu5vj33f7w/4GHiAT2N1s2inkFNkNPwZg/f5f410a9967f599b73e27efa028aaf18/FinalDiagram_withoutBack_v2.png)
+*Image removed: FinalDiagram withoutBack v2*
 
 ## Happy flow with no exceptions:[](#happy-flow-with-no-exceptions-)
 
@@ -23,7 +23,7 @@ Credentials will be considered as refreshed successfully once it's status has ch
 
 See below for the happy path of a credential refresh.
 
-![Happy Flow_v1_3](https://images.ctfassets.net/tmqu5vj33f7w/5vCslCcJ7ch4Ti1z61lmqu/5d9a82f7046821b8971e81bb2411ba63/Happy_Flow_v1_3.png)
+*Image removed: Happy Flow_v1_3*
 
 ## Notes:[](#notes-)
 
@@ -50,7 +50,7 @@ It is possible to refresh/update a credential after it has reached any of the en
     -   Initiate a refresh for that credential using the [refresh endpoint](/Tiny-doc/tink_docs_api/api/#connectivity/credentials/refresh-credentials) with query parameter `authenticate=true` and making sure the to set the `userPresent` and `userAvailableForInteraction` flags to true inside the `userAvailability` object.
     -   Modify the credential using [modify credentials endpoint](/Tiny-doc/tink_docs_api/api/#connectivity/credentials/modify-credentials).
 
-![Credential Status State diagram V2 (2)](https://images.ctfassets.net/tmqu5vj33f7w/2WyzbIxjYUFDwEZhU1hs6t/69ba7bfdc4082bf96848ac56330495be/Credential_Status_State_diagram_V2__2_.png)
+*Image removed: Credential Status State diagram V2 (2)*
 
 ## All possible credential status transitions[](#all-possible-credential-status-transitions)
 

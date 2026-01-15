@@ -10,7 +10,7 @@ To list transactions you will need id of the cost-of-living from [cost-of-living
 Example request
 
 ```
-curl -X GET 'https://api.tink.com/finance-management/v1/cost-of-living/{costId}/cost-of-living' \
+curl -X GET '[external url removed]' \
 -H 'Authorization: Bearer '
 ```
 

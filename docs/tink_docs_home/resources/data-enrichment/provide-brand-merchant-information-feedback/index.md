@@ -40,7 +40,7 @@ We are also accepting optional transaction details which allows us to narrow dow
 
 ```
 curl -X 'POST' \
-'https://api.staging.oxford.tink.com/enrichment/v1/feedback'\
+'[external url removed]'\
   -H 'Authorization: Bearer {USER_ACCESS_TOKEN}'
   -H 'Accept: application/json'
   -d '{
@@ -67,7 +67,7 @@ Or if using only Brand ID
 
 ```
 curl -X 'POST' \
-'https://api.staging.oxford.tink.com/enrichment/v1/feedback'\
+'[external url removed]'\
   -H 'Authorization: Bearer '
   -H 'Accept: application/json'
   -d '{

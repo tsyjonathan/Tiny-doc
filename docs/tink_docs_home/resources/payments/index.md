@@ -9,7 +9,7 @@ exportedAt: "2026-01-13T12:40:02.369Z"
 
 [
 
-![](https://images.ctfassets.net/tmqu5vj33f7w/5jgh53Bz62NxEYAIbrMpFl/9cf7e3b743d64f2bcee4c12cb6c9e03c/initiate-your-first-payment.jpg)
+*Image removed: external*
 
 ### Initiate your first one-time payment
 
@@ -23,7 +23,7 @@ Learn the prerequisites, follow examples, and get started.
 
 [
 
-![](https://images.ctfassets.net/tmqu5vj33f7w/3B6rP6sjgKBw2BbvXWKX0z/73cbb7ec6b0d58ea163b9067082e9817/demo-bank-testing.jpg)
+*Image removed: external*
 
 ### Test different payment scenarios
 
@@ -37,7 +37,7 @@ Test your integration by using demo credentials.
 
 [
 
-![](https://images.ctfassets.net/tmqu5vj33f7w/5VKAkELu2ZuoLJizPmnmrF/5a15105248b028121285aabc693b9e38/introduction-to-payments.jpg)
+*Image removed: external*
 
 ### Bulk payment
 
@@ -51,7 +51,7 @@ Make your first bulk payment with Tink Link
 
 [
 
-![](https://images.ctfassets.net/tmqu5vj33f7w/71fzXQ5qptrPmJhjpr5n4v/1c1848e6b1bccaaece8e421d90d1bd1a/transactions-one-time-access-teaser.jpg)
+*Image removed: external*
 
 ### Settlement accounts
 
@@ -65,7 +65,7 @@ Get started with settlement accounts
 
 [
 
-![](https://images.ctfassets.net/tmqu5vj33f7w/5jgh53Bz62NxEYAIbrMpFl/9cf7e3b743d64f2bcee4c12cb6c9e03c/initiate-your-first-payment.jpg)
+*Image removed: external*
 
 ### Risk Signals
 
@@ -111,7 +111,7 @@ Seamlessly launch and run the Tink SDK in your web app environment
 
 [
 
-![](https://images.ctfassets.net/tmqu5vj33f7w/KXrtffka9BXEsbJKYrPZK/460bea9658bd1e680c1fda572047e76c/Error_codes_-_Small_card.png)
+*Image removed: external*
 
 ### One-time payment errors
 
@@ -125,7 +125,7 @@ One-time payments error codes and formats, described and explained.
 
 [
 
-![](https://images.ctfassets.net/tmqu5vj33f7w/Z4iG74v3Cm9X44QnDGs3M/acb3bdea4c48421cff39a45a92c89910/sessions.png)
+*Image removed: external*
 
 ### Sessions
 
@@ -139,7 +139,7 @@ Launch the SDK with sensitive user information
 
 [
 
-![](https://images.ctfassets.net/tmqu5vj33f7w/4LxRNYvsyTzhqSH4fDxk3O/be6d28f0b4146e16aee014ba9453f7c2/account-check-SDK-reference.jpg)
+*Image removed: external*
 
 ### SDK reference
 
@@ -153,7 +153,7 @@ Parameters, responses, versions and market availability for the One-Time Payment
 
 [
 
-![](https://images.ctfassets.net/tmqu5vj33f7w/7jzrdhHTpJPFX62AofaRoc/fdba6c605b022b7ae76960ef556a65bd/Event-notifications-with-webhooks.jpg)
+*Image removed: external*
 
 ### Notifications and webhooks
 
@@ -257,10 +257,10 @@ Cancel a future-dated payment
 
 ](/Tiny-doc/tink_docs_home/resources/payments/one-time-payments/cancel-a-future-dated-payment/)
 
-[
+
 
 Pay by Bank End-Customer FAQs
 
 
 
-](https://tink.com/faq/end-customer/paybybank/)
+

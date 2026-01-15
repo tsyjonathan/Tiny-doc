@@ -5,7 +5,7 @@ exportedAt: "2026-01-13T12:41:55.016Z"
 ---
 ## 1\. Create all your one-time payment requests[](#create-all-your-one-time-payment-requests)
 
-To create a bulk payment request, you first need to create each payment that you want to include in the bulk payment request. To create single-payment requests, use the POST `https://api.tink.com/api/v1/payments/requests`.
+To create a bulk payment request, you first need to create each payment that you want to include in the bulk payment request. To create single-payment requests, use the POST `[external url removed]
 
 Each payment request:
 
@@ -19,7 +19,7 @@ Each payment request:
 
 ## 2\. Create a bulk payment request[](#create-a-bulk-payment-request)
 
-To create a bulk payment, use the `POST https://api.tink.com/payment/v1/bulk-payments` endpoint with a list of payment ids as the `paymentRequestIds` parameter.
+To create a bulk payment, use the `POST [external url removed] endpoint with a list of payment ids as the `paymentRequestIds` parameter.
 
 Bulk payment requests are immutable, meaning you can’t add or remove payment ids once the bulk payment request has been created.
 
@@ -30,7 +30,7 @@ To see these limits, call the [payment conditions endpoint](/Tiny-doc/tink_docs_
 **Example request**
 
 ```
-curl -v -X POST https://api.tink.com/api/payment/v1/bulk-payments \
+curl -v -X POST [external url removed] \
    -H 'Authorization: Bearer ' \
    -H 'Content-Type: application/json' \
    -d '{
@@ -61,9 +61,9 @@ When calling this endpoint, Tink will validate and store the bulk payment and is
 
 ## 3\. Build a Bulk Payment URL[](#build-a-bulk-payment-url)
 
-Integrate Tink with your application by redirecting your user to a Payments URL using the `https://link.tink.com/1.0/pay/bulk` endpoint.
+Integrate Tink with your application by redirecting your user to a Payments URL using the `[external url removed] endpoint.
 
-**Example Bulk Payment URL** `https://link.tink.com/1.0/pay/bulk?client_id={CLIENT_ID}&redirect_uri={REDIRECT_URL}&market={MARKET}&locale={LOCALE}&payment_request_id={PAYMENT_REQUEST}`
+**Example Bulk Payment URL** `[external url removed]
 
 The `PAYMENT_REQUEST_ID` is the `id` that Tink returned in the response to the [create a bulk payment request step](#create-a-bulk-payment-request). The `market` parameter must match the `market` for each payment request associated with the `PAYMENT_REQUEST_ID`.
 
@@ -78,7 +78,7 @@ To see which providers support bulk payments, [query the providers endpoint](/Ti
 **Example providers request**
 
 ```
-curl -v -X GET https://api.tink.com/v1/providers?pisCapabilities=PIS_BULK_PAYMENTS
+curl -v -X GET [external url removed]
 ```
 
 **Example response**
@@ -113,7 +113,7 @@ If you’re passing data through a session, be sure to include the `session_id` 
 **Example session request**
 
 ```
-  curl -X POST https://api.tink.com/link/v1/session \
+  curl -X POST [external url removed] \
   -H 'Authorization: Bearer ' \
   -H 'Content-Type: application/json' \
   -d '{"source_account_number": "se://12340011223"}' \
@@ -146,7 +146,7 @@ A successfully initiated payment redirects to the `redirect_uri` provided in you
 
 ## 5\. Check bulk payment statuses and details[](#check-bulk-payment-statuses-and-details)
 
-To view the status of your bulk payment, along with the statuses and details of all single payments included in the bulk payment request, use `GET https://api.tink.com/payment/v1/bulk-payments/{id}`, where `id` is the `payment_request_id` for your bulk payment.
+To view the status of your bulk payment, along with the statuses and details of all single payments included in the bulk payment request, use `GET [external url removed] where `id` is the `payment_request_id` for your bulk payment.
 
 [See the bulk payments API reference](/Tiny-doc/tink_docs_api/api/#payment/bulk-payment/get-bulk-payment)
 

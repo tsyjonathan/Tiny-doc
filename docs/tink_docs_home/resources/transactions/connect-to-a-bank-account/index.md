@@ -13,7 +13,7 @@ If you need access to the data for longer than 24 hours and/or access to transac
 
 ## 1\. Build the URL[](#build-the-url)
 
-In Console, use the [Build your own Tink Link URL](https://console.tink.com/transactions/tink-link) view to create your own URL. Your resulting URL is used to allow users to authenticate with their bank and select an account from which to fetch report data. For information on how the URL works, see [Setup and integrate Transactions](/Tiny-doc/tink_docs_home/resources/transactions/setup-and-integrate-transactions/).
+In Console, use the Build your own Tink Link URL view to create your own URL. Your resulting URL is used to allow users to authenticate with their bank and select an account from which to fetch report data. For information on how the URL works, see [Setup and integrate Transactions](/Tiny-doc/tink_docs_home/resources/transactions/setup-and-integrate-transactions/).
 
 Integrate the URL with a site or in an app. For example, start an end user's Tink flow by redirecting them to a URL.
 
@@ -24,12 +24,12 @@ Use the example URL below by inserting the `client_id` value for your Tink app i
 Tink URL example
 
 ```
-https://link.tink.com/1.0/transactions/connect-accounts?client_id=&redirect_uri=http://yourdomain.com/callback&market=GB&locale=en_US
+[external url removed]
 ```
 
 **Note**: make sure that you exchange `{YOUR_CLIENT_ID}` in the URL for your `client_id` value.
 
-When your users access the URL, they'll see a list of demo banks. Once they choose a bank, they'll see a list of demo bank accounts to choose from. Find demo-user credentials in **Console** > **[Demo Bank](https://console.tink.com/demobank)**. Select the username and password for a Demo Bank user that suits your use case.
+When your users access the URL, they'll see a list of demo banks. Once they choose a bank, they'll see a list of demo bank accounts to choose from. Find demo-user credentials in **Console** > **Demo Bank**. Select the username and password for a Demo Bank user that suits your use case.
 
 ## 2\. Handle callback[](#handle-callback)
 
@@ -52,7 +52,7 @@ For more information about errors, see [Handle Transactions error codes](/Tiny-d
 **In this example:**
 
 ```
-https://console.tink.com/callback?code=18fd1334216748869b98sde50631e74&credentials_id=1d64c12398af4c73a069a482673d0e1c
+[external url removed]
 ```
 
 After a successful authentication, you will see a `code` value, which indicates that a flow has successfully come to an end. Store this value. It is used to authenticate yourself in order to fetch account and transaction data.
@@ -64,7 +64,7 @@ Now is the time to exchange your `code` value for an `access_token` value.
 Exchange your code for an access\_token
 
 ```
-curl -v -X POST https://api.tink.com/api/v1/oauth/token \
+curl -v -X POST [external url removed] \
   -d 'code=' \
   -d 'client_id=' \
   -d 'client_secret=' \
@@ -97,7 +97,7 @@ To fetch a list of transactions, you must have a user access token with the `tra
 Fetch a list of transactions
 
 ```
-curl -X GET 'https://api.tink.com/data/v2/transactions' \
+curl -X GET '[external url removed]' \
   -H 'Authorization: Bearer '
 ```
 
@@ -117,7 +117,7 @@ In the request, you need to provide the user access token but can also specify a
 Request example with optional parameters
 
 ```
-curl -X GET 'https://api.tink.com/data/v2/transactions' \
+curl -X GET '[external url removed]' \
   -H 'Authorization: Bearer ' \
   -d 'accountIdIn=' \
   -d 'statusIn=' \
@@ -134,10 +134,10 @@ To fetch a list of accounts for a specific user, you must have a user access tok
 Fetch a list of accounts for a user
 
 ```
-curl -X GET 'https://api.tink.com/data/v2/accounts' \
+curl -X GET '[external url removed]' \
   -H 'Authorization: Bearer '
 ```
 
 ## Need help?[](#need-help-)
 
-[Contact Sales](https://tink.com/contact-us) and let us help you get started.
+Contact Sales and let us help you get started.

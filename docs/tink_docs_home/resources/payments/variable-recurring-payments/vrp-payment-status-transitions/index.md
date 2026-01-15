@@ -9,7 +9,7 @@ The purpose of tracking the status of an initiated payment is to provide end use
 
 ### Available Variable Recurring Payment statuses[](#available-variable-recurring-payment-statuses)
 
-![vrp-status-transitions-diagram](https://images.ctfassets.net/tmqu5vj33f7w/6vom3lgp0wU66oBN6sZVz3/b62a7b3ed58012d2e1a62939bb63cd6b/vrp-status-transitions-diagram.png)
+*Image removed: vrp-status-transitions-diagram*
 
 When you initiate a VRP, the status of the payment is immediately set to `CREATED`. This is the intermediate state. The payment ultimately changes to one of these statuses:
 

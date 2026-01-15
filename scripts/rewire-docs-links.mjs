@@ -14,7 +14,7 @@
 import fs from "node:fs/promises";
 import path from "node:path";
 
-const PAGES_BASE = "/Tiny-doc";
+const SITE_BASE = "https://tsyjonathan.github.io/Tiny-doc";
 
 const DOCS_DIR = path.resolve(process.cwd(), "docs");
 const HOME_DIR = path.join(DOCS_DIR, "tink_docs_home");
@@ -32,11 +32,11 @@ function normalizeSourceUrl(urlString) {
 
 function fileToHostedUrl(fileRel) {
   // fileRel is like: tink_docs_home/resources/account-check/index.md
-  // Hosted URL should be: /Tiny-doc/tink_docs_home/resources/account-check/
+  // Hosted URL should be: https://tsyjonathan.github.io/Tiny-doc/tink_docs_home/resources/account-check/
   const rel = fileRel.replace(/\\/g, "/");
   const withoutIndex = rel.replace(/index\.md$/i, "");
   const trimmed = withoutIndex.replace(/\/+$/, "");
-  return `${PAGES_BASE}/${trimmed}/`;
+  return `${SITE_BASE}/${trimmed}/`;
 }
 
 async function readManifestMap(rootDir) {
@@ -72,10 +72,10 @@ async function walkIndexMd(dir) {
 }
 
 function rewireText(text, urlMap) {
-  // Replace any docs.tink.com URL occurrences (in markdown links or plain text).
+  // 1) Replace any docs.tink.com URL occurrences (in markdown links or plain text) with our hosted copy.
   // Keep any hash fragment from the original link.
   // Stop at common delimiters like ), ], " and ' so we don't accidentally include quotes (frontmatter source: "...")
-  return text.replace(/https?:\/\/docs\.tink\.com[^\s)\]"']+/gi, (m) => {
+  const rewired = text.replace(/https?:\/\/docs\.tink\.com[^\s)\]"']+/gi, (m) => {
     try {
       const u = new URL(m);
       const hash = u.hash || "";
@@ -93,26 +93,26 @@ function rewireText(text, urlMap) {
       if (p.startsWith("/enterprise/")) {
         const rest = p.slice("/enterprise/".length);
         if (rest.startsWith("api-")) {
-          return `${PAGES_BASE}/tink_docs_api/${rest.replace(/\/+$/, "")}/` + (hash ? hash : "");
+          return `${SITE_BASE}/tink_docs_api/${rest.replace(/\/+$/, "")}/` + (hash ? hash : "");
         }
       }
 
       // Enterprise anchors often point to the same content as api-connectivity pages.
       if (p.startsWith("/enterprise/api-connectivity-v1")) {
-        return `${PAGES_BASE}/tink_docs_api/api-connectivity-v1/` + (hash ? hash : "");
+        return `${SITE_BASE}/tink_docs_api/api-connectivity-v1/` + (hash ? hash : "");
       }
       if (p.startsWith("/enterprise/api-connectivity-v2")) {
-        return `${PAGES_BASE}/tink_docs_api/api-connectivity-v2/` + (hash ? hash : "");
+        return `${SITE_BASE}/tink_docs_api/api-connectivity-v2/` + (hash ? hash : "");
       }
 
       // Connector refs: our export stores this under tink_docs_api/api/
       if (p.startsWith("/api/connector")) {
-        return `${PAGES_BASE}/tink_docs_api/api/` + (hash ? hash : "");
+        return `${SITE_BASE}/tink_docs_api/api/` + (hash ? hash : "");
       }
 
       // Events v1 may not be exported; prefer v2 if present.
       if (p.startsWith("/api-events-v1")) {
-        return `${PAGES_BASE}/tink_docs_api/api-events-v2/` + (hash ? hash : "");
+        return `${SITE_BASE}/tink_docs_api/api-events-v2/` + (hash ? hash : "");
       }
 
       // Some pages contain malformed links like:
@@ -136,6 +136,41 @@ function rewireText(text, urlMap) {
       return m;
     }
   });
+
+  // 2) Remove/neutralize ALL remaining external links (very important).
+  //
+  // - Markdown links: [text](url) where url starts with http(s) but not our SITE_BASE
+  //   => replace with just "text"
+  //
+  // - Markdown images: ![alt](url) where url is external
+  //   => replace with "*Image removed: alt*" (no outbound request)
+  //
+  // Note: We intentionally do NOT remove internal links (SITE_BASE/...).
+  const withoutExternalImages = rewired.replace(/!\[([^\]]*)\]\((https?:\/\/[^)]+)\)/g, (_m, alt, url) => {
+    if (String(url).startsWith(SITE_BASE)) return `![${alt}](${url})`;
+    return `*Image removed: ${alt || "external"}*`;
+  });
+
+  const withoutExternalLinks = withoutExternalImages.replace(/\[([^\]]+)\]\((https?:\/\/[^)]+)\)/g, (_m, text2, url) => {
+    if (String(url).startsWith(SITE_BASE)) return `[${text2}](${url})`;
+    return `${text2}`;
+  });
+
+  // Also remove bare autolinks like <https://example.com>
+  const withoutAutoLinks = withoutExternalLinks.replace(/<\s*(https?:\/\/[^>\s]+)\s*>/g, (_m, url) => {
+    if (String(url).startsWith(SITE_BASE)) return `<${url}>`;
+    return "";
+  });
+
+  // 3) Optional: remove any remaining bare external URLs that appear in text/code.
+  // We keep internal URLs, but replace others with "[external url removed]" to avoid sending users off-site.
+  // Note: this may also remove example URLs used in docs. This is intentional per user request.
+  const withoutBareExternalUrls = withoutAutoLinks.replace(/https?:\/\/[^\s)\]"']+/g, (m) => {
+    if (m.startsWith(SITE_BASE)) return m;
+    return "[external url removed]";
+  });
+
+  return withoutBareExternalUrls;
 }
 
 async function main() {

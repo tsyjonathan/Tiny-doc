@@ -12,14 +12,14 @@ In this article, we illustrate how you could sign arbitrary data or pdf with you
 Get the API token
 
 ```
-curl -v -X POST https://api.tink.com/api/v1/oauth/token \
+curl -v -X POST [external url removed] \
 -d 'client_id=' \
 -d 'client_secret=' \
 -d 'grant_type=client_credentials' \
 -d 'scope=tpp-certificate'
 ```
 
-**Response**: [Access Token Response](https://tools.ietf.org/html/rfc6749#section-5.1) for a client which expires after 30 mins (no refresh token provided, use the same endpoint again to get a new access token). Please note that this token must also be kept a secret and not exposed to any public client.
+**Response**: Access Token Response for a client which expires after 30 mins (no refresh token provided, use the same endpoint again to get a new access token). Please note that this token must also be kept a secret and not exposed to any public client.
 
 **Response example:**
 
@@ -61,7 +61,7 @@ The signing response
 Request example
 
 ```
-curl -v -X POST https://api.tink.com/ess/v1/sign \
+curl -v -X POST [external url removed] \
 -H 'Authorization: Bearer '  \
 -H "Content-Type: application/json"  \
 -H "Accept: text/plain"  \
@@ -103,7 +103,7 @@ curl -v -X POST \
 -H 'Authorization: Bearer '  \
 -H "Content-Type: application/json"  \
 -H "Accept: text/plain"  \
--d @sign.json https://api.tink.com/ess/v1/sign > result.json
+-d @sign.json [external url removed] > result.json
 ```
 
 -   Generate signed PDF file from the JSON result

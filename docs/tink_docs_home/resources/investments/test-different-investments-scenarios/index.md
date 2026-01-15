@@ -25,28 +25,28 @@ When you have selected a Demo Bank user for your test, store the username and pa
 
 You have now entered the Tink flow, so let's walk through the example steps.
 
-![Assets Tink Link flow, step 1](https://images.ctfassets.net/tmqu5vj33f7w/38mlY3o4Vu2wBxTfdsfkUt/82972b24ca45fe42b80715a0a5aa6cdf/assets_liabilities_tink_link_flow_1.jpeg)
+*Image removed: Assets Tink Link flow, step 1*
 
 Because we're going to use Demo Bank credentials to authenticate, select **Tink Demo Bank**.
 
-![Assets Tink Link flow, step 2](https://images.ctfassets.net/tmqu5vj33f7w/2QA2nYtUf1TIykwlGP1zlu/c0475f20a4197c8abca6d29f42939374/assets_liabilities_tink_link_flow_2.jpeg)
+*Image removed: Assets Tink Link flow, step 2*
 
 Select **Other**.
 
-![Assets Tink Link flow, step 3](https://images.ctfassets.net/tmqu5vj33f7w/2zZJAWKmeiNVxKhdfw4CjX/e8c37b02b06990591ff12283ef4c3c30/assets_liabilities_tink_link_flow_3.jpeg)
+*Image removed: Assets Tink Link flow, step 3*
 
 For **Username** and **Password**, enter the Demo Bank credentials that you previously stored.
 
 Select **Continue**.
 
-![Assets Tink Link flow, step 4](https://images.ctfassets.net/tmqu5vj33f7w/691lfQxQf8OtlqgcNRlEmS/393f94deffd3d85363b18d01e9097b9d/assets_liabilities_tink_link_flow_4.png)
+*Image removed: Assets Tink Link flow, step 4*
 
 Copy the cURL command from the above screen and use your `client_id` and `client_secret` values to get your `access_token`.
 
 Get a user access token
 
 ```
-curl -v https://api.tink.com/api/v1/oauth/token \
+curl -v [external url removed] \
   -d 'code=$' \
   -d 'client_id=$' \
   -d 'client_secret=$' \
@@ -60,7 +60,7 @@ Use the `user access token` from the previous response to make a request to the 
 Fetch a list of investment accounts
 
 ```
-curl "https://api.tink.com/data/v2/investment-accounts" \
+curl "[external url removed]" \
   -H 'Authorization: Bearer '
 ```
 

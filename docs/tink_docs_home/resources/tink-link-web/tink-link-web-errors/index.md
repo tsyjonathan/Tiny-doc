@@ -99,7 +99,7 @@ These errors most often occur due to a missing or incorrect parameter in the URL
 | INVALID\_STATE\_REDIRECTED\_AUTHORIZATION\_TOKEN | A third party is redirecting back to Tink, but the query is missing `authorization_token`. |
 | INVALID\_STATE\_REDIRECTED\_CREDENTIALS\_ID | A third party is redirecting back to Tink, but the query is missing `credentialsId`. |
 | INVALID\_STATE\_REFRESH\_CREDENTIALS\_RATE\_LIMITED | An excessive amount of API requests has been made for an app. For more information, see [Rate limits](/Tiny-doc/tink_docs_api/api/#introduction/rate-limits). |
-| INVALID\_STATE\_REDIRECT\_URI | The specified `redirect_uri` is invalid. Make sure that it is registered in the "App settings" page in [Console](https://console.tink.com/app-settings/client). |
+| INVALID\_STATE\_REDIRECT\_URI | The specified `redirect_uri` is invalid. Make sure that it is registered in the "App settings" page in Console. |
 | INVALID\_STATE\_SCOPE | One or more scopes are incorrect or not available for the oauth client. |
 
 ### AUTHENTICATION\_ERROR[](#authentication_error)

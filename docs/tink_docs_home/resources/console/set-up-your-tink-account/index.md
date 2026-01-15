@@ -7,13 +7,13 @@ Tink Console is where you create, configure, and manage your apps. It's also the
 
 ## Create and verify a Console account[](#create-and-verify-a-console-account)
 
-To get started, [sign up for a Console account](https://console.tink.com/signup). When you've signed up, open the email we've sent you. Use the link in the email to verify your account and then [log in to Console](https://console.tink.com/login).
+To get started, sign up for a Console account. When you've signed up, open the email we've sent you. Use the link in the email to verify your account and then log in to Console.
 
 ## Product availability[](#product-availability)
 
 By default, all our products are available to test in our sandbox environment. You can access it by creating a sandbox app.
 
-When you’re ready to create a production app, [contact sales](https://tink.com/contact-us) or reach out to your Tink contact. After you've gone through the Know Your Business process, we'll create and configure the app for you.
+When you’re ready to create a production app, contact sales or reach out to your Tink contact. After you've gone through the Know Your Business process, we'll create and configure the app for you.
 
 ## What is an app?[](#what-is-an-app-)
 
@@ -33,11 +33,11 @@ Your app settings are available after you've created your first app.
 
 To create your first app:
 
-1.  [Log in to Console](https://console.tink.com/login).
+1.  Log in to Console.
 2.  Select **Create your first sandbox app**.  
-    ![Create Sandbox App ](https://images.ctfassets.net/tmqu5vj33f7w/3oLcnD2fY7JZYyQV8doQSM/02a9c6412c7e0478eeca3c5e567dd82d/Data_card.png)  
+    *Image removed: Create Sandbox App *  
     The **Create sandbox app** modal appears.  
-    ![Create Sandbox App Modal](https://images.ctfassets.net/tmqu5vj33f7w/3tEX45uUoIXAd0qRSRODIP/c04b62228155b2428051c7a9cc23a2f8/Modal.png)
+    *Image removed: Create Sandbox App Modal*
 3.  Enter an **App name**. This name is only available to other Console users who are part of your organization. This name can be changed later.
 4.  Enter a **Display name (public)**. This name is seen by your customers as part of the Tink flow. This name **can't** be changed later.
 5.  Select **Create app**.
@@ -48,7 +48,7 @@ Your app is now created and ready to configure.
 
 Your API credentials are used to authenticate your app with the Tink API. This is how you find your credentials.
 
-![set-up-your-tink-console-account-02](https://images.ctfassets.net/tmqu5vj33f7w/YywECbz6bu652RAwgTlsg/6f45d5b143be3668cdc43c15b8822ed5/set-up-your-tink-console-account-02.png)
+*Image removed: set-up-your-tink-console-account-02*
 
 Your API credentials are found in \[**your\_app**\] > **App settings** > **API client**.
 
@@ -59,7 +59,7 @@ In this view, there are two important keys:
 
 ### Create a client secret[](#create-a-client-secret)
 
-1.  [Log in to Console](https://console.tink.com/login).
+1.  Log in to Console.
 2.  From the top dropdown menu, select an app.
 3.  Select **App settings**.
 4.  Select the **API client** tab.

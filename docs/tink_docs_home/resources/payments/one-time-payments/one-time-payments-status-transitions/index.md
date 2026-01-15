@@ -13,7 +13,7 @@ We recommend that you make sure that no more than one payment request correspond
 
 ### Available transfer statuses[](#available-transfer-statuses)
 
-![Payment status](https://images.ctfassets.net/tmqu5vj33f7w/2nkljOEBZ3FjLAu7td9pKf/71c218a6cf15665b7eb9ef3e08062c91/Payment_status.png)
+*Image removed: Payment status*
 
 When you initiate a payment, the status of the `payment` is immediately set to `CREATED`. This is the intermediate state. The `payment` ultimately changes to one of these statuses:
 

@@ -12,7 +12,7 @@ In this example, we'll request a list of all Savings Goals which have been `CREA
 Example request:
 
 ```
-curl -L -X GET 'https://api.tink.com/api/v1/savings-goals?status_in=IN_PROGRESS&status_in=CREATED' \
+curl -L -X GET '[external url removed]' \
 -H 'Authorization: Bearer '
 ```
 

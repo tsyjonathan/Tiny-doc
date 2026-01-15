@@ -7,7 +7,7 @@ Tink provides a Python script, `tink_secret_utils.py`, to securely share open ba
 
 The `tink_secret_utils.py` script securely manages sensitive files by encrypting the private key before uploading and storing it. This ensures that the unencrypted private key remains inaccessible and protected.
 
-> To get the script, [create a technical support ticket](https://support.tink.com/) and select the eIDAS registration and rotation option (recommended), or reach out to your Tink contact.
+> To get the script, create a technical support ticket and select the eIDAS registration and rotation option (recommended), or reach out to your Tink contact.
 
 ## Getting started with the tool[](#getting-started-with-the-tool)
 

@@ -3,15 +3,15 @@ title: "Postman collection - Tink Docs"
 source: "/Tiny-doc/tink_docs_home/resources/business-account-check/postman-collection-for-business-account-check/"
 exportedAt: "2026-01-13T12:44:49.580Z"
 ---
-![Postman collections](https://images.ctfassets.net/tmqu5vj33f7w/43zFjDIgiqxX6KkX2SoLUZ/4896345ade7f5948c8d21c61aee408e1/Screenshot_2022-03-16_at_12.58.11.png) This article shows how to use Tink's Postman collection for Business Account Check. For documentation and help to use Postman, go to the [Postman docs introduction](https://learning.postman.com/docs/getting-started/introduction/)
+*Image removed: Postman collections* This article shows how to use Tink's Postman collection for Business Account Check. For documentation and help to use Postman, go to the Postman docs introduction
 
-**Note**: Postman is a third-party company that makes an API platform for building and using APIs. To use the Postman collection for Business Account Check, you must first either [sign up for a Postman user account](https://www.postman.com/) to use Postman or download and install their app.
+**Note**: Postman is a third-party company that makes an API platform for building and using APIs. To use the Postman collection for Business Account Check, you must first either sign up for a Postman user account to use Postman or download and install their app.
 
 ## Download the Postman collection[](#download-the-postman-collection)
 
 To download our Postman collection, follow these steps.
 
-1.  Open the [tink-postman](https://github.com/tink-ab/tink-postman) GitHub repo.
+1.  Open the tink-postman GitHub repo.
 2.  Select **Code** > **Download ZIP**.
     
     A ZIP file is downloaded to your computer.
@@ -52,4 +52,4 @@ To view the documentation in the Postman collection, follow these steps.
 2.  Select **Collections** in the left-hand sidebar.
 3.  Select **Documentation** in the right-hand context bar.
 
-For more information on how to see documentation in Postman, see [Viewing documentation](https://learning.postman.com/docs/publishing-your-api/viewing-documentation/).
+For more information on how to see documentation in Postman, see Viewing documentation.

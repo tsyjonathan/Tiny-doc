@@ -9,18 +9,18 @@ To use your own license in your local (home) market, you’ll first need to obta
 
 | Market | NCA |
 | --- | --- |
-| Denmark | [Finansilsynet](https://www.finanstilsynet.dk/) |
-| Finland | [Finanssivalvonta](https://www.finanssivalvonta.fi/) |
-| France | [Autorité des Marchés Financiers](https://www.amf-france.org/) (AMF) |
-| Germany | [Federal Financial Supervisory Authority](https://www.bafin.de/) (BAFIN) |
-| Italy | [Banca d'Italia](https://www.bancaditalia.it/) |
-| Netherlands | [De Nederlandsche Bank](https://www.dnb.nl/en/) (DNB) |
-| Norway | [Finansilsynet](https://www.finanstilsynet.no/) |
-| Spain | [Banco de España](https://www.bde.es/) |
-| Sweden | [Finansinspektionen](https://www.fi.se/) |
-| United Kingdom | [Financial Conduct Authority](https://www.fca.org.uk/) (FCA) |
+| Denmark | Finansilsynet |
+| Finland | Finanssivalvonta |
+| France | Autorité des Marchés Financiers (AMF) |
+| Germany | Federal Financial Supervisory Authority (BAFIN) |
+| Italy | Banca d'Italia |
+| Netherlands | De Nederlandsche Bank (DNB) |
+| Norway | Finansilsynet |
+| Spain | Banco de España |
+| Sweden | Finansinspektionen |
+| United Kingdom | Financial Conduct Authority (FCA) |
 
-For other markets, see the [EBA's list of Competent Authorities](https://www.eba.europa.eu/legacy/supervisory-convergence/supervisory-disclosure/competent-authorities).
+For other markets, see the EBA's list of Competent Authorities.
 
 > The process of obtaining a license varies greatly between NCAs. To be granted a license, you need to follow the guidelines of your local regulatory body precisely.
 
@@ -40,8 +40,8 @@ In your passporting application, make sure you include all services authorised u
 
 Your home NCA will then pass your application to the host NCA, which will process the application and typically provide a decision within three months.
 
-> **Passporting a license from the EU to the UK is no longer allowed**, as the UK's temporary permissions regime expired on 30th December 2023. Instead, you will need to get a UK license from the [Financial Conduct Authority](https://www.fca.org.uk/).
+> **Passporting a license from the EU to the UK is no longer allowed**, as the UK's temporary permissions regime expired on 30th December 2023. Instead, you will need to get a UK license from the Financial Conduct Authority.
 
 ## Resources[](#resources)
 
--   [Open Banking Europe passporting guide](https://www.openbankingeurope.eu/media/1175/preta-obe-mg-001-002-psd2-xs2a-registration-passporting-guide.pdf)
+-   Open Banking Europe passporting guide

@@ -21,7 +21,7 @@ Configure a webhook by using the [Events v2](/Tiny-doc/tink_docs_api/api/#events
 
 Set up your own endpoint to receive notifications. The endpoint should be a publicly-accessible URL that can receive POST requests from Tink. The event payload is sent in the request body.
 
-**Endpoint example:** `https://endpoint.yourdomain.com/webhook`
+**Endpoint example:** `[external url removed]
 
 ## 2\. Generate a client access token[](#generate-a-client-access-token)
 
@@ -32,14 +32,14 @@ Follow the instructions in this section to authorize access to your backend clie
 Authorize access to your backend client
 
 ```
-curl -v -X POST https://api.tink.com/api/v1/oauth/token \
+curl -v -X POST [external url removed] \
 -d 'client_id=' \
 -d 'client_secret=' \
 -d 'grant_type=client_credentials' \
 -d 'scope=webhook-endpoints'
 ```
 
-**Response**: [Access Token Response](https://tools.ietf.org/html/rfc6749#section-5.1) for a client which expires after 30 mins (no refresh token provided, use the same endpoint again to get a new access token). The token must also be kept a secret and not exposed to any public client.
+**Response**: Access Token Response for a client which expires after 30 mins (no refresh token provided, use the same endpoint again to get a new access token). The token must also be kept a secret and not exposed to any public client.
 
 **Response example:**
 
@@ -61,9 +61,9 @@ Set up the webhook by using your `client access token` to call the Tink API. For
 Set up the webhook
 
 ```
-curl -v -X POST https://api.tink.com/events/v2/webhook-endpoints \
+curl -v -X POST [external url removed] \
 -H 'Authorization: Bearer ' \
--d '{ "description": "My webhook", "disabled": false, "enabledEvents": ["payment:updated"], "url": "https://endpoint.example.com/webhook" }'
+-d '{ "description": "My webhook", "disabled": false, "enabledEvents": ["payment:updated"], "url": "[external url removed]" }'
 ```
 
 **Response example:**
@@ -79,7 +79,7 @@ curl -v -X POST https://api.tink.com/events/v2/webhook-endpoints \
     "id": "d8f37f7d19c240abb4ef5d5dbebae4ef",
     "secret": "string",
     "updatedAt": "2022-05-26T07:54:41.725408Z",
-    "url": "https://endpoint.example.com/webhook"
+    "url": "[external url removed]"
 }
 ```
 
@@ -212,7 +212,7 @@ Mutual TLS authentication (mTLS), is a part of the TLS handshake protocol for pe
 
 Tink's webhook service automatically authenticates itself using its key material when prompted by a receiving server. To configure your servers to do this, find out how to enable mTLS in server software that receives webhook events. Ensure that your application trusts all of DigiCert's root authorities:
 
--   [DigiCert's root certificates](https://www.digicert.com/kb/digicert-root-certificates.htm)
+-   DigiCert's root certificates
 
 Tink's webhook service provides both its own client certificate and DigiCert's intermediate CA certificates, which allows you to verify the full certificate chain by only using DigiCert's root certificate.
 
@@ -327,7 +327,7 @@ For use-case examples on how to use payment conditions, see [Examples](/Tiny-doc
 
 ## Get payment statuses[](#get-payment-statuses)
 
-![Payment status](https://images.ctfassets.net/tmqu5vj33f7w/2nkljOEBZ3FjLAu7td9pKf/71c218a6cf15665b7eb9ef3e08062c91/Payment_status.png)
+*Image removed: Payment status*
 
 We allow you to track the current status of payments, as they're being processed, either for internal purposes (for example, to create events) or to inform your end user of a payment status.
 

@@ -9,7 +9,7 @@ All the guides, resources and sample projects to get you up and running with Tin
 
 [
 
-![](https://images.ctfassets.net/tmqu5vj33f7w/7Giz1E0bzhI7eWTf6vLfxa/57b0b65e85e4f73733707725749a7cf9/About-tink-2cl.jpg)
+*Image removed: external*
 
 ### Introduction to the Tink Platform
 
@@ -23,7 +23,7 @@ Get familiar with the fundamental concepts and resources related to Tink
 
 [
 
-![](https://images.ctfassets.net/tmqu5vj33f7w/75v8Nuoq4CcDFy6gK5qgdr/79732d88ea6aeaaf8367e28e4e4e0f08/setup-your-account-2cl.jpg)
+*Image removed: external*
 
 ### Set up your Tink Console account
 
@@ -39,7 +39,7 @@ Learn how to activate your Tink Console account and retrieve your API credential
 
 [
 
-![](https://images.ctfassets.net/tmqu5vj33f7w/5UcMvHe7kNDZwMkKgF7tAa/de3d8c164b4e43b8aeef49cbb48da766/account-check-introduction.jpg)
+*Image removed: external*
 
 ### Introduction to Account Check
 
@@ -53,7 +53,7 @@ Verifying account ownership can be a tedious process. Here's how Account Check c
 
 [
 
-![](https://images.ctfassets.net/tmqu5vj33f7w/4ABNQ4Z0cUXpICvTYoB82x/f8deaa71520033842287eddf23addb28/Business_Account_Check_-_Large_card.png)
+*Image removed: external*
 
 ### Introduction to Business Account Check
 
@@ -67,7 +67,7 @@ Onboard customers fast by quickly verifying account ownership.
 
 [
 
-![](https://images.ctfassets.net/tmqu5vj33f7w/pOSVmieo02rOWMicPrF0z/6a860a47689bf300389c38b9c992f9f0/Investments-introduction-teaser3c.png)
+*Image removed: external*
 
 ### Introduction to Investments
 
@@ -81,7 +81,7 @@ Fetch real time holding data from investment and pension accounts
 
 [
 
-![](https://images.ctfassets.net/tmqu5vj33f7w/2Wdzwjed9iS0VML4umlX9M/26085238d80389cd0e33a26c2296e209/Loans-introduction-teaser3c.png)
+*Image removed: external*
 
 ### Introduction to Loans
 
@@ -95,7 +95,7 @@ Fetch real time loans data
 
 [
 
-![](https://images.ctfassets.net/tmqu5vj33f7w/1iQxiUYxbb5ZMdp9gzvAhb/c84ea33ff5b7c5bd23414fab721de61a/transactions-introduction-teaser2c.jpg)
+*Image removed: external*
 
 ### Introduction to Transactions
 
@@ -109,7 +109,7 @@ Fetch standardized transaction data once or continuously.
 
 [
 
-![](https://images.ctfassets.net/tmqu5vj33f7w/5ZHBtTg3q37kR1bn4axXZv/23ddaaee0f5d07f72621afe9c0c3d1fd/business-transactions-introduction-teaser3c.jpg)
+*Image removed: external*
 
 ### Introduction to Business Transactions
 
@@ -123,7 +123,7 @@ Business Transactions provides access to enriched and real-time financial data f
 
 [
 
-![](https://images.ctfassets.net/tmqu5vj33f7w/LHWEI7HUIUwTkT4vj6qaN/7e4b378b4f4c02b537bc54e94db1dbce/Income-check-introduction-teaser.jpg)
+*Image removed: external*
 
 ### Introduction to Income Check
 
@@ -137,7 +137,7 @@ Income verification used to take days, but can now be done in minutes through op
 
 [
 
-![](https://images.ctfassets.net/tmqu5vj33f7w/4GwwXSezpl0VItrsY7Ho4i/649df84c3f713fb655c48325fdc3fbdb/expence-check-introduction-teaser.jpg)
+*Image removed: external*
 
 ### Introduction to Expense Check
 
@@ -151,7 +151,7 @@ Expense verification used to take days, but can now be done in minutes through o
 
 [
 
-![](https://images.ctfassets.net/tmqu5vj33f7w/43FQFLeWN4nSCdTnLRCruc/a11475077418c4e30b90494d409ec7bb/Risk-insights-introduction-teaser1c.jpg)
+*Image removed: external*
 
 ### Introduction to Risk Insights
 
@@ -165,7 +165,7 @@ Risk Insights provides lenders with sophisticated features based on real-time da
 
 [
 
-![](https://images.ctfassets.net/tmqu5vj33f7w/23yV64YteRt7JVFk1rfThZ/5aaf5152151a0e095f1d80b1f0598f5f/Data-enrichment.png)
+*Image removed: external*
 
 ### Introduction to Data Enrichment
 
@@ -179,7 +179,7 @@ Create more innovative features and develop enhanced digital banking experiences
 
 [
 
-![](https://images.ctfassets.net/tmqu5vj33f7w/4TlR8wSBxk8oTOMEnFjEYA/fab6cf0b429c661fa85677569479651f/money-manager-teaser1c.jpg)
+*Image removed: external*
 
 ### Introduction to Money Manager
 

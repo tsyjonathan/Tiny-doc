@@ -9,7 +9,7 @@ exportedAt: "2026-01-13T12:40:10.433Z"
 
 Fetch real time holding data from investment and pension accounts
 
-![](https://images.ctfassets.net/tmqu5vj33f7w/pOSVmieo02rOWMicPrF0z/6a860a47689bf300389c38b9c992f9f0/Investments-introduction-teaser3c.png)
+*Image removed: external*
 
 
 
@@ -21,7 +21,7 @@ Fetch real time holding data from investment and pension accounts
 
 [
 
-![](https://images.ctfassets.net/tmqu5vj33f7w/5ign2dFwFZzxI596mJIxbo/2e009f33f4ff3a46da9d9ae5451cae9f/transactions-continuous-access-teaser.jpg)
+*Image removed: external*
 
 ### Continuous access to a bank account
 
@@ -35,7 +35,7 @@ Learn how to get continuous access to a user’s bank account
 
 [
 
-![](https://images.ctfassets.net/tmqu5vj33f7w/71m3duCYcnfOIWYX5v6DYM/ab1925779f14947130f01f2ff87bce22/transactions-refreshing-data-teaser.jpg)
+*Image removed: external*
 
 ### Refresh data
 
@@ -49,7 +49,7 @@ Refresh data when using continuous access
 
 [
 
-![](https://images.ctfassets.net/tmqu5vj33f7w/7bLAeopeNUFmVF0rED9Zql/9bb440a4d453b1b6c65ed26fa50edcfe/transactions-manage-consent-teaser.jpg)
+*Image removed: external*
 
 ### Manage consents
 
@@ -63,7 +63,7 @@ Learn how to manage, update and delete consents for your users
 
 [
 
-![](https://images.ctfassets.net/tmqu5vj33f7w/3B6rP6sjgKBw2BbvXWKX0z/73cbb7ec6b0d58ea163b9067082e9817/demo-bank-testing.jpg)
+*Image removed: external*
 
 ### Test different Investments scenarios
 
@@ -77,7 +77,7 @@ Test your integration by using demo credentials.
 
 [
 
-![](https://images.ctfassets.net/tmqu5vj33f7w/KXrtffka9BXEsbJKYrPZK/460bea9658bd1e680c1fda572047e76c/Error_codes_-_Small_card.png)
+*Image removed: external*
 
 ### Provider Consent Errors
 
@@ -91,7 +91,7 @@ Breakdown of errors for the Provider Consents API.
 
 [
 
-![](https://images.ctfassets.net/tmqu5vj33f7w/3GbXBgyYve9iXJg9O3V31/55de5e4223196adb57e48c6f8cf9612b/Investments-multiple-products.png)
+*Image removed: external*
 
 ### Combine multiple products
 
@@ -117,7 +117,7 @@ Quickly get access to investment data
 
 [
 
-![](https://images.ctfassets.net/tmqu5vj33f7w/4LxRNYvsyTzhqSH4fDxk3O/be6d28f0b4146e16aee014ba9453f7c2/account-check-SDK-reference.jpg)
+*Image removed: external*
 
 ### SDK reference
 
@@ -131,7 +131,7 @@ Parameters, responses, versions and market availability for the Investments SDK.
 
 [
 
-![](https://images.ctfassets.net/tmqu5vj33f7w/4nbQXZULzkfjQv6y0ofrUc/abaa6eadf7993e7354cf95afe89eb7fe/transactions-postman.jpg)
+*Image removed: external*
 
 ### Postman collection
 

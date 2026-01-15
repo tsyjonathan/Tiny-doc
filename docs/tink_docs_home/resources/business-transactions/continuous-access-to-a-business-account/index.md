@@ -14,7 +14,7 @@ To interact with the Tink API, you need to first authorize your backend client u
 Request example
 
 ```
-curl -v -X POST https://api.tink.com/api/v1/oauth/token \
+curl -v -X POST [external url removed] \
   -d 'client_id=' \
   -d 'client_secret=' \
   -d 'grant_type=client_credentials' \
@@ -41,7 +41,7 @@ Now that you have a client access token, you can create your first user. This us
 Request example
 
 ```
-curl -v -X POST https://api.tink.com/api/v1/user/create \
+curl -v -X POST [external url removed] \
   -H 'Authorization: Bearer ' \
   -H 'Content-Type: application/json' \
   -d '
@@ -69,7 +69,7 @@ Similar to Step 1, you need to authorize access by generating a new access\_toke
 Request example
 
 ```
-curl -v -X POST https://api.tink.com/api/v1/oauth/token \
+curl -v -X POST [external url removed] \
   -H 'scope=authorization:grant' \
   -d 'client_id=' \
   -d 'client_secret=' \
@@ -96,7 +96,7 @@ To delegate, you must use a client access token with the scope `authorization:gr
 Request example
 
 ```
-curl -v -X POST https://api.tink.com/api/v1/oauth/authorization-grant/delegate \
+curl -v -X POST [external url removed] \
   -H 'Authorization: Bearer ' \
   -d 'response_type=code' \
   -d 'actor_client_id=df05e4b379934cd09963197cc855bfe9' \
@@ -125,14 +125,14 @@ We also advise using the state parameter when constructing the URL, as this is r
 URL example
 
 ```
-https://link.tink.com/1.0/business-transactions/connect-accounts?client_id=&state=&redirect_uri=https://console.tink.com/callback&authorization_code=&market=GB
+[external url removed]
 ```
 
 > The parameter **state** is optional. It can be included in the initial Tink URL, and will be returned back to you as-is once the user returns to your stated redirect\_url. Use this value to further redirect the user to a specific location within your app, and for CSRF attack prevention.
 
 Once you’ve created a Tink URL, you can authenticate yourself at the many banks and financial institutions that Tink supports. You can either use your own bank credentials or use test credentials via [Demo Bank](/Tiny-doc/tink_docs_home/resources/console/demo-bank/).
 
-![transactions-flow-example](https://images.ctfassets.net/tmqu5vj33f7w/3wWVoQiT8tq9Fpc8nPaETA/9bba00a95828824edfb81d969ccf5544/transactions-flow-example.gif)
+*Image removed: transactions-flow-example*
 
 After completing the Tink flow, the user will be redirected to the redirect URL.
 
@@ -147,7 +147,7 @@ If you don’t include the state parameter in your original Tink URL, it won’t
 **Example callback**
 
 ```
-https://yourdomain.com/callback?credentialsId=e5331af8d98f4c58800960202b6ec50d&state={OPTIONAL_STATE_CODE_THAT_YOU_SPECIFIED}
+[external url removed]
 ```
 
 ## 4\. Fetch user data[](#fetch-user-data)
@@ -161,7 +161,7 @@ The next step is to obtain a user access token. This is done in two parts: first
 Generate authorization\_code
 
 ```
-curl -X POST https://api.tink.com/api/v1/oauth/authorization-grant \
+curl -X POST [external url removed] \
   -H 'Authorization: Bearer ' \
   -d 'user_id=' \
   -d 'external_user_id=' \
@@ -181,7 +181,7 @@ Once you have obtained the authorization\_code, you can exchange it for a user a
 Obtain user access token
 
 ```
-curl -v -X POST https://api.tink.com/api/v1/oauth/token \
+curl -v -X POST [external url removed] \
   -d 'code=' \
   -d 'client_id=' \
   -d 'client_secret=' \

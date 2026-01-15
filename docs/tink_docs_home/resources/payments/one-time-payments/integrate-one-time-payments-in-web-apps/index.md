@@ -10,7 +10,7 @@ You will first need to construct a URL to launch the SDK flow. In Console, you c
 ### Example URL[](#example-url)
 
 ```
-https://link.tink.com/1.0/pay/direct?client_id={YOUR_CLIENT_ID}&market=SE&locale=en_US&payment_request_id={YOUR_PAYMENT_REQUEST_ID}&redirect_uri=https%3A%2F%myapp.com%2Fcallback
+[external url removed]
 ```
 
 > **NOTE:** Make sure to replace {YOUR\_CLIENT\_ID} in the URL with your `client_id` value from Console, and replace the {PAYMENT\_REQUEST\_ID} with the `payment_request_id` for this payment.

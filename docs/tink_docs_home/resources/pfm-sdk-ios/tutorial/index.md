@@ -7,16 +7,16 @@ exportedAt: "2026-01-13T13:00:07.671Z"
 
 ### Swift Package Manager[](#swift-package-manager)
 
-1.  Follow these instructions to [link a target to a package product](https://help.apple.com/xcode/mac/current/#/devb83d64851).
+1.  Follow these instructions to link a target to a package product.
     
-2.  Enter this URL `https://github.com/tink-ab/tink-money-manager-ios` when asked for a package repository.
+2.  Enter this URL `[external url removed] when asked for a package repository.
     
 3.  When Xcode is done resolving `tink-pfm-ios` and asks you to choose package products, select `TinkMoneyManagerUI`.
     
 
 ### Using CocoaPods[](#using-cocoapods)
 
-Refer to their [guide](https://guides.cocoapods.org/using/using-cocoapods.html) for usage and installation instructions.
+Refer to their guide for usage and installation instructions.
 
 1.  Add `TinkMoneyManagerUI` to your Podfile.
     
@@ -35,7 +35,7 @@ Drag the `TinkMoneyManagerUI.xcframework` and `TinkCore.xcframework` into the _F
 
 You should now be able to `import TinkMoneyManagerUI` within your project.
 
-![Target settings in Xcode](https://images.ctfassets.net/tmqu5vj33f7w/77dT7Z5BtbAOydGUUj1E3a/bc2e4e1fe3895243aafee3617d00316d/xcode-add-framework.png)
+*Image removed: Target settings in Xcode*
 
 ## Initialization[](#initialization)
 

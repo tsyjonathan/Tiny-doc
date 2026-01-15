@@ -3,7 +3,7 @@ title: "Finance overview for Android - Tink Docs"
 source: "/Tiny-doc/tink_docs_home/resources/money-manager-android/pfm-sdk-android-finance-overview/"
 exportedAt: "2026-01-13T12:59:00.669Z"
 ---
-![Tink Money Manager Financial Overview](https://images.ctfassets.net/tmqu5vj33f7w/7cxvxH6AVvX2poBuEYGvPK/8bbcaa9e5852e2649e68c67873e5c18f/overview.png)
+*Image removed: Tink Money Manager Financial Overview*
 
 ## Overview[](#overview)
 

@@ -18,7 +18,7 @@ To get the savings goals categories you need to send a request to the [Savings G
 Example request
 
 ```
-curl -X GET 'https://api.tink.com/api/v1/savings-goals/categories' \
+curl -X GET '[external url removed]' \
 -H 'Authorization: Bearer '
 ```
 
@@ -50,7 +50,7 @@ For this guide, we will call it 'Summer Holiday.' And we will assume the user wa
 Example request
 
 ```
-curl -X POST 'https://api.tink.com/api/v1/savings-goals' \
+curl -X POST '[external url removed]' \
 -H 'Authorization: Bearer {YOUR_USER_ACCESS_TOKEN}' \
 -H 'Content-Type: application/json' \
 --data-raw '{

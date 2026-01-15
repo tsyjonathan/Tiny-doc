@@ -3,7 +3,7 @@ title: "Transactions for Android - Tink Docs"
 source: "/Tiny-doc/tink_docs_home/resources/money-manager/money-manager-android/sdk-transactions/"
 exportedAt: "2026-01-13T12:51:48.964Z"
 ---
-![Transactions](https://images.ctfassets.net/tmqu5vj33f7w/7z7V56kuONslJwKR2WsUXg/5c6364d52c60598f0f7ecdaf7f87abe3/6_Android.png)
+*Image removed: Transactions*
 
 ## Overview[](#overview)
 
@@ -41,4 +41,4 @@ val transactionsEntryPoint = EntryPoint.Transactions(
 )
 ```
 
-Refer to the API [documentation](https://tink-ab.github.io/tink-money-manager-android/-tink%20-money%20-manager%20-s-d-k/com.tink.moneymanagerui.entrypoints/-entry-point/-transactions/index.html) for the `EntryPoint.Transactions` class for more details on what kind of querying you can do.
+Refer to the API documentation for the `EntryPoint.Transactions` class for more details on what kind of querying you can do.

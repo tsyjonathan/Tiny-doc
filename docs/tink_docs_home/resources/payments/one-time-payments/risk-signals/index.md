@@ -23,7 +23,7 @@ Tink configures Risk Signals as a service, so you don’t need to do any specifi
 
 Risk Signals checks include velocity controls, balance verification and checks on the payer’s transaction history. The specific checks and configuration that Tink uses will depend on your use case.
 
-![Risk Signals flow](https://images.ctfassets.net/tmqu5vj33f7w/imA7HLyJ3MoswOn6Xq8jw/fd37c91acb54ff586aab4d6761656cac/Risk_signals_flow.jpg)
+*Image removed: Risk Signals flow*
 
 The Risk Signals checks are executed right after the user has selected their bank account in the Payments journey and has done their first strong customer authentication for [AIS+PIS markets & flows](/Tiny-doc/tink_docs_home/resources/payments/one-time-payments/payments-flow-optimization-overview/).
 
@@ -40,7 +40,7 @@ When this feature is enabled, you can pass in the account holder’s name and/or
 Example payment request with a sender
 
 ```
-curl -v -X POST https://api.tink.com/api/v1/payments/requests \ 
+curl -v -X POST [external url removed] \ 
    -H 'Authorization: Bearer ' \ 
    -H 'Content-Type: application/json' \ 
    -d '{ 

@@ -5,7 +5,7 @@ exportedAt: "2026-01-13T12:58:57.737Z"
 ---
 ## Installation[](#installation)
 
-1.  Download the [latest SDK release](https://github.com/tink-ab/tink-money-manager-android/releases/latest) zip file.
+1.  Download the latest SDK release zip file.
 2.  Unzip and take the `com` folder (containing the SDK's local maven dependencies) and put it in `~/.m2/repository/`.
 3.  Add `mavenLocal()` as repository in your root level build.gradle file.
 
@@ -54,11 +54,11 @@ compileOptions {
         TinkConfiguration(
             environment = Environment.Production, // Or define your own environment
             oAuthClientId = "yourKey", // Your clientId. Retrieve it from console.tink.com,
-            redirectUri = "https://localhost:3000/callback" // [1]
+            redirectUri = "[external url removed]" // [1]
         )
     ```
     
-    `[1]` _This is only required if you also use Tink Link in your application. Please follow the [third party authentication guide](/Tiny-doc/tink_docs_home/resources/tutorials/tink-link-sdk-android-tutorial/#third-party-authentication) to set this up. Otherwise, this can be just set to `https://localhost:3000/callback` as shown in the sample above. We will be working on improving this setup and making this field optional in the future._
+    `[1]` _This is only required if you also use Tink Link in your application. Please follow the [third party authentication guide](/Tiny-doc/tink_docs_home/resources/tutorials/tink-link-sdk-android-tutorial/#third-party-authentication) to set this up. Otherwise, this can be just set to `[external url removed] as shown in the sample above. We will be working on improving this setup and making this field optional in the future._
     
 2.  Initialize Tink in your application:
     

@@ -8,7 +8,7 @@ This reference describes the parameters, success and error responses, and market
 Risk Insights base URL
 
 ```
-https://link.tink.com/1.0/risk-insights/create-report
+[external url removed]
 ```
 
 ## URL parameters[](#url-parameters)
@@ -17,8 +17,8 @@ Use these parameters when building the SDK URL. Then, integrate the URL into you
 
 | Parameter | Required | Description |
 | --- | --- | --- |
-| `client_id` | Required | Your client ID (retrieved from [Console](https://console.tink.com/)). |
-| `redirect_uri` | Required | The page the end-user is redirected to after completing the flow together with the response parameters (configured in [Console](https://console.tink.com/)). |
+| `client_id` | Required | Your client ID (retrieved from Console). |
+| `redirect_uri` | Required | The page the end-user is redirected to after completing the flow together with the response parameters (configured in Console). |
 | `app_uri` | Optional | The deep link for an Android or iOS hosting app. Use when Tink Link is embedded in an [Android](/Tiny-doc/tink_docs_home/resources/payments/one-time-payments/integrate-one-time-payments-in-android-apps/)/[iOS](/Tiny-doc/tink_docs_home/resources/payments/one-time-payments/integrate-one-time-payments-in-ios-apps/) app to redirect the user back to the hosting app after authenticating in a third-party app (such as Mobile Bank ID). |
 | `auto_redirect_mobile` | Optional, but recommended for mobile integrations | Use for [Android](/Tiny-doc/tink_docs_home/resources/payments/one-time-payments/integrate-one-time-payments-in-android-apps/) or [iOS](/Tiny-doc/tink_docs_home/resources/payments/one-time-payments/integrate-one-time-payments-in-ios-apps/) integrations. When `TRUE`, this will directly open the bank app during the authentication step if installed on the user's device or otherwise fall back to a web-based authentication flow in the system's default browser. |
 | `external_reference` | Optional | The external reference identifier to be included in the report. Allowed characters: uppercase or lowercase formatting, letters, numbers, and the dash character. Maximum length: 50 characters. |
@@ -33,7 +33,7 @@ Use these parameters when building the SDK URL. Then, integrate the URL into you
 Example URL
 
 ```
-https://link.tink.com/1.0/risk-insights/create-report?client_id=&redirect_uri=http://localhost:3000/callback&market=GB
+[external url removed]
 ```
 
 ## Success response parameters[](#success-response-parameters)
@@ -48,7 +48,7 @@ Tink appends the following parameters to the `redirect_uri` after a successful S
 Example success response
 
 ```
-http://localhost:3000/callback?risk_insights_id=6915ab99857fec1e6f2f6c078
+[external url removed]
 ```
 
 ## Error response parameters[](#error-response-parameters)
@@ -69,7 +69,7 @@ Tink appends the following parameters to the `redirect_uri` if the SDK journey e
 Example error response
 
 ```
-http://localhost:3000/callback?
+[external url removed]
     error=BAD_REQUEST&
     error_reason=INVALID_PARAMETER_CLIENT_ID&
     message=We%E2%80%99re%20sorry%2C%20but%20an%20error%20has%20occurred.&

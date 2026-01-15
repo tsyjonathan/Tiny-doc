@@ -3,7 +3,7 @@ title: "Recommended budgets for iOS - Tink Docs"
 source: "/Tiny-doc/tink_docs_home/resources/money-manager-ios/recommended-budgets-for-ios-pfm-sdk/"
 exportedAt: "2026-01-13T13:01:54.386Z"
 ---
-![Recommended Budgets](https://images.ctfassets.net/tmqu5vj33f7w/2yjEKnqFJvcDkorG1Ro3CG/de0d4bad116da67e750f38e7572a1023/iOS-Recommended-Budgets.png)
+*Image removed: Recommended Budgets*
 
 ## Overview[](#overview)
 

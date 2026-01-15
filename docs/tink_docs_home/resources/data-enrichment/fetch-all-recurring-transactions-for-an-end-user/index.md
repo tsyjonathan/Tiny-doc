@@ -9,7 +9,7 @@ To fetch the user’s recurring transactions, call the `/enrichment/v1/recurring
 
 ```
 curl -X 'GET' \
-'https://api.tink.com/enrichment/v1/recurring-transactions’ \
+'[external url removed] \
   -H 'Authorization: Bearer '
   -H 'accept: application/json'
 ```
@@ -18,7 +18,7 @@ If you want to restrict the results to a single recurring transaction group, you
 
 ```
 curl -X 'GET' \
-'https://api.tink.com/enrichment/v1/recurring-transactions?groupId=’ \
+'[external url removed] \
   -H 'Authorization: Bearer '
   -H 'accept: application/json'
 ```

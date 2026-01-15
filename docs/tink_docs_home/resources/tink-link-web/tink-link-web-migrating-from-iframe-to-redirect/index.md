@@ -10,8 +10,8 @@ Using Tink Link with a redirect integration provides a more linear user journey,
 Start by removing the `iframe=true` parameter from your existing Tink Link URL.
 
 ```
-- https://link.tink.com/1.0/transactions/connect-accounts?client_id={YOUR_CLIENT_ID}&redirect_uri=http://localhost:3000/callback&market=GB&iframe=true
-+ https://link.tink.com/1.0/transactions/connect-accounts?client_id={YOUR_CLIENT_ID}&redirect_uri=http://localhost:3000/callback&market=GB
+- [external url removed]
++ [external url removed]
 ```
 
 ## 2\. Change how you launch Tink Link[](#change-how-you-launch-tink-link)
@@ -39,7 +39,7 @@ With the changes above, you will no longer receive the Tink Link success or erro
 This `redirect_uri` can be:
 
 -   a redirect back to your web app where you process the response and asynchronously communicate with your backend service
--   a [universal link](https://developer.apple.com/ios/universal-links/), [app link](https://developer.android.com/training/app-links) or deep link to your mobile app where you process the response and asynchronously communicate with your backend service
+-   a universal link, app link or deep link to your mobile app where you process the response and asynchronously communicate with your backend service
 -   alternatively an API endpoint to your backend service where you process the response and redirect back to your application
 
 For the exact response format and parameters see the [Tink Link Reference](/Tiny-doc/tink_docs_home/resources/tink-link-web/) for your respective product and journey.

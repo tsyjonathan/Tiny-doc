@@ -29,12 +29,12 @@ The following table shows different markets and which account types, schemes, sc
 | Switzerland | IBAN[1](#Sup1) | Swiss domestic credit transfer, SEPA Credit Transfer | UNSTRUCTURED[3](#Sup3) |
 | United Kingdom | SORT-CODE[5](#Sup5) | Faster Payments, CHAPS, BACS | UNSTRUCTURED[3](#Sup3), REFERENCE[4](#Sup4) |
 
-1 IBAN: International Bank Account Number. Consists of up to 34 alphanumeric characters. For more information, see [IBAN: Structure](https://en.wikipedia.org/wiki/International_Bank_Account_Number#Structure).  
-2 BBAN: Basic Bank Account Number. The format is decided by the national central bank or designated payment authority of each country. For more information, see [IBAN: Basic Bank Account Number](https://en.wikipedia.org/wiki/International_Bank_Account_Number#Basic_Bank_Account_Number).  
+1 IBAN: International Bank Account Number. Consists of up to 34 alphanumeric characters. For more information, see IBAN: Structure.  
+2 BBAN: Basic Bank Account Number. The format is decided by the national central bank or designated payment authority of each country. For more information, see IBAN: Basic Bank Account Number.  
 3 An UNSTRUCTURED remittance value can contain up to 140 alphanumeric characters.  
 4 A REFERENCE remittance value can contain up to 18 alphanumeric characters.  
 5 A SORT-CODE account-type value must contain 6 numeric characters.  
-6 A Finnish reference number is 4—20 digits long. For more information, see Finance Finland's (PDF) report, _[Forming a Finnish Reference Number](https://www.finanssiala.fi/wp-content/uploads/2021/03/Forming_a_Finnish_reference_number.pdf)_.
+6 A Finnish reference number is 4—20 digits long. For more information, see Finance Finland's (PDF) report, _Forming a Finnish Reference Number_.
 
 ## Examples to create payment requests[](#examples-to-create-payment-requests)
 
@@ -51,7 +51,7 @@ The supported **remittance formats** are `REFERENCE` (limited to 18 characters d
 Create a payment request in UK
 
 ```
-curl -X POST https://api.tink.com/api/v1/payments/requests \
+curl -X POST [external url removed] \
    -H 'Authorization: Bearer ' \
    -H 'Content-Type: application/json' \
    -d '{
@@ -79,7 +79,7 @@ The **account numbers** must be filled in without dashes or spaces.
 Create a payment request in Sweden
 
 ```
-curl -v -X POST https://api.tink.com/api/v1/payments/requests \
+curl -v -X POST [external url removed] \
    -H 'Authorization: Bearer ' \
    -H 'Content-Type: application/json' \
    -d '{
@@ -104,7 +104,7 @@ curl -v -X POST https://api.tink.com/api/v1/payments/requests \
 Create a payment request in France
 
 ```
-curl -v -X POST https://api.tink.com/api/v1/payments/requests \
+curl -v -X POST [external url removed] \
    -H 'Authorization: Bearer ' \
    -H 'Content-Type: application/json' \
    -d '
@@ -130,7 +130,7 @@ curl -v -X POST https://api.tink.com/api/v1/payments/requests \
 Create an account-to-account payment request in Portugal
 
 ```
-curl -v -X POST https://api.tink.com/api/v1/payments/requests \
+curl -v -X POST [external url removed] \
    -H 'Authorization: Bearer ' \
    -H 'Content-Type: application/json' \
    -d '
@@ -154,7 +154,7 @@ curl -v -X POST https://api.tink.com/api/v1/payments/requests \
 Create a Multibanco payment request in Portugal
 
 ```
-curl -v -X POST https://api.tink.com/api/v1/payments/requests \
+curl -v -X POST [external url removed] \
    -H 'Authorization: Bearer ' \
    -H 'Content-Type: application/json' \
    -d '
@@ -180,7 +180,7 @@ curl -v -X POST https://api.tink.com/api/v1/payments/requests \
 Create a payment request in Ireland
 
 ```
-curl -v -X POST https://api.tink.com/api/v1/payments/requests \
+curl -v -X POST [external url removed] \
    -H 'Authorization: Bearer ' \
    -H 'Content-Type: application/json' \
    -d '{
@@ -206,7 +206,7 @@ curl -v -X POST https://api.tink.com/api/v1/payments/requests \
 Create a payment request in Italy
 
 ```
-curl -v -X POST https://api.tink.com/api/v1/payments/requests \
+curl -v -X POST [external url removed] \
    -H 'Authorization: Bearer ' \
    -H 'Content-Type: application/json' \
    -d '{
@@ -232,7 +232,7 @@ curl -v -X POST https://api.tink.com/api/v1/payments/requests \
 Create a payment request in Germany
 
 ```
-curl -v -X POST https://api.tink.com/api/v1/payments/requests \
+curl -v -X POST [external url removed] \
    -H 'Authorization: Bearer ' \
    -H 'Content-Type: application/json' \
    -d '{
@@ -258,7 +258,7 @@ curl -v -X POST https://api.tink.com/api/v1/payments/requests \
 Create a payment request in Spain
 
 ```
-curl -v -X POST https://api.tink.com/api/v1/payments/requests \
+curl -v -X POST [external url removed] \
    -H 'Authorization: Bearer ' \
    -H 'Content-Type: application/json' \
    -d '{
@@ -284,7 +284,7 @@ curl -v -X POST https://api.tink.com/api/v1/payments/requests \
 Create a payment request in Finland
 
 ```
-curl -v -X POST https://api.tink.com/api/v1/payments/requests \
+curl -v -X POST [external url removed] \
    -H 'Authorization: Bearer ' \
    -H 'Content-Type: application/json' \
    -d '{
@@ -310,7 +310,7 @@ For payments to **Aktia**, you also need to include the [RecipientDTO](/Tiny-doc
 Create a payment request to Aktia
 
 ```
-curl -v -X POST https://api.tink.com/api/v1/payments/requests \
+curl -v -X POST [external url removed] \
    -H 'Authorization: Bearer ' \
    -H 'Content-Type: application/json' \
    -d '{
@@ -329,7 +329,7 @@ curl -v -X POST https://api.tink.com/api/v1/payments/requests \
 Create a payment request in Austria
 
 ```
-curl -v -X POST https://api.tink.com/api/v1/payments/requests \
+curl -v -X POST [external url removed] \
    -H 'Authorization: Bearer ' \
    -H 'Content-Type: application/json' \
    -d '{
@@ -361,7 +361,7 @@ In addition, for Revolut only, the supported **payment schemes** are `SEPA_CREDI
 Create a payment request in Norway
 
 ```
-curl -v -X POST https://api.tink.com/api/v1/payments/requests \
+curl -v -X POST [external url removed] \
    -H 'Authorization: Bearer ' \
    -H 'Content-Type: application/json' \
    -d '{
@@ -387,7 +387,7 @@ curl -v -X POST https://api.tink.com/api/v1/payments/requests \
 Create a payment request in Lithuania
 
 ```
-curl -v -X POST https://api.tink.com/api/v1/payments/requests \
+curl -v -X POST [external url removed] \
    -H 'Authorization: Bearer ' \
    -H 'Content-Type: application/json' \
    -d '{
@@ -413,7 +413,7 @@ curl -v -X POST https://api.tink.com/api/v1/payments/requests \
 Create a payment request in Estonia
 
 ```
-curl -v -X POST https://api.tink.com/api/v1/payments/requests \
+curl -v -X POST [external url removed] \
    -H 'Authorization: Bearer ' \
    -H 'Content-Type: application/json' \
    -d '{
@@ -439,7 +439,7 @@ curl -v -X POST https://api.tink.com/api/v1/payments/requests \
 Create a payment request in Netherlands
 
 ```
-curl -v -X POST https://api.tink.com/api/v1/payments/requests \
+curl -v -X POST [external url removed] \
    -H 'Authorization: Bearer ' \
    -H 'Content-Type: application/json' \
    -d '{
@@ -467,7 +467,7 @@ The supported **payment schemes** are `SWISS_DOMESTIC_CREDIT_TRANSFER` (local cl
 Create a Swiss domestic credit payment request in Switzerland
 
 ```
-curl -v -X POST https://api.tink.com/api/v1/payments/requests \
+curl -v -X POST [external url removed] \
    -H 'Authorization: Bearer ' \
    -H 'Content-Type: application/json' \
    -d '{
@@ -492,7 +492,7 @@ curl -v -X POST https://api.tink.com/api/v1/payments/requests \
 Create a payment request in Poland
 
 ```
-curl -v -X POST https://api.tink.com/api/v1/payments/requests \
+curl -v -X POST [external url removed] \
    -H 'Authorization: Bearer ' \
    -H 'Content-Type: application/json' \
    -d '{
@@ -518,7 +518,7 @@ curl -v -X POST https://api.tink.com/api/v1/payments/requests \
 Create a payment request in Denmark
 
 ```
-curl -v -X POST https://api.tink.com/api/v1/payments/requests \
+curl -v -X POST [external url removed] \
    -H 'Authorization: Bearer ' \
    -H 'Content-Type: application/json' \
    -d '{

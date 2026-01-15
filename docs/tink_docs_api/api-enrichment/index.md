@@ -195,19 +195,19 @@ The ZIP code of the merchant.
       "merchantInformation": {
         "brand": {
           "contact": {
-            "website": "https://..."
+            "website": "[external url removed]"
           },
-          "iconUri": "https://...",
+          "iconUri": "[external url removed]",
           "id": "02820044-69f5-4170-a516-fbeae6450f7a",
-          "logoUri": "https://...",
+          "logoUri": "[external url removed]",
           "name": "Tink"
         },
         "merchant": {
           "contact": {
             "phone": "+46....",
-            "website": "https://..."
+            "website": "[external url removed]"
           },
-          "iconUri": "https://...",
+          "iconUri": "[external url removed]",
           "id": "02820044-69f5-4170-a516-fbeae6450f7a",
           "location": {
             "city": "Stockholm",
@@ -217,7 +217,7 @@ The ZIP code of the merchant.
             "postalCode": "11122",
             "street": "Tink Street"
           },
-          "logoUri": "https://...",
+          "logoUri": "[external url removed]",
           "name": "Tink"
         }
       }
@@ -534,10 +534,10 @@ Get up to 50 similar transactions to the specified transaction.
       "enrichedData": {
         "brandIdentification": {
           "id": "8948045b-d163-4d03-b9ec-3d5237a4550a",
-          "logoUri": "https://tink.com/tesco/logo.png",
+          "logoUri": "[external url removed]",
           "merchant": {
             "id": "8948045b-d163-4d03-b9ec-3d5237a4550a",
-            "logoUri": "https://tink.com/tesco/logo.png",
+            "logoUri": "[external url removed]",
             "name": "Tesco Store 2nd Street"
           },
           "name": "Tesco Stores",
@@ -943,10 +943,10 @@ If not provided, the time range extends until today.
       "enrichedData": {
         "brandIdentification": {
           "id": "8948045b-d163-4d03-b9ec-3d5237a4550a",
-          "logoUri": "https://tink.com/tesco/logo.png",
+          "logoUri": "[external url removed]",
           "merchant": {
             "id": "8948045b-d163-4d03-b9ec-3d5237a4550a",
-            "logoUri": "https://tink.com/tesco/logo.png",
+            "logoUri": "[external url removed]",
             "name": "Tesco Store 2nd Street"
           },
           "name": "Tesco Stores",
@@ -1323,10 +1323,10 @@ List of IDs to retrieve enriched transaction data for. Maximum of 2500 IDs allow
       "enrichedData": {
         "brandIdentification": {
           "id": "8948045b-d163-4d03-b9ec-3d5237a4550a",
-          "logoUri": "https://tink.com/tesco/logo.png",
+          "logoUri": "[external url removed]",
           "merchant": {
             "id": "8948045b-d163-4d03-b9ec-3d5237a4550a",
-            "logoUri": "https://tink.com/tesco/logo.png",
+            "logoUri": "[external url removed]",
             "name": "Tesco Store 2nd Street"
           },
           "name": "Tesco Stores",
@@ -1815,10 +1815,10 @@ The response will include the brand's name, logo and contact information.
 {
   "brand": {
     "contact": {
-      "website": "https://spotify.com"
+      "website": "[external url removed]"
     },
     "id": "02820044-69f5-4170-a516-fbeae6450f7a",
-    "logoUri": "https://cdn.tink.com/brands/spotify.svg",
+    "logoUri": "[external url removed]",
     "name": "Spotify"
   }
 }
@@ -1903,7 +1903,7 @@ The response will include the merchant's name, logo, location and contact inform
   "merchant": {
     "contact": {
       "phone": "+46-8-123456",
-      "website": "https://spotify.com"
+      "website": "[external url removed]"
     },
     "id": "02820044-69f5-4170-a516-fbeae6450f7a",
     "location": {
@@ -1916,7 +1916,7 @@ The response will include the merchant's name, logo, location and contact inform
       "coordinates": "59.33282, 18.05669",
       "googlePlacesId": "ChIJs5ydyTiuEmsR0fRSlU0C7k0"
     },
-    "logoUri": "https://cdn.tink.com/brands/spotify.svg",
+    "logoUri": "[external url removed]",
     "name": "Spotify Stockholm Store"
   }
 }

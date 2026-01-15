@@ -24,12 +24,12 @@ The URL include these parameters:
 Tink URL example
 
 ```
-https://link.tink.com/1.0/account-check/connect?client_id=&state=&redirect_uri=https://console.tink.com/callback&market=SE&locale=en_US
+[external url removed]
 ```
 
-When the end user opens a Tink URL, they're prompted to authenticate with their bank and then choose a bank account. To test the Tink URL, find demo-user credentials in **Console** > **[Demo Bank](https://console.tink.com/demobank)**. Select the username and password for a Demo Bank user that suits your use case.
+When the end user opens a Tink URL, they're prompted to authenticate with their bank and then choose a bank account. To test the Tink URL, find demo-user credentials in **Console** > **Demo Bank**. Select the username and password for a Demo Bank user that suits your use case.
 
-![transactions-flow-example](https://images.ctfassets.net/tmqu5vj33f7w/3wWVoQiT8tq9Fpc8nPaETA/9bba00a95828824edfb81d969ccf5544/transactions-flow-example.gif)
+*Image removed: transactions-flow-example*
 
 When the Tink flow is completed, the end user is redirected to the redirect URL.
 
@@ -44,7 +44,7 @@ If you don't include the `state` parameter in your Tink URL, it won’t be inclu
 **Example callback URL**
 
 ```
-https://console.tink.com/callback?client_id=&df05e4b379934cd09963197cc855bfe8&credentials_id=e5331af8d98f4c58800960202b6ec50d&state={OPTIONAL_STATE_CODE_THAT_YOU_SPECIFIED}&redirect_uri=https://console.tink.com/callback&account_verification_report_id=f7331af8d28f4c54800920202b6ec80b
+[external url removed]
 ```
 
 ### 1.2 Fetch the report[](#fetch-the-report)
@@ -55,7 +55,7 @@ You will receive an `account_verification_report_id` back. Use that ID to fetch 
 
 ```
 Authenticate your client
-curl -X POST https://api.tink.com/api/v1/oauth/token \
+curl -X POST [external url removed] \
 -d 'client_id=' \
 -d 'client_secret=' \
 -d 'grant_type=client_credentials' \
@@ -79,7 +79,7 @@ To fetch report JSON data based on a report identifier, see the [Account Verific
 
 ```
 Fetch your Account Check report in JSON
-curl -X GET https://api.tink.com/api/v1/account-verification-reports/ \
+curl -X GET [external url removed] \
   -H 'Authorization: Bearer '
 ```
 
@@ -94,7 +94,7 @@ To fetch the balance of the account, generate a token and then call the [API](/T
 Get balances
 
 ```
-curl GET https://api.tink.com/data/v2/accounts/{id}/balances \
+curl GET [external url removed] \
 -H 'Authorization: Bearer ' \
 ```
 

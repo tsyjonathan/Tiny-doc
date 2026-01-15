@@ -23,7 +23,7 @@ The only fields that are required in the request body are the following:
 Example request:
 
 ```
-curl -X POST 'https://api.tink.com/api/v1/budgets/recurring' \
+curl -X POST '[external url removed]' \
 -H 'Authorization: Bearer {YOUR_USER_ACCESS_TOKEN}' \
 -H 'Content-Type: application/json' \
 --data-raw '{

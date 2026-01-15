@@ -7,7 +7,7 @@ The bank selection screen is the first step of the payment flow in Tink Link for
 
 This step can be skipped if you already know the user’s bank account provider and can populate it as a parameter, streamlining the payment flow for the user.
 
-![Flow optimization - bankID-1](https://images.ctfassets.net/tmqu5vj33f7w/4oEA60Z8bQ1QdAn6ld9t5z/ed0359ae51b1399e3b381b599226b845/Flow_optimization_-_bankID-1.png)
+*Image removed: Flow optimization - bankID-1*
 
 ## Hosting the screen in Tink Link[](#hosting-the-screen-in-tink-link)
 
@@ -15,7 +15,7 @@ This is the default setting when implementing Tink Link for web. The screen abov
 
 ## Hosting the screen in your own app[](#hosting-the-screen-in-your-own-app)
 
-You can alternatively build and host the bank selection screen in your own app. First step is to list the banks that are enabled for Payments by using the [provider endpoint](/Tiny-doc/tink_docs_api/api/#connectivity/provider/list-providers-for-a-market) with the TRANSFER capability as parameter: `https://api.tink.com/api/v1/providers/GB?capability=TRANSFERS`. This will return the proper subset of providers that will be available to do payments for the specific market.
+You can alternatively build and host the bank selection screen in your own app. First step is to list the banks that are enabled for Payments by using the [provider endpoint](/Tiny-doc/tink_docs_api/api/#connectivity/provider/list-providers-for-a-market) with the TRANSFER capability as parameter: `[external url removed] This will return the proper subset of providers that will be available to do payments for the specific market.
 
 Then you can populate the `input_provider` parameter as described [here](/Tiny-doc/tink_docs_home/resources/payments/start-payment/#construct-a-payment-link), the user lands directly in the flow without needing to select their bank again.
 

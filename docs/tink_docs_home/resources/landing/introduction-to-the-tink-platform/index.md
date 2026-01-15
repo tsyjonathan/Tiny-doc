@@ -7,7 +7,7 @@ exportedAt: "2026-01-13T12:41:13.125Z"
 
 Tink is Europe’s leading open banking platform, connecting to 3,400+ banks in 18 countries, with a comprehensive portfolio of API-based products. Our products are delivered through an enterprise-grade PaaS where connections to all banks and products are accessible via a single API.
 
-![Tink cloud-based platform-as-a-service](https://images.ctfassets.net/tmqu5vj33f7w/5m61toKK3tIRT7REwJmck3/372265d030968dca86139afb38022c30/about-tink.jpg)
+*Image removed: Tink cloud-based platform-as-a-service*
 
 We care deeply about the developer experience, and follow a set of integration principles that make our products a delight to work with.
 
@@ -18,7 +18,7 @@ We care deeply about the developer experience, and follow a set of integration p
 
 We also provide developers with a range of tools and resources to successfully implement open banking projects:
 
-[Console](https://console.tink.com/login): The Tink Console is our developer portal that lets you configure, customise, manage, and deploy access to the financial data that powers your product.
+Console: The Tink Console is our developer portal that lets you configure, customise, manage, and deploy access to the financial data that powers your product.
 
 [Documentation](/Tiny-doc/tink_docs_home/index/): Well-written, easy-to-follow implementation guides, API reference, and sample projects.
 

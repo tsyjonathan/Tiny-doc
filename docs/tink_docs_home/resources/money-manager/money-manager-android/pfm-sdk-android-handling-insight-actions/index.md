@@ -3,7 +3,7 @@ title: "Actionable Insights for Android - Tink Docs"
 source: "/Tiny-doc/tink_docs_home/resources/money-manager/money-manager-android/pfm-sdk-android-handling-insight-actions/"
 exportedAt: "2026-01-13T12:51:40.525Z"
 ---
-![Actionable insights](https://images.ctfassets.net/tmqu5vj33f7w/6hWc7Y7AgAMdvzBrKWwXWK/2f88a9ccf106b3a1fefd5832ec7e6415/Android_MM_insights.png)
+*Image removed: Actionable insights*
 
 ## Overview[](#overview)
 
@@ -183,4 +183,4 @@ class MyActionHandler(val navController: NavController) : InsightActionHandler()
 
 ### Handling Disabled Insights[](#handling-disabled-insights)
 
-If your app doesn't support some actions and you've disabled the insights for these actions in the [Console](https://console.tink.com/), you do not need to implement the corresponding callback method.
+If your app doesn't support some actions and you've disabled the insights for these actions in the Console, you do not need to implement the corresponding callback method.

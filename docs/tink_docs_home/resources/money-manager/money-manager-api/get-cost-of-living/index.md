@@ -43,9 +43,9 @@ Example response:
       "brand": {
         "id": "brand_id_1",
         "name": "brand_name_1",
-        "logoUrl": "http://example.com/brandlogo1.png",
+        "logoUrl": "[external url removed]",
         "contact": {
-          "website": "http://brandexample.com"
+          "website": "[external url removed]"
         }
       },
       "startDate": "2024-07-01",

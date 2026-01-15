@@ -14,7 +14,7 @@ To create the budget, you need to call the [One-off Budget](/Tiny-doc/tink_docs_
 Example request:
 
 ```
-curl -X POST 'https://api.tink.com/api/v1/budgets/one-off' \
+curl -X POST '[external url removed]' \
 -H 'Authorization: Bearer {YOUR_USER_ACCESS_TOKEN}' \
 -H 'Content-Type: application/json' \
 --data-raw '{

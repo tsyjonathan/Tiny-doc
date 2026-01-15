@@ -7,20 +7,20 @@ You can get access to the Tink's products and APIs using Tink Link, which uses i
 
 From a high level, this is how Tink Link for web works:
 
-1.  You direct the end user to the respective `https://link.tink.com/...` flow
+1.  You direct the end user to the respective `[external url removed] flow
 2.  The end user completes the Tink Link flow by choosing a bank, consenting and authenticating
 3.  The end user is taken back to your application's `redirect_uri` with the result of the operation
 
 ### Initiate payment[](#initiate-payment)
 
-`https://link.tink.com/1.0/pay`
+`[external url removed]
 
 #### Request parameters[](#request-parameters)
 
 | Parameter | Required | Description |
 | --- | --- | --- |
-| `client_id` | Required | Your client ID (retrieved from [Console](https://console.tink.com/)). |
-| `redirect_uri` | Required | The page the end-user is redirected to after completing the flow together with the response parameters (configured in [Console](https://console.tink.com/)). |
+| `client_id` | Required | Your client ID (retrieved from Console). |
+| `redirect_uri` | Required | The page the end-user is redirected to after completing the flow together with the response parameters (configured in Console). |
 | `market` | Required | The market code for the country Tink should list providers for. See [supported markets](#supported-markets). |
 | `locale` | Required | The locale used for UI text. See [supported locales](#supported-locales). |
 | payment\_request\_id | Required | The identifier of the created [payment request](/Tiny-doc/tink_docs_api/api/#payment/payment-request/create-payment-request). |
@@ -29,13 +29,13 @@ From a high level, this is how Tink Link for web works:
 | session\_id | Optional | Initialize Tink Link with a [session](/Tiny-doc/tink_docs_api/api/#general/tink-link/session) to securely configure source accounts and prefill data in Tink Link. Learn more [about using Tink Link sessions here](/Tiny-doc/tink_docs_home/resources/tink-link-web/tink-link-web-sessions/). |
 | `input_provider` | Optional | The unique name of the provider (ex: `sbab-bankid`). If provided, user can skip provider selection. Otherwise, they will choose the provider from a list in the Tink UI. If `input_provider` is invalid, Tink will throw an error. Make sure you have the right provider name by using the [List Providers endpoint](/Tiny-doc/tink_docs_api/api-connectivity-v1/#connectivity-v1/provider/list-providers). |
 | `input_username` | Optional | Prefills the username field for supported providers. Useful when the username is a personal identifier that could be valid for multiple banks, such as a social security number. |
-| `iframe` | Optional (default `false`) | Should be used if Tink Link is embedded inside an iframe. If the parameter is set to `true`, the redirect with the authentication `code` will be replaced by a `postMessage` to the parent. Note that iframe embedding can be made available after verifying your developer account. For more information, contact [Support](https://support.tink.com/). `redirect_uri` is used for validating the hosting page. |
+| `iframe` | Optional (default `false`) | Should be used if Tink Link is embedded inside an iframe. If the parameter is set to `true`, the redirect with the authentication `code` will be replaced by a `postMessage` to the parent. Note that iframe embedding can be made available after verifying your developer account. For more information, contact Support. `redirect_uri` is used for validating the hosting page. |
 | `theme` | Optional | Specifying `LIGHT` or `DARK` overrides the user’s system preference and displays the specified theme. Requires both themes to be configured to have any effect. Reach out to [support](/Tiny-doc/tink_docs_home/resources/support/) to enable dark theme. |
 
 The resulting Tink Link URL with the request parameters:
 
 ```
-https://link.tink.com/1.0/pay?client_id={YOUR_CLIENT_ID}&redirect_uri=http://localhost:3000/callback&market=GB&locale=en_GB&payment_request_id=6915ab99857fec1e6f2f6c078
+[external url removed]
 ```
 
 #### Response parameters (success)[](#response-parameters-success-)
@@ -48,7 +48,7 @@ https://link.tink.com/1.0/pay?client_id={YOUR_CLIENT_ID}&redirect_uri=http://loc
 The result is delivered to the specified `redirect_uri` with the success response parameters:
 
 ```
-http://localhost:3000/callback?payment_request_id=6915ab99857fec1e6f2f6c078
+[external url removed]
 ```
 
 #### Response parameters (failure)[](#response-parameters-failure-)
@@ -62,7 +62,7 @@ http://localhost:3000/callback?payment_request_id=6915ab99857fec1e6f2f6c078
 | `credentials` | If credentials were provided | The identifier of the created credentials. |
 
 ```
-http://localhost:3000/callback?error=INTERNAL_ERROR&message=Something%20went%20wrong%2E&credentials=9d547e5b7b1442658878843539a32148&payment_request_id=6915ab99857fec1e6f2f6c078
+[external url removed]
 ```
 
 ```

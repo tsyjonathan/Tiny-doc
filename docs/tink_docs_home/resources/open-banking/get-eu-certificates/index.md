@@ -5,7 +5,7 @@ exportedAt: "2026-01-13T12:54:55.317Z"
 ---
 To use Tink’s AIS & PIS products with your own license, you must have your own Qualified Website Authentication Certificate (QWAC) and Qualified Certificate for Electronic Seals (QSealC).
 
-EIDAS certificates in the EU can only be acquired from a Qualified Trust Service Provider (QTSP). You can find QTSPs in the European Commission's [EU Trusted List](https://eidas.ec.europa.eu/efda/trust-services/browse/eidas/tls), which catalogues all approved QTSPs and the services they offer.
+EIDAS certificates in the EU can only be acquired from a Qualified Trust Service Provider (QTSP). You can find QTSPs in the European Commission's EU Trusted List, which catalogues all approved QTSPs and the services they offer.
 
 The process for acquiring certificates from a QTSP varies but typically involves several key steps.
 

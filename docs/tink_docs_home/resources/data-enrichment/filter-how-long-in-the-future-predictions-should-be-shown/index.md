@@ -7,7 +7,7 @@ Call the predicted recurring transactions endpoint with your user access token, 
 
 ```
 curl -X 'GET' \
-https://api.tink.com/enrichment/v1/predicted-recurring-transactions?predictionSpanDays=60 \
+[external url removed] \
   -H 'Authorization: Bearer '
   -H 'accept: application/json'
 ```

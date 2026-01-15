@@ -15,14 +15,14 @@ There are two main integration options, depending on which URI you decide to con
 
 ### Using the Tink redirect URI[](#using-the-tink-redirect-uri)
 
-All you need to do is register `https://api.tink.com/api/v1/credentials/third-party/callback` with ASPSPs.
+All you need to do is register `[external url removed] with ASPSPs.
 
 > **Note**: A small number of ASPSPs validate the redirect URI against the domain in the Common Name (CN) of the eIDAS certificate. Choosing the Tink redirect URI will not work for these ASPSPs.
 
 ### Using your own redirect URI[](#using-your-own-redirect-uri)
 
 1.  Register a redirect URI with the ASPSPs that follows the format `your_domain.com/callback`. You can register `redirect_uri` for Tink in [Console](#configure-a-redirect-uri-in-Console).
-2.  Implement a reverse proxy server on your redirect URI and configure it to redirect to `https://api.tink.com/api/v1/credentials/third-party/callback`. Keep the method and body the same and return a `307` status. Most ASPSPs will use GET when they redirect, but as Tink accepts both GET and POST. All your proxy needs to do is to preserve the method.
+2.  Implement a reverse proxy server on your redirect URI and configure it to redirect to `[external url removed] Keep the method and body the same and return a `307` status. Most ASPSPs will use GET when they redirect, but as Tink accepts both GET and POST. All your proxy needs to do is to preserve the method.
     
     An alternative is to accept the redirect on your redirect URI and then pass the payload in a backend call to the `POST /api/v1/credentials/third-party/callback/relayed` [endpoint](/Tiny-doc/tink_docs_api/api-connectivity-v1/#connectivity-v1/credentials/third-party-callback-with-redirect).
     
@@ -41,9 +41,9 @@ The URI in the top of the list in Console will be used unless an overriding conf
 
 The configuration of the redirect URI is a prerequisite for the PSD2 API registration to ASPSPs. This is particularly important if you plan to use the Dynamic Client Registration (DCR) functionality of the script `tink_secret_utils.py`, as the registration will fail if you have not set a redirect URI for your Tink app.
 
-![Console - App Settings - TPP Credentials](https://images.ctfassets.net/tmqu5vj33f7w/2Ag8zGmBJf6ENyVKRuvcvI/41664183817c789558f596319ddb9bb6/consoe-app-settings-tpp-credentials.png)
+*Image removed: Console - App Settings - TPP Credentials*
 
-To register a redirect URI, navigate to App settings on [Console → App settings → “TPP credentials”](https://console.tink.com/app-settings/tpp-credentials). Select “Set redirect URI” and submit the URI you want to use.
+To register a redirect URI, navigate to App settings on Console → App settings → “TPP credentials”. Select “Set redirect URI” and submit the URI you want to use.
 
 ## FAQ[](#faq)
 

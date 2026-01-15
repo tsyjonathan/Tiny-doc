@@ -10,7 +10,7 @@ We first need to fetch a list of categories and their associated IDs. This can b
 Request example:
 
 ```
-curl 'https://api.tink.com/api/v1/categories?locale=en_US'
+curl '[external url removed]'
 ```
 
 Response example:
@@ -43,7 +43,7 @@ In the request, you need to include the `categoryId` of the category you want th
 Request example:
 
 ```
-curl 'https://api.tink.com/api/v1/transactions/categorize-multiple' \
+curl '[external url removed]' \
   -X PUT \
   -H 'Authorization: Bearer ' \
   -H 'Content-Type: application/json' \

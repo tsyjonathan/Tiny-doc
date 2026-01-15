@@ -20,7 +20,7 @@ These eIDAS certificates contain essential information including the TPP Authori
 
 ### TPP roles and certificate scopes[](#tpp-roles-and-certificate-scopes)
 
-The roles, identified by [ASN.1 object identifiers](https://en.wikipedia.org/wiki/ASN.1), specify the functions a TPP is authorised to perform under PSD2:
+The roles, identified by ASN.1 object identifiers, specify the functions a TPP is authorised to perform under PSD2:
 
 -   PSP\_AI: Account information service
 -   PSP\_PI: Payment initiation service
@@ -40,7 +40,7 @@ A certificate is valid if the following conditions are met:
 -   It contains the required PSD2 information, checked against ETSI TS 119 495.
 -   It has not been revoked, confirmed through Certificate Revocation List (CRL) / Online Certificate Status Protocol (OCSP) checks.
 
-For more details on eIDAS, its background, and its relation to PSD2 and RTS, see the [European Banking Authority's opinion on eIDAS](https://www.eba.europa.eu/sites/default/files/documents/10180/2137845/d429d45e-f936-473c-bc02-c23060d11f19/EBA%20Opinion%20on%20the%20use%20of%20eIDAS%20certificates%20under%20the%20RTS%20on%20SCACSC.pdf).
+For more details on eIDAS, its background, and its relation to PSD2 and RTS, see the European Banking Authority's opinion on eIDAS.
 
 ## Risk Management[](#risk-management)
 

@@ -3,7 +3,7 @@ title: "Accounts for iOS - Tink Docs"
 source: "/Tiny-doc/tink_docs_home/resources/money-manager/money-manager-ios/accounts/"
 exportedAt: "2026-01-13T12:52:13.805Z"
 ---
-![Accounts](https://images.ctfassets.net/tmqu5vj33f7w/1fcY2iTDiItsaPdeSh6RpK/d160e1491f419131c97621d6809ed508/Accounts.png)
+*Image removed: Accounts*
 
 ## Overview[](#overview)
 

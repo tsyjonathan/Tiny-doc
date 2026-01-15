@@ -78,7 +78,7 @@ An unexpected internal error occurred in Tink's platform.
 
 ## API error codes[](#api-error-codes)
 
-Tink will return a HTTP status code whenever there is something wrong with a request towards our platform. The error response will also contain details of why a request went wrong. The error response model is following the specification of [RFC 7807: Problem Details for HTTP APIs](https://www.rfc-editor.org/rfc/rfc7807).
+Tink will return a HTTP status code whenever there is something wrong with a request towards our platform. The error response will also contain details of why a request went wrong. The error response model is following the specification of RFC 7807: Problem Details for HTTP APIs.
 
 ### Status codes[](#status-codes)
 

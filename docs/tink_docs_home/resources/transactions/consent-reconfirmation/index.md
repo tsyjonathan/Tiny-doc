@@ -33,13 +33,13 @@ To extend a consent session, redirect your user to the “Extend Consent” Tink
 Tink URL Example
 
 ```
-https://link.tink.com/1.0/transactions/extend-consent?client_id=9e5c952c2f3043e8bf4b0b74fb655846&redirect_uri=https://console.tink.com/callback&credentials_id=472b754c357848e7b26dc54ca0a2e695&authorization_code=452bf92a5ed74ef9b4059999ef20f412
+[external url removed]
 ```
 
 Callback example
 
 ```
-https://console.tink.com/callback?credentialsId=472b754c357848e7b26dc54ca0a2e695&credentials_id=472b754c357848e7b26dc54ca0a2e695
+[external url removed]
 ```
 
 After the session is successfully extended, the consent is returned to `UPDATED` to indicate that no additional action is necessary. It is now possible to do an on-demand refresh and Tink will start attempting to background-refresh the consent during the next background-refresh window.
@@ -48,7 +48,7 @@ After the session is successfully extended, the consent is returned to `UPDATED`
 
 If you use your own license and you use the Tink API to reconfirm consent, you are responsible for building your own user flows in accordance with relevant regulatory requirements, subsequently calling the `POST /api/v1/provider-consents:extend` endpoint once the user has completed the flow on your side.
 
-For the UK market, this means adhering to [the UK Open Banking Standards](https://standards.openbanking.org.uk/customer-experience-guidelines/appendices/90-days-reauthentication-delegated-sca/latest/).
+For the UK market, this means adhering to the UK Open Banking Standards.
 
 After you have obtained consent reconfirmation, call the [Extend a consent](/Tiny-doc/tink_docs_api/api/#connectivity/provider-consent/extend-a-consent) endpoint.
 

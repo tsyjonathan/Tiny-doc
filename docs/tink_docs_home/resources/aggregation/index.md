@@ -27,7 +27,7 @@ Use the API to create bank credentials for a specific user and aggregate financi
 
 ## Sample projects
 
-[
+
 
 ### Snapshot aggregation (web)
 
@@ -35,9 +35,9 @@ Download and run our sample snapshot aggregation project using Tink Link Web.
 
 
 
-](https://github.com/tink-ab/tink-link-web-example)
 
-[
+
+
 
 ### Aggregation with permanent users (web)
 
@@ -45,7 +45,7 @@ Download and run our sample aggregation project with permanent users using Tink 
 
 
 
-](https://github.com/tink-ab/tink-link-web-permanent-users-example)
+
 
 ## Concepts
 

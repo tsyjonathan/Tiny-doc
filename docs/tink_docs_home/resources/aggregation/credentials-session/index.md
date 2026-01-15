@@ -22,9 +22,9 @@ For credentials with access type `OPEN_BANKING`, a session with a bank is create
 **Note**:  
 For the above credential, the session expiry date is _March 17, 2020 11:32:37.310 AM GMT_
 
-The `sessionExpiryDate` indicates when the session for a credential will expire. This field is represented by [UNIX Epoch time](https://en.wikipedia.org/w/index.php?title=Unix_time&oldid=864664497) in milliseconds. After session expiration, the user will need to grant a new consent (typically by performing SCA) before being able to aggregate data again for that credential.
+The `sessionExpiryDate` indicates when the session for a credential will expire. This field is represented by UNIX Epoch time in milliseconds. After session expiration, the user will need to grant a new consent (typically by performing SCA) before being able to aggregate data again for that credential.
 
-The session is usually created by using the [OAuth 2.0 standard](https://auth0.com/docs/protocols/oauth2) (or something similar), where a session is represented by an access token and a refresh token.
+The session is usually created by using the OAuth 2.0 standard (or something similar), where a session is represented by an access token and a refresh token.
 
 -   An _access token_ is usually a short-lived token that allows access to the user's data.
 -   A _refresh token_ carries the information necessary to obtain a renewed access token.

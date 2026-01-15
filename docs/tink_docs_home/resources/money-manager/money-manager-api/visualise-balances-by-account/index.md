@@ -31,7 +31,7 @@ In this example, we want to have the following conditions in our query:
 Example request:
 
 ```
-curl 'https://api.tink.com/api/v1/statistics/query' \
+curl '[external url removed]' \
   -X POST \
   -H 'Authorization: Bearer ' \
   -H 'Content-Type: application/json' \
@@ -80,7 +80,7 @@ As part of the request, you will need to include a `user access token` with the 
 Example request:
 
 ```
-curl 'https://api.tink.com/api/v1/statistics/query' \
+curl '[external url removed]' \
   -X POST \
   -H 'Authorization: Bearer ' \
   -H 'Content-Type: application/json' \

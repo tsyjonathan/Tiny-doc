@@ -14,7 +14,7 @@ exportedAt: "2026-01-13T12:55:21.415Z"
 Fetch all providers for the Spanish market
 
 ```
-curl https://api.tink.com/api/v1/providers/ES
+curl [external url removed]
 ```
 
 **Response**: A list of providers, see the API reference documentation.
@@ -30,7 +30,7 @@ curl https://api.tink.com/api/v1/providers/ES
 Create a credential for a provider
 
 ```
-curl -v -X POST https://api.tink.com/api/v1/credentials \
+curl -v -X POST [external url removed] \
 -H 'Content-Type: application/json' \
 -H 'Authorization: Bearer ' \
 -d '{
@@ -50,7 +50,7 @@ You can also specify the financial data to fetch by using the `items` request pa
 Fetch financial data based on items request parameter
 
 ```
-curl -v -X POST 'https://api.tink.com/api/v1/credentials?items=INVESTMENT_ACCOUNTS&items=CREDITCARD_TRANSACTIONS' \
+curl -v -X POST '[external url removed]' \
 -H 'Content-Type: application/json' \
 -H 'Authorization: Bearer ' \
 -d '{
@@ -81,7 +81,7 @@ curl -v -X POST 'https://api.tink.com/api/v1/credentials?items=INVESTMENT_ACCOUN
 Fetch credentials
 
 ```
-curl -v https://api.tink.com/api/v1/credentials/ \
+curl -v [external url removed] \
 -H 'Content-Type: application/json' \
 -H 'Authorization: Bearer '
 ```
@@ -103,7 +103,7 @@ The Tink test providers are static implementations of providers and banks that a
 Fetch only test providers
 
 ```
-curl https://api.tink.com/api/v1/providers/ES?excludeNonTestProviders=true&includeTestProviders=true
+curl [external url removed]
 ```
 
 **Response**: A list of providers, see the API reference documentation.
@@ -119,7 +119,7 @@ curl https://api.tink.com/api/v1/providers/ES?excludeNonTestProviders=true&inclu
 Create test credentials
 
 ```
-curl -v -X POST https://api.tink.com/api/v1/credentials \
+curl -v -X POST [external url removed] \
 -H 'Content-Type: application/json' \
 -H 'Authorization: Bearer ' \
 -d '

@@ -14,7 +14,7 @@ Before you refresh data, you must identify which specific consent you want to re
 Retrieve the list of consents
 
 ```
-curl -v https://api.tink.com/api/v1/provider-consents \
+curl -v [external url removed] \
      -H 'Authorization: Bearer '
 ```
 
@@ -61,7 +61,7 @@ We limit excessive amounts of API requests per app. If your request is rate limi
 Refresh the credential
 
 ```
-curl -v -X POST https://api.tink.com/api/v1/credentials/{credentialsId}/refresh
+curl -v -X POST [external url removed]
 -H 'Authorization: Bearer '
 ```
 

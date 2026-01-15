@@ -7,7 +7,7 @@ Before we get into how you fetch your first Account Check report, we'd like to m
 
 ## 1\. Build the URL[](#build-the-url)
 
-In Console, use the [Build your own Tink Link URL](https://console.tink.com/account-verification/tink-link) view to create your own URL. The URL is used to allow users to authenticate with their bank and select an account from which to fetch report data. For more information on how the URL works, see [Setup and integrate Account Check](/Tiny-doc/tink_docs_home/resources/account-check/setup-and-integrate-account-check/).
+In Console, use the Build your own Tink Link URL view to create your own URL. The URL is used to allow users to authenticate with their bank and select an account from which to fetch report data. For more information on how the URL works, see [Setup and integrate Account Check](/Tiny-doc/tink_docs_home/resources/account-check/setup-and-integrate-account-check/).
 
 Integrate the URL with a site or in an app. For example, you can start an end user's Tink flow by redirecting them to a URL.
 
@@ -16,14 +16,14 @@ Integrate the URL with a site or in an app. For example, you can start an end us
 Use the example URL below by inserting the `client_id` value for your Tink app into the URL and then copy the URL and paste it in a browser address field.
 
 ```
-https://link.tink.com/1.0/account-check?client_id={YOUR_CLIENT_ID}&redirect_uri=https://console.tink.com/callback&market=SE
+[external url removed]
 ```
 
 **Note**: make sure that you exchange `{YOUR_CLIENT_ID}` in the URL for your `client_id` value.
 
 When your users access the URL, they'll see a list of demo banks. Once they choose a bank, they'll see a list of demo bank accounts to choose from. Select the username and password for a Demo Bank user that suits your use case. For more information about Demo Bank, see [Demo Bank](/Tiny-doc/tink_docs_home/resources/account-check/test-different-account-check-scenarios/#demo-bank).
 
-![Account check account selection](https://images.ctfassets.net/tmqu5vj33f7w/6hA4YqLwj8O8gNNPQKliQQ/f72f0a979388b1468f3e8a7338afd81f/image-accountSelection.jpg)
+*Image removed: Account check account selection*
 
 ## 2\. Handle callback[](#handle-callback)
 
@@ -46,7 +46,7 @@ For more information about errors, see [Handle Account Check error codes](/Tiny-
 **In this example:**
 
 ```
-https://console.tink.com/callback?account_verification_report_id=ff8ae53bc46e45fe9a37c4fd1353e60d
+[external url removed]
 ```
 
 After a successful authentication, you will see a `account_verification_report_id` value, which indicates that a flow has successfully come to an end. Store this value. It is used to authenticate yourself in order to fetch your report.
@@ -64,7 +64,7 @@ To access your user's account information, you need a valid client access token 
 Authenticate your client
 
 ```
-curl -X POST https://api.tink.com/api/v1/oauth/token \
+curl -X POST [external url removed] \
 -d 'client_id=' \
 -d 'client_secret=' \
 -d 'grant_type=client_credentials' \
@@ -93,7 +93,7 @@ To fetch report JSON data based on a report identifier, see the [Account Verific
 Fetch your Account Check report in JSON
 
 ```
-curl -X GET https://api.tink.com/api/v1/account-verification-reports/ \
+curl -X GET [external url removed] \
   -H 'Authorization: Bearer '
 ```
 
@@ -108,11 +108,11 @@ Fetching the account information report in PDF format is done through the [Accou
 Fetch your Account Check report as a PDF
 
 ```
-curl -X GET https://api.tink.com/api/v1/account-verification-reports//pdf?template=standard-1.0 \
+curl -X GET [external url removed] \
     -H 'Authorization: Bearer ' \
     > output.pdf
 ```
 
 ## Need help?[](#need-help-)
 
-[Contact Sales](https://tink.com/contact-us) and let us help you get started.
+Contact Sales and let us help you get started.

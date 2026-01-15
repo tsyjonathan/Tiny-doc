@@ -3,7 +3,7 @@ title: "Transaction details for iOS - Tink Docs"
 source: "/Tiny-doc/tink_docs_home/resources/money-manager-ios/pfm-sdk-ios-transaction-details/"
 exportedAt: "2026-01-13T13:00:19.859Z"
 ---
-![Transaction details](https://images.ctfassets.net/tmqu5vj33f7w/7oTdbclQRFUo7XzeWymvB3/ce4a1ba40be075431b63356b2ab04d64/Transaction_details.png)
+*Image removed: Transaction details*
 
 ## Overview[](#overview)
 

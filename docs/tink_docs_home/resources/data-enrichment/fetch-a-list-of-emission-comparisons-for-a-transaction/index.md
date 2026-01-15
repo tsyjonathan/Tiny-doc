@@ -11,7 +11,7 @@ List comparables to a transaction by calling the `/enrichment/v1/sustainability/
 
 ```
 curl -X 'GET' \
-'https://api.tink.com/enrichment/v1/sustainability/transactions/{transactionId}/comparables \
+'[external url removed] \
   -H 'Authorization: Bearer '
   -H 'Accept: application/json'
 ```
@@ -44,7 +44,7 @@ Talk to support if your local language is not supported out of the box.
 **Example request for German:**
 
 ```
-curl 'https://api.tink.com/enrichment/v1/sustainability/insights?language=de' \
+curl '[external url removed]' \
 --header 'Authorization: Bearer ' \
 --header 'Accept: application/json'
 ```

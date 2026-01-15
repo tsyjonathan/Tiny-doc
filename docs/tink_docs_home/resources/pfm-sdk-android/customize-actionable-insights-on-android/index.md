@@ -3,7 +3,7 @@ title: "Customize Actionable Insights on Android"
 source: "/Tiny-doc/tink_docs_home/resources/pfm-sdk-android/customize-actionable-insights-on-android/"
 exportedAt: "2026-01-13T12:58:39.420Z"
 ---
-![Customization Actionable Insights Android](https://images.ctfassets.net/tmqu5vj33f7w/42Uqn0OeYHvG7NjIvzGbMu/b9f6de5b0e613433788bc8d69f0c1de5/ActionableInsights-Customization-Android.png)
+*Image removed: Customization Actionable Insights Android*
 
 ## Overview[](#overview)
 

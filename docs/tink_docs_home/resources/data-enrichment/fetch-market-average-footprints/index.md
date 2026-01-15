@@ -8,7 +8,7 @@ To fetch market average footprints, call the `/enrichment/v1/sustainability/mark
 **Example request:**
 
 ```
-curl 'https://api.tink.com/enrichment/v1/sustainability/market-average?market=' \
+curl '[external url removed]' \
 --header 'Authorization: Bearer ' \
 --header 'Accept: application/json'
 ```

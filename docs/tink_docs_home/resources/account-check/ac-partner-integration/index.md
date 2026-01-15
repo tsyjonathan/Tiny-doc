@@ -7,13 +7,13 @@ There are three levels of system entities in our hierarchy: Organization, app, a
 
 You can create and manage sub-merchants without having to set up separate organizations, apps, or manage multiple API credentials.
 
-Merchants are created and onboarded either in Console under the [merchant tab](https://console.tink.com/app-settings/merchants) or by using our [Merchants API](/Tiny-doc/tink_docs_api/api-partner-integration/#partner-integration/merchants).
+Merchants are created and onboarded either in Console under the merchant tab or by using our [Merchants API](/Tiny-doc/tink_docs_api/api-partner-integration/#partner-integration/merchants).
 
 `Name`, `Country`, `Organization number`, `URL`, `CategoryCode`. Optionally customers can input their own `externalId` that we will save and return together with the Tink Merchant ID to make this mapping easier for customers.
 
 `CategoryCode` refers to the industry of the merchant, following ISO 18245 standards for Merchant Category codes. Once information has been sent via Console or our API, you will get an instant response that states if a merchant has been Approved, Denied, or is Pending.
 
-When the merchant is created, you receive a unique Merchant ID in the UUID v4 format. The ID is found in the [Merchant list](https://console.tink.com/app-settings/merchants) in Console or by using our [List Merchants endpoint](/Tiny-doc/tink_docs_api/api-partner-integration/#partner-integration/merchants/list-merchants).
+When the merchant is created, you receive a unique Merchant ID in the UUID v4 format. The ID is found in the Merchant list in Console or by using our [List Merchants endpoint](/Tiny-doc/tink_docs_api/api-partner-integration/#partner-integration/merchants/list-merchants).
 
 The `Merchant ID` should be provided in the [TinkLink session](/Tiny-doc/tink_docs_home/resources/account-check/account-check-sdk-sessions/) for the traffic to be separated to the onboarded Merchant. The MerchantID will be used in order to separate analytics and customise TinkLink for individual merchants.
 

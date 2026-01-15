@@ -17,23 +17,23 @@ A JSON Web Key Set (JWKS) is a collection of JSON Web Keys (JWKs) used to secure
 
 Tink simplifies the management of these URLs for you. When you [install your TPP certificates for the EU into Tink](/Tiny-doc/tink_docs_home/resources/open-banking/install-certificates/), a JWKS endpoint is automatically generated. This endpoint includes the public keys of your certificate, and a URL is created in our Content Delivery Network (CDN) for each of your active certificates. These URLs are updated each time you upload a new certificate, ensuring your keys remain current and secure.
 
-In the UK, the JWKS URL is managed by the TPP through their [OBIE directory account](https://directory.openbanking.org.uk/s/login/).
+In the UK, the JWKS URL is managed by the TPP through their OBIE directory account.
 
 ## Upload TPP credentials to Tink[](#upload-tpp-credentials-to-tink)
 
 When the registration to an ASPSP is complete, you will have received a set of credentials, often containing a client ID and client secret, though you may also get other information as part of the registration process.
 
-What exactly needs to be uploaded to Tink varies for each ASPSP and can be found in App settings in [Console → App settings → “TPP credentials”](https://console.tink.com/app-settings/tpp-credentials). Select “Upload TPP Credentials” and then enter the credentials received after registration with the ASPSP.
+What exactly needs to be uploaded to Tink varies for each ASPSP and can be found in App settings in Console → App settings → “TPP credentials”. Select “Upload TPP Credentials” and then enter the credentials received after registration with the ASPSP.
 
-![Console - App Settings - TPP Credentials](https://images.ctfassets.net/tmqu5vj33f7w/2Ag8zGmBJf6ENyVKRuvcvI/41664183817c789558f596319ddb9bb6/consoe-app-settings-tpp-credentials.png)
+*Image removed: Console - App Settings - TPP Credentials*
 
 Below is an example of the credentials required for the ASPSP SEB in Sweden:
 
-![TPP-3](https://images.ctfassets.net/tmqu5vj33f7w/4g7jMtPFdW8eAVqGyFucwJ/3862a272d0ab530fd73b7b4c898dddfd/TPP-3.jpg)
+*Image removed: TPP-3*
 
 After successfully uploading TPP Credentials you will be able to see the configured banks and parameters below:
 
-![TPP-4](https://images.ctfassets.net/tmqu5vj33f7w/6SnAbOMGDxD0hDpXJzMrFq/eeaa97afba52934f280e5bef865b7bc8/TPP-4.jpg)
+*Image removed: TPP-4*
 
 ## Registration verification[](#registration-verification)
 
@@ -49,4 +49,4 @@ After creating the Tink Link, test the connection by attempting to connect to th
 
 Errors can occur during registration due to issues with the bank's developer portals. In such cases, contact the bank's technical support for PSD2 APIs, which is usually available in the contact or help section of the bank's developer portal.
 
-If you encounter an error while using Tink's Python script `tink_secret_utils.py` or receive errors during testing, please [contact Support](https://tinkab.atlassian.net/servicedesk/customer/portals).
+If you encounter an error while using Tink's Python script `tink_secret_utils.py` or receive errors during testing, please contact Support.

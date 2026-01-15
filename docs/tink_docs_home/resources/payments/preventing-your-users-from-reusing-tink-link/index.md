@@ -7,7 +7,7 @@ You might want to use a Tink URL over and over, without any kind of expiration. 
 
 We offer configuration options to prevent Tink URLs from being used twice. When these options are enabled, Tink Link presents additional screens when payment is retried.
 
-![Preventing your users from reusing Tink Link-3](https://images.contentful.com/tmqu5vj33f7w/1ZaBdlkg3Jk0P6VTdkSGMm/ec977c4e592c0ca444dabc7b1d5a5299/Preventing_your_users_from_reusing_Tink_Link-3.png)
+*Image removed: Preventing your users from reusing Tink Link-3*
 
 Consider using this feature if one of these scenarios apply to you:
 

@@ -31,7 +31,7 @@ The following request authorizes the application by using the client id/secret a
 **Example request:**
 
 ```
-curl -v -X POST https://api.tink.com/api/v1/oauth/token \
+curl -v -X POST [external url removed] \
 -d 'client_id=' \
 -d 'client_secret=' \
 -d 'grant_type=client_credentials' \
@@ -56,7 +56,7 @@ Use the generated client access token from step 1 to create a new Tink user. Att
 **Example request:**
 
 ```
-curl -v -X POST https://api.tink.com/api/v1/user/create \
+curl -v -X POST [external url removed] \
 -H 'Authorization: Bearer ' \
 -H 'Content-Type: application/json' \
 -d '
@@ -92,7 +92,7 @@ Use the generated client access token from step 1 and the external user ID from 
 **Example request:**
 
 ```
-curl -v -X POST https://api.tink.com/api/v1/oauth/authorization-grant/delegate \
+curl -v -X POST [external url removed] \
 -H 'Authorization: Bearer ' \
 -d 'external_user_id='\
 -d 'actor_client_id=df05e4b379934cd09963197cc855bfe9' \
@@ -118,9 +118,9 @@ In this article we focus on the minimal amount of query parameters that are need
 
 Here’s an example Tink Link URL:
 
-`https://link.tink.com/1.0/transactions/connect-accounts?authorization_code={DELEGATED_CLIENT_CODE}&client_id={YOUR_CLIENT_ID}&redirect_uri={REDIRECT_URI}&market={MARKET}&locale={LOCALE}`
+`[external url removed]
 
-To break down the URL, we have the base URL, [https://link.tink.com/1.0/](https://link.tink.com/1.0/), followed by a specific endpoint for transaction and account aggregation, transactions/connect-accounts, followed by the minimal set of query parameters:
+To break down the URL, we have the base URL, [external url removed] followed by a specific endpoint for transaction and account aggregation, transactions/connect-accounts, followed by the minimal set of query parameters:
 
 | Header | Header |
 | --- | --- |
@@ -140,7 +140,7 @@ When end users access a Tink Link URL, through the web browser or an iOS/Android
 
 Meanwhile, in the background, if the authentication was successful, the user’s transactions and selected accounts will be aggregated into Tink’s platform and connected to the Tink user encoded in the authorization\_code.
 
-![transactions-flow-example](https://images.ctfassets.net/tmqu5vj33f7w/4dTo01RRCA15Ay8mhfishU/1b28225dad3e8aba96bb113740c8a005/transactions-flow-example.gif)
+*Image removed: transactions-flow-example*
 
 Depending if the authentication was successful or not, Tink Link will append a set of different query parameters to the redirect URL for you to handle. In this guide, we will focus on what happens on a successful authentication attempt. Take a look at our complete documentation reference to see all possible outcomes.
 
@@ -161,7 +161,7 @@ Because of data regulations, user consent is not valid forever. To keep refreshi
 Update the consent by going through the same process as in steps 2-3, but with a slightly different Tink Link URL:
 
 ```
-https://link.tink.com/1.0/transactions/update-consent?authorization_code={code}&client_id={id}&redirect_uri={uriI}&credentials_id={id}
+[external url removed]
 ```
 
 The difference between this and the previous URL that you set up in step 4 is that the endpoint has changed to `transactions/update-consent` and we’ve added the credential\_id parameter. More query parameters can be used to configure the URL, take a look here if you are interested.

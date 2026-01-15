@@ -3,7 +3,7 @@ title: "Accounts for Android - Tink Docs"
 source: "/Tiny-doc/tink_docs_home/resources/money-manager/money-manager-android/accounts-for-android/"
 exportedAt: "2026-01-13T12:51:43.112Z"
 ---
-![Accounts](https://images.ctfassets.net/tmqu5vj33f7w/5AfWrjPOyHXETxWfHswMHR/6e94e5ddb410c0ac254d30cfa2cb80aa/accountsAndroid.png)
+*Image removed: Accounts*
 
 ## Overview[](#overview)
 

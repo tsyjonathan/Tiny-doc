@@ -9,9 +9,9 @@ We allow organizations with their own IdP to use SSO (single sign-on) via SAML t
 
 ## Set up single sign-on[](#set-up-single-sign-on)
 
-1.  Go to [Console](https://console.tink.com/) and log in.
+1.  Go to Console and log in.
     
-2.  Select **Organisation** > **Settings** > **Single sign-on**. ![SAML settings](https://images.ctfassets.net/tmqu5vj33f7w/4QTguGvsigbLXYNLptzD5G/8bd7f9c8cd49e984bbc6a43ce41d666b/settings.png)
+2.  Select **Organisation** > **Settings** > **Single sign-on**. *Image removed: SAML settings*
     
 3.  Select **Add SAML identity provider**.
     
@@ -19,7 +19,7 @@ We allow organizations with their own IdP to use SSO (single sign-on) via SAML t
     
 4.  Enter a **Name** for your SAML identity provider.
     
-    **Note**: Some IdPs require that you provide a service provider’s (SP) metadata before you are allowed to extract IdP metadata. If this is the case, upload an incomplete IdP metadata file and update it later by selecting **Update**. ![Upload IdP metadata](https://images.ctfassets.net/tmqu5vj33f7w/2uTWIdfjuJdFOYkUOXx9Bh/c8a1b4b34b7b7cf788969113cdefc9d0/saml-upload.png)
+    **Note**: Some IdPs require that you provide a service provider’s (SP) metadata before you are allowed to extract IdP metadata. If this is the case, upload an incomplete IdP metadata file and update it later by selecting **Update**. *Image removed: Upload IdP metadata*
     
 5.  Select **Upload IdP metadata**. The file must be in the XML format.
     
@@ -29,7 +29,7 @@ We allow organizations with their own IdP to use SSO (single sign-on) via SAML t
     
     The file is now uploaded.
     
-    The Tink service provider (SP) settings dialog appears. ![SP settings](https://images.ctfassets.net/tmqu5vj33f7w/69mMNt7GavUEto6fqP8HAF/52d4775fc2b5b44fade720bb0182f462/saml-uploaded.png)
+    The Tink service provider (SP) settings dialog appears. *Image removed: SP settings*
     
 8.  Select **Download metadata** to download a SAML-formatted metadata file for use with your IdP.
     
@@ -54,9 +54,9 @@ When the setup is completed you can always go back to **Organisation > Settings*
 -   Console doesn't support IdP-initiated logins. Users must use `Login URL` to authenticate with Console.
 -   **Default role for new users**: If you enable SSO and assign a value to the SAML mapping `role`, Console users will be assigned to that role when they log in for the first time. If you enable SSO and do not use the SAML mapping `role`, Console users will be assigned to the **Viewer** role when they log in for the first time.
 -   **IdP settings always overrule Console settings**: If you enable SSO, assign a value to the SAML mapping `role` and change an existing Console user’s role in your IdP, Console will detect that change the next time the user logs in to Console and change their Console role to what is stated in the IdP.
--   To see the settings for an SP, go to **Organisation** > **[Settings](https://console.tink.com/account/organization/settings)** and select the name of your SAML identity provider.
+-   To see the settings for an SP, go to **Organisation** > **Settings** and select the name of your SAML identity provider.
 
-![Organisation settings updated](https://images.ctfassets.net/tmqu5vj33f7w/010QBWZSBHzPGbABy5kRlo/010d52e4c7122cd4a599152294445b42/saml-done.png)
+*Image removed: Organisation settings updated*
 
 ## Enforce single sign-on[](#enforce-single-sign-on)
 
@@ -66,9 +66,9 @@ The owner of the organisation will not be affected when enforcing SSO. The reaso
 
 To enforce SSO:
 
-1.  Go to [Console](https://console.tink.com/) and log in.
-2.  Go to **Organisation** > **Settings** > **Single sign-on**. ![SAML settings](https://images.ctfassets.net/tmqu5vj33f7w/4QTguGvsigbLXYNLptzD5G/8bd7f9c8cd49e984bbc6a43ce41d666b/settings.png)
-3.  Select **Edit authentication**. ![SSO authentication](https://images.ctfassets.net/tmqu5vj33f7w/4LDie8080kclqAUYtsCh5J/9a556d7aa5e40f8bbcebf97da718ee70/SSO_authentication.png)
+1.  Go to Console and log in.
+2.  Go to **Organisation** > **Settings** > **Single sign-on**. *Image removed: SAML settings*
+3.  Select **Edit authentication**. *Image removed: SSO authentication*
 4.  Select **Members must log in with SSO via SAML**.
 5.  Select **Save**.
 

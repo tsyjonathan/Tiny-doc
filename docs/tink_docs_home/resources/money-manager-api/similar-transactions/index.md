@@ -12,7 +12,7 @@ As part of the request, the parameters give you the option to return similar tra
 Example request:
 
 ```
-curl 'https://api.tink.com/api/v1/transactions/{transactionId}/similar?includeSelf=true'
+curl '[external url removed]'
 ```
 
 Example response:

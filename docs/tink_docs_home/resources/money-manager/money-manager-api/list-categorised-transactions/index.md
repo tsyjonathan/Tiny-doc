@@ -14,7 +14,7 @@ In this example, we will use dates as the main query parameter to list all possi
 Example request:
 
 ```
-curl 'https://api.tink.com/api/v1/search' \
+curl '[external url removed]' \
   -X POST \
   -H 'Authorization: Bearer ' \
   -H 'Content-Type: application/json' \
@@ -128,7 +128,7 @@ You then need to fetch a list of available categories to match up against the ca
 Example request:
 
 ```
-curl 'https://api.tink.com/api/v1/categories?locale=en_US'
+curl '[external url removed]'
 ```
 
 Example response:

@@ -3,7 +3,7 @@ title: "Use dynamic enrollment to register for open banking APIs"
 source: "/Tiny-doc/tink_docs_home/resources/open-banking/use-dynamic-enrollment-to-register-for-open-banking-apis/"
 exportedAt: "2026-01-13T12:55:10.627Z"
 ---
-Dynamic enrollment (referred to as [Dynamic Client Registration](/Tiny-doc/tink_docs_home/resources/open-banking/open-banking-glossary/) allows TPPs to enroll programmatically for access to an Account Service Payment Service Provider’s (ASPSP’s) open banking API. For the ASPSPs that support this, dynamic enrollment is typically easier compared to manually logging in to a developer portal, creating accounts and validating your identity. To view a list of ASPS that support dynamic enrollment for a market, open our [dynamic enrollment providers link](https://api.tink.com/ess/v1/dynamic-enrollment-providers?marketCode=uk) and update the market parameter.
+Dynamic enrollment (referred to as [Dynamic Client Registration](/Tiny-doc/tink_docs_home/resources/open-banking/open-banking-glossary/) allows TPPs to enroll programmatically for access to an Account Service Payment Service Provider’s (ASPSP’s) open banking API. For the ASPSPs that support this, dynamic enrollment is typically easier compared to manually logging in to a developer portal, creating accounts and validating your identity. To view a list of ASPS that support dynamic enrollment for a market, open our dynamic enrollment providers link and update the market parameter.
 
 This guide describes how you can use Tink’s `tink_secret_utils.py` script to complete dynamic enrollment. It consists of four steps:
 
@@ -34,7 +34,7 @@ Example response for NatWest, a bank with support for dynamic enrollment:
 ```
 {
   "enrollmentInputsSchema": {
-    "$schema": "http://json-schema.org/draft-04/schema#",
+    "$schema": "[external url removed]",
     "additionalProperties": false,
     "properties": {
       "ssa": {
@@ -67,7 +67,7 @@ Example response for Barclays, a bank that doesn’t support dynamic enrollment:
 ```
 {
   "enrollmentInputsSchema": {},
-  "guide": "**Barclays**\n\n1.  Go to [https://developer.barclays.com/add-application](https://developer.barclays.com/add-application)\n2.  Log in with Openbanking.\n3.  Add SSA and go to the next step.\n4.  In the authentication section choose \"Private Key JWT\", in the ID token section choose \"PS256\" and confirm.\n5.  After the app is created, click the \"Manage App\" button.\n6.  Upload Client Id and Shared Secret, which are present in the App overview section, to Tink.\n",
+  "guide": "**Barclays**\n\n1.  Go to [external url removed]  Log in with Openbanking.\n3.  Add SSA and go to the next step.\n4.  In the authentication section choose \"Private Key JWT\", in the ID token section choose \"PS256\" and confirm.\n5.  After the app is created, click the \"Manage App\" button.\n6.  Upload Client Id and Shared Secret, which are present in the App overview section, to Tink.\n",
   "isDynamicEnrollmentPossible": false,
   "providerIds": [
     "uk-barclaycard-business-ob",
@@ -138,8 +138,8 @@ After the successful dynamic enrollment, Tink will persist the returned TPP cred
 
 ## Validate credentials for enrolled ASPSPs and test the connection[](#validate-credentials-for-enrolled-aspsps-and-test-the-connection)
 
-After successful dynamic enrollment, you can see a list of the registered ASPSPs and non-sensitive TPP credentials in the [TPP Credentials section of Console](https://console.tink.com/app-settings/tpp-credentials). The final validation step is to perform a full product flow using for a real end user with accounts from this ASPSP.
+After successful dynamic enrollment, you can see a list of the registered ASPSPs and non-sensitive TPP credentials in the TPP Credentials section of Console. The final validation step is to perform a full product flow using for a real end user with accounts from this ASPSP.
 
 ## Handling errors[](#handling-errors)
 
-If you encounter errors when using the DCR method in `tink_secret_utils.py` or during connection testing, [contact Support](https://tinkab.atlassian.net/servicedesk/customer/portals). When reaching out, please include any relevant error messages and logs to help us resolve your issue faster.
+If you encounter errors when using the DCR method in `tink_secret_utils.py` or during connection testing, contact Support. When reaching out, please include any relevant error messages and logs to help us resolve your issue faster.

@@ -10,7 +10,7 @@ Lenders and assessors face many challenges when evaluating end-user risk:
 -   Vital risk patterns are excluded, for example, gambling, spending habits and ATM behaviour.
 -   Manual work heightens the risk of error. This affects end-users who quickly need a lending decision and hinders lenders that optimise for 'time to money'.
 
-![Risk-insights-comparisons](https://images.ctfassets.net/tmqu5vj33f7w/3v75h4lYUZ3Vog6wOMQvk/0c5df89a5df0c630c4fbead0f97b912f/Risk-insights-comparisons.png)
+*Image removed: Risk-insights-comparisons*
 
 ## What this solves[](#what-this-solves)
 

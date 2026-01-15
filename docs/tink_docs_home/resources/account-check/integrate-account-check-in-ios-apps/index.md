@@ -14,25 +14,25 @@ You can integrate the Tink SDK in your iOS app with just a few steps:
 
 ## Associate a universal link with your app[](#associate-a-universal-link-with-your-app)
 
-Start by associating a [universal link](https://developer.apple.com/documentation/xcode/supporting-universal-links-in-your-app) or [custom URL scheme](https://developer.apple.com/documentation/xcode/defining-a-custom-url-scheme-for-your-app) with your app. We recommend using universal links to avoid the “Open this page in YourAppName“ prompt in Mobile Safari during redirects, and this is what we'll use in our examples.
+Start by associating a universal link or custom URL scheme with your app. We recommend using universal links to avoid the “Open this page in YourAppName“ prompt in Mobile Safari during redirects, and this is what we'll use in our examples.
 
 To launch the SDK, you need to include two different universal links or deep links in your URL:
 
--   `app_uri`, which returns the user to your app and resumes the SDK flow (Ex: `https://myapp.com/open`).
--   `redirect_uri`, which delivers the success or error response from the SDK after the flow is complete (Ex: `https://myapp.com/callback`)
+-   `app_uri`, which returns the user to your app and resumes the SDK flow (Ex: `[external url removed]).
+-   `redirect_uri`, which delivers the success or error response from the SDK after the flow is complete (Ex: `[external url removed])
 
 > **NOTE**: The `app_uri` and `redirect_uri` must be valid URIs, such as universal links or a custom URL scheme including a host fragment. For example, `example://open` works, but `example://` would not.
 
 ## Build a URL[](#build-a-url)
 
-Build a URL to launch the SDK by either using the Tink Link Builder in [Tink Console](https://console.tink.com/) or constructing a URL and providing the [required parameters](/Tiny-doc/tink_docs_home/resources/account-check/account-check-sdk-reference/) as well as the `app_uri` and `redirect_uri` you defined previously.
+Build a URL to launch the SDK by either using the Tink Link Builder in Tink Console or constructing a URL and providing the [required parameters](/Tiny-doc/tink_docs_home/resources/account-check/account-check-sdk-reference/) as well as the `app_uri` and `redirect_uri` you defined previously.
 
 To opt in to automatic redirect behavior, set the `auto_redirect_mobile` parameter to `true`. This lets your users skip an extra interaction to trigger the bank redirect, and will directly open the bank app if installed, or otherwise fall back to a web-based authentication flow in the system's default browser.
 
 ### Example URL[](#example-url)
 
 ```
-https://link.tink.com/1.0/account-check/create-report?client_id={YOUR_CLIENT_ID}&market=SE&locale=en_US&redirect_uri=example%3A%2F%2Fcallback&app_uri=example%3A%2F%2Fopen&auto_redirect_mobile=true
+[external url removed]
 ```
 
 ## Open the URL in a preconfigured WKWebView[](#open-the-url-in-a-preconfigured-wkwebview)
@@ -142,7 +142,7 @@ extension AppDelegate {
         return false
     }
 
-    // Called when the app is opened via a Universal Link (e.g.: https://…)
+    // Called when the app is opened via a Universal Link (e.g.: [external url removed])
     func application(_ application: UIApplication, continue userActivity: NSUserActivity, restorationHandler: @escaping ([any UIUserActivityRestoring]?) -> Void) -> Bool {
         guard let url = userActivity.webpageURL else { return false }
         
@@ -174,7 +174,7 @@ extension SceneDelegate {
         }
     }
 
-    // Called when the app is opened via a Universal Link (e.g.: https://…)
+    // Called when the app is opened via a Universal Link (e.g.: [external url removed])
     func scene(_ scene: UIScene, continue userActivity: NSUserActivity) {
         guard let url = userActivity.webpageURL else { return }
         

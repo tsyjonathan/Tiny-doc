@@ -9,45 +9,45 @@ Support for Tink products is managed in the Visa Support Hub. There, you can cre
 
 ## How to access Visa Support Hub[](#how-to-access-visa-support-hub)
 
-To access the Visa Support Hub (VSH), you'll need a Visa Support Hub account. If you don't have an account, [contact Sales](https://tink.com/contact-us/).
+To access the Visa Support Hub (VSH), you'll need a Visa Support Hub account. If you don't have an account, contact Sales.
 
 ### Access VSH directly[](#access-vsh-directly)
 
-You can access the Visa Support Hub directly. Start by visiting the [Visa Support Hub sign-in page](https://visasupporthub.visaonline.com/). Then, select **Sign in with Tink**.
+You can access the Visa Support Hub directly. Start by visiting the Visa Support Hub sign-in page. Then, select **Sign in with Tink**.
 
-![Visa Support Hub Login](https://images.ctfassets.net/tmqu5vj33f7w/47Nemj5DofeabkDzfbZwTc/fdeca7d0ee06059e680437fa3096271e/01-VSH-login.png)
+*Image removed: Visa Support Hub Login*
 
 After selecting **Sign in with Tink**, you'll be directed to the Console sing-in page.
 
-![Console Login](https://images.ctfassets.net/tmqu5vj33f7w/1jDf1P47c2LSUZzuz3dJyJ/69b751081f1784a4e4de7a4e305b1037/Login.png)
+*Image removed: Console Login*
 
 Log in with your Console credentials and you'll be redirected to the Visa Support Hub homepage.
 
 ### Access VSH from Console[](#access-vsh-from-console)
 
-You can access the Visa Support Hub from [Console](https://console.tink.com/).
+You can access the Visa Support Hub from Console.
 
 After signing in, select **Support** under **Help** from the navigation menu. Then, select **Open now** on the pop-up if you aren't immediately redirected.
 
-![Access Support from Console](https://images.ctfassets.net/tmqu5vj33f7w/7KdIrN7mIbtvYAJLPjFr1c/291544215d8fc2676df73f642fe4c38d/Access_Support_from_Console.png)
+*Image removed: Access Support from Console*
 
 If you don't already have a Visa Support Hub account, you'll be directed to contact our sales team to create one.
 
-![Support Hub Access Required](https://images.ctfassets.net/tmqu5vj33f7w/4pnQV1wNv5jolsAdQwMMxT/a7ee3d47fdb4047e8cc2bed49993e833/Support_Hub_access_required.png)
+*Image removed: Support Hub Access Required*
 
 ## Create a case[](#create-a-case)
 
 To create a case, visit the Visa Support Hub and select a support topic. Support topics are divided into **Product Support** and **Other Requests**.
 
-![VSH Create Case](https://images.ctfassets.net/tmqu5vj33f7w/70yDPc72ycJBXzul1KXnGp/fa4f11eef52b833fb565eaf30b79b60c/02-VSH-create-case.png)
+*Image removed: VSH Create Case*
 
 You can also create a case from the page header.
 
-![VSH Create Case From Header](https://images.ctfassets.net/tmqu5vj33f7w/8bvs853lTNZmXgLyig8Ep/aa9b5821c4b4b0bfb88fd6e8987edb7c/VSH-Create-Case-From-Header_1.png)
+*Image removed: VSH Create Case From Header*
 
 After selecting the topic, fill out the case form.
 
-![VSH case form](https://images.ctfassets.net/tmqu5vj33f7w/76obEa8MHsnfZJdyCwTcCR/6c0c61d0d4d6748542aeae173c6ba754/03-VSH-support-case-form.png)
+*Image removed: VSH case form*
 
 ### Reporting a defect[](#reporting-a-defect)
 
@@ -66,7 +66,7 @@ To resolve your case as quickly as possible, we'll need some information from yo
 
 You can manage your cases from the case dashboard.
 
-![Visa Support Hub Case Dashboard](https://images.ctfassets.net/tmqu5vj33f7w/65Xfcjz3W3uJPOOYXvD5hC/c2f074712bf86f754ca16c886dacb058/04-VSH-case-dashboard.png)
+*Image removed: Visa Support Hub Case Dashboard*
 
 Each case has a status, which gives you a good sense of how a case is progressing or what actions are needed from you at a glance.
 
@@ -83,9 +83,9 @@ Each case has a status, which gives you a good sense of how a case is progressin
 
 You can view and update a case by selecting it from the case dashboard. Here, you can view the case activity and add details about the case.
 
-![Visa Support Hub Case Management View](https://images.ctfassets.net/tmqu5vj33f7w/6kiBdWia1yg3aa5ZIlhyQB/c262ef6ac2b4d840ab9e68239ec7a48a/VSH-05-case-management-view.png)
+*Image removed: Visa Support Hub Case Management View*
 
 ## More resources[](#more-resources)
 
--   [Service status](https://status.tink.com/)
--   [Service level agreements](https://tink.com/legal/agreements/)
+-   Service status
+-   Service level agreements

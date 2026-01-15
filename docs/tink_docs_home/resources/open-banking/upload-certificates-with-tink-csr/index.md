@@ -28,10 +28,10 @@ See below for an example JSON file for generating OBIE CSRs and the description 
 }
 ```
 
--   _**countryName** : **##** - 2 character country code written in the ISO 3166-1 format, representing the entity country that is enrolled in the [OBIE Directory](https://directory.openbanking.org.uk/s/login/)_.
--   _**organizationName** : **Open Banking Limited (D)** - This is the organisation name as shown in the [OBIE Directory](https://directory.openbanking.org.uk/s/login/)_.
--   _**organizationIdentifier** : **PSDGB-FCA-######** - If you have an FCA number, or **PSDGB-OB-Unknown######** if you do not have an NCA number in the [OBIE Directory](https://directory.openbanking.org.uk/s/login/)_.
--   _**commonName** : **######** - This is your organisation ID in the [OBIE Directory](https://directory.openbanking.org.uk/s/login/)_.
+-   _**countryName** : **##** - 2 character country code written in the ISO 3166-1 format, representing the entity country that is enrolled in the OBIE Directory_.
+-   _**organizationName** : **Open Banking Limited (D)** - This is the organisation name as shown in the OBIE Directory_.
+-   _**organizationIdentifier** : **PSDGB-FCA-######** - If you have an FCA number, or **PSDGB-OB-Unknown######** if you do not have an NCA number in the OBIE Directory_.
+-   _**commonName** : **######** - This is your organisation ID in the OBIE Directory_.
 -   _**psd2Roles** : **######** - A multi value list of PSD2 roles that the certificate should be authorized to perform. Account information (AI) and/or payment initiation (PI)_.
 
 ## Execute command to generate a CSR[](#execute-command-to-generate-a-csr)
@@ -65,7 +65,7 @@ The response consists of the CSR file, a string representation of the CSR and a 
 
 ### 1\. Upload the CSR to the OBIE Directory[](#upload-the-csr-to-the-obie-directory)
 
-1.  Log in to [OBIE Directory](https://directory.openbanking.org.uk/s/login/).
+1.  Log in to OBIE Directory.
 2.  Go to **Directory**.
 3.  Select "Certificates".
 4.  Select "Add new Organisation Certificate".
@@ -79,7 +79,7 @@ The response consists of the CSR file, a string representation of the CSR and a 
 
 ### 3\. Construct OBWAC/OBSeal certificate chain[](#construct-obwac-obseal-certificate-chain)
 
-1.  Download the files OpenBankingRootCA.cer and OpenBankingIssuingCA.cer from [Open Banking Developer Zone](https://openbanking.atlassian.net/wiki/spaces/DZ/pages/80544075/OB+Root+and+Issuing+Certificates+for+Production)
+1.  Download the files OpenBankingRootCA.cer and OpenBankingIssuingCA.cer from Open Banking Developer Zone
 2.  Convert each .cer file to .pem file
 
 ```

@@ -16,7 +16,7 @@ As part of the request, you need to:
 Example request:
 
 ```
-curl -X -v POST 'https://api.tink.com/api/v1/statistics/query' \
+curl -X -v POST '[external url removed]' \
 -H 'Authorization: Bearer {YOUR_USER_ACCESS_TOKEN}' \
 -H 'Content-Type: application/json' \
 --data-raw '{

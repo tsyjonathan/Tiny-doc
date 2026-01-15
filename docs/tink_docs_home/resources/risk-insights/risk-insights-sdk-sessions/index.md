@@ -21,7 +21,7 @@ Create a session by using the `POST /link/v1/session` endpoint. The request must
 Example client access token request
 
 ```
-curl -X POST 'https://api.tink.com/api/v1/oauth/token' \
+curl -X POST '[external url removed]' \
 -H 'Content-Type: application/x-www-form-urlencoded' \
 -d 'clientId=' \
 -d 'clientSecret=' \
@@ -48,7 +48,7 @@ Then, create a session using the `CLIENT_ACCESS_TOKEN` in the authorization head
 Example session request
 
 ```
-curl -X POST https://api.tink.com/link/v1/session \
+curl -X POST [external url removed] \
 -H 'Authorization: Bearer ' \
 -H 'Content-Type: application/json' \
 -d '{ "externalReference" : "123456" }'
@@ -79,7 +79,7 @@ All fields in the Session request body are optional, but you need to provide at 
 Initialize Tink Link with your session by appending the `session_id` query parameter to your Tink Link URL using the `SESSION_ID` from the [Create Session response](#create-a-session).
 
 ```
-https://link.tink.com/1.0/risk-insights/create-report?...&session_id={SESSION_ID}
+[external url removed]
 ```
 
 ## Example use cases[](#example-use-cases)
@@ -91,7 +91,7 @@ Pass an `externalReference` to a session to securely provide your own external r
 Example session using externalReference
 
 ```
-curl -X POST https://api.tink.com/link/v1/session \
+curl -X POST [external url removed] \
 -H 'Authorization: Bearer ' \
 -H 'Content-Type: application/json' \
 -d '{ "externalReference" : "customer-abc-123" }'
@@ -101,12 +101,12 @@ curl -X POST https://api.tink.com/link/v1/session \
 
 ### Merchant customization[](#merchant-customization)
 
-Pass a `merchantId` when creating a session to apply merchant-level customizations to Tink Link. This allows you to use separate themes, logos and other customization for individual merchants. You can configure merchant customizations in [Console](https://console.tink.com/).
+Pass a `merchantId` when creating a session to apply merchant-level customizations to Tink Link. This allows you to use separate themes, logos and other customization for individual merchants. You can configure merchant customizations in Console.
 
 Example session using merchantId
 
 ```
-curl -X POST https://api.tink.com/link/v1/session \
+curl -X POST [external url removed] \
 -H 'Authorization: Bearer ' \
 -H 'Content-Type: application/json' \
 -d '{ "merchantId" : "c52e84e2-26f7-4e54-8049-46d16588e649" }'
@@ -119,7 +119,7 @@ Pass a `personalIdentifier` to the session to prefill the authentication input f
 Example session using personalIdentifier
 
 ```
-curl -X POST https://api.tink.com/link/v1/session \
+curl -X POST [external url removed] \
 -H 'Authorization: Bearer ' \
 -H 'Content-Type: application/json' \
 -d '{ "personalIdentifier" : "199901012222" }'

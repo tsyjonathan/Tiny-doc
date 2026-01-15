@@ -186,7 +186,7 @@ A URL to redirect the user to in order to continue the authorization flow.
       "succeededAt": "2022-11-28T08:45:33.408Z",
       "supplementalInformation": {
         "id": "c63dc11e-b210-4a96-9461-2061389789e7",
-        "redirectUri": "https://financial-service.com/authorize-here?id=1a5b3x9s16s"
+        "redirectUri": "[external url removed]"
       }
     }
   ],
@@ -255,7 +255,7 @@ Base64 encoded string pointing to the next page that should be listed. All filte
     "succeededAt": "2022-11-28T08:45:33.408Z",
     "supplementalInformation": {
       "id": "c63dc11e-b210-4a96-9461-2061389789e7",
-      "redirectUri": "https://financial-service.com/authorize-here?id=1a5b3x9s16s"
+      "redirectUri": "[external url removed]"
     }
   }
 }
@@ -343,8 +343,8 @@ The state from the received callback from the ASPSP. Used by Tink to connect the
 
 ```
 {
-  "appUri": "https://my-customer-app.com/authentication",
-  "callbackUri": "http://my-customer-app.com/callback"
+  "appUri": "[external url removed]",
+  "callbackUri": "[external url removed]"
 }
 ```
 
@@ -385,7 +385,7 @@ This URI will be used by the ASPSP to pass the authorization code. It correspond
     "succeededAt": "2022-11-28T08:45:33.408Z",
     "supplementalInformation": {
       "id": "c63dc11e-b210-4a96-9461-2061389789e7",
-      "redirectUri": "https://financial-service.com/authorize-here?id=1a5b3x9s16s"
+      "redirectUri": "[external url removed]"
     }
   }
 }
@@ -1097,7 +1097,7 @@ Values: `VRP_SWEEPING`, `VRP_COMMERCIAL` |
             "type": "object"
           }
         },
-        "$schema": "https://json-schema.org/draft/2019-09/schema",
+        "$schema": "[external url removed]",
         "properties": {
           "controlParameters": {
             "description": "Control parameters.",

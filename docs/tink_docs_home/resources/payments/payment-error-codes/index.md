@@ -37,7 +37,7 @@ If your one-time payment request fails, Tink sends back a status code and a mess
 | --- | --- |
 | `amount_less_than_or_equal_to_zero` | `amount` can't be less than or equal to zero |
 | `amount_too_large` | `amount` can’t exceed 999,999,999 |
-| `currency_code_invalid` | The `currency` isn’t a code supported by [ISO 4217](https://www.iso.org/iso-4217-currency-codes.html) |
+| `currency_code_invalid` | The `currency` isn’t a code supported by ISO 4217 |
 | `currency_missing` | `currency` can't be `null` or empty |
 | `invalid_currency_for_destination_account_type` | The payee's account type doesn't support the provided `currency` |
 | `money_invalid` | The `currency` has too many or too few decimals |
@@ -48,13 +48,13 @@ If your one-time payment request fails, Tink sends back a status code and a mess
 | --- | --- |
 | `execution_date_passed` | The `executionDate` is in the past |
 | `execution_date_not_business_day` | The `executionDate` is on a weekend |
-| `execution_date_format_invalid` | The `executionDate` doesn't follow the [ISO 8601](https://www.iso.org/iso-8601-date-and-time-format.html) format YYYY-MM-DD |
+| `execution_date_format_invalid` | The `executionDate` doesn't follow the ISO 8601 format YYYY-MM-DD |
 
 #### Market[](#market)
 
 | Error Code | Description |
 | --- | --- |
-| `market_invalid` | The `market` isn’t a valid [ISO-3166-1](https://www.iso.org/iso-3166-country-codes.html) Alpha-2 market code |
+| `market_invalid` | The `market` isn’t a valid ISO-3166-1 Alpha-2 market code |
 | `market_missing` | `market` missing from the payment request |
 | `market_not_supported` | Tink doesn't support this `market` (yet) |
 
@@ -83,7 +83,7 @@ If your one-time payment request fails, Tink sends back a status code and a mess
 | `character_not_allowed` | `recipientName` or `sourceMessage` has an invalid character. |
 | `creditor_name_length_exceeded` | `recipientName` can’t be more than 30 characters. If the `recipientName` is too long, use the first 30 characters |
 | `creditor_name_missing` | `recipientName` is missing from the payment request |
-| `invalid_country_code` | The `countryCode` of the `address` isn't a valid [ISO-3166-1](https://www.iso.org/iso-3166-country-codes.html) Alpha-2 or Alpha 3 country code |
+| `invalid_country_code` | The `countryCode` of the `address` isn't a valid ISO-3166-1 Alpha-2 or Alpha 3 country code |
 | `invalid_destination_account_number` | The `accountNumber` of the `destination` or `recipient` is invalid |
 | `invalid_destination_account_type` | The `type` of the `destination` or `accountType` of the `recipient` is invalid |
 | `missing_account_number_for_recipient` | `accountNumber` is missing from the `recipient` |
@@ -123,7 +123,7 @@ If your one-time payment request fails, Tink sends back a status code and a mess
 
 | Error Code | Description |
 | --- | --- |
-| `invalid_ocr` | The value of `recipientInformation` doesn’t follow the [Bankgiro specification](https://www.bankgirot.se/en/Support/teknisk-information/) |
+| `invalid_ocr` | The value of `recipientInformation` doesn’t follow the Bankgiro specification |
 | `remittance_information_length_invalid` | The length of the `remittanceInformation` isn’t supported by the provider |
 | `remittance_information_type_invalid` | The `type` of `remittanceInformation` isn't supported. See the [remittanceInformation model](/Tiny-doc/tink_docs_api/api-payment/#payment/payment-request/get-payment-request/response-restpaymentresponse/remittanceinformationdto) for supported types |
 | `remittance_information_type_invalid_for_account_type` | The `accountType` doesn’t support the provided `remittanceInformation` type |
@@ -234,7 +234,7 @@ Something is wrong with the Tink Link URL, usually due to missing or incorrect p
 | `INVALID_STATE_REDIRECTED_AUTHORIZATION_TOKEN` | A third party is redirecting back to Tink, but the query is missing `authorization_token`. |
 | `INVALID_STATE_REDIRECTED_CREDENTIALS_ID` | A third party is redirecting back to Tink, but the query is missing `credentialsId`. |
 | `INVALID_STATE_REFRESH_CREDENTIALS_RATE_LIMITED` | The app has exceeded the [API rate limits](/Tiny-doc/tink_docs_api/api/#introduction/rate-limits) while refreshing credentials. |
-| `INVALID_STATE_REDIRECT_URI` | The `redirect_uri` is invalid. Make sure that it's registered in the "App settings" page in [Console](https://console.tink.com/app-settings/client). |
+| `INVALID_STATE_REDIRECT_URI` | The `redirect_uri` is invalid. Make sure that it's registered in the "App settings" page in Console. |
 | `INVALID_STATE_SCOPE` | One or more scopes are incorrect or not available for the OAuth client. |
 
 #### AUTHENTICATION\_ERROR[](#authentication_error)

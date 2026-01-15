@@ -3,7 +3,7 @@ title: "Actionable Insights for iOS - Tink Docs"
 source: "/Tiny-doc/tink_docs_home/resources/money-manager-ios/actionable-insights-for-ios-pfm-sdk/"
 exportedAt: "2026-01-13T13:00:11.593Z"
 ---
-![Actionable insights](https://images.ctfassets.net/tmqu5vj33f7w/2n3LTfV6OQay5R5psf4IBt/d79756c7c5ccbc76eace4b0851e09667/Actionable_insights.png)
+*Image removed: Actionable insights*
 
 ## Overview[](#overview)
 
@@ -129,7 +129,7 @@ func actionableInsightsViewController(_ viewController: ActionableInsightsViewCo
 
 ### Handling Disabled Insights[](#handling-disabled-insights)
 
-If your app doesn't support some actions and you've disabled the insights for these actions in the [Console](https://console.tink.com/), you do not neccessarily need to implement the corresponding delegate method.
+If your app doesn't support some actions and you've disabled the insights for these actions in the Console, you do not neccessarily need to implement the corresponding delegate method.
 
 For example, if your app doesn't have a budgets feature your implementation for the budget action might look like this:
 

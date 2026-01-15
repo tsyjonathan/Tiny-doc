@@ -3,7 +3,7 @@ title: "Not Found - Tink Docs"
 source: "/Tiny-doc/tink_docs_home/resources/pfm-sdk-android/pfm-sdk-android-finance-overview/"
 exportedAt: "2026-01-13T12:53:42.406Z"
 ---
-![](https://docs.tink.com/assets/banana-guy-CNjP65Mx.png)
+*Image removed: external*
 
 ## 404 Page
 

@@ -101,7 +101,7 @@ Something is wrong with the Tink Link URL, usually due to missing or incorrect p
 | `INVALID_STATE_REDIRECTED_AUTHORIZATION_TOKEN` | A third party is redirecting back to Tink, but the query is missing `authorization_token`. |
 | `INVALID_STATE_REDIRECTED_CREDENTIALS_ID` | A third party is redirecting back to Tink, but the query is missing `credentialsId`. |
 | `INVALID_STATE_REFRESH_CREDENTIALS_RATE_LIMITED` | The app has exceeded the [API rate limits](/Tiny-doc/tink_docs_api/api/#introduction/rate-limits) while refreshing credentials. |
-| `INVALID_STATE_REDIRECT_URI` | The `redirect_uri` is invalid. Make sure that it's registered in the "App settings" page in [Console](https://console.tink.com/app-settings/client). |
+| `INVALID_STATE_REDIRECT_URI` | The `redirect_uri` is invalid. Make sure that it's registered in the "App settings" page in Console. |
 | `INVALID_STATE_SCOPE` | One or more scopes are incorrect or not available for the OAuth client. |
 
 ### AUTHENTICATION\_ERROR[](#authentication_error)

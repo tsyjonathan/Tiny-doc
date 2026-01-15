@@ -7,7 +7,7 @@ exportedAt: "2026-01-13T12:55:56.877Z"
 
 To make sure end users have an easy, secure and fast way to authenticate towards banks, we’re providing you with Tink Link, our front-end SDK for end-user authentication. Using Tink Link, you have access to a ready-made authentication flow with a single line of code - regardless of bank or market
 
-![Tink Link](https://cdn.tink.se/dev-center-assets/images/tink-link-mockups.jpg)
+*Image removed: Tink Link*
 
 ## Create an authentication link[](#create-an-authentication-link)
 
@@ -29,7 +29,7 @@ It’s possible to streamline the authentication flow using [optional Tink Link 
 
 You can now authenticate yourself towards any of the many banks and financial institutions that Tink supports. Use regular bank credentials to securely connect to a bank and retrieve financial data.
 
-![Tink Link authentication](https://cdn.tink.se/dev-center-assets/images/tink-link-authentication.gif)
+*Image removed: Tink Link authentication*
 
 On a successful authentication, your browser should redirect you to the `redirect_uri` you specified in your Tink Link URL. It should contain an authorization `code`, and your browser URL window will contain a URL similar to: `{redirect_uri}/?code={YOUR_USER_AUTHORIZATION_CODE}`.
 

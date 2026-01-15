@@ -11,7 +11,7 @@ With the Tink Events API, you only need to configure webhooks once for your enti
 
 Use this endpoint to receive notifications. The endpoint should be a publicly-accessible URL that can receive POST requests. Tink will connect to this URL, and the event payload will be sent in the request body.
 
-**Endpoint example:** `https://endpoint.example.com/webhook`
+**Endpoint example:** `[external url removed]
 
 ### 2\. Set up the webhook using the Events API[](#set-up-the-webhook-using-the-events-api)
 
@@ -26,7 +26,7 @@ You need to set up the webhook one time. First create a `Client Token` and then 
   "enabledEvents": [
     "reports-generation:completed"
   ],
-  "url": "https://my.webhook.endpoint.com/"
+  "url": "[external url removed]"
 }
 ```
 
@@ -43,7 +43,7 @@ You need to set up the webhook one time. First create a `Client Token` and then 
   "id": "d8f37f7d19c240abb4ef5d5dbebae4ef",
   "secret": "string",
   "updatedAt": "2024-03-24T15:27:59Z",
-  "url": "https://my.webhook.endpoint.com/"
+  "url": "[external url removed]"
 }
 ```
 

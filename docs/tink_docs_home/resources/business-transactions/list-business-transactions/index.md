@@ -8,7 +8,7 @@ To retrieve a list of transactions, you need a client access token with the `tra
 Fetch a list of transactions
 
 ```
-curl "https://api.tink.com/data/v2/transactions" \
+curl "[external url removed]" \
   -H 'Authorization: Bearer '
 ```
 
@@ -77,7 +77,7 @@ In the request, you need to provide the user access token but can also specify a
 Request example with optional parameters
 
 ```
-curl -X GET 'https://api.tink.com/data/v2/transactions' \
+curl -X GET '[external url removed]' \
   -H 'Authorization: Bearer ' \
   -d 'accountIdIn=' \
   -d 'statusIn=' \

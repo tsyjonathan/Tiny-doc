@@ -3,7 +3,7 @@ title: "Customize Accounts on Android - Tink Docs"
 source: "/Tiny-doc/tink_docs_home/resources/pfm-sdk-android/customize-accounts-on-android/"
 exportedAt: "2026-01-13T12:58:36.076Z"
 ---
-![Customization Budgets Android](https://images.ctfassets.net/tmqu5vj33f7w/3tQLB1YWrIdR7OHnyaIBww/6c3661eee83f8945d8b6afe5de45b53f/Android-Accounts-Customisation.png)
+*Image removed: Customization Budgets Android*
 
 ## Overview[](#overview)
 

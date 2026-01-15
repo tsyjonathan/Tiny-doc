@@ -5,7 +5,7 @@ exportedAt: "2026-01-13T12:56:52.503Z"
 ---
 The next step in the flow is the source (or debtor) account selection screen. By preselecting a source account, you remove the need for the user to select an account each time they make a payment, simplifying the experience. This way, you can enable returning users to proceed immediately to the payment flow.
 
-![Flow optimization - Account selection](https://images.ctfassets.net/tmqu5vj33f7w/1Z0jx1REtUrWtZD0a5w8Ok/205e1704c3919cd0d5a4db432ca48bb0/Flow_optimization_-_Account_selection.png)
+*Image removed: Flow optimization - Account selection*
 
 This screen will always be shown when the source account is not known or provided, or in cases where the source account is required by the bank to start the payment.
 
@@ -53,7 +53,7 @@ Or, if you’re using Payments alongside Account Aggregation with permanent user
 Session request example
 
 ```
-curl -X POST https://api.tink.com/link/v1/session \
+curl -X POST [external url removed] \
 -H 'Authorization: Bearer ' \
 -H 'Content-Type: application/json' \
 -d '{"source_account_number": "se://12340011223"}'

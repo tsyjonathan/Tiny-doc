@@ -13,9 +13,9 @@ Good to note that payment fees, availablity and coverage can vary per bank and t
 
 | Payment scheme | Payment speed | Fees | Max amount | Availability | Coverage | Use case |
 | --- | --- | --- | --- | --- | --- | --- |
-| [SEPA Instant (EU)](https://www.europeanpaymentscouncil.eu/what-we-do/sepa-instant-credit-transfer) | Instant | €0–€1.50 EUR. See table below on further breakdowns | €100,000 per payment | 24/7, 365 days a year | ~80% of all EU providers | High-value, time-critical EUR payments. |
-| [SEPA Credit (EU)](https://www.europeanpaymentscouncil.eu/what-we-do/sepa-credit-transfer) | 1 Business day | None | €999,999,999 per payment. | Monday to Friday. Not available on weekends or public holidays. | All European providers | EUR Transactions where the recipient does not need to receive the funds immediately. |
-| [Faster Payments (UK)](https://www.wearepay.uk/what-we-do/payment-systems/faster-payment-system/) | Instant | None | £1 million per payment. | 24/7, 365 days a year | All UK providers | Payments in the UK. |
+| SEPA Instant (EU) | Instant | €0–€1.50 EUR. See table below on further breakdowns | €100,000 per payment | 24/7, 365 days a year | ~80% of all EU providers | High-value, time-critical EUR payments. |
+| SEPA Credit (EU) | 1 Business day | None | €999,999,999 per payment. | Monday to Friday. Not available on weekends or public holidays. | All European providers | EUR Transactions where the recipient does not need to receive the funds immediately. |
+| Faster Payments (UK) | Instant | None | £1 million per payment. | 24/7, 365 days a year | All UK providers | Payments in the UK. |
 | BACS direct credit (UK) | Up to 3 business days | £0.05-0.5 | £20 million per payment | Monday to Friday between 07.00 and 22.30 | UK providers | High ATV payments in the UK. |
 | CHAPS (UK) | Same-day if submitted before 17.40 | £20+ | No upper limit | Monday to Friday between 06.00 and 18.00 | UK providers | High ATV payments requiring same day in the UK. |
 | PG, BG, (SE) | Same day | 0-1.8kr per payment | Varies per bank and time period but up to 1,000,000 kr | Monday to Friday between 06.00 and 18.00 | All SE providers | Swedish payments that settle within 1 business day. Such as invoice payments. |

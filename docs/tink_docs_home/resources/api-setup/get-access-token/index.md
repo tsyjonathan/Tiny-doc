@@ -17,14 +17,14 @@ exportedAt: "2026-01-13T12:56:43.041Z"
 Authorize access to your backend client
 
 ```
-curl -v -X POST https://api.tink.com/api/v1/oauth/token \
+curl -v -X POST [external url removed] \
 -d 'client_id=' \
 -d 'client_secret=' \
 -d 'grant_type=client_credentials' \
 -d 'scope=authorization:grant,user:create'
 ```
 
-**Response**: [Access Token Response](https://tools.ietf.org/html/rfc6749#section-5.1) for a client which expires after 30 mins (no refresh token provided, use the same endpoint again to get a new access token). Please note that this token must also be kept a secret and not exposed to any public client.
+**Response**: Access Token Response for a client which expires after 30 mins (no refresh token provided, use the same endpoint again to get a new access token). Please note that this token must also be kept a secret and not exposed to any public client.
 
 **Response example:**
 
@@ -48,7 +48,7 @@ curl -v -X POST https://api.tink.com/api/v1/oauth/token \
 Add a user
 
 ```
-curl -v -X POST https://api.tink.com/api/v1/user/create \
+curl -v -X POST [external url removed] \
 -H 'Authorization: Bearer ' \
 -H 'Content-Type: application/json' \
 -d '
@@ -80,7 +80,7 @@ curl -v -X POST https://api.tink.com/api/v1/user/create \
 Grant access to a specific user
 
 ```
-curl -X POST https://api.tink.com/api/v1/oauth/authorization-grant \
+curl -X POST [external url removed] \
 -H 'Authorization: Bearer ' \
 -d 'user_id=CREATED_USER_ID' \
 -d 'scope=accounts:read,transactions:read,user:read,credentials:read'
@@ -107,7 +107,7 @@ curl -X POST https://api.tink.com/api/v1/oauth/authorization-grant \
 Get the OAuth access token
 
 ```
-curl -v -X POST https://api.tink.com/api/v1/oauth/token \
+curl -v -X POST [external url removed] \
 -d 'client_id=' \
 -d 'client_secret=' \
 -d 'grant_type=authorization_code' \
@@ -127,7 +127,7 @@ curl -v -X POST https://api.tink.com/api/v1/oauth/token \
 }
 ```
 
-**Common errors:** Note: This API endpoint replies with a friendly error message within the body. Make sure you use the correct `client_id` and `client_secret` found in the [Tink Console](https://console.tink.com/).
+**Common errors:** Note: This API endpoint replies with a friendly error message within the body. Make sure you use the correct `client_id` and `client_secret` found in the Tink Console.
 
 -   `HTTP 400 Authorization code not valid`
 -   `HTTP 401 Could not find the OAuth client`

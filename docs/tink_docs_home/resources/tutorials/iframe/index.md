@@ -19,7 +19,7 @@ Add the `authentication link` as the `src` parameter of an `<iframe>` HTML eleme
 <iframe src="{YOUR_AUTHENTICATION_LINK}" />
 ```
 
-An iframe will by default be [300px wide](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/iframe#attr-width) and [150px tall](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/iframe#attr-height). To allow the iframe to seamlessly adapt its size to the containing element, make sure to apply appropriate sizing either by css or inline-styles. Using the `width` attribute will give the iframe a static width, which is not recommended when targeting mobile devices.
+An iframe will by default be 300px wide and 150px tall. To allow the iframe to seamlessly adapt its size to the containing element, make sure to apply appropriate sizing either by css or inline-styles. Using the `width` attribute will give the iframe a static width, which is not recommended when targeting mobile devices.
 
 ```
 <!–– ❌ not recommended for mobile devices ––>
@@ -41,7 +41,7 @@ Note that the `type` of the success message differs between products. View the "
 window.addEventListener('message', receiveMessage, false);
 
 function receiveMessage(event) {
-  if (event.origin !== 'https://link.tink.com') {
+  if (event.origin !== '[external url removed]') {
     return;
   }
 
@@ -69,7 +69,7 @@ function receiveMessage(event) {
 }
 ```
 
-Also, as with all web development, make sure to take the necessary security precautions. You can read more about `postMessage` [here](https://developer.mozilla.org/en-US/docs/Web/API/Window/postMessage).
+Also, as with all web development, make sure to take the necessary security precautions. You can read more about `postMessage` here.
 
 ### 4\. Authenticate and see if it works[](#authenticate-and-see-if-it-works)
 
@@ -219,7 +219,7 @@ _Note: This event is only emitted for users using iOS devices._
 {
     "type": "redirect",
     "data": {
-      "url": "https://ob.bank.com/authenticate?token=foobar"
+      "url": "[external url removed]"
     }
 }
 ```
@@ -233,7 +233,7 @@ _Note: This event is only emitted for users using iOS devices._
 
 ### Why do I need to specify a redirect\_uri when embedding in iframe?[](#why-do-i-need-to-specify-a-redirect_uri-when-embedding-in-iframe-)
 
-For security reasons. The `redirect_uri` is used as the `targetOrigin` argument when Tink Link sends messages to the hosting site using [postMessage](https://developer.mozilla.org/en-US/docs/Web/API/Window/postMessage). This ensures only the hosting site can receive the message. The `redirect_uri` should match the hosting site. If `...?redirect_uri=https://acme.com/tink/redirect`, then the hosting site's origin must be [https://acme.com](https://acme.com/).
+For security reasons. The `redirect_uri` is used as the `targetOrigin` argument when Tink Link sends messages to the hosting site using postMessage. This ensures only the hosting site can receive the message. The `redirect_uri` should match the hosting site. If `...?redirect_uri=[external url removed] then the hosting site's origin must be [external url removed]
 
 ### How do I deal with the state parameter?[](#how-do-i-deal-with-the-state-parameter-)
 

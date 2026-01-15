@@ -18,7 +18,7 @@ For more information on how to create permanent users, see [Permanent users](/Ti
 
 For more information on how source account preselection works, see [Source account preselection](/Tiny-doc/tink_docs_home/resources/payments/payment-initiation-flow-optimisation-source-account-preselection/).
 
-![Flow optimization - generic - Overview-5](https://images.ctfassets.net/tmqu5vj33f7w/2Xv9LWlGXMV0cpPsFgAl6l/06954ce90b074db43b68103b40e8fd8f/Flow_optimization_-_generic_-_Overview-5.png) **Figure 1**: a typical flow where AIS screens are skipped.
+*Image removed: Flow optimization - generic - Overview-5* **Figure 1**: a typical flow where AIS screens are skipped.
 
 ## Flow descriptions[](#flow-descriptions)
 
@@ -28,17 +28,17 @@ For users that repeat payment initiation at least twice in 90 days, reuse the PS
 
 For information on which flow is supported by which bank, see [Payment conditions](/Tiny-doc/tink_docs_home/resources/payments/payment-conditions/).
 
-![Flow optimization - generic - Overview-2](https://images.ctfassets.net/tmqu5vj33f7w/e4S8CrqIcWgguuV7iFrZx/bc01717dca6e78e7c12c97f906abae02/Flow_optimization_-_generic_-_Overview-2.png) **Figure 2**: a typical AIS+PIS flow that’s used by a first-time user. The user has provided 90-day consent and started payment.
+*Image removed: Flow optimization - generic - Overview-2* **Figure 2**: a typical AIS+PIS flow that’s used by a first-time user. The user has provided 90-day consent and started payment.
 
 To use this flow, follow the steps in [Only Payments](#only-payments).
 
-![AIS ](https://images.ctfassets.net/tmqu5vj33f7w/2kpSPbuWEbkQvTwkKdHJm8/a40c9dba98ecec12cb2d732964d3663d/Group_4.png) **Figure 3**: a typical PIS flow that’s used by a first-time user. The user has provided 90-day consent and connected their bank account to Tink.
+*Image removed: AIS * **Figure 3**: a typical PIS flow that’s used by a first-time user. The user has provided 90-day consent and connected their bank account to Tink.
 
 This scenario is suitable if you bundle Payments with [Account Check](/Tiny-doc/tink_docs_home/resources/account-check/) or [Transactions](/Tiny-doc/tink_docs_home/resources/transactions/).
 
 To use this flow, follow the steps in [Payments with another Tink product](#payments-with-another-tink-product)
 
-![Flow optimization - generic - Overview-3](https://images.ctfassets.net/tmqu5vj33f7w/65k6lKfGY6bo2cAkt8zF8h/cfb4555694fa29a5f45a2f047f6f1118/Flow_optimization_-_generic_-_Overview-3.png) **Figure 4**: a typical PIS flow where only one SCA is used.
+*Image removed: Flow optimization - generic - Overview-3* **Figure 4**: a typical PIS flow where only one SCA is used.
 
 Note: further optimize the flow by [preselecting the source account](/Tiny-doc/tink_docs_home/resources/payments/payment-initiation-flow-optimisation-source-account-preselection/). This reduces the number of screens, which is likely to increase your conversion rate.
 
@@ -67,7 +67,7 @@ Note: because permanent users is used, you must add `&authorization_code={USER_A
 Example Tink URL:
 
 ```
-https://link.tink.com/1.0/pay/direct?client_id={YOUR_CLIENT_ID}&redirect_uri={URL_TO_YOUR_PAGE}&market={MARKET}&payment_request_id={YOUR_REQUEST_ID}&authorization_code={USER_AUTHORIZATION_CODE}
+[external url removed]
 ```
 
 The success callback now returns `&payment_request_id={YOUR_REQUEST_ID}`.
@@ -97,7 +97,7 @@ The created `USER_AUTHORIZATION_CODE` is used to authenticate the existing user 
 To [add credentials](/Tiny-doc/tink_docs_api/api/#connectivity/credentials) to either a new or existing user (who may have other credentials already), initiate the Tink Link add credentials flow and specify the authorization\_code as a query parameter on the URL.
 
 ```
-https://link.tink.com/1.0/credentials/add
+[external url removed]
 ```
 
 | Parameter | Description |
@@ -112,7 +112,7 @@ For a list of all the available parameters, see [Tink Link API reference for Acc
 Example of AIS Tink URL:
 
 ```
-https://link.tink.com/1.0/credentials/add?client_id={YOUR_CLIENT_ID}&scope=transactions:read,identity:read&redirect_uri=http://localhost:3000/callback&authorization_code={USER_AUTHORIZATION_CODE}
+[external url removed]
 ```
 
 The callback URI returns `&credentials_id={id_for_created_credentials}`. Add the `credentials_id` to your Tink URL for every PIS flow together with the new `authorization_code`.
@@ -120,7 +120,7 @@ The callback URI returns `&credentials_id={id_for_created_credentials}`. Add the
 Example of PIS Tink URL:
 
 ```
-https://link.tink.com/1.0/pay/credentials?client_id={YOUR_CLIENT_ID}&scope=transactions:read,identity:read&redirect_uri=http://localhost:3000/callback&authorization_code={USER_AUTHORIZATION_CODE}
+[external url removed]
 ```
 
 Repeat steps 1-3 to run each consecutive payment with only one SCA for the Payment Initiation in the next 90 days from the day that consent was given.

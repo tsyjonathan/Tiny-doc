@@ -8,7 +8,7 @@ exportedAt: "2026-01-13T12:45:16.800Z"
 Connect accounts base URL
 
 ```
-https://link.tink.com/1.0/products/connect-accounts
+[external url removed]
 ```
 
 ### URL parameters[](#url-parameters)
@@ -17,9 +17,9 @@ Use these parameters when building the SDK URL. Then, integrate the URL into you
 
 | Parameter | Required | Description |
 | --- | --- | --- |
-| `client_id` | Required | Your client ID (retrieved from [Console](https://console.tink.com/)). |
+| `client_id` | Required | Your client ID (retrieved from Console). |
 | `products` | Required | A comma separated list of products for which to aggregate data (`ACCOUNT_CHECK`, `INVESTMENTS`, `LOANS`, `TRANSACTIONS`). |
-| `redirect_uri` | Required | The page the end-user is redirected to after completing the flow together with the response parameters (configured in [Console](https://console.tink.com/)). |
+| `redirect_uri` | Required | The page the end-user is redirected to after completing the flow together with the response parameters (configured in Console). |
 | `app_uri` | Optional | The deep link for an Android or iOS hosting app. Use when Tink Link is embedded in an [Android](/Tiny-doc/tink_docs_home/resources/payments/one-time-payments/integrate-one-time-payments-in-android-apps/)/[iOS](/Tiny-doc/tink_docs_home/resources/payments/one-time-payments/integrate-one-time-payments-in-ios-apps/) app to redirect the user back to the hosting app after authenticating in a third-party app (such as Mobile Bank ID). |
 | `auto_redirect_mobile` | Optional, but recommended for mobile integrations | Use for [Android](/Tiny-doc/tink_docs_home/resources/payments/one-time-payments/integrate-one-time-payments-in-android-apps/) or [iOS](/Tiny-doc/tink_docs_home/resources/payments/one-time-payments/integrate-one-time-payments-in-ios-apps/) integrations. When `TRUE`, this will directly open the bank app during the authentication step if installed on the user's device or otherwise fall back to a web-based authentication flow in the system's default browser. |
 | `financial_services_segments` | Optional (default `PERSONAL`) | A comma separated list of financial services segments (`PERSONAL`, `BUSINESS`). |
@@ -36,7 +36,7 @@ Use these parameters when building the SDK URL. Then, integrate the URL into you
 Example URL
 
 ```
-https://link.tink.com/1.0/products/connect-accounts?client_id=&products=INVESTMENTS,TRANSACTIONS&redirect_uri=http://localhost:3000/callback&market=GB
+[external url removed]
 ```
 
 ### Success response parameters[](#success-response-parameters)
@@ -52,7 +52,7 @@ Tink appends the following parameters to the `redirect_uri` after a successful S
 Example success response
 
 ```
-http://localhost:3000/callback?code=b189db88c1dc4ac3a95f4308527e6362&credentials_id=6915ab99857fec1e6f2f6c078
+[external url removed]
 ```
 
 ### Error response parameters[](#error-response-parameters)
@@ -73,7 +73,7 @@ Tink appends the following parameters to the `redirect_uri` if the SDK journey e
 Example error response
 
 ```
-http://localhost:3000/callback?
+[external url removed]
     error=BAD_REQUEST&
     error_reason=INVALID_PARAMETER_CLIENT_ID&
     message=We%E2%80%99re%20sorry%2C%20but%20an%20error%20has%20occurred.&
@@ -85,7 +85,7 @@ http://localhost:3000/callback?
 Connect accounts base URL
 
 ```
-https://link.tink.com/1.0/products/connect-accounts
+[external url removed]
 ```
 
 ### URL parameters[](#url-parameters)
@@ -95,9 +95,9 @@ Use these parameters when building the SDK URL. Then, integrate the URL into you
 | Parameter | Required | Description |
 | --- | --- | --- |
 | `authorization_code` | Required | The created `USER_AUTHORIZATION_CODE` (see [generating a user authorization code](/Tiny-doc/tink_docs_home/resources/tink-link-web/tink-link-web-permanent-users/#generate-a-user-authorization-code)). |
-| `client_id` | Required | Your client ID (retrieved from [Console](https://console.tink.com/)). |
+| `client_id` | Required | Your client ID (retrieved from Console). |
 | products | Required | A comma separated list of products for which to aggregate data (`ACCOUNT_CHECK`, `INVESTMENTS`, `LOANS`, `TRANSACTIONS`). |
-| `redirect_uri` | Required | The page the end-user is redirected to after completing the flow together with the response parameters (configured in [Console](https://console.tink.com/)). |
+| `redirect_uri` | Required | The page the end-user is redirected to after completing the flow together with the response parameters (configured in Console). |
 | `app_uri` | Optional | The deep link for an Android or iOS hosting app. Use when Tink Link is embedded in an [Android](/Tiny-doc/tink_docs_home/resources/payments/one-time-payments/integrate-one-time-payments-in-android-apps/)/[iOS](/Tiny-doc/tink_docs_home/resources/payments/one-time-payments/integrate-one-time-payments-in-ios-apps/) app to redirect the user back to the hosting app after authenticating in a third-party app (such as Mobile Bank ID). |
 | `auto_redirect_mobile` | Optional, but recommended for mobile integrations | Use for [Android](/Tiny-doc/tink_docs_home/resources/payments/one-time-payments/integrate-one-time-payments-in-android-apps/) or [iOS](/Tiny-doc/tink_docs_home/resources/payments/one-time-payments/integrate-one-time-payments-in-ios-apps/) integrations. When `TRUE`, this will directly open the bank app during the authentication step if installed on the user's device or otherwise fall back to a web-based authentication flow in the system's default browser. |
 | `financial_services_segments` | Optional (default `PERSONAL`) | A comma separated list of financial services segments (`PERSONAL`, `BUSINESS`). |
@@ -114,7 +114,7 @@ Use these parameters when building the SDK URL. Then, integrate the URL into you
 Example URL
 
 ```
-https://link.tink.com/1.0/products/connect-accounts?client_id=&products=INVESTMENTS,TRANSACTIONS&redirect_uri=http://localhost:3000/callback&market=GB&authorization_code=d473ea2bea8f484c9d7889b0a
+[external url removed]
 ```
 
 ### Success response parameters[](#success-response-parameters)
@@ -129,7 +129,7 @@ Tink appends the following parameters to the `redirect_uri` after a successful S
 Example success response
 
 ```
-http://localhost:3000/callback?credentials_id=6915ab99857fec1e6f2f6c078
+[external url removed]
 ```
 
 ### Error response parameters[](#error-response-parameters)
@@ -150,7 +150,7 @@ Tink appends the following parameters to the `redirect_uri` if the SDK journey e
 Example error response
 
 ```
-http://localhost:3000/callback?
+[external url removed]
     error=BAD_REQUEST&
     error_reason=INVALID_PARAMETER_CLIENT_ID&
     message=We%E2%80%99re%20sorry%2C%20but%20an%20error%20has%20occurred.&
@@ -162,7 +162,7 @@ http://localhost:3000/callback?
 Update consent base URL
 
 ```
-https://link.tink.com/1.0/products/update-consent
+[external url removed]
 ```
 
 ### URL parameters[](#url-parameters)
@@ -172,9 +172,9 @@ Use these parameters when building the SDK URL. Then, integrate the URL into you
 | Parameter | Required | Description |
 | --- | --- | --- |
 | `authorization_code` | Required | The created `USER_AUTHORIZATION_CODE` (see [generating a user authorization code](/Tiny-doc/tink_docs_home/resources/tink-link-web/tink-link-web-permanent-users/#generate-a-user-authorization-code)). |
-| `client_id` | Required | Your client ID (retrieved from [Console](https://console.tink.com/)). |
+| `client_id` | Required | Your client ID (retrieved from Console). |
 | `products` | Required | A comma separated list of products for which to aggregate data (`ACCOUNT_CHECK`, `INVESTMENTS`, `LOANS`, `TRANSACTIONS`). |
-| `redirect_uri` | Required | The page the end-user is redirected to after completing the flow together with the response parameters (configured in [Console](https://console.tink.com/)). |
+| `redirect_uri` | Required | The page the end-user is redirected to after completing the flow together with the response parameters (configured in Console). |
 | `app_uri` | Optional | The deep link for an Android or iOS hosting app. Use when Tink Link is embedded in an [Android](/Tiny-doc/tink_docs_home/resources/payments/one-time-payments/integrate-one-time-payments-in-android-apps/)/[iOS](/Tiny-doc/tink_docs_home/resources/payments/one-time-payments/integrate-one-time-payments-in-ios-apps/) app to redirect the user back to the hosting app after authenticating in a third-party app (such as Mobile Bank ID). |
 | `auto_redirect_mobile` | Optional, but recommended for mobile integrations | Use for [Android](/Tiny-doc/tink_docs_home/resources/payments/one-time-payments/integrate-one-time-payments-in-android-apps/) or [iOS](/Tiny-doc/tink_docs_home/resources/payments/one-time-payments/integrate-one-time-payments-in-ios-apps/) integrations. When `TRUE`, this will directly open the bank app during the authentication step if installed on the user's device or otherwise fall back to a web-based authentication flow in the system's default browser. |
 | `refreshable_items` | Optional | A comma separated list of [refreshable items](/Tiny-doc/tink_docs_api/api/#connectivity-v1/credentials/refresh-credentials/query-parameters) specifying the data types to aggregate overriding the default list of refreshable items for the respective products. |
@@ -185,7 +185,7 @@ Use these parameters when building the SDK URL. Then, integrate the URL into you
 Example URL
 
 ```
-https://link.tink.com/1.0/products/update-consent?client_id=&products=INVESTMENTS,TRANSACTIONS&credentials_id=6915ab99857fec1e6f2f6c078&redirect_uri=http://localhost:3000/callback&authorization_code=d473ea2bea8f484c9d7889b0a
+[external url removed]
 ```
 
 ### Success response parameters[](#success-response-parameters)
@@ -200,7 +200,7 @@ Tink appends the following parameters to the `redirect_uri` after a successful S
 Example success response
 
 ```
-http://localhost:3000/callback?credentials_id=6915ab99857fec1e6f2f6c078
+[external url removed]
 ```
 
 ### Error response parameters[](#error-response-parameters)
@@ -221,7 +221,7 @@ Tink appends the following parameters to the `redirect_uri` if the SDK journey e
 Example error response
 
 ```
-http://localhost:3000/callback?
+[external url removed]
     error=BAD_REQUEST&
     error_reason=INVALID_PARAMETER_CLIENT_ID&
     message=We%E2%80%99re%20sorry%2C%20but%20an%20error%20has%20occurred.&
@@ -233,7 +233,7 @@ http://localhost:3000/callback?
 Extend consent base URL
 
 ```
-https://link.tink.com/1.0/products/extend-consent
+[external url removed]
 ```
 
 ### URL parameters[](#url-parameters)
@@ -243,9 +243,9 @@ Use these parameters when building the SDK URL. Then, integrate the URL into you
 | Parameter | Required | Description |
 | --- | --- | --- |
 | `authorization_code` | Required | The created `USER_AUTHORIZATION_CODE` (see [generating a user authorization code](/Tiny-doc/tink_docs_home/resources/tink-link-web/tink-link-web-permanent-users/#generate-a-user-authorization-code)). |
-| `client_id` | Required | Your client ID (retrieved from [Console](https://console.tink.com/)). |
+| `client_id` | Required | Your client ID (retrieved from Console). |
 | `credentials_id` | Required | The identifier of the credentials to extend consent for. |
-| `redirect_uri` | Required | The page the end-user is redirected to after completing the flow together with the response parameters (configured in [Console](https://console.tink.com/)). |
+| `redirect_uri` | Required | The page the end-user is redirected to after completing the flow together with the response parameters (configured in Console). |
 | `app_uri` | Optional | The deep link for an Android or iOS hosting app. Use when Tink Link is embedded in an [Android](/Tiny-doc/tink_docs_home/resources/payments/one-time-payments/integrate-one-time-payments-in-android-apps/)/[iOS](/Tiny-doc/tink_docs_home/resources/payments/one-time-payments/integrate-one-time-payments-in-ios-apps/) app to redirect the user back to the hosting app after authenticating in a third-party app (such as Mobile Bank ID). |
 | `auto_redirect_mobile` | Optional, but recommended for mobile integrations | Use for [Android](/Tiny-doc/tink_docs_home/resources/payments/one-time-payments/integrate-one-time-payments-in-android-apps/) or [iOS](/Tiny-doc/tink_docs_home/resources/payments/one-time-payments/integrate-one-time-payments-in-ios-apps/) integrations. When `TRUE`, this will directly open the bank app during the authentication step if installed on the user's device or otherwise fall back to a web-based authentication flow in the system's default browser. |
 | `state` | Optional, but recommended | Helps defend against Cross-Site Request Forgery (CSRF) attacks. To use `state`, provide a randomized `state` value when initiating the SDK. Tink will return this value in the callback after a successful grant. You can then compare this value to the value in your request to ensure it came from your app. |
@@ -254,7 +254,7 @@ Use these parameters when building the SDK URL. Then, integrate the URL into you
 Example URL
 
 ```
-https://link.tink.com/1.0/products/extend-consent?client_id=&credentials_id=6915ab99857fec1e6f2f6c078&redirect_uri=http://localhost:3000/callback&authorization_code=d473ea2bea8f484c9d7889b0a
+[external url removed]
 ```
 
 ### Success response parameters[](#success-response-parameters)
@@ -269,7 +269,7 @@ Tink appends the following parameters to the `redirect_uri` after a successful S
 Example success response
 
 ```
-http://localhost:3000/callback?credentials_id=6915ab99857fec1e6f2f6c078
+[external url removed]
 ```
 
 ### Error response parameters[](#error-response-parameters)
@@ -290,7 +290,7 @@ Tink appends the following parameters to the `redirect_uri` if the SDK journey e
 Example error response
 
 ```
-http://localhost:3000/callback?
+[external url removed]
     error=BAD_REQUEST&
     error_reason=INVALID_PARAMETER_CLIENT_ID&
     message=We%E2%80%99re%20sorry%2C%20but%20an%20error%20has%20occurred.&

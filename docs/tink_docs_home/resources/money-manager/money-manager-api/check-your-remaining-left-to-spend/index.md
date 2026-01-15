@@ -20,7 +20,7 @@ You can read more about periods in the [Configure Periods](/Tiny-doc/tink_docs_h
 Example request:
 
 ```
-curl -X PUT 'https://api.tink.com/api/v1/user/profile' \
+curl -X PUT '[external url removed]' \
 -H 'Authorization: Bearer ' \
 -H 'Content-Type: application/json' \
 --data-raw '{
@@ -51,7 +51,7 @@ The next step is to query the [Statistics](/Tiny-doc/tink_docs_api/api/#finance-
 Example request:
 
 ```
-curl -X POST 'https://api.tink.com/api/v1/statistics/query' \
+curl -X POST '[external url removed]' \
 -H 'Authorization: Bearer '
 -H 'Content-Type: application/json' \
 --data-raw '{

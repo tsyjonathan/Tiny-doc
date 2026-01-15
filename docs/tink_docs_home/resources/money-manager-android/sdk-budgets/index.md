@@ -3,7 +3,7 @@ title: "Budgets for Android - Tink Docs"
 source: "/Tiny-doc/tink_docs_home/resources/money-manager-android/sdk-budgets/"
 exportedAt: "2026-01-13T13:00:58.346Z"
 ---
-![Budgets](https://images.ctfassets.net/tmqu5vj33f7w/6FvowWrgaObG3fTvFv6xHU/1cbf30788d562b7dd6d6464ccdbd132c/Budgets_Android.png)
+*Image removed: Budgets*
 
 ## Overview[](#overview)
 

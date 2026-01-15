@@ -17,23 +17,23 @@ For Business Transactions, the job-to-be-done is usually all about convenience a
 
 ### Focus on the job-to-be-done[](#focus-on-the-job-to-be-done)
 
-![TRX optimize example 1.1](https://images.ctfassets.net/tmqu5vj33f7w/6RwxjeDh0SNY2qSYCDp7fm/02a5f28a049bfb9f6ce02682ebafd199/TRX_example_1.1.png) As seen in the example above, don't let the user focus too much on Tink. This may disconnect the user from the action that they need to take.
+*Image removed: TRX optimize example 1.1* As seen in the example above, don't let the user focus too much on Tink. This may disconnect the user from the action that they need to take.
 
 ### Encourage, reassure, and set expectations[](#encourage-reassure-and-set-expectations)
 
-![TRX optimize example 2.1](https://images.ctfassets.net/tmqu5vj33f7w/1N3ekCtCXcsF7Bw22V3rbH/fc08f9218d100ce10f50814560a33e46/TRX_example_2.1.png) Users often won't care and don't need to care about Tink as part of their flow. What is important, is that the user needs to feel that they can trust your integration and that they know what will be asked of them in the next flow step. If trust isn't felt, users risk entering Tink unprepared, potentially causing them to go back in the flow to double-check details or forward without their authentication device at hand just to investigate.
+*Image removed: TRX optimize example 2.1* Users often won't care and don't need to care about Tink as part of their flow. What is important, is that the user needs to feel that they can trust your integration and that they know what will be asked of them in the next flow step. If trust isn't felt, users risk entering Tink unprepared, potentially causing them to go back in the flow to double-check details or forward without their authentication device at hand just to investigate.
 
 ## 2\. Use our design and theming options to fit Tink seamlessly into your app[](#use-our-design-and-theming-options-to-fit-tink-seamlessly-into-your-app)
 
 From a technical perspective, your integration with Tink is a combination of three different flows. These flows are visualized as follows:
 
-![UX guide brand before final](https://images.contentful.com/tmqu5vj33f7w/7ETnhoJfrAsbfKpHum9v2k/4c4f8ff196255e9474aaee330ea38f09/Brand_before.png)
+*Image removed: UX guide brand before final*
 
 From an end-user perspective, the transition between three different brands risks creating a disjointed and confusing user experience. Tink can't directly change the look and feel of a bank's authentication flow, so we provide you with the option to customize the look and feel of the Tink flow to make sure that it is consistent with your own brand.
 
 Styling the Tink flow helps your users focus on the job to be done, removing the distraction that visual inconsistencies can be. This is especially important if your brand differs a lot from our default theme.
 
-You will find design and theming options to style your Tink flow in the [Tink Console](https://console.tink.com/).![Tink Console](https://images.ctfassets.net/tmqu5vj33f7w/tbSVEyuQczLZTusoA6OVG/a4ba2e1bdb3b6dbfc94466dcfce1bf83/tink-link-web-customization-console.png)
+You will find design and theming options to style your Tink flow in the Tink Console.*Image removed: Tink Console*
 
 ## 3\. Optimizations specific to your use case[](#optimizations-specific-to-your-use-case)
 
@@ -41,17 +41,17 @@ Depending on the unique characteristics of your app, you can make several optimi
 
 ### Preselecting a bank[](#preselecting-a-bank)
 
-If you know which bank your users access, or you are reauthenticating the user after their consent has expired, use the data to skip the bank-selection screen and preselect the user's bank. This allows you to remove one step in the flow. The fewer steps, the better. ![AC article preselect bank](https://images.ctfassets.net/tmqu5vj33f7w/4x0C66T1zDuRPowslgMFD7/b0d0b1b3c4380348658f5771cbe45e3d/Skip_provider_selection.png)
+If you know which bank your users access, or you are reauthenticating the user after their consent has expired, use the data to skip the bank-selection screen and preselect the user's bank. This allows you to remove one step in the flow. The fewer steps, the better. *Image removed: AC article preselect bank*
 
 ### Pre-filling information[](#pre-filling-information)
 
-If you have access to a user's bank credentials, you can pre-fill certain fields (such as SSN) and remove another step. For more information, see [Sessions](/Tiny-doc/tink_docs_home/resources/business-transactions/business-transactions-sdk-sessions/). ![AC article prefill fields](https://images.ctfassets.net/tmqu5vj33f7w/4bPB1nPjX5aFDnPFihAOFI/cba03d36a2aa65ecfeb878750295f69d/Prefill_fields.png)
+If you have access to a user's bank credentials, you can pre-fill certain fields (such as SSN) and remove another step. For more information, see [Sessions](/Tiny-doc/tink_docs_home/resources/business-transactions/business-transactions-sdk-sessions/). *Image removed: AC article prefill fields*
 
 ### Business Transactions success screen[](#business-transactions-success-screen)
 
 Our success screen is, by default, disabled, which sends the user directly back to you once their bank is successfully connected. If you want to display our success screen, contact [Tink Support](/Tiny-doc/tink_docs_home/resources/support/how-to-find-technical-support/) to enable it.
 
-![TRX optimize success screen example 1.0](https://images.ctfassets.net/tmqu5vj33f7w/4SxF9Zx6FjwkOycgAApA0t/bd1306c945dfb43b2218d042a983b7a5/TRX_success_screen_example_1.0.png)
+*Image removed: TRX optimize success screen example 1.0*
 
 ## Summary[](#summary)
 

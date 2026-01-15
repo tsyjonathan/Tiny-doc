@@ -5,7 +5,7 @@ exportedAt: "2026-01-13T12:41:28.608Z"
 ---
 Open banking APIs have for a long time been used to retrieve financial data from personal accounts. Business Transactions now provides the same kind of access, but to business accounts. This opens up a whole new category of use cases, such as automating accounting processes or more accurate credit assessments for business lenders.
 
-![business-transactions-intro](https://images.ctfassets.net/tmqu5vj33f7w/6bkGP1HXF1WeW4yFcPlHVd/b05d0fda22b28862c2ba632accd2873e/business-transactions-intro.jpg)
+*Image removed: business-transactions-intro*
 
 ## What this solves[](#what-this-solves)
 
@@ -19,7 +19,7 @@ Business Transactions is part of Tink’s Account Information Services product p
 
 Business Transactions is delivered through a [front–end SDK](/Tiny-doc/tink_docs_home/resources/business-transactions/setup-and-integrate-business-transactions/), which makes your integration to Tink essentially one line of code. By implementing Business Transactions into your product flows, an end user will be asked to connect their account(s) and authenticate to their bank. If consent is granted, a developer can then access all transactions from that account.
 
-![business-transactions-flow-example](https://images.ctfassets.net/tmqu5vj33f7w/1RrjLVS2P0WyoZD2ZXVVzK/442961ea7f908ac2c1536c27ee711b9c/business-transactions-flow-example.gif)
+*Image removed: business-transactions-flow-example*
 
 This may seem simple, but there is a lot of complexity involved in the background. There are thousands of banks across Europe, with their own connections and authentication methods, which can be updated at any time. This is a continuously evolving landscape that requires massive investments in engineering and monitoring. Tink manages all of this complexity for you and will direct the end user to the appropriate authentication mechanism.
 
@@ -38,7 +38,7 @@ At this moment, Business Transactions is an Enterprise-only product with limited
 
 1Subject to market availability. For a list of available markets, see [Account aggregation](/Tiny-doc/tink_docs_home/market-capabilities/aggregation/). 2Dependant on availability.
 
-![business-transactions-data-cleaning](https://images.ctfassets.net/tmqu5vj33f7w/1neFN6CUruFJsz55wW9Apd/394518dd0a8061ce37820db0bfd070fc/business-transactions-data-cleaning.jpg)
+*Image removed: business-transactions-data-cleaning*
 
 ## Data–access models[](#data-access-models)
 

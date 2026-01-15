@@ -14,7 +14,7 @@ We can imagine a situation where you are going to a restaurant with a friend, an
 Example request:
 
 ```
-curl 'https://api.tink.com/api/v1/transactions/{id}/link/{counterpartTransactionId}' \
+curl '[external url removed]' \
   -X POST \
   -H 'Authorization: Bearer ' \
   -H 'Content-Type: application/json' \

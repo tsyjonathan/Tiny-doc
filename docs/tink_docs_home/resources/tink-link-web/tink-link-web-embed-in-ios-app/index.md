@@ -5,7 +5,7 @@ exportedAt: "2026-01-13T13:00:43.195Z"
 ---
 ## Using SFSafariViewController (recommended)[](#using-sfsafariviewcontroller-recommended-)
 
-See our [example iOS project](https://github.com/tink-ab/tink-link-web-ios-example) which uses `SFSafariViewController`, specifies the `app_uri` and also shows how to capture the resulting authorization code.
+See our example iOS project which uses `SFSafariViewController`, specifies the `app_uri` and also shows how to capture the resulting authorization code.
 
 ## Using WKWebView[](#using-wkwebview)
 
@@ -82,13 +82,13 @@ To support automatic redirection back to your app after authenticating in a thir
 
 ### Example[](#example)
 
-If you have defined a [custom URL scheme](https://developer.apple.com/documentation/uikit/inter-process_communication/allowing_apps_and_websites_to_link_to_your_content/defining_a_custom_url_scheme_for_your_app) such as `example://...` for your app, the resulting authentication link would look like:
+If you have defined a custom URL scheme such as `example://...` for your app, the resulting authentication link would look like:
 
 ```
-https://link.tink.com/<version>/<product>?...&app_uri=example://open
+[external url removed]
 ```
 
-To retrieve the authorization code after Tink Link completes, use the registered [URL scheme](https://developer.apple.com/documentation/uikit/inter-process_communication/allowing_apps_and_websites_to_link_to_your_content/defining_a_custom_url_scheme_for_your_app) handled by your app (eg. `example://authorize`) and specify it as the `redirect_uri` when creating your [authentication link](/Tiny-doc/tink_docs_home/resources/getting-started/connect-tink-link/).
+To retrieve the authorization code after Tink Link completes, use the registered URL scheme handled by your app (eg. `example://authorize`) and specify it as the `redirect_uri` when creating your [authentication link](/Tiny-doc/tink_docs_home/resources/getting-started/connect-tink-link/).
 
 ```
 import UIKit

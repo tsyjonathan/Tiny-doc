@@ -14,7 +14,7 @@ You can integrate the Tink SDK in your Android app with just a few steps:
 
 ## Set up Android App Links[](#set-up-android-app-links)
 
-Start by registering Android [App Links or deep links](https://developer.android.com/training/app-links) in your `AndroidManifest.xml`. We'll be using deep links in our examples.
+Start by registering Android App Links or deep links in your `AndroidManifest.xml`. We'll be using deep links in our examples.
 
 To launch the SDK, you need to include two different Android App Links or deep links in your SDK URL:
 
@@ -56,14 +56,14 @@ To launch the SDK, you need to include two different Android App Links or deep l
 
 ## Build a URL[](#build-a-url)
 
-Build a URL to launch the SDK by either using the Tink Link Builder in [Tink Console](https://console.tink.com/) or constructing a URL and providing the [required parameters](/Tiny-doc/tink_docs_home/resources/account-check/account-check-sdk-reference/) as well as the `app_uri` and `redirect_uri` you defined previously.
+Build a URL to launch the SDK by either using the Tink Link Builder in Tink Console or constructing a URL and providing the [required parameters](/Tiny-doc/tink_docs_home/resources/account-check/account-check-sdk-reference/) as well as the `app_uri` and `redirect_uri` you defined previously.
 
 To opt in to automatic redirect behavior, set the `auto_redirect_mobile` parameter to `true`. This lets your users skip an extra interaction to trigger the bank redirect, and will directly open the bank app if installed, or otherwise fall back to a web-based authentication flow in the system's default browser.
 
 ### Example URL[](#example-url)
 
 ```
-https://link.tink.com/1.0/account-check/create-report?client_id={YOUR_CLIENT_ID}&market=SE&locale=en_US&redirect_uri=example%3A%2F%2Fcallback&app_uri=example%3A%2F%2Fopen&auto_redirect_mobile=true
+[external url removed]
 ```
 
 > **NOTE**: The `app_uri` and `redirect_uri` must be valid URIs, such as App Links or a custom URL scheme including a host fragment. For example, `example://open` works, but `example://` would not.

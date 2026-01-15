@@ -12,7 +12,7 @@ You can use the authorization `code` returned in the `redirect_uri` and exchange
 Retrieve your tokens
 
 ```
-curl -v -X POST https://api.tink.com/api/v1/oauth/token \
+curl -v -X POST [external url removed] \
 -d 'code=' \
 -d 'client_id=' \
 -d 'client_secret=' \

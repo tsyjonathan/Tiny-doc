@@ -12,7 +12,7 @@ To list provider consents, you must generate a user access token with the scope 
 Retrieve the list of consents
 
 ```
-curl -v https://api.tink.com/api/v1/provider-consents \
+curl -v [external url removed] \
      -H 'Authorization: Bearer '
 ```
 
@@ -57,7 +57,7 @@ To generate this authorization\_code, see [Build the URL](/Tiny-doc/tink_docs_ho
 Generate your authorization\_code
 
 ```
-https://link.tink.com/1.0/business-transactions/update-consent?client_id=&redirect_uri=&credentials_id=&authorization_code=&market=
+[external url removed]
 ```
 
 For more information on the parameters that can be used with the update-consent method, see [Continuous access: Update consent](/Tiny-doc/tink_docs_home/resources/business-transactions/business-transactions-sdk-reference/#continuous-access-update-consent).
@@ -78,7 +78,7 @@ The following example shows how to use your `client_id` and `client_secret` to f
 Get your client access token
 
 ```
-curl -v -X POST https://api.tink.com/api/v1/oauth/token \
+curl -v -X POST [external url removed] \
 -d 'client_id=' \
 -d 'client_secret=' \
 -d 'grant_type=client_credentials' \
@@ -103,7 +103,7 @@ Generate a user access token with the `credentials:write` scope.
 Generate a user access token
 
 ```
-curl -X POST https://api.tink.com/api/v1/oauth/authorization-grant \
+curl -X POST [external url removed] \
 -H 'Authorization: Bearer ' \
 -d 'user_id=' \
 -d 'external_user_id=' \
@@ -125,7 +125,7 @@ Use the user access token to delete the credential for this specific user.
 Delete the credential for a specific user
 
 ```
-curl -v X DELETE https://api.tink.com/api/v1/credentials/{credentialsId} \
+curl -v X DELETE [external url removed] \
      -H 'Authorization: Bearer '
 ```
 
@@ -144,6 +144,6 @@ To delete a user, you must generate a user access token with the scope `user:del
 Delete a user
 
 ```
-curl -v -X POST https://api.tink.com/api/v1/user/delete \
+curl -v -X POST [external url removed] \
 -H 'Authorization: Bearer ' \
 ```

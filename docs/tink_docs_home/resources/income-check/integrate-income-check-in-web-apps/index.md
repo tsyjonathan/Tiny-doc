@@ -10,7 +10,7 @@ You will first need to construct a URL to launch the SDK flow. In Console, you c
 ### Example URL[](#example-url)
 
 ```
-https://link.tink.com/1.0/income-check/create-report?client_id={YOUR_CLIENT_ID}&market=SE&locale=en_US&redirect_uri=https%3A%2F%myapp.com%2Fcallback
+[external url removed]
 ```
 
 > **NOTE:** Make sure to replace {YOUR\_CLIENT\_ID} in the URL with your `client_id` value from Console.

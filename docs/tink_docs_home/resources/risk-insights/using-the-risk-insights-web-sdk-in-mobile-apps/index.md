@@ -7,7 +7,7 @@ exportedAt: "2026-01-13T12:58:18.380Z"
 
 Follow the prerequisites and choose an integration option to use the SDK in an iOS app:
 
-1.  Associate a [Universal Link](https://developer.apple.com/documentation/xcode/supporting-universal-links-in-your-app) (or [custom URL scheme](https://developer.apple.com/documentation/xcode/defining-a-custom-url-scheme-for-your-app)) with your app
+1.  Associate a Universal Link (or custom URL scheme) with your app
 2.  Build a URL by following the steps in the [Build a URL](#build-a-url) section
 3.  Open the URL inside your app using one of the integration methods below
 4.  [Capture the response from the SDK in your app](#ios-capturing-the-response)
@@ -20,13 +20,13 @@ To also [support immediately redirecting back to your app](#support-for-redirect
 
 ### iOS: Using SFSafariViewController (recommended)[](#ios-using-sfsafariviewcontroller-recommended-)
 
-Use [SFSafariViewController](https://developer.apple.com/documentation/safariservices/sfsafariviewcontroller) to open the SDK from your app by using an in-app browser. This keeps the user inside your app and creates a better user experience than opening the SDK in the system browser.
+Use SFSafariViewController to open the SDK from your app by using an in-app browser. This keeps the user inside your app and creates a better user experience than opening the SDK in the system browser.
 
-See the [Tink Link example app for iOS](https://github.com/tink-ab/tink-link-web-ios-example), which makes use of `SFSafariViewController` to open the URL, specifies the `app_uri`, and shows how to capture the response.
+See the Tink Link example app for iOS, which makes use of `SFSafariViewController` to open the URL, specifies the `app_uri`, and shows how to capture the response.
 
 ### iOS: Using WKWebView[](#ios-using-wkwebview)
 
-Using [WKWebView](https://developer.apple.com/documentation/webkit/wkwebview) requires more effort to implement than SFSafariViewController, but provides more control over the UI.
+Using WKWebView requires more effort to implement than SFSafariViewController, but provides more control over the UI.
 
 To use WKWebView, you must make sure to route deep links to third-party URL schemes that the SDK may need to open. This is required to support different authentication methods that are provided by SDK (not doing this would result in a blank screen showing in the web view and the redirect not being triggered). Add a `WKNavigationDelegate` for `WKWebView` and defer all non-HTTP(S) requests to `UIApplication.open`.
 
@@ -143,7 +143,7 @@ Follow the prerequisites and choose an integration option to use the SDK in an A
 
 ### Android: Set up App Links[](#android-set-up-app-links)
 
-Register an [Android App Link or deep link](https://developer.android.com/training/app-links) in your `AndroidManifest.xml`. Use this link as the `redirect_uri` parameter in the SDK URL and later to capture the response from the SDK in your app.
+Register an Android App Link or deep link in your `AndroidManifest.xml`. Use this link as the `redirect_uri` parameter in the SDK URL and later to capture the response from the SDK in your app.
 
 ```
 <intent-filter>

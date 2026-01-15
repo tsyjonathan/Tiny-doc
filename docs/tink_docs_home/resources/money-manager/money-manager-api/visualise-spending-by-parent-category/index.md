@@ -19,7 +19,7 @@ As part of the request, you will need to include a user access token with the `s
 Example request:
 
 ```
-curl 'https://api.tink.com/api/v1/statistics/query' \
+curl '[external url removed]' \
   -X POST \
   -H 'Authorization: Bearer {YOUR_USER_ACCESS_TOKEN}' \
   -H 'Content-Type: application/json' \

@@ -14,7 +14,7 @@ Note that it's possible for the recommended budget list to be empty, in case of 
 Example request:
 
 ```
-curl 'https://api.tink.com/api/v1/budgets/recommended' \
+curl '[external url removed]' \
 -H 'Authorization: Bearer '
 ```
 

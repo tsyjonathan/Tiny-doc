@@ -9,11 +9,11 @@ exportedAt: "2026-01-13T12:43:06.390Z"
 
 Your demo credentials are found inside Console, so let's start there.
 
-1.  [Log in to Console](https://console.tink.com/login).
+1.  Log in to Console.
 2.  Select **Demo Bank**.
 3.  Select your **Product** (in this case, Payments) and your **Market**.
 
-![Demo Bank payments](https://images.ctfassets.net/tmqu5vj33f7w/1gNdS9hj4IfA4iQUFQKy2Z/af52041580f242f0775207172e00856f/Demo_bank-payments.png) _Demo Bank user credentials for Payments in the United Kingdom market._
+*Image removed: Demo Bank payments* _Demo Bank user credentials for Payments in the United Kingdom market._
 
 For testing initiating a Variable Recurring Payment (VRP) mandate in Demo Bank we will use the **User 1**.
 
@@ -21,7 +21,7 @@ For testing initiating a Variable Recurring Payment (VRP) mandate in Demo Bank w
 
 The first thing to do is to find which Demo Bank provider to use when creating a sweeping VRP mandate. To learn which Demo Bank providers allow `VRP_SWEEPING`, filter the list of providers by querying the [providers endpoint](/Tiny-doc/tink_docs_api/api/#connectivity/provider/list-providers-for-a-market). Use the `pisCapability` query parameter with the value `VRP_SWEEPING` and the `includeTestProvider` query parameter with the value `true`:
 
-`https://api.tink.com/api/v1/providers/GB?pisCapability=VRP_SWEEPING&includeTestProviders=true`
+`[external url removed]
 
 ## Build the URL[](#build-the-url)
 
@@ -39,47 +39,47 @@ You’ll find instructions on how to build the Tink URL in the [Authorize a swee
 
 This example follows a user who goes through the Tink flow to authorize a sweeping VRP mandate. Once the mandate has been successfully authorized, you can initiate a sweeping VRP.
 
-We use [https://console.tink.com/callback](https://console.tink.com/callback) as the user-facing callback page.
+We use [external url removed] as the user-facing callback page.
 
 Tink URL example
 
 ```
-https://link.tink.com/1.0/pay/vrp-mandate?client_id=&consent_id=&authorization_code=&redirect_uri=https://console.tink.com/callback
+[external url removed]
 ```
 
 In the code example, enter your `client_id`, `authorization_code` and `consent_id` and copy the entire example (by selecting the top right button). Paste the contents into a browser and hit enter.
 
 You have now entered the Tink flow, so let's walk through the example steps. The images that follow are cropped.
 
-![Frame 1](https://images.ctfassets.net/tmqu5vj33f7w/4Y2vahflehKZmemlOYqZVG/8116187ab083ed80ef08c0ffdafb928c/Frame_1.png)
+*Image removed: Frame 1*
 
 Select **Continue**.
 
-![Frame 2](https://images.ctfassets.net/tmqu5vj33f7w/O8RHHsglENJDWgGD31fBe/5ec1dc94f0de2af698a7bc716cf5ef38/Frame_2.png)
+*Image removed: Frame 2*
 
 Select **Confirm**.
 
-![Frame 3](https://images.ctfassets.net/tmqu5vj33f7w/6lw7sZ5TkMhmOOdJUd1vId/fe34361f7ea099a54ee8d22b294c6fc6/Frame_3.png)
+*Image removed: Frame 3*
 
 Select **Continue**.
 
-![Frame 4](https://images.ctfassets.net/tmqu5vj33f7w/5TmLCWJvZskY9dAwbNhcSq/9c5cbc7a2033942d00fade5f1c045456/Frame_4.png)
+*Image removed: Frame 4*
 
 Sign in by using Demo Bank credentials. In this case, we'll use credentials for the successful scenario.
 
-![Frame 5](https://images.ctfassets.net/tmqu5vj33f7w/4hDzNjY9jArven2tZ5VdHt/e0012a00e37a6457417f4423ddefc506/Frame_5.png)
+*Image removed: Frame 5*
 
 Choose any of the accounts and select **Continue**. Note that this step is skipped if the mandate was created with a payer account specified.
 
-![Frame 6](https://images.ctfassets.net/tmqu5vj33f7w/676dklarn3rkbMh3tLAhOj/61a2791a07d7cae21da83be4b7a9d62d/Frame_6.png)
+*Image removed: Frame 6*
 
 Select **Confirm**.
 
-![Frame 7](https://images.ctfassets.net/tmqu5vj33f7w/7lt6t692BvHJvcJ24wbTnu/ed0926a3ff05d52cab2768d0b028414d/Frame_8.png)
+*Image removed: Frame 7*
 
 Select **Back to Merchant**.
 
-![Frame 8](https://images.ctfassets.net/tmqu5vj33f7w/6Gw9nIdWPj8bV7EmZ2V2KJ/656a05d424ae53f51a93d753fbe34ba1/Frame_7.png)
+*Image removed: Frame 8*
 
 Your sweeping VRP mandate is now ready to be used to initiate a Variable Recurring Payment. To do this, follow the steps to [Authenticate your client for VRP initiation](/Tiny-doc/tink_docs_home/resources/payments/variable-recurring-payments/initiate-your-first-sweeping-variable-recurring-payment/#authenticate-your-client-for-variable-recurring-payments-initiation) and [Initiate a sweeping VRP](/Tiny-doc/tink_docs_home/resources/payments/variable-recurring-payments/initiate-your-first-sweeping-variable-recurring-payment/#initiate-a-sweeping-variable-recurring-payment).
 

@@ -16,7 +16,7 @@ If you don't have your Savings Goal `id` from the previous guide, you can use th
 Example request:
 
 ```
-curl -L -X POST 'https://api.tink.com/api/v1/savings-goals//allocations/fund:deposit' \
+curl -L -X POST '[external url removed]' \
 -H 'Authorization: Bearer ' \
 -H 'Content-Type: application/json' \
 --data-raw '{  

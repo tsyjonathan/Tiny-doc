@@ -3,9 +3,9 @@ title: "PSD2 introduction - Tink Docs"
 source: "/Tiny-doc/tink_docs_home/resources/open-banking/introduction-to-psd2/"
 exportedAt: "2026-01-13T12:54:48.354Z"
 ---
-On January 13th 2018, the [Second Payment Service Directive (PSD2)](https://ec.europa.eu/commission/presscorner/detail/en/memo_17_4961) began entering into force in the EU and EEA markets. Among other things, the directive stipulates that "banks", more precisely [ASPSPs](/Tiny-doc/tink_docs_home/resources/aggregation/open-banking-glossary/) (Account Servicing Payment Service Provider, institutions providing payment accounts to individuals and legal entities), must enable access to payment accounts (called Account Information Service, [AIS](/Tiny-doc/tink_docs_home/resources/open-banking/open-banking-glossary/)) and enable external payment initiations (called Payment Initiation Service, [PIS](/Tiny-doc/tink_docs_home/resources/aggregation/open-banking-glossary/)) to licensed Third Party Providers ([TPPs](/Tiny-doc/tink_docs_home/resources/aggregation/open-banking-glossary/)).
+On January 13th 2018, the Second Payment Service Directive (PSD2) began entering into force in the EU and EEA markets. Among other things, the directive stipulates that "banks", more precisely [ASPSPs](/Tiny-doc/tink_docs_home/resources/aggregation/open-banking-glossary/) (Account Servicing Payment Service Provider, institutions providing payment accounts to individuals and legal entities), must enable access to payment accounts (called Account Information Service, [AIS](/Tiny-doc/tink_docs_home/resources/open-banking/open-banking-glossary/)) and enable external payment initiations (called Payment Initiation Service, [PIS](/Tiny-doc/tink_docs_home/resources/aggregation/open-banking-glossary/)) to licensed Third Party Providers ([TPPs](/Tiny-doc/tink_docs_home/resources/aggregation/open-banking-glossary/)).
 
-On September 14th 2019, the [Regulatory Technical Standards on strong customer authentication and secure communication under PSD2 (RTS on SCA and CSC, in this document referred to RTS)](https://eba.europa.eu/regulation-and-policy/payment-services-and-electronic-money/regulatory-technical-standards-on-strong-customer-authentication-and-secure-communication-under-psd2), which defines the technical requirements of PSD2 APIs, became applicable. The [RTS](/Tiny-doc/tink_docs_home/resources/aggregation/open-banking-glossary/) stipulates that when a [TPP](/Tiny-doc/tink_docs_home/resources/aggregation/open-banking-glossary/) performs payment services as defined under PSD2, they must identify themselves to the [ASPSP](/Tiny-doc/tink_docs_home/resources/aggregation/open-banking-glossary/) using [eIDAS](/Tiny-doc/tink_docs_home/resources/aggregation/open-banking-glossary/) certificates. Previously unregulated methods of performing [AIS](/Tiny-doc/tink_docs_home/resources/aggregation/open-banking-glossary/) or [PIS](/Tiny-doc/tink_docs_home/resources/aggregation/open-banking-glossary/) for payment accounts are no longer permitted.
+On September 14th 2019, the Regulatory Technical Standards on strong customer authentication and secure communication under PSD2 (RTS on SCA and CSC, in this document referred to RTS), which defines the technical requirements of PSD2 APIs, became applicable. The [RTS](/Tiny-doc/tink_docs_home/resources/aggregation/open-banking-glossary/) stipulates that when a [TPP](/Tiny-doc/tink_docs_home/resources/aggregation/open-banking-glossary/) performs payment services as defined under PSD2, they must identify themselves to the [ASPSP](/Tiny-doc/tink_docs_home/resources/aggregation/open-banking-glossary/) using [eIDAS](/Tiny-doc/tink_docs_home/resources/aggregation/open-banking-glossary/) certificates. Previously unregulated methods of performing [AIS](/Tiny-doc/tink_docs_home/resources/aggregation/open-banking-glossary/) or [PIS](/Tiny-doc/tink_docs_home/resources/aggregation/open-banking-glossary/) for payment accounts are no longer permitted.
 
 > **Note:** many services, such as access to non-payment accounts (loans, investment accounts, etc.), are out of scope for PSD2 and remain unaffected by it.
 
@@ -34,7 +34,7 @@ Once consent is obtained by the [TPP](/Tiny-doc/tink_docs_home/resources/aggrega
 
 ## PSD2 authentication flows[](#psd2-authentication-flows)
 
-Strong Customer Authentication ([SCA](/Tiny-doc/tink_docs_home/resources/aggregation/open-banking-glossary/)) is part of [PSD2 regulations](https://eba.europa.eu/regulation-and-policy/payment-services-and-electronic-money/regulatory-technical-standards-on-strong-customer-authentication-and-secure-communication-under-psd2) and mandates a higher level of security between the end-user ([PSU](/Tiny-doc/tink_docs_home/resources/aggregation/open-banking-glossary/)) and their financial institution ([ASPSP](/Tiny-doc/tink_docs_home/resources/aggregation/open-banking-glossary/)) when accessing payment account data and signing payments. The exact method of [SCA](/Tiny-doc/tink_docs_home/resources/aggregation/open-banking-glossary/) used to authenticate the [PSU](/Tiny-doc/tink_docs_home/resources/aggregation/open-banking-glossary/) is decided by the [ASPSP](/Tiny-doc/tink_docs_home/resources/aggregation/open-banking-glossary/), who is obliged to implement the [SCA](/Tiny-doc/tink_docs_home/resources/aggregation/open-banking-glossary/) according to the standards outlined in the directive. The directive allows for three authentication user flows:
+Strong Customer Authentication ([SCA](/Tiny-doc/tink_docs_home/resources/aggregation/open-banking-glossary/)) is part of PSD2 regulations and mandates a higher level of security between the end-user ([PSU](/Tiny-doc/tink_docs_home/resources/aggregation/open-banking-glossary/)) and their financial institution ([ASPSP](/Tiny-doc/tink_docs_home/resources/aggregation/open-banking-glossary/)) when accessing payment account data and signing payments. The exact method of [SCA](/Tiny-doc/tink_docs_home/resources/aggregation/open-banking-glossary/) used to authenticate the [PSU](/Tiny-doc/tink_docs_home/resources/aggregation/open-banking-glossary/) is decided by the [ASPSP](/Tiny-doc/tink_docs_home/resources/aggregation/open-banking-glossary/), who is obliged to implement the [SCA](/Tiny-doc/tink_docs_home/resources/aggregation/open-banking-glossary/) according to the standards outlined in the directive. The directive allows for three authentication user flows:
 
 -   Redirect ([PSU](/Tiny-doc/tink_docs_home/resources/aggregation/open-banking-glossary/) is redirected to [ASPSP](/Tiny-doc/tink_docs_home/resources/aggregation/open-banking-glossary/)’s website or app to complete the authentication)
 -   Decoupled ([PSU](/Tiny-doc/tink_docs_home/resources/aggregation/open-banking-glossary/) authenticates on a separate device without being redirected)
@@ -46,7 +46,7 @@ According to the [RTS](/Tiny-doc/tink_docs_home/resources/aggregation/open-banki
 
 **1\. That ASPSPs shall provide the exact same information that is available to users in the ASPSP’s own channels**
 
-Art 36.1.1 in the [RTS on SCA and CSC](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A02018R0389-20230912).
+Art 36.1.1 in the RTS on SCA and CSC.
 
 **Examples**:
 
@@ -55,7 +55,7 @@ Art 36.1.1 in the [RTS on SCA and CSC](https://eur-lex.europa.eu/legal-content/E
 
 **2\. That ASPSPs shall provide the same user experience that they provide their own customers and not include extra obstacles only in their dedicated PSD2 interfaces**
 
-Art 32.3 in the [RTS on SCA and CSC](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A02018R0389-20230912).
+Art 32.3 in the RTS on SCA and CSC.
 
 **Examples**:
 
@@ -64,7 +64,7 @@ Art 32.3 in the [RTS on SCA and CSC](https://eur-lex.europa.eu/legal-content/EN/
 
 **3\. That ASPSPs shall provide the same performance and availability that they provide to their own customers through their own mobile channel (dedicated interface & direct access performance should be the same)**
 
-Art 32.1 in the [RTS on SCA and CSC](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A02018R0389-20230912).
+Art 32.1 in the RTS on SCA and CSC.
 
 **Examples**:
 

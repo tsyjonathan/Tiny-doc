@@ -5,7 +5,7 @@ exportedAt: "2026-01-13T12:48:22.740Z"
 ---
 ## 1\. Build the URL[](#build-the-url)
 
-In Console, use the [Build your own Tink Link URL](https://console.tink.com/income-check/tink-link) view to create your own URL. Your resulting URL is used to allow users to authenticate with their bank and select an account from which to fetch report data. For more information on how the URL works, see see [Setup and integrate Income Check](/Tiny-doc/tink_docs_home/resources/income-check/setup-and-integrate-income-check/).
+In Console, use the Build your own Tink Link URL view to create your own URL. Your resulting URL is used to allow users to authenticate with their bank and select an account from which to fetch report data. For more information on how the URL works, see see [Setup and integrate Income Check](/Tiny-doc/tink_docs_home/resources/income-check/setup-and-integrate-income-check/).
 
 For actual use of the URL, integrate it with a site or in an app. For example, you can start a user's flow by redirecting them to the URL.
 
@@ -14,7 +14,7 @@ For actual use of the URL, integrate it with a site or in an app. For example, y
 Use the example URL below by inserting the `client_id` value for your Tink app into the URL, copy the URL, and paste it into the address bar of a web browser.
 
 ```
-https://link.tink.com/1.0/income-check?client_id={YOUR_CLIENT_ID}&redirect_uri=https://console.tink.com/callback&market=SE
+[external url removed]
 ```
 
 **Note**: make sure that you exchange `{YOUR_CLIENT_ID}` in the URL for your `client_id` value.
@@ -42,7 +42,7 @@ For more information about error statuses, see [Handle Income Check error codes]
 **In this example**
 
 ```
-https://console.tink.com/callback?income_check_id=ff8ae53bc46e45fe9a37c4fd1353e60d
+[external url removed]
 ```
 
 After a successful authentication, you will see a `income_check_id` value, which indicates that a flow has successfully come to an end. Store this value. It's used to authenticate yourself to fetch verified income.
@@ -56,7 +56,7 @@ To access your user's account information, you need a valid client access token 
 Authenticate your client
 
 ```
-curl -v -X POST https://api.tink.com/api/v1/oauth/token \
+curl -v -X POST [external url removed] \
 -d 'client_id=' \
 -d 'client_secret=' \
 -d 'grant_type=client_credentials' \
@@ -81,7 +81,7 @@ To fetch the income report, see the [Get an income check API](/Tiny-doc/tink_doc
 Fetch your Income Check report
 
 ```
-curl -X GET https://api.tink.com/v2/income-checks/ \
+curl -X GET [external url removed] \
 -H 'Authorization: Bearer ' \
 -H 'Content-Type: application/json' 
 ```
@@ -119,4 +119,4 @@ curl -X GET https://api.tink.com/v2/income-checks/ \
 
 ## Need help?[](#need-help-)
 
-[Contact Sales](https://tink.com/contact-us) and let us help you get started.
+Contact Sales and let us help you get started.

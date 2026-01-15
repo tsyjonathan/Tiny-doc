@@ -23,7 +23,7 @@ As part of the request, you need to:
 Example request:
 
 ```
-curl 'https://api.tink.com/api/v1/statistics/query' \
+curl '[external url removed]' \
   -X POST \
   -H 'Authorization: Bearer '
   -H 'Content-Type: application/json' \
@@ -63,7 +63,7 @@ As part of the request, you need to:
 Example request:
 
 ```
-curl 'https://api.tink.com/api/v1/statistics/query' \
+curl '[external url removed]' \
   -X POST \
   -H 'Authorization: Bearer '
   -H 'Content-Type: application/json' \
@@ -99,7 +99,7 @@ As part of the request, you need to:
 Example request:
 
 ```
-curl 'https://api.tink.com/api/v1/statistics/query' \
+curl '[external url removed]' \
   -X POST \
   -H 'Authorization: Bearer '
   -H 'Content-Type: application/json' \

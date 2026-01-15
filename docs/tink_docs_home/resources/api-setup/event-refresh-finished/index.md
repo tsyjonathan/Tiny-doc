@@ -56,7 +56,7 @@ Below is an example of a `refresh:finished` event when the refresh operation fin
     "id" : "371aac6d3fc0423bb17e3c96a1d279b6",
     "userId" : "af947e794c0641079a876dcec51a419a",
     "secret" : "67abc1e08fb64c92b450a13e0876330b",
-    "url" : "https://webhook-catchall.tink.com/",
+    "url" : "[external url removed]",
     "clientId" : "1b91a64414fb4ecf87bb4ce7654b2b6a",
     "global" : false,
     "events" : [ "credentials:create", "credentials:update", "refresh:finished" ]

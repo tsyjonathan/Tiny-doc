@@ -3,12 +3,12 @@ title: "eIDAS certificates - Tink Docs"
 source: "/Tiny-doc/tink_docs_home/resources/aggregation/eidas-certificates/"
 exportedAt: "2026-01-13T12:54:19.919Z"
 ---
-[eIDAS](https://ec.europa.eu/digital-single-market/en/trust-services-and-eid) (Electronic IDentification, Authentication and trust Services) is an EU regulation on a set of standards for electronic identification and trust services for electronic transactions in the European Single Market. PSD2 specifies a requirement for strong customer authentication using specific qualified eIDAS certificates for identification of [TPPs](/Tiny-doc/tink_docs_home/resources/aggregation/open-banking-glossary/) and [ASPSPs](/Tiny-doc/tink_docs_home/resources/aggregation/open-banking-glossary/). There are specifically two certificates needed.
+eIDAS (Electronic IDentification, Authentication and trust Services) is an EU regulation on a set of standards for electronic identification and trust services for electronic transactions in the European Single Market. PSD2 specifies a requirement for strong customer authentication using specific qualified eIDAS certificates for identification of [TPPs](/Tiny-doc/tink_docs_home/resources/aggregation/open-banking-glossary/) and [ASPSPs](/Tiny-doc/tink_docs_home/resources/aggregation/open-banking-glossary/). There are specifically two certificates needed.
 
 1.  **[QWAC](/Tiny-doc/tink_docs_home/resources/aggregation/open-banking-glossary/) for Transport Layer.** Provides Identification and Confidentiality. For performing mutual TLS.
 2.  **[QSealC](/Tiny-doc/tink_docs_home/resources/aggregation/open-banking-glossary/) for Application Layer.** Provides Identification and Integrity. For signing data.
 
-A certificate consists of a private key and the actual certificate. For more information about eIDAS, its background and how it ties to PSD2 and [RTS](/Tiny-doc/tink_docs_home/resources/aggregation/open-banking-glossary/), see [EBA's publication and use of eIDAS](https://eba.europa.eu/sites/default/documents/files/documents/10180/2137845/d429d45e-f936-473c-bc02-c23060d11f19/EBA%20Opinion%20on%20the%20use%20of%20eIDAS%20certificates%20under%20the%20RTS%20on%20SCACSC.pdf?retry=1).
+A certificate consists of a private key and the actual certificate. For more information about eIDAS, its background and how it ties to PSD2 and [RTS](/Tiny-doc/tink_docs_home/resources/aggregation/open-banking-glossary/), see EBA's publication and use of eIDAS.
 
 Some [ASPSPs](/Tiny-doc/tink_docs_home/resources/aggregation/open-banking-glossary/) verify [TPPs](/Tiny-doc/tink_docs_home/resources/aggregation/open-banking-glossary/) requests towards their PSD2 compliant [APIs](/Tiny-doc/tink_docs_home/resources/aggregation/open-banking-glossary/) on the transport layer. The SSL connection is signed with [TPPs](/Tiny-doc/tink_docs_home/resources/aggregation/open-banking-glossary/) private [QWAC](/Tiny-doc/tink_docs_home/resources/aggregation/open-banking-glossary/) certificate (equivalent with a EV SSL certificate, but adds PSD2 information about the [TPP](/Tiny-doc/tink_docs_home/resources/aggregation/open-banking-glossary/)).
 
@@ -22,9 +22,9 @@ To use Tink’s [AIS](/Tiny-doc/tink_docs_home/resources/aggregation/open-bankin
 
 The certificates are acquired from a [Qualified Trust Service Provider (QTSP)](/Tiny-doc/tink_docs_home/resources/aggregation/open-banking-glossary/). First you as [TPP](/Tiny-doc/tink_docs_home/resources/aggregation/open-banking-glossary/) must generate a Certificate Signing Request (CSR) that is then sent to the chosen QTSP. The CSR is a file with the requestor's public key, domain info and some other information about the requestor's organization. In some markets, there is a requirement that the domain specified in the CSR must be the same as the public domain that receives the callback from the [ASPSP](/Tiny-doc/tink_docs_home/resources/aggregation/open-banking-glossary/). As each certificate can handle both [AIS](/Tiny-doc/tink_docs_home/resources/aggregation/open-banking-glossary/) and [PIS](/Tiny-doc/tink_docs_home/resources/aggregation/open-banking-glossary/), it is important to specify the scope when ordering them.
 
-![eIDAS](https://images.ctfassets.net/tmqu5vj33f7w/dFvHjSHVZyTmXQssQqX24/98077a4cae6296c6923177339f83349d/eIDAS.jpg)
+*Image removed: eIDAS*
 
-The European Commission has created a [portal](https://webgate.ec.europa.eu/tl-browser/#/search/type/1) to find a QTSP that fits your needs. Tink has chosen one QTSP:
+The European Commission has created a portal to find a QTSP that fits your needs. Tink has chosen one QTSP:
 
 1.  **MultiCert**
 

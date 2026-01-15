@@ -28,7 +28,7 @@ We offer two ways to use payment conditions. We recommend that you use our endpo
 
 ## UI and UX app considerations[](#ui-and-ux-app-considerations)
 
-![Payment conditions](https://images.ctfassets.net/tmqu5vj33f7w/1kdi2RDop2uCnSaVey8PqT/d9fd414e9729b063a183e79a27f0840d/Payment_conditions.png)
+*Image removed: Payment conditions*
 
 ## Endpoint[](#endpoint)
 
@@ -192,18 +192,18 @@ This feature can also be used preemptively by using the conditions to do input v
 
 | COUNTRIES | CSV FILES |
 | --- | --- |
-| France (FR) | [Download](https://d2bt5tz6u3gd01.cloudfront.net/payment_conditions_fr.csv) |
-| Germany (DE) | [Download](https://d2bt5tz6u3gd01.cloudfront.net/payment_conditions_de.csv) |
-| Ireland (IE) | [Download](https://d2bt5tz6u3gd01.cloudfront.net/payment_conditions_ie.csv) |
-| Italy (IT) | [Download](https://d2bt5tz6u3gd01.cloudfront.net/payment_conditions_it.csv) |
-| Portugal (PT) | [Download](https://d2bt5tz6u3gd01.cloudfront.net/payment_conditions_pt.csv) |
-| Spain (ES) | [Download](https://d2bt5tz6u3gd01.cloudfront.net/payment_conditions_es.csv) |
-| Sweden (SE) | [Download](https://d2bt5tz6u3gd01.cloudfront.net/payment_conditions_se.csv) |
-| United Kingdom (GB) | [Download](https://d2bt5tz6u3gd01.cloudfront.net/payment_conditions_uk.csv) |
-| Finland (FI) | [Download](https://d2bt5tz6u3gd01.cloudfront.net/payment_conditions_fi.csv) |
-| Norway (NO) | [Download](https://d2bt5tz6u3gd01.cloudfront.net/payment_conditions_no.csv) |
-| Austria (AT) | [Download](https://d2bt5tz6u3gd01.cloudfront.net/payment_conditions_at.csv) |
-| Estonia (EE) | [Download](https://d2bt5tz6u3gd01.cloudfront.net/payment_conditions_ee.csv) |
-| Denmark (DK) | [Download](https://d2bt5tz6u3gd01.cloudfront.net/payment_conditions_dk.csv) |
-| Netherlands (NL) | [Download](https://d2bt5tz6u3gd01.cloudfront.net/payment_conditions_nl.csv) |
-| Belgium (BE) | [Download](https://d2bt5tz6u3gd01.cloudfront.net/payment_conditions_be.csv) |
+| France (FR) | Download |
+| Germany (DE) | Download |
+| Ireland (IE) | Download |
+| Italy (IT) | Download |
+| Portugal (PT) | Download |
+| Spain (ES) | Download |
+| Sweden (SE) | Download |
+| United Kingdom (GB) | Download |
+| Finland (FI) | Download |
+| Norway (NO) | Download |
+| Austria (AT) | Download |
+| Estonia (EE) | Download |
+| Denmark (DK) | Download |
+| Netherlands (NL) | Download |
+| Belgium (BE) | Download |

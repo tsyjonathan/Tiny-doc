@@ -20,7 +20,7 @@ The following example shows how to use your `client_id` and `client_secret` to f
 Generate client token
 
 ```
-curl -v -X POST https://api.tink.com/api/v1/oauth/token \
+curl -v -X POST [external url removed] \
 -d 'client_id=' \
 -d 'client_secret=' \
 -d 'grant_type=client_credentials' \
@@ -50,7 +50,7 @@ In this example, access is granted.
 Generate authorization code
 
 ```
-curl -v -X POST https://api.tink.com/api/v1/oauth/authorization-grant \
+curl -v -X POST [external url removed] \
 -H 'Authorization: Bearer ' \
 -d 'user_id=' \
 -d 'scope=accounts:read,accounts.balances:readonly,credentials:read,credentials:refresh,balance-refresh,balance-refresh:readonly'
@@ -69,7 +69,7 @@ Use the user authorization code and generate a user access token so that you can
 Generate user client token
 
 ```
-curl -v -X POST https://api.tink.com/api/v1/oauth/token \
+curl -v -X POST [external url removed] \
 -d 'code=' \
 -d 'client_id=' \
 -d 'client_secret=' \
@@ -95,7 +95,7 @@ To refresh the balance of an account the Tink accountId needs to be provided in 
 Refresh balance data
 
 ```
-curl -v -X POST https://api.tink.com/api/connectivity/v1/balance-refreshes \
+curl -v -X POST [external url removed] \
 -H 'Authorization: Bearer ' \
 -H 'application/json' \
 -d 'accountId={accountId}'
@@ -115,7 +115,7 @@ Poll the balance-refresh api to see when the refresh has finished.
 Refresh balance data
 
 ```
-curl -v -X GET https://api.us.tink.com/api/v1/balance-refreshes/{id} \
+curl -v -X GET [external url removed] \
 -H 'Authorization: Bearer ' \
 -H 'application/json' \
 ```
@@ -147,7 +147,7 @@ To fetch the balance call the [API](/Tiny-doc/tink_docs_api/api/#data-v2/account
 Fetch the balance
 
 ```
-curl -v GET https://api.tink.com/data/v2/accounts/{id}/balances \
+curl -v GET [external url removed] \
 -H 'Authorization: Bearer '
 ```
 

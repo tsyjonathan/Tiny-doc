@@ -3,7 +3,7 @@ title: "Customize Budgets on iOS - Tink Docs"
 source: "/Tiny-doc/tink_docs_home/resources/pfm-sdk-ios/customize-budgets-on-ios/"
 exportedAt: "2026-01-13T12:58:49.477Z"
 ---
-![BudgetDetailsCustomization](https://images.ctfassets.net/tmqu5vj33f7w/7fX61arfHAGmxSTebQvOOV/0d6626361712677ff4e875c68715be5a/ColorCustomisation-Budgets1.jpg)
+*Image removed: BudgetDetailsCustomization*
 
 ## Overview[](#overview)
 
@@ -33,6 +33,6 @@ Appearance.provider.budgetColors.accent = .magenta
 
 [All available colors](/Tiny-doc/tink_docs_home/resources/pfm-sdk-ios/customization/#colors) can be customized specifically for budgets. For example, you can set a separate color for icons in budgets by specifying the `expensesIconColor`, if you do the `expensesIconBackgroundColor` will have a new color based on the icon color unless you specify it to be otherwise. See the images below for more examples of which colors you can customize.
 
-![BudgetTransactionsCustomization](https://images.ctfassets.net/tmqu5vj33f7w/4Qw9MEaNh1qYDwFQXC5b58/e7e113f6d0b1dadd0bdde073f831d1b4/ColorCustomisation-Budgets2.jpg)
+*Image removed: BudgetTransactionsCustomization*
 
-![BudgetsOverTimeCustomization](https://images.ctfassets.net/tmqu5vj33f7w/4tYtfoZTuQEHs4fAKewRLS/c5c5d36b80004b6a6537afe065b6561a/ColorCustomisation-Budgets.jpg)
+*Image removed: BudgetsOverTimeCustomization*

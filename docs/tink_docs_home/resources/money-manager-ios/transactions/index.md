@@ -3,7 +3,7 @@ title: "Transactions for iOS - Tink Docs"
 source: "/Tiny-doc/tink_docs_home/resources/money-manager-ios/transactions/"
 exportedAt: "2026-01-13T13:00:21.920Z"
 ---
-![Transactions](https://images.ctfassets.net/tmqu5vj33f7w/32Sh66DIv9t8T4objaSTbN/0a455688ea74b601c5929670b73ec59e/Transactions.png)
+*Image removed: Transactions*
 
 ## Overview[](#overview)
 

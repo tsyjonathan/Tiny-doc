@@ -12,7 +12,7 @@ If you don't have your Savings Goal `id`, you can use the [Savings Goals](/Tiny-
 Example request against the [Reallocate Amount](/Tiny-doc/tink_docs_api/api/#finance-management/savings-goals/reallocate-amount) endpoint:
 
 ```
-curl -L -X POST 'https://api.tink.com/api/v1/savings-goals//allocations/fund:reallocate' \
+curl -L -X POST '[external url removed]' \
 -H 'Authorization: Bearer ' \
 -H 'Content-Type: application/json' \
 --data-raw `{

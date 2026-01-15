@@ -12,7 +12,7 @@ In the request, you must specify the category you want to track, the currency, t
 Example request:
 
 ```
-curl -L -X POST 'https://api.tink.com/api/v1/budgets/one-off' \
+curl -L -X POST '[external url removed]' \
 -H 'Authorization: Bearer {YOUR_USER_ACCESS_TOKEN}' \
 -H 'Content-Type: application/json' \
 --data-raw '{

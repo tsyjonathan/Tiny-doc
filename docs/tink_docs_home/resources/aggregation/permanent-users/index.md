@@ -20,7 +20,7 @@ To create a user, you must first create a [client access token](/Tiny-doc/tink_d
 See the [get access token](/Tiny-doc/tink_docs_api/api/#general/oauth/get-access-token) API reference for details.
 
 ```
-curl -X POST 'https://api.tink.com/api/v1/oauth/token' \
+curl -X POST '[external url removed]' \
 -H 'Content-Type: application/x-www-form-urlencoded' \
 -d 'client_id=$' \
 -d 'client_secret=$' \
@@ -47,7 +47,7 @@ With the `CLIENT_ACCESS_TOKEN` you are now able to create a user.
 See the [create user](/Tiny-doc/tink_docs_api/api/#general/user/create-user) API reference for details.
 
 ```
-curl -X POST 'https://api.tink.com/api/v1/user/create' \
+curl -X POST '[external url removed]' \
 -H 'Authorization: Bearer $' \
 -H 'Content-Type: application/json; charset=utf-8' \
 -d '{"locale":"en_US", "market":"SE"}'
@@ -72,7 +72,7 @@ To delegate authorization, you must use a [client access token](/Tiny-doc/tink_d
 See the [create user](/Tiny-doc/tink_docs_api/api/#general/oauth/get-access-token) API reference for details.
 
 ```
-curl -X POST 'https://api.tink.com/api/v1/oauth/token' \
+curl -X POST '[external url removed]' \
 -H 'Content-Type: application/x-www-form-urlencoded' \
 -d 'client_id=$' \
 -d 'client_secret=$' \
@@ -101,7 +101,7 @@ In the authorization grant request you must also specify the constant `actor_cli
 See the [create delegated authorization](/Tiny-doc/tink_docs_api/api/#general/oauth/create-delegated-authorization) API reference for details.
 
 ```
-curl -X POST 'https://api.tink.com/api/v1/oauth/authorization-grant/delegate' \
+curl -X POST '[external url removed]' \
 -H 'Authorization: Bearer $' \
 -H 'Content-Type: application/x-www-form-urlencoded' \
 -d 'user_id=$' \
@@ -129,7 +129,7 @@ The created `USER_AUTHORIZATION_CODE` is used to authenticate the existing user 
 [Adding credentials](/Tiny-doc/tink_docs_api/api/#connectivity/credentials) for new users or existing users (with possibly other existing credentials), is done by initiating the Tink Link add credentials flow and specifying the `authorization_code` query parameter.
 
 ```
-https://link.tink.com/1.0/credentials/add
+[external url removed]
 ```
 
 | Parameter | Description |
@@ -144,7 +144,7 @@ For a list of all the available parameters, please see the [Tink Link API refere
 Example:
 
 ```
-https://link.tink.com/1.0/credentials/add?client_id={YOUR_CLIENT_ID}&scope=transactions:read,identity:read&redirect_uri=http://localhost:3000/callback&authorization_code={USER_AUTHORIZATION_CODE}
+[external url removed]
 ```
 
 ### Refreshing credentials[](#refreshing-credentials)
@@ -152,7 +152,7 @@ https://link.tink.com/1.0/credentials/add?client_id={YOUR_CLIENT_ID}&scope=trans
 [Refreshing credentials](/Tiny-doc/tink_docs_api/api/#connectivity/credentials) allows you to retrieve updated data on demand for a particular existing credentials, possibly also triggering user authentication in the process if needed. Refreshing credentials is done by initiating the Tink Link refresh credentials flow and specifying the `authorization_code` and `credentials_id` query parameters.
 
 ```
-https://link.tink.com/1.0/credentials/refresh
+[external url removed]
 ```
 
 | Parameter | Description |
@@ -168,7 +168,7 @@ For a list of all the available parameters, please see the [Tink Link API refere
 Example:
 
 ```
-https://link.tink.com/1.0/credentials/refresh?client_id={YOUR_CLIENT_ID}&redirect_uri=http://localhost:3000/callback&credentials_id={CREDENTIALS_ID}&authorization_code={USER_AUTHORIZATION_CODE}&authenticate=false
+[external url removed]
 ```
 
 ### Authenticate credentials[](#authenticate-credentials)
@@ -178,7 +178,7 @@ https://link.tink.com/1.0/credentials/refresh?client_id={YOUR_CLIENT_ID}&redirec
 Note that this flow is only available for credentials deriving from PSD2 providers, i.e. providers with `accessType=OPEN_BANKING`.
 
 ```
-https://link.tink.com/1.0/credentials/authenticate
+[external url removed]
 ```
 
 | Parameter | Description |
@@ -193,7 +193,7 @@ For a list of all the available parameters, please see the [Tink Link API refere
 Example:
 
 ```
-https://link.tink.com/1.0/credentials/authenticate?client_id={YOUR_CLIENT_ID}&redirect_uri=http://localhost:3000/callback&credentials_id={CREDENTIALS_ID}&authorization_code={USER_AUTHORIZATION_CODE}
+[external url removed]
 ```
 
 ### Initiate payments[](#initiate-payments)
@@ -203,7 +203,7 @@ Launching the Tink Link payment flow with a permanent user will allow you to ini
 See the [payment initiation guide](/Tiny-doc/tink_docs_home/resources/payments/start-payment/) on how to create a payment request.
 
 ```
-https://link.tink.com/1.0/pay/credentials
+[external url removed]
 ```
 
 | Parameter | Description |
@@ -217,9 +217,9 @@ https://link.tink.com/1.0/pay/credentials
 Example:
 
 ```
-https://link.tink.com/1.0/pay/credentials?client_id={YOUR_CLIENT_ID}&redirect_uri=http://localhost:3000/callback&credentials_id={CREDENTIALS_ID}&authorization_code={USER_AUTHORIZATION_CODE}&payment_request_id={PAYMENT_REQUEST_ID}
+[external url removed]
 ```
 
 ### Reference[](#reference)
 
-Refer to our [example app](https://github.com/tink-ab/tink-link-web-permanent-users-example) on GitHub which showcases adding, authenticating, and refreshing credentials as well as initiating payments with existing credentials.
+Refer to our example app on GitHub which showcases adding, authenticating, and refreshing credentials as well as initiating payments with existing credentials.

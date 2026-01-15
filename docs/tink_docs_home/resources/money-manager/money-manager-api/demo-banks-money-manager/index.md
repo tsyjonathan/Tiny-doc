@@ -10,7 +10,7 @@ To interact with the Tink API, you need to first authorize your backend client u
 Request example
 
 ```
-curl -v -X POST https://api.tink.com/api/v1/oauth/token \
+curl -v -X POST [external url removed] \
 -d 'client_id=' \
 -d 'client_secret=' \
 -d 'grant_type=client_credentials' \
@@ -35,7 +35,7 @@ Now that you have a `client access token`, you can create your first user. This 
 Request example
 
 ```
-curl -v -X POST https://api.tink.com/api/v1/user/create \
+curl -v -X POST [external url removed] \
 -H 'Authorization: Bearer ' \
 -H 'Content-Type: application/json' \
 -d '
@@ -65,7 +65,7 @@ Similar to Step 1, you need to authorize access by generating a new `access_toke
 Request example
 
 ```
-curl -v -X POST https://api.tink.com/api/v1/oauth/token \
+curl -v -X POST [external url removed] \
 -d 'client_id=' \
 -d 'client_secret=' \
 -d 'grant_type=client_credentials' \
@@ -94,7 +94,7 @@ Note that to perform the delegation, you must use a [client access token](/Tiny-
 Request example
 
 ```
-curl -v -X POST https://api.tink.com/api/v1/oauth/authorization-grant/delegate \
+curl -v -X POST [external url removed] \
 -H 'Authorization: Bearer ' \
 -d 'response_type=code' \
 -d 'actor_client_id=df05e4b379934cd09963197cc855bfe9' \
@@ -121,10 +121,10 @@ The newly created `USER_AUTHORIZATION_CODE` from the previous step is used to id
 URL example
 
 ```
-https://link.tink.com/1.0/authorize/?client_id=&redirect_uri=&authorization_code=
+[external url removed]
 ```
 
-Within the Tink Link flow, you will need to use the 'Money Manager' Demo Bank credentials listed within [Console](https://console.tink.com/demobank). Please ensure you use the credentials for the correct market.
+Within the Tink Link flow, you will need to use the 'Money Manager' Demo Bank credentials listed within Console. Please ensure you use the credentials for the correct market.
 
 **The redirection URL will have the following format**
 
@@ -135,7 +135,7 @@ Within the Tink Link flow, you will need to use the 'Money Manager' Demo Bank cr
 **Example callback**
 
 ```
-https://yourdomain.com/callback?credentialsId=e5331af8d98f4c58800960202b6ec50d
+[external url removed]
 ```
 
 You have now succesfully connected the Demo Bank to the Tink Platform. Keep note of the `user_id` as this will be required to fetch a `user access token` which is required to access any data on the Tink Platform.

@@ -10,7 +10,7 @@ To list transactions you will need id of the Subscription from [Subscriptions](/
 Example request
 
 ```
-curl -X GET 'https://api.tink.com/finance-management/v1/subscriptions/{subscriptionId}/transactions' \
+curl -X GET '[external url removed]' \
 -H 'Authorization: Bearer '
 ```
 

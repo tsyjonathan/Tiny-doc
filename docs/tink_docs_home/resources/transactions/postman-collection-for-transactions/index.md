@@ -3,11 +3,11 @@ title: "Postman collections - Tink Docs"
 source: "/Tiny-doc/tink_docs_home/resources/transactions/postman-collection-for-transactions/"
 exportedAt: "2026-01-13T12:58:00.389Z"
 ---
-![Postman collections](https://images.ctfassets.net/tmqu5vj33f7w/6CpgyCvFmSkKaghfxcp9rq/f889ee3413027b3dc175204ce7c1968b/Postman-collections.png)
+*Image removed: Postman collections*
 
-This article shows how to use Tink's Postman collections for Transactions. For documentation and help to use Postman, go to the [Postman docs introduction](https://learning.postman.com/docs/getting-started/introduction/)
+This article shows how to use Tink's Postman collections for Transactions. For documentation and help to use Postman, go to the Postman docs introduction
 
-**Note**: Postman is a third-party company that makes an API platform for building and using APIs. To use the Postman collection for Transactions, you must first either [sign up for a Postman user account](https://www.postman.com/) to use Postman or download and install their app.
+**Note**: Postman is a third-party company that makes an API platform for building and using APIs. To use the Postman collection for Transactions, you must first either sign up for a Postman user account to use Postman or download and install their app.
 
 ## How to use the Postman collections[](#how-to-use-the-postman-collections)
 
@@ -16,7 +16,7 @@ Step-by-step instructions on how to use our Postman collections for Transactions
 1.  Open a Postman collection.
 2.  Select the documentation icon in the context bar (which is found on the right-hand side of the Postman screen).
 
-For help on how to view documentation in Postman, see [Viewing documentation for a collection](https://learning.postman.com/docs/publishing-your-api/viewing-documentation/).
+For help on how to view documentation in Postman, see Viewing documentation for a collection.
 
 ## Postman collections list[](#postman-collections-list)
 
@@ -30,7 +30,7 @@ There are currently three Postman collections available for Transactions:
 
 To download this Postman collection, follow these steps.
 
-1.  Open the [tink-postman](https://github.com/tink-ab/tink-postman) GitHub repo.
+1.  Open the tink-postman GitHub repo.
 2.  Select **Code** > **Download ZIP**.
     
     A ZIP file is downloaded to your computer.
@@ -54,7 +54,7 @@ For step-by-step instructions from this point, see [How to use the Postman colle
 
 To download this Postman collection, follow these steps.
 
-1.  Open the [tink-postman](https://github.com/tink-ab/tink-postman) GitHub repo.
+1.  Open the tink-postman GitHub repo.
 2.  Select **Code** > **Download ZIP**.
     
     A ZIP file is downloaded to your computer.
@@ -78,7 +78,7 @@ For step-by-step instructions from this point, see [How to use the Postman colle
 
 To download this Postman collection, follow these steps.
 
-1.  Open the [tink-postman](https://github.com/tink-ab/tink-postman) GitHub repo.
+1.  Open the tink-postman GitHub repo.
 2.  Select **Code** > **Download ZIP**.
     
     A ZIP file is downloaded to your computer.

@@ -5,7 +5,7 @@ exportedAt: "2026-01-13T13:00:01.317Z"
 ---
 Mutual TLS authentication (abbreviated mTLS or TLS MA), is a part of the TLS handshake protocol for performing certificate-based authentication of the client. Regular TLS only authenticates the server, but mTLS authenticates both the server and client, by each party proving possession of their mutually approved key material.
 
-Tink's webhook service will automatically authenticate itself using its key material when prompted by the receiving server. To configure your servers to do this, find out how to enable mTLS in the software for your servers that are receiving webhook events. Ensure that your application trusts the following [DigiCert root certificates](https://www.digicert.com/kb/digicert-root-certificates.htm):
+Tink's webhook service will automatically authenticate itself using its key material when prompted by the receiving server. To configure your servers to do this, find out how to enable mTLS in the software for your servers that are receiving webhook events. Ensure that your application trusts the following DigiCert root certificates:
 
 -   DigiCert Global Root CA
 -   DigiCert Global Root G2

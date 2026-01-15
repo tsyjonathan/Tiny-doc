@@ -14,7 +14,7 @@ If you don’t know what locale to use, the English default is en\_US.
 Using your user access token, call the list categories endpoint:
 
 ```
-curl "https://api.tink.com/enrichment/v1/categories" \ 
+curl "[external url removed]" \ 
 -H 'Authorization: Bearer {YOUR_USER_ACCESS_TOKEN}'
 ```
 

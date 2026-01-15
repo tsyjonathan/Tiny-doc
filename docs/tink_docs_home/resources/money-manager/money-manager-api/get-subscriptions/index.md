@@ -20,7 +20,7 @@ We are certain that this new service will greatly enhance your ability to manage
 Example request
 
 ```
-curl -X GET 'https://api.tink.com/finance-management/v1/subscriptions' \
+curl -X GET '[external url removed]' \
 -H 'Authorization: Bearer '
 ```
 
@@ -40,7 +40,7 @@ Example response:
           "website": "string"
         },
         "id": "02820044-69f5-4170-a516-fbeae6450f7a",
-        "logoUrl": "https://....",
+        "logoUrl": "[external url removed]",
         "name": "Gym"
       },
       "subscriptionCost": {
@@ -65,7 +65,7 @@ Example response:
           "website": "string"
         },
         "id": "02820044-69f5-4170-a516-fbeae6450f7a",
-        "logoUrl": "https://....",
+        "logoUrl": "[external url removed]",
         "name": "Streaming Service"
       },
       "subscriptionCost": {

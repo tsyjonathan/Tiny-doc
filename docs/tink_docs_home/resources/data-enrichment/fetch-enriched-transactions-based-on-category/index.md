@@ -7,14 +7,14 @@ Using your user access token, call the list enriched transactions endpoint with 
 
 ```
 curl -H "Authorization: Bearer {YOUR_USER_ACCESS_TOKEN}" \
-"https://api.tink.com/enrichment/v1/transactions?categoryIdIn={CATEGORY_ID}"
+"[external url removed]"
 ```
 
 or multiple:
 
 ```
 curl -H "Authorization: Bearer {YOUR_USER_ACCESS_TOKEN}" \
-"https://api.tink.com/enrichment/v1/transactions?\
+"[external url removed]
 categoryIdIn=002129e58ca24923bccc60979eaa63cd&\
 categoryIdIn=16fdf95f15b04408a0262d8e2fde8b6d"
 ```

@@ -5,7 +5,7 @@ exportedAt: "2026-01-13T13:01:15.459Z"
 ---
 ## Set up deep links or Android App Links[](#set-up-deep-links-or-android-app-links)
 
-In your `AndroidManifest.xml` register a [deep link or Android App Link](https://developer.android.com/training/app-links) that will be used as the value for the `redirect_uri` parameter in your Tink Link URL and later used to retrieve the response of the Tink Link operation in your app.
+In your `AndroidManifest.xml` register a deep link or Android App Link that will be used as the value for the `redirect_uri` parameter in your Tink Link URL and later used to retrieve the response of the Tink Link operation in your app.
 
 ```
 <intent-filter>

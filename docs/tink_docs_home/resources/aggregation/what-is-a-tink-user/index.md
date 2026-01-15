@@ -5,7 +5,7 @@ exportedAt: "2026-01-13T12:55:34.954Z"
 ---
 ## Example[](#example)
 
-Accessing Tink Link and signing into your bank would create a Tink user: ![Authentication](https://cdn.tink.se/dev-center-assets/images/tink-link-auth.gif)
+Accessing Tink Link and signing into your bank would create a Tink user: *Image removed: Authentication*
 
 When you sign up to a bank in this way, we take a snapshot and aggregate all your data for that bank including all data from before the timestamp of the snapshot. By default, this data is available for 24 hours and then needs to be re-authorized to create a new Tink user to continue using the service.
 

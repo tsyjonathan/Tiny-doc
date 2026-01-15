@@ -8,7 +8,7 @@ To fetch a list of accounts for a specific user, you must have a `user access to
 Fetch a list of accounts
 
 ```
-curl "https://api.tink.com/data/v2/accounts" \
+curl "[external url removed]" \
   -H 'Authorization: Bearer '
 ```
 

@@ -3,7 +3,7 @@ title: "Finance overview for iOS - Tink Docs"
 source: "/Tiny-doc/tink_docs_home/resources/money-manager-ios/finance-overview/"
 exportedAt: "2026-01-13T12:58:43.746Z"
 ---
-![Financial overview](https://images.ctfassets.net/tmqu5vj33f7w/fpq14Ktpixy1pvgIbDxmU/b7bd26b064a327ae45104010cbe37792/Financial_overview.png)
+*Image removed: Financial overview*
 
 ## Overview[](#overview)
 
@@ -81,7 +81,7 @@ The `categorize` action lets the user choose a new category for the selected tra
 
 Transactions that are not yet confirmed by the user's bank or can change in the future are called pending transactions. We use a different design to show that transactions are in this state. By default, they can be edited like any other transaction, however you can configure this setting if you want to limit your users before a transactions is in it's final state.
 
-![iOS Pending trx list](https://images.ctfassets.net/tmqu5vj33f7w/5n2HiH5KQYlrRNPmBLpfY1/a56c826b46ea434caff26babab769993/iOSPending.png)
+*Image removed: iOS Pending trx list*
 
 To prevent the end user to edit a pending transaction, change the status of `editingPendingTransactions` to `.disabled`:
 

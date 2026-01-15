@@ -25,7 +25,7 @@ The following request will authorize the application using the client id and sec
 **Example request:**
 
 ```
-curl -v -X POST https://api.tink.com/api/v1/oauth/token \
+curl -v -X POST [external url removed] \
 -d 'client_id=' \
 -d 'client_secret=' \
 -d 'grant_type=client_credentials' \
@@ -52,7 +52,7 @@ Use the generated client access token from step 1 to create a new Tink User. Add
 **Example request:**
 
 ```
-curl -v -X POST https://api.tink.com/api/v1/user/create \
+curl -v -X POST [external url removed] \
 -H 'Authorization: Bearer ' \
 -H 'Content-Type: application/json' \
 -d '
@@ -81,7 +81,7 @@ You now have a user to add an account to. Use the generated client access token 
 **Example request:**
 
 ```
-curl -v -X POST 'https://api.tink.com/connector/users/{externalUserId}/accounts' \
+curl -v -X POST '[external url removed]' \
 -H 'Authorization: Bearer ' \
 -H 'Content-Type: application/json' \
 -d '{
@@ -106,7 +106,7 @@ Use the generated client access token from step 1, the external user id from ste
 \_\_Example request: \_\_
 
 ```
-curl -v -X POST 'https://api.tink.com/connector/users/{externalUserId}/transactions' \
+curl -v -X POST '[external url removed]' \
 -H 'Authorization: Bearer {YOUR_CLIENT_ACCESS_TOKEN}' \
 -H 'Content-Type: application/json' \
 -d '{

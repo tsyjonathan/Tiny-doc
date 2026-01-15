@@ -45,7 +45,7 @@ When registering a new Webhook, please be aware that there might be a delay of u
   "enabledEvents": [
     "refresh:finished"
   ],
-  "url": "https://endpoint.example.com/"
+  "url": "[external url removed]"
 }
 ```
 
@@ -82,7 +82,7 @@ The URL of the webhook endpoint. Allowed schemes: https
   "id": "d8f37f7d19c240abb4ef5d5dbebae4ef",
   "secret": "string",
   "updatedAt": "2022-11-30T15:27:59Z",
-  "url": "https://endpoint.example.com/"
+  "url": "[external url removed]"
 }
 ```
 
@@ -189,7 +189,7 @@ Returns a list of Webhook Endpoints.
       "id": "d8f37f7d19c240abb4ef5d5dbebae4ef",
       "secret": "string",
       "updatedAt": "2022-11-30T15:27:59Z",
-      "url": "https://endpoint.example.com/"
+      "url": "[external url removed]"
     }
   ]
 }
@@ -275,7 +275,7 @@ Updates a Webhook Endpoint.
     "enabledEvents": [
       "refresh:finished"
     ],
-    "url": "https://endpoint.example.com/"
+    "url": "[external url removed]"
   }
 }
 ```
@@ -336,7 +336,7 @@ The URL of the webhook endpoint. Allowed schemes: https
   "id": "d8f37f7d19c240abb4ef5d5dbebae4ef",
   "secret": "string",
   "updatedAt": "2022-11-30T15:27:59Z",
-  "url": "https://endpoint.example.com/"
+  "url": "[external url removed]"
 }
 ```
 

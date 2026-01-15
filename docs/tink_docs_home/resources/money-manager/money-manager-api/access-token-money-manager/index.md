@@ -16,7 +16,7 @@ To request one, you need to execute the following request:
 Request example
 
 ```
-curl -v -X POST https://api.tink.com/api/v1/oauth/token \
+curl -v -X POST [external url removed] \
 -d 'client_id=' \
 -d 'client_secret=' \
 -d 'grant_type=client_credentials' \
@@ -39,7 +39,7 @@ You now need to obtain an `authorization_code` corresponding to either your `use
 Generate authorization\_code
 
 ```
-curl -X POST https://api.tink.com/api/v1/oauth/authorization-grant \
+curl -X POST [external url removed] \
 -H 'Authorization: Bearer ' \
 -d 'user_id=' \
 -d 'external_user_id=' \
@@ -61,7 +61,7 @@ Once you have obtained the authorization\_code, you can exchange it for a `user 
 Obtain a user access token
 
 ```
-curl -v -X POST https://api.tink.com/api/v1/oauth/token \
+curl -v -X POST [external url removed] \
 -d 'code=' \
 -d 'client_id=' \
 -d 'client_secret=' \

@@ -75,9 +75,9 @@ Stay updated on all changes to the Tink platform and products.
     
     The default Tink Link theme now includes a dark mode variant. The theme automatically adapts to the user's device settings, switching between light and dark modes as appropriate.
     
-    If using the Tink Link default theme, you can disable dark mode by customising your theme settings in [Tink Console](https://console.tink.com/). Additionally, you can override the device preference by specifying the ‘theme’ parameter in the Tink Link URL. For more details, refer to the SDK documentation for your specific product.
+    If using the Tink Link default theme, you can disable dark mode by customising your theme settings in Tink Console. Additionally, you can override the device preference by specifying the ‘theme’ parameter in the Tink Link URL. For more details, refer to the SDK documentation for your specific product.
     
-    ![](https://images.ctfassets.net/tmqu5vj33f7w/5svUkfag1i3oMkbehyRDIY/50896179132d88000d0214ca97ff4466/Changelog-Dark.png)
+    *Image removed: external*
     
 -   August 01, 2025
     
@@ -103,7 +103,7 @@ Stay updated on all changes to the Tink platform and products.
     
     All connections to EvoBanco are now decommissioned due to the merger with Bankinter. EvoBanco customers are required to create new credentials to access their Bankinter accounts.
     
-    Read the [Bankinter merger FAQs](https://www.bankinter.com/banca/en/faqs/evo-products-migrated-bankinter) to learn more.
+    Read the Bankinter merger FAQs to learn more.
     
 -   July 30, 2025
     
@@ -148,9 +148,9 @@ Stay updated on all changes to the Tink platform and products.
     
     In addition to risk reports, new features include CSV/PDF downloads, name search and a Tink Link builder now supporting all Risk products.
     
-    For further questions regarding Tink's Risk Decisioning solution, reach out to your Tink representative or [contact us online](https://b2bmarketing.tink.com/contact-sales).
+    For further questions regarding Tink's Risk Decisioning solution, reach out to your Tink representative or contact us online.
     
-    ![](https://images.ctfassets.net/tmqu5vj33f7w/3KaqG9B71R9HfiG6vzU1rI/2808ecea6306bcaf5e9cb199c7d3473f/Changelog-RDV__1_.png)
+    *Image removed: external*
     
 -   April 04, 2025
     
@@ -181,7 +181,7 @@ Stay updated on all changes to the Tink platform and products.
     -   Resolved translation issue for Income & Expense titles
     -   Fixed inaccurate expense and recurring expense values in Safe-to-Spend
     
-    To upgrade to the latest version, see the [release notes](https://github.com/tink-ab/tink-money-manager-android/releases/tag/2.1.2).
+    To upgrade to the latest version, see the release notes.
     
 -   March 13, 2025
     
@@ -198,7 +198,7 @@ Stay updated on all changes to the Tink platform and products.
     -   Resolved translation issue for Income & Expense titles
     -   Fixed inaccurate expense and recurring expense values in Safe-to-Spend
     
-    To upgrade to the latest version, see the [release notes](https://github.com/tink-ab/tink-money-manager-android/releases/tag/1.2.1).
+    To upgrade to the latest version, see the release notes.
     
 -   February 27, 2025
     
@@ -217,7 +217,7 @@ Stay updated on all changes to the Tink platform and products.
     -   Implemented Jailbreak detection for enhanced security
     -   Overall improvements in SDK stability and performance
     
-    To upgrade to the latest version, see the [release notes](https://github.com/tink-ab/tink-money-manager-ios/releases/tag/3.0.0).
+    To upgrade to the latest version, see the release notes.
     
 -   February 27, 2025
     
@@ -234,7 +234,7 @@ Stay updated on all changes to the Tink platform and products.
     -   Upgraded minimum supported version to Android 11
     -   Added device jailbreak detection for enhanced security
     
-    To upgrade to the latest version, see the [release notes](https://github.com/tink-ab/tink-money-manager-android/releases/tag/3.0.0).
+    To upgrade to the latest version, see the release notes.
     
 -   January 31, 2025
     
@@ -368,7 +368,7 @@ Stay updated on all changes to the Tink platform and products.
     -   Tink Link URL builder
     -   Demo bank users
     
-    [Log in to your account](https://console.tink.com/login) to access the new product pages.
+    Log in to your account to access the new product pages.
     
 -   November 22, 2024
     
@@ -580,9 +580,9 @@ Stay updated on all changes to the Tink platform and products.
     -   Screened payments
     -   Volume of blocked payments
     
-    [Log in to your account](https://console.tink.com/login) to view the new Risk Signals analytics tab.
+    Log in to your account to view the new Risk Signals analytics tab.
     
-    ![](https://images.ctfassets.net/tmqu5vj33f7w/5KyS6ZvPVGQ5qs3cgmJUKU/0a901e6d33b294711deb84852cfe3050/Changelog-risk_signals-2.png)
+    *Image removed: external*
     
 -   August 05, 2024
     
@@ -720,7 +720,7 @@ Stay updated on all changes to the Tink platform and products.
     
     For troubleshooting purposes, you can still access the last 4 digits of the payer account.
     
-    ![](https://images.ctfassets.net/tmqu5vj33f7w/3cg4JeUbdK8rc2uiT2vidt/a3b57d31ec59e0ed83e67808bde6b568/Changelog-paylog-Iban-masking-2__1_.png)
+    *Image removed: external*
     
 -   July 01, 2024
     
@@ -742,7 +742,7 @@ Stay updated on all changes to the Tink platform and products.
     -   Removed the APIs deprecated in prior versions.
     -   Updated the code reference documentation.
     
-    For upgrade instructions, refer to the [migration guide](https://github.com/tink-ab/tink-money-manager-ios/blob/master/MIGRATION_GUIDE.md).
+    For upgrade instructions, refer to the migration guide.
     
 -   June 20, 2024
     
@@ -780,7 +780,7 @@ Stay updated on all changes to the Tink platform and products.
     -   Created entry point EntryPoint.RecurringExpenses to launch Recurring expense as a stand alone feature
     -   Extended TinkMoneyManager.init() with enableSafeToSpend feature flag to enable/disable Recurring expenses section on top of Transaction list.
     
-    To upgrade to the latest version, [see the release notes](https://github.com/tink-ab/tink-money-manager-android/releases/tag/1.1.6).
+    To upgrade to the latest version, see the release notes.
     
 -   June 07, 2024
     
@@ -798,7 +798,7 @@ Stay updated on all changes to the Tink platform and products.
     
     The Tink API server certificate will remain signed by **DigiCert Global Root CA** until it is renewed on **2025-06-11**.
     
-    For further details, see [DigiCert's announcement](https://knowledge.digicert.com/general-information/digicert-root-and-intermediate-ca-certificate-updates-2023).
+    For further details, see DigiCert's announcement.
     
 -   June 03, 2024
     
@@ -814,7 +814,7 @@ Stay updated on all changes to the Tink platform and products.
     
     -   Fixed wrong padding of title in Transaction Details Screen
     
-    To upgrade to the latest version, see the [release notes](https://github.com/tink-ab/tink-money-manager-android/releases/tag/1.1.5).
+    To upgrade to the latest version, see the release notes.
     
 -   May 21, 2024
     
@@ -840,7 +840,7 @@ Stay updated on all changes to the Tink platform and products.
     -   Upgraded Xcode to version 15
     -   Upgraded to Swift 5.9
     
-    To upgrade to the latest version, see the [release notes](https://github.com/tink-ab/tink-link-ios/releases/tag/3.0.0).
+    To upgrade to the latest version, see the release notes.
     
 -   April 23, 2024
     
@@ -867,7 +867,7 @@ Stay updated on all changes to the Tink platform and products.
     
     -   `UINavigationBar` replaced with `Tink Link` navigation bar.
     
-    To upgrade to the latest version, see the [release notes](https://github.com/tink-ab/tink-link-ios/releases/tag/2.7.0).
+    To upgrade to the latest version, see the release notes.
     
 -   April 17, 2024
     
@@ -885,7 +885,7 @@ Stay updated on all changes to the Tink platform and products.
     
     This presents an opportunity to prevent mistakenly cancelled flows and gather first-hand data regarding the root causes of user drop-offs.
     
-    ![Changelog exit screen](https://images.ctfassets.net/tmqu5vj33f7w/60lMlrSRLKwFQQ0UfltYrh/c92b810e8ea554e9e5fc6fd56537b20f/Changelog-exit_screen-8.png)
+    *Image removed: Changelog exit screen*
     
 -   April 16, 2024
     
@@ -897,7 +897,7 @@ Stay updated on all changes to the Tink platform and products.
     
     SDK Android
     
-    The new SDK for Android 1.1.4 for Money Manager is released. With this update, “Recommended Budgets” will be refreshed for shared accounts. To upgrade to the latest version, see [the release notes](https://github.com/tink-ab/tink-money-manager-android/releases/tag/1.1.4).
+    The new SDK for Android 1.1.4 for Money Manager is released. With this update, “Recommended Budgets” will be refreshed for shared accounts. To upgrade to the latest version, see the release notes.
     
 -   April 16, 2024
     
@@ -961,7 +961,7 @@ Stay updated on all changes to the Tink platform and products.
     
     -   Added support for Variable Recurring Payments (VRPs) with using new API-call `Tink.Payments.authorizeVariableRecurringPaymentsMandate`.
     
-    To upgrade to the latest version, see the [release notes](https://github.com/tink-ab/tink-link-ios/releases/tag/2.6.0).
+    To upgrade to the latest version, see the release notes.
     
 -   April 04, 2024
     
@@ -973,7 +973,7 @@ Stay updated on all changes to the Tink platform and products.
     
     -   `Tink.AccountAggregation.refreshCredentials()` flow extended with `locale` parameter.
     
-    To upgrade to the latest version, see the [release notes](https://github.com/tink-ab/tink-link-android/releases/tag/2.5.0).
+    To upgrade to the latest version, see the release notes.
     
 -   April 04, 2024
     
@@ -1011,7 +1011,7 @@ Stay updated on all changes to the Tink platform and products.
     
     -   Fixed old keyword retention issue when creating budget
     -   Fixed incorrect average amount on Budget Creation screen
-    -   Resolved finance overview screen updation problem after deleting/editing budget To upgrade to the latest version, see the [release notes](https://github.com/tink-ab/tink-money-manager-android/releases/tag/1.1.3).
+    -   Resolved finance overview screen updation problem after deleting/editing budget To upgrade to the latest version, see the release notes.
     
 -   March 21, 2024
     
@@ -1046,7 +1046,7 @@ Stay updated on all changes to the Tink platform and products.
     
     This presents an opportunity to prevent mistakenly cancelled flows and gather first-hand data regarding the root causes of user drop-offs.
     
-    ![Changelog exit screen](https://images.ctfassets.net/tmqu5vj33f7w/60lMlrSRLKwFQQ0UfltYrh/c92b810e8ea554e9e5fc6fd56537b20f/Changelog-exit_screen-8.png)
+    *Image removed: Changelog exit screen*
     
 -   March 04, 2024
     
@@ -1064,7 +1064,7 @@ Stay updated on all changes to the Tink platform and products.
     
     This change is not only a proactive step to meet evolving compliance and regulatory requirements, it also offers the potential to enhance user experiences.
     
-    No action is required, as all technical changes are handled by Tink. View the new consent screen on our [demo site](https://demo.tink.com/) or in your product flow.
+    No action is required, as all technical changes are handled by Tink. View the new consent screen on our demo site or in your product flow.
     
     _Note this change only impacts products operating on Tink’s license. The new consent screen will not be implemented if you operate on your own license._
     
@@ -1081,7 +1081,7 @@ Stay updated on all changes to the Tink platform and products.
     -   Fixed visibility issue of 2 create budget views on Overview
     -   Hiding dynamic budgets component when list is empty on Overview
     
-    To upgrade to the latest version, see the [release notes](https://github.com/tink-ab/tink-money-manager-android/releases/tag/1.1.2).
+    To upgrade to the latest version, see the release notes.
     
 -   February 23, 2024
     
@@ -1250,7 +1250,7 @@ Stay updated on all changes to the Tink platform and products.
     -   Fixed text overlapping issue on change button in Transaction Details screen
     -   Updated toolbar and status bar to match theme color instead of category color in Transaction Details screen
     
-    To upgrade to the latest version, see the [release notes](https://github.com/tink-ab/tink-money-manager-android/releases/tag/1.1.1).
+    To upgrade to the latest version, see the release notes.
     
 -   December 22, 2023
     
@@ -1294,7 +1294,7 @@ Stay updated on all changes to the Tink platform and products.
     -   Added `external_reference` and `refreshable_items` parameters for Account Check.
     -   Improved UX of the success screen.
     
-    To upgrade to the latest version, see the [release notes](https://github.com/tink-ab/tink-link-ios/releases/tag/2.4.0).
+    To upgrade to the latest version, see the release notes.
     
 -   December 08, 2023
     
@@ -1388,9 +1388,9 @@ Stay updated on all changes to the Tink platform and products.
     
     This change is not only a proactive step to meet evolving compliance and regulatory requirements, but it also offers the potential to enhance user experiences.
     
-    No action is required, as all technical changes are handled by Tink. View the new consent screen on our [demo site](https://demo.tink.com/) or in your product flow.
+    No action is required, as all technical changes are handled by Tink. View the new consent screen on our demo site or in your product flow.
     
-    ![](https://images.ctfassets.net/tmqu5vj33f7w/17Xo5HiD3EUTXnGpFT4peM/fa27ecdd703b2741508374f1d2078975/AIS_consent_screen.png)
+    *Image removed: external*
     
 -   November 01, 2023
     
@@ -1444,13 +1444,13 @@ Stay updated on all changes to the Tink platform and products.
     
     -   Set minimum supported version to iOS 13.
     -   Improved Left to Spend layout behavior.
-    -   Changed some keys for localized strings. Refer to the [guide](https://github.com/tink-ab/tink-money-manager-ios/blob/master/MIGRATION_GUIDE.md#updates-and-removals-of-keys-for-localized-strings) for migration.
+    -   Changed some keys for localized strings. Refer to the guide for migration.
     -   Removed keys for unused localized strings.
     -   Removed the customizing of empty state for Actionable Insights.
     -   Removed the APIs deprecated in prior versions.
     -   Updated the code reference documentation.
     
-    For upgrade instructions, refer to the [migration guide](https://github.com/tink-ab/tink-money-manager-ios/blob/master/MIGRATION_GUIDE.md).
+    For upgrade instructions, refer to the migration guide.
     
 -   September 22, 2023
     
@@ -1556,13 +1556,13 @@ Stay updated on all changes to the Tink platform and products.
         -   Accounts
         -   Budgets
         -   Overview
-    -   Deprecated _**FinanceOverviewFragment**_: we have introduced a new way to launch the Finance Overview screen to align with the "Entrypoints" feature as shown above. This involves using the new _**TinkMoneyManager**_ instead of the deprecated _**FinanceOverviewFragment**_. For migration details, refer to the [migration guide](https://github.com/tink-ab/tink-money-manager-android/blob/master/MIGRATION_GUIDE_TO_VERSION_1.0.md).
+    -   Deprecated _**FinanceOverviewFragment**_: we have introduced a new way to launch the Finance Overview screen to align with the "Entrypoints" feature as shown above. This involves using the new _**TinkMoneyManager**_ instead of the deprecated _**FinanceOverviewFragment**_. For migration details, refer to the migration guide.
         
     -   Deprecated _**FinanceOverviewStyle**_: we are deprecating the use of the old _**TinkFinanceOverviewStyle**_ in favor of the new _**TinkMoneyManagerStyle**_.
         
     -   Removed negative amounts from Left-to-Spend over time view. The lowest possible amount is now 0.
         
-    -   Added Api Reference at [https://tink-ab.github.io/tink-money-manager-android/](https://tink-ab.github.io/tink-money-manager-android/).
+    -   Added Api Reference at [external url removed]
         
     -   Added two new types of Actionable Insights:
         
@@ -1571,9 +1571,9 @@ Stay updated on all changes to the Tink platform and products.
     
     **Breaking change:**
     
-    -   Removed the _**javaInsightActionHandler**_ as parameter of the _**FinanceOverviewFragment.newInstance(...)**_ method. For details, refer to the [migration guide](https://github.com/tink-ab/tink-money-manager-android/blob/master/MIGRATION_GUIDE_TO_VERSION_1.0.md).
+    -   Removed the _**javaInsightActionHandler**_ as parameter of the _**FinanceOverviewFragment.newInstance(...)**_ method. For details, refer to the migration guide.
     
-    To download the source code, see the [release notes](https://github.com/tink-ab/tink-money-manager-android/releases/tag/1.0.0).
+    To download the source code, see the release notes.
     
 -   September 08, 2023
     
@@ -1585,7 +1585,7 @@ Stay updated on all changes to the Tink platform and products.
     
     A new default filter has been added to Console analytics which combines data across all countries of operation into one view.
     
-    [Log in to your account](https://console.tink.com/login) to view the aggregated market metrics.
+    Log in to your account to view the aggregated market metrics.
     
 -   August 31, 2023
     
@@ -1606,7 +1606,7 @@ Stay updated on all changes to the Tink platform and products.
     -   Deprecated existing `Configuration` type initializer which does not require `BaseDomain` case. This initializer falls back to the `.eu` case.
         
     
-    To upgrade to the latest version, see the [release notes](https://github.com/tink-ab/tink-link-ios/releases/tag/2.3.0).
+    To upgrade to the latest version, see the release notes.
     
 -   August 30, 2023
     
@@ -1647,7 +1647,7 @@ Stay updated on all changes to the Tink platform and products.
         -   For each occurrence of Configuration constructor, add the new BaseDomain parameter to the constructor. To configure Tink Link for the European production environment, append BaseDomain.EU to the constructor, like so: Configuration("client\_id", "redirect\_uri", BaseDomain.EU). Alternatively, for sandbox environments, use BaseDomain.Custom("your\_custom\_base\_domain").
         -   Android Studio will highlight deprecated code and suggest an action to replace it with the correct Configuration constructor, automatically adding BaseDomain.EU as the default environment.
     
-    To upgrade to the latest version, see the [release notes](https://github.com/tink-ab/tink-link-android/releases/tag/2.3.0).
+    To upgrade to the latest version, see the release notes.
     
 -   August 28, 2023
     
@@ -1792,9 +1792,9 @@ Stay updated on all changes to the Tink platform and products.
     -   Expense Check reports
     -   Risk Insight reports
     
-    You can now request access to the new Risk Decisioning solution by reaching out to your Tink representative or [contacting us online](https://tink.com/contact-us/).
+    You can now request access to the new Risk Decisioning solution by reaching out to your Tink representative or contacting us online.
     
-    ![](https://images.ctfassets.net/tmqu5vj33f7w/3gcV1j8cFAXKRHuPyzl795/41b47e7e45226d742d86c1f387f4a8c2/Changelog-RDV.png)
+    *Image removed: external*
     
 -   July 05, 2023
     
@@ -1814,7 +1814,7 @@ Stay updated on all changes to the Tink platform and products.
     -   Filter by merchant under Account Check analytics
     -   Filter by merchant under Payment logs analytics
     
-    [Log in to your account](https://console.tink.com/login) to view the new merchant capabilities.
+    Log in to your account to view the new merchant capabilities.
     
 -   June 27, 2023
     
@@ -1910,9 +1910,9 @@ Stay updated on all changes to the Tink platform and products.
     
     Variable Recurring Payments (VRP) users can now access VRP-specific metrics under the analytics section in Console.
     
-    [Log in to your account](https://console.tink.com/login) to view the new analytics tab.
+    Log in to your account to view the new analytics tab.
     
-    ![](https://images.ctfassets.net/tmqu5vj33f7w/78f8YuQwouxE3c2zsximB7/e70743e9ea47edd6a199b6b51646b764/Changelog-VRP1.png)
+    *Image removed: external*
     
 -   June 05, 2023
     
@@ -1932,7 +1932,7 @@ Stay updated on all changes to the Tink platform and products.
     
     > ~In 2025, Mozilla will begin distrusting older DigiCert root certificates. On the dates specified in the Mozilla certificate distrust and dates table below, Mozilla will also stop trusting your active end-entity certificates: first, TLS/SSL certificates and then S/MIME certificates.~
     
-    ~For further details, see [DigiCert's announcement](https://knowledge.digicert.com/generalinformation/digicert-root-and-intermediate-ca-certificate-updates-2023.html)~
+    ~For further details, see DigiCert's announcement~
     
     ~The Tink API server certificate will remain to be signed by **DigiCert Global Root CA** until it is renewed before it's expiration. Renewal shall occur no later than Mon, 10 Jun 2024 23:59:59 GMT, we advice to customers relying on custom trust stores to update them according to our new [guidelines](/Tiny-doc/tink_docs_api/api/#introduction/https-and-tls) before then.~
     
@@ -1948,7 +1948,7 @@ Stay updated on all changes to the Tink platform and products.
     
     -   Fixed a bug which prevents archiving `SINGLE_UNCATEGORIZED_TRANSACTION` Actionable Insight after successful categorization.
     
-    To download the source code, see the [release notes](https://github.com/tink-ab/tink-money-manager-ios/releases/tag/0.28.1).
+    To download the source code, see the release notes.
     
 -   June 02, 2023
     
@@ -1960,7 +1960,7 @@ Stay updated on all changes to the Tink platform and products.
     
     -   Added support for Account Aggregation product.
     
-    To upgrade to the latest version, see the [release notes](https://github.com/tink-ab/tink-link-ios/releases/tag/2.2.0).
+    To upgrade to the latest version, see the release notes.
     
 -   June 02, 2023
     
@@ -1972,7 +1972,7 @@ Stay updated on all changes to the Tink platform and products.
     
     -   Added support for account aggregation product.
     
-    To upgrade to the latest version, see the [release notes](https://github.com/tink-ab/tink-link-android/releases/tag/2.2.0).
+    To upgrade to the latest version, see the release notes.
     
 -   May 26, 2023
     
@@ -1984,7 +1984,7 @@ Stay updated on all changes to the Tink platform and products.
     
     -   Fixed an issue with obfuscation that made the TinkError data model and its internal parameters not visible.
     
-    To upgrade to the latest version, see the [release notes](https://github.com/tink-ab/tink-link-android/releases/tag/2.1.1).
+    To upgrade to the latest version, see the release notes.
     
 -   May 17, 2023
     
@@ -2063,9 +2063,9 @@ Stay updated on all changes to the Tink platform and products.
     
     Console users can now download a CSV file of monthly products metrics.
     
-    [Log in to your account](https://console.tink.com/login) to download analytics data.
+    Log in to your account to download analytics data.
     
-    ![](https://images.ctfassets.net/tmqu5vj33f7w/6EteFXTCQP8UKLmqHcl9xs/6577bdb87296e10d3f650f5f63a4106e/Changelog-downloadcsv.png)
+    *Image removed: external*
     
 -   May 10, 2023
     
@@ -2094,7 +2094,7 @@ Stay updated on all changes to the Tink platform and products.
     Appearance.provider.icons.defaultAccount = UIImage(named: "bank-icon-placeholder")
     ```
     
-    To download the source code, see the [release notes](https://github.com/tink-ab/tink-money-manager-ios/releases/tag/0.28.0).
+    To download the source code, see the release notes.
     
 -   May 08, 2023
     
@@ -2108,7 +2108,7 @@ Stay updated on all changes to the Tink platform and products.
     -   Added javadoc and source code for all the public classes and methods.
     -   Added a log message for Tink Link version when the library is initialised.
     
-    To download the source code, see the [release notes](https://github.com/tink-ab/tink-link-android/releases/tag/2.1.0).
+    To download the source code, see the release notes.
     
 -   May 08, 2023
     
@@ -2126,7 +2126,7 @@ Stay updated on all changes to the Tink platform and products.
     
     -   Converted the plural string resource with key `tink_budget_details_chart_status_message_last_year` into a string resource with key `tink_budget_details_chart_status_message`
     
-    To download the source code, see the [release notes](https://github.com/tink-ab/tink-money-manager-android/releases/tag/0.28.0).
+    To download the source code, see the release notes.
     
 -   April 28, 2023
     
@@ -2146,9 +2146,9 @@ Stay updated on all changes to the Tink platform and products.
     
     Console users will now be guided through an improved process when creating Tink Link URLs for all products.
     
-    Create your URL with the upgraded experience in your [account](https://console.tink.com/login).
+    Create your URL with the upgraded experience in your account.
     
-    ![](https://images.ctfassets.net/tmqu5vj33f7w/21uSLnSnrslWWRaufq0WQ8/fb88780fb626fc8173c773fe2c80e965/Changelog_Create_a_url__1_.png)
+    *Image removed: external*
     
 -   April 19, 2023
     
@@ -2162,9 +2162,9 @@ Stay updated on all changes to the Tink platform and products.
     
     Payments customers with settlement accounts can now access ‘Settled’ and ‘Refunds’ metrics under the analytics section in Console.
     
-    [Log in to your account](https://console.tink.com/login) to view the updated analytics.
+    Log in to your account to view the updated analytics.
     
-    ![](https://images.ctfassets.net/tmqu5vj33f7w/39YHTklbY1HVXv8cgmI61e/7ba13e742406f277f843a5949396f9a3/Changelog-settlement.png)
+    *Image removed: external*
     
 -   April 18, 2023
     
@@ -2176,9 +2176,9 @@ Stay updated on all changes to the Tink platform and products.
     
     All of Tink’s products are now freely available to test for all Console users. These can be found in your Sandbox environment.
     
-    Simply [log in to your account](https://console.tink.com/login) to test the product of your choice.
+    Simply log in to your account to test the product of your choice.
     
-    ![](https://images.ctfassets.net/tmqu5vj33f7w/5cP2mvsr2F8v6ygiaoCeUJ/69bf31c87d1c927165558c98ed25d5cc/Changelog_Sandbox_products.png)
+    *Image removed: external*
     
 -   April 14, 2023
     
@@ -2191,7 +2191,7 @@ Stay updated on all changes to the Tink platform and products.
     -   Updated minimum supported version of Swift.
     -   Fixed an issue where double completion handler invocation would occur.
     
-    To upgrade to the latest version, see the [release notes](https://github.com/tink-ab/tink-link-ios/releases/tag/2.0.1).
+    To upgrade to the latest version, see the release notes.
     
 -   April 13, 2023
     
@@ -2346,7 +2346,7 @@ Stay updated on all changes to the Tink platform and products.
     -   Changed the default icon for ingested accounts.
     -   Added new themes attributes for overriding the default icons for accounts`tink_icon_default_account` and ingested accounts `tink_icon_ingested_account`.
     
-    To download the source code, see the [release notes](https://github.com/tink-ab/tink-money-manager-android/releases/tag/0.27.1).
+    To download the source code, see the release notes.
     
 -   April 03, 2023
     
@@ -2396,7 +2396,7 @@ Stay updated on all changes to the Tink platform and products.
     -   Updated theming and customisation options, now available through Tink Console
     -   Minimum required target API level 23 (Android 6)
     
-    For more details, visit the [Tink Link Android GitHub repository](https://github.com/tink-ab/tink-link-android).
+    For more details, visit the Tink Link Android GitHub repository.
     
 -   March 29, 2023
     
@@ -2422,7 +2422,7 @@ Stay updated on all changes to the Tink platform and products.
     -   Updated theming and customisation options, now available through Tink Console
     -   Minimum required version is iOS 13
     
-    For more details, visit the [Tink Link iOS GitHub repository](https://github.com/tink-ab/tink-link-ios).
+    For more details, visit the Tink Link iOS GitHub repository.
     
 -   March 23, 2023
     
@@ -2448,7 +2448,7 @@ Stay updated on all changes to the Tink platform and products.
     
     You can now download a CSV file of monthly payments transactions for internal reporting.
     
-    [Log in to your account](https://console.tink.com/login) to download data from analytics.
+    Log in to your account to download data from analytics.
     
 -   March 09, 2023
     
@@ -2465,7 +2465,7 @@ Stay updated on all changes to the Tink platform and products.
     -   Fixed transition glitch when navigating to new screen
     -   Changed the implementation of CustomView, this is a breaking change which requires action if your app is using the CustomViews.
     
-    For upgrade instructions, refer to the [migration guide](https://github.com/tink-ab/tink-money-manager-android/releases/tag/0.27.0). To download the source code, see the [release notes](https://github.com/tink-ab/tink-money-manager-android/releases/tag/0.27.0).
+    For upgrade instructions, refer to the migration guide. To download the source code, see the release notes.
     
 -   March 09, 2023
     
@@ -2519,9 +2519,9 @@ Stay updated on all changes to the Tink platform and products.
     
     You can now view a breakdown of completion rates per device for all products in Console analytics.
     
-    [Log in to your account](https://console.tink.com/login) to access the upgraded analytics.
+    Log in to your account to access the upgraded analytics.
     
-    ![](https://images.ctfassets.net/tmqu5vj33f7w/2iSAQV7jduMkCtC76ykC1I/0290f2325052303d57d92bc4d9b6e307/Changelog_Completion_per_device.png)
+    *Image removed: external*
     
 -   March 03, 2023
     
@@ -2547,7 +2547,7 @@ Stay updated on all changes to the Tink platform and products.
     
     You can now use a new troubleshooting solution to instantly and independently understand the status of all your end user payments directly in Tink Console. Access information such as payment request ID, status description and payer account details via the new payment logs feature.
     
-    ![You can now use a new troubleshooting solution to instantly and independently understand the status of all your end user payments directly in Tink Console. Access payments information such as payment request ID, status description and payer account details.](https://images.ctfassets.net/tmqu5vj33f7w/6XRkQW8Zuq77AxGiH2o30D/37c250431aaa4984181d6a8b7dedfb33/Changelog-Paylogs.png)
+    *Image removed: You can now use a new troubleshooting solution to instantly and independently understand the status of all your end user payments directly in Tink Console. Access payments information such as payment request ID, status description and payer account details.*
     
 -   February 28, 2023
     
@@ -2587,9 +2587,9 @@ Stay updated on all changes to the Tink platform and products.
     
     Console users will now land on a new Overview page which highlights the most recent Changelog updates as well as the latest traffic data and key metrics, providing an instant analysis of product performance.
     
-    [Log in to your Console account](https://console.tink.com/login) to view the latest update.
+    Log in to your Console account to view the latest update.
     
-    ![Console users will now land on a new Overview page.](https://images.ctfassets.net/tmqu5vj33f7w/J0ik6I0Bf7hXAbbtj3Isa/6f4310a78c35eb6208af9f2a13799fcf/Console_overview.png)
+    *Image removed: Console users will now land on a new Overview page.*
     
 -   ## Added beta endpoints for Consent and Authorization[](#added-beta-endpoints-for-consent-and-authorization)
     
@@ -2712,7 +2712,7 @@ Stay updated on all changes to the Tink platform and products.
     
     -   Updated period format to show only day and month in all the statistics pie charts.
     
-    To download the source code, see the [release notes](https://github.com/tink-ab/tink-money-manager-android/releases/tag/0.26.0).
+    To download the source code, see the release notes.
     
 -   October 12, 2022
     
@@ -2724,7 +2724,7 @@ Stay updated on all changes to the Tink platform and products.
     
     -   Upgraded jsoup to 1.15.3
     
-    To download the source code, see the [release notes](https://github.com/tink-ab/tink-link-android/releases/tag/0.16.0).
+    To download the source code, see the release notes.
     
 -   October 04, 2022
     
@@ -2737,7 +2737,7 @@ Stay updated on all changes to the Tink platform and products.
     -   Improved and simplified logic of displaying information in Budgets.
     -   Fixed empty state for Accounts Carousel with custom appearance.
     
-    To download source code, see the [release notes](https://github.com/tink-ab/tink-money-manager-ios/releases/tag/0.27.1).
+    To download source code, see the release notes.
     
 -   September 27, 2022
     
@@ -2768,7 +2768,7 @@ Stay updated on all changes to the Tink platform and products.
             )
     ```
     
-    To download the source code, see the [release notes](https://github.com/tink-ab/tink-money-manager-android/releases/tag/0.25.0).
+    To download the source code, see the release notes.
     
 -   September 27, 2022
     
@@ -2807,7 +2807,7 @@ Stay updated on all changes to the Tink platform and products.
     -   Fixed a bug where the budget target views size wouldn't update after editing the amount.
     -   Removed the possibility to create budget target amounts with decimals.
     
-    To download source code, see the [release notes](https://github.com/tink-ab/tink-money-manager-ios/releases/tag/0.27.1).
+    To download source code, see the release notes.
     
 -   September 05, 2022
     
@@ -2819,9 +2819,9 @@ Stay updated on all changes to the Tink platform and products.
     
     -   Improved the UI of the account selection screen: added the access type indication (Open Banking or Other) and the provider icon for each connection in the list.
     
-    Updated to [Tink Core version 0.8.6](https://github.com/tink-ab/tink-core-android/releases/tag/0.8.6)
+    Updated to Tink Core version 0.8.6
     
-    To download the source code, see the [release notes](https://github.com/tink-ab/tink-link-android/releases/tag/0.15.4).
+    To download the source code, see the release notes.
     
 -   September 05, 2022
     
@@ -2840,9 +2840,9 @@ Stay updated on all changes to the Tink platform and products.
     
     More info regarding the transaction-details feature on [Tink Docs](/Tiny-doc/tink_docs_home/resources/pfm-sdk-android/transaction-details-for-android/)
     
-    Updated to [Tink Core version 0.8.6](https://github.com/tink-ab/tink-core-android/releases/tag/0.8.6)
+    Updated to Tink Core version 0.8.6
     
-    To download the source code, see the [release notes](https://github.com/tink-ab/tink-money-manager-android/releases/tag/0.24.0).
+    To download the source code, see the release notes.
     
 -   August 10, 2022
     
@@ -2872,7 +2872,7 @@ Stay updated on all changes to the Tink platform and products.
     
     -   Fixed a bug regarding wrong remaining days for customised budget period.
     
-    To download source code, see the [release notes](https://github.com/tink-ab/tink-money-manager-android/releases/tag/0.23.3).
+    To download source code, see the release notes.
     
 -   July 18, 2022
     
@@ -2899,7 +2899,7 @@ Stay updated on all changes to the Tink platform and products.
     
     -   Fixed a bug where transactions were grouped incorrectly in some cases.
     
-    To download source code, see the [release notes](https://github.com/tink-ab/tink-money-manager-android/releases/tag/0.23.2).
+    To download source code, see the release notes.
     
 -   June 30, 2022
     
@@ -2920,7 +2920,7 @@ Stay updated on all changes to the Tink platform and products.
     -   Added the ability to customize the color of the pending transaction clock icon (uses the style attribute: tink\_colorAccent).
         
     
-    To download source code, see the [release notes](https://github.com/tink-ab/tink-money-manager-android/releases/tag/v0.23.1).
+    To download source code, see the release notes.
     
 -   June 20, 2022
     
@@ -2938,7 +2938,7 @@ Stay updated on all changes to the Tink platform and products.
     viewController.configuration.editingPendingTransactions = .disabled
     ```
     
-    To download source code, see the [release notes](https://github.com/tink-ab/tink-money-manager-ios/releases/tag/0.27.0).
+    To download source code, see the release notes.
     
 -   June 20, 2022
     
@@ -2976,7 +2976,7 @@ Stay updated on all changes to the Tink platform and products.
     -   Fixed the calculation for the time remaining of a budgets (days instead of months)
         
     
-    To download source code, see the [release notes](https://github.com/tink-ab/tink-money-manager-android/releases/tag/0.23.0).
+    To download source code, see the release notes.
     
 -   June 16, 2022
     
@@ -2991,7 +2991,7 @@ Stay updated on all changes to the Tink platform and products.
     -   Added an error message if TinkLink is launched with an incorrect initial configuration
     -   Logged the version of the SDK (TinkLink and TinkCore) at startup
     
-    Updated to [Tink Core version 0.8.4](https://github.com/tink-ab/tink-core-android/releases/tag/0.8.4).
+    Updated to Tink Core version 0.8.4.
     
 -   June 15, 2022
     
@@ -3023,7 +3023,7 @@ Stay updated on all changes to the Tink platform and products.
     -   Fixed a bug that cause the app to crash when selecting a custom date in the budget creation flow
     -   Improved UI: all components in the overview page has the correct elevation value
     
-    To download source code, see the [release notes](https://github.com/tink-ab/tink-money-manager-android/releases/tag/0.22.0).
+    To download source code, see the release notes.
     
 -   May 24, 2022
     
@@ -3052,7 +3052,7 @@ Stay updated on all changes to the Tink platform and products.
     
     -   Updated dependency version.
     
-    To download source code, see the [release notes](https://github.com/tink-ab/tink-money-manager-ios/releases/tag/0.25.1).
+    To download source code, see the release notes.
     
 -   April 28, 2022
     
@@ -3064,11 +3064,11 @@ Stay updated on all changes to the Tink platform and products.
     -   Fixed a bug where the QR-code did not refresh after expiration while scanning with BankID on another device.
     -   Fixed an issues with non-working Cancel button during the authentication process and updated copy for cancellation action sheet.
     -   Improved initialization of Tink Link with an Authorization code.
-    -   Updated [API reference](https://tink-ab.github.io/tink-link-ios/tinklinkui/) documentation.
-    -   TinkLink Swift Package has been added to the [Swift Package Index](https://swiftpackageindex.com/tink-ab/tink-link-ios).
+    -   Updated API reference documentation.
+    -   TinkLink Swift Package has been added to the Swift Package Index.
     -   TinkLinkExample project has been updated to iOS 12.0 minimum deployment target.
     
-    To download source code, see the [release notes](https://github.com/tink-ab/tink-link-ios/releases/tag/1.7.0). For upgrade instructions, refer to the [migration guide](https://github.com/tink-ab/tink-link-ios/blob/master/MIGRATION_GUIDE.md).
+    To download source code, see the release notes. For upgrade instructions, refer to the migration guide.
     
 -   April 27, 2022
     
@@ -3079,7 +3079,7 @@ Stay updated on all changes to the Tink platform and products.
     -   Added accounts feature.
     -   Fixed bug with transactions grouped incorrectly.
     
-    For more information or to download source code, see the [release notes](https://github.com/tink-ab/tink-money-manager-android/releases/tag/0.21.0).
+    For more information or to download source code, see the release notes.
     
 -   April 25, 2022
     
@@ -3109,9 +3109,9 @@ Stay updated on all changes to the Tink platform and products.
         -   `CREDENTIALS_SUBMITTED`
     -   Fixed incorrect translations in credentials screen.
     
-    Updated to [Tink Core version 0.8.2](https://github.com/tink-ab/tink-core-android/releases/tag/0.8.2)
+    Updated to Tink Core version 0.8.2
     
-    To download source code, see the [release notes](https://github.com/tink-ab/tink-link-android/releases/tag/0.15.2).
+    To download source code, see the release notes.
     
 -   March 23, 2022
     
@@ -3150,7 +3150,7 @@ Stay updated on all changes to the Tink platform and products.
     -   Added a global constant `TinkMoneyManagerUI.version`, which represents the actual version of the library.
     -   Added a default action to `WEEKLY_UNCATEGORIZED_TRANSACTIONS` that show a list of uncategorized transactions.
     
-    To download source code, see the [release notes](https://github.com/tink-ab/tink-money-manager-ios/releases/tag/0.25.0).
+    To download source code, see the release notes.
     
 -   March 08, 2022
     
@@ -3172,7 +3172,7 @@ Stay updated on all changes to the Tink platform and products.
     -   Added support for CREDIT\_CARD\_LIMIT\_CLOSE and CREDIT\_CARD\_LIMIT\_REACHED insights.
     -   Alphabetically sorting to accounts list.
     
-    For more information or to download source code, see the [release notes](https://github.com/tink-ab/tink-money-manager-android/releases/tag/0.20.1).
+    For more information or to download source code, see the release notes.
     
 -   February 16, 2022
     
@@ -3228,7 +3228,7 @@ Stay updated on all changes to the Tink platform and products.
     -   `TinkFinanceOverviewStyle` now inherits from `Theme.MaterialComponents.DayNight` and thus enables dark mode as normal by having resource folders with the `-night` suffix.
     -   Fixed a bug that could happen in edge cases when a user had no transactions for the current month.
     
-    To download source code, see the [release notes.](https://github.com/tink-ab/tink-money-manager-android/releases/tag/0.20.0)
+    To download source code, see the release notes.
     
 -   February 10, 2022
     
@@ -3241,7 +3241,7 @@ Stay updated on all changes to the Tink platform and products.
     -   Fixed conflicting constraints across the library.
     -   Removed PIS and Headless Examples.
     
-    To download source code, see the [release notes](https://github.com/tink-ab/tink-link-ios/releases/tag/1.6.0). For upgrade instructions, refer to the [migration guide](https://github.com/tink-ab/tink-link-ios/blob/master/MIGRATION_GUIDE.md).
+    To download source code, see the release notes. For upgrade instructions, refer to the migration guide.
     
 -   January 21, 2022
     
@@ -3258,9 +3258,9 @@ Stay updated on all changes to the Tink platform and products.
     -   Started broadcasting credentials after creation.
     -   Changed search in providers list to align with the behaviour in iOS SDK.
     -   Added clarification text in the credentials view when user will be redirected.
-    -   Updated to [Tink Core version 0.7.0](https://github.com/tink-ab/tink-core-android/releases/tag/0.7.0)
+    -   Updated to Tink Core version 0.7.0
     
-    To download source code, see the [release notes](https://github.com/tink-ab/tink-link-android/releases/tag/0.15.0).
+    To download source code, see the release notes.
     
 -   January 20, 2022
     
@@ -3281,7 +3281,7 @@ Stay updated on all changes to the Tink platform and products.
     -   Fixed bug with transaction list header overlapping with list.
     -   Minor bug fixes.
     
-    To download source code, see the [release notes](https://github.com/tink-ab/tink-money-manager-android/releases/tag/0.19.0).
+    To download source code, see the release notes.
     
 -   January 19, 2022
     
@@ -3304,7 +3304,7 @@ Stay updated on all changes to the Tink platform and products.
     -   Deprecated custom illustrations for actionable insights. It is no longer possible to add a custom empty view to the actionable insights view controller.
     -   Deprecated shouldShowCurrencySymbolInStatisticsTotal. Currency symbols will now always show in statistics pie charts.
     
-    To download source code, see the [release notes](https://github.com/tink-ab/tink-money-manager-ios/releases/tag/0.24.0).
+    To download source code, see the release notes.
     
 -   January 18, 2022
     
@@ -3315,9 +3315,9 @@ Stay updated on all changes to the Tink platform and products.
     -   Improved the empty state in providers list.
     -   Improved descriptions of data points that will be collected.
     -   Disabled providers are hidden in the provider list.
-    -   Added an event that exposes the Credentials.ID when the credentials is created. This event can be observed now with the NotificationCenter, see [release notes](https://github.com/tink-ab/tink-link-ios/releases/tag/1.5.0) for usage example with code.
+    -   Added an event that exposes the Credentials.ID when the credentials is created. This event can be observed now with the NotificationCenter, see release notes for usage example with code.
     
-    To download source code, see the [release notes](https://github.com/tink-ab/tink-link-ios/releases/tag/1.5.0). For upgrade instructions, refer to the [migration guide](https://github.com/tink-ab/tink-link-ios/blob/master/MIGRATION_GUIDE.md).
+    To download source code, see the release notes. For upgrade instructions, refer to the migration guide.
     
 -   January 18, 2022
     
@@ -3386,7 +3386,7 @@ Stay updated on all changes to the Tink platform and products.
     -   You can now have a separate theme for the budgets feature. This theme will be used in all screens opened from the budget flow. To set this use the `featureSpecificThemes` parameter when creating your `FinanceOverviewFragment`.
     -   Colors for charts in budgets has been updated to be consistent with iOS. This alignment means that the colors used in graphs are now `tink_expensesColor`, `tink_expensesLightColor` and `tink_warningColor`. Please review your charts in budgets and if necessary change your colors by setting a color specific theme for budgets.
     
-    For more information or to download source code, see the [release notes](https://github.com/tink-ab/tink-money-manager-android/releases/tag/0.16.0).
+    For more information or to download source code, see the release notes.
     
 -   November 11, 2021
     
@@ -3411,7 +3411,7 @@ Stay updated on all changes to the Tink platform and products.
     -   Added default handling to actionable insights using `VIEW_TRANSACTIONS` and `VIEW_TRANSACTIONS_BY_CATEGORY` actions.
     -   Fixed a bug in statistics where months with no transactions didn't show up.
     
-    To download source code, see the [release notes](https://github.com/tink-ab/tink-money-manager-ios/releases/tag/0.22.0).
+    To download source code, see the release notes.
     
 -   November 04, 2021
     
@@ -3447,7 +3447,7 @@ Stay updated on all changes to the Tink platform and products.
     
     -   Fixed a bug when using Swift Package Manager.
     
-    To download source code, see the [release notes](https://github.com/tink-ab/tink-money-manager-ios/releases/tag/0.21.1).
+    To download source code, see the release notes.
     
 -   September 29, 2021
     
@@ -3464,7 +3464,7 @@ Stay updated on all changes to the Tink platform and products.
     -   Fixed a bug where an account could be saved with an empty name.
     -   Fixed a bug where the budget transactions list header was not updating correctly.
     
-    To download source code, see the [release notes](https://github.com/tink-ab/tink-money-manager-ios/releases/tag/0.21.0).
+    To download source code, see the release notes.
     
 -   September 29, 2021
     
@@ -3483,7 +3483,7 @@ Stay updated on all changes to the Tink platform and products.
     -   Empty state for insights is no longer displayed behind the list of insights and is only shown when there are no insights.
     -   Don't crop text of buttons for locales which require longer text labels.
     
-    To download source code, see the [release notes](https://github.com/tink-ab/tink-money-manager-android/releases/tag/0.15.4).
+    To download source code, see the release notes.
     
 -   September 29, 2021
     
@@ -3495,7 +3495,7 @@ Stay updated on all changes to the Tink platform and products.
     -   Empty providers list will now display a message if no providers were found instead of throwing an error.
     -   Removed Beta tag from beta providers.
     
-    To download source code, see the [release notes](https://github.com/tink-ab/tink-link-ios/releases/tag/1.4.0). For upgrade instructions, refer to the [migration guide](https://github.com/tink-ab/tink-link-ios/blob/master/MIGRATION_GUIDE.md).
+    To download source code, see the release notes. For upgrade instructions, refer to the migration guide.
     
 -   September 10, 2021
     
@@ -3517,7 +3517,7 @@ Stay updated on all changes to the Tink platform and products.
     
     -   Fixed the bug where tapping back when updating credentials leads to a loading screen that cannot be dismissed.
     
-    To download source code, see the [release notes](https://github.com/tink-ab/tink-link-ios/releases/tag/1.3.1). For upgrade instructions, refer to the [migration guide](https://github.com/tink-ab/tink-link-ios/blob/master/README.md).
+    To download source code, see the release notes. For upgrade instructions, refer to the migration guide.
     
 -   August 09, 2021
     
@@ -3532,7 +3532,7 @@ Stay updated on all changes to the Tink platform and products.
     -   Updated the budget details overview description text.
     -   Improved the support for iPad and relayout the view if needed when orientation changes.
     
-    To download source code, see the [release notes](https://github.com/tink-ab/tink-money-manager-ios/releases/tag/0.20.0).
+    To download source code, see the release notes.
     
 -   August 05, 2021
     
@@ -3562,7 +3562,7 @@ Stay updated on all changes to the Tink platform and products.
     -   Added the contribution template.
     -   Updated the unit test for adding credentials.
     
-    To download source code, see the [release notes](https://github.com/tink-ab/tink-link-ios/releases/tag/1.3.0). For upgrade instructions, refer to the [migration guide](https://github.com/tink-ab/tink-link-ios/blob/master/README.md).
+    To download source code, see the release notes. For upgrade instructions, refer to the migration guide.
     
 -   July 13, 2021
     
@@ -3576,7 +3576,7 @@ Stay updated on all changes to the Tink platform and products.
     -   Added support for iPad
     -   Bug fixes
     
-    To download source code, see the [release notes](https://github.com/tink-ab/tink-money-manager-ios/releases/tag/0.19.0).
+    To download source code, see the release notes.
     
 -   July 02, 2021
     
@@ -3627,7 +3627,7 @@ Stay updated on all changes to the Tink platform and products.
     -   Fixed the cancel button not responsive issue mentioned in #40.
     -   Removed the Kingfisher dependency.
     
-    To download source code, see the [release notes](https://github.com/tink-ab/tink-link-ios/releases/tag/1.2.0). For upgrade instructions, refer to the [migration guide](https://github.com/tink-ab/tink-link-ios/blob/master/README.md).
+    To download source code, see the release notes. For upgrade instructions, refer to the migration guide.
     
 -   June 08, 2021
     
@@ -3640,9 +3640,9 @@ Stay updated on all changes to the Tink platform and products.
     -   Updated the budget model to include `created` date to indicate when the budget was created.
     -   Update the budget overtime screen to only mark the budget progress after the period that the budget was created.
     -   Improved the accessibility, the SDK now better supports dynamic font types.
-    -   Renamed the examples app to [samples app](https://github.com/tink-ab/tink-money-manager-ios/tree/master/Samples).
+    -   Renamed the examples app to samples app.
     
-    To download source code, see the [release notes](https://github.com/tink-ab/tink-pfm-ios/releases/tag/0.18.0).
+    To download source code, see the release notes.
     
 -   May 07, 2021
     
@@ -3667,7 +3667,7 @@ Stay updated on all changes to the Tink platform and products.
     -   Added support for new actionable insight type `SPENDING_BY_PRIMARY_CATEGORY_INCREASED`.
     -   Fixed insights counting issue on finance overview.
     
-    To download source code, see the [release notes](https://github.com/tink-ab/tink-pfm-ios/releases/tag/0.17.0).
+    To download source code, see the release notes.
     
 -   April 12, 2021
     
@@ -3681,10 +3681,10 @@ Stay updated on all changes to the Tink platform and products.
     
     -   Default budget icon is now displayed correctly for budgets created from a keyword (currently only possible to create from iOS)
     -   Amounts for budgets are no longer rounded off to the nearest integer
-    -   The following 2 strings in budgets have been converted to support plurals: `tink_budget_details_chart_status_message_last_year` & `tink_budget_details_chart_status_message_since`. The ids are still the same but now they differentiate between one and several, see the updated string customization guide - [https://github.com/tink-ab/tink-money-manager-android/blob/master/string-customization-guide.md](https://github.com/tink-ab/tink-money-manager-android/blob/master/string-customization-guide.md)
+    -   The following 2 strings in budgets have been converted to support plurals: `tink_budget_details_chart_status_message_last_year` & `tink_budget_details_chart_status_message_since`. The ids are still the same but now they differentiate between one and several, see the updated string customization guide - [external url removed]
     -   Dependencies have been updated, unused dependencies have been removed resulting in a smaller, more up to date SDK
     
-    For download the SDK, see the [release](https://github.com/tink-ab/tink-pfm-android/releases/tag/0.13.0).
+    For download the SDK, see the release.
     
 -   April 09, 2021
     
@@ -3692,7 +3692,7 @@ Stay updated on all changes to the Tink platform and products.
     
     Console
     
-    [Tink Console](https://console.tink.com/) now supports SSO (single sign-on) via SAML. This allows users in your organisation to sign in to Console with your own identity provider (IdP) of choice. The new feature can be found under **Organisation => Settings**. For detailed instructions, go ahead and read our [SAML guide](/Tiny-doc/tink_docs_home/resources/console/single-sign-on-via-saml/).
+    Tink Console now supports SSO (single sign-on) via SAML. This allows users in your organisation to sign in to Console with your own identity provider (IdP) of choice. The new feature can be found under **Organisation => Settings**. For detailed instructions, go ahead and read our [SAML guide](/Tiny-doc/tink_docs_home/resources/console/single-sign-on-via-saml/).
     
 -   April 06, 2021
     
@@ -3730,11 +3730,11 @@ Stay updated on all changes to the Tink platform and products.
     
     SDK Android
     
-    With this release, we have renamed the SDK to Tink Money Manager. The SDK dependency is now renamed to `com.tink.moneymanager:moneymanager-ui`. Please check the [updated README](https://github.com/tink-ab/tink-money-manager-android/blob/master/README.md) for more information on adding the dependency to your project. This may break some of the existing imports of classes from the SDK in your project as the `pfmui` module is now renamed to `moneymanagerui`. Please also check [the updated sample](https://github.com/tink-ab/tink-money-manager-android/blob/master/app/src/main/java/se/tink/android/tink_pfm_sdk_android/MainActivity.kt) for an example of how these updated imports look like.
+    With this release, we have renamed the SDK to Tink Money Manager. The SDK dependency is now renamed to `com.tink.moneymanager:moneymanager-ui`. Please check the updated README for more information on adding the dependency to your project. This may break some of the existing imports of classes from the SDK in your project as the `pfmui` module is now renamed to `moneymanagerui`. Please also check the updated sample for an example of how these updated imports look like.
     
     Other fixes and improvements included in this release are as follows:
     
-    -   Updated to use [Tink Core 0.6.3](https://github.com/tink-ab/tink-core-android/releases/tag/0.6.3).
+    -   Updated to use Tink Core 0.6.3.
     -   Fixed the issue where the latest transactions were not loading in the overview screen.
     -   Added timeout to the statistics loading state in the overview.
     -   Improvements to the transactions fetching logic.
@@ -3745,9 +3745,9 @@ Stay updated on all changes to the Tink platform and products.
     -   Use separate string keys for the amount left text for different periods in budget details.
     -   Removed unused string resource keys.
     
-    For the string related updates and changes, it is also recommended to take a look at the [updated string customization guide](https://github.com/tink-ab/tink-money-manager-android/blob/master/string-customization-guide.md).
+    For the string related updates and changes, it is also recommended to take a look at the updated string customization guide.
     
-    For download the SDK, see the [release](https://github.com/tink-ab/tink-pfm-android/releases/tag/0.12.0).
+    For download the SDK, see the release.
     
 -   March 16, 2021
     
@@ -3782,7 +3782,7 @@ Stay updated on all changes to the Tink platform and products.
     -   Fixed the currency and placeholder text overlapping on edit budget view.
     -   Resolved an issue where the error alert is being presented by the view controller that not on the window.
     
-    For a migration guide and to download source code, see the [release notes](https://github.com/tink-ab/tink-pfm-ios/releases/tag/0.16.0).
+    For a migration guide and to download source code, see the release notes.
     
 -   March 11, 2021
     
@@ -3807,7 +3807,7 @@ Stay updated on all changes to the Tink platform and products.
     -   Updated default icon used for `BUDGET_SUGGEST_CREATE_FIRST` insight.
     -   Changed to use `button` instead of `accent` as the background color for the actionable insights card on the finance overview.
     
-    For a migration guide and to download source code, see the [release notes](https://github.com/tink-ab/tink-pfm-ios/releases/tag/0.15.0).
+    For a migration guide and to download source code, see the release notes.
     
 -   February 26, 2021
     
@@ -3815,11 +3815,11 @@ Stay updated on all changes to the Tink platform and products.
     
     Money Manager
     
-    -   Updated to use [Tink Core 0.6.1](https://github.com/tink-ab/tink-core-android/releases/tag/0.6.1).
-    -   Added [TinkLinkError](https://github.com/tink-ab/tink-link-android/blob/master/docs/com.tink.link.ui/-tink-link-error/index.md) class. For a `RESULT_FAILURE` result, a TinkLinkError is returned as data bundled with the key `ERROR_DATA`. If Tink Link UI failed to add one or more credentials, then a [FailedToAddCredentials](https://github.com/tink-ab/tink-link-android/blob/master/docs/com.tink.link.ui/-tink-link-error/-failed-to-add-credentials/index.md#failedtoaddcredentials) type of TinkLinkError is returned.
-    -   In general, if there are credentials that could not be added as part of the Tink Link UI flow, a bundle of those failed credentials ids to errors will be always returned as data bundled with the key `FAILED_CREDENTIALS_DATA`. [Please see the sample](https://github.com/tink-ab/tink-link-android/blob/master/sample-link-ui/src/main/java/com/tink/sample/MainLinkUiActivity.kt) for an example of how you can use [the error](https://github.com/tink-ab/tink-link-android/blob/e5972298827652ac552eac01b5e558a1ba6aabd1/sample-link-ui/src/main/java/com/tink/sample/MainLinkUiActivity.kt#L104) or [the bundle property](https://github.com/tink-ab/tink-link-android/blob/e5972298827652ac552eac01b5e558a1ba6aabd1/sample-link-ui/src/main/java/com/tink/sample/MainLinkUiActivity.kt#L119) to delete any credentials that failed to be added by the `TinkLinkUiActivity`.
+    -   Updated to use Tink Core 0.6.1.
+    -   Added TinkLinkError class. For a `RESULT_FAILURE` result, a TinkLinkError is returned as data bundled with the key `ERROR_DATA`. If Tink Link UI failed to add one or more credentials, then a FailedToAddCredentials type of TinkLinkError is returned.
+    -   In general, if there are credentials that could not be added as part of the Tink Link UI flow, a bundle of those failed credentials ids to errors will be always returned as data bundled with the key `FAILED_CREDENTIALS_DATA`. Please see the sample for an example of how you can use the error or the bundle property to delete any credentials that failed to be added by the `TinkLinkUiActivity`.
     
-    For more information, see the [release notes](https://github.com/tink-ab/tink-link-android/releases/tag/0.14.6).
+    For more information, see the release notes.
     
 -   February 19, 2021
     
@@ -3831,12 +3831,12 @@ Stay updated on all changes to the Tink platform and products.
     
     #### Features
     
-    -   Added new Budgets feature. Please look at the updated [finance overview display options guide](/Tiny-doc/tink_docs_home/resources/pfm-sdk-android/pfm-sdk-android-finance-overview/#displaying-the-finance-overview) to add Budgets to the finance overview UI. It is also recommended to look at the updated list of strings in the [strings customization guide](https://github.com/tink-ab/tink-pfm-android/blob/master/string-customization-guide.md) for customization and adding translations for the newly added strings.
+    -   Added new Budgets feature. Please look at the updated [finance overview display options guide](/Tiny-doc/tink_docs_home/resources/pfm-sdk-android/pfm-sdk-android-finance-overview/#displaying-the-finance-overview) to add Budgets to the finance overview UI. It is also recommended to look at the updated list of strings in the strings customization guide for customization and adding translations for the newly added strings.
     -   Updates to Actionable Insights feature to support new insights and insight actions related to budgets.
     
     #### Dependencies
     
-    -   Updated to use [Tink Core 0.6.1](https://github.com/tink-ab/tink-core-android/releases/tag/0.6.1) for budgets related models and services.
+    -   Updated to use Tink Core 0.6.1 for budgets related models and services.
     -   Updated Kotlin version to 1.4.21.
     -   Replaced guava dependency with guava for android dependency (`30.1-android`). Also added guava as an api dependency to resolve build conflicts.
     
@@ -3847,7 +3847,7 @@ Stay updated on all changes to the Tink platform and products.
     -   UI fixes to charts shown in the Statistics screens. Also updated text size and styling for pie charts.
     -   Fixed an issue in the category selection flow where clicking on the checkbox would consume the click and mark the checkbox but not actually trigger the appropriate selection as intended.
     
-    For download the SDK, see the [release](https://github.com/tink-ab/tink-pfm-android/releases/tag/0.11.0).
+    For download the SDK, see the release.
     
 -   February 19, 2021
     
@@ -3874,7 +3874,7 @@ Stay updated on all changes to the Tink platform and products.
     -   Added more detailed instructions on the redirect screen for providers that need to redirect to a third-party app.
     -   Updated the credentials field validation error text color.
     
-    To download source code, see the [release notes](https://github.com/tink-ab/tink-link-ios/releases/tag/0.18.1). For upgrade instructions, refer to the [migration guide](https://github.com/tink-ab/tink-link-ios/blob/master/README.md).
+    To download source code, see the release notes. For upgrade instructions, refer to the migration guide.
     
 -   February 10, 2021
     
@@ -3902,7 +3902,7 @@ Stay updated on all changes to the Tink platform and products.
     -   Fixed: Can't use create budget view controller without using another view controller that triggered load of categories first
     -   Fixed: Can't use category statistics view controller with bar chart style without using another view controller that triggered load of categories first
     
-    To download source code, see the [release notes](https://github.com/tink-ab/tink-pfm-ios/releases/tag/0.14.0).
+    To download source code, see the release notes.
     
 -   January 15, 2021
     
@@ -3924,9 +3924,9 @@ Stay updated on all changes to the Tink platform and products.
     
     SDK Android
     
-    -   PFM UI has migrated from using the gRPC framework towards REST APIs. Now, it uses models and services from the [Tink Core](https://github.com/tink-ab/tink-core-android/releases/tag/0.6.0).
+    -   PFM UI has migrated from using the gRPC framework towards REST APIs. Now, it uses models and services from the Tink Core.
         
-        > _Please note that this is a breaking change, especially in how the PFM UI is initialized in the application. Please check [the initialization section in README](https://github.com/tink-ab/tink-pfm-android#initialization) for the updated steps to setup PFM UI in your application._
+        > _Please note that this is a breaking change, especially in how the PFM UI is initialized in the application. Please check the initialization section in README for the updated steps to setup PFM UI in your application._
         
     -   Updated logic to use currency code from `UserProfile` when displaying amounts for statistics views.
     -   Fixed locale setting logic used to display dates and periods everywhere.
@@ -3952,7 +3952,7 @@ Stay updated on all changes to the Tink platform and products.
     -   Adjustments to the font sizing and weights used across the SDK.
     -   Fixed insights not being archived after selecting one of the actions.
     
-    To download source code, see the [release notes](https://github.com/tink-ab/tink-pfm-ios/releases/tag/0.13.0).
+    To download source code, see the release notes.
     
 -   January 13, 2021
     
@@ -3982,7 +3982,7 @@ Stay updated on all changes to the Tink platform and products.
     }
     ```
     
-    To download source code, see the [release notes](https://github.com/tink-ab/tink-link-ios/releases/tag/0.18.0). For upgrade instructions, refer to the [migration guide](https://github.com/tink-ab/tink-link-ios/blob/master/README.md).
+    To download source code, see the release notes. For upgrade instructions, refer to the migration guide.
     
 -   December 18, 2020
     
@@ -4012,7 +4012,7 @@ Stay updated on all changes to the Tink platform and products.
     -   Added option to change category on existing budget.
     -   Automatically clears the cache when the user changes.
     
-    To download source code, see the [release notes](https://github.com/tink-ab/tink-pfm-ios/releases/tag/0.12.1).
+    To download source code, see the release notes.
     
 -   December 16, 2020
     
@@ -4020,12 +4020,12 @@ Stay updated on all changes to the Tink platform and products.
     
     SDK Android
     
-    -   Updated to use [Tink Core 0.5.7](https://github.com/tink-ab/tink-core-android/releases/tag/0.5.7).
-    -   The [`Environment`](https://tink-ab.github.io/tink-link-android/com.tink.service.network/-environment/) in `TinkConfiguration` is updated with the [`sslCertificate`](https://tink-ab.github.io/tink-link-android/com.tink.service.network/-environment/ssl-certificate.html) now being an optional parameter that can be set, if required, by the application.
-    -   The [Production](https://tink-ab.github.io/tink-link-android/com.tink.service.network/-environment/-production.html) environment no longer uses a `sslCertificate`. If you wish to perform certificate pinning for the production endpoint, you can still set your generated SSL certificate by using the [helper extension function](https://tink-ab.github.io/tink-link-android/com.tink.service.network/with-ssl-key.html) for the Production environment.
-    -   Renamed parameters for `Environment` for clarity. Note that this is only a breaking change if your application uses a [`Custom`](https://tink-ab.github.io/tink-link-android/com.tink.service.network/-environment/-custom/) environment.
+    -   Updated to use Tink Core 0.5.7.
+    -   The `Environment` in `TinkConfiguration` is updated with the `sslCertificate` now being an optional parameter that can be set, if required, by the application.
+    -   The Production environment no longer uses a `sslCertificate`. If you wish to perform certificate pinning for the production endpoint, you can still set your generated SSL certificate by using the helper extension function for the Production environment.
+    -   Renamed parameters for `Environment` for clarity. Note that this is only a breaking change if your application uses a `Custom` environment.
     
-    For more information, see the [release notes](https://github.com/tink-ab/tink-link-android/releases/tag/0.14.5).
+    For more information, see the release notes.
     
 -   December 14, 2020
     
@@ -4046,7 +4046,7 @@ Stay updated on all changes to the Tink platform and products.
     -   Fixed a bug where the status bar style was wrong when refreshing credentials using a dark navigation bar background color.
     -   Added more translations for error handling if the third-party authentication app needs to be downloaded or upgraded.
     
-    To download source code, see the [release notes](https://github.com/tink-ab/tink-link-ios/releases/tag/0.17.2). For upgrade instructions, refer to the [migration guide](https://github.com/tink-ab/tink-link-ios/blob/master/README.md).
+    To download source code, see the release notes. For upgrade instructions, refer to the migration guide.
     
 -   December 08, 2020
     
@@ -4058,7 +4058,7 @@ Stay updated on all changes to the Tink platform and products.
     
     Console
     
-    In the Tink Console you can see all available test users, their login credentials and details about the accounts they hold. Head over to [Tink Console](https://console.tink.com/demobank) to check them out and don’t miss [this article](/Tiny-doc/tink_docs_home/resources/aggregation/test-providers/#accessing-demo-bank-providers-in-tink-link) about Tink Demo Bank.
+    In the Tink Console you can see all available test users, their login credentials and details about the accounts they hold. Head over to Tink Console to check them out and don’t miss [this article](/Tiny-doc/tink_docs_home/resources/aggregation/test-providers/#accessing-demo-bank-providers-in-tink-link) about Tink Demo Bank.
     
 -   December 04, 2020
     
@@ -4099,7 +4099,7 @@ Stay updated on all changes to the Tink platform and products.
         ```
         
     
-    For more information, see the [release notes](https://github.com/tink-ab/tink-pfm-ios/releases/tag/0.12.0).
+    For more information, see the release notes.
     
 -   December 04, 2020
     
@@ -4122,7 +4122,7 @@ Stay updated on all changes to the Tink platform and products.
     -   Improved the error handling when failed to get scope description.
     -   Improved the error handling if the third-party authentication app needs to be downloaded or upgraded.
     
-    To download source code, see the [release notes](https://github.com/tink-ab/tink-link-ios/releases/tag/0.17.1). For upgrade instructions, refer to the [migration guide](https://github.com/tink-ab/tink-link-ios/blob/master/README.md).
+    To download source code, see the release notes. For upgrade instructions, refer to the migration guide.
     
 -   December 01, 2020
     
@@ -4162,7 +4162,7 @@ Stay updated on all changes to the Tink platform and products.
     -   Changed ColorProvider and FontProvider to structs.
     -   Tink logo now scrolls with the credentials form.
     
-    To download source code, see the [release notes](https://github.com/tink-ab/tink-link-ios/releases/tag/0.17.0). For upgrade instructions, refer to the [migration guide](https://github.com/tink-ab/tink-link-ios/blob/master/README.md).
+    To download source code, see the release notes. For upgrade instructions, refer to the migration guide.
     
 -   November 26, 2020
     
@@ -4176,7 +4176,7 @@ Stay updated on all changes to the Tink platform and products.
     -   Fixed colors of period and date pickers when using a dark theme.
     -   Added localization strings for Budgets in `LOCALIZABLE_STRINGS.md`.
     
-    To download source code, see the [release on GitHub](https://github.com/tink-ab/tink-pfm-ios/releases/tag/0.11.2).
+    To download source code, see the release on GitHub.
     
 -   November 23, 2020
     
@@ -4198,7 +4198,7 @@ Stay updated on all changes to the Tink platform and products.
     
     In Tink Platform now you are able to use our new Account check product that lets you confirm the owner of a bank account by fetching real-time data from banks – from account number, IBAN or routing number to account holder name, and (in some markets) identity data.
     
-    For more information, see [Account check product page](https://tink.com/products/account-check/) or go ahead and try to [verify your first account](/Tiny-doc/tink_docs_home/resources/account-check/verify-your-first-account/)!
+    For more information, see Account check product page or go ahead and try to [verify your first account](/Tiny-doc/tink_docs_home/resources/account-check/verify-your-first-account/)!
     
 -   November 13, 2020
     
@@ -4211,7 +4211,7 @@ Stay updated on all changes to the Tink platform and products.
     -   Added support for the Swift Package Manager.
     -   Updated the `EditBudgetViewController` to public class.
     
-    For more information, see the [release notes](https://github.com/tink-ab/tink-pfm-ios/releases/tag/0.11.1).
+    For more information, see the release notes.
     
 -   November 06, 2020
     
@@ -4245,7 +4245,7 @@ Stay updated on all changes to the Tink platform and products.
     
     Money Manager
     
-    Improvements to Actionable Insights in the Tink PFM SDK for iOS. Read more [here](https://github.com/tink-ab/tink-pfm-ios/releases/tag/0.11.0).
+    Improvements to Actionable Insights in the Tink PFM SDK for iOS. Read more here.
     
     -   Adds support for more insight types.
     -   Hides actionable insights with unsupported actions.
@@ -4291,7 +4291,7 @@ Stay updated on all changes to the Tink platform and products.
     
     Money Manager
     
-    -   Tink PFM SDK for iOS now supports Budget. Read more in [here](https://github.com/tink-ab/tink-pfm-ios/releases/tag/0.10.0).
+    -   Tink PFM SDK for iOS now supports Budget. Read more in here.
     -   Also including other improvements:
         -   Fixed issues with monthly view of category statistics when there is no data at the start of a monthly period.
         -   Shows loading indicator until category statistics data is available in some environments.
@@ -4521,7 +4521,7 @@ Stay updated on all changes to the Tink platform and products.
     
     Console
     
-    The Tink Console now supports [inviting additional users](https://console.tink.com/account/organization/users) to collaborate in managing your integration. Users can be invited with the Viewer or Administrator role, and can be added to multiple organisations.
+    The Tink Console now supports inviting additional users to collaborate in managing your integration. Users can be invited with the Viewer or Administrator role, and can be added to multiple organisations.
     
 -   April 27, 2020
     

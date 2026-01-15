@@ -48,7 +48,7 @@ To access Tink APIs to create session and to access your user's account informat
 **cURL example**
 
 ```
-curl -X POST https://api.tink.com/api/v1/oauth/token \
+curl -X POST [external url removed] \
 -d 'client_id=' \
 -d 'client_secret=' \
 -d 'grant_type=client_credentials' \
@@ -77,7 +77,7 @@ With the CLIENT\_ACCESS\_TOKEN you can now create a session by calling the�
 Example of a session request: **cURL example**
 
 ```
-curl -X POST https://api.tink.com/link/v1/session \
+curl -X POST [external url removed] \
 -H 'Authorization: Bearer ' \
 -H 'Content-Type: application/json' \
 -d '{"user": {"firstName": "firstName", "lastName": "lastName"}}'
@@ -95,7 +95,7 @@ Content-Type: application/json
 
 #### 3\. Initiate Tink Link with a session[](#initiate-tink-link-with-a-session)
 
-In Console, use the [Build your own Tink Link URL](https://console.tink.com/account-verification/tink-link) view to create your own URL. The URL is used to allow users to authenticate with their bank and select an account from which to fetch report data. For more information on how the URL works, [see Setup and integrate Account Check](/Tiny-doc/tink_docs_home/resources/account-check/setup-and-integrate-account-check/).
+In Console, use the Build your own Tink Link URL view to create your own URL. The URL is used to allow users to authenticate with their bank and select an account from which to fetch report data. For more information on how the URL works, [see Setup and integrate Account Check](/Tiny-doc/tink_docs_home/resources/account-check/setup-and-integrate-account-check/).
 
 Integrate the URL with a site or in an app. For example, you can start an end user's Tink flow by redirecting them to a URL.
 
@@ -106,12 +106,12 @@ Use the example URL below by inserting the client\_id value for your Tink ap
 In case of errors during the flow to include user match, the Account Check flow will still complete successfully with a report Id generated and the Account Check Report will not include the user match results.
 
 ```
-https://link.tink.com/1.0/account-check?client_id={YOUR_CLIENT_ID}&redirect_uri=https://console.tink.com/callback&market=SE
+[external url removed]
 ```
 
 **Note**: make sure that you exchange {YOUR\_CLIENT\_ID}  and {SESSION\_ID} in the URL for your client\_id value and the session\_id you received from the session API call.
 
-![Account check account selection](https://images.ctfassets.net/tmqu5vj33f7w/6hA4YqLwj8O8gNNPQKliQQ/f72f0a979388b1468f3e8a7338afd81f/image-accountSelection.jpg)
+*Image removed: Account check account selection*
 
 #### 4\. Fetch the report[](#fetch-the-report)
 
@@ -124,7 +124,7 @@ To fetch report JSON data based on a report identifier, see the [Account Verific
 Fetch your Account Check report in JSON
 
 ```
-curl -X GET https://api.tink.com/api/v1/account-verification-reports/ \
+curl -X GET [external url removed] \
   -H 'Authorization: Bearer '
 ```
 
@@ -132,7 +132,7 @@ curl -X GET https://api.tink.com/api/v1/account-verification-reports/ \
 
 ### User flow[](#user-flow)
 
-![User Match service diagram](https://images.ctfassets.net/tmqu5vj33f7w/5eBM9boF4Vwr9Ia0l1vomO/42f2ec389db6ca0453a3bf9efc61267f/Usermatch_service_diagram.png)
+*Image removed: User Match service diagram*
 
 ### Match results[](#match-results)
 

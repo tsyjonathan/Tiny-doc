@@ -3,7 +3,7 @@ title: "Customize Accounts on iOS - Tink Docs"
 source: "/Tiny-doc/tink_docs_home/resources/pfm-sdk-ios/customize-accounts-on-ios/"
 exportedAt: "2026-01-13T12:58:47.492Z"
 ---
-![AccountsCustomization](https://images.ctfassets.net/tmqu5vj33f7w/2XLjdWBzDIiZrM4YkmnrIk/f427de521b1f4c56b9fc2b03925f3d32/iOS-Accounts-Customisation.png)
+*Image removed: AccountsCustomization*
 
 ## Overview[](#overview)
 

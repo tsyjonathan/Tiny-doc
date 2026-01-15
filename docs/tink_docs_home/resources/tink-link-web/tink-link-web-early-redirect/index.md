@@ -27,7 +27,7 @@ When the user is redirected to your specified `redirect_uri` you need to:
     
 
 ```
-curl 'https://api.tink.com/api/v1/credentials/{credentialsId}' \
+curl '[external url removed]' \
 -H 'Authorization: Bearer ' \
 -H 'Content-Type: application/json'
 ```

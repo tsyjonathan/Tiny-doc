@@ -5,7 +5,7 @@ exportedAt: "2026-01-13T12:44:23.912Z"
 ---
 ## 1\. Build the URL[](#build-the-url)
 
-In Console, use the [Build your own Tink Link URL](https://console.tink.com/business-account-check/tink-link) view to create your own URL. Your URL is used to allow users to authenticate with their bank and select a business account from which to fetch report data. For more information on how the URL works, see [Setup and integrate Business Account Check](/Tiny-doc/tink_docs_home/resources/business-account-check/setup-and-integrate-business-account-check/).
+In Console, use the Build your own Tink Link URL view to create your own URL. Your URL is used to allow users to authenticate with their bank and select a business account from which to fetch report data. For more information on how the URL works, see [Setup and integrate Business Account Check](/Tiny-doc/tink_docs_home/resources/business-account-check/setup-and-integrate-business-account-check/).
 
 Integrate the URL with a site or in an app. For example, you can start an end user's Tink flow by redirecting them to a URL.
 
@@ -14,14 +14,14 @@ Integrate the URL with a site or in an app. For example, you can start an end us
 Use the example URL below by inserting the `client_id` value for your Tink app into the URL and then copy the URL and paste it in a browser address field.
 
 ```
-https://link.tink.com/1.0/business-account-check?client_id={YOUR_CLIENT_ID}&redirect_uri=https://console.tink.com/callback&market=SE
+[external url removed]
 ```
 
 **Note**: make sure that you exchange `{YOUR_CLIENT_ID}` in the URL for your `client_id` value.
 
 When your users access the URL, they'll see a list of demo banks. Once they choose a bank, they'll see a list of demo bank accounts to choose from. Select the username and password for a Demo Bank user that suits your use case. For more information about Demo Bank, see [Demo Bank](/Tiny-doc/tink_docs_home/resources/business-account-check/test-different-business-account-check-scenarios/#demo-bank).
 
-![Business Account check account selection](https://images.ctfassets.net/tmqu5vj33f7w/6hA4YqLwj8O8gNNPQKliQQ/f72f0a979388b1468f3e8a7338afd81f/image-accountSelection.jpg)
+*Image removed: Business Account check account selection*
 
 ## 2\. Handle callback[](#handle-callback)
 
@@ -44,7 +44,7 @@ For more information about errors, see [Handle Business Account Check error code
 **In this example:**
 
 ```
-https://console.tink.com/callback?business_account_verification_report_id=ff8ae53bc46e45fe9a37c4fd1353e60d
+[external url removed]
 ```
 
 After a successful authentication, you will see a `business_account_verification_report_id` value, which indicates that a flow has successfully come to an end. Store this value. It is used to authenticate yourself in order to fetch your report.
@@ -62,7 +62,7 @@ To access your user's account information, you need a valid client access token 
 Authenticate your client
 
 ```
-curl -X POST https://api.tink.com/api/v1/oauth/token \
+curl -X POST [external url removed] \
 -d 'client_id=' \
 -d 'client_secret=' \
 -d 'grant_type=client_credentials' \
@@ -91,7 +91,7 @@ To fetch report JSON data based on a report identifier, see the [Business Accoun
 Fetch your Business Account Check report
 
 ```
-curl https://api.tink.com/data/v1/business-account-verification-reports/ \
+curl [external url removed] \
   -H 'Authorization: Bearer '
 ```
 
@@ -99,4 +99,4 @@ curl https://api.tink.com/data/v1/business-account-verification-reports/ \
 
 ## Need help?[](#need-help-)
 
-[Contact Sales](https://tink.com/contact-us) and let us help you get started.
+Contact Sales and let us help you get started.

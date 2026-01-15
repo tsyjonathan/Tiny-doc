@@ -6,7 +6,7 @@ exportedAt: "2026-01-13T12:47:42.313Z"
 Using your user access token and the transaction you want to find similar transactions for, call the list similar transactions endpoint:
 
 ```
-curl "https://api.tink.com/enrichment/v1/transactions/:find-similar” \ 
+curl "[external url removed] \ 
 -H 'Authorization: Bearer ’
 ```
 

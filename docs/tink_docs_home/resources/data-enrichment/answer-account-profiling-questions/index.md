@@ -14,7 +14,7 @@ You can answer account profiling questions by calling the `/enrichment/v1/sustai
 
 ```
 curl -X 'POST' \
-'https://api.tink.com/enrichment/v1/sustainability/accounts/profiling \
+'[external url removed] \
   -H 'Authorization: Bearer '
   -H 'Accept: application/json'
   -d '{

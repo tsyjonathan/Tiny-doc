@@ -211,8 +211,8 @@ Values: `CHECKING_ACCOUNTS`, `CHECKING_TRANSACTIONS`, `SAVING_ACCOUNTS`, `SAVING
 
 ```
 {
-  "appUri": "https://my-customer-app.com/authentication",
-  "callbackUri": "http://my-customer-app.com/callback",
+  "appUri": "[external url removed]",
+  "callbackUri": "[external url removed]",
   "fields": {
     "username": "198410045701"
   },
@@ -474,8 +474,8 @@ Triggers a full authentication flow to renew refresh tokens with ASPSPs. This en
 
 ```
 {
-  "appUri": "https://my-customer-app.com/authentication",
-  "callbackUri": "http://my-customer-app.com/callback",
+  "appUri": "[external url removed]",
+  "callbackUri": "[external url removed]",
   "originatingUserIp": "198.51.100.10",
   "selectedAuthenticationOptions": [
     {
@@ -550,8 +550,8 @@ Modify the specified credentials. The request will trigger a refresh towards the
 
 ```
 {
-  "appUri": "https://my-customer-app.com/authentication",
-  "callbackUri": "http://my-customer-app.com/callback",
+  "appUri": "[external url removed]",
+  "callbackUri": "[external url removed]",
   "fields": "",
   "originatingUserIp": "198.51.100.10",
   "providerName": "string",
@@ -673,8 +673,8 @@ Values: `CHECKING_ACCOUNTS`, `CHECKING_TRANSACTIONS`, `SAVING_ACCOUNTS`, `SAVING
 
 ```
 {
-  "appUri": "https://my-customer-app.com/authentication",
-  "callbackUri": "http://my-customer-app.com/callback",
+  "appUri": "[external url removed]",
+  "callbackUri": "[external url removed]",
   "originatingUserIp": "198.51.100.10",
   "selectedAuthenticationOptions": [
     {
@@ -1609,8 +1609,8 @@ Values: `AUTO_PAYMENT`, `BACS`, `CHAPS`, `CZECH_EXPRESS_INTERNAL_TRANSFER`, `CZE
       "hasAuthenticationOptions": false,
       "id": "01234567-1234-1234-1234-123456789123",
       "images": {
-        "banner": "https://cdn.tink.se/provider-images/banners/tink.png",
-        "icon": "https://cdn.tink.se/provider-images/tink.png"
+        "banner": "[external url removed]",
+        "icon": "[external url removed]"
       },
       "keywords": [
         "string",
@@ -1740,8 +1740,8 @@ Values: `AUTO_PAYMENT`, `BACS`, `CHAPS`, `CZECH_EXPRESS_INTERNAL_TRANSFER`, `CZE
       "hasAuthenticationOptions": false,
       "id": "01234567-1234-1234-1234-123456789123",
       "images": {
-        "banner": "https://cdn.tink.se/provider-images/banners/tink.png",
-        "icon": "https://cdn.tink.se/provider-images/tink.png"
+        "banner": "[external url removed]",
+        "icon": "[external url removed]"
       },
       "keywords": [
         "string",

@@ -22,7 +22,7 @@ These are the steps we will go through:
 Request example
 
 ```
-curl -v -X POST 'https://api.tink.com/connector/users/{externalUserId}/accounts' \
+curl -v -X POST '[external url removed]' \
 -H 'Authorization: Bearer {YOUR_CLIENT_ACCESS_TOKEN}' \
 -H 'Content-Type: application/json' \
 -d '{
@@ -63,7 +63,7 @@ curl -v -X POST 'https://api.tink.com/connector/users/{externalUserId}/accounts'
 Request example
 
 ```
-curl -X GET 'https://api.tink.com/api/v1/accounts/list' \
+curl -X GET '[external url removed]' \
 -H 'Authorization: Bearer ' \
 -H 'Content-Type: application/json'
 ```
@@ -95,7 +95,7 @@ curl -X GET 'https://api.tink.com/api/v1/accounts/list' \
       "transferDestinations": null,
       "details": null,
       "images": {
-        "icon": "https://cdn.tink.se/provider-images/placeholder.png",
+        "icon": "[external url removed]",
         "banner": null
       },
       "holderName": null,
@@ -132,7 +132,7 @@ curl -X GET 'https://api.tink.com/api/v1/accounts/list' \
 Request example
 
 ```
-curl -v -X POST 'https://api.tink.com/connector/users/{externalUserId}/transactions' \
+curl -v -X POST '[external url removed]' \
 -H 'Authorization: Bearer {YOUR_CLIENT_ACCESS_TOKEN}' \
 -H 'Content-Type: application/json' \
 -d '{
@@ -180,7 +180,7 @@ curl -v -X POST 'https://api.tink.com/connector/users/{externalUserId}/transacti
 Request example
 
 ```
-curl -X GET 'https://api.tink.com/api/v1/credentials' \
+curl -X GET '[external url removed]' \
 -H 'Authorization: Bearer ' \
 -H 'Content-Type: application/json'
 ```
@@ -200,7 +200,7 @@ curl -X GET 'https://api.tink.com/api/v1/credentials' \
     "updated": 1581065493317,
     "userId": "85a9632e3b3942a48844491f0054fa77",
     "images": {
-      "icon": "https://cdn.tink.se/provider-images/placeholder.png",
+      "icon": "[external url removed]",
       "banner": null
     },
     "psd2CredentialGenerated": false,
@@ -222,7 +222,7 @@ curl -X GET 'https://api.tink.com/api/v1/credentials' \
 Request example
 
 ```
-curl -X POST 'https://api.tink.com/api/v1/search' \
+curl -X POST '[external url removed]' \
 -H 'Authorization: Bearer ' \
 -H 'Content-Type: application/json' \
 -d '{

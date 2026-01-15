@@ -9,11 +9,11 @@ The set of available Tink bank connections can be fetched via our [Provider API]
 
 Each market has its own set of providers and there may be multiple providers for one bank (financial institution). Depending on your use case, you might want to filter out a subset of providers that you want to show to your end users. For this, you can use the Console configuration tool described in this article.
 
-You can find the configuration feature in the [Console](https://console.tink.com/) under App settings / Policy configuration.
+You can find the configuration feature in the Console under App settings / Policy configuration.
 
 The banks that will ultimately be shown to your users are derived from rules that you configure in our tool. The power of rules is that you can set up a fairly simple ruleset that will affect a large set of banks, illustrated in the image.
 
-![inclusion-exclusion-rules](https://images.ctfassets.net/tmqu5vj33f7w/6WmyThyzQEQOCEFZtE2lUq/e7b18f9ee2a4efca531db4eefd0e0603/inclusion-exclusion-rules.jpg)
+*Image removed: inclusion-exclusion-rules*
 
 The rules are set up in three steps which are described below. Whenever you want to see what effect your configuration will have, you can preview the list of banks that will be shown to your users via a preview button in the bottom of the page.
 
@@ -21,7 +21,7 @@ The rules are set up in three steps which are described below. Whenever you want
 
 ### 1\. Base policy[](#base-policy)
 
-You can think of the base policy as a starting list of banks that your rules will build upon. There are a few of these base policies that we have created that serve the most common use cases (_for a detailed description, see the feature inside the [Console](https://console.tink.com/)_).
+You can think of the base policy as a starting list of banks that your rules will build upon. There are a few of these base policies that we have created that serve the most common use cases (_for a detailed description, see the feature inside the Console_).
 
 You can for instance choose our recommendation of banks which are the most stable ones suited for production, choose only demo banks that can be handy when developing, or a blank list so you can configure specific banks in the next stage.
 
@@ -37,7 +37,7 @@ A common use case with inclusion rules is to start with a blank base policy, and
 
 You can add as many exclusion or inclusion rules as you like.
 
-![Policy Configuration](https://images.ctfassets.net/tmqu5vj33f7w/1KA9GvTNUPDKroe3kT1cZ9/140f7678bf7e9ffb66213fbd6fccb370/policyconfig.gif)
+*Image removed: Policy Configuration*
 
 ### Finishing a configuration[](#finishing-a-configuration)
 

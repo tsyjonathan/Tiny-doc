@@ -14,7 +14,7 @@ Account information is available using `GET /api/v1/accounts/list` API.
 Fetch account information
 
 ```
-curl -v https://api.tink.com/api/v1/accounts/list \
+curl -v [external url removed] \
 -H 'Authorization: Bearer '
 ```
 
@@ -35,7 +35,7 @@ A provider is an object that represents a bank connection with some type of cred
 Fetch all providers for a specific market
 
 ```
-curl -v https://api.tink.com/api/v1/providers/{market_code} \
+curl -v [external url removed] \
 -H "X-Tink-OAuth-Client-ID: {YOUR_CLIENT_ID}"
 ```
 
@@ -48,5 +48,5 @@ When you fetch transactions for a user via the Tink API, each transaction will b
 Fetch categories
 
 ```
-curl -v https://api.tink.com/api/v1/categories
+curl -v [external url removed]
 ```

@@ -5,7 +5,7 @@ exportedAt: "2026-01-13T12:56:15.512Z"
 ---
 ## 1\. Turn on your first actionable insight[](#turn-on-your-first-actionable-insight)
 
-[Tink Console](https://console.tink.com/) is where you will enable and configure your actionable insights. Make sure you have seen the Money Manager prerequisites page if you experience issues with Tink Console.
+Tink Console is where you will enable and configure your actionable insights. Make sure you have seen the Money Manager prerequisites page if you experience issues with Tink Console.
 
 To enable Actionable Insights, within the Tink Console, click on the Money Manager section on the left side and go to the Actionable Insights tab. In this tab, you can see an overview of all available insights. By default, all available insights are disabled, so you will need to turn them on. For this guide, we want you to use `BUDGET_SUGGEST_CREATE_FIRST` insight. Use the toogle to enable it.
 
@@ -22,7 +22,7 @@ To generate an insight, Tink needs to know that some user data got updated. One 
 Example request
 
 ```
-curl -X POST 'https://api.tink.com/connector/users//transactions' \
+curl -X POST '[external url removed]' \
 -H 'Authorization: Bearer {YOUR_USER_ACCESS_TOKEN}' \
 --header 'Content-Type: application/json' \
 --data-raw '{
@@ -52,7 +52,7 @@ Insight generation can take a few seconds since we need to process an update for
 Example request
 
 ```
-curl -X GET 'https://api.tink.com/api/v1/insights' \
+curl -X GET '[external url removed]' \
 -H 'Authorization: Bearer '
 ```
 

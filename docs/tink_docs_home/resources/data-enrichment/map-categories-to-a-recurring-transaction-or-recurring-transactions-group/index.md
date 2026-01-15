@@ -9,7 +9,7 @@ To fetch the categories, call the `/enrichment/v1/categories` endpoint.
 
 ```
 curl -X 'GET' \
-'https://api.tink.com/api/v1/categories’ \
+'[external url removed] \
   -H 'accept: application/json'
 ```
 
@@ -60,7 +60,7 @@ Example request with query parameters
 
 ```
 curl -X 'GET' \
-'https://api.tink.com/api/v1/categories?locale=en_US’’ \
+'[external url removed] \
   -H 'accept: application/json'
 ```
 

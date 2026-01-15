@@ -424,7 +424,7 @@ Returns the cancellation data for a given payment.
 ```
 {
   "status": "AWAITING_AUTHENTICATION",
-  "tinkLink": "https://link.tink.com/1.0/pay/cancellation?client_id=123&market=SE&authorization_code=123456&credentials_id=ccc1e79ff30f4865a54604754a72e380&payment_request_id=dada49e225064bbeafcb78cb7dba59a4"
+  "tinkLink": "[external url removed]"
 }
 ```
 
@@ -918,11 +918,11 @@ The payment request model represents a request to send payments with the recipie
 
 amount `number` required
 
-The [IS0 4217](https://www.iso.org/iso-4217-currency-codes.html) payment amount.
+The IS0 4217 payment amount.
 
 currency `string` required
 
-The [IS0 4217](https://www.iso.org/iso-4217-currency-codes.html) currency code of the payment.
+The IS0 4217 currency code of the payment.
 
 destinations `array[PaymentDestinationDTO]`
 
@@ -930,11 +930,11 @@ destinations `array[PaymentDestinationDTO]`
 
 executionDate `string`
 
-The [ISO 8601](https://www.iso.org/iso-8601-date-and-time-format.html) date when the bank should execute the payment. If no date is provided, the payment will be executed as soon as possible. This feature’s availability depends on the market. Check availability in [market-specific information](/Tiny-doc/tink_docs_home/resources/payments/one-time-payments/one-time-payments-market-specific-information/) or reach out to our [support team](https://tinkab.atlassian.net/servicedesk/customer/portals) for more details.
+The ISO 8601 date when the bank should execute the payment. If no date is provided, the payment will be executed as soon as possible. This feature’s availability depends on the market. Check availability in [market-specific information](/Tiny-doc/tink_docs_home/resources/payments/one-time-payments/one-time-payments-market-specific-information/) or reach out to our support team for more details.
 
 market `Market` required
 
-The [IS0 3166-1](https://www.iso.org/iso-3166-country-codes.html) Alpha-2 country code of the sender’s country of residence.
+The IS0 3166-1 Alpha-2 country code of the sender’s country of residence.
 
 merchantId `string`
 
@@ -1016,7 +1016,7 @@ The name of the city.
 
 countryCode `string` required
 
-The [IS0 3166-1](https://www.iso.org/iso-3166-country-codes.html) country code of the address in alpha-2 or alpha-3 format.
+The IS0 3166-1 country code of the address in alpha-2 or alpha-3 format.
 
 flatNumber `string`
 
@@ -1133,7 +1133,7 @@ The unique identifier for the payment request.
 
 market `string` required
 
-The [IS0 3166-1](https://www.iso.org/iso-3166-country-codes.html) Alpha-2 country code of the sender’s country of residence.  
+The IS0 3166-1 Alpha-2 country code of the sender’s country of residence.  
 Values: `AT`, `CZ`, `DE`, `DK`, `EE`, `ES`, `FI`, `FR`, `GB`, `IT`, `LT`, `LV`, `NL`, `NO`, `PL`, `PT`, `SE`
 
 merchantId `string`
@@ -1212,7 +1212,7 @@ The name of the city.
 
 countryCode `string` required
 
-The [IS0 3166-1](https://www.iso.org/iso-3166-country-codes.html) country code of the address in alpha-2 or alpha-3 format.
+The IS0 3166-1 country code of the address in alpha-2 or alpha-3 format.
 
 flatNumber `string`
 
@@ -1354,7 +1354,7 @@ The unique identifier for the payment request.
 
 market `string` required
 
-The [IS0 3166-1](https://www.iso.org/iso-3166-country-codes.html) Alpha-2 country code of the sender’s country of residence.  
+The IS0 3166-1 Alpha-2 country code of the sender’s country of residence.  
 Values: `AT`, `CZ`, `DE`, `DK`, `EE`, `ES`, `FI`, `FR`, `GB`, `IT`, `LT`, `LV`, `NL`, `NO`, `PL`, `PT`, `SE`
 
 merchantId `string`
@@ -1433,7 +1433,7 @@ The name of the city.
 
 countryCode `string` required
 
-The [IS0 3166-1](https://www.iso.org/iso-3166-country-codes.html) country code of the address in alpha-2 or alpha-3 format.
+The IS0 3166-1 country code of the address in alpha-2 or alpha-3 format.
 
 flatNumber `string`
 
@@ -1695,7 +1695,7 @@ The name of the city.
 
 countryCode `string` required
 
-The [IS0 3166-1](https://www.iso.org/iso-3166-country-codes.html) country code of the address in alpha-2 or alpha-3 format.
+The IS0 3166-1 country code of the address in alpha-2 or alpha-3 format.
 
 flatNumber `string`
 

@@ -3,7 +3,7 @@ title: "How to set up Mutual TLS authentication"
 source: "/Tiny-doc/tink_docs_home/resources/getting-started/set-up-mutual-tls-authentication/"
 exportedAt: "2026-01-13T13:01:49.349Z"
 ---
-Mutual TLS authentication (abbreviated mTLS or TLS MA) can be used in a [standardized](https://tools.ietf.org/html/rfc8705) way to extend the OAuth 2.0 authentication method for improved security. This replaces the OAuth client's `client_secret` with a private key and a client certificate signed by Tink's CA.
+Mutual TLS authentication (abbreviated mTLS or TLS MA) can be used in a standardized way to extend the OAuth 2.0 authentication method for improved security. This replaces the OAuth client's `client_secret` with a private key and a client certificate signed by Tink's CA.
 
 The client is successfully authenticated if it proves possession of the private key in the mTLS handshake and the client certificate matches the one that is bound to the OAuth client with the corresponding `client_id`. The client certificate matching is done on the whole client certificate, not any specific certificate field such as the `Subject` field, thereby reducing the risk of certificate spoofing and other PKI-related risks.
 
@@ -34,7 +34,7 @@ Contact your Account Manager or get in touch with [Tink Support](/Tiny-doc/tink_
 
 ## Accessing the Tink API over mTLS[](#accessing-the-tink-api-over-mtls)
 
-Once mTLS is enabled on an OAuth client, it's possble to authenticate through mTLS on the domain [mtls.api.tink.com](https://mtls.api.tink.com/), which will require the client to present a valid certificate signed by Tink.
+Once mTLS is enabled on an OAuth client, it's possble to authenticate through mTLS on the domain mtls.api.tink.com, which will require the client to present a valid certificate signed by Tink.
 
 Tink's CA chain used for the client certificate does not need to be explicitly trusted by the client, because it is not the same CA chain as the one used for the server certificate which is signed by a public CA.
 
@@ -47,7 +47,7 @@ The use of the API over mTLS is overall the same as without mTLS, with the excep
 Request example
 
 ```
-curl --verbose -X POST https://mtls.api.tink.com/api/v1/oauth/token \
+curl --verbose -X POST [external url removed] \
 --cert [YOUR_CLIENT_ID].pem \
 --key [YOUR_CLIENT_ID].key.pem \
 -d 'client_id=' \

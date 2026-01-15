@@ -9,7 +9,7 @@ In the former, the applicant (end user) authenticates with a bank and you, our c
 
 A synchronous process means that there is a sequencing and that your application flow is dependent on Tink finalising its delivery before the end user can continue. There are pros and cons with the two approaches so it is important to take into consideration. For a synchronous flow, you do not need the `reports_generation_job_id` scope.
 
-**Note**: You are billed for each product that you use simultaneously. Please [contact Sales](https://tink.com/get-started/) if you have questions about this.
+**Note**: You are billed for each product that you use simultaneously. Please contact Sales if you have questions about this.
 
 ## 1\. Build the URL[](#build-the-url)
 
@@ -18,7 +18,7 @@ The base URL that is required to combine Tink products is different from the bas
 The base URL to combine products differs from the base URL that is used for only one product. The base URL to combine multiple products:
 
 ```
-https://link.tink.com/1.0/reports/create-report?
+[external url removed]
 ```
 
 This URL can include these query parameters:
@@ -37,7 +37,7 @@ This URL can include these query parameters:
 In this example URL, the market is `SE` and its output will generate one report per product: Income Check, Expense Check, and Risk Insights.
 
 ```
-https://link.tink.com/1.0/reports/create-report?client_id={YOUR_CLIENT_ID}&redirect_uri=https://console.tink.com/callback&market=SE&report_types=INCOME_CHECK_REPORT,RISK_INSIGHTS_REPORT,EXPENSE_CHECK_REPORT&async=true
+[external url removed]
 ```
 
 When the end user accesses the URL, they are requested to authenticate to their bank.
@@ -60,7 +60,7 @@ Some possible failure reasons:
 **In this example:**
 
 ```
-https://console.tink.com/callback?reports_generation_job_id=ff8ae53bc46e45fe9a37c4fd1353e60d
+[external url removed]
 ```
 
 After a successful authentication, you will see a `reports_generation_job_id` value, which indicates that the user-flow has successfully come to an end. Store this value in order to fetch the statuses of your reports being created.
@@ -76,7 +76,7 @@ To access your user's account information, you need a valid client access token 
 Authenticate your client
 
 ```
-curl -X POST https://api.tink.com/api/v1/oauth/token \
+curl -X POST [external url removed] \
 -d 'client_id=' \
 -d 'client_secret=' \
 -d 'grant_type=client_credentials' \
@@ -103,7 +103,7 @@ cURL example:
 Fetch Reports Generation Job
 
 ```
-curl https://api.tink.com/api/v1/reports-generation-jobs/ \
+curl [external url removed] \
   -H 'Authorization: Bearer '
 ```
 
@@ -148,24 +148,24 @@ cURL example:
 Fetch your Income Check report
 
 ```
-curl https://api.tink.com/v2/income-checks/ \
+curl [external url removed] \
   -H 'Authorization: Bearer '
 ```
 
 Fetch your Risk Insights report
 
 ```
-curl https://api.tink.com/risk/v1/risk-insights/ \
+curl [external url removed] \
   -H 'Authorization: Bearer '
 ```
 
 Fetch your Expense Check report
 
 ```
-curl https://api.tink.com/risk/v1/expense-checks/ \
+curl [external url removed] \
   -H 'Authorization: Bearer '
 ```
 
 ## Need help?[](#need-help-)
 
-[Contact Sales](https://tink.com/contact-us) and let us help you get started.
+Contact Sales and let us help you get started.

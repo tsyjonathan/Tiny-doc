@@ -3,7 +3,7 @@ title: "Customization for Money Manager on iOS"
 source: "/Tiny-doc/tink_docs_home/resources/money-manager/money-manager-ios/customization/"
 exportedAt: "2026-01-13T12:52:31.281Z"
 ---
-![Customization](https://images.ctfassets.net/tmqu5vj33f7w/6EmGf5N1vfyAUWiG7BVdC5/a7b4d2e5edeeb8a1a3bd93fbd2705a8e/Customization.png)
+*Image removed: Customization*
 
 ## Overview[](#overview)
 
@@ -56,7 +56,7 @@ Click on the feature for a separate article about how you can customize that spe
 
 These are the colors you can customize to better fit the SDK to your app. You can choose to customize them all or just a few. The ones you don't customize will always have a default color.
 
-![Colors](https://images.ctfassets.net/tmqu5vj33f7w/jF4zS3Ljx1uKUZXBUoSfz/c0a246c7b0d0a58c9a8b6c2b050202e3/Color.png)
+*Image removed: Colors*
 
 | Color | Description | Default |
 | --- | --- | --- |
@@ -98,7 +98,7 @@ These are the colors you can customize to better fit the SDK to your app. You ca
 
 Icons are a good way to put your personal touch to the SDK. The SDK comes with a default icon package so you can choose which ones to keep and which ones to customize.
 
-![Icons](https://images.ctfassets.net/tmqu5vj33f7w/4GJ8K23Z2maBiLxFCzXZ3X/e59e472157adf2525282624129bbbb08/Icons.png)
+*Image removed: Icons*
 
 | Icon | Description |
 | --- | --- |
@@ -149,7 +149,7 @@ Appearance.provider = AppearanceProvider(icons: iconProvider)
 
 With `FontProvider` you can change the text fonts in the SDK to match your own app's.
 
-![Fonts](https://images.ctfassets.net/tmqu5vj33f7w/7tDpEOmd4mNEZntB0mOXMP/5cbda344c270979bfdd832ff66871fc6/Fonts.png)
+*Image removed: Fonts*
 
 | Font | Description |
 | --- | --- |

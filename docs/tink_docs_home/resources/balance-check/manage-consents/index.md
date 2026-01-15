@@ -14,7 +14,7 @@ The Provider Consent model gives details about the state of the consents that a 
 Get the list of consents
 
 ```
-curl -v https://api.tink.com/api/v1/provider-consents \
+curl -v [external url removed] \
      -H 'Authorization: Bearer '
 ```
 
@@ -57,7 +57,7 @@ To update a consent, you must redirect your user to a Tink URL and include the `
 Refresh consent
 
 ```
-https://link.tink.com/1.0/products/update-consent?products=ACCOUNT_CHECK&client_id=&redirect_uri=&credentials_id=&authorization_code=&market=
+[external url removed]
 ```
 
 ## 3\. Delete a consent[](#delete-a-consent)
@@ -76,7 +76,7 @@ The following example shows how to use your `client_id` and `client_secret` to f
 Get your client access token
 
 ```
-curl -v -X POST https://api.tink.com/api/v1/oauth/token \
+curl -v -X POST [external url removed] \
 -d 'client_id=' \
 -d 'client_secret=' \
 -d 'grant_type=client_credentials' \
@@ -101,7 +101,7 @@ Generate a user access token with the `credentials:write` scope.
 Generate a user access code
 
 ```
-curl -X POST https://api.tink.com/api/v1/oauth/authorization-grant \
+curl -X POST [external url removed] \
 -H 'Authorization: Bearer ' \
 -d 'user_id=' \
 -d 'external_user_id=' \
@@ -119,7 +119,7 @@ curl -X POST https://api.tink.com/api/v1/oauth/authorization-grant \
 Generate a user access token
 
 ```
-curl -v -X POST https://api.tink.com/api/v1/oauth/token \
+curl -v -X POST [external url removed] \
 -d 'code=' \
 -d 'client_id=' \
 -d 'client_secret=' \
@@ -145,7 +145,7 @@ Use the user access token to delete the credential for this specific user.
 Delete the credential for a specific user
 
 ```
-curl -v X DELETE https://api.tink.com/api/v1/credentials/{credentialsId} \
+curl -v X DELETE [external url removed] \
      -H 'Authorization: Bearer '
 ```
 
@@ -166,6 +166,6 @@ To delete a user, you must generate a user access token with the scope `user:del
 Delete a user
 
 ```
-curl -v -X POST https://api.tink.com/api/v1/user/delete \
+curl -v -X POST [external url removed] \
 -H 'Authorization: Bearer ' \
 ```

@@ -3,7 +3,7 @@ title: "Generating a user access token and querying end-user data"
 source: "/Tiny-doc/tink_docs_home/resources/data-enrichment/generating-a-user-access-token-and-querying-end-user-data/"
 exportedAt: "2026-01-13T12:47:34.316Z"
 ---
-In previous guides when ingesting or aggregating data, we have been generating client access tokens to authenticate and authorize the application itself. Almost all endpoints under Data Enrichment, and especially when getting a single user’s data, will instead require a user access token. Which type of token is needed is always documented in the endpoint documentation, and the technical definitions can be found in the [OAuth standard](https://www.rfc-editor.org/rfc/rfc6749#section-4.4).
+In previous guides when ingesting or aggregating data, we have been generating client access tokens to authenticate and authorize the application itself. Almost all endpoints under Data Enrichment, and especially when getting a single user’s data, will instead require a user access token. Which type of token is needed is always documented in the endpoint documentation, and the technical definitions can be found in the OAuth standard.
 
 This article will go through the steps of how to generate a user token and use that token to fetch end-user data.
 
@@ -21,7 +21,7 @@ The following request will authorize the application using the client id/secret 
 **Example request:**
 
 ```
-curl -v -X POST https://api.tink.com/api/v1/oauth/token \
+curl -v -X POST [external url removed] \
 -d 'client_id=' \
 -d 'client_secret=' \
 -d 'grant_type=client_credentials' \
@@ -46,7 +46,7 @@ Use the generated client token to create a new authorization grant code. Use the
 **Example request:**
 
 ```
-curl -X POST https://api.tink.com/api/v1/oauth/authorization-grant \
+curl -X POST [external url removed] \
 -H 'Authorization: Bearer ' \
 -d 'external_user_id=EXTERNAL_USER_ID' \
 -d 'scope=accounts:read,transactions:read,user:read,credentials:read'
@@ -69,7 +69,7 @@ In this step you will call the oauth/token endpoint again, but this time we’re
 **Example request:**
 
 ```
-curl -v -X POST https://api.tink.com/api/v1/oauth/token \
+curl -v -X POST [external url removed] \
 -d 'client_id=' \
 -d 'client_secret=' \
 -d 'grant_type=authorization_code' \
@@ -98,7 +98,7 @@ To see if your ingestion or aggregation succeeded, you can call the enriched tra
 **Example request:**
 
 ```
-curl "https://api.tink.com/enrichment/v1/transactions" \
+curl "[external url removed]" \
   -H 'Authorization: Bearer '
 ```
 
@@ -194,6 +194,6 @@ In the response body, you will get nextPageToken, which you can use in your next
 For example, using this example list enriched transactions URL, you can get a specific page of results with a page size of 20 transactions:
 
 ```
-curl "https://api.tink.com/enrichment/v1/transactions?pageToken=BQvbwWxuHf&pageSize=20" \ 
+curl "[external url removed]" \ 
 -H 'Authorization: Bearer {YOUR_USER_ACCESS_TOKEN}'
 ```

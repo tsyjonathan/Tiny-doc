@@ -9,15 +9,15 @@ Demo Bank is a simulated bank that allows you to test Tink products without usin
 
 Your demo credentials are found inside Console, so let's start there.
 
-1.  [Log in to Console](https://console.tink.com/login).
+1.  Log in to Console.
 2.  Select **Demo Bank**.
 3.  Select a **Product** and a **Market**.
 
-![Demo Bank, Account Check test cases](https://images.ctfassets.net/tmqu5vj33f7w/1VxkCsytHgSuT25RK4rtj1/fe5a68143331f208958a6e06559396f9/account_check_demo_bank.png) _Demo Bank user credentials for Account Check in the Swedish market._
+*Image removed: Demo Bank, Account Check test cases* _Demo Bank user credentials for Account Check in the Swedish market._
 
 Each user represents a different test case. In Demo Bank, the **Description** field explains a user's purpose. For example, User 1 is used to test a successful scenario that leads to you fetching an Account Check report with full information.
 
-![Demo Bank, User details](https://images.ctfassets.net/tmqu5vj33f7w/7zWyL0jOzr90bt01gQyjRJ/9768e36d0f47f03c321d9d07dd09154e/Screenshot_2023-08-02_at_09.45.18.png) Clicking on **‘User 1’** allows you to see more details about the user. This includes credentials you might need to use when authenticating (e.g. SSN in Sweden), as well as information about the accounts of that user.
+*Image removed: Demo Bank, User details* Clicking on **‘User 1’** allows you to see more details about the user. This includes credentials you might need to use when authenticating (e.g. SSN in Sweden), as well as information about the accounts of that user.
 
 When you have selected a Demo Bank user for your test, it's time to [build your Tink Link](/Tiny-doc/tink_docs_home/resources/account-check/verify-your-first-account/#build-the-url). Select **Copy URL**, paste it into a browser, and hit enter.
 

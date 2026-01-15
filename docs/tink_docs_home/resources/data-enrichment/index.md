@@ -9,7 +9,7 @@ exportedAt: "2026-01-13T12:40:19.865Z"
 
 Create more innovative features and develop enhanced digital banking experiences. Here’s how Data Enrichment can help.
 
-![](https://images.ctfassets.net/tmqu5vj33f7w/23yV64YteRt7JVFk1rfThZ/5aaf5152151a0e095f1d80b1f0598f5f/Data-enrichment.png)
+*Image removed: external*
 
 
 
@@ -63,7 +63,7 @@ This article will show you how to generate a user access token and querying end-
 
 [
 
-![](https://images.ctfassets.net/tmqu5vj33f7w/2YAiRyL4GqTEK1kY9fkGp2/b0cb0330959fa0818992034dadc6c0c4/Get_categories.png)
+*Image removed: external*
 
 ### Fetch a list of all categories for your locale
 
@@ -77,7 +77,7 @@ This article will show you how to fetch a list of all categories for your locale
 
 [
 
-![](https://images.ctfassets.net/tmqu5vj33f7w/1RlgEcNoHmMSSVqMrBGgep/23b5e3191aab0427779376bcfb27b0c0/Get_enriched_transactions.png)
+*Image removed: external*
 
 ### Fetch enriched transactions for a user
 
@@ -91,7 +91,7 @@ This article will help you fetch enriched transactions for a user.
 
 [
 
-![](https://images.ctfassets.net/tmqu5vj33f7w/1J0FShvJh9PiNqPA1GQckU/293a08215aace4b1c07a8ebe9686f8fe/Recategorise_transactions.png)
+*Image removed: external*
 
 ### Enable recategorization of transactions
 
@@ -105,7 +105,7 @@ This article will help you enable recategorization of transaction so that your u
 
 [
 
-![](https://images.ctfassets.net/tmqu5vj33f7w/1VhaDtr41LuGtt9OVhlTr4/296f160d087651844b58dd308c6635b2/Get_similar_transactions__1_.png)
+*Image removed: external*
 
 ### Fetch similar enriched transactions for a user’s transaction
 
@@ -131,7 +131,7 @@ This article will help you fetch enriched transactions based on a category id.
 
 [
 
-![](https://images.ctfassets.net/tmqu5vj33f7w/4SmxvxGyP48pYhcvXtLpcz/6882e8e236b0867ca5b3e2fc42068804/Get_recurring_transactions.png)
+*Image removed: external*
 
 ### Fetch all recurring transactions for an end user
 
@@ -145,7 +145,7 @@ This article shows how to fetch all recurring transactions for a user.
 
 [
 
-![](https://images.ctfassets.net/tmqu5vj33f7w/1jxLVIhMm2nCkKgtix94UP/9e2e2fcf998716613e30c91f03223cba/Get_recurring_transactions_groups.png)
+*Image removed: external*
 
 ### Fetch all recurring transaction groups for a user
 
@@ -159,7 +159,7 @@ This article shows how to fetch all recurring transaction groups for an end user
 
 [
 
-![](https://images.ctfassets.net/tmqu5vj33f7w/5TB4VDnNo2Rg7qj4sJvbb3/8201893a770d883f3ae8f7b6a8c2256e/Map-categories-to-recurring-transation.png)
+*Image removed: external*
 
 ### Map categories to a recurring transaction or a group
 
@@ -175,7 +175,7 @@ This article shows how to get and add a category to a recurring transaction or a
 
 [
 
-![](https://images.ctfassets.net/tmqu5vj33f7w/1xxwXhVwBkVxsKiMV2gL02/eff62275c6d05676583ad1101cf2bcf3/Get-predicted-recurring-transactions.png)
+*Image removed: external*
 
 ### Fetch all predicted recurring transactions for an end user
 
@@ -189,7 +189,7 @@ This article shows how to fetch all predicted recurring transactions for an end 
 
 [
 
-![](https://images.ctfassets.net/tmqu5vj33f7w/7hQJRSAyLpcVHYx5veRkmO/bb33c3c88acf08255a3b176133eab6cd/Map-categories-to-predicted-recurring-transactions.png)
+*Image removed: external*
 
 ### Map categories to a predicted recurring transaction
 
@@ -203,7 +203,7 @@ This article shows how to get and add a category to a predicted recurring transa
 
 [
 
-![](https://images.ctfassets.net/tmqu5vj33f7w/24ehalHug4NlWXmNHA5z8d/0fbe74b32f7cbc9fa8f34b1d28ef4410/Filter-prediction-horizon.png)
+*Image removed: external*
 
 ### Filter how long in the future predictions should be shown
 

@@ -17,7 +17,7 @@ Results are paginated – to learn more about pagination and how to work with it
 
 ```
 curl -X 'GET' \
-'https://api.staging.oxford.tink.com/enrichment/v1/transactions?pageSize=1'\
+'[external url removed]'\
   -H 'Authorization: Bearer '
   -H 'Accept: application/json'
 ```
@@ -33,7 +33,7 @@ curl -X 'GET' \
                "brandIdentification": {
                    "id": "8dc59f2d-2f17-41c6-bcce-fecf7e588065",
                    "name": "ICA",
-                   "logoUri": "https://mi-assets.staging.oxford.tink.se/ica.png",
+                   "logoUri": "[external url removed]",
                    "status": {
                        "code": "SUCCESS",
                        "message": ""
@@ -65,7 +65,7 @@ Due to pagination, a maximum of 10 transactions are by default included in the r
 
 ```
 curl -H "Authorization: Bearer {USER_ACCESS_TOKEN}" \
-"https://api.tink.com/enrichment/v1/transactions?
+"[external url removed]
 accountIdIn=0f27b10e4e1c4956a518fb3283a0f4f4&\
 accountIdIn=9b44f819df174713b38208251f397224"
 ```

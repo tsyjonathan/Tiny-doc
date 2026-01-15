@@ -9,7 +9,7 @@ This provider simulates a redirect-based authentication flow for open banking pr
 
 In this flow, the user (PSU) is redirected to the bank's (ASPSP) interface to complete the authentication. Typically this is the bank's web interace or a dedicated mobile app.
 
-If you are an [Enterprise](https://tink.com/pricing) customer with [permanent users](/Tiny-doc/tink_docs_home/glossary/#permanent-users) enabled, it is possible to [refresh credentials](/Tiny-doc/tink_docs_api/api/#connectivity/credentials/refresh-credentials) created using this test provider multiple times. In this test flow, the authentication session is set to expire after 30 days. During this time period, it is possible to simulate refreshing of user data from the bank without a need for the user to authetnicate. Once this session has expired, a new [credential refresh](/Tiny-doc/tink_docs_api/api/#connectivity/credentials/refresh-credentials) request will require the user to authenticate towards the bank again.
+If you are an Enterprise customer with [permanent users](/Tiny-doc/tink_docs_home/glossary/#permanent-users) enabled, it is possible to [refresh credentials](/Tiny-doc/tink_docs_api/api/#connectivity/credentials/refresh-credentials) created using this test provider multiple times. In this test flow, the authentication session is set to expire after 30 days. During this time period, it is possible to simulate refreshing of user data from the bank without a need for the user to authetnicate. Once this session has expired, a new [credential refresh](/Tiny-doc/tink_docs_api/api/#connectivity/credentials/refresh-credentials) request will require the user to authenticate towards the bank again.
 
 Credential refreshes for test providers are not rate limited to allow faster testing. You can read more about credentials and credential refresh rate limiting [here](/Tiny-doc/tink_docs_home/resources/aggregation/credentials/).
 
@@ -35,7 +35,7 @@ It is possible to test the Tink aggregation flow with [Tink Link](/Tiny-doc/tink
 
 After being redirected, the user will be presented with a screen asking them to identify themselves towards the bank. This simulates the process of the user logging in to thier bank via the bank's web interface or mobile app.
 
-![userFlow-ExampleBank](https://images.ctfassets.net/tmqu5vj33f7w/7oDwWK8r9LE8VmZyj3CBOk/5dfb9f910de9b711b8e64a3519ea9317/userFlow-ExampleBank.jpg)
+*Image removed: userFlow-ExampleBank*
 
 ## Test data set[](#test-data-set)
 

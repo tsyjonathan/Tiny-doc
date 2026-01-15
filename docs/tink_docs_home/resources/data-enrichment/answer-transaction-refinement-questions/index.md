@@ -14,7 +14,7 @@ Answer the refinement questions by calling the `/enrichment/v1/sustainability/tr
 
 ```
 curl -X 'POST' \
-'https://api.tink.com/enrichment/v1/sustainability/transactions/refinement \
+'[external url removed] \
   -H 'Authorization: Bearer '
   -H 'Accept: application/json'
   -d '{

@@ -28,7 +28,7 @@ We offer two ways to use payment conditions. We recommend that you use our endpo
 
 ## UI and UX app considerations[](#ui-and-ux-app-considerations)
 
-![Payment conditions](https://images.ctfassets.net/tmqu5vj33f7w/1kdi2RDop2uCnSaVey8PqT/d9fd414e9729b063a183e79a27f0840d/Payment_conditions.png)
+*Image removed: Payment conditions*
 
 ## Endpoint[](#endpoint)
 
@@ -192,4 +192,4 @@ This feature can also be used preemptively by using the conditions to do input v
 
 | COUNTRIES | CSV FILES |
 | --- | --- |
-| United Kingdom (GB) | [Download](https://d1k8v7aonx8p37.cloudfront.net/payment_conditions_uk.csv) |
+| United Kingdom (GB) | Download |

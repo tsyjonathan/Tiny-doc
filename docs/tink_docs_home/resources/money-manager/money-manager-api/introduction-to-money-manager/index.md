@@ -7,7 +7,7 @@ Money Manager is a suite of financial management tools, available as SDKs or via
 
 Mention “Personal Finance Management" to someone within the financial industry, and there’s a chance you’ll hear a hint of scepticism. This is because for years hype overtook reality, and people underestimated the amount of time it would take to go from well-designed banking apps with pretty data visualisations, to delivering timely, useful insights based on your data. The reality, as usual, is somewhere in the middle. While we are still not quite at the stage of machines making sophisticated financial decisions for us, we are definitely past the point of modern banking apps being all about pie charts and bar graphs.
 
-![Money Manager intro](https://images.contentful.com/tmqu5vj33f7w/FvNiOrIXSjHIinjnzHXBS/9633868cea607177db2101133bb9dca8/option-2.jpg)
+*Image removed: Money Manager intro*
 
 Tink has extensive experience in this space, and we believe developers require a more nuanced understanding of money management to cater to lofty consumer expectations. Broadly speaking, digital money management can be described as:
 

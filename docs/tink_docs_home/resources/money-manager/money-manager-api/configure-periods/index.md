@@ -40,7 +40,7 @@ Within the request, if you use the `MONTHLY_ADJUSTED` as the `periodMode` you ne
 Example request:
 
 ```
-curl 'https://api.tink.com/api/v1/user/profile' \
+curl '[external url removed]' \
   -X PUT \
   -H 'Authorization: Bearer ' \
   -H 'Content-Type: application/json' \

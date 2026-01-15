@@ -86,7 +86,7 @@ The categorization view lets the user choose a new category for the selected tra
 
 Transactions that are not yet confirmed by the user's bank or can change in the future are called pending transactions. We use a different design to show that transactions are in the pending state.
 
-![Android Pending trx list](https://images.ctfassets.net/tmqu5vj33f7w/5A5eFEI4s0VbpqArue3F6U/b518f92f6226a14794d247f2aaeaddc4/AndroidPending.png)
+*Image removed: Android Pending trx list*
 
 By default, they can be edited like any other transaction, however you can configure this setting if you want to limit your users from editing the category of a transaction before it is in its final state.
 
