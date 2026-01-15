@@ -17,7 +17,11 @@ import path from "node:path";
 
 const REPO_BASE = "https://tsyjonathan.github.io/Tiny-doc";
 const DOCS_ROOT = path.resolve(process.cwd(), "docs");
-const OUT_DIR = path.join(DOCS_ROOT, "all-pages");
+// IMPORTANT: write sitemap at the docs root so crawlers that restrict to a path-prefix
+// (e.g. only crawling under /Tiny-doc/...) can still reach /Tiny-doc/tink_docs_home/... etc.
+// If we put the sitemap under /Tiny-doc/all-pages/, some crawlers will refuse to follow links
+// that leave /Tiny-doc/all-pages/.
+const OUT_DIR = DOCS_ROOT;
 const CHUNK_SIZE = 50;
 
 function toUrlFromDocsIndexMd(filePath) {
@@ -95,7 +99,7 @@ ${links}
 
   // Write hub page
   const hubLinks = partFiles
-    .map((f) => `    <li><a href="${REPO_BASE}/all-pages/${f}">${f}</a></li>`)
+    .map((f) => `    <li><a href="${REPO_BASE}/${f}">${f}</a></li>`)
     .join("\n");
   const hubBody = `  <p>Total pages: ${urls.length}</p>
   <p>This page links to smaller parts so crawlers can index everything reliably.</p>
@@ -107,7 +111,7 @@ ${hubLinks}
 
   console.log(`[cursor-sitemap] total pages: ${urls.length}`);
   console.log(`[cursor-sitemap] parts: ${parts.length} (chunk size ${CHUNK_SIZE})`);
-  console.log(`[cursor-sitemap] wrote: docs/all-pages/cursor-sitemap.html`);
+  console.log(`[cursor-sitemap] wrote: docs/cursor-sitemap.html`);
 }
 
 await main();
