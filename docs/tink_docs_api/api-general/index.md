@@ -1,9 +1,9 @@
 ---
 title: "Tink Docs"
-source: "https://docs.tink.com/api-general"
+source: "/Tiny-doc/tink_docs_api/api-general/"
 exportedAt: "2026-01-13T13:02:13.743Z"
 ---
-## General v1[](https://docs.tink.com/api-general)
+## General v1[](/Tiny-doc/tink_docs_api/api-general/)
 
 The General section contains resources that are used by different products.
 
@@ -20,7 +20,7 @@ The General section contains resources that are used by different products.
 
 ## Calendar[](#general/calendar)
 
-API data is periodized into pre-computed and date-based buckets. Use the Calendar endpoint to get or query data from a period of time. For more information on periods for Money Manager, see the [Configure periods](https://docs.tink.com/resources/money-manager/money-manager-api/configure-periods) article.
+API data is periodized into pre-computed and date-based buckets. Use the Calendar endpoint to get or query data from a period of time. For more information on periods for Money Manager, see the [Configure periods](/Tiny-doc/tink_docs_home/resources/money-manager/money-manager-api/configure-periods/) article.
 
 ### The Calendar model[](#general/calendar/the-calendar-model)
 
@@ -73,7 +73,7 @@ Values: `YYYY`, `YYYY-MM`, `YYYY-MM-DD` |
 
 ### Response: array\[[Calendar](#tag-calendar)\][](#general/calendar/get-period-details/response-array-calendar-)
 
-API data is periodized into pre-computed and date-based buckets. Use the Calendar endpoint to get or query data from a period of time. For more information on periods for Money Manager, see the [Configure periods](https://docs.tink.com/resources/money-manager/money-manager-api/configure-periods) article.
+API data is periodized into pre-computed and date-based buckets. Use the Calendar endpoint to get or query data from a period of time. For more information on periods for Money Manager, see the [Configure periods](/Tiny-doc/tink_docs_home/resources/money-manager/money-manager-api/configure-periods/) article.
 
 See [Calendar](#tag-calendar) for parameter descriptions.
 
@@ -118,7 +118,7 @@ Values: `YYYY-MM-DD` |
 
 ### Response: array\[[Calendar](#tag-calendar)\][](#general/calendar/query-period-details/response-array-calendar-)
 
-API data is periodized into pre-computed and date-based buckets. Use the Calendar endpoint to get or query data from a period of time. For more information on periods for Money Manager, see the [Configure periods](https://docs.tink.com/resources/money-manager/money-manager-api/configure-periods) article.
+API data is periodized into pre-computed and date-based buckets. Use the Calendar endpoint to get or query data from a period of time. For more information on periods for Money Manager, see the [Configure periods](/Tiny-doc/tink_docs_home/resources/money-manager/money-manager-api/configure-periods/) article.
 
 See [Calendar](#tag-calendar) for parameter descriptions.
 
@@ -677,7 +677,7 @@ Market specific code for the user as a ISO 3166-1 country code.
 
 retention\_class `string`
 
-\[BETA\] Determines whether Tink will retain the user until explicitly deleted, or automatically delete the user after 24 hours. Set with either "permanent" or "temporary". Defaults to the [user retention setting for your app](https://docs.tink.com/glossary#permanent-users:~:text=our%20guide.-,Permanent%20users,-A%20Tink%20User).
+\[BETA\] Determines whether Tink will retain the user until explicitly deleted, or automatically delete the user after 24 hours. Set with either "permanent" or "temporary". Defaults to the [user retention setting for your app](/Tiny-doc/tink_docs_home/glossary/#permanent-users:~:text=our%20guide.-,Permanent%20users,-A%20Tink%20User).
 
 > Response Example
 

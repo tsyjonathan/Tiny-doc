@@ -1,9 +1,9 @@
 ---
 title: "Tink Docs"
-source: "https://docs.tink.com/api-payment"
+source: "/Tiny-doc/tink_docs_api/api-payment/"
 exportedAt: "2026-01-13T13:05:00.223Z"
 ---
-## Payment v1[](https://docs.tink.com/api-payment)
+## Payment v1[](/Tiny-doc/tink_docs_api/api-payment/)
 
 The Payment section contains resources for Payments features: one-time payments and Variable Recurring Payments.
 
@@ -930,7 +930,7 @@ destinations `array[PaymentDestinationDTO]`
 
 executionDate `string`
 
-The [ISO 8601](https://www.iso.org/iso-8601-date-and-time-format.html) date when the bank should execute the payment. If no date is provided, the payment will be executed as soon as possible. This feature’s availability depends on the market. Check availability in [market-specific information](https://docs.tink.com/resources/payments/one-time-payments/one-time-payments-market-specific-information) or reach out to our [support team](https://tinkab.atlassian.net/servicedesk/customer/portals) for more details.
+The [ISO 8601](https://www.iso.org/iso-8601-date-and-time-format.html) date when the bank should execute the payment. If no date is provided, the payment will be executed as soon as possible. This feature’s availability depends on the market. Check availability in [market-specific information](/Tiny-doc/tink_docs_home/resources/payments/one-time-payments/one-time-payments-market-specific-information/) or reach out to our [support team](https://tinkab.atlassian.net/servicedesk/customer/portals) for more details.
 
 market `Market` required
 
@@ -958,11 +958,11 @@ The recipient name shown to the payer on signing payments. Maximum character cou
 
 remittanceInformation `RemittanceInformationDTO` required
 
-Structured or unstructured remittance information for the payment request. Used for reconciliation. See the [market-specific information](https://docs.tink.com/resources/payments/one-time-payments/one-time-payments-market-specific-information) table for details.
+Structured or unstructured remittance information for the payment request. Used for reconciliation. See the [market-specific information](/Tiny-doc/tink_docs_home/resources/payments/one-time-payments/one-time-payments-market-specific-information/) table for details.
 
 sender `PinnedSenderDTO`
 
-The sender “pinned” to this payment. When provided, only this person can initiate this payment. Only available when [Risk Signals](https://docs.tink.com/resources/payments/one-time-payments/risk-signals) is enabled.
+The sender “pinned” to this payment. When provided, only this person can initiate this payment. Only available when [Risk Signals](/Tiny-doc/tink_docs_home/resources/payments/one-time-payments/risk-signals/) is enabled.
 
 sourceMessage `string`
 
@@ -1158,11 +1158,11 @@ The recipient name shown to the payer on signing payments. Maximum character cou
 
 remittanceInformation `RemittanceInformationDTO` required
 
-Structured or unstructured remittance information for the payment request. Used for reconciliation. See the [market-specific information](https://docs.tink.com/resources/payments/one-time-payments/one-time-payments-market-specific-information) table for details.
+Structured or unstructured remittance information for the payment request. Used for reconciliation. See the [market-specific information](/Tiny-doc/tink_docs_home/resources/payments/one-time-payments/one-time-payments-market-specific-information/) table for details.
 
 sender `PinnedSenderDTO`
 
-The sender “pinned” to this payment. When provided, only this person can initiate this payment. Only available when [Risk Signals](https://docs.tink.com/resources/payments/one-time-payments/risk-signals) is enabled.
+The sender “pinned” to this payment. When provided, only this person can initiate this payment. Only available when [Risk Signals](/Tiny-doc/tink_docs_home/resources/payments/one-time-payments/risk-signals/) is enabled.
 
 sourceMessage `string`
 
@@ -1258,7 +1258,7 @@ The sender’s last name. Maximum 30 characters. Special characters such as á, 
 | Status Code | Description |
 | --- | --- |
 | 200 | The payment request was created. |
-| 400 | One or more request parameters are incorrect or missing. The response body includes an `error_code` and `error_message` that provide more details about the issue. For more information, see [one-time payment error codes](https://docs.tink.com/resources/payments/one-time-payments/handle-one-time-payments-sdk-error-codes). |
+| 400 | One or more request parameters are incorrect or missing. The response body includes an `error_code` and `error_message` that provide more details about the issue. For more information, see [one-time payment error codes](/Tiny-doc/tink_docs_home/resources/payments/one-time-payments/handle-one-time-payments-sdk-error-codes/). |
 | 401 | Unauthorized, possibly because of missing “Authorization: Bearer {access token}” HTTP header or expired access token. |
 | 403 | Forbidden |
 
@@ -1379,11 +1379,11 @@ The recipient name shown to the payer on signing payments. Maximum character cou
 
 remittanceInformation `RemittanceInformationDTO` required
 
-Structured or unstructured remittance information for the payment request. Used for reconciliation. See the [market-specific information](https://docs.tink.com/resources/payments/one-time-payments/one-time-payments-market-specific-information) table for details.
+Structured or unstructured remittance information for the payment request. Used for reconciliation. See the [market-specific information](/Tiny-doc/tink_docs_home/resources/payments/one-time-payments/one-time-payments-market-specific-information/) table for details.
 
 sender `PinnedSenderDTO`
 
-The sender “pinned” to this payment. When provided, only this person can initiate this payment. Only available when [Risk Signals](https://docs.tink.com/resources/payments/one-time-payments/risk-signals) is enabled.
+The sender “pinned” to this payment. When provided, only this person can initiate this payment. Only available when [Risk Signals](/Tiny-doc/tink_docs_home/resources/payments/one-time-payments/risk-signals/) is enabled.
 
 sourceMessage `string`
 
@@ -1481,7 +1481,7 @@ The sender’s last name. Maximum 30 characters. Special characters such as á, 
 | 200 | The payment request data was returned. |
 | 401 | Unauthorized, possibly because of missing “Authorization: Bearer {access token}” HTTP header or expired access token. |
 | 403 | Forbidden |
-| 404 | No payment request was found with the given `id`. The response body includes an `error_code` and `error_message` that provide more details about the issue. For more information, see [one-time payment error codes](https://docs.tink.com/resources/payments/one-time-payments/handle-one-time-payments-sdk-error-codes). |
+| 404 | No payment request was found with the given `id`. The response body includes an `error_code` and `error_message` that provide more details about the issue. For more information, see [one-time payment error codes](/Tiny-doc/tink_docs_home/resources/payments/one-time-payments/handle-one-time-payments-sdk-error-codes/). |
 
 ## Get transfers for payment request[](#payment/payment-request/get-transfers-for-payment-request)
 
@@ -1621,11 +1621,11 @@ The recipient name shown to the payer on signing payments.
 
 remittanceInformation `RemittanceInformationDTO` required
 
-Structured or unstructured remittance information for the payment request. Used for reconciliation. See the [market-specific information](https://docs.tink.com/resources/payments/one-time-payments/one-time-payments-market-specific-information) table for details.
+Structured or unstructured remittance information for the payment request. Used for reconciliation. See the [market-specific information](/Tiny-doc/tink_docs_home/resources/payments/one-time-payments/one-time-payments-market-specific-information/) table for details.
 
 sender `PinnedSenderDTO`
 
-The sender “pinned” to this payment. When provided, only this person can initiate this payment. Only available when [Risk Signals](https://docs.tink.com/resources/payments/one-time-payments/risk-signals) is enabled.
+The sender “pinned” to this payment. When provided, only this person can initiate this payment. Only available when [Risk Signals](/Tiny-doc/tink_docs_home/resources/payments/one-time-payments/risk-signals/) is enabled.
 
 source `PaymentSourceDTO`
 
@@ -1637,11 +1637,11 @@ The transaction description on the payers account for the payment.
 
 status `PaymentStatus` required
 
-The current status of the payment. For details on which statuses to expect, see [payment status transitions](https://docs.tink.com/resources/payments/one-time-payments/one-time-payments-status-transitions).
+The current status of the payment. For details on which statuses to expect, see [payment status transitions](/Tiny-doc/tink_docs_home/resources/payments/one-time-payments/one-time-payments-status-transitions/).
 
 statusMessage `string`
 
-A message that explains the current status of the payment. This field is only populated when the a terminal status is reached. For details, see [payment status transitions](https://docs.tink.com/resources/payments/one-time-payments/one-time-payments-status-transitions).
+A message that explains the current status of the payment. This field is only populated when the a terminal status is reached. For details, see [payment status transitions](/Tiny-doc/tink_docs_home/resources/payments/one-time-payments/one-time-payments-status-transitions/).
 
 updated `Date`
 

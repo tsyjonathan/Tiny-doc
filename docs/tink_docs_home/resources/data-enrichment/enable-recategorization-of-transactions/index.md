@@ -1,6 +1,6 @@
 ---
 title: "Enable recategorization of transactions - Tink Docs"
-source: "https://docs.tink.com/resources/data-enrichment/enable-recategorization-of-transactions"
+source: "/Tiny-doc/tink_docs_home/resources/data-enrichment/enable-recategorization-of-transactions/"
 exportedAt: "2026-01-13T12:47:40.277Z"
 ---
 ### Step 1: Build the request body[](#step-1-build-the-request-body)
@@ -67,4 +67,4 @@ curl -v -X PATCH "https://api.tink.com/enrichment/v1/transactions" \
 ]'
 ```
 
-If your update has been successful, you should receive an HTTP 204 response. If your body was misconstructed, you will receive an HTTP 400 response. You can [call the list enriched transactions endpoint](https://docs.tink.com/resources/data-enrichment/fetch-enriched-transactions-for-a-user) to check what the transaction(s) look like now, if you’d like to.
+If your update has been successful, you should receive an HTTP 204 response. If your body was misconstructed, you will receive an HTTP 400 response. You can [call the list enriched transactions endpoint](/Tiny-doc/tink_docs_home/resources/data-enrichment/fetch-enriched-transactions-for-a-user/) to check what the transaction(s) look like now, if you’d like to.

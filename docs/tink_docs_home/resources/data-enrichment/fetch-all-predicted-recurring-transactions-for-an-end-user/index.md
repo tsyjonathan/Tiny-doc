@@ -1,6 +1,6 @@
 ---
 title: "Fetch all predicted recurring transactions for an end user"
-source: "https://docs.tink.com/resources/data-enrichment/fetch-all-predicted-recurring-transactions-for-an-end-user"
+source: "/Tiny-doc/tink_docs_home/resources/data-enrichment/fetch-all-predicted-recurring-transactions-for-an-end-user/"
 exportedAt: "2026-01-13T12:47:52.133Z"
 ---
 To fetch the user’s recurring transactions, call the `/enrichment/v1/predicted-recurring-transactions` endpoint.
@@ -12,7 +12,7 @@ curl -X 'GET' \
   -H 'accept: application/json'
 ```
 
-Results are paginated – to learn more about pagination and how to work with it click [here](https://docs.tink.com/resources/data-enrichment/generating-a-user-access-token-and-querying-end-user-data#pagination).
+Results are paginated – to learn more about pagination and how to work with it click [here](/Tiny-doc/tink_docs_home/resources/data-enrichment/generating-a-user-access-token-and-querying-end-user-data/#pagination).
 
 **Example response:**
 
@@ -69,4 +69,4 @@ curl -X 'GET' \
 
 A possible use case for this data is to get a sum of all predicted recurring transactions costs for a user, to do this loop over the amount.predicted.value values for all predicted recurring transactions for a user – this will give you a prediction of fixed costs for that user.
 
-_**Note!** If you are ingesting accounts through [the Connector](https://docs.tink.com/api#connector), you can choose to exclude predicted recurring transactions for those accounts by setting the 'exclusion' flag to either 'PFM\_DATA' or 'PFM\_AND\_SEARCH'. For more information see [the account ingestion documentation here](https://docs.tink.com/api#connector/account)._
+_**Note!** If you are ingesting accounts through [the Connector](/Tiny-doc/tink_docs_api/api/#connector), you can choose to exclude predicted recurring transactions for those accounts by setting the 'exclusion' flag to either 'PFM\_DATA' or 'PFM\_AND\_SEARCH'. For more information see [the account ingestion documentation here](/Tiny-doc/tink_docs_api/api/#connector/account)._

@@ -1,13 +1,13 @@
 ---
 title: "Create a list of categorised transactions"
-source: "https://docs.tink.com/resources/money-manager/money-manager-api/list-categorised-transactions"
+source: "/Tiny-doc/tink_docs_home/resources/money-manager/money-manager-api/list-categorised-transactions/"
 exportedAt: "2026-01-13T12:50:00.454Z"
 ---
 We will show you how to fetch a user's latest transactions. It will be sorted by date, including a cleaned transaction description, amount, currency and category. This can be used to help your end users get a quick overview of all their accounts from different providers and see transactions in one single place.
 
 ## 1\. List transactions[](#list-transactions)
 
-To fetch a user's transactions, you need to use the [Search endpoint](https://docs.tink.com/api#data-v1/search). As part of the API call, you also need to include a `user access token` with the `transactions:read` scope. A detailed description of the API and its capabilities can be found [here](https://docs.tink.com/api#data-v1/search).
+To fetch a user's transactions, you need to use the [Search endpoint](/Tiny-doc/tink_docs_api/api/#data-v1/search). As part of the API call, you also need to include a `user access token` with the `transactions:read` scope. A detailed description of the API and its capabilities can be found [here](/Tiny-doc/tink_docs_api/api/#data-v1/search).
 
 In this example, we will use dates as the main query parameter to list all possible transactions during the last three months. In the response, you will get an ordered list of transactions with details.
 
@@ -123,7 +123,7 @@ Filter on the fields above and you have a simple list of the users' latest trans
 
 ## 2\. Fetch category names[](#fetch-category-names)
 
-You then need to fetch a list of available categories to match up against the category IDs you received from the search endpoint. This is achieved by using the [list categories](https://docs.tink.com/api#general/category/list-categories) endpoint when unauthenticated.
+You then need to fetch a list of available categories to match up against the category IDs you received from the search endpoint. This is achieved by using the [list categories](/Tiny-doc/tink_docs_api/api/#general/category/list-categories) endpoint when unauthenticated.
 
 Example request:
 
@@ -158,7 +158,7 @@ From this response, you'll need the following parameters:
 | `primaryName` | The primary name of this category |
 | `secondaryName` | The secondary name of this category |
 
-You are now able to match the ID from the [List categories](https://docs.tink.com/api#general/category/list-categories) response and `categoryId` from the [Search](https://docs.tink.com/api#data-v1/search) response to derive the category name.
+You are now able to match the ID from the [List categories](/Tiny-doc/tink_docs_api/api/#general/category/list-categories) response and `categoryId` from the [Search](/Tiny-doc/tink_docs_api/api/#data-v1/search) response to derive the category name.
 
 > **Note**: Primary name is the top level category name (e.g. Food & Drinks), while the secondary name is the subcategory level name (e.g. Restaurant). You can choose to present either to the end-user or use your own wording.
 

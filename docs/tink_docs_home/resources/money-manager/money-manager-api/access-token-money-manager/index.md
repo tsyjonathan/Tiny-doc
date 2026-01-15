@@ -1,6 +1,6 @@
 ---
 title: "Get a User Access Token to access Money Manager features"
-source: "https://docs.tink.com/resources/money-manager/money-manager-api/access-token-money-manager"
+source: "/Tiny-doc/tink_docs_home/resources/money-manager/money-manager-api/access-token-money-manager/"
 exportedAt: "2026-01-13T12:51:28.906Z"
 ---
 > **Note:** In this guide, we'll show you how to obtain a user access token with the `transactions:read` scopes. Depending on the feature guide you follow or which Money Manager API endpoint you are wanting to access, you may require different scopes. Please refer to the pre-requisites in each guide or the API documentation to know what scopes to include when requesting the user access token.

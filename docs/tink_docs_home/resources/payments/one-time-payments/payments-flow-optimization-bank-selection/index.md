@@ -1,6 +1,6 @@
 ---
 title: "Bank selection - Tink Docs"
-source: "https://docs.tink.com/resources/payments/one-time-payments/payments-flow-optimization-bank-selection"
+source: "/Tiny-doc/tink_docs_home/resources/payments/one-time-payments/payments-flow-optimization-bank-selection/"
 exportedAt: "2026-01-13T12:42:25.787Z"
 ---
 The bank selection screen is the first step of the payment flow in Tink Link for web, enabling the user to select their bank. You can configure this screen to either be shown as part of the Tink Link web flow, or host it in your own app for a more embedded experience.
@@ -15,9 +15,9 @@ This is the default setting when implementing Tink Link for web. The screen abov
 
 ## Hosting the screen in your own app[](#hosting-the-screen-in-your-own-app)
 
-You can alternatively build and host the bank selection screen in your own app. First step is to list the banks that are enabled for Payments by using the [provider endpoint](https://docs.tink.com/api#connectivity/provider/list-providers-for-a-market) with the TRANSFER capability as parameter: `https://api.tink.com/api/v1/providers/GB?capability=TRANSFERS`. This will return the proper subset of providers that will be available to do payments for the specific market.
+You can alternatively build and host the bank selection screen in your own app. First step is to list the banks that are enabled for Payments by using the [provider endpoint](/Tiny-doc/tink_docs_api/api/#connectivity/provider/list-providers-for-a-market) with the TRANSFER capability as parameter: `https://api.tink.com/api/v1/providers/GB?capability=TRANSFERS`. This will return the proper subset of providers that will be available to do payments for the specific market.
 
-Then you can populate the `input_provider` parameter as described [here](https://docs.tink.com/resources/payments/start-payment#construct-a-payment-link), the user lands directly in the flow without needing to select their bank again.
+Then you can populate the `input_provider` parameter as described [here](/Tiny-doc/tink_docs_home/resources/payments/start-payment/#construct-a-payment-link), the user lands directly in the flow without needing to select their bank again.
 
 ## Populating the users’ chosen bank[](#populating-the-users-chosen-bank)
 

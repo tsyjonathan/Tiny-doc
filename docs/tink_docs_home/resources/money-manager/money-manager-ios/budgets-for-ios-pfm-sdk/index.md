@@ -1,6 +1,6 @@
 ---
 title: "Budgets for iOS - Tink Docs"
-source: "https://docs.tink.com/resources/money-manager/money-manager-ios/budgets-for-ios-pfm-sdk"
+source: "/Tiny-doc/tink_docs_home/resources/money-manager/money-manager-ios/budgets-for-ios-pfm-sdk/"
 exportedAt: "2026-01-13T12:52:15.982Z"
 ---
 ![Budgets](https://images.ctfassets.net/tmqu5vj33f7w/5Ywq6EBLVlNE93dxWR5gO1/904759b9f1da777b176066f1d7439078/budgetList.png)

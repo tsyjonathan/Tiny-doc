@@ -1,6 +1,6 @@
 ---
 title: "Money Manager SDK for Android"
-source: "https://docs.tink.com/resources/pfm-sdk-android"
+source: "/Tiny-doc/tink_docs_home/resources/pfm-sdk-android/"
 exportedAt: "2026-01-13T12:58:55.371Z"
 ---
 ![PFM SDK Android](https://images.ctfassets.net/tmqu5vj33f7w/63ECPAITBhUtsy54d7DTfr/a3553270c02e62bfca691cc64f4255cd/PFM_SDK_Android.jpg)

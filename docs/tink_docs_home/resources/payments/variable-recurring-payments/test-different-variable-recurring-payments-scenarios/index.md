@@ -1,6 +1,6 @@
 ---
 title: "Test different Variable Recurring Payment scenarios"
-source: "https://docs.tink.com/resources/payments/variable-recurring-payments/test-different-variable-recurring-payments-scenarios"
+source: "/Tiny-doc/tink_docs_home/resources/payments/variable-recurring-payments/test-different-variable-recurring-payments-scenarios/"
 exportedAt: "2026-01-13T12:43:06.390Z"
 ---
 ## Demo Bank[](#demo-bank)
@@ -19,19 +19,19 @@ For testing initiating a Variable Recurring Payment (VRP) mandate in Demo Bank w
 
 ## Select a test provider[](#select-a-test-provider)
 
-The first thing to do is to find which Demo Bank provider to use when creating a sweeping VRP mandate. To learn which Demo Bank providers allow `VRP_SWEEPING`, filter the list of providers by querying the [providers endpoint](https://docs.tink.com/api#connectivity/provider/list-providers-for-a-market). Use the `pisCapability` query parameter with the value `VRP_SWEEPING` and the `includeTestProvider` query parameter with the value `true`:
+The first thing to do is to find which Demo Bank provider to use when creating a sweeping VRP mandate. To learn which Demo Bank providers allow `VRP_SWEEPING`, filter the list of providers by querying the [providers endpoint](/Tiny-doc/tink_docs_api/api/#connectivity/provider/list-providers-for-a-market). Use the `pisCapability` query parameter with the value `VRP_SWEEPING` and the `includeTestProvider` query parameter with the value `true`:
 
 `https://api.tink.com/api/v1/providers/GB?pisCapability=VRP_SWEEPING&includeTestProviders=true`
 
 ## Build the URL[](#build-the-url)
 
-After a Demo Bank provider is selected you can create a sweeping VRP mandate and create a Tink URL to allow the end user to authorize the mandate. To do this, follow the first five steps in the [Initiate a sweeping Variable Recurring Payment](https://docs.tink.com/resources/payments/variable-recurring-payments/initiate-your-first-sweeping-variable-recurring-payment) article in this order:
+After a Demo Bank provider is selected you can create a sweeping VRP mandate and create a Tink URL to allow the end user to authorize the mandate. To do this, follow the first five steps in the [Initiate a sweeping Variable Recurring Payment](/Tiny-doc/tink_docs_home/resources/payments/variable-recurring-payments/initiate-your-first-sweeping-variable-recurring-payment/) article in this order:
 
-1.  [Authenticate your client for mandate creation](https://docs.tink.com/resources/payments/variable-recurring-payments/initiate-your-first-sweeping-variable-recurring-payment#authenticate-your-client-for-mandate-creation)
-2.  [Create a permanent user](https://docs.tink.com/resources/payments/variable-recurring-payments/initiate-your-first-sweeping-variable-recurring-payment#create-a-permanent-user)
-3.  [Create a sweeping VRP mandate](https://docs.tink.com/resources/payments/variable-recurring-payments/initiate-your-first-sweeping-variable-recurring-payment#create-a-sweeping-variable-recurring-payment-mandate)
-4.  [Create a user authorization code](https://docs.tink.com/resources/payments/variable-recurring-payments/initiate-your-first-sweeping-variable-recurring-payment#create-a-user-authorization-code)
-5.  [Authorize a sweeping VRP mandate](https://docs.tink.com/resources/payments/variable-recurring-payments/initiate-your-first-sweeping-variable-recurring-payment#authorize-a-sweeping-variable-recurring-payment-mandate)
+1.  [Authenticate your client for mandate creation](/Tiny-doc/tink_docs_home/resources/payments/variable-recurring-payments/initiate-your-first-sweeping-variable-recurring-payment/#authenticate-your-client-for-mandate-creation)
+2.  [Create a permanent user](/Tiny-doc/tink_docs_home/resources/payments/variable-recurring-payments/initiate-your-first-sweeping-variable-recurring-payment/#create-a-permanent-user)
+3.  [Create a sweeping VRP mandate](/Tiny-doc/tink_docs_home/resources/payments/variable-recurring-payments/initiate-your-first-sweeping-variable-recurring-payment/#create-a-sweeping-variable-recurring-payment-mandate)
+4.  [Create a user authorization code](/Tiny-doc/tink_docs_home/resources/payments/variable-recurring-payments/initiate-your-first-sweeping-variable-recurring-payment/#create-a-user-authorization-code)
+5.  [Authorize a sweeping VRP mandate](/Tiny-doc/tink_docs_home/resources/payments/variable-recurring-payments/initiate-your-first-sweeping-variable-recurring-payment/#authorize-a-sweeping-variable-recurring-payment-mandate)
 
 You’ll find instructions on how to build the Tink URL in the [Authorize a sweeping VRP mandate](#authorize-a-sweeping-variable-recurring-payment-mandate) step.
 
@@ -81,6 +81,6 @@ Select **Back to Merchant**.
 
 ![Frame 8](https://images.ctfassets.net/tmqu5vj33f7w/6Gw9nIdWPj8bV7EmZ2V2KJ/656a05d424ae53f51a93d753fbe34ba1/Frame_7.png)
 
-Your sweeping VRP mandate is now ready to be used to initiate a Variable Recurring Payment. To do this, follow the steps to [Authenticate your client for VRP initiation](https://docs.tink.com/resources/payments/variable-recurring-payments/initiate-your-first-sweeping-variable-recurring-payment#authenticate-your-client-for-variable-recurring-payments-initiation) and [Initiate a sweeping VRP](https://docs.tink.com/resources/payments/variable-recurring-payments/initiate-your-first-sweeping-variable-recurring-payment#initiate-a-sweeping-variable-recurring-payment).
+Your sweeping VRP mandate is now ready to be used to initiate a Variable Recurring Payment. To do this, follow the steps to [Authenticate your client for VRP initiation](/Tiny-doc/tink_docs_home/resources/payments/variable-recurring-payments/initiate-your-first-sweeping-variable-recurring-payment/#authenticate-your-client-for-variable-recurring-payments-initiation) and [Initiate a sweeping VRP](/Tiny-doc/tink_docs_home/resources/payments/variable-recurring-payments/initiate-your-first-sweeping-variable-recurring-payment/#initiate-a-sweeping-variable-recurring-payment).
 
-To learn about how you can revoke a sweeping VRP mandate, follow this step to [Revoke a sweeping VRP mandate](https://docs.tink.com/resources/payments/variable-recurring-payments/initiate-your-first-sweeping-variable-recurring-payment#revoke-a-sweeping-variable-recurring-payment-mandate).
+To learn about how you can revoke a sweeping VRP mandate, follow this step to [Revoke a sweeping VRP mandate](/Tiny-doc/tink_docs_home/resources/payments/variable-recurring-payments/initiate-your-first-sweeping-variable-recurring-payment/#revoke-a-sweeping-variable-recurring-payment-mandate).

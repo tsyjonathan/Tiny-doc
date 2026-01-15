@@ -1,6 +1,6 @@
 ---
 title: "Introduction to Balance Check - Tink Docs"
-source: "https://docs.tink.com/resources/balance-check/introduction-to-balance-check"
+source: "/Tiny-doc/tink_docs_home/resources/balance-check/introduction-to-balance-check/"
 exportedAt: "2026-01-13T12:44:09.382Z"
 ---
 ## Introduction[](#introduction)
@@ -27,4 +27,4 @@ What this means for merchants:
 
 ### How to set up Balance Check[](#how-to-set-up-balance-check)
 
-To set up your app with Balance Check, see [Balance Check Integration](https://docs.tink.com/resources/account-check/balance-check-integration).
+To set up your app with Balance Check, see [Balance Check Integration](/Tiny-doc/tink_docs_home/resources/account-check/balance-check-integration/).

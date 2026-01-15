@@ -1,11 +1,11 @@
 ---
 title: "Balances Endpoint - Tink Docs"
-source: "https://docs.tink.com/resources/aggregation/balances"
+source: "/Tiny-doc/tink_docs_home/resources/aggregation/balances/"
 exportedAt: "2026-01-13T12:55:36.791Z"
 ---
 The balances object represents a bank account's balances. This object is populated after the first aggregation journey has ended successfully, and is updated on each subsequent successful credential refresh.
 
-The [_/accounts/{id}/balances_ endpoint](https://docs.tink.com/api#data-v1/account/get-balances-for-account) will return an object that contains the following 3 kinds of balances:
+The [_/accounts/{id}/balances_ endpoint](/Tiny-doc/tink_docs_api/api/#data-v1/account/get-balances-for-account) will return an object that contains the following 3 kinds of balances:
 
 -   **Booked Balance**: This is the current booked/ledger balance of the account, as specified by the bank. If the bank only provides us with one balance, it will appear here.  
     Note: Booked balance will always be returned.
@@ -27,9 +27,9 @@ The account's available balance is immediately updated all day long to reflect a
 
 **Working with the balances endpoint**:
 
-1.  Create a credential using the [create credentials](https://docs.tink.com/api#connectivity/credentials/create-credentials) endpoint.
+1.  Create a credential using the [create credentials](/Tiny-doc/tink_docs_api/api/#connectivity/credentials/create-credentials) endpoint.
 2.  Complete the authentication process and first aggregation journey.
-3.  List aggregated accounts using the [list accounts](https://docs.tink.com/api#data-v1/account/list-accounts) endpoint to get the account ids.
+3.  List aggregated accounts using the [list accounts](/Tiny-doc/tink_docs_api/api/#data-v1/account/list-accounts) endpoint to get the account ids.
 4.  Fetch balances data using the _/api/v1/accounts/{{account\_id}}/balances_ endpoint.
 
 Sample response from /balances endpoint:

@@ -1,6 +1,6 @@
 ---
 title: "Postman collections - Tink Docs"
-source: "https://docs.tink.com/resources/transactions/postman-collection-for-transactions"
+source: "/Tiny-doc/tink_docs_home/resources/transactions/postman-collection-for-transactions/"
 exportedAt: "2026-01-13T12:58:00.389Z"
 ---
 ![Postman collections](https://images.ctfassets.net/tmqu5vj33f7w/6CpgyCvFmSkKaghfxcp9rq/f889ee3413027b3dc175204ce7c1968b/Postman-collections.png)

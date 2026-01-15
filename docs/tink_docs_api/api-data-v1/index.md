@@ -1,9 +1,9 @@
 ---
 title: "Tink Docs"
-source: "https://docs.tink.com/api-data-v1"
+source: "/Tiny-doc/tink_docs_api/api-data-v1/"
 exportedAt: "2026-01-13T13:02:59.305Z"
 ---
-## Data v1[](https://docs.tink.com/api-data-v1)
+## Data v1[](/Tiny-doc/tink_docs_api/api-data-v1/)
 
 The Data v1 section contains resources that are used by multiple account information products, including Account Check and Business Account Check.
 
@@ -209,7 +209,7 @@ The amount of funds the customer is able to withdraw from the account, not inclu
 booked `[CurrencyDenominatedAmount](#tag-account-currencydenominatedamount)` required
 
 The current “booked”/”ledger” balance of the account, as specified by the bank. If the bank only provides us with one balance type, it will appear here.  
-See [Account balance](https://docs.tink.com/api#account) for detailed description.
+See [Account balance](/Tiny-doc/tink_docs_api/api/#account) for detailed description.
 
 creditLimit `[CurrencyDenominatedAmount](#tag-account-currencydenominatedamount)`
 
@@ -393,7 +393,7 @@ See [Account](#tag-account) for parameter descriptions.
 
 ## Account Verification[](#data-v1/account-verification)
 
-The Account Verification Report API is used to verify a user's bank account and provide" + " account details." + "This API is e.g. used in the [Account" + " Check](https://docs.tink.com/resources/account-check) flow, as a way to retrieve" + " the account information." + "_Note:_ The report is a temporary resource that will be available for retrieval for" + " 1h after creation.
+The Account Verification Report API is used to verify a user's bank account and provide" + " account details." + "This API is e.g. used in the [Account" + " Check](/Tiny-doc/tink_docs_home/resources/account-check/) flow, as a way to retrieve" + " the account information." + "_Note:_ The report is a temporary resource that will be available for retrieval for" + " 1h after creation.
 
 ### The Account Verification model[](#data-v1/account-verification/the-account-verification-model)
 
@@ -758,7 +758,7 @@ Create an Account Verification report for a user. The report is a temporary reso
 
 ### Response: [AccountVerification](#tag-accountverification)[](#data-v1/account-verification/create-account-verification-report/response-accountverification)
 
-The Account Verification Report API is used to verify a user's bank account and provide" + " account details." + "This API is e.g. used in the [Account" + " Check](https://docs.tink.com/resources/account-check) flow, as a way to retrieve" + " the account information." + "_Note:_ The report is a temporary resource that will be available for retrieval for" + " 1h after creation.
+The Account Verification Report API is used to verify a user's bank account and provide" + " account details." + "This API is e.g. used in the [Account" + " Check](/Tiny-doc/tink_docs_home/resources/account-check/) flow, as a way to retrieve" + " the account information." + "_Note:_ The report is a temporary resource that will be available for retrieval for" + " 1h after creation.
 
 See [AccountVerification](#tag-accountverification) for parameter descriptions.
 
@@ -880,7 +880,7 @@ Fetch a PDF report based on the data returned in the Account Verification report
 
 ### Response: [AccountVerification](#tag-accountverification)[](#data-v1/account-verification/get-account-verification-pdf-report/response-accountverification)
 
-The Account Verification Report API is used to verify a user's bank account and provide" + " account details." + "This API is e.g. used in the [Account" + " Check](https://docs.tink.com/resources/account-check) flow, as a way to retrieve" + " the account information." + "_Note:_ The report is a temporary resource that will be available for retrieval for" + " 1h after creation.
+The Account Verification Report API is used to verify a user's bank account and provide" + " account details." + "This API is e.g. used in the [Account" + " Check](/Tiny-doc/tink_docs_home/resources/account-check/) flow, as a way to retrieve" + " the account information." + "_Note:_ The report is a temporary resource that will be available for retrieval for" + " 1h after creation.
 
 See [AccountVerification](#tag-accountverification) for parameter descriptions.
 
@@ -997,7 +997,7 @@ Fetch report JSON data based on a report identifier.
 
 ### Response: [AccountVerification](#tag-accountverification)[](#data-v1/account-verification/get-account-verification-report/response-accountverification)
 
-The Account Verification Report API is used to verify a user's bank account and provide" + " account details." + "This API is e.g. used in the [Account" + " Check](https://docs.tink.com/resources/account-check) flow, as a way to retrieve" + " the account information." + "_Note:_ The report is a temporary resource that will be available for retrieval for" + " 1h after creation.
+The Account Verification Report API is used to verify a user's bank account and provide" + " account details." + "This API is e.g. used in the [Account" + " Check](/Tiny-doc/tink_docs_home/resources/account-check/) flow, as a way to retrieve" + " the account information." + "_Note:_ The report is a temporary resource that will be available for retrieval for" + " 1h after creation.
 
 See [AccountVerification](#tag-accountverification) for parameter descriptions.
 

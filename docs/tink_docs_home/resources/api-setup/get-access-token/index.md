@@ -1,14 +1,14 @@
 ---
 title: "How to get an access token"
-source: "https://docs.tink.com/resources/api-setup/get-access-token"
+source: "/Tiny-doc/tink_docs_home/resources/api-setup/get-access-token/"
 exportedAt: "2026-01-13T12:56:43.041Z"
 ---
 ## Token types[](#token-types)
 
--   The **Client Token** - Allows access to requests made by your app. Endpoints containing `Client Token` under `Allowed Token Types` in the [API Reference](https://docs.tink.com/api) can be accessed by providing this token.
--   The **User Token** - Allows access to the data of a [Tink User](https://docs.tink.com/resources/aggregation/what-is-a-tink-user) connected to your app. Endpoints containing `User token` under `Allowed Token Types` in the [API Reference](https://docs.tink.com/api) can be accessed by providing this token.
+-   The **Client Token** - Allows access to requests made by your app. Endpoints containing `Client Token` under `Allowed Token Types` in the [API Reference](/Tiny-doc/tink_docs_api/api/) can be accessed by providing this token.
+-   The **User Token** - Allows access to the data of a [Tink User](/Tiny-doc/tink_docs_home/resources/aggregation/what-is-a-tink-user/) connected to your app. Endpoints containing `User token` under `Allowed Token Types` in the [API Reference](/Tiny-doc/tink_docs_api/api/) can be accessed by providing this token.
 
-**Documentation**: Visit the [OAuth API](https://docs.tink.com/api#general/oauth).
+**Documentation**: Visit the [OAuth API](/Tiny-doc/tink_docs_api/api/#general/oauth).
 
 **Purpose**: This will return an API token (valid only for the authenticated backend client) that can be used to modify the users tied to your `client_id`. Remember that your `client_secret` should be kept a secret: only use it to authenticate against the Tink platform and don’t share it outside your organization.
 
@@ -39,7 +39,7 @@ curl -v -X POST https://api.tink.com/api/v1/oauth/token \
 
 ## Add a user[](#add-a-user)
 
-**Documentation**: Visit the [User API](https://docs.tink.com/api#general/user).
+**Documentation**: Visit the [User API](/Tiny-doc/tink_docs_api/api/#general/user).
 
 **Purpose**: Create a user within the Tink platform to be used for any future operation.
 
@@ -71,7 +71,7 @@ curl -v -X POST https://api.tink.com/api/v1/user/create \
 
 ## Grant access to a user[](#grant-access-to-a-user)
 
-**Documentation**: Visit the [OAuth API](https://docs.tink.com/api#general/oauth).
+**Documentation**: Visit the [OAuth API](/Tiny-doc/tink_docs_api/api/#general/oauth).
 
 **Purpose**: Create an authorization for the given `user_id` with the requested scopes.
 
@@ -98,7 +98,7 @@ curl -X POST https://api.tink.com/api/v1/oauth/authorization-grant \
 
 ## Get the OAuth access token for the user[](#get-the-oauth-access-token-for-the-user)
 
-**Documentation**: Visit the [OAuth API](https://docs.tink.com/api#general/oauth).
+**Documentation**: Visit the [OAuth API](/Tiny-doc/tink_docs_api/api/#general/oauth).
 
 **Purpose**: This will return an API token (valid only for the authenticated user).
 

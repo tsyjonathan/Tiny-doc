@@ -1,6 +1,6 @@
 ---
 title: "Sign documents and data with your QSealC"
-source: "https://docs.tink.com/resources/open-banking/sign-documents-and-data-with-your-qsealc"
+source: "/Tiny-doc/tink_docs_home/resources/open-banking/sign-documents-and-data-with-your-qsealc/"
 exportedAt: "2026-01-13T12:55:14.733Z"
 ---
 In this article, we illustrate how you could sign arbitrary data or pdf with your QSealC certificate using REST API. The same feature is also available from Tink’s secret\_utils script (since version 5.1.0).
@@ -32,7 +32,7 @@ curl -v -X POST https://api.tink.com/api/v1/oauth/token \
 }
 ```
 
-For more information, see [OAuth get access token API](https://docs.tink.com/api#general/oauth/get-access-token)
+For more information, see [OAuth get access token API](/Tiny-doc/tink_docs_api/api/#general/oauth/get-access-token)
 
 ## Create digital signatures[](#create-digital-signatures)
 

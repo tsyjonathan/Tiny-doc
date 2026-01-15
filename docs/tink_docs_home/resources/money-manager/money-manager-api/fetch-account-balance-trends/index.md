@@ -1,6 +1,6 @@
 ---
 title: "Fetch account balance trends - Tink Docs"
-source: "https://docs.tink.com/resources/money-manager/money-manager-api/fetch-account-balance-trends"
+source: "/Tiny-doc/tink_docs_home/resources/money-manager/money-manager-api/fetch-account-balance-trends/"
 exportedAt: "2026-01-13T12:50:35.021Z"
 ---
 In this guide, we are going to look at account balance trends for an account over a one year period.
@@ -62,4 +62,4 @@ The response contains a list of statistics data points grouped by account:
 
 The `description` field represents the user's account\_id and the `value` field represents the account balance for that period, which you can use to present to your user.
 
-See also: [https://docs.tink.com/api#finance-management/statistics/query-statistics](https://docs.tink.com/api#finance-management/statistics/query-statistics)
+See also: [/Tiny-doc/tink_docs_api/api/#finance-management/statistics/query-statistics](/Tiny-doc/tink_docs_api/api/#finance-management/statistics/query-statistics)

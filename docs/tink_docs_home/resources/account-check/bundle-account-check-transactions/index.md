@@ -1,6 +1,6 @@
 ---
 title: "Fetch account and transaction data in one flow"
-source: "https://docs.tink.com/resources/account-check/bundle-account-check-transactions"
+source: "/Tiny-doc/tink_docs_home/resources/account-check/bundle-account-check-transactions/"
 exportedAt: "2026-01-13T12:43:34.467Z"
 ---
 Tink only requires one single authentication to fetch multiple data points from a bank account. In other words, a user must authenticate only once to fetch data from more than one Tink product. There's no need for users to reauthenticate. This is useful when, for example, you will need to fetch account verification data and transaction data at the same time.
@@ -19,7 +19,7 @@ For more details on the synchronous and the asynchronous flow, see [2\. Handle c
 
 Account Check and our other reports now support webhooks. You can signup to receive a webhook event when the report generation has finished to remove the need to poll for status updates. You still need to fetch the report using the reportId like before.
 
-To get started with webhooks you can follow this [guide](https://docs.tink.com/resources/api-setup/webhooks). You subscribe to the report generation webhooks by calling the create webhooks API.
+To get started with webhooks you can follow this [guide](/Tiny-doc/tink_docs_home/resources/api-setup/webhooks/). You subscribe to the report generation webhooks by calling the create webhooks API.
 
 **request example**
 
@@ -81,7 +81,7 @@ After subscribing to the webhook you go through the report generation flow like 
 }
 ```
 
-The message will contain two parts, a context part and a content part. The context contains userId for what user the report was generated for and an externalReference which would be an id or message of some kind that you have provided to use as some identification to know for whom the report belongs too. See externalReference in the [API](https://docs.tink.com/resources/api-setup/webhooks) guide or further down in section 1 Build the URL.
+The message will contain two parts, a context part and a content part. The context contains userId for what user the report was generated for and an externalReference which would be an id or message of some kind that you have provided to use as some identification to know for whom the report belongs too. See externalReference in the [API](/Tiny-doc/tink_docs_home/resources/api-setup/webhooks/) guide or further down in section 1 Build the URL.
 
 The second part context will contain information about the reports that was requested. Context will contain a list of all reports with reportId if the report was generated. The status is representing what status the report ended up as, FAILED or CREATED. If failed it will also provide an error field with more info on why it failed.
 
@@ -115,12 +115,12 @@ This URL can include these parameters:
 | account\_dialog\_type | yes | Should the end user be able to select which account to use? If yes, use this parameter. Values: `SINGLE`\=select a single account, `MULTI`\=select multiple accounts, `NONE`\=no selection dialog. |
 | customer\_reference\_id | no | A user reference which will be passed back to you once the reports flow is completed. |
 | external\_reference | no | The external reference identifier to be included in the report. Allowed characters: uppercase or lowercase formatting, letters, numbers, and the dash character. Maximum length: 50 characters. |
-| session\_id | no | Use a [session](https://docs.tink.com/api#general/tink-link/session) to securely configure Tink Link, pre-fill data or apply merchant level customization. |
+| session\_id | no | Use a [session](/Tiny-doc/tink_docs_api/api/#general/tink-link/session) to securely configure Tink Link, pre-fill data or apply merchant level customization. |
 | async | no | Set this to `true` to enable early redirect. If enabled, this feature redirects the user to your application after the user has authenticated, which reduces the wait time for the user while data is fetched and processed. This feature is only applicable when account\_dialog\_type=`NONE`. |
 | app\_uri | no | Should be used if Tink Link is embedded inside an Android/iOS app. Will use the deep link specified to redirect the user back to the hosting app after authenticating in a third-party app (such as Mobile Bank ID). |
 | input\_provider | no | A specified list of providers that are presented to the end user. If this parameter is not used, the full list of providers is presented. |
 | input\_username | no | Pre-fills the username field for supported providers. Providing this makes most sense if the username is a general username, valid for multiple banks (like a SSN). |
-| theme | no | Requires both a `LIGHT` and `DARK` theme to be configured to have any effect. When `LIGHT` and `DARK` theme are configured it will default the theme that matches the end-user system preference. Using `?theme=DARK` will force the DARK theme to be used regardless of the end-user system preference. Reach out to [support](https://docs.tink.com/resources/support) for enabling a dark theme. |
+| theme | no | Requires both a `LIGHT` and `DARK` theme to be configured to have any effect. When `LIGHT` and `DARK` theme are configured it will default the theme that matches the end-user system preference. Using `?theme=DARK` will force the DARK theme to be used regardless of the end-user system preference. Reach out to [support](/Tiny-doc/tink_docs_home/resources/support/) for enabling a dark theme. |
 
 In this example URL, the market is `SE` and its output will generate both an Account Check and a Transactions report.
 
@@ -138,7 +138,7 @@ When the end user accesses the URL, they are requested to authenticate to their 
 
 When a user reaches the end of a Tink flow, they're redirected to the callback URI that you've provided in the URL. In case something goes wrong and you don't receive a callback with report identifiers, the flow hasn't completed successfully.
 
-There are several reasons why the flow may fail. For a list of all error codes, see [Handle Account Check error codes](https://docs.tink.com/resources/account-check/handle-account-check-error-codes).
+There are several reasons why the flow may fail. For a list of all error codes, see [Handle Account Check error codes](/Tiny-doc/tink_docs_home/resources/account-check/handle-account-check-error-codes/).
 
 **The successful callback has this structure:**
 
@@ -247,7 +247,7 @@ https://api.tink.com/api/v1/reports-generation-jobs/ \
 -H 'Authorization: Bearer '
 ```
 
-If the status is in a `PENDING` state, we recommend polling this endpoint until you see a "final" state, `COMPLETED`. We recommend you to poll at 1 RPS (request per second). There is a practical aspect to this as Tink will need to wait for the banks to provide the end user's data and that can be seconds up to minutes. For more information, see [Reports Generation Jobs](https://docs.tink.com/api#general/reports-generation-jobs) in our API reference.
+If the status is in a `PENDING` state, we recommend polling this endpoint until you see a "final" state, `COMPLETED`. We recommend you to poll at 1 RPS (request per second). There is a practical aspect to this as Tink will need to wait for the banks to provide the end user's data and that can be seconds up to minutes. For more information, see [Reports Generation Jobs](/Tiny-doc/tink_docs_api/api/#general/reports-generation-jobs) in our API reference.
 
 **Response example:**
 
@@ -280,9 +280,9 @@ Once you have retrieved the report IDs in step 2.1 for synchronous or in step 4 
 
 > **Note:** The reports will only contain data from accounts that the end user has selected. To include all of the end user's accounts in the report, add `account_dialog_type=NONE` to the URL.
 
-To retrieve the Account Check report, call the [Account Verification Report API](https://docs.tink.com/api#data-v1/account-verification) client access token. You already have the client access token, so you just need to retrieve the JSON.
+To retrieve the Account Check report, call the [Account Verification Report API](/Tiny-doc/tink_docs_api/api/#data-v1/account-verification) client access token. You already have the client access token, so you just need to retrieve the JSON.
 
-To retrieve transactions, call the [Transactions Report API](https://docs.tink.com/api#data-v2/transaction-report/get-transaction-report) client access token. This will provide you with a transaction report:
+To retrieve transactions, call the [Transactions Report API](/Tiny-doc/tink_docs_api/api/#data-v2/transaction-report/get-transaction-report) client access token. This will provide you with a transaction report:
 
 **cURL examples:**
 

@@ -1,6 +1,6 @@
 ---
 title: "Getting started with Money Manager on Android"
-source: "https://docs.tink.com/resources/pfm-sdk-android/pfm-sdk-android-tutorial"
+source: "/Tiny-doc/tink_docs_home/resources/pfm-sdk-android/pfm-sdk-android-tutorial/"
 exportedAt: "2026-01-13T12:58:57.737Z"
 ---
 ## Installation[](#installation)
@@ -58,7 +58,7 @@ compileOptions {
         )
     ```
     
-    `[1]` _This is only required if you also use Tink Link in your application. Please follow the [third party authentication guide](https://docs.tink.com/resources/tutorials/tink-link-sdk-android-tutorial#third-party-authentication) to set this up. Otherwise, this can be just set to `https://localhost:3000/callback` as shown in the sample above. We will be working on improving this setup and making this field optional in the future._
+    `[1]` _This is only required if you also use Tink Link in your application. Please follow the [third party authentication guide](/Tiny-doc/tink_docs_home/resources/tutorials/tink-link-sdk-android-tutorial/#third-party-authentication) to set this up. Otherwise, this can be just set to `https://localhost:3000/callback` as shown in the sample above. We will be working on improving this setup and making this field optional in the future._
     
 2.  Initialize Tink in your application:
     
@@ -68,13 +68,13 @@ compileOptions {
     
     _Tink.init can only be initiliazed once, trying to initialize it a second time will throw an IllegalStateException. We recommend initializing it in your Application class to be sure it's only done once._
     
-3.  Override the `TinkFinanceOverviewStyle` for color customizations. Follow the [customization guide](https://docs.tink.com/resources/pfm-sdk-android/pfm-sdk-android-customization) to set this up.
+3.  Override the `TinkFinanceOverviewStyle` for color customizations. Follow the [customization guide](/Tiny-doc/tink_docs_home/resources/pfm-sdk-android/pfm-sdk-android-customization/) to set this up.
     
-4.  Set up a `EventTracker` implementation. This is optional and you can add the implementation if you want to track screens and events in the finance overview UI. Follow the [tracking guide](https://docs.tink.com/resources/pfm-sdk-android/pfm-sdk-android-event-tracking) to set this up.
+4.  Set up a `EventTracker` implementation. This is optional and you can add the implementation if you want to track screens and events in the finance overview UI. Follow the [tracking guide](/Tiny-doc/tink_docs_home/resources/pfm-sdk-android/pfm-sdk-android-event-tracking/) to set this up.
     
-5.  Create an instance of `OverviewFeatures`. This is optional and can be done if you want to customize the Overview screen. Follow the [customization guide](https://docs.tink.com/resources/pfm-sdk-android/pfm-sdk-android-finance-overview#displaying-the-finance-overview) to set this up.
+5.  Create an instance of `OverviewFeatures`. This is optional and can be done if you want to customize the Overview screen. Follow the [customization guide](/Tiny-doc/tink_docs_home/resources/pfm-sdk-android/pfm-sdk-android-finance-overview/#displaying-the-finance-overview) to set this up.
     
-6.  \[Optional\] Extend the `InsightActionHandler` class, if you want to handle the actions for the insights in the Events UI. Follow the [insight actions guide](https://docs.tink.com/resources/pfm-sdk-android/pfm-sdk-android-handling-insight-actions) to set this up.
+6.  \[Optional\] Extend the `InsightActionHandler` class, if you want to handle the actions for the insights in the Events UI. Follow the [insight actions guide](/Tiny-doc/tink_docs_home/resources/pfm-sdk-android/pfm-sdk-android-handling-insight-actions/) to set this up.
     
 7.  \[Optional\] Extend the `OnBackPressedListener` interface and pass the implementation to the `backPressedListener` parameter, if you want to execute code when the user navigates back in the SDK (either by clicking the navigation icon in the toolbar or the Android OS back button).
     
@@ -96,13 +96,13 @@ compileOptions {
     ```
     
 
-`[1]` Money Manager SDK needs a valid access token for a specific user to function correctly. Since the SDK does not handle any type of authentication, this needs to be done by your backend. See [this link](https://docs.tink.com/api#general/oauth) for more info on how this is done.
+`[1]` Money Manager SDK needs a valid access token for a specific user to function correctly. Since the SDK does not handle any type of authentication, this needs to be done by your backend. See [this link](/Tiny-doc/tink_docs_api/api/#general/oauth) for more info on how this is done.
 
 > **Note:** All data and connections are scoped to the lifecycle of the `FinanceOverviewFragment`, i.e. after it is destroyed, all cached content will be garbage collected. That means it is important to not leak a reference to the fragment so no sensitive user data is retained in memory after usage.
 
 ## Refreshing access tokens[](#refreshing-access-tokens)
 
-User access tokens expire after a set amount of time. You can keep your user logged in by exchanging a refresh token for a new access token [(see Tink docs)](https://docs.tink.com/api#general/oauth/get-access-token) and passing it to the fragment. This will overwrite the token that the fragment was initialzed with. If needed you can also refresh the statistics and latest transactions:
+User access tokens expire after a set amount of time. You can keep your user logged in by exchanging a refresh token for a new access token [(see Tink docs)](/Tiny-doc/tink_docs_api/api/#general/oauth/get-access-token) and passing it to the fragment. This will overwrite the token that the fragment was initialzed with. If needed you can also refresh the statistics and latest transactions:
 
 ```
 financeOverviewFragment.setAccessToken(yourNewToken)

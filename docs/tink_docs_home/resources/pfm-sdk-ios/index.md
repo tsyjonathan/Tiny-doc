@@ -1,6 +1,6 @@
 ---
 title: "Money Manager SDK for iOS"
-source: "https://docs.tink.com/resources/pfm-sdk-ios"
+source: "/Tiny-doc/tink_docs_home/resources/pfm-sdk-ios/"
 exportedAt: "2026-01-13T13:00:05.456Z"
 ---
 ![PFM SDK iOS](https://images.ctfassets.net/tmqu5vj33f7w/14LqohqWTkzGaafHaL0Hnc/5ef5900dd796b68cc9b02000736729e1/PFM_SDK_iOS.jpg)

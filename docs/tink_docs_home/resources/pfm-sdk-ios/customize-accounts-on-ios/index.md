@@ -1,6 +1,6 @@
 ---
 title: "Customize Accounts on iOS - Tink Docs"
-source: "https://docs.tink.com/resources/pfm-sdk-ios/customize-accounts-on-ios"
+source: "/Tiny-doc/tink_docs_home/resources/pfm-sdk-ios/customize-accounts-on-ios/"
 exportedAt: "2026-01-13T12:58:47.492Z"
 ---
 ![AccountsCustomization](https://images.ctfassets.net/tmqu5vj33f7w/2XLjdWBzDIiZrM4YkmnrIk/f427de521b1f4c56b9fc2b03925f3d32/iOS-Accounts-Customisation.png)
@@ -31,4 +31,4 @@ If you only want to have a few colors for the Account feature different from the
 Appearance.provider.accountColors.accent = .magenta
 ```
 
-[All available colors](https://docs.tink.com/resources/pfm-sdk-ios/customization/#colors) can be customized especially for accounts. You can for example set a separate color for icons in accounts by specifying the `expensesIconColor`, if you do the `expensesIconBackgroundColor` will have a new color based on the icon color unless you specify it to be otherwise.
+[All available colors](/Tiny-doc/tink_docs_home/resources/pfm-sdk-ios/customization/#colors) can be customized especially for accounts. You can for example set a separate color for icons in accounts by specifying the `expensesIconColor`, if you do the `expensesIconBackgroundColor` will have a new color based on the icon color unless you specify it to be otherwise.

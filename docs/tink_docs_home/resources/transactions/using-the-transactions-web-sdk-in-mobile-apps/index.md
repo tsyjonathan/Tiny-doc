@@ -1,6 +1,6 @@
 ---
 title: "Using the web SDK in mobile apps"
-source: "https://docs.tink.com/resources/transactions/using-the-transactions-web-sdk-in-mobile-apps"
+source: "/Tiny-doc/tink_docs_home/resources/transactions/using-the-transactions-web-sdk-in-mobile-apps/"
 exportedAt: "2026-01-13T12:58:03.131Z"
 ---
 ## Integrate in an iOS app[](#integrate-in-an-ios-app)

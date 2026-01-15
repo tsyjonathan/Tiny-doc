@@ -1,11 +1,11 @@
 ---
 title: "Recategorise transactions - Tink Docs"
-source: "https://docs.tink.com/resources/money-manager-api/recategorise-transactions"
+source: "/Tiny-doc/tink_docs_home/resources/money-manager-api/recategorise-transactions/"
 exportedAt: "2026-01-13T13:00:45.264Z"
 ---
 ## 1\. Fetch Category IDs[](#fetch-category-ids)
 
-We first need to fetch a list of categories and their associated IDs. This can be performed by using the [list categories](https://docs.tink.com/api#general/category/list-categories) endpoint while unauthenticated.
+We first need to fetch a list of categories and their associated IDs. This can be performed by using the [list categories](/Tiny-doc/tink_docs_api/api/#general/category/list-categories) endpoint while unauthenticated.
 
 Request example:
 
@@ -36,7 +36,7 @@ From the response, you can choose the category you want your transactions to bel
 
 ## 2\. Recategorise transaction[](#recategorise-transaction)
 
-When you know what transactions you want to recategorise, and the category you want to change it to, you need to use the [Categorize multiple transactions](https://docs.tink.com/api#data-v1/transaction/change-category-of-transactions) endpoint using a `user access token` with the `transactions:write` scope.
+When you know what transactions you want to recategorise, and the category you want to change it to, you need to use the [Categorize multiple transactions](/Tiny-doc/tink_docs_api/api/#data-v1/transaction/change-category-of-transactions) endpoint using a `user access token` with the `transactions:write` scope.
 
 In the request, you need to include the `categoryId` of the category you want the transactions to belong to instead, and an array of all the transaction IDs you want the new category to apply to.
 

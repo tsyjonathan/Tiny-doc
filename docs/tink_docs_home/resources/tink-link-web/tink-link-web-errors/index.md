@@ -1,6 +1,6 @@
 ---
 title: "Errors - Tink Docs"
-source: "https://docs.tink.com/resources/tink-link-web/tink-link-web-errors"
+source: "/Tiny-doc/tink_docs_home/resources/tink-link-web/tink-link-web-errors/"
 exportedAt: "2026-01-13T12:53:35.740Z"
 ---
 ## Error response[](#error-response)
@@ -11,7 +11,7 @@ The SDK journey can result in a non-recoverable error. This type of error can't 
 | --- | --- | --- |
 | `error` | Always | A status code that describes the category of the error. For details, see [Error statuses](#error-statuses). |
 | `error_reason` | Always | The error reason that describes the cause of the error. For details, see the error reasons below for the specific `error` status code. |
-| `error_type` | If `error=AUTHENTICATION_ERROR` | Describes the type of authentication error that has occurred. For details, see [Provider Consent errors](https://docs.tink.com/resources/transactions/provider-consent-errors). |
+| `error_type` | If `error=AUTHENTICATION_ERROR` | Describes the type of authentication error that has occurred. For details, see [Provider Consent errors](/Tiny-doc/tink_docs_home/resources/transactions/provider-consent-errors/). |
 | `message` | Always | A localized end-user facing error message that can be presented directly to the end user. |
 | `tracking_id` | Always | Tink's internal identifier for this specific error instance. Make sure to include the `tracking_id` value when communicating with Tink to reduce time required to troubleshooting issues. |
 | `credentials` | If credentials were created | The identifier of the created credentials object. |
@@ -57,7 +57,7 @@ The error status describes the category for the error that occurred. The error s
 | BAD\_REQUEST | The error is most likely a result of an incorrect or missing URL parameter. |
 | AUTHENTICATION\_ERROR | The error occurred during the authentication process with the bank. |
 | TEMPORARY\_ERROR | A temporary error in Tink's platform. To resolve this, try again later. |
-| INTERNAL\_ERROR | An unexpected internal error in Tink's platform. Please contact [support](https://docs.tink.com/resources/getting-started/support) for help. |
+| INTERNAL\_ERROR | An unexpected internal error in Tink's platform. Please contact [support](/Tiny-doc/tink_docs_home/resources/getting-started/support/) for help. |
 
 ### USER\_CANCELLED[](#user_cancelled)
 
@@ -65,7 +65,7 @@ The end user canceled the journey, either by going back or selecting the close b
 
 ### BAD\_REQUEST[](#bad_request)
 
-These errors most often occur due to a missing or incorrect parameter in the URL. For required parameters and valid values, see the [SDK reference](https://docs.tink.com/resources/tink-link-web#api-reference) for your product.
+These errors most often occur due to a missing or incorrect parameter in the URL. For required parameters and valid values, see the [SDK reference](/Tiny-doc/tink_docs_home/resources/tink-link-web/#api-reference) for your product.
 
 | Error reason | Description |
 | --- | --- |
@@ -82,7 +82,7 @@ These errors most often occur due to a missing or incorrect parameter in the URL
 | INVALID\_PARAMETER\_REPORT\_TYPES | The `report_types` value is incorrect or missing. This value is only shown when bundling more than one product in one flow. |
 | INVALID\_PARAMETER\_SCOPE | The `scope` value is missing. It is only used with Account Aggregation. |
 | INVALID\_STATE\_ACCESS\_TOKEN | The `access token` value is missing, has expired, or is incorrectly entered. |
-| INVALID\_STATE\_AUTHENTICATION | The error occurs when [credentialsType](https://docs.tink.com/api#connectivity/provider/the-provider-model) is `MOBILE_BANKID` or `THIRD_PARTY_APP` and the end user has failed to authenticate or the integration doesn't use BankID on a mobile device or a third-party app. |
+| INVALID\_STATE\_AUTHENTICATION | The error occurs when [credentialsType](/Tiny-doc/tink_docs_api/api/#connectivity/provider/the-provider-model) is `MOBILE_BANKID` or `THIRD_PARTY_APP` and the end user has failed to authenticate or the integration doesn't use BankID on a mobile device or a third-party app. |
 | INVALID\_STATE\_CREDENTIALS | The credential has reached a `TEMPORARY_ERROR` state. |
 | INVALID\_STATE\_CREDENTIALS\_IS\_AWAITING\_THIRD\_PARTY | An attempt is made to authenticate or refresh a credential that is in a pending state. The parameter is only used with permanent users. |
 | INVALID\_STATE\_EMBED\_NOT\_ALLOWED | Tink is embedded when embedding is not allowed. Embedding a Tink page inside another page is by default not permitted. To request the ability to embed Tink, go to **Console** > \[**your\_app**\] > **App settings** > **App details** > **Display name (public)** and select **Verify**. |
@@ -98,7 +98,7 @@ These errors most often occur due to a missing or incorrect parameter in the URL
 | INVALID\_STATE\_PROVIDER\_DOES\_NOT\_RECOGNIZE\_USER | The end user has selected the wrong provider, one with which they don't have an account. |
 | INVALID\_STATE\_REDIRECTED\_AUTHORIZATION\_TOKEN | A third party is redirecting back to Tink, but the query is missing `authorization_token`. |
 | INVALID\_STATE\_REDIRECTED\_CREDENTIALS\_ID | A third party is redirecting back to Tink, but the query is missing `credentialsId`. |
-| INVALID\_STATE\_REFRESH\_CREDENTIALS\_RATE\_LIMITED | An excessive amount of API requests has been made for an app. For more information, see [Rate limits](https://docs.tink.com/api#introduction/rate-limits). |
+| INVALID\_STATE\_REFRESH\_CREDENTIALS\_RATE\_LIMITED | An excessive amount of API requests has been made for an app. For more information, see [Rate limits](/Tiny-doc/tink_docs_api/api/#introduction/rate-limits). |
 | INVALID\_STATE\_REDIRECT\_URI | The specified `redirect_uri` is invalid. Make sure that it is registered in the "App settings" page in [Console](https://console.tink.com/app-settings/client). |
 | INVALID\_STATE\_SCOPE | One or more scopes are incorrect or not available for the oauth client. |
 
@@ -108,10 +108,10 @@ This category of errors is the result of an error occurring during the authentic
 
 | KEY | DESCRIPTION |
 | --- | --- |
-| `error_reason` | The exact reason for the authentication error, for example, `USER_NOT_A_CUSTOMER`. For a complete list of values, see [Provider Consent errors](https://docs.tink.com/resources/transactions/provider-consent-errors). |
-| `error_type` | The type of error, for example, `TINK_SIDE_ERROR`, and `PROVIDER_ERROR`. For a complete list of values, see [Provider Consent errors](https://docs.tink.com/resources/transactions/provider-consent-errors). |
+| `error_reason` | The exact reason for the authentication error, for example, `USER_NOT_A_CUSTOMER`. For a complete list of values, see [Provider Consent errors](/Tiny-doc/tink_docs_home/resources/transactions/provider-consent-errors/). |
+| `error_type` | The type of error, for example, `TINK_SIDE_ERROR`, and `PROVIDER_ERROR`. For a complete list of values, see [Provider Consent errors](/Tiny-doc/tink_docs_home/resources/transactions/provider-consent-errors/). |
 
-For a complete list of authentication errors, see [Provider Consent errors](https://docs.tink.com/resources/transactions/provider-consent-errors).
+For a complete list of authentication errors, see [Provider Consent errors](/Tiny-doc/tink_docs_home/resources/transactions/provider-consent-errors/).
 
 ### TEMPORARY\_ERROR[](#temporary_error)
 

@@ -1,6 +1,6 @@
 ---
 title: "Transactions - Tink Docs"
-source: "https://docs.tink.com/resources/transactions"
+source: "/Tiny-doc/tink_docs_home/resources/transactions/"
 exportedAt: "2026-01-13T12:40:14.779Z"
 ---
 [
@@ -15,7 +15,7 @@ Fetch standardized transaction data once or continuously.
 
 
 
-](https://docs.tink.com/resources/transactions/introduction-to-transactions)
+](/Tiny-doc/tink_docs_home/resources/transactions/introduction-to-transactions/)
 
 ## One-time access
 
@@ -31,7 +31,7 @@ Learn how to make a one-time connection to a bank account
 
 
 
-](https://docs.tink.com/resources/transactions/connect-to-a-bank-account)
+](/Tiny-doc/tink_docs_home/resources/transactions/connect-to-a-bank-account/)
 
 ## Continuous access
 
@@ -47,7 +47,7 @@ Learn how to get continuous access to a user’s bank account
 
 
 
-](https://docs.tink.com/resources/transactions/continuous-connect-to-a-bank-account)
+](/Tiny-doc/tink_docs_home/resources/transactions/continuous-connect-to-a-bank-account/)
 
 [
 
@@ -61,7 +61,7 @@ Refresh data when using continuous access
 
 
 
-](https://docs.tink.com/resources/transactions/refresh-data)
+](/Tiny-doc/tink_docs_home/resources/transactions/refresh-data/)
 
 [
 
@@ -75,7 +75,7 @@ Learn how to manage, update and delete consents for your users
 
 
 
-](https://docs.tink.com/resources/transactions/managing-consents)
+](/Tiny-doc/tink_docs_home/resources/transactions/managing-consents/)
 
 ## Fetch data
 
@@ -91,7 +91,7 @@ Fetch a list of accounts for a specific user.
 
 
 
-](https://docs.tink.com/resources/transactions/list-accounts-and-balances)
+](/Tiny-doc/tink_docs_home/resources/transactions/list-accounts-and-balances/)
 
 [
 
@@ -105,7 +105,7 @@ Filter and fetch a list of transactions.
 
 
 
-](https://docs.tink.com/resources/transactions/list-transactions)
+](/Tiny-doc/tink_docs_home/resources/transactions/list-transactions/)
 
 ## Integration
 
@@ -121,7 +121,7 @@ Learn how to best integrate our SDKs with your app.
 
 
 
-](https://docs.tink.com/resources/transactions/setup-and-integrate-transactions)
+](/Tiny-doc/tink_docs_home/resources/transactions/setup-and-integrate-transactions/)
 
 [
 
@@ -135,7 +135,7 @@ Make sure that your integration is seamless and leads to the highest conversion 
 
 
 
-](https://docs.tink.com/resources/transactions/optimize-your-transactions-integration)
+](/Tiny-doc/tink_docs_home/resources/transactions/optimize-your-transactions-integration/)
 
 [
 
@@ -149,7 +149,7 @@ Transactions error codes and formats, described and explained.
 
 
 
-](https://docs.tink.com/resources/transactions/handle-transactions-error-codes)
+](/Tiny-doc/tink_docs_home/resources/transactions/handle-transactions-error-codes/)
 
 [
 
@@ -163,7 +163,7 @@ Launch the SDK with sensitive user information
 
 
 
-](https://docs.tink.com/resources/transactions/transactions-sdk-sessions)
+](/Tiny-doc/tink_docs_home/resources/transactions/transactions-sdk-sessions/)
 
 [
 
@@ -177,7 +177,7 @@ Parameters, responses, versions and market availability for the Transactions SDK
 
 
 
-](https://docs.tink.com/resources/transactions/transactions-sdk-reference)
+](/Tiny-doc/tink_docs_home/resources/transactions/transactions-sdk-reference/)
 
 [
 
@@ -191,7 +191,7 @@ Redirect users back to your app right after they've authenticated.
 
 
 
-](https://docs.tink.com/resources/transactions/early-redirect)
+](/Tiny-doc/tink_docs_home/resources/transactions/early-redirect/)
 
 [
 
@@ -205,7 +205,7 @@ Set up webhooks to listen for Tink event notifications.
 
 
 
-](https://docs.tink.com/resources/transactions/webhooks-for-transactions)
+](/Tiny-doc/tink_docs_home/resources/transactions/webhooks-for-transactions/)
 
 [
 
@@ -219,4 +219,4 @@ Use our Postman collections for Transactions
 
 
 
-](https://docs.tink.com/resources/transactions/postman-collections-for-transactions)
+](/Tiny-doc/tink_docs_home/resources/transactions/postman-collections-for-transactions/)

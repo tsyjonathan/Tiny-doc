@@ -1,6 +1,6 @@
 ---
 title: "Categorization for iOS - Tink Docs"
-source: "https://docs.tink.com/resources/money-manager/money-manager-ios/categorization"
+source: "/Tiny-doc/tink_docs_home/resources/money-manager/money-manager-ios/categorization/"
 exportedAt: "2026-01-13T12:52:18.070Z"
 ---
 ![Categorization](https://images.ctfassets.net/tmqu5vj33f7w/7tEodCDNEJlTwXc8W2AoAf/b5400c4f6447b9cbc75921d09f8a4777/Categorization.png)

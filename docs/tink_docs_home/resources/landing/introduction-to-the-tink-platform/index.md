@@ -1,6 +1,6 @@
 ---
 title: "Introduction to the Tink Platform"
-source: "https://docs.tink.com/resources/landing/introduction-to-the-tink-platform"
+source: "/Tiny-doc/tink_docs_home/resources/landing/introduction-to-the-tink-platform/"
 exportedAt: "2026-01-13T12:41:13.125Z"
 ---
 ## The Tink Platform[](#the-tink-platform)
@@ -20,13 +20,13 @@ We also provide developers with a range of tools and resources to successfully i
 
 [Console](https://console.tink.com/login): The Tink Console is our developer portal that lets you configure, customise, manage, and deploy access to the financial data that powers your product.
 
-[Documentation](http://docs.tink.com/): Well-written, easy-to-follow implementation guides, API reference, and sample projects.
+[Documentation](/Tiny-doc/tink_docs_home/index/): Well-written, easy-to-follow implementation guides, API reference, and sample projects.
 
 **SDKs**: Web, iOS, and Android front-end SDKs that reduce the time it takes to bring new products to market.
 
 ## Developer resources[](#developer-resources)
 
--   [Product guides](https://docs.tink.com/)
--   [API reference](https://docs.tink.com/api)
--   [Changelog](https://docs.tink.com/changelog)
--   [Capability trackers](https://docs.tink.com/market-capabilities?market=SE)
+-   [Product guides](/Tiny-doc/tink_docs_home/index/)
+-   [API reference](/Tiny-doc/tink_docs_api/api/)
+-   [Changelog](/Tiny-doc/tink_docs_home/changelog/)
+-   [Capability trackers](/Tiny-doc/tink_docs_home/market-capabilities__q_market=SE__98a4c23eda/)

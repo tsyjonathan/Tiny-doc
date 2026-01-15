@@ -1,6 +1,6 @@
 ---
 title: "Fetch enriched transactions based on category"
-source: "https://docs.tink.com/resources/data-enrichment/fetch-enriched-transactions-based-on-category"
+source: "/Tiny-doc/tink_docs_home/resources/data-enrichment/fetch-enriched-transactions-based-on-category/"
 exportedAt: "2026-01-13T12:47:44.354Z"
 ---
 Using your user access token, call the list enriched transactions endpoint with the categoryIdIn filter, it works both with a singular category ID:
@@ -92,4 +92,4 @@ A response will look something like:
 }
 ```
 
-The response results are paginated, to learn you can read about pagination [here](https://docs.tink.com/resources/data-enrichment/generating-a-user-access-token-and-querying-end-user-data#pagination).
+The response results are paginated, to learn you can read about pagination [here](/Tiny-doc/tink_docs_home/resources/data-enrichment/generating-a-user-access-token-and-querying-end-user-data/#pagination).

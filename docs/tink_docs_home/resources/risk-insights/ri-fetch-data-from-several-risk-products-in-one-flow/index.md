@@ -1,6 +1,6 @@
 ---
 title: "Fetch data from several risk products in one flow"
-source: "https://docs.tink.com/resources/risk-insights/ri-fetch-data-from-several-risk-products-in-one-flow"
+source: "/Tiny-doc/tink_docs_home/resources/risk-insights/ri-fetch-data-from-several-risk-products-in-one-flow/"
 exportedAt: "2026-01-13T12:49:29.224Z"
 ---
 Tink only requires one single authentication to fetch multiple data points from a bank account. In other words, a user must authenticate only once to fetch data from more than one Tink product. This is useful when you want to fetch income, expense, and risk data at the same time from the same underlying bank. That goes for both an asynchronous and synchronous flow.
@@ -107,7 +107,7 @@ curl https://api.tink.com/api/v1/reports-generation-jobs/ \
   -H 'Authorization: Bearer '
 ```
 
-If the status is in a `PENDING` state, we recommended to poll this endpoint until you see a "final" state, `COMPLETED`. We recommend an exponential backoff where you poll at 1 RPS (request per second). There is a practical aspect to this as Tink will need to wait for the bank(s) to provide the end user's data and that can be seconds up to minutes. For more information, see [Reports Generation Jobs](https://docs.tink.com/api#general/reports-generation-jobs) in our API reference.
+If the status is in a `PENDING` state, we recommended to poll this endpoint until you see a "final" state, `COMPLETED`. We recommend an exponential backoff where you poll at 1 RPS (request per second). There is a practical aspect to this as Tink will need to wait for the bank(s) to provide the end user's data and that can be seconds up to minutes. For more information, see [Reports Generation Jobs](/Tiny-doc/tink_docs_api/api/#general/reports-generation-jobs) in our API reference.
 
 Response:
 

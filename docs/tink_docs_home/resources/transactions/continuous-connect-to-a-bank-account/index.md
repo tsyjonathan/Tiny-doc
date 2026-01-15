@@ -1,6 +1,6 @@
 ---
 title: "Continuous access to a bank account"
-source: "https://docs.tink.com/resources/transactions/continuous-connect-to-a-bank-account"
+source: "/Tiny-doc/tink_docs_home/resources/transactions/continuous-connect-to-a-bank-account/"
 exportedAt: "2026-01-13T12:45:54.471Z"
 ---
 **Introduction**
@@ -13,11 +13,11 @@ The first section shows how to authorize your app and create a user. The second 
 
 Before we get into how you set up continuous access, there are two things that you should know.
 
-First, if you want to experiment with Transactions by using our API, try our [Postman collection for Transactions](https://docs.tink.com/resources/transactions/postman-collection-for-transactions).
+First, if you want to experiment with Transactions by using our API, try our [Postman collection for Transactions](/Tiny-doc/tink_docs_home/resources/transactions/postman-collection-for-transactions/).
 
 Second, continuous access provides you with a **continuous flow** of end-user transaction data. This means we fetch data continuously for 90 days (which is the maximum consent time).
 
-If you need data access only once and to automatically have the data deleted 24 hours later, see [One-time access to a bank account](https://docs.tink.com/resources/transactions/connect-to-a-bank-account).
+If you need data access only once and to automatically have the data deleted 24 hours later, see [One-time access to a bank account](/Tiny-doc/tink_docs_home/resources/transactions/connect-to-a-bank-account/).
 
 ## 1\. Create a user in two steps[](#create-a-user-in-two-steps)
 

@@ -1,6 +1,6 @@
 ---
 title: "Introduction to Business Account Check"
-source: "https://docs.tink.com/resources/business-account-check/introduction-to-business-account-check"
+source: "/Tiny-doc/tink_docs_home/resources/business-account-check/introduction-to-business-account-check/"
 exportedAt: "2026-01-13T12:41:19.840Z"
 ---
 It's vital to quickly onboard customers for short time-to-market. Turn a prospect into a paying customer and immediately provide them with value from your product. This is especially important for SMBs and sole traders who don't have time and resources to spend on lengthy onboarding processes.

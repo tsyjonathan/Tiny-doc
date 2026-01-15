@@ -1,13 +1,13 @@
 ---
 title: "Managing consents - Tink Docs"
-source: "https://docs.tink.com/resources/business-transactions/business-managing-consents"
+source: "/Tiny-doc/tink_docs_home/resources/business-transactions/business-managing-consents/"
 exportedAt: "2026-01-13T12:46:49.389Z"
 ---
 ## List provider consents[](#list-provider-consents)
 
-The Provider Consent model gives details about the state of the consents that a user has given for a financial institution. A user can give multiple consents, for one or multiple financial institutions. For more details on Provider Consent, see our [API Reference](https://docs.tink.com/api#connectivity/provider-consent).
+The Provider Consent model gives details about the state of the consents that a user has given for a financial institution. A user can give multiple consents, for one or multiple financial institutions. For more details on Provider Consent, see our [API Reference](/Tiny-doc/tink_docs_api/api/#connectivity/provider-consent).
 
-To list provider consents, you must generate a user access token with the scope `provider-consents:read`. For instructions on how to generate an access token, see [Fetch user data](https://docs.tink.com/resources/business-transactions/continuous-access-to-a-business-account#fetch-user-data).
+To list provider consents, you must generate a user access token with the scope `provider-consents:read`. For instructions on how to generate an access token, see [Fetch user data](/Tiny-doc/tink_docs_home/resources/business-transactions/continuous-access-to-a-business-account/#fetch-user-data).
 
 Retrieve the list of consents
 
@@ -52,7 +52,7 @@ Update a consent to recover access to accounts. This is done by updating the con
 
 To update a consent, you must redirect your user to a Tink URL and include the `credentialsId` field of the consent and a single-use authorization code.
 
-To generate this authorization\_code, see [Build the URL](https://docs.tink.com/resources/business-transactions/continuous-access-to-a-business-account#build-the-url).
+To generate this authorization\_code, see [Build the URL](/Tiny-doc/tink_docs_home/resources/business-transactions/continuous-access-to-a-business-account/#build-the-url).
 
 Generate your authorization\_code
 
@@ -60,7 +60,7 @@ Generate your authorization\_code
 https://link.tink.com/1.0/business-transactions/update-consent?client_id=&redirect_uri=&credentials_id=&authorization_code=&market=
 ```
 
-For more information on the parameters that can be used with the update-consent method, see [Continuous access: Update consent](https://docs.tink.com/resources/business-transactions/business-transactions-sdk-reference#continuous-access-update-consent).
+For more information on the parameters that can be used with the update-consent method, see [Continuous access: Update consent](/Tiny-doc/tink_docs_home/resources/business-transactions/business-transactions-sdk-reference/#continuous-access-update-consent).
 
 ## Delete a consent[](#delete-a-consent)
 
@@ -137,7 +137,7 @@ Tink returns an HTTP 204 status code if the deletion request was successful.
 
 When a user is deleted, all consents, related account information, and transactions are also permanently deleted.
 
-To delete a user, you must generate a user access token with the scope `user:delete`. For instructions on how to generate an access token, see [Fetch user data](https://docs.tink.com/resources/business-transactions/continuous-access-to-a-business-account#fetch-user-data).
+To delete a user, you must generate a user access token with the scope `user:delete`. For instructions on how to generate an access token, see [Fetch user data](/Tiny-doc/tink_docs_home/resources/business-transactions/continuous-access-to-a-business-account/#fetch-user-data).
 
 **Request example**
 

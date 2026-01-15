@@ -1,6 +1,6 @@
 ---
 title: "User Match - Tink Docs"
-source: "https://docs.tink.com/resources/account-check/user-match"
+source: "/Tiny-doc/tink_docs_home/resources/account-check/user-match/"
 exportedAt: "2026-01-13T12:44:04.596Z"
 ---
 ## What is User Match?[](#what-is-user-match-)
@@ -37,7 +37,7 @@ Once the match results have been generated, Tink returns the data in the Account
 
 To use User Match, you’ll need to pass your user’s name to Tink in a session before initiating the Account Check flow.
 
-A session can be created using the POST /link/v1/session endpoint. The request must be authenticated using a  [client access token](https://docs.tink.com/resources/getting-started/get-access-token) 
+A session can be created using the POST /link/v1/session endpoint. The request must be authenticated using a  [client access token](/Tiny-doc/tink_docs_home/resources/getting-started/get-access-token/) 
 
 #### 1\. Authenticate with client access token[](#authenticate-with-client-access-token)
 
@@ -70,9 +70,9 @@ curl -X POST https://api.tink.com/api/v1/oauth/token \
 
 #### 2\. Create a session[](#create-a-session)
 
-A session can be created using the POST /link/v1/session endpoint. The request must be authenticated using a [client access token](https://docs.tink.com/resources/getting-started/get-access-token) and contain the link-session:write scope.
+A session can be created using the POST /link/v1/session endpoint. The request must be authenticated using a [client access token](/Tiny-doc/tink_docs_home/resources/getting-started/get-access-token/) and contain the link-session:write scope.
 
-With the CLIENT\_ACCESS\_TOKEN you can now create a session by calling the [session endpoint](https://docs.tink.com/api#general/tink-link/session).
+With the CLIENT\_ACCESS\_TOKEN you can now create a session by calling the [session endpoint](/Tiny-doc/tink_docs_api/api/#general/tink-link/session).
 
 Example of a session request: **cURL example**
 
@@ -95,7 +95,7 @@ Content-Type: application/json
 
 #### 3\. Initiate Tink Link with a session[](#initiate-tink-link-with-a-session)
 
-In Console, use the [Build your own Tink Link URL](https://console.tink.com/account-verification/tink-link) view to create your own URL. The URL is used to allow users to authenticate with their bank and select an account from which to fetch report data. For more information on how the URL works, [see Setup and integrate Account Check](https://docs.tink.com/resources/account-check/setup-and-integrate-account-check).
+In Console, use the [Build your own Tink Link URL](https://console.tink.com/account-verification/tink-link) view to create your own URL. The URL is used to allow users to authenticate with their bank and select an account from which to fetch report data. For more information on how the URL works, [see Setup and integrate Account Check](/Tiny-doc/tink_docs_home/resources/account-check/setup-and-integrate-account-check/).
 
 Integrate the URL with a site or in an app. For example, you can start an end user's Tink flow by redirecting them to a URL.
 
@@ -117,7 +117,7 @@ https://link.tink.com/1.0/account-check?client_id={YOUR_CLIENT_ID}&redirect_uri=
 
 **In JSON**
 
-To fetch report JSON data based on a report identifier, see the [Account Verification Report API](https://docs.tink.com/api#data-v1/account-verification).
+To fetch report JSON data based on a report identifier, see the [Account Verification Report API](/Tiny-doc/tink_docs_api/api/#data-v1/account-verification).
 
 **cURL example**
 

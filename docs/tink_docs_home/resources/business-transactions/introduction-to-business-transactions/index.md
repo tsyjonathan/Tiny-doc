@@ -1,6 +1,6 @@
 ---
 title: "Introduction to Business Transactions - Tink Docs"
-source: "https://docs.tink.com/resources/business-transactions/introduction-to-business-transactions"
+source: "/Tiny-doc/tink_docs_home/resources/business-transactions/introduction-to-business-transactions/"
 exportedAt: "2026-01-13T12:41:28.608Z"
 ---
 Open banking APIs have for a long time been used to retrieve financial data from personal accounts. Business Transactions now provides the same kind of access, but to business accounts. This opens up a whole new category of use cases, such as automating accounting processes or more accurate credit assessments for business lenders.
@@ -17,7 +17,7 @@ Business Transactions is part of Tink’s Account Information Services product p
 
 ## How it works[](#how-it-works)
 
-Business Transactions is delivered through a [front–end SDK](https://docs.tink.com/resources/business-transactions/setup-and-integrate-business-transactions), which makes your integration to Tink essentially one line of code. By implementing Business Transactions into your product flows, an end user will be asked to connect their account(s) and authenticate to their bank. If consent is granted, a developer can then access all transactions from that account.
+Business Transactions is delivered through a [front–end SDK](/Tiny-doc/tink_docs_home/resources/business-transactions/setup-and-integrate-business-transactions/), which makes your integration to Tink essentially one line of code. By implementing Business Transactions into your product flows, an end user will be asked to connect their account(s) and authenticate to their bank. If consent is granted, a developer can then access all transactions from that account.
 
 ![business-transactions-flow-example](https://images.ctfassets.net/tmqu5vj33f7w/1RrjLVS2P0WyoZD2ZXVVzK/442961ea7f908ac2c1536c27ee711b9c/business-transactions-flow-example.gif)
 
@@ -36,7 +36,7 @@ At this moment, Business Transactions is an Enterprise-only product with limited
 -   **Proprietary bank references**: Proprietary bank transaction type[2](#Sup1), Bank transaction reference[2](#Sup1)
 -   **Merchant information**: MCC code[2](#Sup1), Merchant name[2](#Sup1)
 
-1Subject to market availability. For a list of available markets, see [Account aggregation](https://docs.tink.com/market-capabilities/aggregation). 2Dependant on availability.
+1Subject to market availability. For a list of available markets, see [Account aggregation](/Tiny-doc/tink_docs_home/market-capabilities/aggregation/). 2Dependant on availability.
 
 ![business-transactions-data-cleaning](https://images.ctfassets.net/tmqu5vj33f7w/1neFN6CUruFJsz55wW9Apd/394518dd0a8061ce37820db0bfd070fc/business-transactions-data-cleaning.jpg)
 
@@ -44,8 +44,8 @@ At this moment, Business Transactions is an Enterprise-only product with limited
 
 Depending on your needs, Tink can provide one–time or continuous access to bank data:
 
--   **One–time**: A single retrieval of end user transaction data that results in a point–in–time finances view. This is suitable from a risk or credit-modeling perspective. For more information, see [One–time access to a business account](https://docs.tink.com/resources/business-transactions/one-time-access-to-a-business-account).
--   **Continuous**: A continuous, updated stream of an end user's financial data as it appears in their own bank account, connecting you to fresh information at all times. This model is suitable for financial management products. For more information, see [Continuous access to a business account](https://docs.tink.com/resources/business-transactions/continuous-access-to-a-business-account).
+-   **One–time**: A single retrieval of end user transaction data that results in a point–in–time finances view. This is suitable from a risk or credit-modeling perspective. For more information, see [One–time access to a business account](/Tiny-doc/tink_docs_home/resources/business-transactions/one-time-access-to-a-business-account/).
+-   **Continuous**: A continuous, updated stream of an end user's financial data as it appears in their own bank account, connecting you to fresh information at all times. This model is suitable for financial management products. For more information, see [Continuous access to a business account](/Tiny-doc/tink_docs_home/resources/business-transactions/continuous-access-to-a-business-account/).
 
 |  | ONE–TIME ACCESS | CONTINUOUS ACCESS |
 | --- | --- | --- |

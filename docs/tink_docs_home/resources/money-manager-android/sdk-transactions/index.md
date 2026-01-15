@@ -1,6 +1,6 @@
 ---
 title: "Transactions for Android - Tink Docs"
-source: "https://docs.tink.com/resources/money-manager-android/sdk-transactions"
+source: "/Tiny-doc/tink_docs_home/resources/money-manager-android/sdk-transactions/"
 exportedAt: "2026-01-13T13:01:02.040Z"
 ---
 ![Transactions](https://images.ctfassets.net/tmqu5vj33f7w/7z7V56kuONslJwKR2WsUXg/5c6364d52c60598f0f7ecdaf7f87abe3/6_Android.png)

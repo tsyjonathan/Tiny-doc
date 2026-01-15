@@ -1,6 +1,6 @@
 ---
 title: "Credentials status transitions - Tink Docs"
-source: "https://docs.tink.com/resources/aggregation/credentials-status-transitions"
+source: "/Tiny-doc/tink_docs_home/resources/aggregation/credentials-status-transitions/"
 exportedAt: "2026-01-13T12:55:30.476Z"
 ---
 ## Journey of a credential:[](#journey-of-a-credential-)
@@ -17,7 +17,7 @@ The credentials objects are not re-created for subsequent refreshes of data; the
 
 ## Happy flow with no exceptions:[](#happy-flow-with-no-exceptions-)
 
-In a typical happy path for the credential [refresh](https://docs.tink.com/api#connectivity/credentials/refresh-credentials) journey, the credential status will go from the `AUTHENTICATING` state, possibly to any one, or multiple, of the `AWAITING_X` states, then on to the `UPDATING` state without going to any of the error states.
+In a typical happy path for the credential [refresh](/Tiny-doc/tink_docs_api/api/#connectivity/credentials/refresh-credentials) journey, the credential status will go from the `AUTHENTICATING` state, possibly to any one, or multiple, of the `AWAITING_X` states, then on to the `UPDATING` state without going to any of the error states.
 
 Credentials will be considered as refreshed successfully once it's status has changed to `UPDATED`.
 
@@ -35,7 +35,7 @@ See below for the happy path of a credential refresh.
 -   If a credential is in state `PERMANENT_ERROR`, it cannot be used anymore.
 -   If a credential has the status `UPDATED`, then that credential’s last refresh was successful.
 -   Credential will be refreshed if there is a valid consent from a user. Credentials in statuses `CREATED`, `AUTHENTICATION_ERROR`, `PERMANENT_ERROR` and `SESSION_EXPIRED` will not perform background refreshes.
--   For the credentials which have consent for limited period of time, the credential will go to status `SESSION_EXPIRED` once the consent has expired and a refresh request via [refresh endpoint](https://docs.tink.com/api#connectivity/credentials/refresh-credentials) has been triggered on that credentials after the consent expiration with `userAvailableForInteraction` set to false inside the `userAvailability` object.
+-   For the credentials which have consent for limited period of time, the credential will go to status `SESSION_EXPIRED` once the consent has expired and a refresh request via [refresh endpoint](/Tiny-doc/tink_docs_api/api/#connectivity/credentials/refresh-credentials) has been triggered on that credentials after the consent expiration with `userAvailableForInteraction` set to false inside the `userAvailability` object.
 
 ## Restarting the aggregation journey of a credential[](#restarting-the-aggregation-journey-of-a-credential)
 
@@ -43,12 +43,12 @@ It is possible to refresh/update a credential after it has reached any of the en
 
 -   In case a credential with type `MOBILE_BANKID` has status `CREATED`, `UPDATED`, `AUTHENTICATION_ERROR` or `TEMPORARY_ERROR`, initiating a new refresh for that credential will restart the flow and status changes to `AUTHENTICATING`.
 -   In case a credential with type `PASSWORD` has status `CREATED`, `UPDATED`, or `TEMPORARY_ERROR`, initiating a new refresh for that credential will restart the flow and status changes to `AUTHENTICATING`.
--   In case a credential has status `UPDATED`, `SESSION_EXPIRED`, `AUTHENTICATION_ERROR` or `TEMPORARY_ERROR`, updating that credential using the [modify credentials endpoint](https://docs.tink.com/api#connectivity/credentials/modify-credentials) will restart the flow and status will change to `CREATED`.
--   In case a credential has status `AUTHENTICATION_ERROR`, you can use the [authenticate endpoint](https://docs.tink.com/api#connectivity/credentials/manual-authenticate-of-credentials) to authenticate towards the bank again.
+-   In case a credential has status `UPDATED`, `SESSION_EXPIRED`, `AUTHENTICATION_ERROR` or `TEMPORARY_ERROR`, updating that credential using the [modify credentials endpoint](/Tiny-doc/tink_docs_api/api/#connectivity/credentials/modify-credentials) will restart the flow and status will change to `CREATED`.
+-   In case a credential has status `AUTHENTICATION_ERROR`, you can use the [authenticate endpoint](/Tiny-doc/tink_docs_api/api/#connectivity/credentials/manual-authenticate-of-credentials) to authenticate towards the bank again.
 -   In case a credential has status `SESSION_EXPIRED`, it is not possible to initiate a manual refresh for it directly. You can do the following things in this scenario:
-    -   Authenticate again using the [authenticate endpoint](https://docs.tink.com/api#connectivity/credentials/manual-authenticate-of-credentials).
-    -   Initiate a refresh for that credential using the [refresh endpoint](https://docs.tink.com/api#connectivity/credentials/refresh-credentials) with query parameter `authenticate=true` and making sure the to set the `userPresent` and `userAvailableForInteraction` flags to true inside the `userAvailability` object.
-    -   Modify the credential using [modify credentials endpoint](https://docs.tink.com/api#connectivity/credentials/modify-credentials).
+    -   Authenticate again using the [authenticate endpoint](/Tiny-doc/tink_docs_api/api/#connectivity/credentials/manual-authenticate-of-credentials).
+    -   Initiate a refresh for that credential using the [refresh endpoint](/Tiny-doc/tink_docs_api/api/#connectivity/credentials/refresh-credentials) with query parameter `authenticate=true` and making sure the to set the `userPresent` and `userAvailableForInteraction` flags to true inside the `userAvailability` object.
+    -   Modify the credential using [modify credentials endpoint](/Tiny-doc/tink_docs_api/api/#connectivity/credentials/modify-credentials).
 
 ![Credential Status State diagram V2 (2)](https://images.ctfassets.net/tmqu5vj33f7w/2WyzbIxjYUFDwEZhU1hs6t/69ba7bfdc4082bf96848ac56330495be/Credential_Status_State_diagram_V2__2_.png)
 

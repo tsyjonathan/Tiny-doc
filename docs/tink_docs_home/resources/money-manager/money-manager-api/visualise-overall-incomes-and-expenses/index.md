@@ -1,6 +1,6 @@
 ---
 title: "Visualise overall incomes and expenses"
-source: "https://docs.tink.com/resources/money-manager/money-manager-api/visualise-overall-incomes-and-expenses"
+source: "/Tiny-doc/tink_docs_home/resources/money-manager/money-manager-api/visualise-overall-incomes-and-expenses/"
 exportedAt: "2026-01-13T12:50:30.978Z"
 ---
 ## Introduction[](#introduction)

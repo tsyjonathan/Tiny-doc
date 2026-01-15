@@ -1,6 +1,6 @@
 ---
 title: "Test Money Manager - Tink Docs"
-source: "https://docs.tink.com/resources/money-manager/money-manager-api/demo-banks-money-manager"
+source: "/Tiny-doc/tink_docs_home/resources/money-manager/money-manager-api/demo-banks-money-manager/"
 exportedAt: "2026-01-13T12:51:26.613Z"
 ---
 In this guide, we will show you how to connect to create a user, connect to Demo Bank and then retrieve a client access token.
@@ -85,9 +85,9 @@ curl -v -X POST https://api.tink.com/api/v1/oauth/token \
 
 For an end-user to connect their account, they must do so using Tink Link. To enable this process, Tink Link must be granted access to your user first.
 
-This is done by delegating access from your app to Tink Link. To delegate access to Tink Link, you will need to use the “[create delegated authorization](https://docs.tink.com/api#general/oauth/create-delegated-authorization)” endpoint to retrieve an authorization code and propagate it to Tink Link.
+This is done by delegating access from your app to Tink Link. To delegate access to Tink Link, you will need to use the “[create delegated authorization](/Tiny-doc/tink_docs_api/api/#general/oauth/create-delegated-authorization)” endpoint to retrieve an authorization code and propagate it to Tink Link.
 
-Note that to perform the delegation, you must use a [client access token](https://docs.tink.com/resources/getting-started/retrieve-access-token) with the scope `authorization:grant`.
+Note that to perform the delegation, you must use a [client access token](/Tiny-doc/tink_docs_home/resources/getting-started/retrieve-access-token/) with the scope `authorization:grant`.
 
 > **Note:** In the authorization grant request you must also specify the constant `actor_client_id=df05e4b379934cd09963197cc855bfe9` parameter. This value represents Tink Link's internal `client_id`, is constant for all customers and never changes. By declaring it you are allowing Tink Link to interact on your behalf.
 

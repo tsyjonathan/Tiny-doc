@@ -1,6 +1,6 @@
 ---
 title: "Credentials - Tink Docs"
-source: "https://docs.tink.com/resources/aggregation/credentials"
+source: "/Tiny-doc/tink_docs_home/resources/aggregation/credentials/"
 exportedAt: "2026-01-13T12:55:25.004Z"
 ---
 ## Adding Credentials to a User[](#adding-credentials-to-a-user)

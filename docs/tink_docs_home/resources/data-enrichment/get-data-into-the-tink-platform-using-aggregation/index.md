@@ -1,9 +1,9 @@
 ---
 title: "Get data into the Tink platform using Aggregation"
-source: "https://docs.tink.com/resources/data-enrichment/get-data-into-the-tink-platform-using-aggregation"
+source: "/Tiny-doc/tink_docs_home/resources/data-enrichment/get-data-into-the-tink-platform-using-aggregation/"
 exportedAt: "2026-01-13T12:47:29.137Z"
 ---
-Almost all endpoints that are used by Data Enrichment require permanent users and end-user transaction data. There are two methods to get a user’s transactions to the platform: through Aggregation (which delegates the task of transaction ingestion to Tink if an end-user has given consent) or through manual ingestion by using the Connector API. Select the approach that fits your use case. The aggregation method is presented below. For more information about the manual ingestion by using the Connector API, see [link](https://docs.tink.com/resources/data-enrichment/get-data-into-the-tink-platform-using-the-connector).
+Almost all endpoints that are used by Data Enrichment require permanent users and end-user transaction data. There are two methods to get a user’s transactions to the platform: through Aggregation (which delegates the task of transaction ingestion to Tink if an end-user has given consent) or through manual ingestion by using the Connector API. Select the approach that fits your use case. The aggregation method is presented below. For more information about the manual ingestion by using the Connector API, see [link](/Tiny-doc/tink_docs_home/resources/data-enrichment/get-data-into-the-tink-platform-using-the-connector/).
 
 ## Aggregation[](#aggregation)
 
@@ -47,11 +47,11 @@ curl -v -X POST https://api.tink.com/api/v1/oauth/token \
   "scope": "user:create,authorization:grant"
 ```
 
-For more information, see [complete documentation reference](https://docs.tink.com/api#general/oauth/get-access-token).
+For more information, see [complete documentation reference](/Tiny-doc/tink_docs_api/api/#general/oauth/get-access-token).
 
 ### Step 2: Create a user[](#step-2-create-a-user)
 
-Use the generated client access token from step 1 to create a new Tink user. Attach and store a unique external user ID to keep a reference to the user. The external user ID is used in later steps. Also add the code for the market that you wish to use. For a list of market codes, see [Markets](https://docs.tink.com/resources/transactions/transactions-sdk-reference#markets).
+Use the generated client access token from step 1 to create a new Tink user. Attach and store a unique external user ID to keep a reference to the user. The external user ID is used in later steps. Also add the code for the market that you wish to use. For a list of market codes, see [Markets](/Tiny-doc/tink_docs_home/resources/transactions/transactions-sdk-reference/#markets).
 
 **Example request:**
 
@@ -76,7 +76,7 @@ curl -v -X POST https://api.tink.com/api/v1/user/create \
 }
 ```
 
-For more information, see [complete documentation reference](https://docs.tink.com/api#general/user/create-user).
+For more information, see [complete documentation reference](/Tiny-doc/tink_docs_api/api/#general/user/create-user).
 
 ### Step 3: Create a delegated client code[](#step-3-create-a-delegated-client-code)
 
@@ -108,7 +108,7 @@ curl -v -X POST https://api.tink.com/api/v1/oauth/authorization-grant/delegate \
 }
 ```
 
-For more information, see [complete documentation reference](https://docs.tink.com/api#general/user/create-user).
+For more information, see [complete documentation reference](/Tiny-doc/tink_docs_api/api/#general/user/create-user).
 
 ### Step 4: Create a Tink Link URL[](#step-4-create-a-tink-link-url)
 
@@ -127,10 +127,10 @@ To break down the URL, we have the base URL, [https://link.tink.com/1.0/](https:
 | authorization\_code | The delegated client code generated in step 3. It encodes the reference to the user as well as the scopes that are granted to the Tink Link URL. |
 | client\_id | The client ID of your application. ​​To see your client ID, open Console and go to \[your\_app\] > App settings > API Client. |
 | redirect\_uri | The URL to which the end user gets redirected after a completed or failed authentication by the end user. |
-| market | Market/country code for which providers/banks should be available for the end user to authenticate towards/aggregate data. For example, GB for Great Britain. For a list of market codes, see [Markets](https://docs.tink.com/resources/transactions/transactions-sdk-reference#markets). |
-| locale | Locale for end-user facing text. For example, en\_US for English. For a list of locale codes, see [Locales](https://docs.tink.com/resources/transactions/transactions-sdk-reference#locales). |
+| market | Market/country code for which providers/banks should be available for the end user to authenticate towards/aggregate data. For example, GB for Great Britain. For a list of market codes, see [Markets](/Tiny-doc/tink_docs_home/resources/transactions/transactions-sdk-reference/#markets). |
+| locale | Locale for end-user facing text. For example, en\_US for English. For a list of locale codes, see [Locales](/Tiny-doc/tink_docs_home/resources/transactions/transactions-sdk-reference/#locales). |
 
-For more information, see [complete documentation reference](https://docs.tink.com/resources/transactions/transactions-sdk-reference#continuous-access-connect-accounts).
+For more information, see [complete documentation reference](/Tiny-doc/tink_docs_home/resources/transactions/transactions-sdk-reference/#continuous-access-connect-accounts).
 
 ### Step 5: Redirect a user through the generated Tink Link URL[](#step-5-redirect-a-user-through-the-generated-tink-link-url)
 
@@ -168,6 +168,6 @@ The difference between this and the previous URL that you set up in step 4 is th
 
 You can keep track of a user’s consents either by querying the consent endpoints, or by setting up webhooks, see the following references:
 
--   [Managing user consents](https://docs.tink.com/resources/transactions/managing-consents)
--   [Provider consent API docs](https://docs.tink.com/api#connectivity/provider-consent/list-provider-consents)
--   [Setting up webhooks for your application](https://docs.tink.com/resources/api-setup/webhooks)
+-   [Managing user consents](/Tiny-doc/tink_docs_home/resources/transactions/managing-consents/)
+-   [Provider consent API docs](/Tiny-doc/tink_docs_api/api/#connectivity/provider-consent/list-provider-consents)
+-   [Setting up webhooks for your application](/Tiny-doc/tink_docs_home/resources/api-setup/webhooks/)

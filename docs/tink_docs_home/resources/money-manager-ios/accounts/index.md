@@ -1,6 +1,6 @@
 ---
 title: "Accounts for iOS - Tink Docs"
-source: "https://docs.tink.com/resources/money-manager-ios/accounts"
+source: "/Tiny-doc/tink_docs_home/resources/money-manager-ios/accounts/"
 exportedAt: "2026-01-13T13:00:14.117Z"
 ---
 ![Accounts](https://images.ctfassets.net/tmqu5vj33f7w/1fcY2iTDiItsaPdeSh6RpK/d160e1491f419131c97621d6809ed508/Accounts.png)
@@ -32,7 +32,7 @@ extension ViewController: AccountDetailsViewControllerDelegate {
 
 ## Displaying accounts in the finance overview[](#displaying-accounts-in-the-finance-overview)
 
-You can display accounts in the Finance Overview. To show them, add `.accounts` to the list of `features` in your `FinancialOverviewViewController`. Read more about how to do that [here](https://docs.tink.com/resources/money-manager-ios/finance-overview).
+You can display accounts in the Finance Overview. To show them, add `.accounts` to the list of `features` in your `FinancialOverviewViewController`. Read more about how to do that [here](/Tiny-doc/tink_docs_home/resources/money-manager-ios/finance-overview/).
 
 ### Choosing which accounts to show[](#choosing-which-accounts-to-show)
 
@@ -58,7 +58,7 @@ If the user hasn't allowed access to any accounts, an empty state will be displa
 
 You can add a button asking the user to add an account by configuring the `noAccountsAction`.
 
-For example, if you're also using [Tink Link](https://docs.tink.com/resources/tink-link-ios), you can do this:
+For example, if you're also using [Tink Link](/Tiny-doc/tink_docs_home/resources/tink-link-ios/), you can do this:
 
 ```
 financeOverviewViewController.configuration.noAccountsAction = .addAccount(onTap: {

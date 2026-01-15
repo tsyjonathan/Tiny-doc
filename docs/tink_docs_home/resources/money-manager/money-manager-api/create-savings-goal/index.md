@@ -1,6 +1,6 @@
 ---
 title: "Create a Savings Goal - Tink Docs"
-source: "https://docs.tink.com/resources/money-manager/money-manager-api/create-savings-goal"
+source: "/Tiny-doc/tink_docs_home/resources/money-manager/money-manager-api/create-savings-goal/"
 exportedAt: "2026-01-13T12:50:54.827Z"
 ---
 ## Introduction[](#introduction)
@@ -13,7 +13,7 @@ By completing the 3 steps in this guide, we will create a goal for an upcoming h
 
 ## 1\. Fetch Savings Goals categories[](#fetch-savings-goals-categories)
 
-To get the savings goals categories you need to send a request to the [Savings Goals List Categories](https://docs.tink.com/api#finance-management/savings-goals/list-categories) endpoint using a `user access token` with the `savings-goal:read` scope.
+To get the savings goals categories you need to send a request to the [Savings Goals List Categories](/Tiny-doc/tink_docs_api/api/#finance-management/savings-goals/list-categories) endpoint using a `user access token` with the `savings-goal:read` scope.
 
 Example request
 
@@ -37,9 +37,9 @@ Now you select the category you require from the response, and in this example w
 
 ## 2\. Select the account & name the Savings Goal[](#select-the-account-amp-name-the-savings-goal)
 
-Now we have the Savings Goal's category and the account `id`, we are ready to create the Savings Goal using the [Create Savings Goal](https://docs.tink.com/api#finance-management/savings-goals/create-savings-goal) endpoint using an `user access token` with the `savings-goal:write` scope.
+Now we have the Savings Goal's category and the account `id`, we are ready to create the Savings Goal using the [Create Savings Goal](/Tiny-doc/tink_docs_api/api/#finance-management/savings-goals/create-savings-goal) endpoint using an `user access token` with the `savings-goal:write` scope.
 
-> **Note**: If you don't know your account `id`, it can be fetched using the [List Accounts](https://docs.tink.com/api#data-v1/account/list-accounts) endpoint.
+> **Note**: If you don't know your account `id`, it can be fetched using the [List Accounts](/Tiny-doc/tink_docs_api/api/#data-v1/account/list-accounts) endpoint.
 
 ## 3\. Name the Savings Goal, and specify the amount & target completion date[](#name-the-savings-goal-and-specify-the-amount-amp-target-completion-date)
 

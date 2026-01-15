@@ -1,6 +1,6 @@
 ---
 title: "Customization for Money Manager on iOS"
-source: "https://docs.tink.com/resources/money-manager-ios/customization"
+source: "/Tiny-doc/tink_docs_home/resources/money-manager-ios/customization/"
 exportedAt: "2026-01-13T13:00:26.928Z"
 ---
 ![Customization](https://images.ctfassets.net/tmqu5vj33f7w/6EmGf5N1vfyAUWiG7BVdC5/a7b4d2e5edeeb8a1a3bd93fbd2705a8e/Customization.png)
@@ -43,10 +43,10 @@ Appearance.provider = AppearanceProvider(colors: defaultColors, budgetColors: bu
 
 The following features can be customized separately.
 
-[Accounts](https://docs.tink.com/resources/pfm-sdk-ios/customize-accounts-on-ios)  
-[Budgets](https://docs.tink.com/resources/pfm-sdk-ios/customize-budgets-on-ios)  
-[Insights](https://docs.tink.com/resources/pfm-sdk-ios/customize-actionable-insights-on-ios)  
-[Statistics](https://docs.tink.com/resources/pfm-sdk-ios/customize-statistics-on-ios)
+[Accounts](/Tiny-doc/tink_docs_home/resources/pfm-sdk-ios/customize-accounts-on-ios/)  
+[Budgets](/Tiny-doc/tink_docs_home/resources/pfm-sdk-ios/customize-budgets-on-ios/)  
+[Insights](/Tiny-doc/tink_docs_home/resources/pfm-sdk-ios/customize-actionable-insights-on-ios/)  
+[Statistics](/Tiny-doc/tink_docs_home/resources/pfm-sdk-ios/customize-statistics-on-ios/)
 
 If you choose to not define colors for these features, they will have the same theme as the default color theme.
 

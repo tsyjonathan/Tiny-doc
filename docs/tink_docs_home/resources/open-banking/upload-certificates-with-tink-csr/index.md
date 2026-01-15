@@ -1,9 +1,9 @@
 ---
 title: "Upload certificates with Tink CSR"
-source: "https://docs.tink.com/resources/open-banking/upload-certificates-with-tink-csr"
+source: "/Tiny-doc/tink_docs_home/resources/open-banking/upload-certificates-with-tink-csr/"
 exportedAt: "2026-01-13T12:55:17.150Z"
 ---
-Tink's CSR simplifies the process of creating a CSR and omits the need for TPPs to handle certificate private keys. The CSR private keys are generated, encrypted, and stored by Tink. Once you have acquired the signed public certificate from the Qualified Trust Service Provider ([QTSP](https://docs.tink.com/resources/open-banking/open-banking-glossary)), it can be uploaded to Tink and replace the previously generated CSR record.
+Tink's CSR simplifies the process of creating a CSR and omits the need for TPPs to handle certificate private keys. The CSR private keys are generated, encrypted, and stored by Tink. Once you have acquired the signed public certificate from the Qualified Trust Service Provider ([QTSP](/Tiny-doc/tink_docs_home/resources/open-banking/open-banking-glossary/)), it can be uploaded to Tink and replace the previously generated CSR record.
 
 This guide describes how you, as a TPP, can use Tink’s **secret\_utils script**, version 5.1.0 or later, to create a CSR and upload the certificate to Tink. It consists of four steps:
 
@@ -36,7 +36,7 @@ See below for an example JSON file for generating OBIE CSRs and the description 
 
 ## Execute command to generate a CSR[](#execute-command-to-generate-a-csr)
 
-Separate CSRs are required for each type of certificate (QSealC/QWAC). Each CSR is generated for an app using your client credentials. You get these when signing up with Tink Console. For more information, see [Access your API credentials](https://docs.tink.com/resources/console/set-up-your-tink-account#access-your-api-credentials).
+Separate CSRs are required for each type of certificate (QSealC/QWAC). Each CSR is generated for an app using your client credentials. You get these when signing up with Tink Console. For more information, see [Access your API credentials](/Tiny-doc/tink_docs_home/resources/console/set-up-your-tink-account/#access-your-api-credentials).
 
 Example generate-csr command
 

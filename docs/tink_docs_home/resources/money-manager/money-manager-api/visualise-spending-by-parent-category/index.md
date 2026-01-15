@@ -1,9 +1,9 @@
 ---
 title: "Visualise spending by parent category"
-source: "https://docs.tink.com/resources/money-manager/money-manager-api/visualise-spending-by-parent-category"
+source: "/Tiny-doc/tink_docs_home/resources/money-manager/money-manager-api/visualise-spending-by-parent-category/"
 exportedAt: "2026-01-13T12:58:20.317Z"
 ---
-In the previous [guide](https://docs.tink.com/resources/money-manager/money-manager-api/visualise-spending-by-child-category), we explored how you can show spending per child category. There will be situations where it can be useful to see spending amounts for all child categories of a parent category, which can also be achieved using the [Statistics](https://docs.tink.com/api#finance-management/statistics) endpoint.
+In the previous [guide](/Tiny-doc/tink_docs_home/resources/money-manager/money-manager-api/visualise-spending-by-child-category/), we explored how you can show spending per child category. There will be situations where it can be useful to see spending amounts for all child categories of a parent category, which can also be achieved using the [Statistics](/Tiny-doc/tink_docs_api/api/#finance-management/statistics) endpoint.
 
 In this guide, we will drill down to the child category level using the same user and parent category `id` that was retrieved in the previous guide.
 
@@ -56,4 +56,4 @@ Example response:
 ]
 ```
 
-To know what the returned ID refers to, you can call the [list categories](https://docs.tink.com/api#general/category/list-categories) endpoint while unauthenticated, and match the payload field from the statistics endpoint response to the ID in the list categories endpoint response.
+To know what the returned ID refers to, you can call the [list categories](/Tiny-doc/tink_docs_api/api/#general/category/list-categories) endpoint while unauthenticated, and match the payload field from the statistics endpoint response to the ID in the list categories endpoint response.

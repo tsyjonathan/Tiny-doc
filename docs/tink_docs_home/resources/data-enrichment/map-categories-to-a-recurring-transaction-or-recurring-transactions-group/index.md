@@ -1,6 +1,6 @@
 ---
 title: "Map categories to a recurring transaction or recurring transactions group"
-source: "https://docs.tink.com/resources/data-enrichment/map-categories-to-a-recurring-transaction-or-recurring-transactions-group"
+source: "/Tiny-doc/tink_docs_home/resources/data-enrichment/map-categories-to-a-recurring-transaction-or-recurring-transactions-group/"
 exportedAt: "2026-01-13T12:47:50.022Z"
 ---
 This article shows how to get the category names that are associated with category IDs that are returned in the responses to recurring-transactions and recurring-transactions-groups requests. This is useful when you want to add a user-friendly category name to a recurring transaction or a recurring transactions group.
@@ -13,7 +13,7 @@ curl -X 'GET' \
   -H 'accept: application/json'
 ```
 
-For more details on this endpoint, you can read the guide [here](https://docs.tink.com/resources/data-enrichment/fetch-a-list-of-all-categories-for-your-locale). The response is a list of categories:
+For more details on this endpoint, you can read the guide [here](/Tiny-doc/tink_docs_home/resources/data-enrichment/fetch-a-list-of-all-categories-for-your-locale/). The response is a list of categories:
 
 ```
 [..., {

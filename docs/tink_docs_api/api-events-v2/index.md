@@ -1,9 +1,9 @@
 ---
 title: "Tink Docs"
-source: "https://docs.tink.com/api-events-v2"
+source: "/Tiny-doc/tink_docs_api/api-events-v2/"
 exportedAt: "2026-01-13T13:03:43.047Z"
 ---
-## Events v2[](https://docs.tink.com/api-events-v2)
+## Events v2[](/Tiny-doc/tink_docs_api/api-events-v2/)
 
 The Events v2 section contains resources to create, list, update, and delete webhooks for your app. This is where you create a subscription to a set of events for an endpoint URL.
 
@@ -15,7 +15,7 @@ The Events v2 section contains resources to create, list, update, and delete web
 
 The Events v2 Create Webhook Endpoint creates a subscription for a set of events to be delivered to a given endpoint URL. These webhooks are set to trigger whenever a subscribed event occurs for any user created for your app.
 
-Please visit the relevant Tink product page in our [documentation](https://docs.tink.com/) to learn more details on how to integrate and subscribe to webhook events related to product(s) you use.
+Please visit the relevant Tink product page in our [documentation](/Tiny-doc/tink_docs_home/index/) to learn more details on how to integrate and subscribe to webhook events related to product(s) you use.
 
 Due to the unreliable nature of the principle on which Webhook operate, we do not provide several guarantees regarding the delivery of events. The guarantees we do not provide are:
 

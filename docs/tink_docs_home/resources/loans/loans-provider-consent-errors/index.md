@@ -1,6 +1,6 @@
 ---
 title: "Provider Consent errors - Tink Docs"
-source: "https://docs.tink.com/resources/loans/loans-provider-consent-errors"
+source: "/Tiny-doc/tink_docs_home/resources/loans/loans-provider-consent-errors/"
 exportedAt: "2026-01-13T12:45:39.807Z"
 ---
 | Type | Reason | Error description |

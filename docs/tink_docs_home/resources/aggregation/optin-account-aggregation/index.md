@@ -1,34 +1,34 @@
 ---
 title: "Opt-In accounts for Aggregation - Tink Docs"
-source: "https://docs.tink.com/resources/aggregation/optin-account-aggregation"
+source: "/Tiny-doc/tink_docs_home/resources/aggregation/optin-account-aggregation/"
 exportedAt: "2026-01-13T12:55:32.751Z"
 ---
 ## What is Opt-In:[](#what-is-opt-in-)
 
 `Opt-In` allows the user to choose which accounts to aggregate when refreshing a credential.
 
-If enabled, `Opt-In` will kick in at the time of [credential creation](https://docs.tink.com/api#connectivity/credentials/create-credentials) after the authentication journey of the credential has been completed and when Tink is ready to start aggregating data from the financial institution.
+If enabled, `Opt-In` will kick in at the time of [credential creation](/Tiny-doc/tink_docs_api/api/#connectivity/credentials/create-credentials) after the authentication journey of the credential has been completed and when Tink is ready to start aggregating data from the financial institution.
 
-The user will need to select the account she wants to aggregate and provide it as supplemental information for `Opt-In` in order to complete the [Credential's journey](https://docs.tink.com/resources/aggregation/credentials-status-transitions#journey-of-a-credential-).
+The user will need to select the account she wants to aggregate and provide it as supplemental information for `Opt-In` in order to complete the [Credential's journey](/Tiny-doc/tink_docs_home/resources/aggregation/credentials-status-transitions/#journey-of-a-credential-).
 
 **Notes:**
 
 -   If an account is not selected at the time of `Opt-In`, that account will not be aggregated by Tink.
 -   If an account is opted in and then at a later time it is opted out, the account and all available data related to that accounts will be deleted.
 -   Subsequent credential refreshes will only refresh the data associated with the accounts that the user has opted in for.
--   It is possible to perform a [credential refresh](https://docs.tink.com/api#connectivity/credentials/refresh-credentials) and initiate `Opt-In` flow again by using the [query parameter](https://docs.tink.com/api#connectivity/credentials/refresh-credentials/query-parameters) `optIn=true`.
+-   It is possible to perform a [credential refresh](/Tiny-doc/tink_docs_api/api/#connectivity/credentials/refresh-credentials) and initiate `Opt-In` flow again by using the [query parameter](/Tiny-doc/tink_docs_api/api/#connectivity/credentials/refresh-credentials/query-parameters) `optIn=true`.
 -   `Opt-In` will be skipped in cases when there are no accounts to be fetched from that provider for the user. For testing such cases, you can use Tink's [Demo Bank](https://docs.preprod.oxford.tink.se/resources/aggregation/test-providers).
 -   `Opt-In` is currently not supported in Tink Link.
 
 ## Why use Opt-In:[](#why-use-opt-in-)
 
-It is possible that a user has multiple accounts associated with a particular Financial Institution, and does not want to aggregate all those accounts when creating a [credential](https://docs.tink.com/resources/aggregation/credentials).
+It is possible that a user has multiple accounts associated with a particular Financial Institution, and does not want to aggregate all those accounts when creating a [credential](/Tiny-doc/tink_docs_home/resources/aggregation/credentials/).
 
 In this scenario, we want to give the user the ability to choose which accounts to aggregate and which to discard at the time of the initial refresh and even in subsequent refreshes.
 
 ## How to work with Opt-In[](#how-to-work-with-opt-in)
 
-1.  Create credential using the [create credentials](https://docs.tink.com/api#connectivity/credentials/create-credentials) endpoint
+1.  Create credential using the [create credentials](/Tiny-doc/tink_docs_api/api/#connectivity/credentials/create-credentials) endpoint
 
 ```
 {
@@ -76,7 +76,7 @@ In this scenario, we want to give the user the ability to choose which accounts 
 }
 ```
 
-4.  For selecting the accounts you want to aggregate, send [supplemental information](https://docs.tink.com/api#connectivity/credentials/add-supplemental-information) with the name field as key, and true as value.
+4.  For selecting the accounts you want to aggregate, send [supplemental information](/Tiny-doc/tink_docs_api/api/#connectivity/credentials/add-supplemental-information) with the name field as key, and true as value.
     
     Send supplemental information
     

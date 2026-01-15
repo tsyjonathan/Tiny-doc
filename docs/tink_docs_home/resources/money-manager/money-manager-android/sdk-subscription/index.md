@@ -1,6 +1,6 @@
 ---
 title: "Subscription for Android - Tink Docs"
-source: "https://docs.tink.com/resources/money-manager/money-manager-android/sdk-subscription"
+source: "/Tiny-doc/tink_docs_home/resources/money-manager/money-manager-android/sdk-subscription/"
 exportedAt: "2026-01-13T12:58:34.287Z"
 ---
 ![Subscription](https://images.ctfassets.net/tmqu5vj33f7w/2uIpD8cHt14fEHdRtqYx00/e48c14a1847ca34263f338eeb19b5ee5/IMG_0388.png)

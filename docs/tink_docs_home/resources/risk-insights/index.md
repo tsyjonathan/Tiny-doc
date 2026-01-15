@@ -1,6 +1,6 @@
 ---
 title: "Risk Insights - Tink Docs"
-source: "https://docs.tink.com/resources/risk-insights"
+source: "/Tiny-doc/tink_docs_home/resources/risk-insights/"
 exportedAt: "2026-01-13T12:40:26.376Z"
 ---
 [
@@ -15,7 +15,7 @@ Risk Insights provides lenders with sophisticated features based on real-time da
 
 
 
-](https://docs.tink.com/resources/risk-insights/introduction-to-risk-insights)
+](/Tiny-doc/tink_docs_home/resources/risk-insights/introduction-to-risk-insights/)
 
 ## Getting started
 
@@ -31,7 +31,7 @@ Follow this step-by-step guide to fetch your first report.
 
 
 
-](https://docs.tink.com/resources/risk-insights/fetch-your-first-risk-insights-report)
+](/Tiny-doc/tink_docs_home/resources/risk-insights/fetch-your-first-risk-insights-report/)
 
 [
 
@@ -45,7 +45,7 @@ Test your integration by using demo credentials.
 
 
 
-](https://docs.tink.com/resources/risk-insights/test-different-risk-insights-scenarios)
+](/Tiny-doc/tink_docs_home/resources/risk-insights/test-different-risk-insights-scenarios/)
 
 [
 
@@ -59,7 +59,7 @@ Retrieve data from different Tink products in one single flow.
 
 
 
-](https://docs.tink.com/resources/risk-insights/ri-fetch-data-from-several-risk-products-in-one-flow)
+](/Tiny-doc/tink_docs_home/resources/risk-insights/ri-fetch-data-from-several-risk-products-in-one-flow/)
 
 ## Integration
 
@@ -75,7 +75,7 @@ Learn how to best integrate our SDKs with your app.
 
 
 
-](https://docs.tink.com/resources/risk-insights/setup-and-integrate-risk-insights)
+](/Tiny-doc/tink_docs_home/resources/risk-insights/setup-and-integrate-risk-insights/)
 
 [
 
@@ -89,7 +89,7 @@ Make sure that your integration is seamless and leads to the highest conversion 
 
 
 
-](https://docs.tink.com/resources/risk-insights/optimize-your-risk-insights-integration)
+](/Tiny-doc/tink_docs_home/resources/risk-insights/optimize-your-risk-insights-integration/)
 
 [
 
@@ -103,7 +103,7 @@ Risk Insights error codes and formats, described and explained.
 
 
 
-](https://docs.tink.com/resources/risk-insights/handle-risk-insights-error-codes)
+](/Tiny-doc/tink_docs_home/resources/risk-insights/handle-risk-insights-error-codes/)
 
 [
 
@@ -117,7 +117,7 @@ Launch the SDK with sensitive user information
 
 
 
-](https://docs.tink.com/resources/risk-insights/risk-insights-sdk-sessions)
+](/Tiny-doc/tink_docs_home/resources/risk-insights/risk-insights-sdk-sessions/)
 
 [
 
@@ -131,7 +131,7 @@ Parameters, responses, versions and market availability for the Risk Insights SD
 
 
 
-](https://docs.tink.com/resources/risk-insights/risk-insights-sdk-reference)
+](/Tiny-doc/tink_docs_home/resources/risk-insights/risk-insights-sdk-reference/)
 
 [
 
@@ -145,4 +145,4 @@ Use our Postman collection for Risk Insights.
 
 
 
-](https://docs.tink.com/resources/risk-insights/postman-collection-for-risk-insights)
+](/Tiny-doc/tink_docs_home/resources/risk-insights/postman-collection-for-risk-insights/)

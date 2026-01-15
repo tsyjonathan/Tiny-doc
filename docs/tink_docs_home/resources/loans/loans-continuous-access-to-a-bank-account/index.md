@@ -1,6 +1,6 @@
 ---
 title: "Continuous access to Loans accounts"
-source: "https://docs.tink.com/resources/loans/loans-continuous-access-to-a-bank-account"
+source: "/Tiny-doc/tink_docs_home/resources/loans/loans-continuous-access-to-a-bank-account/"
 exportedAt: "2026-01-13T12:45:27.328Z"
 ---
 **Introduction**
@@ -9,7 +9,7 @@ This article is divided into different sections that must be followed from top t
 
 The first section shows how to authorize your app and create a user. The second section is similar to the first, but is used to grant authorisation. The third section shows how to build a Tink URL that the end user must use to authenticate with their bank, select an account, and give their consent to your user. The fourth section shows how to get a user token. The fifth and last section shows you how to use that token to fetch loan data.
 
-If you want to experiment with Loans by using our API, try our [Postman collection for Loans](https://docs.tink.com/resources/loans/postman-collection-for-loans).
+If you want to experiment with Loans by using our API, try our [Postman collection for Loans](/Tiny-doc/tink_docs_home/resources/loans/postman-collection-for-loans/).
 
 ### Data-access models[](#data-access-models)
 

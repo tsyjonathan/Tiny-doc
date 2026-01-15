@@ -1,6 +1,6 @@
 ---
 title: "Set up and integrate Business Account Check"
-source: "https://docs.tink.com/resources/business-account-check/setup-and-integrate-business-account-check"
+source: "/Tiny-doc/tink_docs_home/resources/business-account-check/setup-and-integrate-business-account-check/"
 exportedAt: "2026-01-13T12:44:52.632Z"
 ---
 ## Introduction[](#introduction)
@@ -21,7 +21,7 @@ For the best authentication experience, use the SDK appropriate for your platfor
 
 ### Launching the SDK[](#launching-the-sdk)
 
-You will first need to construct a URL to launch the SDK flow. In [Console](https://console.tink.com/), you can use the [Tink Link visual editor](https://console.tink.com/business-account-check/tink-link) to easily create and configure the end-user flow. For a list of all possible request and response parameters, see the [Business Account Check SDK reference](https://docs.tink.com/resources/business-account-check/business-account-check-sdk-reference). The resulting URL is used to launch the SDK flow, allowing the user to authenticate with their bank and select an account that will be used to generate the account verification report.
+You will first need to construct a URL to launch the SDK flow. In [Console](https://console.tink.com/), you can use the [Tink Link visual editor](https://console.tink.com/business-account-check/tink-link) to easily create and configure the end-user flow. For a list of all possible request and response parameters, see the [Business Account Check SDK reference](/Tiny-doc/tink_docs_home/resources/business-account-check/business-account-check-sdk-reference/). The resulting URL is used to launch the SDK flow, allowing the user to authenticate with their bank and select an account that will be used to generate the account verification report.
 
 **Example URL**
 
@@ -39,13 +39,13 @@ To launch the SDK in your web app, simply navigate the user to the URL above. Th
 {YOUR_REDIRECT_URI}?business_account_verification_report_id=ff8ae53bc46e45fe9a37c4fd1353e60d
 ```
 
-See the [Business Account Check SDK reference](https://docs.tink.com/resources/business-account-check/business-account-check-sdk-reference) for success and error response formats and their parameters.
+See the [Business Account Check SDK reference](/Tiny-doc/tink_docs_home/resources/business-account-check/business-account-check-sdk-reference/) for success and error response formats and their parameters.
 
-To successfully integrate the web SDK in a mobile app, see [using the web SDK in mobile apps](https://docs.tink.com/resources/business-account-check/using-the-business-account-check-web-sdk-in-mobile-apps).
+To successfully integrate the web SDK in a mobile app, see [using the web SDK in mobile apps](/Tiny-doc/tink_docs_home/resources/business-account-check/using-the-business-account-check-web-sdk-in-mobile-apps/).
 
 ### API Reference[](#api-reference)
 
-For the full reference documentation, see the [Business Account Check SDK reference](https://docs.tink.com/resources/business-account-check/business-account-check-sdk-reference).
+For the full reference documentation, see the [Business Account Check SDK reference](/Tiny-doc/tink_docs_home/resources/business-account-check/business-account-check-sdk-reference/).
 
 ## Tink Link for iOS[](#tink-link-for-ios)
 

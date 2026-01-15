@@ -1,11 +1,11 @@
 ---
 title: "Get Cost of living Transactions"
-source: "https://docs.tink.com/resources/money-manager/money-manager-api/get-cost-of-living-transactions"
+source: "/Tiny-doc/tink_docs_home/resources/money-manager/money-manager-api/get-cost-of-living-transactions/"
 exportedAt: "2026-01-13T12:51:24.012Z"
 ---
-Now when you have obtained [cost of living](https://docs.tink.com/resources/money-manager/money-manager-api/get-cost-of-living), you can list all transactions for selected cost of living.
+Now when you have obtained [cost of living](/Tiny-doc/tink_docs_home/resources/money-manager/money-manager-api/get-cost-of-living/), you can list all transactions for selected cost of living.
 
-To list transactions you will need id of the cost-of-living from [cost-of-living](https://docs.tink.com/resources/money-manager/money-manager-api/get-cost-of-living).
+To list transactions you will need id of the cost-of-living from [cost-of-living](/Tiny-doc/tink_docs_home/resources/money-manager/money-manager-api/get-cost-of-living/).
 
 Example request
 

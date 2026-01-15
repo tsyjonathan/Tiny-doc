@@ -1,11 +1,11 @@
 ---
 title: "Find similar transactions - Tink Docs"
-source: "https://docs.tink.com/resources/money-manager-api/similar-transactions"
+source: "/Tiny-doc/tink_docs_home/resources/money-manager-api/similar-transactions/"
 exportedAt: "2026-01-13T13:00:47.366Z"
 ---
 There may be occasions where you want to retrieve a list of similar transactions. For instance in a PFM app setting, you may want to see all of the similar groceries transactions to allow a user to quickly see the different transactions along with statistics. Or when you're looking to recategorise transactions and you want to recategorise all the similar transactions.
 
-To get started, you need to use the [Get similar transaction](https://docs.tink.com/api#data-v1/transaction/get-similar-transactions) endpoint. To use this endpoint, you need to also provide a `user access token` with the `transactions:read` scope. In the request, you need to also include the transaction ID of the transaction you want to find similar transactions for.
+To get started, you need to use the [Get similar transaction](/Tiny-doc/tink_docs_api/api/#data-v1/transaction/get-similar-transactions) endpoint. To use this endpoint, you need to also provide a `user access token` with the `transactions:read` scope. In the request, you need to also include the transaction ID of the transaction you want to find similar transactions for.
 
 As part of the request, the parameters give you the option to return similar transactions which belong to a category (rather than ones with a similar description) if you provide the `categoryId`. You can also choose to include the same transaction in the response. For the purpose of this guide, we will not fetch similar transactions based on the category, we will instead include the same transactions in response.
 
@@ -84,6 +84,6 @@ Example response:
 }
 ```
 
-In the response, an object with a list of similar transactions, along with a list of statistics summarising those transactions will be returned to you. For more info on the fields in the response, please refer to the [API documentation](https://docs.tink.com/api#data-v1/transaction/get-similar-transactions/response-similartransactionsresponse).
+In the response, an object with a list of similar transactions, along with a list of statistics summarising those transactions will be returned to you. For more info on the fields in the response, please refer to the [API documentation](/Tiny-doc/tink_docs_api/api/#data-v1/transaction/get-similar-transactions/response-similartransactionsresponse).
 
-**NOTE**: When you have a list of similar transactions and their associated IDs, you may want to recategorise some of them at the same time. If so, please follow this [guide](https://docs.tink.com/resources/money-manager/money-manager-api/recategorise-transactions) for guidance.
+**NOTE**: When you have a list of similar transactions and their associated IDs, you may want to recategorise some of them at the same time. If so, please follow this [guide](/Tiny-doc/tink_docs_home/resources/money-manager/money-manager-api/recategorise-transactions/) for guidance.

@@ -1,6 +1,6 @@
 ---
 title: "Recommended budgets for iOS - Tink Docs"
-source: "https://docs.tink.com/resources/money-manager/money-manager-ios/recommended-budgets-for-ios-pfm-sdk"
+source: "/Tiny-doc/tink_docs_home/resources/money-manager/money-manager-ios/recommended-budgets-for-ios-pfm-sdk/"
 exportedAt: "2026-01-13T12:52:35.363Z"
 ---
 ![Recommended Budgets](https://images.ctfassets.net/tmqu5vj33f7w/2yjEKnqFJvcDkorG1Ro3CG/de0d4bad116da67e750f38e7572a1023/iOS-Recommended-Budgets.png)
@@ -11,7 +11,7 @@ Recommended Budgets is a great visual tool for your app's users to quickly creat
 
 ## Displaying recommended budgets within Finance Overview[](#displaying-recommended-budgets-within-finance-overview)
 
-The [Finance Overview](https://docs.tink.com/resources/money-manager/money-manager-ios/finance-overview) component now has a new optional feature section that displays users recommended budgets as a list. The list is divided into categories, showing average expenses for each. The user can interact with categories by pressing the `Create budget` button. Action will trigger budget creation flow with values of the recommended budget used as presets for the new budget.
+The [Finance Overview](/Tiny-doc/tink_docs_home/resources/money-manager/money-manager-ios/finance-overview/) component now has a new optional feature section that displays users recommended budgets as a list. The list is divided into categories, showing average expenses for each. The user can interact with categories by pressing the `Create budget` button. Action will trigger budget creation flow with values of the recommended budget used as presets for the new budget.
 
 ### Initializing `FinanceOverviewViewController` with the recommended budgets section included:[](#initializing-code-financeoverviewviewcontroller-code-with-the-recommended-budgets-section-included-)
 
@@ -32,8 +32,8 @@ navigationController.pushViewController(allBudgetsViewController, animated: <Boo
 
 ### User actions:[](#user-actions-)
 
--   By clicking on an existing budget, the user enters the [budget details](https://docs.tink.com/resources/money-manager/money-manager-ios/budgets-for-ios-pfm-sdk#displaying-budget-details) screen, where they can view progress, edit details, and delete budgets.
+-   By clicking on an existing budget, the user enters the [budget details](/Tiny-doc/tink_docs_home/resources/money-manager/money-manager-ios/budgets-for-ios-pfm-sdk/#displaying-budget-details) screen, where they can view progress, edit details, and delete budgets.
     
--   By clicking on the `Create budget` button, the user enters a new [budget creation flow](https://docs.tink.com/resources/money-manager/money-manager-ios/budgets-for-ios-pfm-sdk#creating-a-budget) with values preset from the suggested budget.
+-   By clicking on the `Create budget` button, the user enters a new [budget creation flow](/Tiny-doc/tink_docs_home/resources/money-manager/money-manager-ios/budgets-for-ios-pfm-sdk/#creating-a-budget) with values preset from the suggested budget.
     
--   By clicking on the `Create new` navigation button, the user enters a plain [budget creation flow](https://docs.tink.com/resources/money-manager/money-manager-ios/budgets-for-ios-pfm-sdk#creating-a-budget) with no values selected as default.
+-   By clicking on the `Create new` navigation button, the user enters a plain [budget creation flow](/Tiny-doc/tink_docs_home/resources/money-manager/money-manager-ios/budgets-for-ios-pfm-sdk/#creating-a-budget) with no values selected as default.

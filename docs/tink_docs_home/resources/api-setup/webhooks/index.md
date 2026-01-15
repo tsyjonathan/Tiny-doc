@@ -1,6 +1,6 @@
 ---
 title: "Set up webhooks for your app"
-source: "https://docs.tink.com/resources/api-setup/webhooks"
+source: "/Tiny-doc/tink_docs_home/resources/api-setup/webhooks/"
 exportedAt: "2026-01-13T12:53:44.538Z"
 ---
 ## Setting up webhooks[](#setting-up-webhooks)
@@ -15,7 +15,7 @@ Use this endpoint to receive notifications. The endpoint should be a publicly-ac
 
 ### 2\. Set up the webhook using the Events API[](#set-up-the-webhook-using-the-events-api)
 
-You need to set up the webhook once. To do so, call the Tink API using your `client access token`. This client access token should have been authorized to include the `webhook-endpoints` scope. [Read more](https://docs.tink.com/api#events-v2/webhook/create-webhook-endpoint/request-body-createwebhookendpointrequest) on the fields for this request.
+You need to set up the webhook once. To do so, call the Tink API using your `client access token`. This client access token should have been authorized to include the `webhook-endpoints` scope. [Read more](/Tiny-doc/tink_docs_api/api/#events-v2/webhook/create-webhook-endpoint/request-body-createwebhookendpointrequest) on the fields for this request.
 
 **Request example:**
 
@@ -44,9 +44,9 @@ curl -v -X POST https://api.tink.com/events/v2/webhook-endpoints \
 }
 ```
 
-Please store the `secret` value safely, as this value cannot be retrieved again. Use this secret to [verify the signature](https://docs.tink.com/resources/api-setup/webhook-signature-validation) of incoming notifications.
+Please store the `secret` value safely, as this value cannot be retrieved again. Use this secret to [verify the signature](/Tiny-doc/tink_docs_home/resources/api-setup/webhook-signature-validation/) of incoming notifications.
 
-For more information, see the [Events API](https://docs.tink.com/api#events-v2) API reference.
+For more information, see the [Events API](/Tiny-doc/tink_docs_api/api/#events-v2) API reference.
 
 ## Message structure[](#message-structure)
 

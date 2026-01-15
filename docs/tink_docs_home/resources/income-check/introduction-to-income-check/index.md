@@ -1,6 +1,6 @@
 ---
 title: "Introduction to Income Check - Tink Docs"
-source: "https://docs.tink.com/resources/income-check/introduction-to-income-check"
+source: "/Tiny-doc/tink_docs_home/resources/income-check/introduction-to-income-check/"
 exportedAt: "2026-01-13T12:41:31.287Z"
 ---
 Businesses require an accurate picture of an individual's income, for example, to assess loan applications. Most companies currently rely on a combination of two ways to verify income: credit reference agencies and user-provided material, such as payslips.
@@ -13,7 +13,7 @@ For Income Check, Tink solves this by combining robust and reliable open-banking
 
 ## Easy integration[](#easy-integration)
 
-We deliver Income Check through our [SDK](https://docs.tink.com/resources/income-check/income-check-sdk-reference) that uses a single line of code for you to integrate your apps with our platform.
+We deliver Income Check through our [SDK](/Tiny-doc/tink_docs_home/resources/income-check/income-check-sdk-reference/) that uses a single line of code for you to integrate your apps with our platform.
 
 When an end user has consented to share their data and authenticated to their bank, an automated JSON report is made available to you in less than a minute.
 

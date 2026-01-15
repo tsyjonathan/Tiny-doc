@@ -1,6 +1,6 @@
 ---
 title: "Map categories to a predicted recurring transaction"
-source: "https://docs.tink.com/resources/data-enrichment/map-categories-to-a-predicted-recurring-transaction"
+source: "/Tiny-doc/tink_docs_home/resources/data-enrichment/map-categories-to-a-predicted-recurring-transaction/"
 exportedAt: "2026-01-13T12:47:54.669Z"
 ---
 Steps in this guide:

@@ -1,6 +1,6 @@
 ---
 title: "Postman collection - Tink Docs"
-source: "https://docs.tink.com/resources/investments/postman-collection-for-investments"
+source: "/Tiny-doc/tink_docs_home/resources/investments/postman-collection-for-investments/"
 exportedAt: "2026-01-13T12:45:23.431Z"
 ---
 ![Postman-collection-investment](https://images.ctfassets.net/tmqu5vj33f7w/p7YfdFWynL6QmzSW0HTjB/f9c057a2bccad2b96762ca7f24c0742a/Postman-collection-assets.png)

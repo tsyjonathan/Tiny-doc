@@ -1,6 +1,6 @@
 ---
 title: "How to get an open banking license"
-source: "https://docs.tink.com/resources/open-banking/how-to-get-an-open-banking-license"
+source: "/Tiny-doc/tink_docs_home/resources/open-banking/how-to-get-an-open-banking-license/"
 exportedAt: "2026-01-13T12:54:51.679Z"
 ---
 To use your own license in your local (home) market, you’ll first need to obtain a license from your home National Competent Authority (NCA).

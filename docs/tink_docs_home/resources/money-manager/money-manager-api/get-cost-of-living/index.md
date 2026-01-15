@@ -1,6 +1,6 @@
 ---
 title: "Get Cost of living - Tink Docs"
-source: "https://docs.tink.com/resources/money-manager/money-manager-api/get-cost-of-living"
+source: "/Tiny-doc/tink_docs_home/resources/money-manager/money-manager-api/get-cost-of-living/"
 exportedAt: "2026-01-13T12:51:22.176Z"
 ---
 ## Introduction[](#introduction)

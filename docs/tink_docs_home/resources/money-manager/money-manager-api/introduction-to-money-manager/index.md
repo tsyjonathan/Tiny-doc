@@ -1,6 +1,6 @@
 ---
 title: "Introduction to Money Manager - Tink Docs"
-source: "https://docs.tink.com/resources/money-manager/money-manager-api/introduction-to-money-manager"
+source: "/Tiny-doc/tink_docs_home/resources/money-manager/money-manager-api/introduction-to-money-manager/"
 exportedAt: "2026-01-13T12:49:57.686Z"
 ---
 Money Manager is a suite of financial management tools, available as SDKs or via the Tink API, that gives developers everything they need to build next-gen digital banking experiences.

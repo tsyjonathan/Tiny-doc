@@ -1,6 +1,6 @@
 ---
 title: "Test different Risk Insights scenarios"
-source: "https://docs.tink.com/resources/risk-insights/test-different-risk-insights-scenarios"
+source: "/Tiny-doc/tink_docs_home/resources/risk-insights/test-different-risk-insights-scenarios/"
 exportedAt: "2026-01-13T12:49:26.398Z"
 ---
 ## Demo Bank[](#demo-bank)
@@ -84,7 +84,7 @@ Store your `access_token`.
 
 ### Fetch your report[](#fetch-your-report)
 
-Now is the time to fetch the Risk Insights report in the JSON format through the [Risk Insights API](https://docs.tink.com/api#risk/risk-insights).
+Now is the time to fetch the Risk Insights report in the JSON format through the [Risk Insights API](/Tiny-doc/tink_docs_api/api/#risk/risk-insights).
 
 Fetch your Risk Insights report
 

@@ -1,6 +1,6 @@
 ---
 title: "Business Transactions - Tink Docs"
-source: "https://docs.tink.com/resources/business-transactions"
+source: "/Tiny-doc/tink_docs_home/resources/business-transactions/"
 exportedAt: "2026-01-13T12:40:17.012Z"
 ---
 [
@@ -15,7 +15,7 @@ Business Transactions provides access to enriched and real-time financial data f
 
 
 
-](https://docs.tink.com/resources/business-transactions/introduction-to-business-transactions)
+](/Tiny-doc/tink_docs_home/resources/business-transactions/introduction-to-business-transactions/)
 
 ## One-time access
 
@@ -31,7 +31,7 @@ This guide will show you how to access business accounts
 
 
 
-](https://docs.tink.com/resources/business-transactions/one-time-access-to-a-business-account)
+](/Tiny-doc/tink_docs_home/resources/business-transactions/one-time-access-to-a-business-account/)
 
 ## Continuous access
 
@@ -47,7 +47,7 @@ Continuous access to a business account
 
 
 
-](https://docs.tink.com/resources/business-transactions/continuous-access-to-a-business-account)
+](/Tiny-doc/tink_docs_home/resources/business-transactions/continuous-access-to-a-business-account/)
 
 [
 
@@ -61,7 +61,7 @@ Refresh data when using continuous access
 
 
 
-](https://docs.tink.com/resources/business-transactions/business-refresh-data)
+](/Tiny-doc/tink_docs_home/resources/business-transactions/business-refresh-data/)
 
 [
 
@@ -75,7 +75,7 @@ Learn how to manage existing consents for access to a business bank account.
 
 
 
-](https://docs.tink.com/resources/business-transactions/business-managing-consents)
+](/Tiny-doc/tink_docs_home/resources/business-transactions/business-managing-consents/)
 
 ## Fetch data
 
@@ -91,7 +91,7 @@ To retrieve a list of accounts for a specific user, you need a user access token
 
 
 
-](https://docs.tink.com/resources/business-transactions/business-list-accounts-and-balances)
+](/Tiny-doc/tink_docs_home/resources/business-transactions/business-list-accounts-and-balances/)
 
 [
 
@@ -105,7 +105,7 @@ To retrieve a list of transactions, you need a client access token with the tran
 
 
 
-](https://docs.tink.com/resources/business-transactions/list-business-transactions)
+](/Tiny-doc/tink_docs_home/resources/business-transactions/list-business-transactions/)
 
 ## Integration
 
@@ -121,7 +121,7 @@ Learn how to best integrate our SDKs with your app.
 
 
 
-](https://docs.tink.com/resources/business-transactions/setup-and-integrate-business-transactions)
+](/Tiny-doc/tink_docs_home/resources/business-transactions/setup-and-integrate-business-transactions/)
 
 [
 
@@ -135,7 +135,7 @@ Make sure that your integration is seamless and leads to the highest conversion 
 
 
 
-](https://docs.tink.com/resources/business-transactions/optimize-your-business-transactions-integration)
+](/Tiny-doc/tink_docs_home/resources/business-transactions/optimize-your-business-transactions-integration/)
 
 [
 
@@ -149,7 +149,7 @@ Business Transactions error codes and formats, described and explained.
 
 
 
-](https://docs.tink.com/resources/business-transactions/handle-business-transactions-error-codes)
+](/Tiny-doc/tink_docs_home/resources/business-transactions/handle-business-transactions-error-codes/)
 
 [
 
@@ -163,7 +163,7 @@ Launch the SDK with sensitive user information
 
 
 
-](https://docs.tink.com/resources/business-transactions/business-transactions-sdk-sessions)
+](/Tiny-doc/tink_docs_home/resources/business-transactions/business-transactions-sdk-sessions/)
 
 [
 
@@ -177,7 +177,7 @@ Parameters, responses, versions and market availability for the Business Transac
 
 
 
-](https://docs.tink.com/resources/business-transactions/business-transactions-sdk-reference)
+](/Tiny-doc/tink_docs_home/resources/business-transactions/business-transactions-sdk-reference/)
 
 [
 
@@ -191,7 +191,7 @@ Set up webhooks to listen for Tink event notifications.
 
 
 
-](https://docs.tink.com/resources/business-transactions/webhooks-for-business-transactions)
+](/Tiny-doc/tink_docs_home/resources/business-transactions/webhooks-for-business-transactions/)
 
 [
 
@@ -205,4 +205,4 @@ Use our Postman collection for Business Transactions
 
 
 
-](https://docs.tink.com/resources/business-transactions/postman-collection-for-business-transactions)
+](/Tiny-doc/tink_docs_home/resources/business-transactions/postman-collection-for-business-transactions/)

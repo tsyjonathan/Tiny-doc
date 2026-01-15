@@ -1,6 +1,6 @@
 ---
 title: "How to set up Mutual TLS authentication"
-source: "https://docs.tink.com/resources/api-setup/set-up-mutual-tls-authentication"
+source: "/Tiny-doc/tink_docs_home/resources/api-setup/set-up-mutual-tls-authentication/"
 exportedAt: "2026-01-13T12:59:58.912Z"
 ---
 Mutual TLS authentication (abbreviated mTLS or TLS MA) can be used in a [standardized](https://tools.ietf.org/html/rfc8705) way to extend the OAuth 2.0 authentication method for improved security. This replaces the OAuth client's `client_secret` with a private key and a client certificate signed by Tink's CA.
@@ -30,7 +30,7 @@ Keep the generated private key secure. This will be used in later API requests.
 
 ### Reach out to us[](#reach-out-to-us)
 
-Contact your Account Manager or get in touch with [Tink Support](https://docs.tink.com/resources/support/how-to-find-technical-support) to send them the CSR file you generated, requesting mTLS to be enabled on your OAuth client. After a few business days, a client certificate signed by Tink will be sent back to you. Together with your private key, these two files will be used for authentication toward the Tink API.
+Contact your Account Manager or get in touch with [Tink Support](/Tiny-doc/tink_docs_home/resources/support/how-to-find-technical-support/) to send them the CSR file you generated, requesting mTLS to be enabled on your OAuth client. After a few business days, a client certificate signed by Tink will be sent back to you. Together with your private key, these two files will be used for authentication toward the Tink API.
 
 ## Accessing the Tink API over mTLS[](#accessing-the-tink-api-over-mtls)
 
@@ -40,7 +40,7 @@ Tink's CA chain used for the client certificate does not need to be explicitly t
 
 ### Acquire an access token[](#acquire-an-access-token)
 
-**Documentation:** Visit [How to get an access token](https://docs.tink.com/resources/getting-started/get-access-token)
+**Documentation:** Visit [How to get an access token](/Tiny-doc/tink_docs_home/resources/getting-started/get-access-token/)
 
 The use of the API over mTLS is overall the same as without mTLS, with the exceptions being that certificate authentication is performed on every API request, and that token generation must not be submitted with a `client_secret`.
 
@@ -66,7 +66,7 @@ curl --verbose -X POST https://mtls.api.tink.com/api/v1/oauth/token \
 }
 ```
 
-Once the access token is acquired, you can use it to make requests to the [Tink API](https://docs.tink.com/api) using the domain name `mtls.api.tink.com`
+Once the access token is acquired, you can use it to make requests to the [Tink API](/Tiny-doc/tink_docs_api/api/) using the domain name `mtls.api.tink.com`
 
 ## Enforce the use of mTLS[](#enforce-the-use-of-mtls)
 

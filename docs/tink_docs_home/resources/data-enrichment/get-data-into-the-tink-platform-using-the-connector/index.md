@@ -1,15 +1,15 @@
 ---
 title: "Get data into the Tink platform using the Connector"
-source: "https://docs.tink.com/resources/data-enrichment/get-data-into-the-tink-platform-using-the-connector"
+source: "/Tiny-doc/tink_docs_home/resources/data-enrichment/get-data-into-the-tink-platform-using-the-connector/"
 exportedAt: "2026-01-13T12:47:31.538Z"
 ---
-Almost all endpoints that are used by Data Enrichment require permanent users and end-user transaction data. There are two methods to get a user’s transactions to the platform: through Aggregation (which delegates the task of transaction ingestion to Tink if an end-user has given consent) or through manual ingestion by using the Connector API. Select the approach that fits your use case. The manual ingestion by using the Connector API is presented below. For more information about Aggregation, see [link](https://docs.tink.com/resources/data-enrichment/get-data-into-the-tink-platform-using-aggregation).
+Almost all endpoints that are used by Data Enrichment require permanent users and end-user transaction data. There are two methods to get a user’s transactions to the platform: through Aggregation (which delegates the task of transaction ingestion to Tink if an end-user has given consent) or through manual ingestion by using the Connector API. Select the approach that fits your use case. The manual ingestion by using the Connector API is presented below. For more information about Aggregation, see [link](/Tiny-doc/tink_docs_home/resources/data-enrichment/get-data-into-the-tink-platform-using-aggregation/).
 
 ## Ingest users, accounts, and transactions into the Tink Platform by using Connector[](#ingest-users-accounts-and-transactions-into-the-tink-platform-by-using-connector)
 
 In addition to aggregation of user data through Tink Link, Tink also offers push ingestion of accounts and transactions through the Connector API. This might be suitable if you already have account and transaction data for your end users, for example.
 
-This article guides you through the steps of how to manually create a user, and then ingest both an account and transactions for that user. There are some caveats to manual ingestion and all of them won’t be covered in this article – we encourage you to [read the full API reference](https://docs.tink.com/api/connector#introduction) if you intend to use this for production.
+This article guides you through the steps of how to manually create a user, and then ingest both an account and transactions for that user. There are some caveats to manual ingestion and all of them won’t be covered in this article – we encourage you to [read the full API reference](/Tiny-doc/tink_docs_api/api/#introduction) if you intend to use this for production.
 
 The steps we will cover in this guide:
 
@@ -43,11 +43,11 @@ curl -v -X POST https://api.tink.com/api/v1/oauth/token \
 }
 ```
 
-For more information, see [complete documentation reference](https://docs.tink.com/api#general/oauth/get-access-token).
+For more information, see [complete documentation reference](/Tiny-doc/tink_docs_api/api/#general/oauth/get-access-token).
 
 ### Step 2: Creating a user[](#step-2-creating-a-user)
 
-Use the generated client access token from step 1 to create a new Tink User. Add a unique external user id (external\_user\_id) to keep a reference to the user – you will use external\_user\_id in later steps of this guide. Also add the market (ISO 3166-1 country code) that you’re in. A full reference of which markets are supported can be [found here](https://docs.tink.com/resources/transactions/transactions-sdk-reference#markets).
+Use the generated client access token from step 1 to create a new Tink User. Add a unique external user id (external\_user\_id) to keep a reference to the user – you will use external\_user\_id in later steps of this guide. Also add the market (ISO 3166-1 country code) that you’re in. A full reference of which markets are supported can be [found here](/Tiny-doc/tink_docs_home/resources/transactions/transactions-sdk-reference/#markets).
 
 **Example request:**
 
@@ -72,7 +72,7 @@ curl -v -X POST https://api.tink.com/api/v1/user/create \
 }
 ```
 
-For more information, see [complete documentation reference](https://docs.tink.com/api#general/user/create-user).
+For more information, see [complete documentation reference](/Tiny-doc/tink_docs_api/api/#general/user/create-user).
 
 ### Step 3: Ingesting an account[](#step-3-ingesting-an-account)
 
@@ -97,7 +97,7 @@ curl -v -X POST 'https://api.tink.com/connector/users/{externalUserId}/accounts'
 }'
 ```
 
-For more information, see [complete documentation reference](https://docs.tink.com/api/connector#data/account/ingest-accounts).
+For more information, see [complete documentation reference](/Tiny-doc/tink_docs_api/api/#data/account/ingest-accounts).
 
 ### Step 4: Ingesting transactions[](#step-4-ingesting-transactions)
 
@@ -130,11 +130,11 @@ curl -v -X POST 'https://api.tink.com/connector/users/{externalUserId}/transacti
 }'
 ```
 
-For more information, see [complete documentation reference](https://docs.tink.com/api/connector#data/transaction/ingest-transactions).
+For more information, see [complete documentation reference](/Tiny-doc/tink_docs_api/api/#data/transaction/ingest-transactions).
 
 A successful ingestion of accounts returns HTTP 204 with no response body. The transactions will be processed asynchronously and won’t be available immediately, but shouldn’t take more than a few seconds if there are only several of them.
 
-You should receive an HTTP 204 response, which means that the transactions have begun processing in Tink’s system. There are other possible parameters in the request object that we didn’t use in the example but you might be interested in, you can find a complete reference to the endpoint [here](https://docs.tink.com/api/connector#data/transaction/ingest-transactions).
+You should receive an HTTP 204 response, which means that the transactions have begun processing in Tink’s system. There are other possible parameters in the request object that we didn’t use in the example but you might be interested in, you can find a complete reference to the endpoint [here](/Tiny-doc/tink_docs_api/api/#data/transaction/ingest-transactions).
 
 If you are using this article as a quick start guide and are ingesting a couple of transactions, it should not take more than a couple of seconds. Refer to the \_\_generating a user access token and querying end-user data article \_\_on how to fetch your enriched ingested data.
 

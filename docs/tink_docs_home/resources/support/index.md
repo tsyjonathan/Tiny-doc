@@ -1,6 +1,6 @@
 ---
 title: "Support - Tink Docs"
-source: "https://docs.tink.com/resources/support"
+source: "/Tiny-doc/tink_docs_home/resources/support/"
 exportedAt: "2026-01-13T12:41:44.330Z"
 ---
 [
@@ -11,4 +11,4 @@ Learn how to create, view, and manage cases with Tink Support.
 
 
 
-](https://docs.tink.com/resources/support/contact-tink-germany-support)
+](/Tiny-doc/tink_docs_home/resources/support/contact-tink-germany-support/)

@@ -1,6 +1,6 @@
 ---
 title: "Test different Business Account Check scenarios"
-source: "https://docs.tink.com/resources/business-account-check/test-different-business-account-check-scenarios"
+source: "/Tiny-doc/tink_docs_home/resources/business-account-check/test-different-business-account-check-scenarios/"
 exportedAt: "2026-01-13T12:44:26.922Z"
 ---
 ## Demo Bank[](#demo-bank)

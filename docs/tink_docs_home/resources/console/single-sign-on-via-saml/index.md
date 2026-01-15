@@ -1,6 +1,6 @@
 ---
 title: "Single sign-on - Tink Docs"
-source: "https://docs.tink.com/resources/console/single-sign-on-via-saml"
+source: "/Tiny-doc/tink_docs_home/resources/console/single-sign-on-via-saml/"
 exportedAt: "2026-01-13T12:53:51.282Z"
 ---
 ## Introduction[](#introduction)
@@ -118,4 +118,4 @@ No, we don’t. This is for security reasons.
 
 **Can you please help me with this?**
 
-Don’t hesitate to contact [Tink Support](https://docs.tink.com/resources/support/how-to-find-technical-support) if you have any questions or problems that you want to resolve. We’re here to help.
+Don’t hesitate to contact [Tink Support](/Tiny-doc/tink_docs_home/resources/support/how-to-find-technical-support/) if you have any questions or problems that you want to resolve. We’re here to help.

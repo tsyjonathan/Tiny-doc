@@ -1,6 +1,6 @@
 ---
 title: "Present your first Actionable Insight"
-source: "https://docs.tink.com/resources/money-manager-api/present-your-first-actionable-insight"
+source: "/Tiny-doc/tink_docs_home/resources/money-manager-api/present-your-first-actionable-insight/"
 exportedAt: "2026-01-13T12:56:15.512Z"
 ---
 ## 1\. Turn on your first actionable insight[](#turn-on-your-first-actionable-insight)
@@ -9,15 +9,15 @@ exportedAt: "2026-01-13T12:56:15.512Z"
 
 To enable Actionable Insights, within the Tink Console, click on the Money Manager section on the left side and go to the Actionable Insights tab. In this tab, you can see an overview of all available insights. By default, all available insights are disabled, so you will need to turn them on. For this guide, we want you to use `BUDGET_SUGGEST_CREATE_FIRST` insight. Use the toogle to enable it.
 
-**Note:** Every enabled insight can be generated for every user connected to Tink. However, a template with a locale matching the user's is required to render an insight. The locale of a user and presence of a matching template will determine if the insight can be rendered or not. In this guide we will use `en_US` as a users locale since all insights support English by default. Please follow this [guide](https://docs.tink.com/resources/money-manager/money-manager-api/configure-actionable-insights) on how to translate and configure insights to your users locale.
+**Note:** Every enabled insight can be generated for every user connected to Tink. However, a template with a locale matching the user's is required to render an insight. The locale of a user and presence of a matching template will determine if the insight can be rendered or not. In this guide we will use `en_US` as a users locale since all insights support English by default. Please follow this [guide](/Tiny-doc/tink_docs_home/resources/money-manager/money-manager-api/configure-actionable-insights/) on how to translate and configure insights to your users locale.
 
-Activating an insight in the console will allow this insight to be generated for all users by the Tink platform. All insights have different triggers that you can read more about [here](https://docs.tink.com/resources/money-manager/money-manager-api/list-of-available-insights#insight-data).
+Activating an insight in the console will allow this insight to be generated for all users by the Tink platform. All insights have different triggers that you can read more about [here](/Tiny-doc/tink_docs_home/resources/money-manager/money-manager-api/list-of-available-insights/#insight-data).
 
 For the `BUDGET_SUGGEST_CREATE_FIRST` insight, it will automatically be triggered for all users that have no active or archived budgets. This means it will be triggered automatically, therefore it's ideal as we try to fetch your first insight.
 
 ## 2\. Trigger a credential refresh for a user.[](#trigger-a-credential-refresh-for-a-user-)
 
-To generate an insight, Tink needs to know that some user data got updated. One of the ways to do it, is to [ingest a transaction via connector](https://docs.tink.com/api/connector#data/transaction/ingest-transactions) for this user to Tink. We will use the request below to achieve that.
+To generate an insight, Tink needs to know that some user data got updated. One of the ways to do it, is to [ingest a transaction via connector](/Tiny-doc/tink_docs_api/api/#data/transaction/ingest-transactions) for this user to Tink. We will use the request below to achieve that.
 
 Example request
 
@@ -47,7 +47,7 @@ curl -X POST 'https://api.tink.com/connector/users//transactions' \
 
 ## 3\. Fetch insights for a given user[](#fetch-insights-for-a-given-user)
 
-Insight generation can take a few seconds since we need to process an update for this user internally. To fetch a user's insights, you need to use the [List insights](https://docs.tink.com/api#finance-management/actionable-insight/list-insights) endpoint and include a user access token with the insights:read\` scope.
+Insight generation can take a few seconds since we need to process an update for this user internally. To fetch a user's insights, you need to use the [List insights](/Tiny-doc/tink_docs_api/api/#finance-management/actionable-insight/list-insights) endpoint and include a user access token with the insights:read\` scope.
 
 Example request
 
@@ -102,8 +102,8 @@ This request will fetch a list of all the insights that are currently active for
 | `createdTime` | when the Insight was created |
 | `title` | a short description of what the insight is referring to. E.g. The balance on a specific account is low |
 | `description` | a more detailed description where it includes a suggested action on how to act on the insight |
-| `insightAction` | all insights have suggested actions where the low balance insight suggests to top up the account. More info on action types can be found [here](https://docs.tink.com/resources/money-manager/money-manager-api/list-of-available-insights#insight-action) |
-| `data` | the metadata will different between all insights. Read about what data that is forwarded in each insight [here](https://docs.tink.com/resources/money-manager/money-manager-api/list-of-available-insights#insight-data) |
+| `insightAction` | all insights have suggested actions where the low balance insight suggests to top up the account. More info on action types can be found [here](/Tiny-doc/tink_docs_home/resources/money-manager/money-manager-api/list-of-available-insights/#insight-action) |
+| `data` | the metadata will different between all insights. Read about what data that is forwarded in each insight [here](/Tiny-doc/tink_docs_home/resources/money-manager/money-manager-api/list-of-available-insights/#insight-data) |
 | `id` | the unique identifier of the insight |
 
 In the response, you should now see an `BUDGET_SUGGEST_CREATE_FIRST` insight.

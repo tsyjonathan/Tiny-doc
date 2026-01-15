@@ -1,6 +1,6 @@
 ---
 title: "Optimize your Business Account Check integration"
-source: "https://docs.tink.com/resources/business-account-check/optimize-your-business-account-check-integration"
+source: "/Tiny-doc/tink_docs_home/resources/business-account-check/optimize-your-business-account-check-integration/"
 exportedAt: "2026-01-13T12:44:39.129Z"
 ---
 Tests always show that the best–performing integrations are ones where the transition between an app and Tink feels smooth, secure, and coherent. Integrate successfully in three steps:
@@ -47,11 +47,11 @@ If you know which bank your users access, or you are reauthenticating the user a
 
 ### Pre-filling information[](#pre-filling-information)
 
-If you have access to a user's bank credentials, you can pre-fill certain fields (such as SSN) and remove another step. For more information, see [Sessions](https://docs.tink.com/resources/business-account-check/business-account-check-sdk-sessions). ![AC article prefill fields](https://images.ctfassets.net/tmqu5vj33f7w/4bPB1nPjX5aFDnPFihAOFI/cba03d36a2aa65ecfeb878750295f69d/Prefill_fields.png)
+If you have access to a user's bank credentials, you can pre-fill certain fields (such as SSN) and remove another step. For more information, see [Sessions](/Tiny-doc/tink_docs_home/resources/business-account-check/business-account-check-sdk-sessions/). ![AC article prefill fields](https://images.ctfassets.net/tmqu5vj33f7w/4bPB1nPjX5aFDnPFihAOFI/cba03d36a2aa65ecfeb878750295f69d/Prefill_fields.png)
 
 ### Business Account Check success screen[](#business-account-check-success-screen)
 
-Our success screen is, by default, disabled, which sends the user directly back to you once their bank is successfully connected. If you want to display our success screen, contact [Tink Support](https://docs.tink.com/resources/support/how-to-find-technical-support) to enable it.
+Our success screen is, by default, disabled, which sends the user directly back to you once their bank is successfully connected. If you want to display our success screen, contact [Tink Support](/Tiny-doc/tink_docs_home/resources/support/how-to-find-technical-support/) to enable it.
 
 ![BAC success screen](https://images.ctfassets.net/tmqu5vj33f7w/hTdC2bo4qxNUk1Mf9UFAR/ad95dc74735bede610602327278a73d6/BAC_success_screen.png)
 

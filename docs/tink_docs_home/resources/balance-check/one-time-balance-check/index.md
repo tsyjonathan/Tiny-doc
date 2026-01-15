@@ -1,6 +1,6 @@
 ---
 title: "One-time balance check - Tink Docs"
-source: "https://docs.tink.com/resources/balance-check/one-time-balance-check"
+source: "/Tiny-doc/tink_docs_home/resources/balance-check/one-time-balance-check/"
 exportedAt: "2026-01-13T12:44:21.671Z"
 ---
 ## 1\. Account Check[](#account-check)
@@ -73,7 +73,7 @@ curl -X POST https://api.tink.com/api/v1/oauth/token \
 }
 ```
 
-To fetch report JSON data based on a report identifier, see the [Account Verification Report API](https://docs.tink.com/api#data-v1/account-verification).
+To fetch report JSON data based on a report identifier, see the [Account Verification Report API](/Tiny-doc/tink_docs_api/api/#data-v1/account-verification).
 
 **cURL example**
 
@@ -89,7 +89,7 @@ The report contains an `accountId`. Save the ID for later use when refreshing an
 
 ## 2\. Fetch the balance[](#fetch-the-balance)
 
-To fetch the balance of the account, generate a token and then call the [API](https://docs.tink.com/api#data-v2/account/get-account-balances) with the specific `accountId`.
+To fetch the balance of the account, generate a token and then call the [API](/Tiny-doc/tink_docs_api/api/#data-v2/account/get-account-balances) with the specific `accountId`.
 
 Get balances
 

@@ -1,6 +1,6 @@
 ---
 title: "List accounts and balances - Tink Docs"
-source: "https://docs.tink.com/resources/transactions/list-accounts-and-balances"
+source: "/Tiny-doc/tink_docs_home/resources/transactions/list-accounts-and-balances/"
 exportedAt: "2026-01-13T12:46:05.041Z"
 ---
 To fetch a list of accounts for a specific user, you must have a `user access token` with the `balances:read` and `accounts:read` scopes. Use the `user access token` to make a request to the Accounts endpoint:

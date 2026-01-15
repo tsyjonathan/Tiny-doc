@@ -1,6 +1,6 @@
 ---
 title: "List transactions - Tink Docs"
-source: "https://docs.tink.com/resources/business-transactions/list-business-transactions"
+source: "/Tiny-doc/tink_docs_home/resources/business-transactions/list-business-transactions/"
 exportedAt: "2026-01-13T12:46:55.194Z"
 ---
 To retrieve a list of transactions, you need a client access token with the `transactions:read` scope. Using the user access token, you can make a request to the Transactions endpoint:

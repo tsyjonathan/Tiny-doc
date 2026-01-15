@@ -1,19 +1,19 @@
 ---
 title: "Set up settlement accounts - Tink Docs"
-source: "https://docs.tink.com/resources/payments/one-time-payments/set-up-settlement-accounts-one-time-payments"
+source: "/Tiny-doc/tink_docs_home/resources/payments/one-time-payments/set-up-settlement-accounts-one-time-payments/"
 exportedAt: "2026-01-13T12:41:59.301Z"
 ---
 ## What is a settlement account?[](#what-is-a-settlement-account-)
 
 Settlement Accounts are virtual bank accounts that are set up and managed by Tink. The accounts provide aggregated settlements, which enables features like real-time payment status updates, refunds and withdrawals, automated reconciliation and integrated reporting.
 
-You can set up a single account or set up multiple accounts for specific business units or use cases. Accounts can be configured and interacted with through either [Console](https://docs.tink.com/resources/console) or a direct integration with our [Settlement Accounts API](https://docs.tink.com/api-payment#payment/settlement-accounts/create-account).
+You can set up a single account or set up multiple accounts for specific business units or use cases. Accounts can be configured and interacted with through either [Console](/Tiny-doc/tink_docs_home/resources/console/) or a direct integration with our [Settlement Accounts API](/Tiny-doc/tink_docs_api/api-payment/#payment/settlement-accounts/create-account).
 
 > Settlement accounts are available in the UK and in Euro markets and support GBP and EUR currencies.
 
 ### Creating a Settlement Account[](#creating-a-settlement-account)
 
-New settlement accounts can be created via [Console](https://docs.tink.com/resources/console) or [API](https://docs.tink.com/api-payment#payment/settlement-accounts).
+New settlement accounts can be created via [Console](/Tiny-doc/tink_docs_home/resources/console/) or [API](/Tiny-doc/tink_docs_api/api-payment/#payment/settlement-accounts).
 
 You can choose between 2 account structures:
 
@@ -26,7 +26,7 @@ You can choose between 2 account structures:
 
 Funds in settlement accounts should be paid out to a corporate account, called a payout account.
 
-You can set the payout account when creating a settlement account’s configuration, either in Console or with the Settlement Accounts API, or add one later. Due to sensitive nature of payouts, payout accounts can only be configured once per settlement account and can’t be updated without [contacting support](https://docs.tink.com/entries/articles/how-to-find-technical-support).
+You can set the payout account when creating a settlement account’s configuration, either in Console or with the Settlement Accounts API, or add one later. Due to sensitive nature of payouts, payout accounts can only be configured once per settlement account and can’t be updated without [contacting support](/Tiny-doc/tink_docs_home/entries/articles/how-to-find-technical-support/).
 
 ### Paying into settlement accounts[](#paying-into-settlement-accounts)
 
@@ -40,17 +40,17 @@ Payments made to a settlement account are called pay-ins. Pay-ins come in three 
 
 ### Pay-ins with Tink APIs[](#pay-ins-with-tink-apis)
 
-To pay into a settlement account using Payments, create a payment request using the [Create Settlement Account Payment Request](https://docs.tink.com/api#payment/settlement-accounts/create-payment-request) endpoint for Settlement accounts (not the generic payment request endpoint).
+To pay into a settlement account using Payments, create a payment request using the [Create Settlement Account Payment Request](/Tiny-doc/tink_docs_api/api/#payment/settlement-accounts/create-payment-request) endpoint for Settlement accounts (not the generic payment request endpoint).
 
 When making the request, you'll need to include the  `merchant_id` and `account_id`, which you can find in **Console > Payments > Settlements**.
 
-Once you've created a payment request, [build a Tink URL](https://docs.tink.com/resources/payments/one-time-payments/initiate-your-first-one-time-payment#build-a-tink-url) and present it to your user so they can initiate the payment.
+Once you've created a payment request, [build a Tink URL](/Tiny-doc/tink_docs_home/resources/payments/one-time-payments/initiate-your-first-one-time-payment/#build-a-tink-url) and present it to your user so they can initiate the payment.
 
 > **Note:** save the value `id` of the payment request (called `paymentRequestId` for webhooks) delivered in the response when you create the payment so that you can track the payment, poll our APIs for statuses, and make it easier to troubleshoot when speaking with Support.
 
 ### Pay-ins with a manual transfer[](#pay-ins-with-a-manual-transfer)
 
-To pay in to a settlement account using a manual bank transfer, use the account identifier found in Console or returned by the [Get account](https://docs.tink.com/api#payment/settlement-accounts/get-account) endpoint. Typically, you make manual transfers from your `payoutAccount` to top up a settlement account so that you have enough funds to make refunds or withdrawals.
+To pay in to a settlement account using a manual bank transfer, use the account identifier found in Console or returned by the [Get account](/Tiny-doc/tink_docs_api/api/#payment/settlement-accounts/get-account) endpoint. Typically, you make manual transfers from your `payoutAccount` to top up a settlement account so that you have enough funds to make refunds or withdrawals.
 
 > Make sure that the transfer is made using a payment scheme and currency supported by the settlement account.
 
@@ -65,7 +65,7 @@ Payouts are payments from your settlement accounts to a user's bank account or a
 | `WITHDRAWAL` | A transfer to an end-user |
 | `TRANSFER` | A transfer not initiated using Tink |
 
-> When making refunds and withdrawals, you need to include [Idempotency-Key](https://docs.tink.com/api#introduction/idempotency-and-caching) in the request header. This allows users to safely retry failed operations without the risk of transferring more funds than intended.
+> When making refunds and withdrawals, you need to include [Idempotency-Key](/Tiny-doc/tink_docs_api/api/#introduction/idempotency-and-caching) in the request header. This allows users to safely retry failed operations without the risk of transferring more funds than intended.
 
 By default, Tink executes all payouts with SEPA Instant Credit Transfer (SCT Inst) for EUR payments and falls back to SEPA Credit Transfer (SCT) if the receiving account doesn't support inbound SCT Inst. For the UK, we use Faster Payments. If the payout is over the SCT Inst (€100,000) or Faster Payments (£1,000,000) scheme limit it will be initiated via SCT or CHAPS respectively.
 
@@ -83,14 +83,14 @@ Optionally, you can configure the reserved amount to set a float on the account 
 
 ### Refunds[](#refunds)
 
-You can make a full or partial refund to an end user bank account through our [refund endpoint](https://docs.tink.com/api#payment/settlement-accounts/create-refund). The refunded amount can be any amount up to the full value of the original payment.
+You can make a full or partial refund to an end user bank account through our [refund endpoint](/Tiny-doc/tink_docs_api/api/#payment/settlement-accounts/create-refund). The refunded amount can be any amount up to the full value of the original payment.
 
 To initiate a refund:
 
 -   Get the `id` of the `PAYIN` transaction to be refunded. Refunds can only be initiated from and to the same accounts.
 -   Create a refund request using the `id` as the `transactionId` value. Tink will check that the transaction is eligible for a refund and that the refund `amount` doesn’t exceed the original transaction amount.
 -   Tink executes the refund and updates the balance on your account.
--   Get notified of the status of the refund by either polling the [refund endpoint](https://docs.tink.com/api#payment/settlement-accounts/get-refund) or by [webhook](https://docs.tink.com/resources/payments/one-time-payments/set-up-settlement-accounts-one-time-payments#event-settlement-payout-updated).
+-   Get notified of the status of the refund by either polling the [refund endpoint](/Tiny-doc/tink_docs_api/api/#payment/settlement-accounts/get-refund) or by [webhook](/Tiny-doc/tink_docs_home/resources/payments/one-time-payments/set-up-settlement-accounts-one-time-payments/#event-settlement-payout-updated).
 
 **Example refund request**
 
@@ -149,7 +149,7 @@ Before initiating a refund, make sure that your account has sufficient funds or 
 
 ### Withdrawals[](#withdrawals)
 
-Use the [Create withdrawal endpoint](https://docs.tink.com/api#payment/settlement-accounts/create-withdrawal) to initiate a payout to an end-user. Withdrawals can be of any amount and can only be initiated to users that have made a pay-in to your account. Withdrawals differ from refunds in that payouts to the user can exceed the original transaction amount, while refunds cannot.
+Use the [Create withdrawal endpoint](/Tiny-doc/tink_docs_api/api/#payment/settlement-accounts/create-withdrawal) to initiate a payout to an end-user. Withdrawals can be of any amount and can only be initiated to users that have made a pay-in to your account. Withdrawals differ from refunds in that payouts to the user can exceed the original transaction amount, while refunds cannot.
 
 > Make sure to grab the `id` of the most recent `PAYIN` transaction for the user when initiating the `WITHDRAWAL`. This helps ensure that the user’s account details are up to date and thus the payment is more likely to succeed.
 
@@ -161,7 +161,7 @@ Tink matches Tink one-time payments against the `PAYIN` transactions using the p
 
 This is done through a unique 8-character `reference` that Tink generates when creating a payment request (pay-in). When you supply the value of the `reference` (a string of up to 10 characters), Tink will append it to the reference it generated and return the complete reference string in the response.
 
-You can also add your own identifiers and references in the `metadata` field that will be returned with the payment and transaction in our notifications, both API and Webhooks. You set metadata fields when you  create the [payment request](https://docs.tink.com/api#payment/settlement-accounts/create-payment-request).
+You can also add your own identifiers and references in the `metadata` field that will be returned with the payment and transaction in our notifications, both API and Webhooks. You set metadata fields when you  create the [payment request](/Tiny-doc/tink_docs_api/api/#payment/settlement-accounts/create-payment-request).
 
 Notification and reporting are served back to the merchant via API, webhook and our console.
 
@@ -172,11 +172,11 @@ Payment statuses give you details on the state of a payment during the payment j
 Status and transaction details can be received through:
 
 -   [Webhooks](#webhooks): Get notified as soon as the payment status changes.
--   [List transactions](https://docs.tink.com/api#payment/settlement-accounts/list-transactions): Get a list of transactions, including payloads, made to and from the account during the designated period.
--   [Get refunds](https://docs.tink.com/api-payment#payment/settlement-accounts/get-refund) or [List refunds](https://docs.tink.com/api-payment#payment/settlement-accounts/list-refunds): Retrieve a specific refund or list of refunds for a specific settlement account and merchant.
--   [Get withdrawals](https://docs.tink.com/api-payment#payment/settlement-accounts/get-withdrawal) or [List withdrawals](https://docs.tink.com/api-payment#payment/settlement-accounts/list-withdrawals): Retrieve a specific withdrawal or list of withdrawals, for a specific settlement account and merchant.
+-   [List transactions](/Tiny-doc/tink_docs_api/api/#payment/settlement-accounts/list-transactions): Get a list of transactions, including payloads, made to and from the account during the designated period.
+-   [Get refunds](/Tiny-doc/tink_docs_api/api-payment/#payment/settlement-accounts/get-refund) or [List refunds](/Tiny-doc/tink_docs_api/api-payment/#payment/settlement-accounts/list-refunds): Retrieve a specific refund or list of refunds for a specific settlement account and merchant.
+-   [Get withdrawals](/Tiny-doc/tink_docs_api/api-payment/#payment/settlement-accounts/get-withdrawal) or [List withdrawals](/Tiny-doc/tink_docs_api/api-payment/#payment/settlement-accounts/list-withdrawals): Retrieve a specific withdrawal or list of withdrawals, for a specific settlement account and merchant.
 
-With Settlement Accounts, you get all the [statuses](https://docs.tink.com/resources/payments/one-time-payments/one-time-payments-status-transitions) that you get with One-Time Payments plus the status `SETTLED` for payments that have been successfully deposited into your settlement account. You also get additional statuses for payouts.
+With Settlement Accounts, you get all the [statuses](/Tiny-doc/tink_docs_home/resources/payments/one-time-payments/one-time-payments-status-transitions/) that you get with One-Time Payments plus the status `SETTLED` for payments that have been successfully deposited into your settlement account. You also get additional statuses for payouts.
 
 **Payout statuses**
 
@@ -194,7 +194,7 @@ We have webhook events available for pay-ins, payouts and status changes on the 
 -   `settlement-payout:updated` for changes to payout statuses.
 -   `settlement-account:updated` for changes to account status.
 
-For details on how to subscribe to webhooks, see [Set up a webhook](https://docs.tink.com/resources/payments/one-time-payments-notifications-and-webhooks#set-up-a-webhook).
+For details on how to subscribe to webhooks, see [Set up a webhook](/Tiny-doc/tink_docs_home/resources/payments/one-time-payments-notifications-and-webhooks/#set-up-a-webhook).
 
 #### Event: settlement-transaction:created[](#event-settlement-transaction-created)
 
@@ -219,7 +219,7 @@ This happens if a:
 | `timestamp` | Date | The timestamp for when the notification was created. | Yes |
 | `reference` | string | The transaction's reference. | No |
 | `account_balance` | unscaled\_value:number, scale: number | The current balance of the account after the transaction has been completed. | Yes |
-| `paymentRequestId` | string | The identifier of the settlement payment request. This identifier is also present in the [settlement account payment request response](https://docs.tink.com/api#payment/settlement-accounts/create-payment-request/response-settlementaccountpaymentrequest). | No |
+| `paymentRequestId` | string | The identifier of the settlement payment request. This identifier is also present in the [settlement account payment request response](/Tiny-doc/tink_docs_api/api/#payment/settlement-accounts/create-payment-request/response-settlementaccountpaymentrequest). | No |
 | `payer_account` | identifier: string, type: string | The source account of the transaction. | Yes |
 | `payee_account` | identifier: string, type: string | The destination account of the transaction. | No |
 | `metadata` | Map of string, string | A key-value dictionary with custom metadata for the transaction | No |

@@ -1,17 +1,17 @@
 ---
 title: "Understand a user’s income over time"
-source: "https://docs.tink.com/resources/money-manager/money-manager-api/income-over-time"
+source: "/Tiny-doc/tink_docs_home/resources/money-manager/money-manager-api/income-over-time/"
 exportedAt: "2026-01-13T12:50:09.476Z"
 ---
-**Left to spend** is a [statistic](https://docs.tink.com/api#finance-management/statistics/query-statistics) type which returns the spendable income (that is, income minus expenses).
+**Left to spend** is a [statistic](/Tiny-doc/tink_docs_api/api/#finance-management/statistics/query-statistics) type which returns the spendable income (that is, income minus expenses).
 
-**Left to spend average** is a [statistic](https://docs.tink.com/api#finance-management/statistics/query-statistics) type which returns the spendable income (that is, income minus expenses) average per day of the month for the last 6 monthly period.
+**Left to spend average** is a [statistic](/Tiny-doc/tink_docs_api/api/#finance-management/statistics/query-statistics) type which returns the spendable income (that is, income minus expenses) average per day of the month for the last 6 monthly period.
 
-**Safe to spend** is a [statistic](https://docs.tink.com/api#finance-management/statistics/query-statistics) type which returns the how much you can safely spend adjusting accordingly with the [recurring transactions](https://docs.tink.com/api-enrichment#enrichment/recurring-transactions) and [recurring savings goals](https://docs.tink.com/api-finance-management#finance-management/savings-goals).
+**Safe to spend** is a [statistic](/Tiny-doc/tink_docs_api/api/#finance-management/statistics/query-statistics) type which returns the how much you can safely spend adjusting accordingly with the [recurring transactions](/Tiny-doc/tink_docs_api/api-enrichment/#enrichment/recurring-transactions) and [recurring savings goals](/Tiny-doc/tink_docs_api/api-finance-management/#finance-management/savings-goals).
 
 ## Calling the Statistics Endpoint[](#calling-the-statistics-endpoint)
 
-To retrieve the spendable income over time, query the [Statistics](https://docs.tink.com/api#finance-management/statistics/query-statistics) endpoint using an `user access` token with the `statistics:read` scope.
+To retrieve the spendable income over time, query the [Statistics](/Tiny-doc/tink_docs_api/api/#finance-management/statistics/query-statistics) endpoint using an `user access` token with the `statistics:read` scope.
 
 ### left-to-spend[](#left-to-spend)
 

@@ -1,6 +1,6 @@
 ---
 title: "Introduction to Expense Check - Tink Docs"
-source: "https://docs.tink.com/resources/expense-check/introduction-to-expense-check"
+source: "/Tiny-doc/tink_docs_home/resources/expense-check/introduction-to-expense-check/"
 exportedAt: "2026-01-13T12:41:33.149Z"
 ---
 Businesses require an accurate picture of an individual's expense streams, for example, to assess loan applications. Most companies rely on a combination of two ways to assess affordability: basic statistical estimates and user-provided material.
@@ -13,7 +13,7 @@ With Expense Check, Tink solves these problems by combining robust and reliable 
 
 ## Easy integration[](#easy-integration)
 
-We deliver Expense Check through our [SDK](https://docs.tink.com/resources/expense-check/setup-and-integrate-expense-check), which uses a single line of code for you to integrate your product with our platform.
+We deliver Expense Check through our [SDK](/Tiny-doc/tink_docs_home/resources/expense-check/setup-and-integrate-expense-check/), which uses a single line of code for you to integrate your product with our platform.
 
 When an end user has consented to share their data and authenticated to their bank, an automated JSON report is created for you in less than a minute.
 

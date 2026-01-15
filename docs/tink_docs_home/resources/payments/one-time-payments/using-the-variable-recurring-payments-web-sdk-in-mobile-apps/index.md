@@ -1,6 +1,6 @@
 ---
 title: "Not Found - Tink Docs"
-source: "https://docs.tink.com/resources/payments/one-time-payments/using-the-variable-recurring-payments-web-sdk-in-mobile-apps"
+source: "/Tiny-doc/tink_docs_home/resources/payments/one-time-payments/using-the-variable-recurring-payments-web-sdk-in-mobile-apps/"
 exportedAt: "2026-01-13T12:57:30.178Z"
 ---
 ![](https://docs.tink.com/assets/banana-guy-CNjP65Mx.png)

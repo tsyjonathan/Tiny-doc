@@ -1,6 +1,6 @@
 ---
 title: "Payment conditions - Tink Docs"
-source: "https://docs.tink.com/resources/payments/variable-recurring-payments/vrp-payment-conditions"
+source: "/Tiny-doc/tink_docs_home/resources/payments/variable-recurring-payments/vrp-payment-conditions/"
 exportedAt: "2026-01-13T12:43:18.132Z"
 ---
 Use this feature to ensure that all of your submitted payments fulfill your payment providers' requirements to avoid failed payments.
@@ -170,7 +170,7 @@ Let's take a look at this condition:
 }
 ```
 
-In the payment request for this provider, the [`remittanceInformation.type`](https://docs.tink.com/api#payment/payment-request/the-payment-request-model/remittanceinformation) should be evaluated for correctness in accordance to the list specified in `value`.
+In the payment request for this provider, the [`remittanceInformation.type`](/Tiny-doc/tink_docs_api/api/#payment/payment-request/the-payment-request-model/remittanceinformation) should be evaluated for correctness in accordance to the list specified in `value`.
 
 In Java, that would look something like this:
 

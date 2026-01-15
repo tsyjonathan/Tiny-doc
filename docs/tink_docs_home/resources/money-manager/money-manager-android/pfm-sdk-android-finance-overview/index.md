@@ -1,6 +1,6 @@
 ---
 title: "Finance overview for Android - Tink Docs"
-source: "https://docs.tink.com/resources/money-manager/money-manager-android/pfm-sdk-android-finance-overview"
+source: "/Tiny-doc/tink_docs_home/resources/money-manager/money-manager-android/pfm-sdk-android-finance-overview/"
 exportedAt: "2026-01-13T12:51:36.648Z"
 ---
 ![Tink Money Manager Financial Overview](https://images.ctfassets.net/tmqu5vj33f7w/7cxvxH6AVvX2poBuEYGvPK/8bbcaa9e5852e2649e68c67873e5c18f/overview.png)
@@ -76,7 +76,7 @@ OverviewFeatures(
 )
 ```
 
-If you want to show the statistics in your app instead without showing the finance overview screen, refer to the [Statistics entrypoint guide](https://docs.tink.com/resources/money-manager/money-manager-android/sdk-statistics#displaying-category-statistics).
+If you want to show the statistics in your app instead without showing the finance overview screen, refer to the [Statistics entrypoint guide](/Tiny-doc/tink_docs_home/resources/money-manager/money-manager-android/sdk-statistics/#displaying-category-statistics).
 
 ### Accounts[](#accounts)
 
@@ -102,9 +102,9 @@ OverviewFeatures(
 )
 ```
 
-[Read more about the OverviewFeature.Accounts parameters here](https://docs.tink.com/resources/money-manager/money-manager-android/accounts-for-android#customizing-accounts).
+[Read more about the OverviewFeature.Accounts parameters here](/Tiny-doc/tink_docs_home/resources/money-manager/money-manager-android/accounts-for-android/#customizing-accounts).
 
-If you want to show the accounts in your app instead without showing the finance overview screen, refer to the [Accounts entrypoint guide](https://docs.tink.com/resources/money-manager/money-manager-android/accounts-for-android#displaying-an-account-list).
+If you want to show the accounts in your app instead without showing the finance overview screen, refer to the [Accounts entrypoint guide](/Tiny-doc/tink_docs_home/resources/money-manager/money-manager-android/accounts-for-android/#displaying-an-account-list).
 
 ### Latest transactions[](#latest-transactions)
 
@@ -118,7 +118,7 @@ OverviewFeatures(
 )
 ```
 
-If you want to show the transactions in your app instead without showing the finance overview screen, refer to the [Transactions entrypoint guide](https://docs.tink.com/resources/money-manager/money-manager-android/sdk-transactions).
+If you want to show the transactions in your app instead without showing the finance overview screen, refer to the [Transactions entrypoint guide](/Tiny-doc/tink_docs_home/resources/money-manager/money-manager-android/sdk-transactions/).
 
 ### Actionable Insights[](#actionable-insights)
 
@@ -132,9 +132,9 @@ OverviewFeatures(
 )
 ```
 
-[Read more about custom and default handling of insight actions here.](https://docs.tink.com/resources/money-manager/money-manager-android/pfm-sdk-android-handling-insight-actions#responding-to-user-actions)
+[Read more about custom and default handling of insight actions here.](/Tiny-doc/tink_docs_home/resources/money-manager/money-manager-android/pfm-sdk-android-handling-insight-actions/#responding-to-user-actions)
 
-If you want to show the actionable insights in your app instead without showing the finance overview screen, refer to the [Actionable insights entrypoint guide](https://docs.tink.com/resources/money-manager/money-manager-android/pfm-sdk-android-handling-insight-actions#displaying-an-actionable-insight-list).
+If you want to show the actionable insights in your app instead without showing the finance overview screen, refer to the [Actionable insights entrypoint guide](/Tiny-doc/tink_docs_home/resources/money-manager/money-manager-android/pfm-sdk-android-handling-insight-actions/#displaying-an-actionable-insight-list).
 
 ### Budgets[](#budgets)
 
@@ -148,7 +148,7 @@ OverviewFeatures(
 )
 ```
 
-If you want to show the budgets in your app instead without showing the finance overview screen, refer to the [Budgets entrypoint guide](https://docs.tink.com/resources/money-manager/money-manager-android/sdk-budgets#displaying-budgets).
+If you want to show the budgets in your app instead without showing the finance overview screen, refer to the [Budgets entrypoint guide](/Tiny-doc/tink_docs_home/resources/money-manager/money-manager-android/sdk-budgets/#displaying-budgets).
 
 ### Subscription[](#subscription)
 
@@ -162,7 +162,7 @@ OverviewFeatures(
 )
 ```
 
-If you want to show the subscription in your app instead without showing the finance overview screen, refer to the [Subscription entrypoint guide](https://docs.tink.com/resources/money-manager/money-manager-android/sdk-subscription#displaying-subscriptions).
+If you want to show the subscription in your app instead without showing the finance overview screen, refer to the [Subscription entrypoint guide](/Tiny-doc/tink_docs_home/resources/money-manager/money-manager-android/sdk-subscription/#displaying-subscriptions).
 
 ### Custom views[](#custom-views)
 

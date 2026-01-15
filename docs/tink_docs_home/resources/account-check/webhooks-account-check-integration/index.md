@@ -1,6 +1,6 @@
 ---
 title: "Webhooks - Tink Docs"
-source: "https://docs.tink.com/resources/account-check/webhooks-account-check-integration"
+source: "/Tiny-doc/tink_docs_home/resources/account-check/webhooks-account-check-integration/"
 exportedAt: "2026-01-13T12:44:01.324Z"
 ---
 ## Setting up webhooks[](#setting-up-webhooks)

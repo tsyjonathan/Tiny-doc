@@ -1,6 +1,6 @@
 ---
 title: "Tink Docs"
-source: "https://docs.tink.com/market-capabilities/payments?market=PL"
+source: "/Tiny-doc/tink_docs_home/market-capabilities/payments__q_market=PL__c293d8fb0b/"
 exportedAt: "2026-01-13T12:53:16.403Z"
 ---
 Alior Bank

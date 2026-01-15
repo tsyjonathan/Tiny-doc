@@ -1,9 +1,9 @@
 ---
 title: "Webhooks for Actionable Insights - Tink Docs"
-source: "https://docs.tink.com/resources/money-manager/money-manager-api/webhooks-for-actionable-insights"
+source: "/Tiny-doc/tink_docs_home/resources/money-manager/money-manager-api/webhooks-for-actionable-insights/"
 exportedAt: "2026-01-13T12:50:52.216Z"
 ---
-The Webhook integration for Actionable Insights adds support to subscribe to events when Insights are generated. These events can be used to create push notifications for end-users. You can read more about webhooks in our [guide](https://docs.tink.com/resources/getting-started/webhooks).
+The Webhook integration for Actionable Insights adds support to subscribe to events when Insights are generated. These events can be used to create push notifications for end-users. You can read more about webhooks in our [guide](/Tiny-doc/tink_docs_home/resources/getting-started/webhooks/).
 
 -   Webhooks are only sent for insights that created, not when updated. This reduces the risk of repeatedly notifying end-users with the same information. An insight can be updated due to its data has been changed, e.g. a `BUDGET_OVERSPENT` insight could get updated due to a new expense for that budget. However, the state of the budget being overspent is still the same and should not be pushed to the user again.
 -   The webhook request sent by Tink will include the **external** `userId` (if specified) as well as the **Tink** `userId`.
@@ -13,7 +13,7 @@ The Webhook integration for Actionable Insights adds support to subscribe to eve
 
 Create a webhook with type `actionable-insights:created` when using `Events V2`.
 
-You can read more about it in our [API documentation](https://docs.tink.com/api-events-v2#events-v2/webhook).
+You can read more about it in our [API documentation](/Tiny-doc/tink_docs_api/api-events-v2/#events-v2/webhook).
 
 ## Webhook request and model[](#webhook-request-and-model)
 
@@ -35,7 +35,7 @@ webhook: {
 
 The `WebhookInsight` contains a list of insights that were generated, as well as Tink user id (`userId`) and external user id registered for the user (`externalUserId`).
 
-The insights in the request were recently created and will contain at least one insight. The Insight model looks identical to the models that are exposed through the public API. See [API documentation](https://docs.tink.com/api-finance-management#finance-management/actionable-insight) and [Insight Data Models](https://docs.tink.com/resources/money-manager/money-manager-api/list-of-available-insights) as a reference.
+The insights in the request were recently created and will contain at least one insight. The Insight model looks identical to the models that are exposed through the public API. See [API documentation](/Tiny-doc/tink_docs_api/api-finance-management/#finance-management/actionable-insight) and [Insight Data Models](/Tiny-doc/tink_docs_home/resources/money-manager/money-manager-api/list-of-available-insights/) as a reference.
 
 ```
 WebhookInsight: {
@@ -45,7 +45,7 @@ WebhookInsight: {
 }
 ```
 
-The request sent could look like the following for a `BUDGET_SUGGEST_CREATE_TOP_PRIMARY_CATEGORY` insight that has been created. Webhook model is described in the [API documentation](https://docs.tink.com/api-events-v2#events-v2/webhook/).
+The request sent could look like the following for a `BUDGET_SUGGEST_CREATE_TOP_PRIMARY_CATEGORY` insight that has been created. Webhook model is described in the [API documentation](/Tiny-doc/tink_docs_api/api-events-v2/#events-v2/webhook/).
 
 ```
 {

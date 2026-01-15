@@ -1,6 +1,6 @@
 ---
 title: "Introduction to Investments - Tink Docs"
-source: "https://docs.tink.com/resources/investments/introduction-to-investments"
+source: "/Tiny-doc/tink_docs_home/resources/investments/introduction-to-investments/"
 exportedAt: "2026-01-13T12:41:21.832Z"
 ---
 In today's dynamic financial landscape, staying on top of your investments and pension plans has never been more critical. However, businesses face a challenge of gaining a comprehensive understanding of their clients investments and pension data. Traditionally, this is the result of lack of accessible data beyond the confines of individual financial institutions. Tink’s Investment product is designed to bridge these gaps by harnessing the power of Open Banking.

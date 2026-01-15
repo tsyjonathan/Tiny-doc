@@ -1,6 +1,6 @@
 ---
 title: "How to get an access token with Tink Link"
-source: "https://docs.tink.com/resources/getting-started/retrieve-access-token"
+source: "/Tiny-doc/tink_docs_home/resources/getting-started/retrieve-access-token/"
 exportedAt: "2026-01-13T12:58:30.105Z"
 ---
 ## Retrieve access tokens[](#retrieve-access-tokens)

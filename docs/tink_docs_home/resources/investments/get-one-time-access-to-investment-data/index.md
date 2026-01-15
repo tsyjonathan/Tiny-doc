@@ -1,6 +1,6 @@
 ---
 title: "Get one-time access to investment data"
-source: "https://docs.tink.com/resources/investments/get-one-time-access-to-investment-data"
+source: "/Tiny-doc/tink_docs_home/resources/investments/get-one-time-access-to-investment-data/"
 exportedAt: "2026-01-13T12:44:59.943Z"
 ---
 **Introduction**
@@ -9,7 +9,7 @@ This article is divided into different sections with the intension to be followe
 
 The first section shows how to build a Tink URL that the end user must use to authenticate with their bank, select an account, and give their consent to your user. The last second shows you how to use that token to fetch investment data.
 
-If you want to experiment with Investments by using our API, try our [Postman collection for Investments](https://docs.tink.com/resources/investments/postman-collection-for-investments).
+If you want to experiment with Investments by using our API, try our [Postman collection for Investments](/Tiny-doc/tink_docs_home/resources/investments/postman-collection-for-investments/).
 
 ### Data-access models[](#data-access-models)
 
@@ -40,7 +40,7 @@ Let's define some parameters that you can append to your URL.
 | market | Optional (default `SE`) | Market code for which providers should be listed. See below for a list of available markets. |
 | locale | Optional (default `en_US`) | Locale to be used for end-user facing text. See below for an available list of locales. |
 | products | Required | A comma separated list of products for which to aggregate data (`ACCOUNT_CHECK`, `INVESTMENTS`, `LOANS`, `TRANSACTIONS`). |
-| refreshable\_items | Optional | A comma separated list of [refreshable items](https://docs.tink.com/api#connectivity-v1/credentials/create-credentials/query-parameters) specifying the data types to aggregate overriding the default list of refreshable items for the respective products. |
+| refreshable\_items | Optional | A comma separated list of [refreshable items](/Tiny-doc/tink_docs_api/api/#connectivity-v1/credentials/create-credentials/query-parameters) specifying the data types to aggregate overriding the default list of refreshable items for the respective products. |
 | state | Optional | Optional, but highly recommended parameter that's useful in preventing Cross-site Request Forgery (CSRF) attacks. The application provides a randomised state value to Tink Link at initiation, and that value will be sent back verbatim to the callback URL after a successful grant. The application can then verify the returned value to make sure the request came from the application itself. |
 
 Tink Link URL example

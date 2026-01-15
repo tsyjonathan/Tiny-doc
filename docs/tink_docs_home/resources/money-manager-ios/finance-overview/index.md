@@ -1,6 +1,6 @@
 ---
 title: "Finance overview for iOS - Tink Docs"
-source: "https://docs.tink.com/resources/money-manager-ios/finance-overview"
+source: "/Tiny-doc/tink_docs_home/resources/money-manager-ios/finance-overview/"
 exportedAt: "2026-01-13T12:58:43.746Z"
 ---
 ![Financial overview](https://images.ctfassets.net/tmqu5vj33f7w/fpq14Ktpixy1pvgIbDxmU/b7bd26b064a327ae45104010cbe37792/Financial_overview.png)
@@ -25,11 +25,11 @@ tabBarController.viewControllers?.append(navigationController)
 
 ### Statistics[](#statistics)
 
-Add statistics to display an overview of expenses, incomes, safe to spend and left to spend through pie charts. When selecting a pie chart, your app's user will see a detailed view of their spending, income, safe to spend or left to spend statistics. [Read more about statistics here](https://docs.tink.com/resources/money-manager/money-manager-ios/statistics).
+Add statistics to display an overview of expenses, incomes, safe to spend and left to spend through pie charts. When selecting a pie chart, your app's user will see a detailed view of their spending, income, safe to spend or left to spend statistics. [Read more about statistics here](/Tiny-doc/tink_docs_home/resources/money-manager/money-manager-ios/statistics/).
 
 ### Accounts[](#accounts)
 
-Adding accounts to your apps finance overview allows your users to have a clear overview of their account balances. [Read more about accounts here](https://docs.tink.com/resources/money-manager/money-manager-ios/accounts).
+Adding accounts to your apps finance overview allows your users to have a clear overview of their account balances. [Read more about accounts here](/Tiny-doc/tink_docs_home/resources/money-manager/money-manager-ios/accounts/).
 
 ### Latest transactions[](#latest-transactions)
 
@@ -67,7 +67,7 @@ It can be set to either show transaction details:
 financeOverviewViewController.configuration.transactionItemAction = .showDetails
 ```
 
-The details view displays more information about the transaction and lets the user edit or recategorize the transaction. Read more about the [transaction details here](https://docs.tink.com/resources/money-manager/money-manager-ios/pfm-sdk-ios-transaction-details):
+The details view displays more information about the transaction and lets the user edit or recategorize the transaction. Read more about the [transaction details here](/Tiny-doc/tink_docs_home/resources/money-manager/money-manager-ios/pfm-sdk-ios-transaction-details/):
 
 Or the categorization flow:
 
@@ -75,7 +75,7 @@ Or the categorization flow:
 financeOverviewViewController.configuration.transactionItemAction = .categorize
 ```
 
-The `categorize` action lets the user choose a new category for the selected transaction directly from one of the transaction lists. Read more about [categorization here](https://docs.tink.com/resources/money-manager/money-manager-ios/categorization).
+The `categorize` action lets the user choose a new category for the selected transaction directly from one of the transaction lists. Read more about [categorization here](/Tiny-doc/tink_docs_home/resources/money-manager/money-manager-ios/categorization/).
 
 ### Pending transactions[](#pending-transactions)
 

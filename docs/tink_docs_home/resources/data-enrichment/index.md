@@ -1,6 +1,6 @@
 ---
 title: "Data Enrichment - Tink Docs"
-source: "https://docs.tink.com/resources/data-enrichment"
+source: "/Tiny-doc/tink_docs_home/resources/data-enrichment/"
 exportedAt: "2026-01-13T12:40:19.865Z"
 ---
 [
@@ -15,7 +15,7 @@ Create more innovative features and develop enhanced digital banking experiences
 
 
 
-](https://docs.tink.com/resources/data-enrichment/introduction-to-data-enrichment)
+](/Tiny-doc/tink_docs_home/resources/data-enrichment/introduction-to-data-enrichment/)
 
 ## Prerequisites for running Data Enrichment
 
@@ -27,7 +27,7 @@ This article will help you configure your application to use Data Enrichment.
 
 
 
-](https://docs.tink.com/resources/data-enrichment/configure-your-application-to-use-data-enrichment)
+](/Tiny-doc/tink_docs_home/resources/data-enrichment/configure-your-application-to-use-data-enrichment/)
 
 [
 
@@ -37,7 +37,7 @@ This article will show you how to get data into the Tink platform using Aggregat
 
 
 
-](https://docs.tink.com/resources/data-enrichment/get-data-into-the-tink-platform-using-aggregation)
+](/Tiny-doc/tink_docs_home/resources/data-enrichment/get-data-into-the-tink-platform-using-aggregation/)
 
 [
 
@@ -47,7 +47,7 @@ This article will show you how to get data into the Tink platform using the Conn
 
 
 
-](https://docs.tink.com/resources/data-enrichment/get-data-into-the-tink-platform-using-the-connector)
+](/Tiny-doc/tink_docs_home/resources/data-enrichment/get-data-into-the-tink-platform-using-the-connector/)
 
 [
 
@@ -57,7 +57,7 @@ This article will show you how to generate a user access token and querying end-
 
 
 
-](https://docs.tink.com/resources/data-enrichment/generating-a-user-access-token-and-querying-end-user-data)
+](/Tiny-doc/tink_docs_home/resources/data-enrichment/generating-a-user-access-token-and-querying-end-user-data/)
 
 ## Categorization
 
@@ -73,7 +73,7 @@ This article will show you how to fetch a list of all categories for your locale
 
 
 
-](https://docs.tink.com/resources/data-enrichment/fetch-a-list-of-all-categories-for-your-locale)
+](/Tiny-doc/tink_docs_home/resources/data-enrichment/fetch-a-list-of-all-categories-for-your-locale/)
 
 [
 
@@ -87,7 +87,7 @@ This article will help you fetch enriched transactions for a user.
 
 
 
-](https://docs.tink.com/resources/data-enrichment/fetch-enriched-transactions-for-a-user)
+](/Tiny-doc/tink_docs_home/resources/data-enrichment/fetch-enriched-transactions-for-a-user/)
 
 [
 
@@ -101,7 +101,7 @@ This article will help you enable recategorization of transaction so that your u
 
 
 
-](https://docs.tink.com/resources/data-enrichment/enable-recategorization-of-transactions)
+](/Tiny-doc/tink_docs_home/resources/data-enrichment/enable-recategorization-of-transactions/)
 
 [
 
@@ -115,7 +115,7 @@ This article will help you fetch similar enriched transactions for a user’s tr
 
 
 
-](https://docs.tink.com/resources/data-enrichment/fetch-similar-enriched-transactions-for-a-users-transaction)
+](/Tiny-doc/tink_docs_home/resources/data-enrichment/fetch-similar-enriched-transactions-for-a-users-transaction/)
 
 [
 
@@ -125,7 +125,7 @@ This article will help you fetch enriched transactions based on a category id.
 
 
 
-](https://docs.tink.com/resources/data-enrichment/fetch-enriched-transactions-based-on-category)
+](/Tiny-doc/tink_docs_home/resources/data-enrichment/fetch-enriched-transactions-based-on-category/)
 
 ## Recurring transactions
 
@@ -141,7 +141,7 @@ This article shows how to fetch all recurring transactions for a user.
 
 
 
-](https://docs.tink.com/resources/data-enrichment/fetch-all-recurring-transactions-for-an-end-user)
+](/Tiny-doc/tink_docs_home/resources/data-enrichment/fetch-all-recurring-transactions-for-an-end-user/)
 
 [
 
@@ -155,7 +155,7 @@ This article shows how to fetch all recurring transaction groups for an end user
 
 
 
-](https://docs.tink.com/resources/data-enrichment/fetch-all-recurring-transaction-groups-for-a-user)
+](/Tiny-doc/tink_docs_home/resources/data-enrichment/fetch-all-recurring-transaction-groups-for-a-user/)
 
 [
 
@@ -169,7 +169,7 @@ This article shows how to get and add a category to a recurring transaction or a
 
 
 
-](https://docs.tink.com/resources/data-enrichment/map-categories-to-a-recurring-transaction-or-recurring-transactions-group)
+](/Tiny-doc/tink_docs_home/resources/data-enrichment/map-categories-to-a-recurring-transaction-or-recurring-transactions-group/)
 
 ## Predicted recurring transactions
 
@@ -185,7 +185,7 @@ This article shows how to fetch all predicted recurring transactions for an end 
 
 
 
-](https://docs.tink.com/resources/data-enrichment/fetch-all-predicted-recurring-transactions-for-an-end-user)
+](/Tiny-doc/tink_docs_home/resources/data-enrichment/fetch-all-predicted-recurring-transactions-for-an-end-user/)
 
 [
 
@@ -199,7 +199,7 @@ This article shows how to get and add a category to a predicted recurring transa
 
 
 
-](https://docs.tink.com/resources/data-enrichment/map-categories-to-a-predicted-recurring-transaction)
+](/Tiny-doc/tink_docs_home/resources/data-enrichment/map-categories-to-a-predicted-recurring-transaction/)
 
 [
 
@@ -213,7 +213,7 @@ This article shows you how to choose which filter to apply for how long in the f
 
 
 
-](https://docs.tink.com/resources/data-enrichment/filter-how-long-in-the-future-predictions-should-be-shown)
+](/Tiny-doc/tink_docs_home/resources/data-enrichment/filter-how-long-in-the-future-predictions-should-be-shown/)
 
 ## Merchant enrichment
 
@@ -225,7 +225,7 @@ This article shows how to fetch brand identification from transactions
 
 
 
-](https://docs.tink.com/resources/data-enrichment/fetch-brand-identification-from-transactions)
+](/Tiny-doc/tink_docs_home/resources/data-enrichment/fetch-brand-identification-from-transactions/)
 
 ## Sustainability
 
@@ -237,7 +237,7 @@ This article shows how to fetch sustainability information for a transaction
 
 
 
-](https://docs.tink.com/resources/data-enrichment/fetch-sustainability-information-for-a-transaction)
+](/Tiny-doc/tink_docs_home/resources/data-enrichment/fetch-sustainability-information-for-a-transaction/)
 
 [
 
@@ -247,7 +247,7 @@ This article shows how to fetch general insights on Sustainability
 
 
 
-](https://docs.tink.com/resources/data-enrichment/fetch-general-insights-on-sustainability-from-transactions)
+](/Tiny-doc/tink_docs_home/resources/data-enrichment/fetch-general-insights-on-sustainability-from-transactions/)
 
 [
 
@@ -257,7 +257,7 @@ This article shows how to fetch account insights on Sustainability
 
 
 
-](https://docs.tink.com/resources/data-enrichment/fetch-account-insights)
+](/Tiny-doc/tink_docs_home/resources/data-enrichment/fetch-account-insights/)
 
 [
 
@@ -267,7 +267,7 @@ This article shows how to fetch Account profiling questions
 
 
 
-](https://docs.tink.com/resources/data-enrichment/fetch-account-profiling-questions)
+](/Tiny-doc/tink_docs_home/resources/data-enrichment/fetch-account-profiling-questions/)
 
 [
 
@@ -277,7 +277,7 @@ This article shows how to answer account profiling questions
 
 
 
-](https://docs.tink.com/resources/data-enrichment/answer-account-profiling-questions)
+](/Tiny-doc/tink_docs_home/resources/data-enrichment/answer-account-profiling-questions/)
 
 [
 
@@ -287,7 +287,7 @@ This article shows how to fetch transaction refinement questions
 
 
 
-](https://docs.tink.com/resources/data-enrichment/fetch-transaction-refinement-questions)
+](/Tiny-doc/tink_docs_home/resources/data-enrichment/fetch-transaction-refinement-questions/)
 
 [
 
@@ -297,7 +297,7 @@ This article shows how to answer transaction refinement questions
 
 
 
-](https://docs.tink.com/resources/data-enrichment/answer-transaction-refinement-questions)
+](/Tiny-doc/tink_docs_home/resources/data-enrichment/answer-transaction-refinement-questions/)
 
 [
 
@@ -307,7 +307,7 @@ This article shows how to fetch a list of emission comparisons for a transaction
 
 
 
-](https://docs.tink.com/resources/data-enrichment/fetch-a-list-of-emission-comparisons-for-a-transaction)
+](/Tiny-doc/tink_docs_home/resources/data-enrichment/fetch-a-list-of-emission-comparisons-for-a-transaction/)
 
 [
 
@@ -317,7 +317,7 @@ This article shows how to fetch market average emission footprints
 
 
 
-](https://docs.tink.com/resources/data-enrichment/fetch-market-average-footprints)
+](/Tiny-doc/tink_docs_home/resources/data-enrichment/fetch-market-average-footprints/)
 
 ## Enrichment Webhooks
 
@@ -329,4 +329,4 @@ Use enrichment completed webhook to subscribe to events when enrichments are com
 
 
 
-](https://docs.tink.com/resources/data-enrichment/webhook-for-enrichment-completed)
+](/Tiny-doc/tink_docs_home/resources/data-enrichment/webhook-for-enrichment-completed/)

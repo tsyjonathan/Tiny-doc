@@ -1,6 +1,6 @@
 ---
 title: "Fetch business account and transaction data in one flow"
-source: "https://docs.tink.com/resources/business-account-check/fetch-business-account-and-transaction-data-in-one-flow"
+source: "/Tiny-doc/tink_docs_home/resources/business-account-check/fetch-business-account-and-transaction-data-in-one-flow/"
 exportedAt: "2026-01-13T12:44:29.193Z"
 ---
 Tink only requires one single authentication to fetch multiple data points from a business account. In other words, a user must only authenticate once to fetch data from more than one Tink product. There's no need for users to reauthenticate. This is useful when, for example, you need to fetch business-account verification data and transaction data at the same time.
@@ -90,11 +90,11 @@ curl -X POST https://api.tink.com/api/v1/oauth/token \
 
 ## 4\. Fetch the report[](#fetch-the-report)
 
-To retrieve the Business Account Check report, see [section 4 of **Fetch your first Business Account Check report**](https://docs.tink.com/resources/business-account-check/fetch-your-first-business-account-check-report#fetch-the-report). You already have the client access token, so you just need to retrieve the JSON or PDF report.
+To retrieve the Business Account Check report, see [section 4 of **Fetch your first Business Account Check report**](/Tiny-doc/tink_docs_home/resources/business-account-check/fetch-your-first-business-account-check-report/#fetch-the-report). You already have the client access token, so you just need to retrieve the JSON or PDF report.
 
 > **Note:** The reports will only contain data from accounts that the end user has selected. To include all of the end user's accounts in the report, add `account_dialog_type=NONE` to the URL.
 
-To retrieve transactions, call the [Transactions Report API](https://docs.tink.com/api#data-v2/transaction-report/get-transaction-report) client access token. This will provide you with a transaction report in the JSON format:
+To retrieve transactions, call the [Transactions Report API](/Tiny-doc/tink_docs_api/api/#data-v2/transaction-report/get-transaction-report) client access token. This will provide you with a transaction report in the JSON format:
 
 cURL example
 

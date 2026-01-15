@@ -1,6 +1,6 @@
 ---
 title: "Sessions - Tink Docs"
-source: "https://docs.tink.com/resources/transactions/transactions-sdk-sessions"
+source: "/Tiny-doc/tink_docs_home/resources/transactions/transactions-sdk-sessions/"
 exportedAt: "2026-01-13T12:46:22.585Z"
 ---
 ## Overview[](#overview)
@@ -16,7 +16,7 @@ To use sessions, you simply need to:
 
 ## Create a session[](#create-a-session)
 
-Create a session by using the `POST /link/v1/session` endpoint. The request must be authenticated using a [client access token](https://docs.tink.com/resources/getting-started/get-access-token) and contain the `link-session:write` scope.
+Create a session by using the `POST /link/v1/session` endpoint. The request must be authenticated using a [client access token](/Tiny-doc/tink_docs_home/resources/getting-started/get-access-token/) and contain the `link-session:write` scope.
 
 Example client access token request
 
@@ -43,7 +43,7 @@ Content-Type: application/json
 }
 ```
 
-Then, create a session using the `CLIENT_ACCESS_TOKEN` in the authorization header when calling the [session endpoint](https://docs.tink.com/api#general/tink-link/session).
+Then, create a session using the `CLIENT_ACCESS_TOKEN` in the authorization header when calling the [session endpoint](/Tiny-doc/tink_docs_api/api/#general/tink-link/session).
 
 Example session request
 

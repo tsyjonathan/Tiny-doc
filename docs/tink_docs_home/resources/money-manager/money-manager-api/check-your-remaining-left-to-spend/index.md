@@ -1,21 +1,21 @@
 ---
 title: "Show a user how much they can spend"
-source: "https://docs.tink.com/resources/money-manager/money-manager-api/check-your-remaining-left-to-spend"
+source: "/Tiny-doc/tink_docs_home/resources/money-manager/money-manager-api/check-your-remaining-left-to-spend/"
 exportedAt: "2026-01-13T12:50:33.107Z"
 ---
 This guide will show you how to check the left to spend amount for a given user in the current salary period.
 
-Left to spend is a [statistic](https://docs.tink.com/api#finance-management/statistics/query-statistics) type which returns the income decreased by user expenses over time.
+Left to spend is a [statistic](/Tiny-doc/tink_docs_api/api/#finance-management/statistics/query-statistics) type which returns the income decreased by user expenses over time.
 
 > **NOTE**: Be sure to follow Money Manager prerequisites before continuing with this guide.
 
 ## 1\. Setting the salary period[](#setting-the-salary-period)
 
-The first thing you need to do is to update the user profile and input the salary date for the user. This is achieved by using the [Update user](https://docs.tink.com/api#general/user/update-user) endpoint with a `user access token` and the `user:write` scope.
+The first thing you need to do is to update the user profile and input the salary date for the user. This is achieved by using the [Update user](/Tiny-doc/tink_docs_api/api/#general/user/update-user) endpoint with a `user access token` and the `user:write` scope.
 
 Within the request, if you use the "MONTHLY\_ADJUSTED" `periodMode` you need to edit `periodAdjustedDay` to the salary date.
 
-You can read more about periods in the [Configure Periods](https://docs.tink.com/resources/money-manager/configure-periods) page
+You can read more about periods in the [Configure Periods](/Tiny-doc/tink_docs_home/resources/money-manager/configure-periods/) page
 
 Example request:
 
@@ -42,7 +42,7 @@ Example response:
 
 ## 2\. Call Statistics endpoint[](#call-statistics-endpoint)
 
-The next step is to query the [Statistics](https://docs.tink.com/api#finance-management/statistics/query-statistics) endpoint using an `user access token` with the `statistics:read` scope. As part of the request, we will:
+The next step is to query the [Statistics](/Tiny-doc/tink_docs_api/api/#finance-management/statistics/query-statistics) endpoint using an `user access token` with the `statistics:read` scope. As part of the request, we will:
 
 -   select the current month,
 -   set the `resolution` to "MONTHLY ADJUSTED",

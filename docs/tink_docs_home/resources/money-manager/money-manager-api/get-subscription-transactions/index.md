@@ -1,11 +1,11 @@
 ---
 title: "Get Subscription Transactions - Tink Docs"
-source: "https://docs.tink.com/resources/money-manager/money-manager-api/get-subscription-transactions"
+source: "/Tiny-doc/tink_docs_home/resources/money-manager/money-manager-api/get-subscription-transactions/"
 exportedAt: "2026-01-13T12:51:05.033Z"
 ---
-Now when you have obtained [Subscriptions](https://docs.tink.com/resources/money-manager/money-manager-api/get-subscriptions), you can list all transactions for selected Subscription.
+Now when you have obtained [Subscriptions](/Tiny-doc/tink_docs_home/resources/money-manager/money-manager-api/get-subscriptions/), you can list all transactions for selected Subscription.
 
-To list transactions you will need id of the Subscription from [Subscriptions](https://docs.tink.com/resources/money-manager/money-manager-api/get-subscriptions).
+To list transactions you will need id of the Subscription from [Subscriptions](/Tiny-doc/tink_docs_home/resources/money-manager/money-manager-api/get-subscriptions/).
 
 Example request
 

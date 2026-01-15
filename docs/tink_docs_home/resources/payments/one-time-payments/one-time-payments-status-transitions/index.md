@@ -1,6 +1,6 @@
 ---
 title: "Payment status transitions - Tink Docs"
-source: "https://docs.tink.com/resources/payments/one-time-payments/one-time-payments-status-transitions"
+source: "/Tiny-doc/tink_docs_home/resources/payments/one-time-payments/one-time-payments-status-transitions/"
 exportedAt: "2026-01-13T12:42:32.704Z"
 ---
 When a payment request is created, payment can be initiated. When a payment has been initiated, most users want to know the exact status of an initiated payment. In other words, it's important to know if, for example, a payment initiation is sent, partially sent, canceled, or failed.
@@ -9,7 +9,7 @@ The purpose of tracking the status of an initiated payment is to provide end use
 
 A payment request is stateless; once created, it lives forever. The `transfers` that are connected to the payment request have statuses and are trackable.
 
-We recommend that you make sure that no more than one payment request corresponds to no more than one `transfer`. When you [check the status of your one-time payment request](https://docs.tink.com/resources/payments/initiate-your-first-one-time-payment#check-the-payment-status), make sure that only one transfer is listed. To use our API to check a payment-initiation status, see [Get transfers for status request](https://docs.tink.com/api#payment/payment-request/get-transfers-for-payment-request).
+We recommend that you make sure that no more than one payment request corresponds to no more than one `transfer`. When you [check the status of your one-time payment request](/Tiny-doc/tink_docs_home/resources/payments/initiate-your-first-one-time-payment/#check-the-payment-status), make sure that only one transfer is listed. To use our API to check a payment-initiation status, see [Get transfers for status request](/Tiny-doc/tink_docs_api/api/#payment/payment-request/get-transfers-for-payment-request).
 
 ### Available transfer statuses[](#available-transfer-statuses)
 
@@ -21,11 +21,11 @@ When you initiate a payment, the status of the `payment` is immediately set to `
     -   `SETTLED_PAYER`: Payment has been initiated and funds have been moved from the payer's account. Note: This status is in beta version and not yet available in all Tink markets or for all payments.
     -   `SETTLED_PAYEE`: Payment has been initiated and funds have been moved to the payee's account. Note: This status is in beta version and not yet available in all Tink markets or for all payments.
 -   `PARTIALLY_SENT`: This status isn't used for one-time payments, only for bulk payments.
--   `SETTLED`: Payment has been received at a Tink settlement account. Note: This status is only applicable for customers that have the Settlement feature enabled, where Tink is collecting the funds. For more information on settlement accounts, see [Set up settlement accounts](https://docs.tink.com/resources/payments/one-time-payments/set-up-settlement-accounts-one-time-payments).
+-   `SETTLED`: Payment has been received at a Tink settlement account. Note: This status is only applicable for customers that have the Settlement feature enabled, where Tink is collecting the funds. For more information on settlement accounts, see [Set up settlement accounts](/Tiny-doc/tink_docs_home/resources/payments/one-time-payments/set-up-settlement-accounts-one-time-payments/).
 -   `FAILED`: Payment was unsuccessful due to an unexpected error, for example, an anomalous response from a bank.
 -   `CANCELLED`: The payment was unsuccessful due to an expected error. Expected errors are well-known problems that prevent payment initiation from succeeding. Examples of cases where a status will be `CANCELLED`: a user that fails to authorize a payment, or an account contains insufficient funds. This status will also be returned if a payment initiation is abandoned by a user during a bank redirect. After 9 minutes, the payment initiation is cancelled and the transfer status is set to `CANCELLED`.
 
-In addition to the statuses above, a status is transitioned from `CREATED` to `AWAITING_CREDENTIALS` (intermediate state) when we need [supplemental information](https://docs.tink.com/resources/aggregation/credentials) from the user.
+In addition to the statuses above, a status is transitioned from `CREATED` to `AWAITING_CREDENTIALS` (intermediate state) when we need [supplemental information](/Tiny-doc/tink_docs_home/resources/aggregation/credentials/) from the user.
 
 ### Status transitions[](#status-transitions)
 
@@ -38,4 +38,4 @@ In addition to the statuses above, a status is transitioned from `CREATED` to `A
 
 Instead of polling the payment status, you can set up a webhook and receive notification whenever `payment` status is set to one of the following final statuses: `SENT`, `SETTLED`, `CANCELLED`, or `FAILED`.
 
-For information on how to set up webhooks, see [Notifications and webhooks](https://docs.tink.com/resources/payments/one-time-payments-notifications-and-webhooks).
+For information on how to set up webhooks, see [Notifications and webhooks](/Tiny-doc/tink_docs_home/resources/payments/one-time-payments-notifications-and-webhooks/).

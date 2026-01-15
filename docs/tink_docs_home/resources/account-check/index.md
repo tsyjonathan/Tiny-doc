@@ -1,6 +1,6 @@
 ---
 title: "Account Check - Tink Docs"
-source: "https://docs.tink.com/resources/account-check"
+source: "/Tiny-doc/tink_docs_home/resources/account-check/"
 exportedAt: "2026-01-13T12:40:04.650Z"
 ---
 [
@@ -15,7 +15,7 @@ Verifying account ownership can be a tedious process. Here's how Account Check c
 
 
 
-](https://docs.tink.com/resources/account-check/introduction-to-account-check)
+](/Tiny-doc/tink_docs_home/resources/account-check/introduction-to-account-check/)
 
 ## Getting started
 
@@ -31,7 +31,7 @@ Follow this step-by-step guide to fetch your first report.
 
 
 
-](https://docs.tink.com/resources/account-check/verify-your-first-account)
+](/Tiny-doc/tink_docs_home/resources/account-check/verify-your-first-account/)
 
 [
 
@@ -45,7 +45,7 @@ Test your integration by using demo credentials.
 
 
 
-](https://docs.tink.com/resources/account-check/test-different-account-check-scenarios)
+](/Tiny-doc/tink_docs_home/resources/account-check/test-different-account-check-scenarios/)
 
 [
 
@@ -59,7 +59,7 @@ Combine two products to fetch data in one flow
 
 
 
-](https://docs.tink.com/resources/account-check/bundle-account-check-transactions)
+](/Tiny-doc/tink_docs_home/resources/account-check/bundle-account-check-transactions/)
 
 ## Integration
 
@@ -75,7 +75,7 @@ Learn how to best integrate our SDKs with your app.
 
 
 
-](https://docs.tink.com/resources/account-check/setup-and-integrate-account-check)
+](/Tiny-doc/tink_docs_home/resources/account-check/setup-and-integrate-account-check/)
 
 [
 
@@ -89,7 +89,7 @@ Make sure that your integration is seamless and leads to the highest conversion 
 
 
 
-](https://docs.tink.com/resources/account-check/optimize-your-account-check-integration)
+](/Tiny-doc/tink_docs_home/resources/account-check/optimize-your-account-check-integration/)
 
 [
 
@@ -103,7 +103,7 @@ Account Check error codes and formats, described and explained.
 
 
 
-](https://docs.tink.com/resources/account-check/handle-account-check-error-codes)
+](/Tiny-doc/tink_docs_home/resources/account-check/handle-account-check-error-codes/)
 
 [
 
@@ -117,7 +117,7 @@ Launch the SDK with sensitive user information
 
 
 
-](https://docs.tink.com/resources/account-check/account-check-sdk-sessions)
+](/Tiny-doc/tink_docs_home/resources/account-check/account-check-sdk-sessions/)
 
 [
 
@@ -127,7 +127,7 @@ Set up webhooks to listen for event notifications
 
 
 
-](https://docs.tink.com/resources/account-check/webhooks-account-check-integration)
+](/Tiny-doc/tink_docs_home/resources/account-check/webhooks-account-check-integration/)
 
 [
 
@@ -141,7 +141,7 @@ Parameters, responses, versions and market availability for the Account Check SD
 
 
 
-](https://docs.tink.com/resources/account-check/account-check-sdk-reference)
+](/Tiny-doc/tink_docs_home/resources/account-check/account-check-sdk-reference/)
 
 [
 
@@ -155,4 +155,4 @@ Use our Postman collection for Account Check.
 
 
 
-](https://docs.tink.com/resources/account-check/postman-collection-for-account-check)
+](/Tiny-doc/tink_docs_home/resources/account-check/postman-collection-for-account-check/)

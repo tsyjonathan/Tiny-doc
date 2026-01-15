@@ -1,6 +1,6 @@
 ---
 title: "Open banking glossary - Tink Docs"
-source: "https://docs.tink.com/resources/aggregation/open-banking-glossary"
+source: "/Tiny-doc/tink_docs_home/resources/aggregation/open-banking-glossary/"
 exportedAt: "2026-01-13T13:00:34.969Z"
 ---
 | Acronym | Term | Description |

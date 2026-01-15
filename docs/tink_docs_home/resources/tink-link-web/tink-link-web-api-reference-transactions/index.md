@@ -1,6 +1,6 @@
 ---
 title: "Tink Link Reference (Transactions) - Tink Docs"
-source: "https://docs.tink.com/resources/tink-link-web/tink-link-web-api-reference-transactions"
+source: "/Tiny-doc/tink_docs_home/resources/tink-link-web/tink-link-web-api-reference-transactions/"
 exportedAt: "2026-01-13T12:59:28.503Z"
 ---
 You can get access to the Tink's products and APIs using Tink Link, which uses industry standard OAuth 2.0 authentication methods for transparent and secure access to user data.
@@ -28,13 +28,13 @@ From a high level, this is how Tink Link for web works:
 | refreshable\_items | Optional (defaults to all) | A comma separated list of refreshable items to include (`CHECKING_ACCOUNTS`, `CHECKING_TRANSACTIONS`, `SAVING_ACCOUNTS`, `SAVING_TRANSACTIONS`, `CREDITCARD_ACCOUNTS`, `CREDITCARD_TRANSACTIONS`) |
 | financial\_services\_segments | Optional (default `PERSONAL`) | A comma separated list of financial services segments (`PERSONAL`, `BUSINESS`). |
 | financial\_institution\_id | Optional | Identifier of the financial institution to preselect, otherwise the user will be presented with a list of financial institutions. |
-| `app_uri` | Optional | The deep link for an Android or iOS hosting app. Use when Tink Link is embedded in an [Android](https://docs.tink.com/resources/payments/one-time-payments/integrate-one-time-payments-in-android-apps)/[iOS](https://docs.tink.com/resources/payments/one-time-payments/integrate-one-time-payments-in-ios-apps) app to redirect the user back to the hosting app after authenticating in a third-party app (such as Mobile Bank ID). |
+| `app_uri` | Optional | The deep link for an Android or iOS hosting app. Use when Tink Link is embedded in an [Android](/Tiny-doc/tink_docs_home/resources/payments/one-time-payments/integrate-one-time-payments-in-android-apps/)/[iOS](/Tiny-doc/tink_docs_home/resources/payments/one-time-payments/integrate-one-time-payments-in-ios-apps/) app to redirect the user back to the hosting app after authenticating in a third-party app (such as Mobile Bank ID). |
 | `state` | Optional, but recommended | Helps defend against Cross-Site Request Forgery (CSRF) attacks. To use `state`, provide a randomized `state` value when initiating the SDK. Tink will return this value in the callback after a successful grant. You can then compare this value to the value in your request to ensure it came from your app. |
 | `iframe` | Optional (default `false`) | Should be used if Tink Link is embedded inside an iframe. If the parameter is set to `true`, the redirect with the authentication `code` will be replaced by a `postMessage` to the parent. Note that iframe embedding can be made available after verifying your developer account. For more information, contact [Support](https://support.tink.com/). `redirect_uri` is used for validating the hosting page. |
-| `session_id` | Optional | Used to securely configure Tink Link, prefill data or apply merchant customization. See [sessions](https://docs.tink.com/api#general/tink-link/session). |
-| `input_provider` | Optional | The unique name of the provider (ex: `sbab-bankid`). If provided, user can skip provider selection. Otherwise, they will choose the provider from a list in the Tink UI. If `input_provider` is invalid, Tink will throw an error. Make sure you have the right provider name by using the [List Providers endpoint](https://docs.tink.com/api-connectivity-v1#connectivity-v1/provider/list-providers). |
+| `session_id` | Optional | Used to securely configure Tink Link, prefill data or apply merchant customization. See [sessions](/Tiny-doc/tink_docs_api/api/#general/tink-link/session). |
+| `input_provider` | Optional | The unique name of the provider (ex: `sbab-bankid`). If provided, user can skip provider selection. Otherwise, they will choose the provider from a list in the Tink UI. If `input_provider` is invalid, Tink will throw an error. Make sure you have the right provider name by using the [List Providers endpoint](/Tiny-doc/tink_docs_api/api-connectivity-v1/#connectivity-v1/provider/list-providers). |
 | `input_username` | Optional | Prefills the username field for supported providers. Useful when the username is a personal identifier that could be valid for multiple banks, such as a social security number. |
-| `theme` | Optional | Specifying `LIGHT` or `DARK` overrides the user’s system preference and displays the specified theme. Requires both themes to be configured to have any effect. Reach out to [support](https://docs.tink.com/resources/support) to enable dark theme. |
+| `theme` | Optional | Specifying `LIGHT` or `DARK` overrides the user’s system preference and displays the specified theme. Requires both themes to be configured to have any effect. Reach out to [support](/Tiny-doc/tink_docs_home/resources/support/) to enable dark theme. |
 
 An example of the resulting Tink Link URL with the request parameters:
 
@@ -50,7 +50,7 @@ https://link.tink.com/1.0/transactions/connect-accounts?client_id=4dbc5568f3d2a7
 | `credentials_id` | Always | The identifier of the created or updated credentials. |
 | `state` | If provided in the request | The state value that was provided in the URL when starting the journey. |
 
-The success response details are delivered either to the specified `redirect_uri` or by postMessage for [iframe integrations](https://docs.tink.com/resources/tink-link-web/tink-link-web-embed-in-iframe).
+The success response details are delivered either to the specified `redirect_uri` or by postMessage for [iframe integrations](/Tiny-doc/tink_docs_home/resources/tink-link-web/tink-link-web-embed-in-iframe/).
 
 ##### Redirect[](#redirect)
 
@@ -79,7 +79,7 @@ http://localhost:3000/callback?credentials_id=6915ab99857fec1e6f2f6c078&code=b18
 | `state` | If provided in the request | The state value that was provided in the URL when starting the journey. |
 | `credentials` | If credentials were provided | The identifier of the created credentials. |
 
-The failure response details are delivered either to the specified `redirect_uri` or by postMessage for [iframe integrations](https://docs.tink.com/resources/tink-link-web/tink-link-web-embed-in-iframe).
+The failure response details are delivered either to the specified `redirect_uri` or by postMessage for [iframe integrations](/Tiny-doc/tink_docs_home/resources/tink-link-web/tink-link-web-embed-in-iframe/).
 
 ```
 http://localhost:3000/callback?error=INTERNAL_ERROR&message=Something%20went%20wrong%2E&credentials=9d547e5b7b1442658878843539a32148
@@ -110,17 +110,17 @@ http://localhost:3000/callback?error=INTERNAL_ERROR&message=Something%20went%20w
 | `redirect_uri` | Required | The page the end-user is redirected to after completing the flow together with the response parameters (configured in [Console](https://console.tink.com/)). |
 | `market` | Required | The market code for the country Tink should list providers for. See [supported markets](#supported-markets). |
 | `locale` | Required | The locale used for UI text. See [supported locales](#supported-locales). |
-| `authorization_code` | Required | The created `USER_AUTHORIZATION_CODE` (see [generating a user authorization code](https://docs.tink.com/resources/tink-link-web/tink-link-web-permanent-users#generate-a-user-authorization-code)). |
+| `authorization_code` | Required | The created `USER_AUTHORIZATION_CODE` (see [generating a user authorization code](/Tiny-doc/tink_docs_home/resources/tink-link-web/tink-link-web-permanent-users/#generate-a-user-authorization-code)). |
 | refreshable\_items | Optional (defaults to all) | A comma separated list of refreshable items to include (`CHECKING_ACCOUNTS`, `CHECKING_TRANSACTIONS`, `SAVING_ACCOUNTS`, `SAVING_TRANSACTIONS`, `CREDITCARD_ACCOUNTS`, `CREDITCARD_TRANSACTIONS`) |
 | financial\_services\_segments | Optional (default `PERSONAL`) | A comma separated list of financial services segments (`PERSONAL`, `BUSINESS`). |
 | financial\_institution\_id | Optional | Identifier of the financial institution to preselect, otherwise the user will be presented with a list of financial institutions. |
-| `app_uri` | Optional | The deep link for an Android or iOS hosting app. Use when Tink Link is embedded in an [Android](https://docs.tink.com/resources/payments/one-time-payments/integrate-one-time-payments-in-android-apps)/[iOS](https://docs.tink.com/resources/payments/one-time-payments/integrate-one-time-payments-in-ios-apps) app to redirect the user back to the hosting app after authenticating in a third-party app (such as Mobile Bank ID). |
+| `app_uri` | Optional | The deep link for an Android or iOS hosting app. Use when Tink Link is embedded in an [Android](/Tiny-doc/tink_docs_home/resources/payments/one-time-payments/integrate-one-time-payments-in-android-apps/)/[iOS](/Tiny-doc/tink_docs_home/resources/payments/one-time-payments/integrate-one-time-payments-in-ios-apps/) app to redirect the user back to the hosting app after authenticating in a third-party app (such as Mobile Bank ID). |
 | `state` | Optional, but recommended | Helps defend against Cross-Site Request Forgery (CSRF) attacks. To use `state`, provide a randomized `state` value when initiating the SDK. Tink will return this value in the callback after a successful grant. You can then compare this value to the value in your request to ensure it came from your app. |
 | `iframe` | Optional (default `false`) | Should be used if Tink Link is embedded inside an iframe. If the parameter is set to `true`, the redirect with the authentication `code` will be replaced by a `postMessage` to the parent. Note that iframe embedding can be made available after verifying your developer account. For more information, contact [Support](https://support.tink.com/). `redirect_uri` is used for validating the hosting page. |
-| `session_id` | Optional | Used to securely configure Tink Link, prefill data or apply merchant customization. See [sessions](https://docs.tink.com/api#general/tink-link/session). |
-| `input_provider` | Optional | The unique name of the provider (ex: `sbab-bankid`). If provided, user can skip provider selection. Otherwise, they will choose the provider from a list in the Tink UI. If `input_provider` is invalid, Tink will throw an error. Make sure you have the right provider name by using the [List Providers endpoint](https://docs.tink.com/api-connectivity-v1#connectivity-v1/provider/list-providers). |
+| `session_id` | Optional | Used to securely configure Tink Link, prefill data or apply merchant customization. See [sessions](/Tiny-doc/tink_docs_api/api/#general/tink-link/session). |
+| `input_provider` | Optional | The unique name of the provider (ex: `sbab-bankid`). If provided, user can skip provider selection. Otherwise, they will choose the provider from a list in the Tink UI. If `input_provider` is invalid, Tink will throw an error. Make sure you have the right provider name by using the [List Providers endpoint](/Tiny-doc/tink_docs_api/api-connectivity-v1/#connectivity-v1/provider/list-providers). |
 | `input_username` | Optional | Prefills the username field for supported providers. Useful when the username is a personal identifier that could be valid for multiple banks, such as a social security number. |
-| `theme` | Optional | Specifying `LIGHT` or `DARK` overrides the user’s system preference and displays the specified theme. Requires both themes to be configured to have any effect. Reach out to [support](https://docs.tink.com/resources/support) to enable dark theme. |
+| `theme` | Optional | Specifying `LIGHT` or `DARK` overrides the user’s system preference and displays the specified theme. Requires both themes to be configured to have any effect. Reach out to [support](/Tiny-doc/tink_docs_home/resources/support/) to enable dark theme. |
 
 An example of the resulting Tink Link URL with the request parameters:
 
@@ -135,7 +135,7 @@ https://link.tink.com/1.0/transactions/connect-accounts?client_id=4dbc5568f3d2a7
 | `credentials_id` | Always | The identifier of the created or updated credentials. |
 | `state` | If provided in the request | The state value that was provided in the URL when starting the journey. |
 
-The success response details are delivered either to the specified `redirect_uri` or by postMessage for [iframe integrations](https://docs.tink.com/resources/tink-link-web/tink-link-web-embed-in-iframe).
+The success response details are delivered either to the specified `redirect_uri` or by postMessage for [iframe integrations](/Tiny-doc/tink_docs_home/resources/tink-link-web/tink-link-web-embed-in-iframe/).
 
 ##### Redirect[](#redirect)
 
@@ -163,7 +163,7 @@ http://localhost:3000/callback?credentials_id=6915ab99857fec1e6f2f6c078
 | `state` | If provided in the request | The state value that was provided in the URL when starting the journey. |
 | `credentials` | If credentials were provided | The identifier of the created credentials. |
 
-The failure response details are delivered either to the specified `redirect_uri` or by postMessage for [iframe integrations](https://docs.tink.com/resources/tink-link-web/tink-link-web-embed-in-iframe).
+The failure response details are delivered either to the specified `redirect_uri` or by postMessage for [iframe integrations](/Tiny-doc/tink_docs_home/resources/tink-link-web/tink-link-web-embed-in-iframe/).
 
 ```
 http://localhost:3000/callback?error=INTERNAL_ERROR&message=Something%20went%20wrong%2E&credentials=9d547e5b7b1442658878843539a32148
@@ -190,12 +190,12 @@ http://localhost:3000/callback?error=INTERNAL_ERROR&message=Something%20went%20w
 | --- | --- | --- |
 | `client_id` | Required | Your client ID (retrieved from [Console](https://console.tink.com/)). |
 | `redirect_uri` | Required | The page the end-user is redirected to after completing the flow together with the response parameters (configured in [Console](https://console.tink.com/)). |
-| `authorization_code` | Required | The created `USER_AUTHORIZATION_CODE` (see [generating a user authorization code](https://docs.tink.com/resources/tink-link-web/tink-link-web-permanent-users#generate-a-user-authorization-code)). |
+| `authorization_code` | Required | The created `USER_AUTHORIZATION_CODE` (see [generating a user authorization code](/Tiny-doc/tink_docs_home/resources/tink-link-web/tink-link-web-permanent-users/#generate-a-user-authorization-code)). |
 | credentials\_id | Required | The identifier of the credentials to update consent for. |
 | `state` | Optional, but recommended | Helps defend against Cross-Site Request Forgery (CSRF) attacks. To use `state`, provide a randomized `state` value when initiating the SDK. Tink will return this value in the callback after a successful grant. You can then compare this value to the value in your request to ensure it came from your app. |
 | `iframe` | Optional (default `false`) | Should be used if Tink Link is embedded inside an iframe. If the parameter is set to `true`, the redirect with the authentication `code` will be replaced by a `postMessage` to the parent. Note that iframe embedding can be made available after verifying your developer account. For more information, contact [Support](https://support.tink.com/). `redirect_uri` is used for validating the hosting page. |
-| `app_uri` | Optional | The deep link for an Android or iOS hosting app. Use when Tink Link is embedded in an [Android](https://docs.tink.com/resources/payments/one-time-payments/integrate-one-time-payments-in-android-apps)/[iOS](https://docs.tink.com/resources/payments/one-time-payments/integrate-one-time-payments-in-ios-apps) app to redirect the user back to the hosting app after authenticating in a third-party app (such as Mobile Bank ID). |
-| `theme` | Optional | Specifying `LIGHT` or `DARK` overrides the user’s system preference and displays the specified theme. Requires both themes to be configured to have any effect. Reach out to [support](https://docs.tink.com/resources/support) to enable dark theme. |
+| `app_uri` | Optional | The deep link for an Android or iOS hosting app. Use when Tink Link is embedded in an [Android](/Tiny-doc/tink_docs_home/resources/payments/one-time-payments/integrate-one-time-payments-in-android-apps/)/[iOS](/Tiny-doc/tink_docs_home/resources/payments/one-time-payments/integrate-one-time-payments-in-ios-apps/) app to redirect the user back to the hosting app after authenticating in a third-party app (such as Mobile Bank ID). |
+| `theme` | Optional | Specifying `LIGHT` or `DARK` overrides the user’s system preference and displays the specified theme. Requires both themes to be configured to have any effect. Reach out to [support](/Tiny-doc/tink_docs_home/resources/support/) to enable dark theme. |
 
 An example of the resulting Tink Link URL with the request parameters:
 
@@ -210,7 +210,7 @@ https://link.tink.com/1.0/transactions/update-consent?client_id=4dbc5568f3d2a77a
 | `credentials_id` | Always | The identifier of the created or updated credentials. |
 | `state` | If provided in the request | The state value that was provided in the URL when starting the journey. |
 
-The success response details are delivered either to the specified `redirect_uri` or by postMessage for [iframe integrations](https://docs.tink.com/resources/tink-link-web/tink-link-web-embed-in-iframe).
+The success response details are delivered either to the specified `redirect_uri` or by postMessage for [iframe integrations](/Tiny-doc/tink_docs_home/resources/tink-link-web/tink-link-web-embed-in-iframe/).
 
 ##### Redirect[](#redirect)
 
@@ -237,7 +237,7 @@ http://localhost:3000/callback?credentials_id=6915ab99857fec1e6f2f6c078
 | `message` | Required | A developer facing error message describing the error. |
 | `state` | If provided in the request | The state value that was provided in the URL when starting the journey. |
 
-The failure response details are delivered either to the specified `redirect_uri` or by postMessage for [iframe integrations](https://docs.tink.com/resources/tink-link-web/tink-link-web-embed-in-iframe).
+The failure response details are delivered either to the specified `redirect_uri` or by postMessage for [iframe integrations](/Tiny-doc/tink_docs_home/resources/tink-link-web/tink-link-web-embed-in-iframe/).
 
 ```
 http://localhost:3000/callback?error=INTERNAL_ERROR&message=Something%20went%20wrong%2E&credentials=9d547e5b7b1442658878843539a32148
@@ -261,12 +261,12 @@ http://localhost:3000/callback?error=INTERNAL_ERROR&message=Something%20went%20w
 | BAD\_REQUEST | The Tink Link URL was incorrectly configured. |
 | USER\_CANCELLED | The end user cancelled the flow. |
 | AUTHENTICATION\_ERROR | The end user did not successfully authenticate towards the financial institution. Further information can be found in the `status` and `statusPayload` fields of the `Credentials` object available in the `data` parameter. |
-| INTERNAL\_ERROR | An internal error within the Tink service. Please [contact support](https://docs.tink.com/resources/getting-started/support) for help. |
+| INTERNAL\_ERROR | An internal error within the Tink service. Please [contact support](/Tiny-doc/tink_docs_home/resources/getting-started/support/) for help. |
 | TEMPORARY\_ERROR | A temporary error with the Tink services. Please try again. |
 
 ## Markets[](#markets)
 
-The following markets are supported by Tink Link. You can find the available providers by market in our [market capabilities listing](https://docs.tink.com/market-capabilities).
+The following markets are supported by Tink Link. You can find the available providers by market in our [market capabilities listing](/Tiny-doc/tink_docs_home/market-capabilities/).
 
 | Market | Name |
 | --- | --- |
@@ -314,7 +314,7 @@ The following locales are supported by Tink Link.
 
 ## Versions[](#versions)
 
-As we build technology to support the future of financial services, some of our older Tink Link versions are no longer recommended for use. If you are on a deprecated version, find the documentation and upgrade instructions in the [Tink Link documentation](https://docs.tink.com/resources/tink-link-web).
+As we build technology to support the future of financial services, some of our older Tink Link versions are no longer recommended for use. If you are on a deprecated version, find the documentation and upgrade instructions in the [Tink Link documentation](/Tiny-doc/tink_docs_home/resources/tink-link-web/).
 
 New fields and parameters are continuously added, but the API will remain backwards compatible with this specification until deprecated. Please note that unknown fields and parameters not listed in this documentation may be present.
 

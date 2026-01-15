@@ -1,15 +1,15 @@
 ---
 title: "Manage consents - Tink Docs"
-source: "https://docs.tink.com/resources/balance-check/manage-consents"
+source: "/Tiny-doc/tink_docs_home/resources/balance-check/manage-consents/"
 exportedAt: "2026-01-13T12:44:19.004Z"
 ---
 ## 1\. List provider consents[](#list-provider-consents)
 
-The Provider Consent model gives details about the state of the consents that a user has given for a financial institution. A user can give multiple consents, for one or multiple financial institutions. For more details on Provider Consent, see our [API Reference](https://docs.tink.com/api#connectivity/provider-consent).
+The Provider Consent model gives details about the state of the consents that a user has given for a financial institution. A user can give multiple consents, for one or multiple financial institutions. For more details on Provider Consent, see our [API Reference](/Tiny-doc/tink_docs_api/api/#connectivity/provider-consent).
 
-To list provider consents, you must generate a user access token with the scope provider-consents:read. For instructions on how to generate an access token, see [Balance Check integration](https://docs.tink.com/resources/account-check/balance-check-integration#consent-management).
+To list provider consents, you must generate a user access token with the scope provider-consents:read. For instructions on how to generate an access token, see [Balance Check integration](/Tiny-doc/tink_docs_home/resources/account-check/balance-check-integration/#consent-management).
 
-The Provider Consent model gives details about the state of the consents that a user has given for a financial institution. A user can give multiple consents, for one or multiple financial institutions. For more details on Provider Consent, see our [API Reference](https://docs.tink.com/api#connectivity/provider-consent).
+The Provider Consent model gives details about the state of the consents that a user has given for a financial institution. A user can give multiple consents, for one or multiple financial institutions. For more details on Provider Consent, see our [API Reference](/Tiny-doc/tink_docs_api/api/#connectivity/provider-consent).
 
 Get the list of consents
 

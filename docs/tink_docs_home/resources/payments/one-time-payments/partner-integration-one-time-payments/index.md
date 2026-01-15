@@ -1,6 +1,6 @@
 ---
 title: "Partner integration - Tink Docs"
-source: "https://docs.tink.com/resources/payments/one-time-payments/partner-integration-one-time-payments"
+source: "/Tiny-doc/tink_docs_home/resources/payments/one-time-payments/partner-integration-one-time-payments/"
 exportedAt: "2026-01-13T12:42:40.981Z"
 ---
 There are three levels of system entities in our hierarchy: Organization, app, and merchant. Merchants allows partners to manage their customers.
@@ -9,17 +9,17 @@ Merchants can create and manage sub-merchants without having to set up separate 
 
 Merchants are used to separate traffic, manage configuration on a more granular level, and make sure that every partner has verified customers using our payment method.
 
-Merchants are created and onboarded either in Console under the [merchant tab](https://console.tink.com/app-settings/merchants) or by using our [Merchants API](https://docs.tink.com/api#partner-integration/merchants/create-merchant).
+Merchants are created and onboarded either in Console under the [merchant tab](https://console.tink.com/app-settings/merchants) or by using our [Merchants API](/Tiny-doc/tink_docs_api/api/#partner-integration/merchants/create-merchant).
 
 We require this information to be submitted: `Name`, `Country`, `Organization number`, `URL`, `CategoryCode`. Optionally customers can input their own `externalId` that we will save and return together with the Tink Merchant ID.
 
 `CategoryCode` refers to the industry of the merchant, following ISO 18245 standards for Merchant Category codes.Once information has been sent via Console or our API, the screening happens instantly.
 
-When the merchant is created, you receive a unique Merchant ID in the UUID v4 format. The ID is found in the [Merchant list](https://console.tink.com/app-settings/merchants) in Console or by using our [List Merchants endpoint](https://docs.tink.com/api#payment/merchants/list-merchants).
+When the merchant is created, you receive a unique Merchant ID in the UUID v4 format. The ID is found in the [Merchant list](https://console.tink.com/app-settings/merchants) in Console or by using our [List Merchants endpoint](/Tiny-doc/tink_docs_api/api/#payment/merchants/list-merchants).
 
-The ID should be used in the `Merchant ID` field in the [payment request](https://docs.tink.com/api#payment/payment-request/create-payment-request) so that the traffic can be separated to the onboarded Merchant.
+The ID should be used in the `Merchant ID` field in the [payment request](/Tiny-doc/tink_docs_api/api/#payment/payment-request/create-payment-request) so that the traffic can be separated to the onboarded Merchant.
 
-To enable Merchant Customization make sure to use [Sessions](https://docs.tink.com/resources/payments/one-time-payments/one-time-payments-sdk-sessions#merchant-customization) and input the Merchant ID there as well.
+To enable Merchant Customization make sure to use [Sessions](/Tiny-doc/tink_docs_home/resources/payments/one-time-payments/one-time-payments-sdk-sessions/#merchant-customization) and input the Merchant ID there as well.
 
 You can configure the merchant brand and theming in the Console under **app settings** and [**merchants**](https://console.production.jersey.tink.se/app-settings/merchants).
 

@@ -1,13 +1,13 @@
 ---
 title: "Customization - Tink Docs"
-source: "https://docs.tink.com/resources/tink-link-web/tink-link-web-customization"
+source: "/Tiny-doc/tink_docs_home/resources/tink-link-web/tink-link-web-customization/"
 exportedAt: "2026-01-13T12:54:08.310Z"
 ---
 ## Theming[](#theming)
 
 Customize the look and feel to match your brand with the help of themes. We support both LIGHT and DARK themes.
 
-Only LIGHT themes are currently editable in [Console](https://console.tink.com/). Request to enable a DARK theme through Tink's [support portal](https://docs.tink.com/resources/getting-started/support). Include the hex-color values for the colors listed below in the request.
+Only LIGHT themes are currently editable in [Console](https://console.tink.com/). Request to enable a DARK theme through Tink's [support portal](/Tiny-doc/tink_docs_home/resources/getting-started/support/). Include the hex-color values for the colors listed below in the request.
 
 ### Colors[](#colors)
 
@@ -35,7 +35,7 @@ To upload a new logo or change an existing one, open Console, go to **\[your\_ap
 
 ### Typography[](#typography)
 
-If you wish to change the fonts, send a request through our [support portal](https://docs.tink.com/resources/getting-started/support).
+If you wish to change the fonts, send a request through our [support portal](/Tiny-doc/tink_docs_home/resources/getting-started/support/).
 
 We support Adobe Fonts (Typekit) and Google Fonts as font providers, as well as Tink-hosted web fonts. Custom fonts should support the following font weights: 400 and 600.
 

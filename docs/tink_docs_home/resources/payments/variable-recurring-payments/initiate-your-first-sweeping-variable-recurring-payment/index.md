@@ -1,6 +1,6 @@
 ---
 title: "Initiate your first Sweeping Variable Recurring Payment"
-source: "https://docs.tink.com/resources/payments/variable-recurring-payments/initiate-your-first-sweeping-variable-recurring-payment"
+source: "/Tiny-doc/tink_docs_home/resources/payments/variable-recurring-payments/initiate-your-first-sweeping-variable-recurring-payment/"
 exportedAt: "2026-01-13T12:43:03.112Z"
 ---
 ## Payments sequence diagrams[](#payments-sequence-diagrams)
@@ -33,7 +33,7 @@ The steps to initiate your first sweeping VRP must be followed in order:
 
 To create a sweeping VRP mandate, you first must generate a valid client access token with the scopes `consents`, `consents:readonly` , `user:create`, `user:read`, `authorization:grant`, and `providers:read`.
 
-For more information on how to get an access token, see [Get access token](https://docs.tink.com/api#general/oauth/get-access-token) in the API reference.
+For more information on how to get an access token, see [Get access token](/Tiny-doc/tink_docs_api/api/#general/oauth/get-access-token) in the API reference.
 
 **Note**: access tokens expire and must be renewed, typically in 30 minutes.
 
@@ -63,7 +63,7 @@ curl --request POST 'https://api.tink.com/api/v1/oauth/token'
 
 ### 2\. Create a permanent user[](#create-a-permanent-user)
 
-Every sweeping VRP mandate is tied to a permanent user. You must create a [permanent user](https://docs.tink.com/glossary#permanent-users) before you create a mandate. For more information on how to create a permanent user, see [Create user](https://docs.tink.com/api-general#general/user/create-user) in the API reference. Make sure to set the retention class to `permanent`.
+Every sweeping VRP mandate is tied to a permanent user. You must create a [permanent user](/Tiny-doc/tink_docs_home/glossary/#permanent-users) before you create a mandate. For more information on how to create a permanent user, see [Create user](/Tiny-doc/tink_docs_api/api-general/#general/user/create-user) in the API reference. Make sure to set the retention class to `permanent`.
 
 **Example request**
 
@@ -94,7 +94,7 @@ Keep a few things in mind:
 -   If the `payerAccount` is not specified, the end user will be asked to select an account at their bank as described in [Authorize a sweeping VRP mandate](#authorize-a-sweeping-variable-recurring-payment-mandate). To use payer account preselection, you must first have requested and been approved for access. If you've yet not requested access, contact [Sales](https://tink.com/get-started/).
 -   When a mandate has successfully been created, control parameters cannot be updated. To change the control parameters, revoke the existing mandate, create a new mandate, and send the end user through an authentication journey.
 
-For more information on how to create a mandate, see [Create a new consent](https://docs.staging.oxford.tink.se/api#connectivity-v2/consent/create-a-new-consent) in the API reference. For more information on how to structure an idempotency key, see [Idempotency and caching](https://docs.tink.com/api#introduction/idempotency-and-caching).
+For more information on how to create a mandate, see [Create a new consent](https://docs.staging.oxford.tink.se/api#connectivity-v2/consent/create-a-new-consent) in the API reference. For more information on how to structure an idempotency key, see [Idempotency and caching](/Tiny-doc/tink_docs_api/api/#introduction/idempotency-and-caching).
 
 #### JSON object user parameters[](#json-object-user-parameters)
 
@@ -291,9 +291,9 @@ curl --location --request POST 'https://api.tink.com/connectivity/v2/consents' \
 
 **Note**: Different providers may support different values and/or require different conditions to be met to accept a mandate request. Use the `https://api.tink.com/connectivity/v2/consent-templates/{providerId}` endpoint to request a JSON schema template that’s used to create a mandate with a specific provider. Use the `providerId` parameter of the provider for which you would like to create a mandate. Use the `type` query parameter with the `MANDATE_PAYMENTS` value and the `subType` query parameter with the `VRP_SWEEPING` value.
 
-For more information on how to request a JSON schema template, see [Get consent template](https://docs.tink.com/api#connectivity-v2/consent-templates/get-consent-template) in the API reference.
+For more information on how to request a JSON schema template, see [Get consent template](/Tiny-doc/tink_docs_api/api/#connectivity-v2/consent-templates/get-consent-template) in the API reference.
 
-To learn which providers allow `VRP_SWEEPING`, filter the list of providers by querying the [providers endpoint](https://docs.tink.com/api#connectivity/provider/list-providers-for-a-market). Use the `pisCapability` query parameter with the `VRP_SWEEPING` value to filter available providers: `https://api.tink.com/api/v1/providers/GB?pisCapability=VRP_SWEEPING`
+To learn which providers allow `VRP_SWEEPING`, filter the list of providers by querying the [providers endpoint](/Tiny-doc/tink_docs_api/api/#connectivity/provider/list-providers-for-a-market). Use the `pisCapability` query parameter with the `VRP_SWEEPING` value to filter available providers: `https://api.tink.com/api/v1/providers/GB?pisCapability=VRP_SWEEPING`
 
 **Example request**
 
@@ -509,7 +509,7 @@ Before you can send the end user through Tink Link to authorize the sweeping VRP
 
 > **Note:** When creating a user authorization code, you must enter `actor_client_id=df05e4b379934cd09963197cc855bfe9`. This value never changes and is used by Tink to identify apps. Once you declare the value, you allow Tink to act on your behalf. This value isn't the same as your `client_id`, so make sure not to mix them up.
 
-For more information on how to create a user authorization code, see [Create delegated authorization](https://docs.tink.com/api#general/oauth/create-delegated-authorization) in the API reference.
+For more information on how to create a user authorization code, see [Create delegated authorization](/Tiny-doc/tink_docs_api/api/#general/oauth/create-delegated-authorization) in the API reference.
 
 **Example request**
 
@@ -547,7 +547,7 @@ For the `consent_id` parameter, enter the `id` that you received in response to 
 
 Since permanent users are used you must append the `authorization_code={USER_AUTHORIZATION_CODE}` query parameter in your URL. The `authorization_code` is used to authenticate the existing user in Tink Link. Use the `authorization_code` created in [Create a user authorization code](#create-a-user-authorization-code).
 
-For a description of all required and optional request parameters in the URL, see [Variable Recurring Payments SDK reference](https://docs.tink.com/resources/payments/variable-recurring-payments-sdk-reference). For more information on how the URL works, see [Setup and integrate Variable Recurring Payments](https://docs.tink.com/resources/payments/setup-and-integrate-variable-recurring-payments).
+For a description of all required and optional request parameters in the URL, see [Variable Recurring Payments SDK reference](/Tiny-doc/tink_docs_home/resources/payments/variable-recurring-payments-sdk-reference/). For more information on how the URL works, see [Setup and integrate Variable Recurring Payments](/Tiny-doc/tink_docs_home/resources/payments/setup-and-integrate-variable-recurring-payments/).
 
 When a user reaches the end of a flow, they're redirected to the callback URI that you've provided in the URL. The `consent_id` field is added to the URL. When redirected, the URL in your browser looks like this:
 
@@ -560,11 +560,11 @@ A couple of possible failure reasons:
 -   The end user canceled their flow
 -   The end user didn't successfully authenticate with their bank
 
-For more information about errors, see [Handle Variable Recurring Payments error codes](https://docs.tink.com/resources/payments/handle-variable-recurring-payments-error-codes). The article contains information on both [SDK error codes](https://docs.tink.com/resources/payments/handle-variable-recurring-payments-error-codes#sdk-error-codes) and [API error codes](https://docs.tink.com/resources/payments/handle-variable-recurring-payments-error-codes#api-error-codes).
+For more information about errors, see [Handle Variable Recurring Payments error codes](/Tiny-doc/tink_docs_home/resources/payments/handle-variable-recurring-payments-error-codes/). The article contains information on both [SDK error codes](/Tiny-doc/tink_docs_home/resources/payments/handle-variable-recurring-payments-error-codes/#sdk-error-codes) and [API error codes](/Tiny-doc/tink_docs_home/resources/payments/handle-variable-recurring-payments-error-codes/#api-error-codes).
 
 ### 6\. Check the details and status of a sweeping Variable Recurring Payment mandate[](#check-the-details-and-status-of-a-sweeping-variable-recurring-payment-mandate)
 
-Use the `https://api.tink.com/connectivity/v2/consents/{id}` endpoint to retrieve the status of a sweeping VRP mandate by using its `Id` parameter. For more information on how to check the status of a mandate, see [Read a consent](https://docs.tink.com/api#connectivity-v2/consent/read-a-consent) in the API reference.
+Use the `https://api.tink.com/connectivity/v2/consents/{id}` endpoint to retrieve the status of a sweeping VRP mandate by using its `Id` parameter. For more information on how to check the status of a mandate, see [Read a consent](/Tiny-doc/tink_docs_api/api/#connectivity-v2/consent/read-a-consent) in the API reference.
 
 **Example request**
 
@@ -670,7 +670,7 @@ The following illustration shows the state model for a mandate.
 
 Before you initiate a sweeping VRP, you first must generate a new valid client access token with the scopes `mandate-payments` and `mandate-payments:readonly`.
 
-For more information on how to get an access token, see [Get access token](https://docs.tink.com/api#general/oauth/get-access-token) in the API reference.
+For more information on how to get an access token, see [Get access token](/Tiny-doc/tink_docs_api/api/#general/oauth/get-access-token) in the API reference.
 
 **Note**: access tokens expire and must be renewed, typically in 30 minutes.
 
@@ -715,7 +715,7 @@ Keep a few things in mind:
 
 Initiating a sweeping VRP using a mandate does not require any further authorization by the end user.
 
-For more information on how to initiate a sweeping VRP, see [Create a mandate payment](https://docs.tink.com/api#payment/mandate-payment/create-mandate-payment) in the API reference. For more information on how to structure an idempotency key, see [Idempotency and caching](https://docs.tink.com/api#introduction/idempotency-and-caching).
+For more information on how to initiate a sweeping VRP, see [Create a mandate payment](/Tiny-doc/tink_docs_api/api/#payment/mandate-payment/create-mandate-payment) in the API reference. For more information on how to structure an idempotency key, see [Idempotency and caching](/Tiny-doc/tink_docs_api/api/#introduction/idempotency-and-caching).
 
 **Example request**
 
@@ -778,7 +778,7 @@ curl --request POST 'https://api.tink.com/payment/v1/mandate-payments'
 
 ### 9\. Check the details and status of a sweeping Variable Recurring Payment[](#check-the-details-and-status-of-a-sweeping-variable-recurring-payment)
 
-After a sweeping VRP has been initiated, retrieve its details and status by using its `Id` parameter in the `https://api.tink.com/payment/v1/mandate-payments/{id}` endpoint. For more information on how to check the details and status of a sweeping VRP, see [Get mandate payment](https://docs.tink.com/api#payment/mandate-payment/get-mandate-payment). For more information about payment statuses, see [Variable Recurring Payment status transitions](https://docs.tink.com/resources/payments/variable-recurring-payments/vrp-payment-status-transitions).
+After a sweeping VRP has been initiated, retrieve its details and status by using its `Id` parameter in the `https://api.tink.com/payment/v1/mandate-payments/{id}` endpoint. For more information on how to check the details and status of a sweeping VRP, see [Get mandate payment](/Tiny-doc/tink_docs_api/api/#payment/mandate-payment/get-mandate-payment). For more information about payment statuses, see [Variable Recurring Payment status transitions](/Tiny-doc/tink_docs_home/resources/payments/variable-recurring-payments/vrp-payment-status-transitions/).
 
 **Example request**
 
@@ -825,7 +825,7 @@ curl --request GET https://api.tink.com/payment/v1/mandate-payments/b6704301-8a1
 
 ### 10\. Revoke a sweeping Variable Recurring Payment mandate[](#revoke-a-sweeping-variable-recurring-payment-mandate)
 
-If an end user wants to revoke their VRP mandate to prevent any future payments from being initiated, call the `https://api.tink.com/connectivity/v2/consents/{consentId}:revoke` endpoint to revoke the authorization of a mandate. For more information on how to revoke a VRP mandate, see [Revoke a consent](https://docs.tink.com/api#connectivity-v2/consent/revoke-a-consent) in the API reference.
+If an end user wants to revoke their VRP mandate to prevent any future payments from being initiated, call the `https://api.tink.com/connectivity/v2/consents/{consentId}:revoke` endpoint to revoke the authorization of a mandate. For more information on how to revoke a VRP mandate, see [Revoke a consent](/Tiny-doc/tink_docs_api/api/#connectivity-v2/consent/revoke-a-consent) in the API reference.
 
 When the revocation of a mandate is successful, the mandate status transition to `REVOKED`. If the revocation fails, the mandate remains in an `ACTIVE` state. To learn more about the state model and how to check the status of a mandate, see [Check the details and status of a Variable Recurring Payment mandate](#check-the-details-and-status-of-a-sweeping-variable-recurring-payment-mandate).
 

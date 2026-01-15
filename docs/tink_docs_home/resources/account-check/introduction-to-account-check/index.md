@@ -1,6 +1,6 @@
 ---
 title: "Introduction to Account Check - Tink Docs"
-source: "https://docs.tink.com/resources/account-check/introduction-to-account-check"
+source: "/Tiny-doc/tink_docs_home/resources/account-check/introduction-to-account-check/"
 exportedAt: "2026-01-13T12:41:18.019Z"
 ---
 One of the core tenets of the EU’s PSD2 directive is that financial data belongs to users, not banks. By opening up access to financial data, we can bring account verification methods to the digital age, enabling faster, simpler and more secure user experiences.

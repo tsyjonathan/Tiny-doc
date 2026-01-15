@@ -1,6 +1,6 @@
 ---
 title: "TPP certificates - Tink Docs"
-source: "https://docs.tink.com/resources/open-banking/tpp-certificates"
+source: "/Tiny-doc/tink_docs_home/resources/open-banking/tpp-certificates/"
 exportedAt: "2026-01-13T12:54:53.537Z"
 ---
 Third Party Providers (TPPs) need to follow specific regulatory requirements and technical specifications to access production data via PSD2 APIs. This process involves interaction with National Competent Authorities (NCAs) and Qualified Trust Service Providers (QTSPs) to obtain the necessary authorisation and certificates.

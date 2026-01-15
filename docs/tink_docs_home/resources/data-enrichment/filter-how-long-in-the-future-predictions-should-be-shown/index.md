@@ -1,6 +1,6 @@
 ---
 title: "Filter how long in the future predictions should be shown"
-source: "https://docs.tink.com/resources/data-enrichment/filter-how-long-in-the-future-predictions-should-be-shown"
+source: "/Tiny-doc/tink_docs_home/resources/data-enrichment/filter-how-long-in-the-future-predictions-should-be-shown/"
 exportedAt: "2026-01-13T12:47:56.604Z"
 ---
 Call the predicted recurring transactions endpoint with your user access token, and predictionSpanDays set to the number of days back from today you would like to see predictions from:

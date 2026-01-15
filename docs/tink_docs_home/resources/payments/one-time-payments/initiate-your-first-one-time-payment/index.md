@@ -1,6 +1,6 @@
 ---
 title: "Initiate your first one-time payment"
-source: "https://docs.tink.com/resources/payments/one-time-payments/initiate-your-first-one-time-payment"
+source: "/Tiny-doc/tink_docs_home/resources/payments/one-time-payments/initiate-your-first-one-time-payment/"
 exportedAt: "2026-01-13T12:41:47.315Z"
 ---
 In this guide, we’ll walk you through the end-to-end one-time payments journey. To initiate, execute and track your first one-time payment, you’ll follow these steps in order:
@@ -43,7 +43,7 @@ curl -X POST https://api.tink.com/api/v1/oauth/token \
 
 A payment request is an object with all the information about the payment, the payer, and the recipient needed to execute the payment. No money is moved when you make a payment request. To execute the payment, your user needs to give their consent.
 
-To create a payment request, make a POST request to the `https://api.tink.com/api/v1/payments/requests` endpoint. In our example, we'll create a payment request for a recipient in Italy. For code examples for other markets, see [market-specific information](https://docs.tink.com/resources/payments/one-time-payments-market-specific-information).
+To create a payment request, make a POST request to the `https://api.tink.com/api/v1/payments/requests` endpoint. In our example, we'll create a payment request for a recipient in Italy. For code examples for other markets, see [market-specific information](/Tiny-doc/tink_docs_home/resources/payments/one-time-payments-market-specific-information/).
 
 ### Example payment request[](#example-payment-request)
 
@@ -73,7 +73,7 @@ curl -v -X POST https://api.tink.com/api/v1/payments/requests \
 
 When you call this endpoint, it validates and stores your payment request. A successful request returns the values you provided in your request along with a unique `id`, which you’ll use later as your `payment_request_id` when initiating and tracking the payment.
 
-An unsuccessful request will return an error. For more information on errors, see [one-time payments request errors](https://docs.tink.com/resources/payments/one-time-payments/handle-one-time-payments-sdk-error-codes#request-creation-error-codes).
+An unsuccessful request will return an error. For more information on errors, see [one-time payments request errors](/Tiny-doc/tink_docs_home/resources/payments/one-time-payments/handle-one-time-payments-sdk-error-codes/#request-creation-error-codes).
 
 ### Example payment request response[](#example-payment-request-response)
 
@@ -97,7 +97,7 @@ An unsuccessful request will return an error. For more information on errors, se
 }
 ```
 
-For more information, see the [create payment request endpoint](https://docs.tink.com/api#payment/payment-request/create-payment-request) in our API reference.
+For more information, see the [create payment request endpoint](/Tiny-doc/tink_docs_api/api/#payment/payment-request/create-payment-request) in our API reference.
 
 ## Build a Tink Link URL[](#build-a-tink-link-url)
 
@@ -105,9 +105,9 @@ The Tink Link URL launches the interface that your users will use to initiate th
 
 To build a URL, use the [link builder in Console](https://console.tink.com/payments/tink-link). The URL is configurable and exposes many parameters you can use to limit and guide users according to your requirements.
 
-You can find all available parameters in the [One-time payments SDK reference](https://docs.tink.com/resources/payments/one-time-payments-sdk-reference).
+You can find all available parameters in the [One-time payments SDK reference](/Tiny-doc/tink_docs_home/resources/payments/one-time-payments-sdk-reference/).
 
-> To learn how to launch the Tink Link from your app, see our integration guide for [Android](https://docs.tink.com/resources/payments/one-time-payments/integrate-one-time-payments-in-android-apps), [iOS](https://docs.tink.com/resources/payments/one-time-payments/integrate-one-time-payments-in-ios-apps) or [web apps](https://docs.tink.com/resources/payments/one-time-payments/integrate-one-time-payments-in-web-apps).
+> To learn how to launch the Tink Link from your app, see our integration guide for [Android](/Tiny-doc/tink_docs_home/resources/payments/one-time-payments/integrate-one-time-payments-in-android-apps/), [iOS](/Tiny-doc/tink_docs_home/resources/payments/one-time-payments/integrate-one-time-payments-in-ios-apps/) or [web apps](/Tiny-doc/tink_docs_home/resources/payments/one-time-payments/integrate-one-time-payments-in-web-apps/).
 
 For this example, use our example Tink Link URL and insert your `client_id` and the `id` from the payment request you just created.
 
@@ -141,7 +141,7 @@ https://console.tink.com/callback?payment_request_id=ef1c9454d1344274bc2cef20d8b
 
 If you don't receive a callback with the `id` value, that means the flow has failed to complete. This is typically because the user didn't successfully authenticate with their bank, didn't have any valid accounts with the bank they selected, or exited the flow.
 
-For more information about errors, see [one-time payments error codes](https://docs.tink.com/resources/payments/one-time-payments/handle-one-time-payments-sdk-error-codes).
+For more information about errors, see [one-time payments error codes](/Tiny-doc/tink_docs_home/resources/payments/one-time-payments/handle-one-time-payments-sdk-error-codes/).
 
 ## Check the payment status[](#check-the-payment-status)
 
@@ -197,4 +197,4 @@ curl -v -X GET https://api.tink.com/api/v1/payments/requests//transfers \
 } 
 ```
 
-For more information about the endpoint, see the [PaymentRequestTransfersResponse](https://docs.tink.com/api-payment#payment/payment-request/get-transfers-for-payment-request/response-restcreatedtransfersresponse) in our API reference and [Notifications and webhooks](https://docs.tink.com/resources/payments/one-time-payments/one-time-payments-notifications-and-webhooks).
+For more information about the endpoint, see the [PaymentRequestTransfersResponse](/Tiny-doc/tink_docs_api/api-payment/#payment/payment-request/get-transfers-for-payment-request/response-restcreatedtransfersresponse) in our API reference and [Notifications and webhooks](/Tiny-doc/tink_docs_home/resources/payments/one-time-payments/one-time-payments-notifications-and-webhooks/).

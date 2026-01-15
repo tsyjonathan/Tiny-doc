@@ -1,6 +1,6 @@
 ---
 title: "Postman collection - Tink Docs"
-source: "https://docs.tink.com/resources/account-check/postman-collection-for-account-check"
+source: "/Tiny-doc/tink_docs_home/resources/account-check/postman-collection-for-account-check/"
 exportedAt: "2026-01-13T12:43:54.691Z"
 ---
 ![Postman collections](https://images.ctfassets.net/tmqu5vj33f7w/6CpgyCvFmSkKaghfxcp9rq/f889ee3413027b3dc175204ce7c1968b/Postman-collections.png)

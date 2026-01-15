@@ -1,6 +1,6 @@
 ---
 title: "Statistics for iOS - Tink Docs"
-source: "https://docs.tink.com/resources/money-manager/money-manager-ios/statistics"
+source: "/Tiny-doc/tink_docs_home/resources/money-manager/money-manager-ios/statistics/"
 exportedAt: "2026-01-13T12:52:20.137Z"
 ---
 ![Statistics](https://images.ctfassets.net/tmqu5vj33f7w/377w8Sm4ZY0EP8bBtpjBxm/06ae43b19b75181b307f717b93f3c202/Statistics.png)

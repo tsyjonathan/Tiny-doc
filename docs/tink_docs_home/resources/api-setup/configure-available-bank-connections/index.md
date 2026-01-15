@@ -1,11 +1,11 @@
 ---
 title: "Configure available bank connections - Tink Docs"
-source: "https://docs.tink.com/resources/api-setup/configure-available-bank-connections"
+source: "/Tiny-doc/tink_docs_home/resources/api-setup/configure-available-bank-connections/"
 exportedAt: "2026-01-13T12:59:54.045Z"
 ---
 ## Concept[](#concept)
 
-The set of available Tink bank connections can be fetched via our [Provider API](https://docs.tink.com/api#connectivity/provider) _(read more about fetching providers in the [Aggregation resources section](https://docs.tink.com/resources/aggregation))_.
+The set of available Tink bank connections can be fetched via our [Provider API](/Tiny-doc/tink_docs_api/api/#connectivity/provider) _(read more about fetching providers in the [Aggregation resources section](/Tiny-doc/tink_docs_home/resources/aggregation/))_.
 
 Each market has its own set of providers and there may be multiple providers for one bank (financial institution). Depending on your use case, you might want to filter out a subset of providers that you want to show to your end users. For this, you can use the Console configuration tool described in this article.
 

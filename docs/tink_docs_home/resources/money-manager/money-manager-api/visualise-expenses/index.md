@@ -1,6 +1,6 @@
 ---
 title: "Visualise expenses - Tink Docs"
-source: "https://docs.tink.com/resources/money-manager/money-manager-api/visualise-expenses"
+source: "/Tiny-doc/tink_docs_home/resources/money-manager/money-manager-api/visualise-expenses/"
 exportedAt: "2026-01-13T12:50:25.971Z"
 ---
 ## Introduction[](#introduction)
@@ -467,16 +467,16 @@ In the response, the description field will contain an id of the subscription. T
 
 ## 2\. Fetch Brands for the branded statistics[](#fetch-brands-for-the-branded-statistics)
 
-You then may need to fetch a additional information about brand to match up against the brand IDs you received from the statistics endpoint. This is achieved by using the [Get Brand By ID](https://docs.tink.com/api-enrichment#enrichment/merchant-information/brand) endpoint while unauthenticated.
+You then may need to fetch a additional information about brand to match up against the brand IDs you received from the statistics endpoint. This is achieved by using the [Get Brand By ID](/Tiny-doc/tink_docs_api/api-enrichment/#enrichment/merchant-information/brand) endpoint while unauthenticated.
 
 ## 3\. Fetch Subscriptions for the subscription statistics[](#fetch-subscriptions-for-the-subscription-statistics)
 
-You then may need to fetch a additional information about subscriptions to match up against the subscription IDs you received from the statistics endpoint. This is achieved by using the [Subscriptions](https://docs.tink.com/api-finance-management#finance-management/subscriptions) endpoint while unauthenticated.
+You then may need to fetch a additional information about subscriptions to match up against the subscription IDs you received from the statistics endpoint. This is achieved by using the [Subscriptions](/Tiny-doc/tink_docs_api/api-finance-management/#finance-management/subscriptions) endpoint while unauthenticated.
 
 ## 4\. Fetch Recurring transactions[](#fetch-recurring-transactions)
 
-You want to fetch a additional information about recurring transactions to match up against the `expenses-by-cost-structure` statistics endpoint. This is achieved by using the [Recurring Transactions](https://docs.tink.com/api-enrichment#enrichment/recurring-transactions) endpoint while unauthenticated.
+You want to fetch a additional information about recurring transactions to match up against the `expenses-by-cost-structure` statistics endpoint. This is achieved by using the [Recurring Transactions](/Tiny-doc/tink_docs_api/api-enrichment/#enrichment/recurring-transactions) endpoint while unauthenticated.
 
 ## 5\. Fetch Savings Goals[](#fetch-savings-goals)
 
-You then may need to fetch a additional information about savings goals to match up against the `expenses-by-cost-structure` statistics endpoint. This is achieved by using the [Savings Goals](https://docs.tink.com/api-finance-management#finance-management/savings-goals) endpoint while unauthenticated.
+You then may need to fetch a additional information about savings goals to match up against the `expenses-by-cost-structure` statistics endpoint. This is achieved by using the [Savings Goals](/Tiny-doc/tink_docs_api/api-finance-management/#finance-management/savings-goals) endpoint while unauthenticated.

@@ -1,6 +1,6 @@
 ---
 title: "Optimize your Income Check integration"
-source: "https://docs.tink.com/resources/income-check/optimize-your-income-check-integration"
+source: "/Tiny-doc/tink_docs_home/resources/income-check/optimize-your-income-check-integration/"
 exportedAt: "2026-01-13T12:48:38.372Z"
 ---
 Tests always show that the best–performing integrations are ones where the transition between an app and Tink feels smooth, secure, and coherent. Integrate successfully in three steps:
@@ -47,11 +47,11 @@ If you know which bank your users access, you can use this data to skip the bank
 
 ### Pre-filling information[](#pre-filling-information)
 
-If you have access to a user's bank credentials, you can pre-fill certain fields (such as SSN) and remove another step. For more information, see [Sessions](https://docs.tink.com/resources/income-check/income-check-sdk-sessions). ![AC article prefill fields](https://images.ctfassets.net/tmqu5vj33f7w/4bPB1nPjX5aFDnPFihAOFI/cba03d36a2aa65ecfeb878750295f69d/Prefill_fields.png)
+If you have access to a user's bank credentials, you can pre-fill certain fields (such as SSN) and remove another step. For more information, see [Sessions](/Tiny-doc/tink_docs_home/resources/income-check/income-check-sdk-sessions/). ![AC article prefill fields](https://images.ctfassets.net/tmqu5vj33f7w/4bPB1nPjX5aFDnPFihAOFI/cba03d36a2aa65ecfeb878750295f69d/Prefill_fields.png)
 
 ### Income Check success screen[](#income-check-success-screen)
 
-Our success screen is, by default, enabled. If you want to skip it and send users directly back to you once their bank is successfully connected, contact [Tink Support](https://docs.tink.com/resources/support/how-to-find-technical-support) to enable that feature flag.
+Our success screen is, by default, enabled. If you want to skip it and send users directly back to you once their bank is successfully connected, contact [Tink Support](/Tiny-doc/tink_docs_home/resources/support/how-to-find-technical-support/) to enable that feature flag.
 
 ![IC optimize success screen example 1.1](https://images.ctfassets.net/tmqu5vj33f7w/4ICBwo7Ki9MU3EfvD31f7M/90879dcd1551094948252596ea0c0c26/IC_success_screen_example.png)
 

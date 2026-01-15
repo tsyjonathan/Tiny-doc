@@ -1,6 +1,6 @@
 ---
 title: "Console - Tink Docs"
-source: "https://docs.tink.com/resources/console"
+source: "/Tiny-doc/tink_docs_home/resources/console/"
 exportedAt: "2026-01-13T12:41:01.853Z"
 ---
 [
@@ -15,7 +15,7 @@ Learn how to activate your Tink Console account and retrieve your API credential
 
 
 
-](https://docs.tink.com/resources/console/set-up-your-tink-account)
+](/Tiny-doc/tink_docs_home/resources/console/set-up-your-tink-account/)
 
 [
 
@@ -29,7 +29,7 @@ Follow this guide to set up single sign-on via SAML for a Console organization.
 
 
 
-](https://docs.tink.com/resources/console/single-sign-on-via-saml)
+](/Tiny-doc/tink_docs_home/resources/console/single-sign-on-via-saml/)
 
 [
 
@@ -43,7 +43,7 @@ Use Analytics to track how your Tink integration performs and to make data-drive
 
 
 
-](https://docs.tink.com/resources/console/analytics)
+](/Tiny-doc/tink_docs_home/resources/console/analytics/)
 
 [
 
@@ -57,7 +57,7 @@ Learn what options are available for collaborating and sharing access to the Con
 
 
 
-](https://docs.tink.com/resources/console/console-organisations-and-collaboration)
+](/Tiny-doc/tink_docs_home/resources/console/console-organisations-and-collaboration/)
 
 [
 
@@ -71,4 +71,4 @@ Demo Bank lets you safely test your integrations using test data so you don't ha
 
 
 
-](https://docs.tink.com/resources/console/demo-bank)
+](/Tiny-doc/tink_docs_home/resources/console/demo-bank/)

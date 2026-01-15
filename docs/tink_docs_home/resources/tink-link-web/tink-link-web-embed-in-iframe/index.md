@@ -1,9 +1,9 @@
 ---
 title: "Embed in iframe - Tink Docs"
-source: "https://docs.tink.com/resources/tink-link-web/tink-link-web-embed-in-iframe"
+source: "/Tiny-doc/tink_docs_home/resources/tink-link-web/tink-link-web-embed-in-iframe/"
 exportedAt: "2026-01-13T12:59:22.320Z"
 ---
-> If you are using an iframe-based integration today, see our guide on [migrating to a redirect-based integration](https://docs.tink.com/resources/tink-link-web/tink-link-web-migrating-from-iframe-to-redirect) instead. Redirect integration provides a more linear user journey, improves the reliability of redirect handling during authentication and as a result provides better success rates overall.
+> If you are using an iframe-based integration today, see our guide on [migrating to a redirect-based integration](/Tiny-doc/tink_docs_home/resources/tink-link-web/tink-link-web-migrating-from-iframe-to-redirect/) instead. Redirect integration provides a more linear user journey, improves the reliability of redirect handling during authentication and as a result provides better success rates overall.
 
 ## Integrating iframe[](#integrating-iframe)
 
@@ -35,7 +35,7 @@ An iframe will by default be [300px wide](https://developer.mozilla.org/en-US/do
 
 All communication between an iframed Tink Link and the parent host is done via `postMessage`. Register a listener to start receiving messages. How you do this is up to you, but the code below shows the basics.
 
-Note that the `type` of the success message differs between products. View the "Response parameters (success)" section in the [API reference](https://docs.tink.com/resources/tink-link-web) for the relevant product.
+Note that the `type` of the success message differs between products. View the "Response parameters (success)" section in the [API reference](/Tiny-doc/tink_docs_home/resources/tink-link-web/) for the relevant product.
 
 ```
 window.addEventListener('message', receiveMessage, false);

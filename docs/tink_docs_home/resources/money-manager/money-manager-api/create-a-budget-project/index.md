@@ -1,13 +1,13 @@
 ---
 title: "Create a Budget for a project (using Tags)"
-source: "https://docs.tink.com/resources/money-manager/money-manager-api/create-a-budget-project"
+source: "/Tiny-doc/tink_docs_home/resources/money-manager/money-manager-api/create-a-budget-project/"
 exportedAt: "2026-01-13T12:51:18.019Z"
 ---
 In this guide, we will show you how to create a one-off budget that tracks all transactions marked with a specific tag. This can be useful if you want to set a budget and track spending related to tags such as #kids or #holiday.
 
-> **NOTE:** For the budget to identify the transactions with the relevant tags, your users will be required to apply tags to transactions. Please see the [update transaction](https://docs.tink.com/api#data-v1/transaction/get-one-transaction) guide to apply tags to transactions.
+> **NOTE:** For the budget to identify the transactions with the relevant tags, your users will be required to apply tags to transactions. Please see the [update transaction](/Tiny-doc/tink_docs_api/api/#data-v1/transaction/get-one-transaction) guide to apply tags to transactions.
 
-To create the budget, you need to call the [One-off Budget](https://docs.tink.com/api#finance-management/budget/create-one-off-budget) endpoint using a `user access token` with the `budget:write` scope. In the request, you'll need to specify: the currency, the budget amount, the tag, the budget's name and the start/end dates.
+To create the budget, you need to call the [One-off Budget](/Tiny-doc/tink_docs_api/api/#finance-management/budget/create-one-off-budget) endpoint using a `user access token` with the `budget:write` scope. In the request, you'll need to specify: the currency, the budget amount, the tag, the budget's name and the start/end dates.
 
 > **NOTE:** Unlike a recurring budget you need to set up a start and end-date when you believe the renovations should end. Don't worry, you can change all parameters of the budget once it’s created. When specifying the start- and end-date, this has to be expressed as an **epoch timestamp in milliseconds**.
 

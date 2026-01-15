@@ -1,6 +1,6 @@
 ---
 title: "Loans - Tink Docs"
-source: "https://docs.tink.com/resources/loans"
+source: "/Tiny-doc/tink_docs_home/resources/loans/"
 exportedAt: "2026-01-13T12:40:12.509Z"
 ---
 [
@@ -15,7 +15,7 @@ Learn how to get continuous access to a user’s bank account
 
 
 
-](https://docs.tink.com/resources/loans/loans-continuous-access-to-a-bank-account)
+](/Tiny-doc/tink_docs_home/resources/loans/loans-continuous-access-to-a-bank-account/)
 
 [
 
@@ -25,7 +25,7 @@ Quick access to loan account data
 
 
 
-](https://docs.tink.com/resources/loans/one-time-access-to-loan-accounts)
+](/Tiny-doc/tink_docs_home/resources/loans/one-time-access-to-loan-accounts/)
 
 [
 
@@ -39,7 +39,7 @@ Refresh data when using continuous access
 
 
 
-](https://docs.tink.com/resources/loans/loans-refresh-data)
+](/Tiny-doc/tink_docs_home/resources/loans/loans-refresh-data/)
 
 [
 
@@ -53,7 +53,7 @@ Learn how to manage, update and delete consents for your users
 
 
 
-](https://docs.tink.com/resources/loans/loans-managing-consents)
+](/Tiny-doc/tink_docs_home/resources/loans/loans-managing-consents/)
 
 [
 
@@ -67,7 +67,7 @@ Test your integration by using demo credentials.
 
 
 
-](https://docs.tink.com/resources/loans/test-different-loans-scenarios)
+](/Tiny-doc/tink_docs_home/resources/loans/test-different-loans-scenarios/)
 
 [
 
@@ -81,7 +81,7 @@ Breakdown of errors for the Provider Consents API.
 
 
 
-](https://docs.tink.com/resources/loans/loans-provider-consent-errors)
+](/Tiny-doc/tink_docs_home/resources/loans/loans-provider-consent-errors/)
 
 [
 
@@ -95,4 +95,4 @@ Retrieve data from different Tink products in one single flow.
 
 
 
-](https://docs.tink.com/resources/loans/combine-loans-with-other-products-in-a-single-flow)
+](/Tiny-doc/tink_docs_home/resources/loans/combine-loans-with-other-products-in-a-single-flow/)

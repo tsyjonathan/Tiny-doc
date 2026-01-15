@@ -1,6 +1,6 @@
 ---
 title: "Customization for Money Manager on Android"
-source: "https://docs.tink.com/resources/money-manager-android/pfm-sdk-android-customization"
+source: "/Tiny-doc/tink_docs_home/resources/money-manager-android/pfm-sdk-android-customization/"
 exportedAt: "2026-01-13T12:59:13.362Z"
 ---
 ![Customization of Money Manager SDK for Android](https://images.ctfassets.net/tmqu5vj33f7w/17P2wvmXsxV7aSlErdbJ0T/261931095a52922e43fa40bb2660c3c3/customization.png)
@@ -119,10 +119,10 @@ Refer to those colors in your custom theme that extends the `TinkMoneyManagerSty
 
 You can also customize only a specific feature if you wish. Customizing a specific feature will override any customization you have done on the main theming of the SDK. For example you can set the default expense color to red and the budget expense color to green, this will result in green being the expense color for views related to budgets, and red for everything else. Your feature theme should inherit from your base theme, this way any color not set in your feature theme will default to your base theme color.
 
-[Accounts](https://docs.tink.com/resources/pfm-sdk-android/customize-accounts-on-android)  
-[Budgets](https://docs.tink.com/resources/pfm-sdk-android/customize-budgets-on-android)  
-[Insights](https://docs.tink.com/resources/pfm-sdk-android/customize-actionable-insights-on-android)  
-[Statistics](https://docs.tink.com/resources/pfm-sdk-android/customize-statistics-on-android)
+[Accounts](/Tiny-doc/tink_docs_home/resources/pfm-sdk-android/customize-accounts-on-android/)  
+[Budgets](/Tiny-doc/tink_docs_home/resources/pfm-sdk-android/customize-budgets-on-android/)  
+[Insights](/Tiny-doc/tink_docs_home/resources/pfm-sdk-android/customize-actionable-insights-on-android/)  
+[Statistics](/Tiny-doc/tink_docs_home/resources/pfm-sdk-android/customize-statistics-on-android/)
 
 ## Icons[](#icons)
 

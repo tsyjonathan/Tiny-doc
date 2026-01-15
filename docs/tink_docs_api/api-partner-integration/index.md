@@ -1,9 +1,9 @@
 ---
 title: "Tink Docs"
-source: "https://docs.tink.com/api-partner-integration"
+source: "/Tiny-doc/tink_docs_api/api-partner-integration/"
 exportedAt: "2026-01-13T13:04:34.131Z"
 ---
-## Partner Integration v1[](https://docs.tink.com/api-partner-integration)
+## Partner Integration v1[](/Tiny-doc/tink_docs_api/api-partner-integration/)
 
 ## Merchants[](#partner-integration/merchants)
 

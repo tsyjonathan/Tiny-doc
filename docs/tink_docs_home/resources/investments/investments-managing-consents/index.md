@@ -1,13 +1,13 @@
 ---
 title: "Managing consents - Tink Docs"
-source: "https://docs.tink.com/resources/investments/investments-managing-consents"
+source: "/Tiny-doc/tink_docs_home/resources/investments/investments-managing-consents/"
 exportedAt: "2026-01-13T12:45:04.804Z"
 ---
 ## List provider consents[](#list-provider-consents)
 
-The Provider Consent model gives details about the state of the consents that a user has given for a financial institution. A user can give multiple consents, for one or multiple financial institutions. For more details on Provider Consent, see our [API Reference](https://docs.tink.com/api#connectivity/provider-consent).
+The Provider Consent model gives details about the state of the consents that a user has given for a financial institution. A user can give multiple consents, for one or multiple financial institutions. For more details on Provider Consent, see our [API Reference](/Tiny-doc/tink_docs_api/api/#connectivity/provider-consent).
 
-To list provider consents, you must generate a `user access token` with the scope `provider-consents:read`. For instructions on how to generate an access token, see [Get a user access token](https://docs.tink.com/resources/investments/investments-continuous-access-to-a-bank-account#get-a-user-access-token).
+To list provider consents, you must generate a `user access token` with the scope `provider-consents:read`. For instructions on how to generate an access token, see [Get a user access token](/Tiny-doc/tink_docs_home/resources/investments/investments-continuous-access-to-a-bank-account/#get-a-user-access-token).
 
 Get the list of consents
 
@@ -54,7 +54,7 @@ To update a consent, you must redirect your user to a Tink Link URL and include 
 
 To update a consent, you must redirect your user to Tink Link, including both the `credentialsId` field of the consent you wish to renew and a single-use `authorization code`.
 
-To generate the `authorization_code`, follow the steps in [Generate the code](https://docs.tink.com/resources/investments/investments-continuous-access-to-a-bank-account#generate-a-user-authorization-code-and-grant-user-access).
+To generate the `authorization_code`, follow the steps in [Generate the code](/Tiny-doc/tink_docs_home/resources/investments/investments-continuous-access-to-a-bank-account/#generate-a-user-authorization-code-and-grant-user-access).
 
 Generate your authorization\_code
 
@@ -62,7 +62,7 @@ Generate your authorization\_code
 https://link.tink.com/1.0/products/update-consent?client_id=&redirect_uri=&credentials_id=&authorization_code=&market=
 ```
 
-For more information on which parameters can be provided to the update-consent method in Tink Link, see [Update consent](https://docs.tink.com/resources/investments/investments-managing-consents).
+For more information on which parameters can be provided to the update-consent method in Tink Link, see [Update consent](/Tiny-doc/tink_docs_home/resources/investments/investments-managing-consents/).
 
 ## Delete a consent[](#delete-a-consent)
 
@@ -139,7 +139,7 @@ Tink returns an HTTP 204 status code if the deletion request was successful.
 
 When a user is deleted, all consents, related account information, and investment data are also permanently deleted.
 
-To delete a user, you must generate a `user access token` with the scope `user:delete`. See step 4 of this [guide](https://docs.tink.com/resources/investments/investments-continuous-access-to-a-bank-account#get-a-user-access-token) for instructions on how to generate an access token.
+To delete a user, you must generate a `user access token` with the scope `user:delete`. See step 4 of this [guide](/Tiny-doc/tink_docs_home/resources/investments/investments-continuous-access-to-a-bank-account/#get-a-user-access-token) for instructions on how to generate an access token.
 
 **Request example**
 

@@ -1,6 +1,6 @@
 ---
 title: "Tink Docs"
-source: "https://docs.tink.com/market-capabilities/aggregation?market=DE"
+source: "/Tiny-doc/tink_docs_home/market-capabilities/aggregation__q_market=DE__1399dc407b/"
 exportedAt: "2026-01-13T12:52:59.647Z"
 ---
 1822direkt

@@ -1,11 +1,11 @@
 ---
 title: "Fetch your first Expense Check report"
-source: "https://docs.tink.com/resources/expense-check/fetch-your-first-expense-check-report"
+source: "/Tiny-doc/tink_docs_home/resources/expense-check/fetch-your-first-expense-check-report/"
 exportedAt: "2026-01-13T12:48:54.726Z"
 ---
 ## 1\. Build the URL[](#build-the-url)
 
-In Console, use the [Build your own Tink Link URL](https://console.tink.com/expense-check/tink-link) view to create your own URL. Your resulting URL is used to allow users to authenticate with their bank and select an account from which to fetch report data. For more information on how the URL works, see [Setup and integrate Expense Check](https://docs.tink.com/resources/expense-check/setup-and-integrate-expense-check).
+In Console, use the [Build your own Tink Link URL](https://console.tink.com/expense-check/tink-link) view to create your own URL. Your resulting URL is used to allow users to authenticate with their bank and select an account from which to fetch report data. For more information on how the URL works, see [Setup and integrate Expense Check](/Tiny-doc/tink_docs_home/resources/expense-check/setup-and-integrate-expense-check/).
 
 For actual use of the URL, integrate it with a site or in an app. For example, you can start a user's flow by redirecting them to the URL.
 
@@ -19,7 +19,7 @@ https://link.tink.com/1.0/expense-check/create-report/?client_id={YOUR_CLIENT_ID
 
 **Note**: make sure that you exchange `{YOUR_CLIENT_ID}` in the URL for your `client_id` value.
 
-When your users access the URL, they'll see a list of demo banks. Once they choose a bank, they'll see a list of demo bank accounts to choose from. Select the username and password for a Demo Bank user that suits your use case. For more information about Demo Bank, see [Demo Bank](https://docs.tink.com/resources/expense-check/test-different-expense-check-scenarios).
+When your users access the URL, they'll see a list of demo banks. Once they choose a bank, they'll see a list of demo bank accounts to choose from. Select the username and password for a Demo Bank user that suits your use case. For more information about Demo Bank, see [Demo Bank](/Tiny-doc/tink_docs_home/resources/expense-check/test-different-expense-check-scenarios/).
 
 ## 2\. Handle callback[](#handle-callback)
 
@@ -72,7 +72,7 @@ curl -v -X POST https://api.tink.com/api/v1/oauth/token \
 
 ## 4\. Fetch the report[](#fetch-the-report)
 
-To fetch the expense report, see [Get an expense check API](https://docs.tink.com/api#risk/expense-check/get-an-expense-check).
+To fetch the expense report, see [Get an expense check API](/Tiny-doc/tink_docs_api/api/#risk/expense-check/get-an-expense-check).
 
 **cURL example**
 

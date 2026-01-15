@@ -1,9 +1,9 @@
 ---
 title: "Create a one-off Budget - Tink Docs"
-source: "https://docs.tink.com/resources/money-manager-api/create-one-off-budget"
+source: "/Tiny-doc/tink_docs_home/resources/money-manager-api/create-one-off-budget/"
 exportedAt: "2026-01-13T12:56:19.828Z"
 ---
-To create a one-off budget you make a call to the [One-off Budget](https://docs.tink.com/api#finance-management/budget/create-one-off-budget) endpoint by using a user access token with the `budget:write` scope.
+To create a one-off budget you make a call to the [One-off Budget](/Tiny-doc/tink_docs_api/api/#finance-management/budget/create-one-off-budget) endpoint by using a user access token with the `budget:write` scope.
 
 In the request, you must specify the category you want to track, the currency, the budget amount, the budget name, the `id` of the account you want to track the budget, start/end dates, and you can add free text filtering.
 

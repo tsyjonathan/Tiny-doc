@@ -1,11 +1,11 @@
 ---
 title: "Check the progress of all Savings Goals"
-source: "https://docs.tink.com/resources/money-manager/money-manager-api/check-progress-of-savings-goals"
+source: "/Tiny-doc/tink_docs_home/resources/money-manager/money-manager-api/check-progress-of-savings-goals/"
 exportedAt: "2026-01-13T12:50:58.877Z"
 ---
 It's important to list and remind your users of their Savings Goals so they can follow their progress.
 
-To fetch a list of all Savings Goals for a user, you need to call the [List Savings Goals](https://docs.tink.com/api#finance-management/savings-goals/list-savings-goals) endpoint with a `user access token` with the `savings-goal:read` scope. In the request, you also have the ability to set query parameters to show Savings Goals by their status or ones tied to a specific account - more details can be [here](https://docs.tink.com/api#finance-management/savings-goals/list-savings-goals/query-parameters).
+To fetch a list of all Savings Goals for a user, you need to call the [List Savings Goals](/Tiny-doc/tink_docs_api/api/#finance-management/savings-goals/list-savings-goals) endpoint with a `user access token` with the `savings-goal:read` scope. In the request, you also have the ability to set query parameters to show Savings Goals by their status or ones tied to a specific account - more details can be [here](/Tiny-doc/tink_docs_api/api/#finance-management/savings-goals/list-savings-goals/query-parameters).
 
 In this example, we'll request a list of all Savings Goals which have been `CREATED` or are `IN_PROGRESS`.
 

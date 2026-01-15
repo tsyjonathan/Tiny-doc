@@ -1,6 +1,6 @@
 ---
 title: "Statistics for Android - Tink Docs"
-source: "https://docs.tink.com/resources/money-manager/money-manager-android/sdk-statistics"
+source: "/Tiny-doc/tink_docs_home/resources/money-manager/money-manager-android/sdk-statistics/"
 exportedAt: "2026-01-13T12:51:46.985Z"
 ---
 ![Statistics](https://images.ctfassets.net/tmqu5vj33f7w/61yXfi65yERmuUZ6Mkzafn/353b69c0866be6ac668435c601a4faa2/5_Android.png)

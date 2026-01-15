@@ -1,11 +1,11 @@
 ---
 title: "Integrate Transactions in web apps"
-source: "https://docs.tink.com/resources/transactions/integrate-transactions-in-web-apps"
+source: "/Tiny-doc/tink_docs_home/resources/transactions/integrate-transactions-in-web-apps/"
 exportedAt: "2026-01-13T12:46:13.828Z"
 ---
 ## Launching the SDK[](#launching-the-sdk)
 
-You will first need to construct a URL to launch the SDK flow. In Console, you can use the Tink Link visual editor to easily create and configure the end-user flow. For a list of all possible request and response parameters, see the [Transactions SDK reference](https://docs.tink.com/resources/transactions/transactions-sdk-reference). The resulting URL is used to launch the SDK flow, allowing the user to initiate their one-time payment.
+You will first need to construct a URL to launch the SDK flow. In Console, you can use the Tink Link visual editor to easily create and configure the end-user flow. For a list of all possible request and response parameters, see the [Transactions SDK reference](/Tiny-doc/tink_docs_home/resources/transactions/transactions-sdk-reference/). The resulting URL is used to launch the SDK flow, allowing the user to initiate their one-time payment.
 
 ### Example URL[](#example-url)
 
@@ -25,4 +25,4 @@ When your user completes the flow, they're redirected to the `redirect_uri` you 
 {YOUR_REDIRECT_URI}?code=18fd1334216748869b98sde50631e74
 ```
 
-See the [Transactions SDK reference](https://docs.tink.com/resources/transactions/transactions-sdk-reference) for success and error response formats and their parameters.
+See the [Transactions SDK reference](/Tiny-doc/tink_docs_home/resources/transactions/transactions-sdk-reference/) for success and error response formats and their parameters.

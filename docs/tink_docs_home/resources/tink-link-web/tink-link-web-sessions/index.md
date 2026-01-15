@@ -1,6 +1,6 @@
 ---
 title: "Not Found - Tink Docs"
-source: "https://docs.tink.com/resources/tink-link-web/tink-link-web-sessions"
+source: "/Tiny-doc/tink_docs_home/resources/tink-link-web/tink-link-web-sessions/"
 exportedAt: "2026-01-13T12:54:01.144Z"
 ---
 ![](https://docs.tink.com/assets/banana-guy-CNjP65Mx.png)

@@ -1,6 +1,6 @@
 ---
 title: "Set up and integrate Variable Recurring Payments"
-source: "https://docs.tink.com/resources/payments/variable-recurring-payments/set-up-and-integrate-variable-recurring-payments"
+source: "/Tiny-doc/tink_docs_home/resources/payments/variable-recurring-payments/set-up-and-integrate-variable-recurring-payments/"
 exportedAt: "2026-01-13T12:43:09.483Z"
 ---
 ## Introduction[](#introduction)
@@ -21,7 +21,7 @@ For the best authentication experience, use the SDK appropriate for your platfor
 
 ### Launching the SDK[](#launching-the-sdk)
 
-You will first need to construct a URL to launch the SDK flow. In [Console](https://console.tink.com/), you can use the [Tink Link visual editor](https://console.tink.com/payments/tink-link) to easily create and configure the end-user flow. For a list of all possible request and response parameters, see the [Variable Recurring Payments SDK reference](https://docs.tink.com/resources/payments/variable-recurring-payments/variable-recurring-payments-sdk-reference). The resulting URL is used to launch the SDK flow, allowing the user to authorize a sweeping VRP mandate.
+You will first need to construct a URL to launch the SDK flow. In [Console](https://console.tink.com/), you can use the [Tink Link visual editor](https://console.tink.com/payments/tink-link) to easily create and configure the end-user flow. For a list of all possible request and response parameters, see the [Variable Recurring Payments SDK reference](/Tiny-doc/tink_docs_home/resources/payments/variable-recurring-payments/variable-recurring-payments-sdk-reference/). The resulting URL is used to launch the SDK flow, allowing the user to authorize a sweeping VRP mandate.
 
 **Example URL**
 
@@ -39,13 +39,13 @@ To launch the SDK in your web app, simply navigate the user to the URL above. Th
 {YOUR_REDIRECT_URI}?consent_id=ff8ae53bc46e45fe9a37c4fd1353e60d
 ```
 
-See the [Variable Recurring Payments SDK reference](https://docs.tink.com/resources/payments/variable-recurring-payments/variable-recurring-payments-sdk-reference) for success and error response formats and their parameters.
+See the [Variable Recurring Payments SDK reference](/Tiny-doc/tink_docs_home/resources/payments/variable-recurring-payments/variable-recurring-payments-sdk-reference/) for success and error response formats and their parameters.
 
-To successfully integrate the web SDK in a mobile app, see [using the web SDK in mobile apps](https://docs.tink.com/resources/payments/one-time-payments/using-the-variable-recurring-payments-web-sdk-in-mobile-apps).
+To successfully integrate the web SDK in a mobile app, see [using the web SDK in mobile apps](/Tiny-doc/tink_docs_home/resources/payments/one-time-payments/using-the-variable-recurring-payments-web-sdk-in-mobile-apps/).
 
 ### API Reference[](#api-reference)
 
-For the full reference documentation, see the [Variable Recurring Payments SDK reference](https://docs.tink.com/resources/payments/variable-recurring-payments/variable-recurring-payments-sdk-reference).
+For the full reference documentation, see the [Variable Recurring Payments SDK reference](/Tiny-doc/tink_docs_home/resources/payments/variable-recurring-payments/variable-recurring-payments-sdk-reference/).
 
 ## Tink Link for iOS[](#tink-link-for-ios)
 

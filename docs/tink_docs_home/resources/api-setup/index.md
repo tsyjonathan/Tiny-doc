@@ -1,6 +1,6 @@
 ---
 title: "API Setup - Tink Docs"
-source: "https://docs.tink.com/resources/api-setup"
+source: "/Tiny-doc/tink_docs_home/resources/api-setup/"
 exportedAt: "2026-01-13T12:58:32.259Z"
 ---
 ## Connect to banks
@@ -17,7 +17,7 @@ Get started with Tink Link, our front-end SDK for end-user authentication
 
 
 
-](https://docs.tink.com/resources/api-setup/connect-tink-link)
+](/Tiny-doc/tink_docs_home/resources/api-setup/connect-tink-link/)
 
 [
 
@@ -31,7 +31,7 @@ Use our configuration feature in the Console to configure which banks your users
 
 
 
-](https://docs.tink.com/resources/api-setup/configure-available-bank-connections)
+](/Tiny-doc/tink_docs_home/resources/api-setup/configure-available-bank-connections/)
 
 ## Authentication
 
@@ -47,7 +47,7 @@ The tokens you need to start fetching data from our APIs
 
 
 
-](https://docs.tink.com/resources/api-setup/get-access-token)
+](/Tiny-doc/tink_docs_home/resources/api-setup/get-access-token/)
 
 [
 
@@ -61,7 +61,7 @@ Learn how to get access to our APIs, after the user authenticated with Tink Link
 
 
 
-](https://docs.tink.com/resources/api-setup/retrieve-access-token)
+](/Tiny-doc/tink_docs_home/resources/api-setup/retrieve-access-token/)
 
 [
 
@@ -75,7 +75,7 @@ Use client-signed JWTs to acquire an OAuth access token for a user, as an altern
 
 
 
-](https://docs.tink.com/resources/api-setup/how-to-use-authorization-grant-jwts)
+](/Tiny-doc/tink_docs_home/resources/api-setup/how-to-use-authorization-grant-jwts/)
 
 [
 
@@ -89,4 +89,4 @@ Enabling certificate-based OAuth client authentication to access the Tink API
 
 
 
-](https://docs.tink.com/resources/api-setup/set-up-mutual-tls-authentication)
+](/Tiny-doc/tink_docs_home/resources/api-setup/set-up-mutual-tls-authentication/)

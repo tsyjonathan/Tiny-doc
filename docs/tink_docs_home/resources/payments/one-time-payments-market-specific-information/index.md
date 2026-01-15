@@ -1,9 +1,9 @@
 ---
 title: "specific information - Tink Docs"
-source: "https://docs.tink.com/resources/payments/one-time-payments-market-specific-information"
+source: "/Tiny-doc/tink_docs_home/resources/payments/one-time-payments-market-specific-information/"
 exportedAt: "2026-01-13T12:56:33.768Z"
 ---
-> **Note:** This article shows examples with **simulated** values. To test the flow by using real funds, use a production app and use real values. For more information on how to use simulated funds, see [Test different one-time payment scenarios](https://docs.tink.com/resources/payments/test-different-one-time-payment-scenarios).
+> **Note:** This article shows examples with **simulated** values. To test the flow by using real funds, use a production app and use real values. For more information on how to use simulated funds, see [Test different one-time payment scenarios](/Tiny-doc/tink_docs_home/resources/payments/test-different-one-time-payment-scenarios/).
 
 ## Market details[](#market-details)
 
@@ -305,7 +305,7 @@ curl -v -X POST https://api.tink.com/api/v1/payments/requests \
        }'
 ```
 
-For payments to **Aktia**, you also need to include the [RecipientDTO](https://docs.tink.com/api-payment#tag-paymentrequest-recipientdto) in the request.
+For payments to **Aktia**, you also need to include the [RecipientDTO](/Tiny-doc/tink_docs_api/api-payment/#tag-paymentrequest-recipientdto) in the request.
 
 Create a payment request to Aktia
 
@@ -322,7 +322,7 @@ curl -v -X POST https://api.tink.com/api/v1/payments/requests \
        }'
 ```
 
-> **Note**: If you are initiating Cross-border SEPA transfers, i.e to a non-Finnish account, then we recommend you to input the `RecipientDTO` fields when creating the [payment request](https://docs.tink.com/api-payment#payment/payment-request/create-payment-request). Receivers BIC and Address information is required by some banks to initiate international PIS transfers.
+> **Note**: If you are initiating Cross-border SEPA transfers, i.e to a non-Finnish account, then we recommend you to input the `RecipientDTO` fields when creating the [payment request](/Tiny-doc/tink_docs_api/api-payment/#payment/payment-request/create-payment-request). Receivers BIC and Address information is required by some banks to initiate international PIS transfers.
 
 ## Austria 🇦🇹[](#austria-)
 

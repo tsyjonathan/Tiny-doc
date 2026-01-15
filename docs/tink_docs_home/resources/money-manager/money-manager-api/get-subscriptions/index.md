@@ -1,6 +1,6 @@
 ---
 title: "Get Subscriptions - Tink Docs"
-source: "https://docs.tink.com/resources/money-manager/money-manager-api/get-subscriptions"
+source: "/Tiny-doc/tink_docs_home/resources/money-manager/money-manager-api/get-subscriptions/"
 exportedAt: "2026-01-13T12:51:02.977Z"
 ---
 ## Introduction[](#introduction)

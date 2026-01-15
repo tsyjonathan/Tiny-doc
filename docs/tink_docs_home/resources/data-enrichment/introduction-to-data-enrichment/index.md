@@ -1,6 +1,6 @@
 ---
 title: "Introduction to Data Enrichment - Tink Docs"
-source: "https://docs.tink.com/resources/data-enrichment/introduction-to-data-enrichment"
+source: "/Tiny-doc/tink_docs_home/resources/data-enrichment/introduction-to-data-enrichment/"
 exportedAt: "2026-01-13T12:41:37.347Z"
 ---
 Data Enrichment serves as the data processing layer for you to turn your customers' financial transactions into information sources. Access transactional data from all of your customers' bank accounts and build value-added services on top of cleaned, enriched, and up-to-date data. This lets you build engaging experiences, improved efficiencies, and increased retention to meet customer needs and expectations.

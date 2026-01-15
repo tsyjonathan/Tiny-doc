@@ -1,6 +1,6 @@
 ---
 title: "Embed in iOS app - Tink Docs"
-source: "https://docs.tink.com/resources/tutorials/tink-link-ios"
+source: "/Tiny-doc/tink_docs_home/resources/tutorials/tink-link-ios/"
 exportedAt: "2026-01-13T13:00:41.104Z"
 ---
 ## Using SFSafariViewController (recommended)[](#using-sfsafariviewcontroller-recommended-)
@@ -76,7 +76,7 @@ UIWebView is deprecated since iOS 12.0, please use WKWebView instead.
 
 ## Support for redirecting back to your app[](#support-for-redirecting-back-to-your-app)
 
-To support automatic redirection back to your app after authenticating in a third-party app, such as Mobile Bank ID, you must append the `app_uri` query parameter to your [authentication link](https://docs.tink.com/resources/getting-started/connect-tink-link).
+To support automatic redirection back to your app after authenticating in a third-party app, such as Mobile Bank ID, you must append the `app_uri` query parameter to your [authentication link](/Tiny-doc/tink_docs_home/resources/getting-started/connect-tink-link/).
 
 > **NOTE**: This needs to be a valid URI such as `example://open` and can't be just a bare scheme (ie. `example://`). This URI is also different from the `redirect_uri` and is only used to return to your app when performing app to app redirects.
 
@@ -88,7 +88,7 @@ If you have defined a [custom URL scheme](https://developer.apple.com/documentat
 https://link.tink.com/<version>/<product>?...&app_uri=example://open
 ```
 
-To retrieve the authorization code after Tink Link completes, use the registered [URL scheme](https://developer.apple.com/documentation/uikit/inter-process_communication/allowing_apps_and_websites_to_link_to_your_content/defining_a_custom_url_scheme_for_your_app) handled by your app (eg. `example://authorize`) and specify it as the `redirect_uri` when creating your [authentication link](https://docs.tink.com/resources/getting-started/connect-tink-link).
+To retrieve the authorization code after Tink Link completes, use the registered [URL scheme](https://developer.apple.com/documentation/uikit/inter-process_communication/allowing_apps_and_websites_to_link_to_your_content/defining_a_custom_url_scheme_for_your_app) handled by your app (eg. `example://authorize`) and specify it as the `redirect_uri` when creating your [authentication link](/Tiny-doc/tink_docs_home/resources/getting-started/connect-tink-link/).
 
 ```
 import UIKit

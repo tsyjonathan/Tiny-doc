@@ -1,13 +1,13 @@
 ---
 title: "Refresh data - Tink Docs"
-source: "https://docs.tink.com/resources/transactions/refresh-data"
+source: "/Tiny-doc/tink_docs_home/resources/transactions/refresh-data/"
 exportedAt: "2026-01-13T12:45:56.676Z"
 ---
 To refresh data means to use Tink's API to check a bank account for new data. When using continuous access, Tink will automatically fetch account data from an account, which usually happens every 6 hours. This doesn't require user input. In addition, you may also want to trigger updates at a specific moment.
 
 ## 1\. List provider consents for the user[](#list-provider-consents-for-the-user)
 
-The [Provider Consent](https://docs.tink.com/api#connectivity/provider-consent) endpoint gives details about the state of end-user consents with financial institutions.
+The [Provider Consent](/Tiny-doc/tink_docs_api/api/#connectivity/provider-consent) endpoint gives details about the state of end-user consents with financial institutions.
 
 Before you refresh data, you must identify which specific consent you want to refresh.
 
@@ -56,7 +56,7 @@ Make sure that the `sessionExpiryDate` is valid, meaning that the date isn't pas
 
 ## 3\. Refresh the corresponding credential[](#refresh-the-corresponding-credential)
 
-We limit excessive amounts of API requests per app. If your request is rate limited, you will receive a 429 response here, but the status will not change in step 4. For more information on rate limiting, see [Rate limits](https://docs.tink.com/api#introduction/rate-limits).
+We limit excessive amounts of API requests per app. If your request is rate limited, you will receive a 429 response here, but the status will not change in step 4. For more information on rate limiting, see [Rate limits](/Tiny-doc/tink_docs_api/api/#introduction/rate-limits).
 
 Refresh the credential
 
@@ -73,7 +73,7 @@ This response does not confirm that your refresh is successfully executed. Check
 
 ### 4.1 Subscribe to webhooks (recommended)[](#subscribe-to-webhooks-recommended-)
 
-To manage user data after a refresh, you can subscribe to webhooks for notifications on events. To learn more about subscribing and using these events, check out the [Webhooks for Transactions](https://docs.tink.com/resources/transactions/webhooks-for-transactions) article.
+To manage user data after a refresh, you can subscribe to webhooks for notifications on events. To learn more about subscribing and using these events, check out the [Webhooks for Transactions](/Tiny-doc/tink_docs_home/resources/transactions/webhooks-for-transactions/) article.
 
 ### 4.2 Poll for changes (optional)[](#poll-for-changes-optional-)
 
@@ -81,7 +81,7 @@ If you don’t want to subscribe to webhooks, instead monitor the refresh progre
 
 Observe for changes to the `status` field of the consent for which you have requested a refresh. Keep polling this endpoint until one of the following conditions is met:
 
--   **Refresh successful:** The `statusUpdated` timestamp has changed, and the `status` is now `UPDATED`. You can now go ahead and [list the transactions](https://docs.tink.com/resources/transactions/list-transactions).
+-   **Refresh successful:** The `statusUpdated` timestamp has changed, and the `status` is now `UPDATED`. You can now go ahead and [list the transactions](/Tiny-doc/tink_docs_home/resources/transactions/list-transactions/).
 -   **Refresh in progress:** Statuses `UPDATING` and `AUTHENTICATING` indicate that the refresh is in process. Keep polling and monitor for further changes.
 -   **Refresh unsuccessful:** The `statusUpdated` timestamp has changed, but the status is one of the following: `AUTHENTICATION_ERROR`, `TEMPORARY_ERROR`, `AWAITING_SUPPLEMENTAL_INFORMATION`, `AWAITING_MOBILE_BANKID_AUTHENTICATION`, `AWAITING_THIRD_PARTY_APP_AUTHENTICATION`, or `SESSION_EXPIRED`.
 
@@ -89,4 +89,4 @@ Observe for changes to the `status` field of the consent for which you have requ
 
 `TEMPORARY_ERROR` is a status that allows for credential recovery without user interaction. You can refresh the corresponding credential again to recover.
 
-If the refresh request ended in one of the statuses listed above for unsuccesful refreshes, you need to direct the end user to update their consent, as user interaction is required. For more information, see [Updating a consent](https://docs.tink.com/resources/transactions/managing-consents#updating-a-consent).
+If the refresh request ended in one of the statuses listed above for unsuccesful refreshes, you need to direct the end user to update their consent, as user interaction is required. For more information, see [Updating a consent](/Tiny-doc/tink_docs_home/resources/transactions/managing-consents/#updating-a-consent).

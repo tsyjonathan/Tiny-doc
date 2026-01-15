@@ -1,6 +1,6 @@
 ---
 title: "One-time payment errors - Tink Docs"
-source: "https://docs.tink.com/resources/payments/one-time-payments/handle-one-time-payments-sdk-error-codes"
+source: "/Tiny-doc/tink_docs_home/resources/payments/one-time-payments/handle-one-time-payments-sdk-error-codes/"
 exportedAt: "2026-01-13T12:42:14.013Z"
 ---
 This article covers two types of errors:
@@ -115,7 +115,7 @@ If your one-time payment request fails, Tink sends back a status code and a mess
 
 | Error Code | Description |
 | --- | --- |
-| `invalid_payment_scheme` | The `paymentScheme` is invalid. See the [Payment Request model](https://docs.tink.com/api-payment#payment/payment-request/the-payment-request-model) for a list of valid types |
+| `invalid_payment_scheme` | The `paymentScheme` is invalid. See the [Payment Request model](/Tiny-doc/tink_docs_api/api-payment/#payment/payment-request/the-payment-request-model) for a list of valid types |
 | `invalid_destination_account_type_for_payment_scheme` | The `paymentScheme` isn’t supported by the `accountType` of the `destination` |
 | `missing_payment_scheme` | `paymentScheme` is missing from the payment request |
 
@@ -125,7 +125,7 @@ If your one-time payment request fails, Tink sends back a status code and a mess
 | --- | --- |
 | `invalid_ocr` | The value of `recipientInformation` doesn’t follow the [Bankgiro specification](https://www.bankgirot.se/en/Support/teknisk-information/) |
 | `remittance_information_length_invalid` | The length of the `remittanceInformation` isn’t supported by the provider |
-| `remittance_information_type_invalid` | The `type` of `remittanceInformation` isn't supported. See the [remittanceInformation model](https://docs.tink.com/api-payment#payment/payment-request/get-payment-request/response-restpaymentresponse/remittanceinformationdto) for supported types |
+| `remittance_information_type_invalid` | The `type` of `remittanceInformation` isn't supported. See the [remittanceInformation model](/Tiny-doc/tink_docs_api/api-payment/#payment/payment-request/get-payment-request/response-restpaymentresponse/remittanceinformationdto) for supported types |
 | `remittance_information_type_invalid_for_account_type` | The `accountType` doesn’t support the provided `remittanceInformation` type |
 | `remittance_information_type_invalid_for_market` | The `market` doesn’t support the provided `remittanceInformation` type |
 | `remittance_information_value_invalid` | The `value` of the `remittanceInformation` is invalid |
@@ -136,7 +136,7 @@ If your one-time payment request fails, Tink sends back a status code and a mess
 
 ### Error response[](#error-response)
 
-The Tink journey may lead to an error that can’t be resolved in that session. When this happens, Tink displays an error screen with a user-friendly message and returns the error details for you to process. To opt out of Tink’s out-of-the-box error screens and use your own error screens instead, contact [Tink Support](https://docs.tink.com/resources/support).
+The Tink journey may lead to an error that can’t be resolved in that session. When this happens, Tink displays an error screen with a user-friendly message and returns the error details for you to process. To opt out of Tink’s out-of-the-box error screens and use your own error screens instead, contact [Tink Support](/Tiny-doc/tink_docs_home/resources/support/).
 
 | KEY | AVAILABILITY | DESCRIPTION |
 | --- | --- | --- |
@@ -146,7 +146,7 @@ The Tink journey may lead to an error that can’t be resolved in that session. 
 | `payment_request_id` | Always | The identifier of the payment request. |
 | `tracking_id` | Always | Tink's internal identifier for this specific error instance. When contacting Tink about an error, include the `tracking_id` value to help streamline troubleshooting. |
 | `credentials` | If credentials were created | The identifier of the credentials object. |
-| `error_type` | If `error=AUTHENTICATION_ERROR` | Describes the type of authentication error that has occurred. For details, see [Provider Consent errors](https://docs.tink.com/resources/transactions/provider-consent-errors). |
+| `error_type` | If `error=AUTHENTICATION_ERROR` | Describes the type of authentication error that has occurred. For details, see [Provider Consent errors](/Tiny-doc/tink_docs_home/resources/transactions/provider-consent-errors/). |
 | `provider_name` | If a provider was selected | The name of the selected bank connection. |
 | `state` | If provided in the request URL | The state value provided when starting the journey. |
 
@@ -187,7 +187,7 @@ The error status indicates the type of error. It's always included in the error 
 | `BAD_REQUEST` | The URL is invalid, usually due to an incorrect or missing URL parameter. |
 | `AUTHENTICATION_ERROR` | Something went wrong during the bank’s authentication process. |
 | `TEMPORARY_ERROR` | A temporary error in Tink's platform. To resolve, try again later. |
-| `INTERNAL_ERROR` | An unexpected error in Tink's platform. For help, [contact support](https://docs.tink.com/resources/getting-started/support). |
+| `INTERNAL_ERROR` | An unexpected error in Tink's platform. For help, [contact support](/Tiny-doc/tink_docs_home/resources/getting-started/support/). |
 
 #### USER\_CANCELLED[](#user_cancelled)
 
@@ -200,14 +200,14 @@ The user cancelled the journey, either by going back or using the close button. 
 
 #### BAD\_REQUEST[](#bad_request)
 
-Something is wrong with the Tink Link URL, usually due to missing or incorrect parameters. For the full list of parameters and values, see the [One-time payments SDK reference](https://docs.tink.com/resources/payments/one-time-payments/one-time-payments-sdk-reference).
+Something is wrong with the Tink Link URL, usually due to missing or incorrect parameters. For the full list of parameters and values, see the [One-time payments SDK reference](/Tiny-doc/tink_docs_home/resources/payments/one-time-payments/one-time-payments-sdk-reference/).
 
 | Error reason | Description |
 | --- | --- |
 | `INVALID_PARAMETER_ACCOUNT_DIALOG_TYPE` | The `account_dialog_type` value is incorrect or missing. |
 | `INVALID_PARAMETER_AUTHORIZATION_CODE` | One or more of these values are missing: `authorization code`, `handoff session ID`, and `authorization token`. |
 | `INVALID_PARAMETER_CLIENT_ID` | The `client_id` value is incorrect or missing. |
-| `INVALID_PARAMETER_CREDENTIALS_ID` | The `credentials_id` value is missing. Used only with [permanent users](https://docs.tink.com/resources/payments/one-time-payments/resources/aggregation/permanent-users). |
+| `INVALID_PARAMETER_CREDENTIALS_ID` | The `credentials_id` value is missing. Used only with [permanent users](/Tiny-doc/tink_docs_home/resources/aggregation/permanent-users/). |
 | `INVALID_PARAMETER_FINANCIAL_SERVICES_SEGMENTS` | The `financial_services_segments` value is incorrect or missing. Allowed values: `PERSONAL`, `BUSINESS`. |
 | `INVALID_PARAMETER_INPUT_PROVIDER` | The `input_provider` value is longer than 100 characters. |
 | `INVALID_PARAMETER_INPUT_USERNAME` | The `input_username` value is incorrect, missing, or longer than 50 characters. |
@@ -215,13 +215,13 @@ Something is wrong with the Tink Link URL, usually due to missing or incorrect p
 | `INVALID_PARAMETER_REDIRECT_URI` | The `redirect_uri` value is missing or malformed. |
 | `INVALID_PARAMETER_REFRESHABLE_ITEMS` | The `refreshable_items` value is incorrect. Allowed values: `CHECKING_ACCOUNTS`, `CHECKING_TRANSACTIONS`, `CREDITCARD_ACCOUNTS`, `CREDITCARD_TRANSACTIONS`, `SAVING_ACCOUNTS`, `SAVING_TRANSACTIONS`. |
 | `INVALID_PARAMETER_REPORT_TYPES` | The `report_types` value is incorrect or missing. Shown only when using product bundling. |
-| `INVALID_PARAMETER_SCOPE` | The `scope` value is missing. Used only with [Account Aggregation](https://docs.tink.com/resources/aggregation). |
+| `INVALID_PARAMETER_SCOPE` | The `scope` value is missing. Used only with [Account Aggregation](/Tiny-doc/tink_docs_home/resources/aggregation/). |
 | `INVALID_STATE_ACCESS_TOKEN` | The `access token` value is missing, expired, or incorrect. |
-| `INVALID_STATE_AUTHENTICATION` | The [credentialsType](https://docs.tink.com/api-connectivity-v1#connectivity-v1/provider/the-provider-model) is `MOBILE_BANKID` or `THIRD_PARTY_APP` and either the user didn’t successfully authenticate, or the integration doesn't use BankID on a mobile device or a third-party app. |
+| `INVALID_STATE_AUTHENTICATION` | The [credentialsType](/Tiny-doc/tink_docs_api/api-connectivity-v1/#connectivity-v1/provider/the-provider-model) is `MOBILE_BANKID` or `THIRD_PARTY_APP` and either the user didn’t successfully authenticate, or the integration doesn't use BankID on a mobile device or a third-party app. |
 | `INVALID_STATE_CREDENTIALS` | The credential has reached a `TEMPORARY_ERROR` state. |
-| `INVALID_STATE_CREDENTIALS_IS_AWAITING_THIRD_PARTY` | Attempted authentication or refresh of a credential that is in a pending state. Used only with [permanent users](https://docs.tink.com/resources/payments/one-time-payments/resources/aggregation/permanent-users). |
+| `INVALID_STATE_CREDENTIALS_IS_AWAITING_THIRD_PARTY` | Attempted authentication or refresh of a credential that is in a pending state. Used only with [permanent users](/Tiny-doc/tink_docs_home/resources/aggregation/permanent-users/). |
 | `INVALID_STATE_EMBED_NOT_ALLOWED` | Tink is embedded when embedding isn't allowed. To request the ability to embed Tink, go to **Console** > \[**your\_app**\] > **App settings** > **App details** > **Display name (public)** and select **Verify**. |
-| `INVALID_STATE_NON_OPEN_BANKING_PROVIDER` | Attempted authentication of a credential for a non-open-banking provider. Used only with [permanent users](https://docs.tink.com/resources/payments/one-time-payments/resources/aggregation/permanent-users). |
+| `INVALID_STATE_NON_OPEN_BANKING_PROVIDER` | Attempted authentication of a credential for a non-open-banking provider. Used only with [permanent users](/Tiny-doc/tink_docs_home/resources/aggregation/permanent-users/). |
 | `INVALID_STATE_PAYMENT_RETRY_NOT_ALLOWED` | The `payment_request_id` has already been used. Used only with direct payments. |
 | `INVALID_STATE_PERMANENT_USER_FLAG` | Attempted to use permanent users for an app that doesn't have permanent users enabled. |
 | `INVALID_STATE_PROVIDER` | The selected provider isn't available. Occurs when a preselected provider doesn't exist in the selected market because:
@@ -233,7 +233,7 @@ Something is wrong with the Tink Link URL, usually due to missing or incorrect p
 | `INVALID_STATE_PROVIDER_DOES_NOT_RECOGNIZE_USER` | The user has selected a provider that they don’t have an account with. |
 | `INVALID_STATE_REDIRECTED_AUTHORIZATION_TOKEN` | A third party is redirecting back to Tink, but the query is missing `authorization_token`. |
 | `INVALID_STATE_REDIRECTED_CREDENTIALS_ID` | A third party is redirecting back to Tink, but the query is missing `credentialsId`. |
-| `INVALID_STATE_REFRESH_CREDENTIALS_RATE_LIMITED` | The app has exceeded the [API rate limits](https://docs.tink.com/api#introduction/rate-limits) while refreshing credentials. |
+| `INVALID_STATE_REFRESH_CREDENTIALS_RATE_LIMITED` | The app has exceeded the [API rate limits](/Tiny-doc/tink_docs_api/api/#introduction/rate-limits) while refreshing credentials. |
 | `INVALID_STATE_REDIRECT_URI` | The `redirect_uri` is invalid. Make sure that it's registered in the "App settings" page in [Console](https://console.tink.com/app-settings/client). |
 | `INVALID_STATE_SCOPE` | One or more scopes are incorrect or not available for the OAuth client. |
 
@@ -241,7 +241,7 @@ Something is wrong with the Tink Link URL, usually due to missing or incorrect p
 
 There was an issue during the authentication towards the financial institution. In addition to an error reason, these errors also include an `error_type`.
 
-For a complete list of authentication errors, see [Provider Consent errors](https://docs.tink.com/resources/transactions/provider-consent-errors).
+For a complete list of authentication errors, see [Provider Consent errors](/Tiny-doc/tink_docs_home/resources/transactions/provider-consent-errors/).
 
 #### TEMPORARY\_ERROR[](#temporary_error)
 

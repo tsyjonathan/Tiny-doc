@@ -1,6 +1,6 @@
 ---
 title: "Recurring Expenses for Android - Tink Docs"
-source: "https://docs.tink.com/resources/money-manager/money-manager-android/sdk-recurring-expenses"
+source: "/Tiny-doc/tink_docs_home/resources/money-manager/money-manager-android/sdk-recurring-expenses/"
 exportedAt: "2026-01-13T12:52:00.897Z"
 ---
 ![Recurring Expenses](https://images.ctfassets.net/tmqu5vj33f7w/2otQWAVVng7KYbCVbmdmHG/072c878e5603a56c5417a8e18dc81bf7/android_recurring_expenses.png)

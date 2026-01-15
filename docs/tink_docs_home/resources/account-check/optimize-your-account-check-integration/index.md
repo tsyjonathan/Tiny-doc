@@ -1,6 +1,6 @@
 ---
 title: "Optimize your Account Check integration"
-source: "https://docs.tink.com/resources/account-check/optimize-your-account-check-integration"
+source: "/Tiny-doc/tink_docs_home/resources/account-check/optimize-your-account-check-integration/"
 exportedAt: "2026-01-13T12:43:44.354Z"
 ---
 Tests always show that the best–performing integrations are ones where the transition between an app and Tink feels smooth, secure, and coherent. Integrate successfully in three steps:
@@ -45,11 +45,11 @@ If you know which bank your users access, or you are reauthenticating the user a
 
 ### Pre-filling information[](#pre-filling-information)
 
-If you have access to a user's bank credentials, you can pre-fill certain fields (such as SSN) and remove another step. For more information, see [Sessions](https://docs.tink.com/resources/account-check/account-check-sdk-sessions). ![AC article prefill fields](https://images.ctfassets.net/tmqu5vj33f7w/4bPB1nPjX5aFDnPFihAOFI/cba03d36a2aa65ecfeb878750295f69d/Prefill_fields.png)
+If you have access to a user's bank credentials, you can pre-fill certain fields (such as SSN) and remove another step. For more information, see [Sessions](/Tiny-doc/tink_docs_home/resources/account-check/account-check-sdk-sessions/). ![AC article prefill fields](https://images.ctfassets.net/tmqu5vj33f7w/4bPB1nPjX5aFDnPFihAOFI/cba03d36a2aa65ecfeb878750295f69d/Prefill_fields.png)
 
 ### Account Check success screen[](#account-check-success-screen)
 
-Our success screen is, by default, disabled, which sends the user directly back to you once their bank is successfully connected. If you want to display our success screen, contact [Tink Support](https://docs.tink.com/resources/support/how-to-find-technical-support) to enable it.
+Our success screen is, by default, disabled, which sends the user directly back to you once their bank is successfully connected. If you want to display our success screen, contact [Tink Support](/Tiny-doc/tink_docs_home/resources/support/how-to-find-technical-support/) to enable it.
 
 ![AC optimize success screen 1.1](https://images.ctfassets.net/tmqu5vj33f7w/2yk7xxr4vEtURGfjGZ6XZR/6e3b7f2fb05d9796df20021a350b8e9f/AC_success_screen_example.png)
 

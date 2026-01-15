@@ -1,6 +1,6 @@
 ---
 title: "Tink Docs"
-source: "https://docs.tink.com/market-capabilities"
+source: "/Tiny-doc/tink_docs_home/market-capabilities/"
 exportedAt: "2026-01-13T12:41:09.130Z"
 ---
 ## Account aggregation

@@ -1,6 +1,6 @@
 ---
 title: "Configure Periods - Tink Docs"
-source: "https://docs.tink.com/resources/money-manager/money-manager-api/configure-periods"
+source: "/Tiny-doc/tink_docs_home/resources/money-manager/money-manager-api/configure-periods/"
 exportedAt: "2026-01-13T12:52:37.527Z"
 ---
 Within the Statistics API data is periodized into pre-computed date-based buckets for easy access. Statistics are computed for `YEARLY`, `MONTHLY`, and `MONTHLY_ADJUSTED` buckets which represent different time periods. The `YEARLY` and `MONTHLY` buckets represent time periods that coincide with the respective calendar period. The `MONTHLY_ADJUSTED` bucket is a monthly period with the start- and end date shifted to correspond to a user defined day.
@@ -11,7 +11,7 @@ The `MONTHLY_ADJUSTED` buckets also account for the fact that salaries are not e
 
 With `MONTHLY_ADJUSTED`, the start of a period is always adjusted backward to the period break day of previous month. If that date falls into a weekend or holiday, period break day will fallback to the last business day before it. The end of a period will be the day before the period break day in the month.
 
-For technical reference check [Calendar documentation](https://docs.tink.com/api#general/calendar)
+For technical reference check [Calendar documentation](/Tiny-doc/tink_docs_api/api/#general/calendar)
 
 ## Examples[](#examples)
 
@@ -33,7 +33,7 @@ It might not make sense to set the period break day to a low value. A period bre
 
 ## Setting the period for a user[](#setting-the-period-for-a-user)
 
-The period mode for a user can be set using the [Update user profile](https://docs.tink.com/api#general/user/update-user-profile) endpoint with a user access token that has the `user:write` scope.
+The period mode for a user can be set using the [Update user profile](/Tiny-doc/tink_docs_api/api/#general/user/update-user-profile) endpoint with a user access token that has the `user:write` scope.
 
 Within the request, if you use the `MONTHLY_ADJUSTED` as the `periodMode` you need to also specify `periodAdjustedDay`.
 

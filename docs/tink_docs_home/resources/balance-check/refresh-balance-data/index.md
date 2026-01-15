@@ -1,6 +1,6 @@
 ---
 title: "Refresh balance data - Tink Docs"
-source: "https://docs.tink.com/resources/balance-check/refresh-balance-data"
+source: "/Tiny-doc/tink_docs_home/resources/balance-check/refresh-balance-data/"
 exportedAt: "2026-01-13T12:44:16.495Z"
 ---
 To refresh data means to use Tink's API to check a bank account for new data.
@@ -142,7 +142,7 @@ When the API responds with a `finished` status, the refresh has finished success
 
 ## 2\. Fetch the balance[](#fetch-the-balance)
 
-To fetch the balance call the [API](https://docs.tink.com/api#data-v2/account/get-account-balance) with the specific `accountId`.
+To fetch the balance call the [API](/Tiny-doc/tink_docs_api/api/#data-v2/account/get-account-balance) with the specific `accountId`.
 
 Fetch the balance
 
@@ -174,4 +174,4 @@ curl -v GET https://api.tink.com/data/v2/accounts/{id}/balances \
 
 ## 3\. Recover from unsuccessful refreshes[](#recover-from-unsuccessful-refreshes)
 
-If the refresh request ended in one of the statuses listed above for unsuccesful refreshes, you need to direct the end user to update their consent. For more information, see [Updating a consent](https://docs.tink.com/resources/account-check/managing-consents#updating-a-consent).
+If the refresh request ended in one of the statuses listed above for unsuccesful refreshes, you need to direct the end user to update their consent. For more information, see [Updating a consent](/Tiny-doc/tink_docs_home/resources/account-check/managing-consents/#updating-a-consent).

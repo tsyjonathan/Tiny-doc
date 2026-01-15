@@ -1,9 +1,9 @@
 ---
 title: "Webhook signature validation - Tink Docs"
-source: "https://docs.tink.com/resources/api-setup/webhook-signature-validation"
+source: "/Tiny-doc/tink_docs_home/resources/api-setup/webhook-signature-validation/"
 exportedAt: "2026-01-13T12:53:46.554Z"
 ---
-Tink signs every message delivered via the [Events V2](https://docs.tink.com/api#events-v2/webhook/create-webhook-endpoint) webhook with a signature header added to the outgoing HTTP request.
+Tink signs every message delivered via the [Events V2](/Tiny-doc/tink_docs_api/api/#events-v2/webhook/create-webhook-endpoint) webhook with a signature header added to the outgoing HTTP request.
 
 When using the Events V2 API, we recommend implementing signature verification on your end to validate the authenticity of the incoming request.
 

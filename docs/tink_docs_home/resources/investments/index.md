@@ -1,6 +1,6 @@
 ---
 title: "Investments - Tink Docs"
-source: "https://docs.tink.com/resources/investments"
+source: "/Tiny-doc/tink_docs_home/resources/investments/"
 exportedAt: "2026-01-13T12:40:10.433Z"
 ---
 [
@@ -15,7 +15,7 @@ Fetch real time holding data from investment and pension accounts
 
 
 
-](https://docs.tink.com/resources/investments/introduction-to-investments)
+](/Tiny-doc/tink_docs_home/resources/investments/introduction-to-investments/)
 
 ## Getting started
 
@@ -31,7 +31,7 @@ Learn how to get continuous access to a user’s bank account
 
 
 
-](https://docs.tink.com/resources/investments/investments-continuous-access-to-a-bank-account)
+](/Tiny-doc/tink_docs_home/resources/investments/investments-continuous-access-to-a-bank-account/)
 
 [
 
@@ -45,7 +45,7 @@ Refresh data when using continuous access
 
 
 
-](https://docs.tink.com/resources/investments/investments-refresh-data)
+](/Tiny-doc/tink_docs_home/resources/investments/investments-refresh-data/)
 
 [
 
@@ -59,7 +59,7 @@ Learn how to manage, update and delete consents for your users
 
 
 
-](https://docs.tink.com/resources/investments/investments-managing-consents)
+](/Tiny-doc/tink_docs_home/resources/investments/investments-managing-consents/)
 
 [
 
@@ -73,7 +73,7 @@ Test your integration by using demo credentials.
 
 
 
-](https://docs.tink.com/resources/investments/test-different-investments-scenarios)
+](/Tiny-doc/tink_docs_home/resources/investments/test-different-investments-scenarios/)
 
 [
 
@@ -87,7 +87,7 @@ Breakdown of errors for the Provider Consents API.
 
 
 
-](https://docs.tink.com/resources/investments/investments-provider-consent-errors)
+](/Tiny-doc/tink_docs_home/resources/investments/investments-provider-consent-errors/)
 
 [
 
@@ -101,7 +101,7 @@ Learn how to use a single authentication for multiple products.
 
 
 
-](https://docs.tink.com/resources/investments/investments-combine-multiple-products)
+](/Tiny-doc/tink_docs_home/resources/investments/investments-combine-multiple-products/)
 
 [
 
@@ -111,7 +111,7 @@ Quickly get access to investment data
 
 
 
-](https://docs.tink.com/resources/investments/get-one-time-access-to-investment-data)
+](/Tiny-doc/tink_docs_home/resources/investments/get-one-time-access-to-investment-data/)
 
 ## Integration
 
@@ -127,7 +127,7 @@ Parameters, responses, versions and market availability for the Investments SDK.
 
 
 
-](https://docs.tink.com/resources/investments/investments-sdk-reference)
+](/Tiny-doc/tink_docs_home/resources/investments/investments-sdk-reference/)
 
 [
 
@@ -141,4 +141,4 @@ Use our Postman collection for Investments.
 
 
 
-](https://docs.tink.com/resources/investments/postman-collection-for-investments)
+](/Tiny-doc/tink_docs_home/resources/investments/postman-collection-for-investments/)

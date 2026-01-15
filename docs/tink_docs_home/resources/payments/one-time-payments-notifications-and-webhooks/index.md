@@ -1,9 +1,9 @@
 ---
 title: "Notifications and webhooks - Tink Docs"
-source: "https://docs.tink.com/resources/payments/one-time-payments-notifications-and-webhooks"
+source: "/Tiny-doc/tink_docs_home/resources/payments/one-time-payments-notifications-and-webhooks/"
 exportedAt: "2026-01-13T12:53:30.339Z"
 ---
-Configure a webhook by using the [Events v2](https://docs.tink.com/api#events-v2) API. Define at least one endpoint and a list of events, and you're done. This must be done at least once per app. When you've set up a webhook, Tink will notify you every time an event occurs for each Tink user of your app.This document contains everything you need to get started with setting up webhooks for Payments. This document includes the following sections:
+Configure a webhook by using the [Events v2](/Tiny-doc/tink_docs_api/api/#events-v2) API. Define at least one endpoint and a list of events, and you're done. This must be done at least once per app. When you've set up a webhook, Tink will notify you every time an event occurs for each Tink user of your app.This document contains everything you need to get started with setting up webhooks for Payments. This document includes the following sections:
 
 -   [Set up a webhook](#set-up-a-webhook)
 -   [Webhook signature validation](#webhook-signature-validation)
@@ -13,7 +13,7 @@ Configure a webhook by using the [Events v2](https://docs.tink.com/api#events-v2
 
 ## Set up a webhook[](#set-up-a-webhook)
 
-Configure a webhook by using the [Events v2](https://docs.tink.com/api#events-v2) API. Define at least one endpoint and a list of events, and you're done. This must be done at least once per app. When you've set up a webhook, Tink will notify you every time an event occurs for each Tink user of your app and for events that occur without user context.
+Configure a webhook by using the [Events v2](/Tiny-doc/tink_docs_api/api/#events-v2) API. Define at least one endpoint and a list of events, and you're done. This must be done at least once per app. When you've set up a webhook, Tink will notify you every time an event occurs for each Tink user of your app and for events that occur without user context.
 
 **Note**: different webhook events may have additional requirements. Eventual requirements are described at the top of each event.
 
@@ -54,7 +54,7 @@ curl -v -X POST https://api.tink.com/api/v1/oauth/token \
 
 ## 3\. Use the Events API[](#use-the-events-api)
 
-Set up the webhook by using your `client access token` to call the Tink API. For more information about the fields for this request, see [Request Body: CreateWebhookEndpointRequest](https://docs.tink.com/api#events-v2/webhook/create-webhook-endpoint/request-body-createwebhookendpointrequest).
+Set up the webhook by using your `client access token` to call the Tink API. For more information about the fields for this request, see [Request Body: CreateWebhookEndpointRequest](/Tiny-doc/tink_docs_api/api/#events-v2/webhook/create-webhook-endpoint/request-body-createwebhookendpointrequest).
 
 **Request example:**
 
@@ -83,7 +83,7 @@ curl -v -X POST https://api.tink.com/events/v2/webhook-endpoints \
 }
 ```
 
-Store the `secret` value safely as it can't be retrieved again. Use the secret to verify the signature of incoming notifications. For more information, see [Webhook signature validation](#webhook-signature-validation) and the [Events API](https://docs.tink.com/api#events-v2) API reference.
+Store the `secret` value safely as it can't be retrieved again. Use the secret to verify the signature of incoming notifications. For more information, see [Webhook signature validation](#webhook-signature-validation) and the [Events API](/Tiny-doc/tink_docs_api/api/#events-v2) API reference.
 
 ## Message structure[](#message-structure)
 
@@ -131,7 +131,7 @@ You have set up webhooks for your app and stored your `secret` value. If you're 
 
 ## Introduction[](#introduction)
 
-Tink signs every message that's delivered via the [Events V2](https://docs.tink.com/api#events-v2/webhook/create-webhook-endpoint) webhook with a signature header that's added to the outgoing HTTP request.
+Tink signs every message that's delivered via the [Events V2](/Tiny-doc/tink_docs_api/api/#events-v2/webhook/create-webhook-endpoint) webhook with a signature header that's added to the outgoing HTTP request.
 
 When using the Events V2 API, we recommend you to implement signature verification to validate the authenticity of an incoming request.
 
@@ -223,33 +223,33 @@ To narrow down the DigiCert-issued certificate that is issued specifically for T
 
 ## Event: Payment updated[](#event-payment-updated)
 
-It's possible to use [webhooks](https://docs.tink.com/api#events-v2) to subscribe to a `payment:updated` event. The event notifies you when any transfer that corresponds to any of your app's payments is updated.
+It's possible to use [webhooks](/Tiny-doc/tink_docs_api/api/#events-v2) to subscribe to a `payment:updated` event. The event notifies you when any transfer that corresponds to any of your app's payments is updated.
 
 For details on how to subscribe to webhooks, see [Set up a webhook](#set-up-a-webhook).
 
 ## Event logic[](#event-logic)
 
-The `payment:updated` event is fired when any transfer that corresponds to any existing payment for any of your app's users is updated. This happens whenever payment status changes to one of the terminal statuses that are described in [Payment status transitions](https://docs.tink.com/resources/payments/one-time-payments/one-time-payments-status-transitions).
+The `payment:updated` event is fired when any transfer that corresponds to any existing payment for any of your app's users is updated. This happens whenever payment status changes to one of the terminal statuses that are described in [Payment status transitions](/Tiny-doc/tink_docs_home/resources/payments/one-time-payments/one-time-payments-status-transitions/).
 
 ## Event content[](#event-content)
 
 | Field | Type | Description | Required |
 | --- | --- | --- | --- |
-| id | string | The identifier of the transfer. This identifier is also present on each transfer in [transfers for a payment request.](https://docs.tink.com/api#payment/payment-request/get-transfers-for-payment-request) | Yes |
-| paymentRequestId | string | The identifier of the payment request. This identifier is also present on [payment request response.](https://docs.tink.com/api#payment/payment-request/create-payment-request/response-paymentrequestresponse) | Yes |
+| id | string | The identifier of the transfer. This identifier is also present on each transfer in [transfers for a payment request.](/Tiny-doc/tink_docs_api/api/#payment/payment-request/get-transfers-for-payment-request) | Yes |
+| paymentRequestId | string | The identifier of the payment request. This identifier is also present on [payment request response.](/Tiny-doc/tink_docs_api/api/#payment/payment-request/create-payment-request/response-paymentrequestresponse) | Yes |
 | amount | number | The payment amount. | Yes |
 | currency | string | The currency of the payment amount. | Yes |
 | paymentScheme | string | The payment scheme that was eventually used for the transfer. | Yes |
-| destination | [PaymentDestinationDTO](https://docs.tink.com/api-payment#payment/payment-request/get-transfers-for-payment-request/response-restcreatedtransfersresponse/paymentdestinationdto) | The destination object. | Yes |
-| source | [PaymentSourceDTO](https://docs.tink.com/api-payment#payment/payment-request/get-transfers-for-payment-request/response-restcreatedtransfersresponse/paymentsourcedto) | The source object. Only returned if available from the bank response. | No |
+| destination | [PaymentDestinationDTO](/Tiny-doc/tink_docs_api/api-payment/#payment/payment-request/get-transfers-for-payment-request/response-restcreatedtransfersresponse/paymentdestinationdto) | The destination object. | Yes |
+| source | [PaymentSourceDTO](/Tiny-doc/tink_docs_api/api-payment/#payment/payment-request/get-transfers-for-payment-request/response-restcreatedtransfersresponse/paymentsourcedto) | The source object. Only returned if available from the bank response. | No |
 | providerName | string | The provider (financial institution) that the payer's account belongs to. | Yes |
 | recipientName | string | The recipient name shown to the payer on signing payments. | Yes |
 | sourceMessage | string | The transaction description on the payers account for the payment. | No |
-| status | string | Current status of the payment. The value of this field is set to one of the [terminal statuses](https://docs.tink.com/resources/payments/one-time-payments/one-time-payments-status-transitions). Example values: `SENT`, `FAILED`, `CANCELLED`, `SETTLED` etc. | Yes |
+| status | string | Current status of the payment. The value of this field is set to one of the [terminal statuses](/Tiny-doc/tink_docs_home/resources/payments/one-time-payments/one-time-payments-status-transitions/). Example values: `SENT`, `FAILED`, `CANCELLED`, `SETTLED` etc. | Yes |
 | statusMessage | string | A message explaining the current status of the payment. | Yes |
 | created | Date | The creation timestamp of a bank transfer for the payment request. | No |
 | updated | Date | The update timestamp of a bank transfer for the payment request. | No |
-| remittanceInformation | [RemittanceInformationDTO](https://docs.tink.com/api-payment#payment/payment-request/get-transfers-for-payment-request/response-restcreatedtransfersresponse/remittanceinformationdto) | The structured or unstructured remittance information for the payment request. Use for reconciliation purposes. | Yes |
+| remittanceInformation | [RemittanceInformationDTO](/Tiny-doc/tink_docs_api/api-payment/#payment/payment-request/get-transfers-for-payment-request/response-restcreatedtransfersresponse/remittanceinformationdto) | The structured or unstructured remittance information for the payment request. Use for reconciliation purposes. | Yes |
 | metadata | object | A key-value dictionary with custom metadata for the settlement account payment request. All keys and values must be strings. For privacy protection, it is not allowed to use this dictionary for storing personal data (e.g. names and addresses). | No |
 | payerInformation **(deprecated)** | object | Contains name, accountIdentifier of the payer | No |
 
@@ -317,13 +317,13 @@ Set up reconciliation via Tink in three stages.
 
 ## Set up remittance[](#set-up-remittance)
 
-First, use our [payment request model](https://docs.tink.com/api#payment/payment-request) to set your remittance information. This is the unique reference to identify individual payments.
+First, use our [payment request model](/Tiny-doc/tink_docs_api/api/#payment/payment-request) to set your remittance information. This is the unique reference to identify individual payments.
 
-Second, read our [payment conditions](https://docs.tink.com/resources/payments/payment-conditions) article to understand how to use the remittance information type and format on providers. The article explains how to examine submitted payments before they reach a payment provider to avoid failed payments.
+Second, read our [payment conditions](/Tiny-doc/tink_docs_home/resources/payments/payment-conditions/) article to understand how to use the remittance information type and format on providers. The article explains how to examine submitted payments before they reach a payment provider to avoid failed payments.
 
-The remittance type information for a payment differs between different markets. For information about the different types, see [RemittanceInformation](https://docs.tink.com/api#payment/payment-request/the-payment-request-model/remittanceinformation) in our API documentation.
+The remittance type information for a payment differs between different markets. For information about the different types, see [RemittanceInformation](/Tiny-doc/tink_docs_api/api/#payment/payment-request/the-payment-request-model/remittanceinformation) in our API documentation.
 
-For use-case examples on how to use payment conditions, see [Examples](https://docs.tink.com/resources/payments/payment-conditions#examples).
+For use-case examples on how to use payment conditions, see [Examples](/Tiny-doc/tink_docs_home/resources/payments/payment-conditions/#examples).
 
 ## Get payment statuses[](#get-payment-statuses)
 
@@ -333,9 +333,9 @@ We allow you to track the current status of payments, as they're being processed
 
 Banks use different payment schedules.
 
-For more information on the payment statuses that are available and how they transition, see [Payment status transitions](https://docs.tink.com/resources/payments/one-time-payments/one-time-payments-status-transitions).
+For more information on the payment statuses that are available and how they transition, see [Payment status transitions](/Tiny-doc/tink_docs_home/resources/payments/one-time-payments/one-time-payments-status-transitions/).
 
-For API information and an API response example, see [Response: PaymentRequestTransfersResponse](https://docs.tink.com/api#payment/recurring-payment/create-recurring-payment/response-recurringpaymentresponse).
+For API information and an API response example, see [Response: PaymentRequestTransfersResponse](/Tiny-doc/tink_docs_api/api/#payment/recurring-payment/create-recurring-payment/response-recurringpaymentresponse).
 
 A payment status can be tracked in two ways. We recommend using webhooks as it means you don’t have to check a status but instead be informed when the status changes:
 
@@ -345,9 +345,9 @@ Instead of getting data via our API, you can set up a webhook and receive notifi
 
 ### Via our API[](#via-our-api)
 
-To get a list of bank transfers for a payment request ID, see [Get transfers for payment request](https://docs.tink.com/api#payment/payment-request/get-transfers-for-payment-request) in our API docs.
+To get a list of bank transfers for a payment request ID, see [Get transfers for payment request](/Tiny-doc/tink_docs_api/api/#payment/payment-request/get-transfers-for-payment-request) in our API docs.
 
-For details on how to retrieve a remittance response, see [Check payment status](https://docs.tink.com/resources/payments/initiate-your-first-one-time-payment#check-the-payment-status).
+For details on how to retrieve a remittance response, see [Check payment status](/Tiny-doc/tink_docs_home/resources/payments/initiate-your-first-one-time-payment/#check-the-payment-status).
 
 ## Reconcile incoming payments[](#reconcile-incoming-payments)
 
@@ -357,4 +357,4 @@ Received payments can be reconciled by matching remittance information with expe
 
 If you encounter an issue with a payment request, store the payment request ID, its timestamp, and information about the destination and source accounts. This information is useful for us to troubleshoot unexpected or failed individual payment requests.
 
-For support, visit [Tink Support](https://docs.tink.com/resources/support/how-to-find-technical-support).
+For support, visit [Tink Support](/Tiny-doc/tink_docs_home/resources/support/how-to-find-technical-support/).

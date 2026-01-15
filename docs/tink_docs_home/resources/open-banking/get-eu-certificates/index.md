@@ -1,6 +1,6 @@
 ---
 title: "Get EU certificates - Tink Docs"
-source: "https://docs.tink.com/resources/open-banking/get-eu-certificates"
+source: "/Tiny-doc/tink_docs_home/resources/open-banking/get-eu-certificates/"
 exportedAt: "2026-01-13T12:54:55.317Z"
 ---
 To use Tink’s AIS & PIS products with your own license, you must have your own Qualified Website Authentication Certificate (QWAC) and Qualified Certificate for Electronic Seals (QSealC).

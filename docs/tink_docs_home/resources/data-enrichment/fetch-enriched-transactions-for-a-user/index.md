@@ -1,11 +1,11 @@
 ---
 title: "Fetch enriched transactions for a user"
-source: "https://docs.tink.com/resources/data-enrichment/fetch-enriched-transactions-for-a-user"
+source: "/Tiny-doc/tink_docs_home/resources/data-enrichment/fetch-enriched-transactions-for-a-user/"
 exportedAt: "2026-01-13T12:47:38.293Z"
 ---
 ### Step 1: Ingest transactions for the user[](#step-1-ingest-transactions-for-the-user)
 
-If you haven’t already ingested some transactions for the user you got an access token for, follow our guide for [ingesting transactions with Tink’s Connector API](https://docs.tink.com/resources/data-enrichment/get-data-into-the-tink-platform-using-the-connector). If you just want to quickly see what the endpoint produces, you can try a [demo bank](https://docs.tink.com/resources/console/demo-bank) user that already has some transactions.
+If you haven’t already ingested some transactions for the user you got an access token for, follow our guide for [ingesting transactions with Tink’s Connector API](/Tiny-doc/tink_docs_home/resources/data-enrichment/get-data-into-the-tink-platform-using-the-connector/). If you just want to quickly see what the endpoint produces, you can try a [demo bank](/Tiny-doc/tink_docs_home/resources/console/demo-bank/) user that already has some transactions.
 
 ### Step 2: Get a list of enriched transactions[](#step-2-get-a-list-of-enriched-transactions)
 
@@ -92,6 +92,6 @@ curl "https://api.tink.com/enrichment/v1/transactions" \
 }
 ```
 
-The response results are paginated and by default ten transactions are returned. However, you are able to fetch up to 100 transactions per request. You can read more about pagination [here](https://docs.tink.com/resources/data-enrichment/generating-a-user-access-token-and-querying-end-user-data#pagination).
+The response results are paginated and by default ten transactions are returned. However, you are able to fetch up to 100 transactions per request. You can read more about pagination [here](/Tiny-doc/tink_docs_home/resources/data-enrichment/generating-a-user-access-token-and-querying-end-user-data/#pagination).
 
-Enriched data can be found in the enrichedData section of the response object. For example, the pfm category id, which can be used to give your users friendly categories for their transactions when combined with [our categories list](https://docs.tink.com/resources/data-enrichment/fetch-a-list-of-all-categories-for-your-locale).
+Enriched data can be found in the enrichedData section of the response object. For example, the pfm category id, which can be used to give your users friendly categories for their transactions when combined with [our categories list](/Tiny-doc/tink_docs_home/resources/data-enrichment/fetch-a-list-of-all-categories-for-your-locale/).

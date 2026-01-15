@@ -1,6 +1,6 @@
 ---
 title: "Get access to investment and pension data"
-source: "https://docs.tink.com/resources/investments/investments-continuous-access-to-a-bank-account"
+source: "/Tiny-doc/tink_docs_home/resources/investments/investments-continuous-access-to-a-bank-account/"
 exportedAt: "2026-01-13T12:44:56.895Z"
 ---
 **Introduction**
@@ -9,7 +9,7 @@ This article is divided into different sections that must be followed from top t
 
 The first section shows how to authorize your app and create a user. The second section is similar to the first, but is used to grant authorization. The third section shows how to build a Tink URL that the end user must use to authenticate with their bank, select an account, and give their consent to your user. The fourth section shows how to get a user token. The fifth and last section shows you how to use that token to fetch investment data.
 
-If you want to experiment with Investments by using our API, try our [Postman collection for Investments](https://docs.tink.com/resources/investments/postman-collection-for-investments).
+If you want to experiment with Investments by using our API, try our [Postman collection for Investments](/Tiny-doc/tink_docs_home/resources/investments/postman-collection-for-investments/).
 
 ### Data-access models[](#data-access-models)
 

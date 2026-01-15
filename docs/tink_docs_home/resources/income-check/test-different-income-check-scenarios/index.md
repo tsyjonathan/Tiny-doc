@@ -1,6 +1,6 @@
 ---
 title: "Test different Income Check scenarios"
-source: "https://docs.tink.com/resources/income-check/test-different-income-check-scenarios"
+source: "/Tiny-doc/tink_docs_home/resources/income-check/test-different-income-check-scenarios/"
 exportedAt: "2026-01-13T12:48:25.865Z"
 ---
 ## Demo Bank[](#demo-bank)
@@ -84,7 +84,7 @@ Store your `access_token`.
 
 ### Fetch your report[](#fetch-your-report)
 
-Now is the time to fetch the Income Check report in the JSON format through the [Income Check API](https://docs.tink.com/api#risk/income-check/get-an-income-check).
+Now is the time to fetch the Income Check report in the JSON format through the [Income Check API](/Tiny-doc/tink_docs_api/api/#risk/income-check/get-an-income-check).
 
 Fetch your Income Check report
 

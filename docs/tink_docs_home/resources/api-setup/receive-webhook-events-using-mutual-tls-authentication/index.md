@@ -1,6 +1,6 @@
 ---
 title: "Receive webhook events using Mutual TLS authentication"
-source: "https://docs.tink.com/resources/api-setup/receive-webhook-events-using-mutual-tls-authentication"
+source: "/Tiny-doc/tink_docs_home/resources/api-setup/receive-webhook-events-using-mutual-tls-authentication/"
 exportedAt: "2026-01-13T13:00:01.317Z"
 ---
 Mutual TLS authentication (abbreviated mTLS or TLS MA), is a part of the TLS handshake protocol for performing certificate-based authentication of the client. Regular TLS only authenticates the server, but mTLS authenticates both the server and client, by each party proving possession of their mutually approved key material.

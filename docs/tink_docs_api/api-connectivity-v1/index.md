@@ -1,9 +1,9 @@
 ---
 title: "Tink Docs"
-source: "https://docs.tink.com/api-connectivity-v1"
+source: "/Tiny-doc/tink_docs_api/api-connectivity-v1/"
 exportedAt: "2026-01-13T13:02:26.123Z"
 ---
-## Connectivity v1[](https://docs.tink.com/api-connectivity-v1)
+## Connectivity v1[](/Tiny-doc/tink_docs_api/api-connectivity-v1/)
 
 The Credentials and Provider models are used to handle credentials and consent for a user's connected providers and to see provider information.
 
@@ -1059,7 +1059,7 @@ A image url for the icon.
 
 `GET /api/v1/payments/providers/{name}/payment-conditions`
 
-Returns a `list of payment conditions` for a provider. A `payment condition` is an evaluation that the provider will have to pass for a payment to be successful. The `payment condition` is a combination of a `Rule`, `Operator` and a `Value` to form an evaluation condition that the data sent to the bank must fulfill. These conditions will apply when creating a payment request with Tink Link. Read more about payment conditions in our [guide](https://docs.tink.com/resources/payments/payment-conditions).
+Returns a `list of payment conditions` for a provider. A `payment condition` is an evaluation that the provider will have to pass for a payment to be successful. The `payment condition` is a combination of a `Rule`, `Operator` and a `Value` to form an evaluation condition that the data sent to the bank must fulfill. These conditions will apply when creating a payment request with Tink Link. Read more about payment conditions in our [guide](/Tiny-doc/tink_docs_home/resources/payments/payment-conditions/).
 
 ### Works with[](#connectivity-v1/provider/get-payment-conditions-for-a-provider/works-with)
 

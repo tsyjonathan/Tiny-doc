@@ -1,6 +1,6 @@
 ---
 title: "Not Found - Tink Docs"
-source: "https://docs.tink.com/resources/payments/setup-and-integrate-variable-recurring-payments"
+source: "/Tiny-doc/tink_docs_home/resources/payments/setup-and-integrate-variable-recurring-payments/"
 exportedAt: "2026-01-13T12:57:24.565Z"
 ---
 ![](https://docs.tink.com/assets/banana-guy-CNjP65Mx.png)

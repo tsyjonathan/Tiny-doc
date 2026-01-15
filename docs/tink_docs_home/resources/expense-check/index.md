@@ -1,6 +1,6 @@
 ---
 title: "Expense Check - Tink Docs"
-source: "https://docs.tink.com/resources/expense-check"
+source: "/Tiny-doc/tink_docs_home/resources/expense-check/"
 exportedAt: "2026-01-13T12:40:24.099Z"
 ---
 [
@@ -15,7 +15,7 @@ Expense verification used to take days, but can now be done in minutes through o
 
 
 
-](https://docs.tink.com/resources/expense-check/introduction-to-expense-check)
+](/Tiny-doc/tink_docs_home/resources/expense-check/introduction-to-expense-check/)
 
 ## Getting started
 
@@ -31,7 +31,7 @@ Follow this step-by-step guide to fetch your first report.
 
 
 
-](https://docs.tink.com/resources/expense-check/fetch-your-first-expense-check-report)
+](/Tiny-doc/tink_docs_home/resources/expense-check/fetch-your-first-expense-check-report/)
 
 [
 
@@ -45,7 +45,7 @@ Test your integration by using demo credentials.
 
 
 
-](https://docs.tink.com/resources/expense-check/test-different-expense-check-scenarios)
+](/Tiny-doc/tink_docs_home/resources/expense-check/test-different-expense-check-scenarios/)
 
 [
 
@@ -59,7 +59,7 @@ Retrieve data from different Tink products in one single flow.
 
 
 
-](https://docs.tink.com/resources/expense-check/fetch-data-from-several-risk-products-in-one-flow)
+](/Tiny-doc/tink_docs_home/resources/expense-check/fetch-data-from-several-risk-products-in-one-flow/)
 
 ## Integration
 
@@ -75,7 +75,7 @@ Learn how to best integrate our SDKs with your app.
 
 
 
-](https://docs.tink.com/resources/expense-check/setup-and-integrate-expense-check)
+](/Tiny-doc/tink_docs_home/resources/expense-check/setup-and-integrate-expense-check/)
 
 [
 
@@ -89,7 +89,7 @@ Expense Check error codes and formats, described and explained.
 
 
 
-](https://docs.tink.com/resources/expense-check/handle-expense-check-error-codes)
+](/Tiny-doc/tink_docs_home/resources/expense-check/handle-expense-check-error-codes/)
 
 [
 
@@ -103,7 +103,7 @@ Launch the SDK with sensitive user information
 
 
 
-](https://docs.tink.com/resources/expense-check/expense-check-sdk-sessions)
+](/Tiny-doc/tink_docs_home/resources/expense-check/expense-check-sdk-sessions/)
 
 [
 
@@ -117,7 +117,7 @@ Parameters, responses, versions and market availability for the Expense Check SD
 
 
 
-](https://docs.tink.com/resources/expense-check/expense-check-sdk-reference)
+](/Tiny-doc/tink_docs_home/resources/expense-check/expense-check-sdk-reference/)
 
 [
 
@@ -131,4 +131,4 @@ Use our Postman collection for Expense Check.
 
 
 
-](https://docs.tink.com/resources/expense-check/postman-collection-for-expense-check)
+](/Tiny-doc/tink_docs_home/resources/expense-check/postman-collection-for-expense-check/)

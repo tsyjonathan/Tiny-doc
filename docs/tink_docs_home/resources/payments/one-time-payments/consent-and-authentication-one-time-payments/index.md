@@ -1,6 +1,6 @@
 ---
 title: "Consent and authentication - Tink Docs"
-source: "https://docs.tink.com/resources/payments/one-time-payments/consent-and-authentication-one-time-payments"
+source: "/Tiny-doc/tink_docs_home/resources/payments/one-time-payments/consent-and-authentication-one-time-payments/"
 exportedAt: "2026-01-13T12:42:47.784Z"
 ---
 To use Tink’s services, the user needs to take explicit action to consent to Tink’s Terms & Conditions and Privacy Policy. This information is presented as clearly and transparently as possible on Tink’s consent screen. The user gives consent and starts the authentication process with their bank by pressing “Continue.”
@@ -9,7 +9,7 @@ To use Tink’s services, the user needs to take explicit action to consent to T
 
 ## User consent[](#user-consent)
 
-If you’re using Tink’s license, then consent will always be gathered at the initiation of any Tink flow. The consent screen depends on which of Tink’s services you’re using in your flow. If you’re implementing an [AIS + PIS flow](https://docs.tink.com/resources/payments/one-time-payments/payments-flow-optimization-overview), then Tink will show the PIS consent screen.
+If you’re using Tink’s license, then consent will always be gathered at the initiation of any Tink flow. The consent screen depends on which of Tink’s services you’re using in your flow. If you’re implementing an [AIS + PIS flow](/Tiny-doc/tink_docs_home/resources/payments/one-time-payments/payments-flow-optimization-overview/), then Tink will show the PIS consent screen.
 
 ![Tink consent screens per use case](https://images.ctfassets.net/tmqu5vj33f7w/pAOByJGMDp4zHz2zFkOnz/f846527ae3b6c53f6264f0b6ed380bc6/consent_screens.jpg) _Tink consent screens per use case_
 
@@ -17,7 +17,7 @@ If you’re using your own license, you add your own terms and conditions, priva
 
 ## Initiating authentication[](#initiating-authentication)
 
-To authenticate, the user typically needs to provide certain information to identify themselves with their bank. This triggers the bank’s own authentication flow, which may differ per bank and could involve third-party authentication apps or web redirects. To save your user’s the hassle of adding this information themselves, you can prefill a user’s authentication information (such as their social security number) by passing it to Tink through a [Tink Link session](https://docs.tink.com/resources/tink-link-web/tink-link-web-sessions#example-use-cases), removing the need for users to enter it themselves on this screen.
+To authenticate, the user typically needs to provide certain information to identify themselves with their bank. This triggers the bank’s own authentication flow, which may differ per bank and could involve third-party authentication apps or web redirects. To save your user’s the hassle of adding this information themselves, you can prefill a user’s authentication information (such as their social security number) by passing it to Tink through a [Tink Link session](/Tiny-doc/tink_docs_home/resources/tink-link-web/tink-link-web-sessions/#example-use-cases), removing the need for users to enter it themselves on this screen.
 
 **Example Sessions request**
 
@@ -40,4 +40,4 @@ Content-Type: application/json
 
 Then, initiate your Tink URL and append the `{SESSION_ID}`.
 
-[See the Sessions API Reference](https://docs.tink.com/api#general/tink-link-session).
+[See the Sessions API Reference](/Tiny-doc/tink_docs_api/api/#general/tink-link-session).

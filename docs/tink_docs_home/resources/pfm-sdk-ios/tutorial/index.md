@@ -1,6 +1,6 @@
 ---
 title: "Getting started with the Money Manager SDK for iOS"
-source: "https://docs.tink.com/resources/pfm-sdk-ios/tutorial"
+source: "/Tiny-doc/tink_docs_home/resources/pfm-sdk-ios/tutorial/"
 exportedAt: "2026-01-13T13:00:07.671Z"
 ---
 ## Installation[](#installation)
@@ -39,7 +39,7 @@ You should now be able to `import TinkMoneyManagerUI` within your project.
 
 ## Initialization[](#initialization)
 
-Money Manager SDK needs a valid access token for a specific user to function correctly. Since the SDK does not handle any type of authentication, this needs to be done by your backend. See [this link](https://docs.tink.com/api#general/oauth) for more info on how this is done. Once you have an access token you pass it on to your `Tink` instance.
+Money Manager SDK needs a valid access token for a specific user to function correctly. Since the SDK does not handle any type of authentication, this needs to be done by your backend. See [this link](/Tiny-doc/tink_docs_api/api/#general/oauth) for more info on how this is done. Once you have an access token you pass it on to your `Tink` instance.
 
 ```
 Tink.shared.userSession = .accessToken(<#T##String#>)
@@ -60,7 +60,7 @@ tabBarController.viewControllers?.append(navigationController)
 
 ## Refreshing access tokens[](#refreshing-access-tokens)
 
-User access tokens expire after a set amount of time. You can keep your user logged in by [exchanging your refresh token](https://docs.tink.com/api#general/oauth) for a new access token and assigning it to the `Tink` instance. This will replace the previous token that was used. If needed you can also refresh the statistics, accounts and latest transactions.
+User access tokens expire after a set amount of time. You can keep your user logged in by [exchanging your refresh token](/Tiny-doc/tink_docs_api/api/#general/oauth) for a new access token and assigning it to the `Tink` instance. This will replace the previous token that was used. If needed you can also refresh the statistics, accounts and latest transactions.
 
 ```
 Tink.shared.userSession = .accessToken(<#String#>)

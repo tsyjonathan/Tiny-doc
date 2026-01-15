@@ -1,6 +1,6 @@
 ---
 title: "Tink Docs"
-source: "https://docs.tink.com/market-capabilities/aggregation?market=IT"
+source: "/Tiny-doc/tink_docs_home/market-capabilities/aggregation__q_market=IT__c64c658f70/"
 exportedAt: "2026-01-13T12:53:19.417Z"
 ---
 Allianz Bank

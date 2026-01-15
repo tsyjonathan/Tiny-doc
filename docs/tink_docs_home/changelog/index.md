@@ -1,6 +1,6 @@
 ---
 title: "Changelog - Tink Docs"
-source: "https://docs.tink.com/changelog"
+source: "/Tiny-doc/tink_docs_home/changelog/"
 exportedAt: "2026-01-13T12:40:59.426Z"
 ---
 Stay updated on all changes to the Tink platform and products.
@@ -19,7 +19,7 @@ Stay updated on all changes to the Tink platform and products.
     -   DELETE /api/v1/authorization/hooks/{id}
     -   GET /api/v1/authorization/hooks
     
-    If you are still using these endpoints, we recommend migrating to [Events v2](https://docs.tink.com/api-events-v2#events-v2/webhook) to avoid service disruptions. For guidance on using webhooks with your specific products, please visit the relevant Tink product documentation pages.
+    If you are still using these endpoints, we recommend migrating to [Events v2](/Tiny-doc/tink_docs_api/api-events-v2/#events-v2/webhook) to avoid service disruptions. For guidance on using webhooks with your specific products, please visit the relevant Tink product documentation pages.
     
 -   September 16, 2025
     
@@ -61,7 +61,7 @@ Stay updated on all changes to the Tink platform and products.
     
     To ensure your integration continues to work after the change, please make sure your application trusts both the current DigiCert Global Root G2 and the upcoming Amazon Root CA 3 certificates.
     
-    If you use a custom trust store, we advise updating it according to our [HTTPS and TLS guidelines](https://docs.tink.com/api-introduction#introduction/https-and-tls) before 17th September 2026. If your application relies on the operating system’s trust store, keeping your OS up to date will be sufficient.
+    If you use a custom trust store, we advise updating it according to our [HTTPS and TLS guidelines](/Tiny-doc/tink_docs_api/api-introduction/#introduction/https-and-tls) before 17th September 2026. If your application relies on the operating system’s trust store, keeping your OS up to date will be sufficient.
     
     The Tink API server certificate will remain signed by DigiCert Global Root G2 until its renewal on 17th September 2026.
     
@@ -91,7 +91,7 @@ Stay updated on all changes to the Tink platform and products.
     
     Please note the Open Banking connection remains available for all customers.
     
-    For more details, see our [market capabilities](https://docs.tink.com/market-capabilities/aggregation?market=ES) in Spain.
+    For more details, see our [market capabilities](/Tiny-doc/tink_docs_home/market-capabilities/aggregation__q_market=ES__32b4544a87/) in Spain.
     
 -   July 30, 2025
     
@@ -124,7 +124,7 @@ Stay updated on all changes to the Tink platform and products.
     
     Please note the Open Banking connections remain available for all customers.
     
-    For more details, see our [market capabilities](https://docs.tink.com/market-capabilities/aggregation?market=ES) in Spain.
+    For more details, see our [market capabilities](/Tiny-doc/tink_docs_home/market-capabilities/aggregation__q_market=ES__32b4544a87/) in Spain.
     
 -   June 27, 2025
     
@@ -164,7 +164,7 @@ Stay updated on all changes to the Tink platform and products.
     
     The full list of supported markets can be fetched from the `/api/v1/providers/markets` endpoint.
     
-    Read more in our documentation [here](https://docs.tink.com/api-connectivity-v1#connectivity-v1/provider/list-providers-for-a-market).
+    Read more in our documentation [here](/Tiny-doc/tink_docs_api/api-connectivity-v1/#connectivity-v1/provider/list-providers-for-a-market).
     
 -   March 13, 2025
     
@@ -272,7 +272,7 @@ Stay updated on all changes to the Tink platform and products.
     
     Account Check
     
-    The fields `holderName` and `iban` in the [Get Account Verification Report](https://docs.tink.com/api-data-v1#data-v1/account-verification/get-account-verification-report) endpoint used with Account Check have been deprecated for more than six months and will reach end of life on August 31, 2025.
+    The fields `holderName` and `iban` in the [Get Account Verification Report](/Tiny-doc/tink_docs_api/api-data-v1/#data-v1/account-verification/get-account-verification-report) endpoint used with Account Check have been deprecated for more than six months and will reach end of life on August 31, 2025.
     
 -   January 02, 2025
     
@@ -306,7 +306,7 @@ Stay updated on all changes to the Tink platform and products.
     
     Transactions
     
-    It is now faster for PSPs to onboard merchants to Tink products with our new screening process. Merchant pre-screening based on ‘country’ and ‘industry’ will lead to instant responses and statuses. This means fewer false positive declines and fewer merchants with ‘pending’ status waiting for review. For more information see [partner integration](https://docs.tink.com/resources/payments/one-time-payments/partner-integration-one-time-payments)
+    It is now faster for PSPs to onboard merchants to Tink products with our new screening process. Merchant pre-screening based on ‘country’ and ‘industry’ will lead to instant responses and statuses. This means fewer false positive declines and fewer merchants with ‘pending’ status waiting for review. For more information see [partner integration](/Tiny-doc/tink_docs_home/resources/payments/one-time-payments/partner-integration-one-time-payments/)
     
 -   December 11, 2024
     
@@ -316,7 +316,7 @@ Stay updated on all changes to the Tink platform and products.
     
     Payments
     
-    Scheme selection logic (smart routing) has been added to Pay by Bank. Scheme selection optimises for performance, settlement risk and speed based on bank provider. For more information see [Payment Schemes](https://docs.tink.com/resources/payments/one-time-payments/payment-schemes#smart-routing-scheme-picker-)
+    Scheme selection logic (smart routing) has been added to Pay by Bank. Scheme selection optimises for performance, settlement risk and speed based on bank provider. For more information see [Payment Schemes](/Tiny-doc/tink_docs_home/resources/payments/one-time-payments/payment-schemes/#smart-routing-scheme-picker-)
     
 -   December 11, 2024
     
@@ -326,7 +326,7 @@ Stay updated on all changes to the Tink platform and products.
     
     Payments
     
-    A new configurable check option, ‘Account Type’ has been added to Risk Signals to block payments from risky types of account. There are now 10 configurable checks available in Risk Signals. For more information, see [Risk Signals documentation](https://docs.tink.com/resources/payments/one-time-payments/risk-signals)
+    A new configurable check option, ‘Account Type’ has been added to Risk Signals to block payments from risky types of account. There are now 10 configurable checks available in Risk Signals. For more information, see [Risk Signals documentation](/Tiny-doc/tink_docs_home/resources/payments/one-time-payments/risk-signals/)
     
 -   December 11, 2024
     
@@ -336,7 +336,7 @@ Stay updated on all changes to the Tink platform and products.
     
     Payments
     
-    Risk Signals is available as an optional add-on to Pay by Bank in three new countries. You can now use Risk Signals in Italy, Austria and Sweden. For more information, [see Risk Signals documentation](https://docs.tink.com/resources/payments/one-time-payments/risk-signals)
+    Risk Signals is available as an optional add-on to Pay by Bank in three new countries. You can now use Risk Signals in Italy, Austria and Sweden. For more information, [see Risk Signals documentation](/Tiny-doc/tink_docs_home/resources/payments/one-time-payments/risk-signals/)
     
 -   December 10, 2024
     
@@ -561,7 +561,7 @@ Stay updated on all changes to the Tink platform and products.
     
     API
     
-    The [Events v1 Webhook](https://docs.tink.com/api-events-v1#events-v1/webhook) is now deprecated. Please visit the relevant Tink product page in our documentation to learn how to integrate and subscribe to webhook events with [Events v2 Webhook](https://docs.tink.com/api-events-v2#events-v2/webhook) instead.
+    The [Events v1 Webhook](/Tiny-doc/tink_docs_api/api-events-v2/#events-v1/webhook) is now deprecated. Please visit the relevant Tink product page in our documentation to learn how to integrate and subscribe to webhook events with [Events v2 Webhook](/Tiny-doc/tink_docs_api/api-events-v2/#events-v2/webhook) instead.
     
 -   August 06, 2024
     
@@ -601,7 +601,7 @@ Stay updated on all changes to the Tink platform and products.
     
     These connections support both AIS and PIS functionalities.
     
-    For more details see our [market capabilities](https://docs.tink.com/market-capabilities/payments?market=ES) for payments in Spain.
+    For more details see our [market capabilities](/Tiny-doc/tink_docs_home/market-capabilities/payments__q_market=ES__32b4544a87/) for payments in Spain.
     
 -   August 05, 2024
     
@@ -654,7 +654,7 @@ Stay updated on all changes to the Tink platform and products.
     -   Volksbank Wien
     -   Volksbank Niederösterreich
     
-    For more details see our [market capabilities](https://docs.tink.com/market-capabilities/aggregation?market=AT) in Austria.
+    For more details see our [market capabilities](/Tiny-doc/tink_docs_home/market-capabilities/aggregation__q_market=AT__ba5b3efc64/) in Austria.
     
 -   July 25, 2024
     
@@ -794,7 +794,7 @@ Stay updated on all changes to the Tink platform and products.
     
     To future-proof the Tink API connectivity for integrations, we will on **2025-06-11** change the server certificate presented by **api.tink.com** and its subdomains, to be issued by a new root Certificate Authority. The current **DigiCert Global Root CA** will change to **DigiCert Global Root G2**.
     
-    For your integration to continue without issue after the change, please ensure that your application trusts both the current and upcoming DigiCert root CA certificates. We advice to customers relying on custom trust stores to update them according to our [HTTPS and TLS guidelines](https://docs.tink.com/api#introduction/https-and-tls) before then. If you know that your application uses the operating system's trust store, then keeping the OS up-to-date will be sufficient.
+    For your integration to continue without issue after the change, please ensure that your application trusts both the current and upcoming DigiCert root CA certificates. We advice to customers relying on custom trust stores to update them according to our [HTTPS and TLS guidelines](/Tiny-doc/tink_docs_api/api/#introduction/https-and-tls) before then. If you know that your application uses the operating system's trust store, then keeping the OS up-to-date will be sufficient.
     
     The Tink API server certificate will remain signed by **DigiCert Global Root CA** until it is renewed on **2025-06-11**.
     
@@ -850,7 +850,7 @@ Stay updated on all changes to the Tink platform and products.
     
     Income Check
     
-    Income Check customers in the UK can now access a more granular taxonomy with the introduction of 21 income [subcategories](https://docs.tink.com/api-risk#risk/income-check/create-an-income-check/response-incomecheck/incomesubtype) and subtype summary [KPIs](https://docs.tink.com/api-risk#risk/income-check/create-an-income-check/response-incomecheck/summarybysubtypes). This new update will enable customers to have more control on what type of income to include or exclude in their affordability assessments. This new update is only accessible in the JSON payload and the Income Check PDF in the first release, and the Risk decisioning view in Console to follow.
+    Income Check customers in the UK can now access a more granular taxonomy with the introduction of 21 income [subcategories](/Tiny-doc/tink_docs_api/api-risk/#risk/income-check/create-an-income-check/response-incomecheck/incomesubtype) and subtype summary [KPIs](/Tiny-doc/tink_docs_api/api-risk/#risk/income-check/create-an-income-check/response-incomecheck/summarybysubtypes). This new update will enable customers to have more control on what type of income to include or exclude in their affordability assessments. This new update is only accessible in the JSON payload and the Income Check PDF in the first release, and the Risk decisioning view in Console to follow.
     
     -   Note that the new taxonomy is enabled for all Income Check customers in the United Kingdom and can be enabled per customer in Spain. More full market releases to follow.
     -   For all other markets a default (UNDETERMINED) subType will be returned.
@@ -917,7 +917,7 @@ Stay updated on all changes to the Tink platform and products.
     
     API
     
-    The endpoints `user-data-control/data-exports`, `/data-exports/{id}/download` and `user-data-control/data-exports/{id}` are now deprecated. Consequently, the service [User-data-control](https://docs.tink.com/api-general#general/user-data-control) is now also deprecated and will reach end of life in June 2024.
+    The endpoints `user-data-control/data-exports`, `/data-exports/{id}/download` and `user-data-control/data-exports/{id}` are now deprecated. Consequently, the service [User-data-control](/Tiny-doc/tink_docs_api/api-general/#general/user-data-control) is now also deprecated and will reach end of life in June 2024.
     
 -   April 16, 2024
     
@@ -927,7 +927,7 @@ Stay updated on all changes to the Tink platform and products.
     
     API
     
-    The endpoint `/api/v1/version` and consequently the [Version](https://docs.tink.com/api-general#general/version) service are now deprecated and will reach end of life in September 2024.
+    The endpoint `/api/v1/version` and consequently the [Version](/Tiny-doc/tink_docs_api/api-general/#general/version) service are now deprecated and will reach end of life in September 2024.
     
 -   April 16, 2024
     
@@ -937,7 +937,7 @@ Stay updated on all changes to the Tink platform and products.
     
     API
     
-    The endpoints `/monitoring/ping` and `/monitoring/healthy` are now deprecated. Consequently, the [Monitoring](https://docs.tink.com/api-general#general/monitoring) service is now also deprecated and will reach end of life in October 2024.
+    The endpoints `/monitoring/ping` and `/monitoring/healthy` are now deprecated. Consequently, the [Monitoring](/Tiny-doc/tink_docs_api/api-general/#general/monitoring) service is now also deprecated and will reach end of life in October 2024.
     
 -   April 15, 2024
     
@@ -987,7 +987,7 @@ Stay updated on all changes to the Tink platform and products.
     
     Balance Check customers can now access the new Balance Refresh API, enabling efficient refreshes of selected account balances.
     
-    For more information, visit our [documentation](https://docs.tink.com/api-connectivity-v1#connectivity-v1/balance-refresh).
+    For more information, visit our [documentation](/Tiny-doc/tink_docs_api/api-connectivity-v1/#connectivity-v1/balance-refresh).
     
 -   March 27, 2024
     
@@ -1142,7 +1142,7 @@ Stay updated on all changes to the Tink platform and products.
     
     API
     
-    The [Update Webhook endpoint](https://docs.tink.com/api-events-v2#events-v2/webhook/update-webhook-endpoint) from the Events v2 service is now fixed and can be used with a JSON request body constructed according to the specification.
+    The [Update Webhook endpoint](/Tiny-doc/tink_docs_api/api-events-v2/#events-v2/webhook/update-webhook-endpoint) from the Events v2 service is now fixed and can be used with a JSON request body constructed according to the specification.
     
 -   February 12, 2024
     
@@ -1206,7 +1206,7 @@ Stay updated on all changes to the Tink platform and products.
     
     -   Sparebanken Vest
     
-    For more details see our [market capabilities](https://docs.tink.com/market-capabilities/payments?market=NO) for payments in Norway.
+    For more details see our [market capabilities](/Tiny-doc/tink_docs_home/market-capabilities/payments__q_market=NO__ba860634e5/) for payments in Norway.
     
 -   February 01, 2024
     
@@ -1220,7 +1220,7 @@ Stay updated on all changes to the Tink platform and products.
     
     -   Triodos
     
-    For more details see our [market capabilities](https://docs.tink.com/market-capabilities/aggregation?market=GB) in the UK.
+    For more details see our [market capabilities](/Tiny-doc/tink_docs_home/market-capabilities/aggregation__q_market=GB__0096e11120/) in the UK.
     
 -   January 24, 2024
     
@@ -1280,7 +1280,7 @@ Stay updated on all changes to the Tink platform and products.
     
     `"identity": { "name": "", "ssn": "" }`
     
-    > Note: The account holder name will still continue to be available and returned as part of the account information. See the API reference for details on [Account Check](https://docs.tink.com/api#data-v1/account-verification/the-account-verification-model/party), [Income Check](https://docs.tink.com/api#risk/income-check/create-an-income-check/response-incomecheck/account), [Expense Check](https://docs.tink.com/api#risk/expense-check/create-an-expense-check-report/response-expensecheck/account) and [Risk Insights](https://docs.tink.com/api#risk/risk-insights/get-a-risk-insights/response-riskinsights/account).
+    > Note: The account holder name will still continue to be available and returned as part of the account information. See the API reference for details on [Account Check](/Tiny-doc/tink_docs_api/api/#data-v1/account-verification/the-account-verification-model/party), [Income Check](/Tiny-doc/tink_docs_api/api/#risk/income-check/create-an-income-check/response-incomecheck/account), [Expense Check](/Tiny-doc/tink_docs_api/api/#risk/expense-check/create-an-expense-check-report/response-expensecheck/account) and [Risk Insights](/Tiny-doc/tink_docs_api/api/#risk/risk-insights/get-a-risk-insights/response-riskinsights/account).
     
 -   December 15, 2023
     
@@ -1306,7 +1306,7 @@ Stay updated on all changes to the Tink platform and products.
     
     Money Manager
     
-    -   Added support for [Recommended Budgets](https://docs.tink.com/resources/money-manager/money-manager-ios/recommended-budgets-for-ios-pfm-sdk) feature.
+    -   Added support for [Recommended Budgets](/Tiny-doc/tink_docs_home/resources/money-manager/money-manager-ios/recommended-budgets-for-ios-pfm-sdk/) feature.
     -   Extended `FinanceOverviewViewController.Feature` type with new case: `recommendedBudgets`. Enabling this feature will present list of recommended budgets within `FinanceOverviewViewController` layout.
     -   Extended `CreateBudgetViewController` initializer with new optional attribute: `showBudgetCreateSuccessScreen`. Passed value will toggle appearance of success screen after budget creation.
     -   Updated the code reference documentation.
@@ -1321,7 +1321,7 @@ Stay updated on all changes to the Tink platform and products.
     
     Money Manager
     
-    -   Added [Recommended Budgets](https://docs.tink.com/resources/money-manager/money-manager-api/recommend-budgets) feature.
+    -   Added [Recommended Budgets](/Tiny-doc/tink_docs_home/resources/money-manager/money-manager-api/recommend-budgets/) feature.
     -   Created entry point `EntryPoint.RecommendedBudgets` to launch Recommended Budgets as a stand alone feature.
     -   Extended `TinkMoneyManager.init()` with `enableRecommendedBudget` feature flag to enable/disable `Recommended Budgets` feature.
     -   Added Budget creation success screen, which appears as a confirmation of successful budget creation.
@@ -1342,7 +1342,7 @@ Stay updated on all changes to the Tink platform and products.
     -   Landesbank Saar
     -   UmweltBank
     
-    For more details see our [market capabilities](https://docs.tink.com/market-capabilities/payments?market=DE) for payments in Germany.
+    For more details see our [market capabilities](/Tiny-doc/tink_docs_home/market-capabilities/payments__q_market=DE__1399dc407b/) for payments in Germany.
     
 -   November 09, 2023
     
@@ -1400,7 +1400,7 @@ Stay updated on all changes to the Tink platform and products.
     
     Income Check
     
-    Income Check (BETA) app users can now access a much more granular Income Check taxonomy with the introduction of 21 income [subtypes](https://docs.tink.com/api#risk/income-check/create-an-income-check/response-incomecheck/incomesubtype) and subtype summary [KPIs](https://docs.tink.com/api#risk/income-check/create-an-income-check/response-incomecheck/summarybysubtypes). This new update will enable you to have more control on what type of income you want to include in your affordability assessments.
+    Income Check (BETA) app users can now access a much more granular Income Check taxonomy with the introduction of 21 income [subtypes](/Tiny-doc/tink_docs_api/api/#risk/income-check/create-an-income-check/response-incomecheck/incomesubtype) and subtype summary [KPIs](/Tiny-doc/tink_docs_api/api/#risk/income-check/create-an-income-check/response-incomecheck/summarybysubtypes). This new update will enable you to have more control on what type of income you want to include in your affordability assessments.
     
     -   This new update is only accessible in the JSON payload for the first release, with PDF and console to follow.
     -   Note that the new taxonomy will first be available in Spain and the United Kingdom with more markets to follow.
@@ -1415,7 +1415,7 @@ Stay updated on all changes to the Tink platform and products.
     
     API
     
-    API calls to [List providers for a market](https://docs.tink.com/api#connectivity-v1/provider/list-providers-for-a-market) will return providers sorted by `rank` value. This is an arbitrary value set by Tink based on market share and relevance for each bank. Higher is better.
+    API calls to [List providers for a market](/Tiny-doc/tink_docs_api/api/#connectivity-v1/provider/list-providers-for-a-market) will return providers sorted by `rank` value. This is an arbitrary value set by Tink based on market share and relevance for each bank. Higher is better.
     
     When the rank value is not set or multiple items have the same rank value, providers will be sorted based on `providerName`.
     
@@ -1462,7 +1462,7 @@ Stay updated on all changes to the Tink platform and products.
     
     You can now connect to and initiate payments with Wise bank in Germany, Italy and Spain.
     
-    For more details see our [market capabilities](https://docs.tink.com/market-capabilities/aggregation?market=DE).
+    For more details see our [market capabilities](/Tiny-doc/tink_docs_home/market-capabilities/aggregation__q_market=DE__1399dc407b/).
     
 -   September 22, 2023
     
@@ -1488,7 +1488,7 @@ Stay updated on all changes to the Tink platform and products.
     
     You can now connect your business accounts to Revolut in Poland.
     
-    For more details see our [market capabilities](https://docs.tink.com/market-capabilities/aggregation?market=PL) for account aggregation in Poland.
+    For more details see our [market capabilities](/Tiny-doc/tink_docs_home/market-capabilities/aggregation__q_market=PL__c293d8fb0b/) for account aggregation in Poland.
     
 -   September 22, 2023
     
@@ -1566,8 +1566,8 @@ Stay updated on all changes to the Tink platform and products.
         
     -   Added two new types of Actionable Insights:
         
-        -   [Spending By Category Increased](https://docs.tink.com/resources/money-manager/money-manager-api/list-of-available-insights#spending-by-category-increased)
-        -   [Spending By Primary Category Increased](https://docs.tink.com/resources/money-manager/money-manager-api/list-of-available-insights#spending-by-category-increased)
+        -   [Spending By Category Increased](/Tiny-doc/tink_docs_home/resources/money-manager/money-manager-api/list-of-available-insights/#spending-by-category-increased)
+        -   [Spending By Primary Category Increased](/Tiny-doc/tink_docs_home/resources/money-manager/money-manager-api/list-of-available-insights/#spending-by-category-increased)
     
     **Breaking change:**
     
@@ -1616,7 +1616,7 @@ Stay updated on all changes to the Tink platform and products.
     
     Payments
     
-    Tink customers can now access [Risk Signals](https://docs.tink.com/resources/payments/one-time-payments/risk-signals), a new product that helps identify payment and settlement risk so you can optimise and protect revenues.
+    Tink customers can now access [Risk Signals](/Tiny-doc/tink_docs_home/resources/payments/one-time-payments/risk-signals/), a new product that helps identify payment and settlement risk so you can optimise and protect revenues.
     
     Risk Signals uses payment, account information (AIS) and provider data to identify payment risk and block any payments with a higher risk of settlement failure, enabling merchants to offer instant payment experiences with the highest protection.
     
@@ -1694,7 +1694,7 @@ Stay updated on all changes to the Tink platform and products.
     -   Bankdata - 8 banks including Jyske Bank, Sydbank and Ringkjøbing Landbobank
     -   SDC - 20 banks including Sparekassen
     
-    For more details see our [market capabilities](https://docs.tink.com/market-capabilities/payments?market=DK) for payments in Denmark.
+    For more details see our [market capabilities](/Tiny-doc/tink_docs_home/market-capabilities/payments__q_market=DK__bd95cdcd08/) for payments in Denmark.
     
 -   August 28, 2023
     
@@ -1706,7 +1706,7 @@ Stay updated on all changes to the Tink platform and products.
     
     You can now connect to Lunar bank in Denmark.
     
-    For more details see our [market capabilities](https://docs.tink.com/market-capabilities/aggregation?market=DK) for account aggregation in Denmark.
+    For more details see our [market capabilities](/Tiny-doc/tink_docs_home/market-capabilities/aggregation__q_market=DK__bd95cdcd08/) for account aggregation in Denmark.
     
 -   August 28, 2023
     
@@ -1736,7 +1736,7 @@ Stay updated on all changes to the Tink platform and products.
     -   CheBanca
     -   Deutsche Bank
     
-    For more details see our [market capabilities](https://docs.tink.com/market-capabilities/payments?market=IT) for payments in Italy.
+    For more details see our [market capabilities](/Tiny-doc/tink_docs_home/market-capabilities/payments__q_market=IT__c64c658f70/) for payments in Italy.
     
 -   August 28, 2023
     
@@ -1770,7 +1770,7 @@ Stay updated on all changes to the Tink platform and products.
     
     Legacy test providers that have a Tink Demo Bank alternative will not be available from October 31st 2023.
     
-    From today, Console users creating new Sandbox apps will have access to a revised list of test providers under Tink Demo Bank. For existing apps using legacy providers, make sure to switch to a [supported test providers](https://docs.tink.com/resources/console/demo-bank#supported-demo-bank-providers) by October 31st.
+    From today, Console users creating new Sandbox apps will have access to a revised list of test providers under Tink Demo Bank. For existing apps using legacy providers, make sure to switch to a [supported test providers](/Tiny-doc/tink_docs_home/resources/console/demo-bank/#supported-demo-bank-providers) by October 31st.
     
 -   August 15, 2023
     
@@ -1840,7 +1840,7 @@ Stay updated on all changes to the Tink platform and products.
     
     Business Transactions
     
-    Transactions and Business Transactions customers can now obtain more insights on modified transactions when subscribing [Event: Account transactions modified.](https://docs.tink.com/resources/transactions/webhooks-for-transactions#event-account-transactions-modified)
+    Transactions and Business Transactions customers can now obtain more insights on modified transactions when subscribing [Event: Account transactions modified.](/Tiny-doc/tink_docs_home/resources/transactions/webhooks-for-transactions/#event-account-transactions-modified)
     
 -   June 27, 2023
     
@@ -1852,7 +1852,7 @@ Stay updated on all changes to the Tink platform and products.
     
     Business Transactions
     
-    Transactions and Business Transactions customers can now obtain a list of transaction identifiers to synchronise deleted transactions after subscribing to [Event: account transactions deleted](https://docs.tink.com/resources/business-transactions/webhooks-for-business-transactions#event-account-transactions-deleted).
+    Transactions and Business Transactions customers can now obtain a list of transaction identifiers to synchronise deleted transactions after subscribing to [Event: account transactions deleted](/Tiny-doc/tink_docs_home/resources/business-transactions/webhooks-for-business-transactions/#event-account-transactions-deleted).
     
 -   June 19, 2023
     
@@ -1924,7 +1924,7 @@ Stay updated on all changes to the Tink platform and products.
     
     Documentation
     
-    This changelog announcement has been superseded by a later announcement: [https://docs.tink.com/changelog#upcoming-tink-api-root-ca-change](https://docs.tink.com/changelog#upcoming-tink-api-root-ca-change)
+    This changelog announcement has been superseded by a later announcement: [/Tiny-doc/tink_docs_home/changelog/#upcoming-tink-api-root-ca-change](/Tiny-doc/tink_docs_home/changelog/#upcoming-tink-api-root-ca-change)
     
     The original announcement below is kept for transparency, but should be disregarded.
     
@@ -1934,7 +1934,7 @@ Stay updated on all changes to the Tink platform and products.
     
     ~For further details, see [DigiCert's announcement](https://knowledge.digicert.com/generalinformation/digicert-root-and-intermediate-ca-certificate-updates-2023.html)~
     
-    ~The Tink API server certificate will remain to be signed by **DigiCert Global Root CA** until it is renewed before it's expiration. Renewal shall occur no later than Mon, 10 Jun 2024 23:59:59 GMT, we advice to customers relying on custom trust stores to update them according to our new [guidelines](https://docs.tink.com/api#introduction/https-and-tls) before then.~
+    ~The Tink API server certificate will remain to be signed by **DigiCert Global Root CA** until it is renewed before it's expiration. Renewal shall occur no later than Mon, 10 Jun 2024 23:59:59 GMT, we advice to customers relying on custom trust stores to update them according to our new [guidelines](/Tiny-doc/tink_docs_api/api/#introduction/https-and-tls) before then.~
     
 -   June 05, 2023
     
@@ -2003,7 +2003,7 @@ Stay updated on all changes to the Tink platform and products.
     -   Fideuram
     -   Findomestic
     
-    For more details see our [market capabilities](https://docs.tink.com/market-capabilities/payments?market=IT) for payments Italy.
+    For more details see our [market capabilities](/Tiny-doc/tink_docs_home/market-capabilities/payments__q_market=IT__c64c658f70/) for payments Italy.
     
 -   May 16, 2023
     
@@ -2015,7 +2015,7 @@ Stay updated on all changes to the Tink platform and products.
     
     You can now connect to the ABN-Amro bank in both Germany and the United Kingdom.
     
-    For more details see our [market capabilities](https://docs.tink.com/market-capabilities/aggregation?market=GB).
+    For more details see our [market capabilities](/Tiny-doc/tink_docs_home/market-capabilities/aggregation__q_market=GB__0096e11120/).
     
 -   May 16, 2023
     
@@ -2034,7 +2034,7 @@ Stay updated on all changes to the Tink platform and products.
     
     These connections support both AIS and PIS functionalities.
     
-    For more details see our [market capabilities for Germany](https://docs.tink.com/market-capabilities/aggregation?market=DE).
+    For more details see our [market capabilities for Germany](/Tiny-doc/tink_docs_home/market-capabilities/aggregation__q_market=DE__1399dc407b/).
     
 -   May 16, 2023
     
@@ -2051,7 +2051,7 @@ Stay updated on all changes to the Tink platform and products.
     
     To leverage these new business connections please contact your Tink representative.
     
-    For more details see our [market capabilities](https://docs.tink.com/market-capabilities/aggregation?market=FR).
+    For more details see our [market capabilities](/Tiny-doc/tink_docs_home/market-capabilities/aggregation__q_market=FR__6645d3117f/).
     
 -   May 15, 2023
     
@@ -2215,7 +2215,7 @@ Stay updated on all changes to the Tink platform and products.
     -   PKO BP
     -   Santander
     
-    For more details see our [market capabilities for payments in Poland](https://docs.tink.com/market-capabilities/payments?market=PL).
+    For more details see our [market capabilities for payments in Poland](/Tiny-doc/tink_docs_home/market-capabilities/payments__q_market=PL__c293d8fb0b/).
     
 -   April 13, 2023
     
@@ -2274,7 +2274,7 @@ Stay updated on all changes to the Tink platform and products.
     -   Solution Bank
     -   Cassa Centrale Banca (incl. subsidiaries)
     
-    For more details see our [market capabilities for Italy](https://docs.tink.com/market-capabilities/aggregation?market=IT).
+    For more details see our [market capabilities for Italy](/Tiny-doc/tink_docs_home/market-capabilities/aggregation__q_market=IT__c64c658f70/).
     
 -   April 13, 2023
     
@@ -2291,7 +2291,7 @@ Stay updated on all changes to the Tink platform and products.
     -   BankinterCard
     -   KutxaBank
     
-    For more details see our [market capabilities for Spain](https://docs.tink.com/market-capabilities/aggregation?market=ES).
+    For more details see our [market capabilities for Spain](/Tiny-doc/tink_docs_home/market-capabilities/aggregation__q_market=ES__32b4544a87/).
     
 -   April 13, 2023
     
@@ -2322,7 +2322,7 @@ Stay updated on all changes to the Tink platform and products.
     -   HSBCnet
     -   Tesco Bank
     
-    For more details see our [market capabilities for payments in the UK](https://docs.tink.com/market-capabilities/payments?market=GB).
+    For more details see our [market capabilities for payments in the UK](/Tiny-doc/tink_docs_home/market-capabilities/payments__q_market=GB__0096e11120/).
     
 -   April 13, 2023
     
@@ -2358,7 +2358,7 @@ Stay updated on all changes to the Tink platform and products.
     
     It is now possible to define if the Credential should be refreshed after being modified. Previously the request triggered a refresh towards the provider by default.
     
-    For more details, visit our [documentation](https://docs.tink.com/api#connectivity-v1/credentials/modify-credentials).
+    For more details, visit our [documentation](/Tiny-doc/tink_docs_api/api/#connectivity-v1/credentials/modify-credentials).
     
 -   March 30, 2023
     
@@ -2434,7 +2434,7 @@ Stay updated on all changes to the Tink platform and products.
     
     API
     
-    You can now categorise payments using the new custom metadata field. You can add up to five custom entries to payment requests to help with your reconciliation and reporting. For more information, see [payment request documentation](https://docs.tink.com/api#payment/payment-request/create-payment-request)
+    You can now categorise payments using the new custom metadata field. You can add up to five custom entries to payment requests to help with your reconciliation and reporting. For more information, see [payment request documentation](/Tiny-doc/tink_docs_api/api/#payment/payment-request/create-payment-request)
     
 -   March 17, 2023
     
@@ -2485,7 +2485,7 @@ Stay updated on all changes to the Tink platform and products.
     -   HSBC Net
     -   Ulster Bankline
     
-    For more details see our [market capabilities](https://docs.tink.com/market-capabilities/payments?market=GB).
+    For more details see our [market capabilities](/Tiny-doc/tink_docs_home/market-capabilities/payments__q_market=GB__0096e11120/).
     
 -   March 09, 2023
     
@@ -2505,7 +2505,7 @@ Stay updated on all changes to the Tink platform and products.
     
     Business Transactions
     
-    Transactions and Business Transactions customers can now obtain more detailed insights using the new [Counterparties](https://docs.tink.com/api#data-v2/transaction/list-transactions/response-listtransactionsresponse/counterpartyinformation) and [Detailed](https://docs.tink.com/api#data-v2/transaction/list-transactions/response-listtransactionsresponse/descriptions) data points.
+    Transactions and Business Transactions customers can now obtain more detailed insights using the new [Counterparties](/Tiny-doc/tink_docs_api/api/#data-v2/transaction/list-transactions/response-listtransactionsresponse/counterpartyinformation) and [Detailed](/Tiny-doc/tink_docs_api/api/#data-v2/transaction/list-transactions/response-listtransactionsresponse/descriptions) data points.
     
     Note that availability of the Counterparties and Detailed descriptions may vary per provider and market (Currently populated primarily in Germany).
     
@@ -2531,7 +2531,7 @@ Stay updated on all changes to the Tink platform and products.
     
     Income Check
     
-    Income Check customers can now access applicant and corresponding account parties’ [bank account roles](https://docs.tink.com/api#risk/income-check/get-an-income-check/response-incomecheck/user). Accessible in both the payload and Income Check PDFs, this will simplify the handling of joint/shared account flows and determining ownership of the account.
+    Income Check customers can now access applicant and corresponding account parties’ [bank account roles](/Tiny-doc/tink_docs_api/api/#risk/income-check/get-an-income-check/response-incomecheck/user). Accessible in both the payload and Income Check PDFs, this will simplify the handling of joint/shared account flows and determining ownership of the account.
     
     Note that availability of the role may vary per provider and market.
     
@@ -2563,7 +2563,7 @@ Stay updated on all changes to the Tink platform and products.
     
     You can now enable Early Redirect for risk decisioning products. Decouple your frontend and backend flows by redirecting users from Tink back to your application right after they’ve authenticated (before the data has finished being fetched and processed), leading to a faster end-user journey.
     
-    For more information, read our documentation on [Early Redirect](https://docs.tink.com/resources/income-check/ic-fetch-data-from-several-risk-products-in-one-flow).
+    For more information, read our documentation on [Early Redirect](/Tiny-doc/tink_docs_home/resources/income-check/ic-fetch-data-from-several-risk-products-in-one-flow/).
     
 -   February 28, 2023
     
@@ -2575,7 +2575,7 @@ Stay updated on all changes to the Tink platform and products.
     
     The refresh\_token OAuth grant type is deprecated and refresh tokens will no longer be emitted on March 1st, 2023. OAuth clients actively making use of refresh tokens will be unaffected until the End of Life notice is posted, but we encourage to stop using this feature as soon as possible.
     
-    For information on the supported grants, see [documentation on OAuth access tokens.](https://docs.tink.com/api#general/oauth/get-access-token)
+    For information on the supported grants, see [documentation on OAuth access tokens.](/Tiny-doc/tink_docs_api/api/#general/oauth/get-access-token)
     
 -   February 24, 2023
     
@@ -2601,7 +2601,7 @@ Stay updated on all changes to the Tink platform and products.
     
     We have released new endpoints for Consent and Authorization in beta. Currently the APIs are only available for the Variable Recurring Payments product.
     
-    For more information, see [documentation on VRPs](https://docs.tink.com/resources/payments#variable-recurring-payments).
+    For more information, see [documentation on VRPs](/Tiny-doc/tink_docs_home/resources/payments/#variable-recurring-payments).
     
 -   February 24, 2023
     
@@ -2613,9 +2613,9 @@ Stay updated on all changes to the Tink platform and products.
     
     Payments
     
-    We have released new endpoints in beta for our upcoming Variable Recurring Payments (VRPs) product. The new endpoints are [v1/mandate-payments](https://docs.tink.com/api#payment/mandate-payment/create-mandate-payment) and [v1/mandate-payments/{id}](https://docs.tink.com/api#payment/mandate-payment/get-mandate-payment) and allow you to create and fetch data relating to a mandate payment respectively.
+    We have released new endpoints in beta for our upcoming Variable Recurring Payments (VRPs) product. The new endpoints are [v1/mandate-payments](/Tiny-doc/tink_docs_api/api/#payment/mandate-payment/create-mandate-payment) and [v1/mandate-payments/{id}](/Tiny-doc/tink_docs_api/api/#payment/mandate-payment/get-mandate-payment) and allow you to create and fetch data relating to a mandate payment respectively.
     
-    For more information, visit our documentation on [VRPs](https://docs.tink.com/resources/payments#variable-recurring-payments).
+    For more information, visit our documentation on [VRPs](/Tiny-doc/tink_docs_home/resources/payments/#variable-recurring-payments).
     
 -   February 20, 2023
     
@@ -2657,7 +2657,7 @@ Stay updated on all changes to the Tink platform and products.
     
     We have enabled a new AIS connection for Weberbank in Germany.
     
-    For more details see our [market capabilities](https://docs.tink.com/market-capabilities/aggregation?market=DE).
+    For more details see our [market capabilities](/Tiny-doc/tink_docs_home/market-capabilities/aggregation__q_market=DE__1399dc407b/).
     
 -   November 30, 2022
     
@@ -2671,7 +2671,7 @@ Stay updated on all changes to the Tink platform and products.
     
     Added a new error type - PROVIDER\_ERROR.UNKNOWN\_PROVIDER\_ERROR for when a financial service returns an unknown or unexpected response.
     
-    For more information, see [Provider Consent Errors](https://docs.tink.com/resources/transactions/provider-consent-errors).
+    For more information, see [Provider Consent Errors](/Tiny-doc/tink_docs_home/resources/transactions/provider-consent-errors/).
     
 -   November 28, 2022
     
@@ -2780,7 +2780,7 @@ Stay updated on all changes to the Tink platform and products.
     
     Transactions
     
-    The beta endpoint for [extending a provider consent](https://docs.tink.com/api#connectivity/provider-consent/extend-a-consent) now returns a `200` status code and a response body containing the updated provider consents resource, including the new `sessionExpiryDate`. Previously, a `204` status code was returned with no response body.
+    The beta endpoint for [extending a provider consent](/Tiny-doc/tink_docs_api/api/#connectivity/provider-consent/extend-a-consent) now returns a `200` status code and a response body containing the updated provider consents resource, including the new `sessionExpiryDate`. Previously, a `204` status code was returned with no response body.
     
 -   September 15, 2022
     
@@ -2790,7 +2790,7 @@ Stay updated on all changes to the Tink platform and products.
     
     The Payments webhooks can now return the remittance information field. The field includes the remittance information value that was specified during the creation of a payment request.
     
-    For more information, see [Webhooks for Payments](https://docs.tink.com/resources/payments/one-time-payments-notifications-and-webhooks).
+    For more information, see [Webhooks for Payments](/Tiny-doc/tink_docs_home/resources/payments/one-time-payments-notifications-and-webhooks/).
     
 -   September 06, 2022
     
@@ -2838,7 +2838,7 @@ Stay updated on all changes to the Tink platform and products.
     -   Added the "pending" state information to the transactions in the budget screen.
     -   Improved the UI for devices with small screens.
     
-    More info regarding the transaction-details feature on [Tink Docs](https://docs.tink.com/resources/pfm-sdk-android/transaction-details-for-android)
+    More info regarding the transaction-details feature on [Tink Docs](/Tiny-doc/tink_docs_home/resources/pfm-sdk-android/transaction-details-for-android/)
     
     Updated to [Tink Core version 0.8.6](https://github.com/tink-ab/tink-core-android/releases/tag/0.8.6)
     
@@ -2884,8 +2884,8 @@ Stay updated on all changes to the Tink platform and products.
     
     Connections
     
-    [Manual authenticate of credentials](https://docs.tink.com/api#connectivity/credentials/manual-authenticate-of-credentials) is no longer limited to `OPEN_BANKING` access type of providers. From now on this endpoint can be used to trigger full authentication flow for all providers regardless of their access type.  
-    Note: The [Modify credentials endpoint](https://docs.tink.com/api#connectivity/credentials/modify-credentials) still has to be called in order to change static fields required by the provider, if any.
+    [Manual authenticate of credentials](/Tiny-doc/tink_docs_api/api/#connectivity/credentials/manual-authenticate-of-credentials) is no longer limited to `OPEN_BANKING` access type of providers. From now on this endpoint can be used to trigger full authentication flow for all providers regardless of their access type.  
+    Note: The [Modify credentials endpoint](/Tiny-doc/tink_docs_api/api/#connectivity/credentials/modify-credentials) still has to be called in order to change static fields required by the provider, if any.
     
 -   July 07, 2022
     
@@ -3040,7 +3040,7 @@ Stay updated on all changes to the Tink platform and products.
     -   `error_type` (new): For authentication errors, a machine readable error code that describes the source of the error (eg. user side, bank side, Tink side)
     -   `tracking_id` (new): A unique identifier for the Tink Link session to aid with resolving issues when communicating with Tink's support
     
-    This change is backward compatible with existing integrations and can be adopted at any time. For more information, see our [Tink Link errors article](https://docs.tink.com/resources/tink-link-web/tink-link-web-errors), which documents the error response format and the possible error codes you may encounter when using Tink Link.
+    This change is backward compatible with existing integrations and can be adopted at any time. For more information, see our [Tink Link errors article](/Tiny-doc/tink_docs_home/resources/tink-link-web/tink-link-web-errors/), which documents the error response format and the possible error codes you may encounter when using Tink Link.
     
 -   May 03, 2022
     
@@ -3093,7 +3093,7 @@ Stay updated on all changes to the Tink platform and products.
     
     After a successful payment, use the `account_verification_report_id`, that is returned on the `redirect_uri`, to fetch the account holder name.
     
-    More information can be found [on our docs](https://docs.tink.com/resources/payments/start-payment#get-the-account-holder-name).
+    More information can be found [on our docs](/Tiny-doc/tink_docs_home/resources/payments/start-payment/#get-the-account-holder-name).
     
 -   April 14, 2022
     
@@ -3125,7 +3125,7 @@ Stay updated on all changes to the Tink platform and products.
     
     Connections
     
-    [Modify credentials](https://docs.tink.com/api#connectivity/credentials/modify-credentials) will now return a `409` status code if the credentials cannot be modified due to another ongoing process.
+    [Modify credentials](/Tiny-doc/tink_docs_api/api/#connectivity/credentials/modify-credentials) will now return a `409` status code if the credentials cannot be modified due to another ongoing process.
     
     Previously a `200` status code was returned and the operation failed silently.
     
@@ -3425,7 +3425,7 @@ Stay updated on all changes to the Tink platform and products.
     
     Payments
     
-    Now you can configure Tink Link to prevent your users from reusing Tink Link. For more details please read [this](https://docs.tink.com/resources/payments/preventing-your-users-from-reusing-tink-link) guide.
+    Now you can configure Tink Link to prevent your users from reusing Tink Link. For more details please read [this](/Tiny-doc/tink_docs_home/resources/payments/preventing-your-users-from-reusing-tink-link/) guide.
     
 -   October 21, 2021
     
@@ -3435,7 +3435,7 @@ Stay updated on all changes to the Tink platform and products.
     
     Added support for **FASTER\_PAYMENTS** `paymentScheme` in the UK.
     
-    A payment with **FASTER\_PAYMENTS** scheme can be [initiated](https://docs.tink.com/api#payment/payment-request/create-payment-request) by specifying **FASTER\_PAYMENTS** in the `paymentScheme` field.
+    A payment with **FASTER\_PAYMENTS** scheme can be [initiated](/Tiny-doc/tink_docs_api/api/#payment/payment-request/create-payment-request) by specifying **FASTER\_PAYMENTS** in the `paymentScheme` field.
     
 -   September 29, 2021
     
@@ -3474,8 +3474,8 @@ Stay updated on all changes to the Tink platform and products.
     
     SDK Android
     
-    -   Added possibility to show a toolbar for the overview, see [documentation](https://docs.tink.com/resources/pfm-sdk-android/pfm-sdk-android-finance-overview#displaying-the-finance-overview).
-    -   Added a callback to listen to back press events, see [documentation](https://docs.tink.com/resources/pfm-sdk-android/pfm-sdk-android-finance-overview#displaying-the-finance-overview).
+    -   Added possibility to show a toolbar for the overview, see [documentation](/Tiny-doc/tink_docs_home/resources/pfm-sdk-android/pfm-sdk-android-finance-overview/#displaying-the-finance-overview).
+    -   Added a callback to listen to back press events, see [documentation](/Tiny-doc/tink_docs_home/resources/pfm-sdk-android/pfm-sdk-android-finance-overview/#displaying-the-finance-overview).
     -   Aligned date formatting to be consistent with Money Manager SDK iOS.
     -   Only show first 3 characters of month's name in bar graphs to prevent overlap for some locales.
     -   When starting up Money Manager, the expenses statistics are displayed by default. Previously, the last user selected statistics were displayed. This aligns the behaviour with Money Manager SDK iOS.
@@ -3503,7 +3503,7 @@ Stay updated on all changes to the Tink platform and products.
     
     Transactions
     
-    Transaction timestamp support has been added to the [/data/v2/transaction](https://docs.tink.com/api#data-v2/transaction) resource in the form of two new optional fields: `bookedDateTime` and `valueDateTime`.
+    Transaction timestamp support has been added to the [/data/v2/transaction](/Tiny-doc/tink_docs_api/api/#data-v2/transaction) resource in the form of two new optional fields: `bookedDateTime` and `valueDateTime`.
     
     _This feature is currently in beta and only available for UK providers that provide detailed timestamp information._
     
@@ -3604,7 +3604,7 @@ Stay updated on all changes to the Tink platform and products.
     
     Added support for **weekly** recurring payments.
     
-    A weekly recurring payment can be [created](https://docs.tink.com/api#recurring-payment/create-recurring-payment) by specifying **WEEKLY** for `frequency` and providing a `dayOfWeek`.
+    A weekly recurring payment can be [created](/Tiny-doc/tink_docs_api/api/#recurring-payment/create-recurring-payment) by specifying **WEEKLY** for `frequency` and providing a `dayOfWeek`.
     
 -   June 17, 2021
     
@@ -3658,7 +3658,7 @@ Stay updated on all changes to the Tink platform and products.
     
     SDK iOS
     
-    -   Added a new improving categorization level feature. Read more about it [here](https://docs.tink.com/resources/pfm-sdk-ios/categorization#improve-the-categorization-level).
+    -   Added a new improving categorization level feature. Read more about it [here](/Tiny-doc/tink_docs_home/resources/pfm-sdk-ios/categorization/#improve-the-categorization-level).
         -   Added the `improveCategorizationLevel` feature on the finance overview.
             -   Support using `predicate` on `improveCategorizationLevel` feature to control visibility on finance overview.
         -   Support using `improveCategorizationLevelViewController` directly with transactionIDs or transactions to improve categorization.
@@ -3692,7 +3692,7 @@ Stay updated on all changes to the Tink platform and products.
     
     Console
     
-    [Tink Console](https://console.tink.com/) now supports SSO (single sign-on) via SAML. This allows users in your organisation to sign in to Console with your own identity provider (IdP) of choice. The new feature can be found under **Organisation => Settings**. For detailed instructions, go ahead and read our [SAML guide](https://docs.tink.com/resources/console/single-sign-on-via-saml).
+    [Tink Console](https://console.tink.com/) now supports SSO (single sign-on) via SAML. This allows users in your organisation to sign in to Console with your own identity provider (IdP) of choice. The new feature can be found under **Organisation => Settings**. For detailed instructions, go ahead and read our [SAML guide](/Tiny-doc/tink_docs_home/resources/console/single-sign-on-via-saml/).
     
 -   April 06, 2021
     
@@ -3702,7 +3702,7 @@ Stay updated on all changes to the Tink platform and products.
     
     Documentation
     
-    We’ve added support for payments on the connection capabilities page. You can now see up-to-date information about which countries we’re live in, the financial institutions Tink connects to, which payment schemes we support (SEPA Credit Transfer, SEPA Instant, UK Faster Payments, local schemes, etc., and support for additional functionality such as future-dated and recurring payments). Check it out [here](https://docs.tink.com/market-capabilities/payments).
+    We’ve added support for payments on the connection capabilities page. You can now see up-to-date information about which countries we’re live in, the financial institutions Tink connects to, which payment schemes we support (SEPA Credit Transfer, SEPA Instant, UK Faster Payments, local schemes, etc., and support for additional functionality such as future-dated and recurring payments). Check it out [here](/Tiny-doc/tink_docs_home/market-capabilities/payments/).
     
 -   March 31, 2021
     
@@ -3720,7 +3720,7 @@ Stay updated on all changes to the Tink platform and products.
     
     Documentation
     
-    Published a series of [guides](https://docs.tink.com/resources/payments/payment-initiation-flow-optimisation-overview) on how to customise the payments flow to improve the user experience. This includes how to change colours and fonts, plus configure settings like source account preselection and desktop to mobile handoff.
+    Published a series of [guides](/Tiny-doc/tink_docs_home/resources/payments/payment-initiation-flow-optimisation-overview/) on how to customise the payments flow to improve the user experience. This includes how to change colours and fonts, plus configure settings like source account preselection and desktop to mobile handoff.
     
 -   March 23, 2021
     
@@ -3755,10 +3755,10 @@ Stay updated on all changes to the Tink platform and products.
     
     Aggregation
     
-    It is now possible to get a list of the consents that a user has for each provider, the associated `credentialsId`, the consent `sessionExpiryTime`, the consent `status` and the `accountIds` for all accounts that data is available for. For more information, see the [provider consents API documentation](https://docs.tink.com/api#connectivity/provider-consent)  
+    It is now possible to get a list of the consents that a user has for each provider, the associated `credentialsId`, the consent `sessionExpiryTime`, the consent `status` and the `accountIds` for all accounts that data is available for. For more information, see the [provider consents API documentation](/Tiny-doc/tink_docs_api/api/#connectivity/provider-consent)  
     _This feature is currently only supported for the Transactions product._
     
-    Note: [Link](https://docs.tink.com/api#connectivity/provider-consent) to the API docs.
+    Note: [Link](/Tiny-doc/tink_docs_api/api/#connectivity/provider-consent) to the API docs.
     
 -   March 12, 2021
     
@@ -3790,8 +3790,8 @@ Stay updated on all changes to the Tink platform and products.
     
     Aggregation
     
-    [Provider’s](https://docs.tink.com/api#connectivity/provider/the-provider-model) `AuthenticationUserType` field has been deprecated.  
-    Information about which segments (PERSONAL, BUSINESS) a provider covers can be derived from [`financialServices`](https://docs.tink.com/api#connectivity/provider/the-provider-model/financialservice)
+    [Provider’s](/Tiny-doc/tink_docs_api/api/#connectivity/provider/the-provider-model) `AuthenticationUserType` field has been deprecated.  
+    Information about which segments (PERSONAL, BUSINESS) a provider covers can be derived from [`financialServices`](/Tiny-doc/tink_docs_api/api/#connectivity/provider/the-provider-model/financialservice)
     
 -   March 04, 2021
     
@@ -3831,7 +3831,7 @@ Stay updated on all changes to the Tink platform and products.
     
     #### Features
     
-    -   Added new Budgets feature. Please look at the updated [finance overview display options guide](https://docs.tink.com/resources/pfm-sdk-android/pfm-sdk-android-finance-overview#displaying-the-finance-overview) to add Budgets to the finance overview UI. It is also recommended to look at the updated list of strings in the [strings customization guide](https://github.com/tink-ab/tink-pfm-android/blob/master/string-customization-guide.md) for customization and adding translations for the newly added strings.
+    -   Added new Budgets feature. Please look at the updated [finance overview display options guide](/Tiny-doc/tink_docs_home/resources/pfm-sdk-android/pfm-sdk-android-finance-overview/#displaying-the-finance-overview) to add Budgets to the finance overview UI. It is also recommended to look at the updated list of strings in the [strings customization guide](https://github.com/tink-ab/tink-pfm-android/blob/master/string-customization-guide.md) for customization and adding translations for the newly added strings.
     -   Updates to Actionable Insights feature to support new insights and insight actions related to budgets.
     
     #### Dependencies
@@ -3857,11 +3857,11 @@ Stay updated on all changes to the Tink platform and products.
     
     You can now preview upcoming improvements in the data models and resource endpoints for `accounts` and `transactions`. These endpoints are part of our upcoming Transactions product and are now available for you to try out as beta endpoints.
     
-    Two new endpoints are available: [/v2/transactions](https://docs.tink.com/api#transaction-v2-list-transactions) and [/v2/accounts](https://docs.tink.com/api#account-v2-list-accounts). These endpoints are compatible with the current generation of Account Aggregation features and you can test them out by using them instead of the following endpoints:
+    Two new endpoints are available: [/v2/transactions](/Tiny-doc/tink_docs_api/api/#transaction-v2-list-transactions) and [/v2/accounts](/Tiny-doc/tink_docs_api/api/#account-v2-list-accounts). These endpoints are compatible with the current generation of Account Aggregation features and you can test them out by using them instead of the following endpoints:
     
-    -   [/api/v1/accounts/list](https://docs.tink.com/api#account-list-accounts)
-    -   [/api/v1/accounts/{id}/balances](https://docs.tink.com/api#account-get-balances-for-account)
-    -   [/api/v1/search](https://docs.tink.com/api#search-query-transactions)
+    -   [/api/v1/accounts/list](/Tiny-doc/tink_docs_api/api/#account-list-accounts)
+    -   [/api/v1/accounts/{id}/balances](/Tiny-doc/tink_docs_api/api/#account-get-balances-for-account)
+    -   [/api/v1/search](/Tiny-doc/tink_docs_api/api/#search-query-transactions)
     
 -   February 10, 2021
     
@@ -3882,7 +3882,7 @@ Stay updated on all changes to the Tink platform and products.
     
     Aggregation
     
-    Added a new field called `financialServices` in the [provider model](https://docs.tink.com/api/#provider).
+    Added a new field called `financialServices` in the [provider model](/Tiny-doc/tink_docs_api/api/#provider).
     
     This field provides information about which Financial Services are being covered by the provider.
     
@@ -3895,7 +3895,7 @@ Stay updated on all changes to the Tink platform and products.
     SDK iOS
     
     -   Added new Statistics feature, Left to Spend
-        -   With Left to Spend users can see a combined statistics of their income and expenses to get an idea about how much they have left to spend for the current period and also compared to previous months. Read more about Left to Spend: [https://docs.tink.com/resources/pfm-sdk-ios/statistics#displaying-statistics](https://docs.tink.com/resources/pfm-sdk-ios/statistics#displaying-statistics)
+        -   With Left to Spend users can see a combined statistics of their income and expenses to get an idea about how much they have left to spend for the current period and also compared to previous months. Read more about Left to Spend: [/Tiny-doc/tink_docs_home/resources/pfm-sdk-ios/statistics/#displaying-statistics](/Tiny-doc/tink_docs_home/resources/pfm-sdk-ios/statistics/#displaying-statistics)
     -   Adjusted capitalization of dates
     -   Added requirements section to README
     -   Provided `.strings` files of localizable strings that can be used with translation services
@@ -3937,7 +3937,7 @@ Stay updated on all changes to the Tink platform and products.
     
     Payments
     
-    You can now initiate payments through SEB’s Open Banking API in Sweden. To learn how, feel free to browse through our getting started [guide](https://docs.tink.com/resources/payments/start-payment).
+    You can now initiate payments through SEB’s Open Banking API in Sweden. To learn how, feel free to browse through our getting started [guide](/Tiny-doc/tink_docs_home/resources/payments/start-payment/).
     
 -   January 13, 2021
     
@@ -3948,7 +3948,7 @@ Stay updated on all changes to the Tink platform and products.
     SDK iOS
     
     -   Fixed category statistics only showing statistics back to the year when the current user was created.
-    -   Added screen tracking events for budgets. You can read more about how to use these in this article on [event tracking](https://docs.tink.com/resources/pfm-sdk-ios/pfm-sdk-ios-event-tracking).
+    -   Added screen tracking events for budgets. You can read more about how to use these in this article on [event tracking](/Tiny-doc/tink_docs_home/resources/pfm-sdk-ios/pfm-sdk-ios-event-tracking/).
     -   Adjustments to the font sizing and weights used across the SDK.
     -   Fixed insights not being archived after selecting one of the actions.
     
@@ -3990,7 +3990,7 @@ Stay updated on all changes to the Tink platform and products.
     
     Payments
     
-    Added a new field called **paymentScheme** in the [Payment Request model](https://docs.tink.com/api/#payment-request-the-payment-request-model)
+    Added a new field called **paymentScheme** in the [Payment Request model](/Tiny-doc/tink_docs_api/api/#payment-request-the-payment-request-model)
     
     It will enable payments to be done using the **SEPA Instant Credit Transfer**. Currently the **SEPA Instant Credit Transfer** is only enabled for the **IT** market.
     
@@ -4033,9 +4033,9 @@ Stay updated on all changes to the Tink platform and products.
     
     Payments
     
-    The source account selection screen can now be skipped, if the source account is provided to our SDK [Session](https://docs.tink.com/resources/tink-link-web/tink-link-web-sessions). By pre-selecting a source account, you remove the need for the user to select an account each time a payment is being made.
+    The source account selection screen can now be skipped, if the source account is provided to our SDK [Session](/Tiny-doc/tink_docs_home/resources/tink-link-web/tink-link-web-sessions/). By pre-selecting a source account, you remove the need for the user to select an account each time a payment is being made.
     
-    For more details please read our detailed [guide](https://docs.tink.com/resources/payments/simplify-payment-flows-by-pre-selecting-source-accounts) on this topic.
+    For more details please read our detailed [guide](/Tiny-doc/tink_docs_home/resources/payments/simplify-payment-flows-by-pre-selecting-source-accounts/) on this topic.
     
 -   December 14, 2020
     
@@ -4058,7 +4058,7 @@ Stay updated on all changes to the Tink platform and products.
     
     Console
     
-    In the Tink Console you can see all available test users, their login credentials and details about the accounts they hold. Head over to [Tink Console](https://console.tink.com/demobank) to check them out and don’t miss [this article](https://docs.tink.com/resources/aggregation/test-providers#accessing-demo-bank-providers-in-tink-link) about Tink Demo Bank.
+    In the Tink Console you can see all available test users, their login credentials and details about the accounts they hold. Head over to [Tink Console](https://console.tink.com/demobank) to check them out and don’t miss [this article](/Tiny-doc/tink_docs_home/resources/aggregation/test-providers/#accessing-demo-bank-providers-in-tink-link) about Tink Demo Bank.
     
 -   December 04, 2020
     
@@ -4109,7 +4109,7 @@ Stay updated on all changes to the Tink platform and products.
     
     Tink Link
     
-    You are now able to customize the theme of the Tink Link web SDK. You can find the option UI Customization under app settings in Tink Console. For more details please read [this](https://docs.tink.com/resources/tink-link-web/tink-link-web-customization#changing-your-configuration) guide.
+    You are now able to customize the theme of the Tink Link web SDK. You can find the option UI Customization under app settings in Tink Console. For more details please read [this](/Tiny-doc/tink_docs_home/resources/tink-link-web/tink-link-web-customization/#changing-your-configuration) guide.
     
 -   December 04, 2020
     
@@ -4143,7 +4143,7 @@ Stay updated on all changes to the Tink platform and products.
     -   United Kingdom
     -   Portugal
     
-    For more information on how you onboard to aggregate or initiate payments as a TPP, please check out [this](https://docs.tink.com/resources/aggregation/enroll-with-psd2) guide.
+    For more information on how you onboard to aggregate or initiate payments as a TPP, please check out [this](/Tiny-doc/tink_docs_home/resources/aggregation/enroll-with-psd2/) guide.
     
 -   December 01, 2020
     
@@ -4184,7 +4184,7 @@ Stay updated on all changes to the Tink platform and products.
     
     Aggregation
     
-    Added a new field called `releaseStatus` in the [provider model](https://docs.tink.com/api/#provider).
+    Added a new field called `releaseStatus` in the [provider model](/Tiny-doc/tink_docs_api/api/#provider).
     
     `BETA` release status means that the provider is in it's `BETA` version and might show unexpected behavior from time to time.
     
@@ -4198,7 +4198,7 @@ Stay updated on all changes to the Tink platform and products.
     
     In Tink Platform now you are able to use our new Account check product that lets you confirm the owner of a bank account by fetching real-time data from banks – from account number, IBAN or routing number to account holder name, and (in some markets) identity data.
     
-    For more information, see [Account check product page](https://tink.com/products/account-check/) or go ahead and try to [verify your first account](https://docs.tink.com/resources/account-check/verify-your-first-account)!
+    For more information, see [Account check product page](https://tink.com/products/account-check/) or go ahead and try to [verify your first account](/Tiny-doc/tink_docs_home/resources/account-check/verify-your-first-account/)!
     
 -   November 13, 2020
     
@@ -4237,7 +4237,7 @@ Stay updated on all changes to the Tink platform and products.
     
     Payments
     
-    It is now possible to get the list of payment conditions like each bank’s cutoff times, the allowed length of the source message etc, by querying the newly added [payment-conditions endpoint](https://docs.tink.com/api#connectivity/provider/get-payment-conditions-for-a-provider). For more information, see the [Payment Conditions guide](https://docs.tink.com/resources/payments/payment-conditions) or contact us at [support@tink.com](mailto:support@tink.com)
+    It is now possible to get the list of payment conditions like each bank’s cutoff times, the allowed length of the source message etc, by querying the newly added [payment-conditions endpoint](/Tiny-doc/tink_docs_api/api/#connectivity/provider/get-payment-conditions-for-a-provider). For more information, see the [Payment Conditions guide](/Tiny-doc/tink_docs_home/resources/payments/payment-conditions/) or contact us at [support@tink.com](mailto:support@tink.com)
     
 -   October 23, 2020
     
@@ -4283,7 +4283,7 @@ Stay updated on all changes to the Tink platform and products.
     
     Console
     
-    TPP Credentials management in the Tink Console now also supports the Netherlands, Germany and Norway. For more information on how you onboard to aggregate or initiate payments as a TPP, please check out [this](https://docs.tink.com/resources/aggregation/enroll-with-psd2) guide.
+    TPP Credentials management in the Tink Console now also supports the Netherlands, Germany and Norway. For more information on how you onboard to aggregate or initiate payments as a TPP, please check out [this](/Tiny-doc/tink_docs_home/resources/aggregation/enroll-with-psd2/) guide.
     
 -   October 02, 2020
     
@@ -4323,7 +4323,7 @@ Stay updated on all changes to the Tink platform and products.
     
     Console
     
-    TPP Credentials management in the Tink Console now also supports Italy, Spain and Denmark. For more information on how you onboard to aggregate or initiate payments as a TPP, please check out [this](https://docs.tink.com/resources/aggregation/enroll-with-psd2) guide.
+    TPP Credentials management in the Tink Console now also supports Italy, Spain and Denmark. For more information on how you onboard to aggregate or initiate payments as a TPP, please check out [this](/Tiny-doc/tink_docs_home/resources/aggregation/enroll-with-psd2/) guide.
     
 -   September 09, 2020
     
@@ -4337,7 +4337,7 @@ Stay updated on all changes to the Tink platform and products.
     
     Aggregation
     
-    An example has been added for refresh credentials request with `callbackUri` and `appUri` parameters. For more information see [Tink API](https://docs.tink.com/api#connectivity/credentials/refresh-credentials).
+    An example has been added for refresh credentials request with `callbackUri` and `appUri` parameters. For more information see [Tink API](/Tiny-doc/tink_docs_api/api/#connectivity/credentials/refresh-credentials).
     
 -   September 03, 2020
     
@@ -4349,7 +4349,7 @@ Stay updated on all changes to the Tink platform and products.
     
     Console
     
-    In the Tink Console you are now able to upload, view and delete credentials for PSD2 APIs in the Swedish market. Extended market support is coming soon. For more information on how you onboard to aggregate or initiate payments as a TPP, please check out [this](https://docs.tink.com/resources/aggregation/enroll-with-psd2) updated guide.
+    In the Tink Console you are now able to upload, view and delete credentials for PSD2 APIs in the Swedish market. Extended market support is coming soon. For more information on how you onboard to aggregate or initiate payments as a TPP, please check out [this](/Tiny-doc/tink_docs_home/resources/aggregation/enroll-with-psd2/) updated guide.
     
 -   September 03, 2020
     
@@ -4357,7 +4357,7 @@ Stay updated on all changes to the Tink platform and products.
     
     Aggregation
     
-    An example has been added for manual authentication request with `callbackUri` and `appUri` parameters. For more information see [Tink API](https://docs.tink.com/api#connectivity/credentials/manual-authenticate-of-credentials).
+    An example has been added for manual authentication request with `callbackUri` and `appUri` parameters. For more information see [Tink API](/Tiny-doc/tink_docs_api/api/#connectivity/credentials/manual-authenticate-of-credentials).
     
 -   August 28, 2020
     
@@ -4375,7 +4375,7 @@ Stay updated on all changes to the Tink platform and products.
     
     Aggregation
     
-    The QTSP recommendation has been updated. Microsec\* has been removed from the recommendation list. For more information see [eidas-certificates](https://docs.tink.com/resources/aggregation/eidas-certificates).
+    The QTSP recommendation has been updated. Microsec\* has been removed from the recommendation list. For more information see [eidas-certificates](/Tiny-doc/tink_docs_home/resources/aggregation/eidas-certificates/).
     
 -   August 03, 2020
     
@@ -4383,7 +4383,7 @@ Stay updated on all changes to the Tink platform and products.
     
     Aggregation
     
-    It is now possible to get the account holders by querying the newly added [account holders endpoint](https://docs.tink.com/api/#account-get-holders-for-account).
+    It is now possible to get the account holders by querying the newly added [account holders endpoint](/Tiny-doc/tink_docs_api/api/#account-get-holders-for-account).
     
 -   July 28, 2020
     
@@ -4391,9 +4391,9 @@ Stay updated on all changes to the Tink platform and products.
     
     Payments
     
-    We have added a new attribute **RemittanceInformation** to the [payments](https://docs.tink.com/api/#payment-request-the-payment-request-model-remittanceinformation) endpoint.
+    We have added a new attribute **RemittanceInformation** to the [payments](/Tiny-doc/tink_docs_api/api/#payment-request-the-payment-request-model-remittanceinformation) endpoint.
     
-    As we now support **RemittanceInformation**, the **reference** attribute in [PaymentDestinationRequest](https://docs.tink.com/api/#payment-request-the-payment-request-model-paymentdestinationrequest) has been deprecated.
+    As we now support **RemittanceInformation**, the **reference** attribute in [PaymentDestinationRequest](/Tiny-doc/tink_docs_api/api/#payment-request-the-payment-request-model-paymentdestinationrequest) has been deprecated.
     
 -   June 26, 2020
     
@@ -4413,7 +4413,7 @@ Stay updated on all changes to the Tink platform and products.
     
     Console
     
-    In the Tink Console you can now get an overview of the financial institutions that you have uploaded TPP credentials for. For more information on how you onboard to aggregate or initiate payments as a TPP, please check out [this](https://docs.tink.com/resources/aggregation/enroll-with-psd2) guide.
+    In the Tink Console you can now get an overview of the financial institutions that you have uploaded TPP credentials for. For more information on how you onboard to aggregate or initiate payments as a TPP, please check out [this](/Tiny-doc/tink_docs_home/resources/aggregation/enroll-with-psd2/) guide.
     
 -   June 15, 2020
     
@@ -4429,7 +4429,7 @@ Stay updated on all changes to the Tink platform and products.
     
     Payments
     
-    Due to [changes](https://docs.tink.com/resources/payments/can-i-add-payments) in the way we test payments, we have updated the docs and removed the `test=true` flag which will no longer be needed.
+    Due to [changes](/Tiny-doc/tink_docs_home/resources/payments/can-i-add-payments/) in the way we test payments, we have updated the docs and removed the `test=true` flag which will no longer be needed.
     
 -   June 04, 2020
     
@@ -4437,7 +4437,7 @@ Stay updated on all changes to the Tink platform and products.
     
     Payments
     
-    We have completed rolling out changes for testing payments and we have updated our [related article](https://docs.tink.com/resources/payments/can-i-add-payments) accordingly.
+    We have completed rolling out changes for testing payments and we have updated our [related article](/Tiny-doc/tink_docs_home/resources/payments/can-i-add-payments/) accordingly.
     
     You can now test payments with Tink Link out-of-the-box.
     
@@ -4449,7 +4449,7 @@ Stay updated on all changes to the Tink platform and products.
     
     You can now initiate payments through SBAB’s Open Banking API in Sweden.
     
-    To learn how, feel free to browse through our guide on [Getting Started](https://docs.tink.com/resources/payments/start-payment)
+    To learn how, feel free to browse through our guide on [Getting Started](/Tiny-doc/tink_docs_home/resources/payments/start-payment/)
     
 -   June 01, 2020
     
@@ -4479,7 +4479,7 @@ Stay updated on all changes to the Tink platform and products.
     
     Aggregation
     
-    New field `AuthenticationUserType` has been added to the provider model. Indicates if a user authenticates toward the bank as a person or a business. Values: `PERSONAL`, `BUSINESS`. Check it out [here](https://docs.tink.com/api/#provider).
+    New field `AuthenticationUserType` has been added to the provider model. Indicates if a user authenticates toward the bank as a person or a business. Values: `PERSONAL`, `BUSINESS`. Check it out [here](/Tiny-doc/tink_docs_api/api/#provider).
     
 -   May 27, 2020
     
@@ -4505,7 +4505,7 @@ Stay updated on all changes to the Tink platform and products.
     
     Payments
     
-    Soon you will be able to test payments with Tink Link out-of-the-box. We published [a new article](https://docs.tink.com/resources/payments/can-i-add-payments) for upcoming changes about testing payments.
+    Soon you will be able to test payments with Tink Link out-of-the-box. We published [a new article](/Tiny-doc/tink_docs_home/resources/payments/can-i-add-payments/) for upcoming changes about testing payments.
     
 -   May 20, 2020
     
@@ -4513,7 +4513,7 @@ Stay updated on all changes to the Tink platform and products.
     
     Payments
     
-    Published [this article](https://docs.tink.com/resources/payments/permanent-user) as a guide for how to set up and use permanent users with Tink Link to initiate a payment.
+    Published [this article](/Tiny-doc/tink_docs_home/resources/payments/permanent-user/) as a guide for how to set up and use permanent users with Tink Link to initiate a payment.
     
 -   May 05, 2020
     
@@ -4529,7 +4529,7 @@ Stay updated on all changes to the Tink platform and products.
     
     Payments
     
-    The [way execution date is handled](https://docs.tink.com/resources/payments/execute-payment-now-or-in-the-future) (paying now or at a future date) is now unified for Swedish financial institutions. This change will gradually be implemented and verified for all markets going forward.
+    The [way execution date is handled](/Tiny-doc/tink_docs_home/resources/payments/execute-payment-now-or-in-the-future/) (paying now or at a future date) is now unified for Swedish financial institutions. This change will gradually be implemented and verified for all markets going forward.
     
 -   April 20, 2020
     
@@ -4537,7 +4537,7 @@ Stay updated on all changes to the Tink platform and products.
     
     Payments
     
-    You can now initiate a test payment in IT using test providers. See our [Getting Started](https://docs.tink.com/resources/payments/start-payment-it) guide to learn how.
+    You can now initiate a test payment in IT using test providers. See our [Getting Started](/Tiny-doc/tink_docs_home/resources/payments/start-payment-it/) guide to learn how.
     
 -   April 20, 2020
     
@@ -4545,7 +4545,7 @@ Stay updated on all changes to the Tink platform and products.
     
     Payments
     
-    Now you can see a more clear picture of how a payment transitions between different states (failed, sent, canceled and awaiting credentials), along with additional information explaining each state. Check it out [here](https://docs.tink.com/resources/payments/payment-status-transitions).
+    Now you can see a more clear picture of how a payment transitions between different states (failed, sent, canceled and awaiting credentials), along with additional information explaining each state. Check it out [here](/Tiny-doc/tink_docs_home/resources/payments/payment-status-transitions/).
     
 -   April 20, 2020
     
@@ -4574,7 +4574,7 @@ Stay updated on all changes to the Tink platform and products.
     -   AIB Group UK
     -   First Trust
     
-    Browse through our [Getting Started](https://docs.tink.com/resources/payments/start-payment-uk) guide to learn how.
+    Browse through our [Getting Started](/Tiny-doc/tink_docs_home/resources/payments/start-payment-uk/) guide to learn how.
     
 -   April 20, 2020
     
@@ -4596,7 +4596,7 @@ Stay updated on all changes to the Tink platform and products.
     
     Aggregation
     
-    It is now possible to perform a [credential refresh](https://docs.tink.com/api#connectivity/credentials/refresh-credentials) for test providers before the 10 minute mandatory wait period has passed after the pervious successful refresh.
+    It is now possible to perform a [credential refresh](/Tiny-doc/tink_docs_api/api/#connectivity/credentials/refresh-credentials) for test providers before the 10 minute mandatory wait period has passed after the pervious successful refresh.
     
 -   March 20, 2020
     
@@ -4612,7 +4612,7 @@ Stay updated on all changes to the Tink platform and products.
     
     Aggregation
     
-    Introduce a new Swedish test provider `se-test-bankid-qr-successful` so that a user is able to retrieve a fake Mobile BankID QR image during the authentication process. See the [test providers guide](https://docs.tink.com/resources/aggregation/available-test-providers) for more information.
+    Introduce a new Swedish test provider `se-test-bankid-qr-successful` so that a user is able to retrieve a fake Mobile BankID QR image during the authentication process. See the [test providers guide](/Tiny-doc/tink_docs_home/resources/aggregation/available-test-providers/) for more information.
     
 -   March 17, 2020
     
@@ -4622,7 +4622,7 @@ Stay updated on all changes to the Tink platform and products.
     
     We have introduced a new test provider `<market>-test-open-banking-redirect-configurable-session-expiry` which allows you to simulate an open banking session expiring after a short period of time. When creating or refreshing a credential for this provider you can set the session's expiration time in seconds.
     
-    See the [test providers guide](https://docs.tink.com/resources/aggregation/available-test-providers) for more information.
+    See the [test providers guide](/Tiny-doc/tink_docs_home/resources/aggregation/available-test-providers/) for more information.
     
 -   March 04, 2020
     
@@ -4630,7 +4630,7 @@ Stay updated on all changes to the Tink platform and products.
     
     Aggregation
     
-    The field `authenticationFlow` is enabled for the provider model. See [provider model](https://docs.tink.com/api/#provider) for more information.
+    The field `authenticationFlow` is enabled for the provider model. See [provider model](/Tiny-doc/tink_docs_api/api/#provider) for more information.
     
 -   March 03, 2020
     
@@ -4646,7 +4646,7 @@ Stay updated on all changes to the Tink platform and products.
     
     Aggregation
     
-    The field `sessionExpiryDate` is enabled for the credentials model. See [credentials model](https://docs.tink.com/api/#credentials) for more information.
+    The field `sessionExpiryDate` is enabled for the credentials model. See [credentials model](/Tiny-doc/tink_docs_api/api/#credentials) for more information.
     
 -   November 21, 2019
     
@@ -4654,7 +4654,7 @@ Stay updated on all changes to the Tink platform and products.
     
     Aggregation
     
-    Deleting credentials will now return `404` status code if the credentials could not be found. See [Delete credentials](https://docs.tink.com/enterprise/api/#credentials-delete-credentials) to get more information.
+    Deleting credentials will now return `404` status code if the credentials could not be found. See [Delete credentials](/Tiny-doc/tink_docs_home/enterprise/api/#credentials-delete-credentials) to get more information.
     
 -   October 09, 2019
     
@@ -4702,7 +4702,7 @@ Stay updated on all changes to the Tink platform and products.
     
     API
     
-    Transaction ingestion via the [Connector API](https://docs.tink.com/api/connector/#ingest-transactions) now allows partial ingestion if some transactions in the batch exists. Status code `409` is returned only if all of the transactions in a batch are already ingested to Tink.
+    Transaction ingestion via the [Connector API](/Tiny-doc/tink_docs_api/api/#ingest-transactions) now allows partial ingestion if some transactions in the batch exists. Status code `409` is returned only if all of the transactions in a batch are already ingested to Tink.
     
 -   July 29, 2019
     
@@ -4710,7 +4710,7 @@ Stay updated on all changes to the Tink platform and products.
     
     Aggregation
     
-    Added `currencyCode` to `additionalInfo` when returning credentials with supplemental information. See [Opt-in feature under credentials section](https://docs.tink.com/enterprise/api/#credentials) to get more information.
+    Added `currencyCode` to `additionalInfo` when returning credentials with supplemental information. See [Opt-in feature under credentials section](/Tiny-doc/tink_docs_home/enterprise/api/#credentials) to get more information.
     
 -   July 26, 2019
     
@@ -4718,7 +4718,7 @@ Stay updated on all changes to the Tink platform and products.
     
     API
     
-    It is now possible to set an expiry date to pending transactions and to update pending transactions to booked via the `CreateTransactionEntity` payload. See [Ingest transactions](https://docs.tink.com/api/connector/#ingest-transactions) to get more information.
+    It is now possible to set an expiry date to pending transactions and to update pending transactions to booked via the `CreateTransactionEntity` payload. See [Ingest transactions](/Tiny-doc/tink_docs_api/api/#ingest-transactions) to get more information.
     
 -   July 25, 2019
     
@@ -4726,7 +4726,7 @@ Stay updated on all changes to the Tink platform and products.
     
     Money Manager
     
-    New statistics types (`expenses-by-primary-category` and `expenses-by-primary-category/by-count`) are available to easily fetch overall statistics for primary categories. See [Statistics](https://docs.tink.com/api/#statistics) to get more information.
+    New statistics types (`expenses-by-primary-category` and `expenses-by-primary-category/by-count`) are available to easily fetch overall statistics for primary categories. See [Statistics](/Tiny-doc/tink_docs_api/api/#statistics) to get more information.
     
 -   July 17, 2019
     
@@ -4734,7 +4734,7 @@ Stay updated on all changes to the Tink platform and products.
     
     Aggregation
     
-    Providers are now populated with information about their `capabilities`. See [Providers](https://docs.tink.com/enterprise/api/#provider) to get more information.
+    Providers are now populated with information about their `capabilities`. See [Providers](/Tiny-doc/tink_docs_home/enterprise/api/#provider) to get more information.
     
 -   July 10, 2019
     
@@ -4742,7 +4742,7 @@ Stay updated on all changes to the Tink platform and products.
     
     Aggregation
     
-    The fields `accessType`, `financialInstitutionName` and `financialInstitutionId` are now fully supported on providers. See [Providers](https://docs.tink.com/enterprise/api/#provider) to get more information.
+    The fields `accessType`, `financialInstitutionName` and `financialInstitutionId` are now fully supported on providers. See [Providers](/Tiny-doc/tink_docs_home/enterprise/api/#provider) to get more information.
     
 -   June 17, 2019
     
@@ -4750,7 +4750,7 @@ Stay updated on all changes to the Tink platform and products.
     
     Data Enrichment
     
-    Get available identity information about your users. See [Identity page](https://docs.tink.com/api/#identity) to get started.
+    Get available identity information about your users. See [Identity page](/Tiny-doc/tink_docs_api/api/#identity) to get started.
     
 -   June 10, 2019
     
@@ -4758,7 +4758,7 @@ Stay updated on all changes to the Tink platform and products.
     
     Documentation
     
-    Get a full overview of Tink’s connectivity toward financial institutions in Europe with our new [Market Capabilities page](https://docs.tink.com/market-capabilities).
+    Get a full overview of Tink’s connectivity toward financial institutions in Europe with our new [Market Capabilities page](/Tiny-doc/tink_docs_home/market-capabilities/).
     
 -   May 29, 2019
     
@@ -4860,7 +4860,7 @@ Stay updated on all changes to the Tink platform and products.
     
     Aggregation
     
-    Test providers allow you to test authentication flows without having to enter real bank credentials. Learn more about it [here](https://docs.tink.com/resources/aggregation/available-test-providers).
+    Test providers allow you to test authentication flows without having to enter real bank credentials. Learn more about it [here](/Tiny-doc/tink_docs_home/resources/aggregation/available-test-providers/).
     
 -   March 26, 2019
     
@@ -4868,7 +4868,7 @@ Stay updated on all changes to the Tink platform and products.
     
     API
     
-    Our Connector API documentation is now completed with error codes specifications. Read more about it [here](https://docs.tink.com/api-connector#connector).
+    Our Connector API documentation is now completed with error codes specifications. Read more about it [here](/Tiny-doc/tink_docs_api/api-connector/#connector).
     
 -   March 22, 2019
     

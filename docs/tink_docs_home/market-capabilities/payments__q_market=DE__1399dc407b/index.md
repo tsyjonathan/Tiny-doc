@@ -1,6 +1,6 @@
 ---
 title: "Tink Docs"
-source: "https://docs.tink.com/market-capabilities/payments?market=DE"
+source: "/Tiny-doc/tink_docs_home/market-capabilities/payments__q_market=DE__1399dc407b/"
 exportedAt: "2026-01-13T12:52:55.968Z"
 ---
 1822direkt

@@ -1,6 +1,6 @@
 ---
 title: "Not Found - Tink Docs"
-source: "https://docs.tink.com/resources/tink-link-ios"
+source: "/Tiny-doc/tink_docs_home/resources/tink-link-ios/"
 exportedAt: "2026-01-13T12:58:45.547Z"
 ---
 ![](https://docs.tink.com/assets/banana-guy-CNjP65Mx.png)

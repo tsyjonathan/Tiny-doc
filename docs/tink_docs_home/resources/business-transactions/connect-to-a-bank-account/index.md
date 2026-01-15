@@ -1,6 +1,6 @@
 ---
 title: "Not Found - Tink Docs"
-source: "https://docs.tink.com/resources/business-transactions/connect-to-a-bank-account"
+source: "/Tiny-doc/tink_docs_home/resources/business-transactions/connect-to-a-bank-account/"
 exportedAt: "2026-01-13T12:58:04.879Z"
 ---
 ![](https://docs.tink.com/assets/banana-guy-CNjP65Mx.png)

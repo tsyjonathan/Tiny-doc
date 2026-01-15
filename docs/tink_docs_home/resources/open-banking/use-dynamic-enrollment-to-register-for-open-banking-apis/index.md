@@ -1,9 +1,9 @@
 ---
 title: "Use dynamic enrollment to register for open banking APIs"
-source: "https://docs.tink.com/resources/open-banking/use-dynamic-enrollment-to-register-for-open-banking-apis"
+source: "/Tiny-doc/tink_docs_home/resources/open-banking/use-dynamic-enrollment-to-register-for-open-banking-apis/"
 exportedAt: "2026-01-13T12:55:10.627Z"
 ---
-Dynamic enrollment (referred to as [Dynamic Client Registration](https://docs.tink.com/resources/open-banking/resources/open-banking/open-banking-glossary) allows TPPs to enroll programmatically for access to an Account Service Payment Service Provider’s (ASPSP’s) open banking API. For the ASPSPs that support this, dynamic enrollment is typically easier compared to manually logging in to a developer portal, creating accounts and validating your identity. To view a list of ASPS that support dynamic enrollment for a market, open our [dynamic enrollment providers link](https://api.tink.com/ess/v1/dynamic-enrollment-providers?marketCode=uk) and update the market parameter.
+Dynamic enrollment (referred to as [Dynamic Client Registration](/Tiny-doc/tink_docs_home/resources/open-banking/open-banking-glossary/) allows TPPs to enroll programmatically for access to an Account Service Payment Service Provider’s (ASPSP’s) open banking API. For the ASPSPs that support this, dynamic enrollment is typically easier compared to manually logging in to a developer portal, creating accounts and validating your identity. To view a list of ASPS that support dynamic enrollment for a market, open our [dynamic enrollment providers link](https://api.tink.com/ess/v1/dynamic-enrollment-providers?marketCode=uk) and update the market parameter.
 
 This guide describes how you can use Tink’s `tink_secret_utils.py` script to complete dynamic enrollment. It consists of four steps:
 
@@ -134,7 +134,7 @@ Example successful `enroll` response:
 
 After the successful dynamic enrollment, Tink will persist the returned TPP credentials for all providers that can use them. The set of provider-ids is listed in the 'providerId' array. In this example both `uk-natwest-oauth2` and `uk-natwest-corporate-ob` will be enabled.
 
-> **Note:** TPP credentials are also returned in the successful response to the `enroll` command. It can be useful to store these temporarily for troubleshooting purposes as they can be used with the manual [TPP credentials feature](https://docs.tink.com/resources/open-banking/enroll-with-psd2) in Console.
+> **Note:** TPP credentials are also returned in the successful response to the `enroll` command. It can be useful to store these temporarily for troubleshooting purposes as they can be used with the manual [TPP credentials feature](/Tiny-doc/tink_docs_home/resources/open-banking/enroll-with-psd2/) in Console.
 
 ## Validate credentials for enrolled ASPSPs and test the connection[](#validate-credentials-for-enrolled-aspsps-and-test-the-connection)
 

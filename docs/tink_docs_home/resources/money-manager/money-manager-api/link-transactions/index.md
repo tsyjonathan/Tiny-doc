@@ -1,6 +1,6 @@
 ---
 title: "Link transactions - Tink Docs"
-source: "https://docs.tink.com/resources/money-manager/money-manager-api/link-transactions"
+source: "/Tiny-doc/tink_docs_home/resources/money-manager/money-manager-api/link-transactions/"
 exportedAt: "2026-01-13T12:50:06.987Z"
 ---
 ## Introduction[](#introduction)
@@ -9,7 +9,7 @@ Link transactions allow the user to split their expenses and match that expense 
 
 We can imagine a situation where you are going to a restaurant with a friend, and you pay the bill. Your friend sends his part of the expense back to you, and you can link it to your payment. A transaction part is then made, and your spending is decreased with the linked transaction amount. You will then have a clear view of your real spending.
 
-[Here](https://docs.tink.com/api#data-v1/transaction/link-transactions) you can find more technical information about linking transactions.
+[Here](/Tiny-doc/tink_docs_api/api/#data-v1/transaction/link-transactions) you can find more technical information about linking transactions.
 
 Example request:
 

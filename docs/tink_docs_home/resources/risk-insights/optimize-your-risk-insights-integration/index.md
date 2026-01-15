@@ -1,6 +1,6 @@
 ---
 title: "Optimize your Risk Insights integration"
-source: "https://docs.tink.com/resources/risk-insights/optimize-your-risk-insights-integration"
+source: "/Tiny-doc/tink_docs_home/resources/risk-insights/optimize-your-risk-insights-integration/"
 exportedAt: "2026-01-13T12:49:38.949Z"
 ---
 Tests always show that the best–performing integrations are ones where the transition between an app and Tink feels smooth, secure, and coherent. Integrate successfully in three steps:
@@ -47,11 +47,11 @@ If you know which bank your users access, you can use this data to skip the bank
 
 ### Pre-filling information[](#pre-filling-information)
 
-If you have access to a user's bank credentials, you can pre-fill certain fields (such as SSN) and remove another step. For more information, see [Sessions](https://docs.tink.com/resources/risk-insights/risk-insights-sdk-sessions). ![AC article prefill fields](https://images.ctfassets.net/tmqu5vj33f7w/4bPB1nPjX5aFDnPFihAOFI/cba03d36a2aa65ecfeb878750295f69d/Prefill_fields.png)
+If you have access to a user's bank credentials, you can pre-fill certain fields (such as SSN) and remove another step. For more information, see [Sessions](/Tiny-doc/tink_docs_home/resources/risk-insights/risk-insights-sdk-sessions/). ![AC article prefill fields](https://images.ctfassets.net/tmqu5vj33f7w/4bPB1nPjX5aFDnPFihAOFI/cba03d36a2aa65ecfeb878750295f69d/Prefill_fields.png)
 
 ### Risk Insights success screen[](#risk-insights-success-screen)
 
-Our success screen is, by default, enabled. If you want to skip it and send users directly back to you once their bank is successfully connected, contact [Tink Support](https://docs.tink.com/resources/support/how-to-find-technical-support) to enable that feature flag.
+Our success screen is, by default, enabled. If you want to skip it and send users directly back to you once their bank is successfully connected, contact [Tink Support](/Tiny-doc/tink_docs_home/resources/support/how-to-find-technical-support/) to enable that feature flag.
 
 ![RI optimize success screen](https://images.ctfassets.net/tmqu5vj33f7w/5CxJIuK0ZJ5vYrsN3yjhmf/a0cdaa836e2d386dc68e2dc873095ee2/RI_success_screen_example.png)
 

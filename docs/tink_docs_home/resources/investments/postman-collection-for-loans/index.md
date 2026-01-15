@@ -1,6 +1,6 @@
 ---
 title: "Postman collection - Tink Docs"
-source: "https://docs.tink.com/resources/investments/postman-collection-for-loans"
+source: "/Tiny-doc/tink_docs_home/resources/investments/postman-collection-for-loans/"
 exportedAt: "2026-01-13T12:45:18.954Z"
 ---
 ![postman-collection-loans](https://images.ctfassets.net/tmqu5vj33f7w/7kYZgdU0zBGLfMBzc9WF98/c649e877ed5c4eacca7bb4f3d09dd733/postman-collection-loans.png)

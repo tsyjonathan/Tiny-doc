@@ -1,6 +1,6 @@
 ---
 title: "Answer account profiling questions - Tink Docs"
-source: "https://docs.tink.com/resources/data-enrichment/answer-account-profiling-questions"
+source: "/Tiny-doc/tink_docs_home/resources/data-enrichment/answer-account-profiling-questions/"
 exportedAt: "2026-01-13T12:48:10.761Z"
 ---
 There are two types of answers:

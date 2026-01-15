@@ -1,6 +1,6 @@
 ---
 title: "Visualise balances by account - Tink Docs"
-source: "https://docs.tink.com/resources/money-manager/money-manager-api/visualise-balances-by-account"
+source: "/Tiny-doc/tink_docs_home/resources/money-manager/money-manager-api/visualise-balances-by-account/"
 exportedAt: "2026-01-13T12:50:15.065Z"
 ---
 ## Introduction[](#introduction)
@@ -16,7 +16,7 @@ You can choose between 2 types of the carbon statistic types:
 
 ## Calling the Statistics Endpoint[](#calling-the-statistics-endpoint)
 
-In this guide, we’re going to focus on balances by account. If you want to read about other pre-calculated statistics, please visit our [API documentation](https://docs.tink.com/api#finance-management/statistics).
+In this guide, we’re going to focus on balances by account. If you want to read about other pre-calculated statistics, please visit our [API documentation](/Tiny-doc/tink_docs_api/api/#finance-management/statistics).
 
 As part of the request, you will need to include a `user access token` with the `statistics:read` scope.
 

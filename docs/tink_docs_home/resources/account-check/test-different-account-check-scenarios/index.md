@@ -1,6 +1,6 @@
 ---
 title: "Test different Account Check scenarios"
-source: "https://docs.tink.com/resources/account-check/test-different-account-check-scenarios"
+source: "/Tiny-doc/tink_docs_home/resources/account-check/test-different-account-check-scenarios/"
 exportedAt: "2026-01-13T12:43:30.485Z"
 ---
 ## Demo Bank[](#demo-bank)

@@ -1,6 +1,6 @@
 ---
 title: "Introduction to Budgets - Tink Docs"
-source: "https://docs.tink.com/resources/money-manager/money-manager-api/introduction-to-budgets"
+source: "/Tiny-doc/tink_docs_home/resources/money-manager/money-manager-api/introduction-to-budgets/"
 exportedAt: "2026-01-13T12:51:07.193Z"
 ---
 A budget represents a financial target for a specific period of time. The budget is identified by certain filters/criteria (such as accounts, categories, tags, or free-text) to target expenses. Defining multiple filter properties will yield an `AND` operation and specifying multiple values of a filter property will yield an `OR` operation.

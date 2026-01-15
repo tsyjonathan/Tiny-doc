@@ -1,13 +1,13 @@
 ---
 title: "Fetch your first Account Check report"
-source: "https://docs.tink.com/resources/account-check/verify-your-first-account"
+source: "/Tiny-doc/tink_docs_home/resources/account-check/verify-your-first-account/"
 exportedAt: "2026-01-13T12:43:27.114Z"
 ---
-Before we get into how you fetch your first Account Check report, we'd like to mention there's an easy way to experiment with Account Check by using our API. Try our [Postman collection for Account Check](https://docs.tink.com/resources/account-check/postman-collection-for-account-check)!
+Before we get into how you fetch your first Account Check report, we'd like to mention there's an easy way to experiment with Account Check by using our API. Try our [Postman collection for Account Check](/Tiny-doc/tink_docs_home/resources/account-check/postman-collection-for-account-check/)!
 
 ## 1\. Build the URL[](#build-the-url)
 
-In Console, use the [Build your own Tink Link URL](https://console.tink.com/account-verification/tink-link) view to create your own URL. The URL is used to allow users to authenticate with their bank and select an account from which to fetch report data. For more information on how the URL works, see [Setup and integrate Account Check](https://docs.tink.com/resources/account-check/setup-and-integrate-account-check).
+In Console, use the [Build your own Tink Link URL](https://console.tink.com/account-verification/tink-link) view to create your own URL. The URL is used to allow users to authenticate with their bank and select an account from which to fetch report data. For more information on how the URL works, see [Setup and integrate Account Check](/Tiny-doc/tink_docs_home/resources/account-check/setup-and-integrate-account-check/).
 
 Integrate the URL with a site or in an app. For example, you can start an end user's Tink flow by redirecting them to a URL.
 
@@ -21,7 +21,7 @@ https://link.tink.com/1.0/account-check?client_id={YOUR_CLIENT_ID}&redirect_uri=
 
 **Note**: make sure that you exchange `{YOUR_CLIENT_ID}` in the URL for your `client_id` value.
 
-When your users access the URL, they'll see a list of demo banks. Once they choose a bank, they'll see a list of demo bank accounts to choose from. Select the username and password for a Demo Bank user that suits your use case. For more information about Demo Bank, see [Demo Bank](https://docs.tink.com/resources/account-check/test-different-account-check-scenarios#demo-bank).
+When your users access the URL, they'll see a list of demo banks. Once they choose a bank, they'll see a list of demo bank accounts to choose from. Select the username and password for a Demo Bank user that suits your use case. For more information about Demo Bank, see [Demo Bank](/Tiny-doc/tink_docs_home/resources/account-check/test-different-account-check-scenarios/#demo-bank).
 
 ![Account check account selection](https://images.ctfassets.net/tmqu5vj33f7w/6hA4YqLwj8O8gNNPQKliQQ/f72f0a979388b1468f3e8a7338afd81f/image-accountSelection.jpg)
 
@@ -35,7 +35,7 @@ Some possible failure reasons:
 -   The end user didn't successfully authenticate with their bank
 -   The end user didn't have any accounts available with the selected bank
 
-For more information about errors, see [Handle Account Check error codes](https://docs.tink.com/resources/account-check/handle-account-check-error-codes).
+For more information about errors, see [Handle Account Check error codes](/Tiny-doc/tink_docs_home/resources/account-check/handle-account-check-error-codes/).
 
 **The successful callback has this structure:**
 
@@ -86,7 +86,7 @@ curl -X POST https://api.tink.com/api/v1/oauth/token \
 
 **In JSON**
 
-To fetch report JSON data based on a report identifier, see the [Account Verification Report API](https://docs.tink.com/api#data-v1/account-verification).
+To fetch report JSON data based on a report identifier, see the [Account Verification Report API](/Tiny-doc/tink_docs_api/api/#data-v1/account-verification).
 
 **cURL example**
 
@@ -101,7 +101,7 @@ curl -X GET https://api.tink.com/api/v1/account-verification-reports/ \
 
 **As a PDF**
 
-Fetching the account information report in PDF format is done through the [Account Verification Report API](https://docs.tink.com/api#data-v1/account-verification).
+Fetching the account information report in PDF format is done through the [Account Verification Report API](/Tiny-doc/tink_docs_api/api/#data-v1/account-verification).
 
 **cURL example**
 

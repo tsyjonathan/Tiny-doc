@@ -1,6 +1,6 @@
 ---
 title: "Open banking - Tink Docs"
-source: "https://docs.tink.com/resources/open-banking"
+source: "/Tiny-doc/tink_docs_home/resources/open-banking/"
 exportedAt: "2026-01-13T12:41:03.872Z"
 ---
 ## Getting started
@@ -13,7 +13,7 @@ Learn how to get licensed in your home market and other host markets.
 
 
 
-](https://docs.tink.com/resources/open-banking/how-to-get-an-open-banking-license)
+](/Tiny-doc/tink_docs_home/resources/open-banking/how-to-get-an-open-banking-license/)
 
 [
 
@@ -23,7 +23,7 @@ Details on TPP certificates and how to acquire them
 
 
 
-](https://docs.tink.com/resources/open-banking/tpp-certificates)
+](/Tiny-doc/tink_docs_home/resources/open-banking/tpp-certificates/)
 
 [
 
@@ -33,7 +33,7 @@ Learn the ins and outs of acquiring EU open banking certificates
 
 
 
-](https://docs.tink.com/resources/open-banking/get-eu-certificates)
+](/Tiny-doc/tink_docs_home/resources/open-banking/get-eu-certificates/)
 
 [
 
@@ -43,7 +43,7 @@ Learn how to get UK open banking certificates
 
 
 
-](https://docs.tink.com/resources/open-banking/get-uk-certificates)
+](/Tiny-doc/tink_docs_home/resources/open-banking/get-uk-certificates/)
 
 [
 
@@ -53,7 +53,7 @@ Learn how to install your eDIAS certificates to Tink using our secure Python too
 
 
 
-](https://docs.tink.com/resources/open-banking/install-certificates)
+](/Tiny-doc/tink_docs_home/resources/open-banking/install-certificates/)
 
 [
 
@@ -63,7 +63,7 @@ Challenges, best practices, and process for open banking certificate renewal
 
 
 
-](https://docs.tink.com/resources/open-banking/certificate-renewal)
+](/Tiny-doc/tink_docs_home/resources/open-banking/certificate-renewal/)
 
 ## Integration
 
@@ -75,7 +75,7 @@ Learn how to use Tink's TPP integration tool
 
 
 
-](https://docs.tink.com/resources/open-banking/tpp-integration-manager)
+](/Tiny-doc/tink_docs_home/resources/open-banking/tpp-integration-manager/)
 
 [
 
@@ -85,7 +85,7 @@ Learn about redirect URIs, and how to configure them with ASPSPs and Tink
 
 
 
-](https://docs.tink.com/resources/open-banking/redirect-uris-for-open-banking-authentication)
+](/Tiny-doc/tink_docs_home/resources/open-banking/redirect-uris-for-open-banking-authentication/)
 
 [
 
@@ -95,7 +95,7 @@ Learn how to upload PSD2 certificates and secrets to Tink and ASPSPs.
 
 
 
-](https://docs.tink.com/resources/open-banking/enroll-with-psd2)
+](/Tiny-doc/tink_docs_home/resources/open-banking/enroll-with-psd2/)
 
 [
 
@@ -105,7 +105,7 @@ Learn how to use Tink services to enroll with bank APIs that offer support for t
 
 
 
-](https://docs.tink.com/resources/open-banking/use-dynamic-enrollment-to-register-for-open-banking-apis)
+](/Tiny-doc/tink_docs_home/resources/open-banking/use-dynamic-enrollment-to-register-for-open-banking-apis/)
 
 [
 
@@ -115,7 +115,7 @@ Learn about eIDAS certificates and how you can acquire them.
 
 
 
-](https://docs.tink.com/resources/open-banking/eidas-certificates)
+](/Tiny-doc/tink_docs_home/resources/open-banking/eidas-certificates/)
 
 [
 
@@ -125,7 +125,7 @@ Learn how to create digital signatures required for ASPSP enrollment
 
 
 
-](https://docs.tink.com/resources/open-banking/sign-documents-and-data-with-your-qsealc)
+](/Tiny-doc/tink_docs_home/resources/open-banking/sign-documents-and-data-with-your-qsealc/)
 
 [
 
@@ -135,4 +135,4 @@ Use Tink services to create a certificate signing request (CSR) and upload the c
 
 
 
-](https://docs.tink.com/resources/open-banking/upload-certificates-with-tink-csr)
+](/Tiny-doc/tink_docs_home/resources/open-banking/upload-certificates-with-tink-csr/)

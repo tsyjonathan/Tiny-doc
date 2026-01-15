@@ -1,6 +1,6 @@
 ---
 title: "Not Found - Tink Docs"
-source: "https://docs.tink.com/resources/loans/postman-collection-for-loans"
+source: "/Tiny-doc/tink_docs_home/resources/loans/postman-collection-for-loans/"
 exportedAt: "2026-01-13T12:57:54.474Z"
 ---
 ![](https://docs.tink.com/assets/banana-guy-CNjP65Mx.png)

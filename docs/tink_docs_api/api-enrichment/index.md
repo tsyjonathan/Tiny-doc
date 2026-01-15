@@ -1,9 +1,9 @@
 ---
 title: "Tink Docs"
-source: "https://docs.tink.com/api-enrichment"
+source: "/Tiny-doc/tink_docs_api/api-enrichment/"
 exportedAt: "2026-01-13T13:03:37.348Z"
 ---
-## Enrichment v1[](https://docs.tink.com/api-enrichment)
+## Enrichment v1[](/Tiny-doc/tink_docs_api/api-enrichment/)
 
 The Enrichment section contains resources for Data Enrichment.
 

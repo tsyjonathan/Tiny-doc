@@ -1,6 +1,6 @@
 ---
 title: "Test different one-time payment scenarios"
-source: "https://docs.tink.com/resources/payments/test-different-one-time-payment-scenarios"
+source: "/Tiny-doc/tink_docs_home/resources/payments/test-different-one-time-payment-scenarios/"
 exportedAt: "2026-01-13T12:57:07.433Z"
 ---
 ## Tink URL[](#tink-url)
@@ -9,7 +9,7 @@ The Tink URL is used to start the Tink flow that leads a user to make a payment.
 
 The `market` that you choose decides the `currency` value. In other words, you can't choose a currency that doesn't fit the market. For example, if you choose `IT` as market, you must use `EUR` as currency.
 
-All parameters that are used to build a Tink URL are available in the [One-time payments SDK reference](https://docs.tink.com/resources/payments/one-time-payments-sdk-reference).
+All parameters that are used to build a Tink URL are available in the [One-time payments SDK reference](/Tiny-doc/tink_docs_home/resources/payments/one-time-payments-sdk-reference/).
 
 ## Demo Bank[](#demo-bank)
 
@@ -27,7 +27,7 @@ Each user account in Demo Bank represents a different test case. In Demo Bank, t
 
 ## Build the URL[](#build-the-url)
 
-The first thing to do is to authenticate your client and create a payment request to generate the `payment request id`. To do this, follow the two first steps in the **Initiate your first one-time payment** article in this order: [1\. Authenticate your client](https://docs.tink.com/resources/payments/initiate-your-first-one-time-payment#authenticate-your-client), then [2\. Create a payment request](https://docs.tink.com/resources/payments/initiate-your-first-one-time-payment#create-a-payment-request).
+The first thing to do is to authenticate your client and create a payment request to generate the `payment request id`. To do this, follow the two first steps in the **Initiate your first one-time payment** article in this order: [1\. Authenticate your client](/Tiny-doc/tink_docs_home/resources/payments/initiate-your-first-one-time-payment/#authenticate-your-client), then [2\. Create a payment request](/Tiny-doc/tink_docs_home/resources/payments/initiate-your-first-one-time-payment/#create-a-payment-request).
 
 ## Tink flow examples[](#tink-flow-examples)
 
@@ -37,11 +37,11 @@ What follows are examples that show how the Tink flow works when using demo exam
 -   [Great Britain payment, canceled](#great-britain-payment-canceled)
 -   [Great Britain payment, failed](#great-britain-payment-failed)
 
-For one-time payment examples for all markets, see [Market-specific information](https://docs.tink.com/resources/payments/one-time-payments-market-specific-information). Apart from examples, the article shows which account types, payment schemes, and remittance formats are allowed per market.
+For one-time payment examples for all markets, see [Market-specific information](/Tiny-doc/tink_docs_home/resources/payments/one-time-payments-market-specific-information/). Apart from examples, the article shows which account types, payment schemes, and remittance formats are allowed per market.
 
-For information on how to check a payment status, use our **Response: PaymentRequestTransfersResponse** endpoint, which provides a `status` value that contains the payment status. For information on how it works, see [Check the payment status](https://docs.tink.com/resources/payments/initiate-your-first-one-time-payment#check-the-payment-status).
+For information on how to check a payment status, use our **Response: PaymentRequestTransfersResponse** endpoint, which provides a `status` value that contains the payment status. For information on how it works, see [Check the payment status](/Tiny-doc/tink_docs_home/resources/payments/initiate-your-first-one-time-payment/#check-the-payment-status).
 
-For information about which payment statuses are available and how to use webhooks to update payment status information in your environment, see [Notifications and webhooks](https://docs.tink.com/resources/payments/one-time-payments-notifications-and-webhooks).
+For information about which payment statuses are available and how to use webhooks to update payment status information in your environment, see [Notifications and webhooks](/Tiny-doc/tink_docs_home/resources/payments/one-time-payments-notifications-and-webhooks/).
 
 **Note**: screen content varies between markets. For example, Sweden accepts BankID as authentication method, but not England, which is why BankID is listed in the Swedish example but not in the English.
 

@@ -1,6 +1,6 @@
 ---
 title: "Tink Docs"
-source: "https://docs.tink.com/market-capabilities/aggregation?market=PT"
+source: "/Tiny-doc/tink_docs_home/market-capabilities/aggregation__q_market=PT__712af4af1a/"
 exportedAt: "2026-01-13T12:53:25.897Z"
 ---
 | 

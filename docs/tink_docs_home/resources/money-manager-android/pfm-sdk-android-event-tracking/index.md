@@ -1,6 +1,6 @@
 ---
 title: "Event tracking for Money Manager on Android"
-source: "https://docs.tink.com/resources/money-manager-android/pfm-sdk-android-event-tracking"
+source: "/Tiny-doc/tink_docs_home/resources/money-manager-android/pfm-sdk-android-event-tracking/"
 exportedAt: "2026-01-13T12:59:08.208Z"
 ---
 Money Manager SDK allows you to track certain user events.

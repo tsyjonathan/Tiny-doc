@@ -1,6 +1,6 @@
 ---
 title: "Balance Check - Tink Docs"
-source: "https://docs.tink.com/resources/balance-check"
+source: "/Tiny-doc/tink_docs_home/resources/balance-check/"
 exportedAt: "2026-01-13T12:40:06.373Z"
 ---
 ## Introduction to Balance Check
@@ -13,7 +13,7 @@ Check the balance of an account
 
 
 
-](https://docs.tink.com/resources/balance-check/introduction-to-balance-check)
+](/Tiny-doc/tink_docs_home/resources/balance-check/introduction-to-balance-check/)
 
 ## Getting Started
 
@@ -25,7 +25,7 @@ Learn how to integrate balance check
 
 
 
-](https://docs.tink.com/resources/balance-check/balance-check-integration)
+](/Tiny-doc/tink_docs_home/resources/balance-check/balance-check-integration/)
 
 [
 
@@ -35,7 +35,7 @@ Refresh data when using continuous access
 
 
 
-](https://docs.tink.com/resources/balance-check/refresh-balance-data)
+](/Tiny-doc/tink_docs_home/resources/balance-check/refresh-balance-data/)
 
 [
 
@@ -45,7 +45,7 @@ Learn how to manage, update and delete consents for your users
 
 
 
-](https://docs.tink.com/resources/balance-check/manage-consents)
+](/Tiny-doc/tink_docs_home/resources/balance-check/manage-consents/)
 
 [
 
@@ -55,4 +55,4 @@ Simplified balance check for one time use
 
 
 
-](https://docs.tink.com/resources/balance-check/one-time-balance-check)
+](/Tiny-doc/tink_docs_home/resources/balance-check/one-time-balance-check/)

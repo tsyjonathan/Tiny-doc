@@ -1,6 +1,6 @@
 ---
 title: "Integrate Risk Insights in iOS apps"
-source: "https://docs.tink.com/resources/risk-insights/integrate-risk-insights-in-ios-apps"
+source: "/Tiny-doc/tink_docs_home/resources/risk-insights/integrate-risk-insights-in-ios-apps/"
 exportedAt: "2026-01-13T12:49:34.387Z"
 ---
 Give your users a best-in-class user experience directly in your iOS app with this straightforward, lightweight integration. This is the quickest and easiest way to launch the Tink SDK from your iOS app.
@@ -25,7 +25,7 @@ To launch the SDK, you need to include two different universal links or deep lin
 
 ## Build a URL[](#build-a-url)
 
-Build a URL to launch the SDK by either using the Tink Link Builder in [Tink Console](https://console.tink.com/) or constructing a URL and providing the [required parameters](https://docs.tink.com/resources/risk-insights/risk-insights-sdk-reference) as well as the `app_uri` and `redirect_uri` you defined previously.
+Build a URL to launch the SDK by either using the Tink Link Builder in [Tink Console](https://console.tink.com/) or constructing a URL and providing the [required parameters](/Tiny-doc/tink_docs_home/resources/risk-insights/risk-insights-sdk-reference/) as well as the `app_uri` and `redirect_uri` you defined previously.
 
 To opt in to automatic redirect behavior, set the `auto_redirect_mobile` parameter to `true`. This lets your users skip an extra interaction to trigger the bank redirect, and will directly open the bank app if installed, or otherwise fall back to a web-based authentication flow in the system's default browser.
 
@@ -193,7 +193,7 @@ extension SceneDelegate {
 
 The SDK will return the result of the operation as query parameters appended to the `redirect_uri`. You can access the `risk_insights_id` in the `Notification.Name.linkCallback` notification observer as demonstrated in the [preconfigured WKWebView example](#open-the-url-in-a-preconfigured-wkwebview).
 
-See the [Risk Insights SDK reference](https://docs.tink.com/resources/risk-insights/risk-insights-sdk-reference) for success and error response formats and parameters.
+See the [Risk Insights SDK reference](/Tiny-doc/tink_docs_home/resources/risk-insights/risk-insights-sdk-reference/) for success and error response formats and parameters.
 
 ## Design considerations[](#design-considerations)
 

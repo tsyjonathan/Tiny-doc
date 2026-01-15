@@ -1,6 +1,6 @@
 ---
 title: "Demo Bank - Tink Docs"
-source: "https://docs.tink.com/resources/console/demo-bank"
+source: "/Tiny-doc/tink_docs_home/resources/console/demo-bank/"
 exportedAt: "2026-01-13T12:53:12.295Z"
 ---
 Demo Bank is a simulated bank that allows you to test Tink products without using real bank credentials. Even though Demo Bank doesn't use real bank credentials, it lets you try real-world scenarios and see how your end-user flow works before it goes into production.
@@ -19,7 +19,7 @@ Each user represents a different test case. In Demo Bank, the **Description** fi
 
 ![Demo Bank, User details](https://images.ctfassets.net/tmqu5vj33f7w/7zWyL0jOzr90bt01gQyjRJ/9768e36d0f47f03c321d9d07dd09154e/Screenshot_2023-08-02_at_09.45.18.png) Clicking on **‘User 1’** allows you to see more details about the user. This includes credentials you might need to use when authenticating (e.g. SSN in Sweden), as well as information about the accounts of that user.
 
-When you have selected a Demo Bank user for your test, it's time to [build your Tink Link](https://docs.tink.com/resources/account-check/verify-your-first-account#build-the-url). Select **Copy URL**, paste it into a browser, and hit enter.
+When you have selected a Demo Bank user for your test, it's time to [build your Tink Link](/Tiny-doc/tink_docs_home/resources/account-check/verify-your-first-account/#build-the-url). Select **Copy URL**, paste it into a browser, and hit enter.
 
 ### Supported Demo Bank providers[](#supported-demo-bank-providers)
 

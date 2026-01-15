@@ -1,6 +1,6 @@
 ---
 title: "Account Aggregation - Tink Docs"
-source: "https://docs.tink.com/resources/aggregation"
+source: "/Tiny-doc/tink_docs_home/resources/aggregation/"
 exportedAt: "2026-01-13T12:41:06.103Z"
 ---
 Our data aggregation product makes it possible to fetch financial data for end users. Data can be aggregated into Tink either directly through the API or with the Tink Link SDK.
@@ -13,7 +13,7 @@ Fetch financial data using Tink REST APIs.
 
 
 
-](https://docs.tink.com/resources/aggregation/aggregate-with-tink-link)
+](/Tiny-doc/tink_docs_home/resources/aggregation/aggregate-with-tink-link/)
 
 [
 
@@ -23,7 +23,7 @@ Use the API to create bank credentials for a specific user and aggregate financi
 
 
 
-](https://docs.tink.com/resources/aggregation/aggregate-data)
+](/Tiny-doc/tink_docs_home/resources/aggregation/aggregate-data/)
 
 ## Sample projects
 
@@ -55,7 +55,7 @@ Credentials
 
 
 
-](https://docs.tink.com/resources/aggregation/credentials)
+](/Tiny-doc/tink_docs_home/resources/aggregation/credentials/)
 
 [
 
@@ -63,7 +63,7 @@ Credentials Session
 
 
 
-](https://docs.tink.com/resources/aggregation/credentials-session)
+](/Tiny-doc/tink_docs_home/resources/aggregation/credentials-session/)
 
 [
 
@@ -71,7 +71,7 @@ Credentials status transitions
 
 
 
-](https://docs.tink.com/resources/aggregation/credentials-status-transitions)
+](/Tiny-doc/tink_docs_home/resources/aggregation/credentials-status-transitions/)
 
 [
 
@@ -79,7 +79,7 @@ Opt-In
 
 
 
-](https://docs.tink.com/resources/aggregation/optin-account-aggregation)
+](/Tiny-doc/tink_docs_home/resources/aggregation/optin-account-aggregation/)
 
 [
 
@@ -87,7 +87,7 @@ What is a Tink user?
 
 
 
-](https://docs.tink.com/resources/aggregation/what-is-a-tink-user)
+](/Tiny-doc/tink_docs_home/resources/aggregation/what-is-a-tink-user/)
 
 [
 
@@ -95,7 +95,7 @@ Balances
 
 
 
-](https://docs.tink.com/resources/aggregation/balances)
+](/Tiny-doc/tink_docs_home/resources/aggregation/balances/)
 
 [
 
@@ -103,7 +103,7 @@ Permanent users
 
 
 
-](https://docs.tink.com/resources/aggregation/permanent-users)
+](/Tiny-doc/tink_docs_home/resources/aggregation/permanent-users/)
 
 [
 
@@ -111,4 +111,4 @@ Early redirect
 
 
 
-](https://docs.tink.com/resources/aggregation/aggregation-early-redirect)
+](/Tiny-doc/tink_docs_home/resources/aggregation/aggregation-early-redirect/)

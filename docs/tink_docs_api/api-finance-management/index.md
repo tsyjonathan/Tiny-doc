@@ -1,15 +1,15 @@
 ---
 title: "Tink Docs"
-source: "https://docs.tink.com/api-finance-management"
+source: "/Tiny-doc/tink_docs_api/api-finance-management/"
 exportedAt: "2026-01-13T13:04:28.690Z"
 ---
-## Finance Management v1[](https://docs.tink.com/api-finance-management)
+## Finance Management v1[](/Tiny-doc/tink_docs_api/api-finance-management/)
 
 The Finance Management section contains resources for Money Manager. These include Budgets, Savings Goals, Statistics, and Insights.
 
 ## Actionable Insight[](#finance-management/actionable-insight)
 
-An actionable insight represent some kind of actionable event or insight derived from user data. It could for instance be that a user has low balance on one of their bank accounts where the action could be to transfer money to that account. Another example could be to encourage a user to save more money by creating a budget for a specific category. Read more about it [here](https://docs.tink.com/resources/money-manager/money-manager-api/present-your-first-actionable-insight).
+An actionable insight represent some kind of actionable event or insight derived from user data. It could for instance be that a user has low balance on one of their bank accounts where the action could be to transfer money to that account. Another example could be to encourage a user to save more money by creating a budget for a specific category. Read more about it [here](/Tiny-doc/tink_docs_home/resources/money-manager/money-manager-api/present-your-first-actionable-insight/).
 
 ### The Actionable Insight model[](#finance-management/actionable-insight/the-actionable-insight-model)
 
@@ -21,7 +21,7 @@ data `data`
 
 description `string`
 
-The description of the insight which can be shown to the user. This field is configurable, read more about it [here](https://docs.tink.com/resources/money-manager/money-manager-api/configure-actionable-insights).
+The description of the insight which can be shown to the user. This field is configurable, read more about it [here](/Tiny-doc/tink_docs_home/resources/money-manager/money-manager-api/configure-actionable-insights/).
 
 id `string`
 
@@ -33,7 +33,7 @@ A list of proposed actions that the user can take in response to the insight.
 
 title `string`
 
-The title of the insight which can be shown to the user. This field is configurable, read more about it [here](https://docs.tink.com/resources/money-manager/money-manager-api/configure-actionable-insights).
+The title of the insight which can be shown to the user. This field is configurable, read more about it [here](/Tiny-doc/tink_docs_home/resources/money-manager/money-manager-api/configure-actionable-insights/).
 
 type `string`
 
@@ -51,7 +51,7 @@ data `object`
 
 type `string`
 
-The insight type. Read more about it [here](https://docs.tink.com/resources/money-manager/money-manager-api/list-of-available-insights).
+The insight type. Read more about it [here](/Tiny-doc/tink_docs_home/resources/money-manager/money-manager-api/list-of-available-insights/).
 
 #### InsightProposedActionDto[](#finance-management/actionable-insight/the-actionable-insight-model/insightproposedactiondto)
 
@@ -61,7 +61,7 @@ data `data`
 
 label `string`
 
-The action label which can be shown to the user. This field is configurable, read more about it [here](https://docs.tink.com/resources/money-manager/money-manager-api/configure-actionable-insights).
+The action label which can be shown to the user. This field is configurable, read more about it [here](/Tiny-doc/tink_docs_home/resources/money-manager/money-manager-api/configure-actionable-insights/).
 
 ## Archive an insight[](#finance-management/actionable-insight/archive-an-insight)
 
@@ -161,7 +161,7 @@ The ID of the user that the archived insight belongs to.
 
 `GET /api/v1/insights`
 
-Lists all insights for the user. Listing insights will automatically apply any title and description overrides [configured using the Tink Console](https://docs.tink.com/resources/money-manager/money-manager-api/configure-actionable-insights). Trying to list insights with a [userlocale](https://docs.tink.com/api#general/user/the-user-model/userprofile) that does not yet have a insight configuration will result in the insights being filtered out and not returned. This is to prevent exposing users to insights with text written in the wrong language. You can read more about configuring insights [here](https://docs.tink.com/resources/money-manager/money-manager-api/configure-actionable-insights).
+Lists all insights for the user. Listing insights will automatically apply any title and description overrides [configured using the Tink Console](/Tiny-doc/tink_docs_home/resources/money-manager/money-manager-api/configure-actionable-insights/). Trying to list insights with a [userlocale](/Tiny-doc/tink_docs_api/api/#general/user/the-user-model/userprofile) that does not yet have a insight configuration will result in the insights being filtered out and not returned. This is to prevent exposing users to insights with text written in the wrong language. You can read more about configuring insights [here](/Tiny-doc/tink_docs_home/resources/money-manager/money-manager-api/configure-actionable-insights/).
 
 ### Works with[](#finance-management/actionable-insight/list-insights/works-with)
 
@@ -199,7 +199,7 @@ Lists all insights for the user. Listing insights will automatically apply any t
 
 ### Response: array\[[ActionableInsight](#tag-actionableinsight)\][](#finance-management/actionable-insight/list-insights/response-array-actionableinsight-)
 
-An actionable insight represent some kind of actionable event or insight derived from user data. It could for instance be that a user has low balance on one of their bank accounts where the action could be to transfer money to that account. Another example could be to encourage a user to save more money by creating a budget for a specific category. Read more about it [here](https://docs.tink.com/resources/money-manager/money-manager-api/present-your-first-actionable-insight).
+An actionable insight represent some kind of actionable event or insight derived from user data. It could for instance be that a user has low balance on one of their bank accounts where the action could be to transfer money to that account. Another example could be to encourage a user to save more money by creating a budget for a specific category. Read more about it [here](/Tiny-doc/tink_docs_home/resources/money-manager/money-manager-api/present-your-first-actionable-insight/).
 
 See [ActionableInsight](#tag-actionableinsight) for parameter descriptions.
 
@@ -3496,7 +3496,7 @@ Values: `RESOLUTION_UNSPECIFIED`, `DAILY`, `WEEKLY`, `MONTHLY`, `YEARLY` |
 | pageToken | The next\_page\_token value returned from a previous List request, if any. |
 | accountIdIn | List of account ids, if not specified results for all available accounts for given user will be returned. |
 | currencyEq | ISO 4127 currency code of transactions that are used to calculate cash flow. If not set, default user currency will be used.  
-You can change it here: [https://docs.tink.com/api#general/user/update-user-profile](https://docs.tink.com/api#general/user/update-user-profile). |
+You can change it here: [/Tiny-doc/tink_docs_api/api/#general/user/update-user-profile](/Tiny-doc/tink_docs_api/api/#general/user/update-user-profile). |
 
 > Response Example
 

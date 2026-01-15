@@ -1,6 +1,6 @@
 ---
 title: "Fetch a list of all categories for your locale"
-source: "https://docs.tink.com/resources/data-enrichment/fetch-a-list-of-all-categories-for-your-locale"
+source: "/Tiny-doc/tink_docs_home/resources/data-enrichment/fetch-a-list-of-all-categories-for-your-locale/"
 exportedAt: "2026-01-13T12:47:36.193Z"
 ---
 ### Step 1: Create the request[](#step-1-create-the-request)

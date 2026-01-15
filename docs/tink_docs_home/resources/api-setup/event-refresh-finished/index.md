@@ -1,11 +1,11 @@
 ---
 title: "Event: Refresh finished - Tink Docs"
-source: "https://docs.tink.com/resources/api-setup/event-refresh-finished"
+source: "/Tiny-doc/tink_docs_home/resources/api-setup/event-refresh-finished/"
 exportedAt: "2026-01-13T13:00:03.346Z"
 ---
-It is possible to use [webhooks](https://docs.tink.com/resources/api-setup/webhooks#available-events) to subscribe to a `refresh:finished` event. This event notifies you when the refresh operation has finished for a user's `credentials`.
+It is possible to use [webhooks](/Tiny-doc/tink_docs_home/resources/api-setup/webhooks/#available-events) to subscribe to a `refresh:finished` event. This event notifies you when the refresh operation has finished for a user's `credentials`.
 
-For details on how to subscribe to webhooks, please see [our guidelines](https://docs.tink.com/resources/api-setup/webhooks) and [Webhook API reference](https://docs.tink.com/api#events-v1/webhook).
+For details on how to subscribe to webhooks, please see [our guidelines](/Tiny-doc/tink_docs_home/resources/api-setup/webhooks/) and [Webhook API reference](/Tiny-doc/tink_docs_api/api/#events-v1/webhook).
 
 ### Event logic[](#event-logic)
 
@@ -13,7 +13,7 @@ The `refresh:finished` event is fired when a refresh operation has finished for 
 
 This event is triggered regardless of whether the refresh attempt was successsful or unsuccessful. In the case of an unsuccessful refresh the type of error is specified in the event.
 
-This event is only triggered when a refresh has actually been attempted. For example, it will not be trigged for refreshes that have been [rate-limited](https://docs.tink.com/api#introduction/rate-limits).
+This event is only triggered when a refresh has actually been attempted. For example, it will not be trigged for refreshes that have been [rate-limited](/Tiny-doc/tink_docs_api/api/#introduction/rate-limits).
 
 ### Event content[](#event-content)
 

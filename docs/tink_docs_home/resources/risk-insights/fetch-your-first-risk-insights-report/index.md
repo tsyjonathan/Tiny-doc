@@ -1,6 +1,6 @@
 ---
 title: "Fetch your first Risk Insights report"
-source: "https://docs.tink.com/resources/risk-insights/fetch-your-first-risk-insights-report"
+source: "/Tiny-doc/tink_docs_home/resources/risk-insights/fetch-your-first-risk-insights-report/"
 exportedAt: "2026-01-13T12:49:23.301Z"
 ---
 Once the prerequisites above have been met, complete the following steps to fetch the risk features for an end user.
@@ -40,7 +40,7 @@ Some possible failure reasons:
 -   The end user did not successfully authenticate with their bank
 -   The end user didn't have any accounts available with the selected bank
 
-For more information about error statuses, see [Handle Risk Insights error codes](https://docs.tink.com/resources/risk-insights/handle-risk-insights-error-codes).
+For more information about error statuses, see [Handle Risk Insights error codes](/Tiny-doc/tink_docs_home/resources/risk-insights/handle-risk-insights-error-codes/).
 
 **The successful callback has this structure**
 
@@ -76,7 +76,7 @@ curl -v -X POST https://api.tink.com/api/v1/oauth/token \
 
 ## 4\. Fetch the report[](#fetch-the-report)
 
-To fetch the risk report, see [Get Risk Insights API](https://docs.tink.com/api#risk/risk-insights/get-a-risk-insights).
+To fetch the risk report, see [Get Risk Insights API](/Tiny-doc/tink_docs_api/api/#risk/risk-insights/get-a-risk-insights).
 
 Fetch your Risk Insights report
 

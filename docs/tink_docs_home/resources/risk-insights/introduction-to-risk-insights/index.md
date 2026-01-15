@@ -1,6 +1,6 @@
 ---
 title: "Introduction to Risk Insights - Tink Docs"
-source: "https://docs.tink.com/resources/risk-insights/introduction-to-risk-insights"
+source: "/Tiny-doc/tink_docs_home/resources/risk-insights/introduction-to-risk-insights/"
 exportedAt: "2026-01-13T12:41:34.989Z"
 ---
 Lenders and assessors face many challenges when evaluating end-user risk:

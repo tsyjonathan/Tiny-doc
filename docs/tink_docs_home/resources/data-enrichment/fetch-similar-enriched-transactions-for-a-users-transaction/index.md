@@ -1,6 +1,6 @@
 ---
 title: "Fetch similar enriched transactions for a user’s transaction"
-source: "https://docs.tink.com/resources/data-enrichment/fetch-similar-enriched-transactions-for-a-users-transaction"
+source: "/Tiny-doc/tink_docs_home/resources/data-enrichment/fetch-similar-enriched-transactions-for-a-users-transaction/"
 exportedAt: "2026-01-13T12:47:42.313Z"
 ---
 Using your user access token and the transaction you want to find similar transactions for, call the list similar transactions endpoint:

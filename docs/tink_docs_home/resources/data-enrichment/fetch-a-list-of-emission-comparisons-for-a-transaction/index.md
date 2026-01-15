@@ -1,6 +1,6 @@
 ---
 title: "Fetch a list of emission comparisons for a transaction"
-source: "https://docs.tink.com/resources/data-enrichment/fetch-a-list-of-emission-comparisons-for-a-transaction"
+source: "/Tiny-doc/tink_docs_home/resources/data-enrichment/fetch-a-list-of-emission-comparisons-for-a-transaction/"
 exportedAt: "2026-01-13T12:48:16.821Z"
 ---
 A comparable is a concrete example used to contextualize a CO2 footprint by comparing it to a familiar activity, such as the distance driven by a car. This illustrates the impact of the emission footprint from a transaction in a relatable manner.

@@ -1,6 +1,6 @@
 ---
 title: "Test Open banking redirect - Tink Docs"
-source: "https://docs.tink.com/resources/aggregation/test-open-banking-redirect"
+source: "/Tiny-doc/tink_docs_home/resources/aggregation/test-open-banking-redirect/"
 exportedAt: "2026-01-13T13:00:36.981Z"
 ---
 ## When to use[](#when-to-use)
@@ -9,11 +9,11 @@ This provider simulates a redirect-based authentication flow for open banking pr
 
 In this flow, the user (PSU) is redirected to the bank's (ASPSP) interface to complete the authentication. Typically this is the bank's web interace or a dedicated mobile app.
 
-If you are an [Enterprise](https://tink.com/pricing) customer with [permanent users](https://docs.tink.com/glossary#permanent-users) enabled, it is possible to [refresh credentials](https://docs.tink.com/api#connectivity/credentials/refresh-credentials) created using this test provider multiple times. In this test flow, the authentication session is set to expire after 30 days. During this time period, it is possible to simulate refreshing of user data from the bank without a need for the user to authetnicate. Once this session has expired, a new [credential refresh](https://docs.tink.com/api#connectivity/credentials/refresh-credentials) request will require the user to authenticate towards the bank again.
+If you are an [Enterprise](https://tink.com/pricing) customer with [permanent users](/Tiny-doc/tink_docs_home/glossary/#permanent-users) enabled, it is possible to [refresh credentials](/Tiny-doc/tink_docs_api/api/#connectivity/credentials/refresh-credentials) created using this test provider multiple times. In this test flow, the authentication session is set to expire after 30 days. During this time period, it is possible to simulate refreshing of user data from the bank without a need for the user to authetnicate. Once this session has expired, a new [credential refresh](/Tiny-doc/tink_docs_api/api/#connectivity/credentials/refresh-credentials) request will require the user to authenticate towards the bank again.
 
-Credential refreshes for test providers are not rate limited to allow faster testing. You can read more about credentials and credential refresh rate limiting [here](https://docs.tink.com/resources/aggregation/credentials).
+Credential refreshes for test providers are not rate limited to allow faster testing. You can read more about credentials and credential refresh rate limiting [here](/Tiny-doc/tink_docs_home/resources/aggregation/credentials/).
 
-It is possible to test the Tink aggregation flow with [Tink Link](https://docs.tink.com/resources/aggregation/use-test-providers) or [directly via our API](https://docs.tink.com/resources/aggregation/test-aggregation).
+It is possible to test the Tink aggregation flow with [Tink Link](/Tiny-doc/tink_docs_home/resources/aggregation/use-test-providers/) or [directly via our API](/Tiny-doc/tink_docs_home/resources/aggregation/test-aggregation/).
 
 **Example credentials object**:
 

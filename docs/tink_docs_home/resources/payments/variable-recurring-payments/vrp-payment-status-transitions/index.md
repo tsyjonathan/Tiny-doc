@@ -1,6 +1,6 @@
 ---
 title: "Variable Recurring Payment status transition"
-source: "https://docs.tink.com/resources/payments/variable-recurring-payments/vrp-payment-status-transitions"
+source: "/Tiny-doc/tink_docs_home/resources/payments/variable-recurring-payments/vrp-payment-status-transitions/"
 exportedAt: "2026-01-13T12:43:20.531Z"
 ---
 When a Variable Recurring Payment (VRP) mandate has successfully been created and authorized, payments can be initiated by using that mandate. When a payment has been initiated, most users want to know the exact status of an initiated payment. In other words, it's important to know if, for example, a payment initiation is sent, settled, canceled, or failed.
@@ -33,11 +33,11 @@ You can set up a webhook for your app and receive notifications whenever the sta
 
 ### Via our API[](#via-our-api)
 
-To get the status for given mandate payment see [Get mandate payment](https://docs.tink.com/api#payment/mandate-payment/get-mandate-payment) in our API docs.
+To get the status for given mandate payment see [Get mandate payment](/Tiny-doc/tink_docs_api/api/#payment/mandate-payment/get-mandate-payment) in our API docs.
 
 ## Webhooks[](#webhooks)
 
-Follow [this guide](https://docs.tink.com/resources/payments/one-time-payments/one-time-payments-notifications-and-webhooks) in order to set up a webhook for your app.
+Follow [this guide](/Tiny-doc/tink_docs_home/resources/payments/one-time-payments/one-time-payments-notifications-and-webhooks/) in order to set up a webhook for your app.
 
 ## Available event[](#available-event)
 
@@ -47,7 +47,7 @@ Follow [this guide](https://docs.tink.com/resources/payments/one-time-payments/o
 
 ## Event: Mandate payment updated[](#event-mandate-payment-updated)
 
-It's possible to use [webhooks](https://docs.tink.com/api#events-v2) to subscribe to the `mandate-payment:updated` event.
+It's possible to use [webhooks](/Tiny-doc/tink_docs_api/api/#events-v2) to subscribe to the `mandate-payment:updated` event.
 
 ### Event content[](#event-content)
 
@@ -58,12 +58,12 @@ It's possible to use [webhooks](https://docs.tink.com/api#events-v2) to subscrib
 | merchantId | string | The merchant id, in uuid v4 format, for the mandate payment. | No |
 | providerId | string | The provider (financial institution) name that the mandate is connected to. | Yes |
 | type | string | The type of the mandate payment. Defined by the sub-type used in the creation of your mandate. Values: `VRP_COMMERCIAL`, `VRP_SWEEPING`. | Yes |
-| amount | [CurrencyExactAmount](https://docs.tink.com/api#payment/mandate-payment/create-mandate-payment/response-response/currencyexactamount) | The payment amount. | Yes |
+| amount | [CurrencyExactAmount](/Tiny-doc/tink_docs_api/api/#payment/mandate-payment/create-mandate-payment/response-response/currencyexactamount) | The payment amount. | Yes |
 | status | string | The status of the mandate payment. Values: `CANCELLED`, `CREATED`, `FAILED`, `SENT`, `SETTLED_PAYEE`, `SETTLED_PAYER`. | Yes |
 | statusMessage | string | A message explaining the current status of the payment. | Yes |
-| remittanceInformation | [RemittanceInformation](https://docs.tink.com/api#payment/mandate-payment/create-mandate-payment/response-response/remittanceinformation) | The structured remittance information for the mandate payment. This value will be populated to end-to-end identification at the bank. | Yes |
-| payeeAccount | [PayeeAccount](https://docs.tink.com/api#payment/mandate-payment/create-mandate-payment/response-response/payeeaccount) | The payee account for the mandate payment. | Yes |
-| payerAccount | [PayerAccount](https://docs.tink.com/api#payment/mandate-payment/create-mandate-payment/response-response/payeraccount) | The payer account of the mandate payment. | Yes |
+| remittanceInformation | [RemittanceInformation](/Tiny-doc/tink_docs_api/api/#payment/mandate-payment/create-mandate-payment/response-response/remittanceinformation) | The structured remittance information for the mandate payment. This value will be populated to end-to-end identification at the bank. | Yes |
+| payeeAccount | [PayeeAccount](/Tiny-doc/tink_docs_api/api/#payment/mandate-payment/create-mandate-payment/response-response/payeeaccount) | The payee account for the mandate payment. | Yes |
+| payerAccount | [PayerAccount](/Tiny-doc/tink_docs_api/api/#payment/mandate-payment/create-mandate-payment/response-response/payeraccount) | The payer account of the mandate payment. | Yes |
 | createdTime | string | The timestamp at which the mandate payment was created, ISO 8601 date and time format in UTC (YYYY-MM-DDThh:mm:ssZ). | Yes |
 | updatedTime | string | The timestamp at which the mandate payment was updated, ISO 8601 date and time format in UTC (YYYY-MM-DDThh:mm:ssZ). | Yes |
 

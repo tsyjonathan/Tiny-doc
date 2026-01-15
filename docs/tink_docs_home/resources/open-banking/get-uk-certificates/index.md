@@ -1,6 +1,6 @@
 ---
 title: "Get UK certificates - Tink Docs"
-source: "https://docs.tink.com/resources/open-banking/get-uk-certificates"
+source: "/Tiny-doc/tink_docs_home/resources/open-banking/get-uk-certificates/"
 exportedAt: "2026-01-13T12:54:57.057Z"
 ---
 In the UK, the [Open Banking Implementation Entity (OBIE)](https://directory.openbanking.org.uk/s/login/) serves as a trust anchor, ensuring the authenticity of both banks and application providers. For a TPP to access PSD2 APIs, they must be enrolled in the OBIE directory.

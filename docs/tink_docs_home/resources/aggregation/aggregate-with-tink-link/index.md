@@ -1,11 +1,11 @@
 ---
 title: "How to aggregate financial data using Tink REST APIs"
-source: "https://docs.tink.com/resources/aggregation/aggregate-with-tink-link"
+source: "/Tiny-doc/tink_docs_home/resources/aggregation/aggregate-with-tink-link/"
 exportedAt: "2026-01-13T12:55:19.036Z"
 ---
 ## Fetch user data[](#fetch-user-data)
 
-Once you have a valid `access_token`, you can use this token to access user data using the Tink APIs. Since we requested an `accounts:read` scope in our [initial example](https://docs.tink.com/resources/getting-started/connect-tink-link), we should now be able to read the user’s accounts.
+Once you have a valid `access_token`, you can use this token to access user data using the Tink APIs. Since we requested an `accounts:read` scope in our [initial example](/Tiny-doc/tink_docs_home/resources/getting-started/connect-tink-link/), we should now be able to read the user’s accounts.
 
 ### Account service[](#account-service)
 
@@ -18,13 +18,13 @@ curl -v https://api.tink.com/api/v1/accounts/list \
 -H 'Authorization: Bearer '
 ```
 
-We didn’t request any other `scope`, which means that we won’t be able to fetch more information than this. If you’d like to fetch other types of data, go through the process again but with a wider scope. For example: `scope=accounts:read,transactions:read,statistics:read,investments:read,user:read,credentials:read`. Check out our [API documentation](https://docs.tink.com/api) to see examples of how to fetch other types of data, such as transactions, statistics or investment data.
+We didn’t request any other `scope`, which means that we won’t be able to fetch more information than this. If you’d like to fetch other types of data, go through the process again but with a wider scope. For example: `scope=accounts:read,transactions:read,statistics:read,investments:read,user:read,credentials:read`. Check out our [API documentation](/Tiny-doc/tink_docs_api/api/) to see examples of how to fetch other types of data, such as transactions, statistics or investment data.
 
 _Note that adding more scopes might increase the loading time. For example, if you add `transactions:read`, the Tink Link completion time can significantly increase due to transaction processing._
 
 ## Explore other APIs[](#explore-other-apis)
 
-You now have everything you need to make the most out of the Tink Platform. All of our products are documentend in our [Docs](https://docs.tink.com/) section, where you can discover available endpoints for each product and more detailed information on what’s possible to build using Tink.
+You now have everything you need to make the most out of the Tink Platform. All of our products are documentend in our [Docs](/Tiny-doc/tink_docs_home/index/) section, where you can discover available endpoints for each product and more detailed information on what’s possible to build using Tink.
 
 Below is a quick overview of some important concepts.
 

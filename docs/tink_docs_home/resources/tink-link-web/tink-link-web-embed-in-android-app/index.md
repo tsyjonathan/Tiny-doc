@@ -1,6 +1,6 @@
 ---
 title: "Embed in Android app - Tink Docs"
-source: "https://docs.tink.com/resources/tink-link-web/tink-link-web-embed-in-android-app"
+source: "/Tiny-doc/tink_docs_home/resources/tink-link-web/tink-link-web-embed-in-android-app/"
 exportedAt: "2026-01-13T13:01:15.459Z"
 ---
 ## Set up deep links or Android App Links[](#set-up-deep-links-or-android-app-links)
@@ -59,7 +59,7 @@ webView.loadUrl(url)
 
 ## Capture the response[](#capture-the-response)
 
-Retrieve the response of the Tink Link operation, such as `code` or any appropriate response parameter, in `onCreate` or `onNewIntent`. See the respective [reference documentation](https://docs.tink.com/resources/tink-link-web) for more information on the Tink Link response format.
+Retrieve the response of the Tink Link operation, such as `code` or any appropriate response parameter, in `onCreate` or `onNewIntent`. See the respective [reference documentation](/Tiny-doc/tink_docs_home/resources/tink-link-web/) for more information on the Tink Link response format.
 
 ```
 override fun onNewIntent(intent: Intent?) {

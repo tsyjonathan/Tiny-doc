@@ -1,6 +1,6 @@
 ---
 title: "Visualise incoming and outgoing transfers by category"
-source: "https://docs.tink.com/resources/money-manager/money-manager-api/visualise-incoming-and-outgoing-transfers-by-category"
+source: "/Tiny-doc/tink_docs_home/resources/money-manager/money-manager-api/visualise-incoming-and-outgoing-transfers-by-category/"
 exportedAt: "2026-01-13T12:50:21.350Z"
 ---
 ## Introduction[](#introduction)
@@ -11,7 +11,7 @@ In this guide, we will show you how to visualise your monthly transfers across m
 
 ## 1\. Calling the Statistics Endpoint[](#calling-the-statistics-endpoint)
 
-In this guide, we’re going to focus on spending per child category. If you want to read about other pre-calculated statistics, please visit our [API documentation](https://docs.tink.com/api#finance-management/statistics).
+In this guide, we’re going to focus on spending per child category. If you want to read about other pre-calculated statistics, please visit our [API documentation](/Tiny-doc/tink_docs_api/api/#finance-management/statistics).
 
 You can choose between 4 selected statistic types:
 
@@ -220,7 +220,7 @@ In the response, you will receive a category ID for the child categories in the 
 
 ## 2.Fetch Category Names[](#fetch-category-names)
 
-You then may need to fetch a list of available categories to match up against the category IDs you received from the statistics endpoint. This is achieved by using the [list categories](https://docs.tink.com/api#general/category/list-categories) endpoint while unauthenticated.
+You then may need to fetch a list of available categories to match up against the category IDs you received from the statistics endpoint. This is achieved by using the [list categories](/Tiny-doc/tink_docs_api/api/#general/category/list-categories) endpoint while unauthenticated.
 
 Example request:
 
@@ -247,6 +247,6 @@ Example response:
 ]
 ```
 
-You then need to match the `description` field from the [Statistics](https://docs.tink.com/api#finance-management/statistics) endpoint response to the ID from the [List categories](https://docs.tink.com/api#general/category/list-categories) endpoint response, so you can return a category back to the user.
+You then need to match the `description` field from the [Statistics](/Tiny-doc/tink_docs_api/api/#finance-management/statistics) endpoint response to the ID from the [List categories](/Tiny-doc/tink_docs_api/api/#general/category/list-categories) endpoint response, so you can return a category back to the user.
 
 You will then have all you need to visualise spending per parent category for a given month. If you want to learn how to visualise down to child category level, please follow the next guide.

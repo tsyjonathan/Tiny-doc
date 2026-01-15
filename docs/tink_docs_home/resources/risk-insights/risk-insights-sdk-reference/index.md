@@ -1,6 +1,6 @@
 ---
 title: "Risk Insights SDK reference - Tink Docs"
-source: "https://docs.tink.com/resources/risk-insights/risk-insights-sdk-reference"
+source: "/Tiny-doc/tink_docs_home/resources/risk-insights/risk-insights-sdk-reference/"
 exportedAt: "2026-01-13T12:49:47.419Z"
 ---
 This reference describes the parameters, success and error responses, and market and language availability for the Risk Insights SDK.
@@ -19,16 +19,16 @@ Use these parameters when building the SDK URL. Then, integrate the URL into you
 | --- | --- | --- |
 | `client_id` | Required | Your client ID (retrieved from [Console](https://console.tink.com/)). |
 | `redirect_uri` | Required | The page the end-user is redirected to after completing the flow together with the response parameters (configured in [Console](https://console.tink.com/)). |
-| `app_uri` | Optional | The deep link for an Android or iOS hosting app. Use when Tink Link is embedded in an [Android](https://docs.tink.com/resources/payments/one-time-payments/integrate-one-time-payments-in-android-apps)/[iOS](https://docs.tink.com/resources/payments/one-time-payments/integrate-one-time-payments-in-ios-apps) app to redirect the user back to the hosting app after authenticating in a third-party app (such as Mobile Bank ID). |
-| `auto_redirect_mobile` | Optional, but recommended for mobile integrations | Use for [Android](https://docs.tink.com/resources/payments/one-time-payments/integrate-one-time-payments-in-android-apps) or [iOS](https://docs.tink.com/resources/payments/one-time-payments/integrate-one-time-payments-in-ios-apps) integrations. When `TRUE`, this will directly open the bank app during the authentication step if installed on the user's device or otherwise fall back to a web-based authentication flow in the system's default browser. |
+| `app_uri` | Optional | The deep link for an Android or iOS hosting app. Use when Tink Link is embedded in an [Android](/Tiny-doc/tink_docs_home/resources/payments/one-time-payments/integrate-one-time-payments-in-android-apps/)/[iOS](/Tiny-doc/tink_docs_home/resources/payments/one-time-payments/integrate-one-time-payments-in-ios-apps/) app to redirect the user back to the hosting app after authenticating in a third-party app (such as Mobile Bank ID). |
+| `auto_redirect_mobile` | Optional, but recommended for mobile integrations | Use for [Android](/Tiny-doc/tink_docs_home/resources/payments/one-time-payments/integrate-one-time-payments-in-android-apps/) or [iOS](/Tiny-doc/tink_docs_home/resources/payments/one-time-payments/integrate-one-time-payments-in-ios-apps/) integrations. When `TRUE`, this will directly open the bank app during the authentication step if installed on the user's device or otherwise fall back to a web-based authentication flow in the system's default browser. |
 | `external_reference` | Optional | The external reference identifier to be included in the report. Allowed characters: uppercase or lowercase formatting, letters, numbers, and the dash character. Maximum length: 50 characters. |
-| `input_provider` | Optional | The unique name of the provider (ex: `sbab-bankid`). If provided, user can skip provider selection. Otherwise, they will choose the provider from a list in the Tink UI. If `input_provider` is invalid, Tink will throw an error. Make sure you have the right provider name by using the [List Providers endpoint](https://docs.tink.com/api-connectivity-v1#connectivity-v1/provider/list-providers). |
+| `input_provider` | Optional | The unique name of the provider (ex: `sbab-bankid`). If provided, user can skip provider selection. Otherwise, they will choose the provider from a list in the Tink UI. If `input_provider` is invalid, Tink will throw an error. Make sure you have the right provider name by using the [List Providers endpoint](/Tiny-doc/tink_docs_api/api-connectivity-v1/#connectivity-v1/provider/list-providers). |
 | `input_username` | Optional | Prefills the username field for supported providers. Useful when the username is a personal identifier that could be valid for multiple banks, such as a social security number. |
 | `locale` | Optional (default `en_US`) | The locale used for UI text. See [supported locales](#supported-locales). |
 | `market` | Optional (default `SE`) | The market code for the country Tink should list providers for. See [supported markets](#supported-markets). |
-| `session_id` | Optional | Used to securely configure Tink Link, prefill data or apply merchant customization. See [sessions](https://docs.tink.com/api#general/tink-link/session). |
+| `session_id` | Optional | Used to securely configure Tink Link, prefill data or apply merchant customization. See [sessions](/Tiny-doc/tink_docs_api/api/#general/tink-link/session). |
 | `state` | Optional, but recommended | Helps defend against Cross-Site Request Forgery (CSRF) attacks. To use `state`, provide a randomized `state` value when initiating the SDK. Tink will return this value in the callback after a successful grant. You can then compare this value to the value in your request to ensure it came from your app. |
-| `theme` | Optional | Specifying `LIGHT` or `DARK` overrides the user’s system preference and displays the specified theme. Requires both themes to be configured to have any effect. Reach out to [support](https://docs.tink.com/resources/support) to enable dark theme. |
+| `theme` | Optional | Specifying `LIGHT` or `DARK` overrides the user’s system preference and displays the specified theme. Requires both themes to be configured to have any effect. Reach out to [support](/Tiny-doc/tink_docs_home/resources/support/) to enable dark theme. |
 
 Example URL
 
@@ -57,9 +57,9 @@ Tink appends the following parameters to the `redirect_uri` if the SDK journey e
 
 | Parameter | Availability | Description |
 | --- | --- | --- |
-| `error` | Always | A status code that describes the category of the error. For details, see [error statuses](https://docs.tink.com/resources/risk-insights/handle-risk-insights-error-codes#error-statuses). |
-| `error_reason` | Always | The error reason that describes the cause of the error. For details, see the error reasons for the respective [error status](https://docs.tink.com/resources/risk-insights/handle-risk-insights-error-codes#error-statuses). |
-| `error_type` | If `error=AUTHENTICATION_ERROR` | Describes the type of authentication error that has occurred. For details, see [provider consent errors](https://docs.tink.com/resources/transactions/provider-consent-errors). |
+| `error` | Always | A status code that describes the category of the error. For details, see [error statuses](/Tiny-doc/tink_docs_home/resources/risk-insights/handle-risk-insights-error-codes/#error-statuses). |
+| `error_reason` | Always | The error reason that describes the cause of the error. For details, see the error reasons for the respective [error status](/Tiny-doc/tink_docs_home/resources/risk-insights/handle-risk-insights-error-codes/#error-statuses). |
+| `error_type` | If `error=AUTHENTICATION_ERROR` | Describes the type of authentication error that has occurred. For details, see [provider consent errors](/Tiny-doc/tink_docs_home/resources/transactions/provider-consent-errors/). |
 | `message` | Always | A localized end-user facing error message that can be directly presented to the end user. |
 | `tracking_id` | Always | Tink's internal identifier for this specific error instance. |
 | `credentials` | If credentials were created | The identifier of the created credentials object. |
@@ -78,7 +78,7 @@ http://localhost:3000/callback?
 
 ## Supported markets[](#supported-markets)
 
-These are the markets supported for Risk Insights. If a `market` isn't provided, Tink defaults to `SE`. See [market capabilities](https://docs.tink.com/market-capabilities) for all available providers by market.
+These are the markets supported for Risk Insights. If a `market` isn't provided, Tink defaults to `SE`. See [market capabilities](/Tiny-doc/tink_docs_home/market-capabilities/) for all available providers by market.
 
 | Market | Market Code |
 | --- | --- |

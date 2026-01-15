@@ -1,6 +1,6 @@
 ---
 title: "How to connect to banks using Tink Link"
-source: "https://docs.tink.com/resources/getting-started/connect-tink-link"
+source: "/Tiny-doc/tink_docs_home/resources/getting-started/connect-tink-link/"
 exportedAt: "2026-01-13T12:55:56.877Z"
 ---
 ## Step-by-step guide[](#step-by-step-guide)
@@ -19,11 +19,11 @@ In the very bottom section, a URL should have been created. Click on the **Copy 
 
 Now you have a Tink Link that you can start working with.
 
-> **NOTE**: If you don’t want to use your real bank credentials while building, you can enable the **Use test providers only** option which appears under the list of scopes. If you need more information about testing with Tink, you can find it [here](https://docs.tink.com/resources/aggregation/use-test-providers).
+> **NOTE**: If you don’t want to use your real bank credentials while building, you can enable the **Use test providers only** option which appears under the list of scopes. If you need more information about testing with Tink, you can find it [here](/Tiny-doc/tink_docs_home/resources/aggregation/use-test-providers/).
 
 ### Customize Tink Link[](#customize-tink-link)
 
-It’s possible to streamline the authentication flow using [optional Tink Link parameters](https://docs.tink.com/resources/tink-link-web/tink-link-web-api-reference-account-aggregation#request-parameters). For example, you can direct users immediately to a specific provider instead of letting them choose from a list. The Tink Link parameters are appended as URL parameters in the Tink Link URL, such as `&input_provider=uk-americanexpress-password`.
+It’s possible to streamline the authentication flow using [optional Tink Link parameters](/Tiny-doc/tink_docs_home/resources/tink-link-web/tink-link-web-api-reference-account-aggregation/#request-parameters). For example, you can direct users immediately to a specific provider instead of letting them choose from a list. The Tink Link parameters are appended as URL parameters in the Tink Link URL, such as `&input_provider=uk-americanexpress-password`.
 
 ## Authenticate yourself[](#authenticate-yourself)
 
@@ -35,8 +35,8 @@ On a successful authentication, your browser should redirect you to the `redirec
 
 > **NOTE**: if you have not set up a local web server on this `redirect_uri`, the browser will show a "not found" message. This is absolutely fine, since you will only have to care about the code for now and copy it from the URL.
 
-Once you have received the authorization `code`, you can [exchange](https://docs.tink.com/resources/getting-started/retrieve-access-token) it for an `access_token`.
+Once you have received the authorization `code`, you can [exchange](/Tiny-doc/tink_docs_home/resources/getting-started/retrieve-access-token/) it for an `access_token`.
 
 ## Using Tink Link on iOS[](#using-tink-link-on-ios)
 
-Make sure to read our [Tink Link iOS tutorial](https://docs.tink.com/resources/tutorials/tink-link-ios) if you are integrating Tink Link inside an iOS app to correctly handle all the different authentication methods and redirect scenarios supported by Tink Link.
+Make sure to read our [Tink Link iOS tutorial](/Tiny-doc/tink_docs_home/resources/tutorials/tink-link-ios/) if you are integrating Tink Link inside an iOS app to correctly handle all the different authentication methods and redirect scenarios supported by Tink Link.

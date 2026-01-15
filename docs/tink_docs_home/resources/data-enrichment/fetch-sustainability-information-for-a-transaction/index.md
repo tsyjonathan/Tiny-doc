@@ -1,6 +1,6 @@
 ---
 title: "Fetch sustainability information for a transaction"
-source: "https://docs.tink.com/resources/data-enrichment/fetch-sustainability-information-for-a-transaction"
+source: "/Tiny-doc/tink_docs_home/resources/data-enrichment/fetch-sustainability-information-for-a-transaction/"
 exportedAt: "2026-01-13T12:48:02.754Z"
 ---
 Sustainability information for a transaction including the CO2 footprint, a comparison and insights on how to lower the CO2 emission can be retrieved by calling the `/enrichment/v1/sustainability/transactions/{transactionId}` endpoint.

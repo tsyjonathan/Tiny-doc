@@ -1,6 +1,6 @@
 ---
 title: "Postman collection - Tink Docs"
-source: "https://docs.tink.com/resources/risk-insights/postman-collection-for-risk-insights"
+source: "/Tiny-doc/tink_docs_home/resources/risk-insights/postman-collection-for-risk-insights/"
 exportedAt: "2026-01-13T12:49:49.400Z"
 ---
 ![Postman collections](https://images.ctfassets.net/tmqu5vj33f7w/6CpgyCvFmSkKaghfxcp9rq/f889ee3413027b3dc175204ce7c1968b/Postman-collections.png)

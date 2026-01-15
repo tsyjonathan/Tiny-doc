@@ -1,6 +1,6 @@
 ---
 title: "Event tracking for Money Manager on iOS"
-source: "https://docs.tink.com/resources/money-manager-ios/pfm-sdk-ios-event-tracking"
+source: "/Tiny-doc/tink_docs_home/resources/money-manager-ios/pfm-sdk-ios-event-tracking/"
 exportedAt: "2026-01-13T13:00:28.779Z"
 ---
 Money Manager SDK allows you to track certain user events.

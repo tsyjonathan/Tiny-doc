@@ -1,9 +1,9 @@
 ---
 title: "Payments - Tink Docs"
-source: "https://docs.tink.com/resources/payments"
+source: "/Tiny-doc/tink_docs_home/resources/payments/"
 exportedAt: "2026-01-13T12:40:02.369Z"
 ---
-[One-time payments](https://docs.tink.com/resources/payments#one-time-payments)[Variable Recurring Payments](https://docs.tink.com/resources/payments#variable-recurring-payments)
+[One-time payments](/Tiny-doc/tink_docs_home/resources/payments/#one-time-payments)[Variable Recurring Payments](/Tiny-doc/tink_docs_home/resources/payments/#variable-recurring-payments)
 
 ## Getting started with one-time payments
 
@@ -19,7 +19,7 @@ Learn the prerequisites, follow examples, and get started.
 
 
 
-](https://docs.tink.com/resources/payments/one-time-payments/initiate-your-first-one-time-payment)
+](/Tiny-doc/tink_docs_home/resources/payments/one-time-payments/initiate-your-first-one-time-payment/)
 
 [
 
@@ -33,7 +33,7 @@ Test your integration by using demo credentials.
 
 
 
-](https://docs.tink.com/resources/payments/one-time-payments/test-different-one-time-payment-scenarios)
+](/Tiny-doc/tink_docs_home/resources/payments/one-time-payments/test-different-one-time-payment-scenarios/)
 
 [
 
@@ -47,7 +47,7 @@ Make your first bulk payment with Tink Link
 
 
 
-](https://docs.tink.com/resources/payments/one-time-payments/initiate-your-first-bulk-payment)
+](/Tiny-doc/tink_docs_home/resources/payments/one-time-payments/initiate-your-first-bulk-payment/)
 
 [
 
@@ -61,7 +61,7 @@ Get started with settlement accounts
 
 
 
-](https://docs.tink.com/resources/payments/one-time-payments/set-up-settlement-accounts-one-time-payments)
+](/Tiny-doc/tink_docs_home/resources/payments/one-time-payments/set-up-settlement-accounts-one-time-payments/)
 
 [
 
@@ -75,7 +75,7 @@ Get started with Risk Signals
 
 
 
-](https://docs.tink.com/resources/payments/one-time-payments/risk-signals)
+](/Tiny-doc/tink_docs_home/resources/payments/one-time-payments/risk-signals/)
 
 ## Integration
 
@@ -87,7 +87,7 @@ Seamlessly launch and run the Tink SDK in your Android app environment
 
 
 
-](https://docs.tink.com/resources/payments/one-time-payments/integrate-one-time-payments-in-android-apps)
+](/Tiny-doc/tink_docs_home/resources/payments/one-time-payments/integrate-one-time-payments-in-android-apps/)
 
 [
 
@@ -97,7 +97,7 @@ Seamlessly launch and run the Tink SDK in your iOS app environment
 
 
 
-](https://docs.tink.com/resources/payments/one-time-payments/integrate-one-time-payments-in-ios-apps)
+](/Tiny-doc/tink_docs_home/resources/payments/one-time-payments/integrate-one-time-payments-in-ios-apps/)
 
 [
 
@@ -107,7 +107,7 @@ Seamlessly launch and run the Tink SDK in your web app environment
 
 
 
-](https://docs.tink.com/resources/payments/one-time-payments/integrate-one-time-payments-in-web-apps)
+](/Tiny-doc/tink_docs_home/resources/payments/one-time-payments/integrate-one-time-payments-in-web-apps/)
 
 [
 
@@ -121,7 +121,7 @@ One-time payments error codes and formats, described and explained.
 
 
 
-](https://docs.tink.com/resources/payments/one-time-payments/handle-one-time-payments-sdk-error-codes)
+](/Tiny-doc/tink_docs_home/resources/payments/one-time-payments/handle-one-time-payments-sdk-error-codes/)
 
 [
 
@@ -135,7 +135,7 @@ Launch the SDK with sensitive user information
 
 
 
-](https://docs.tink.com/resources/payments/one-time-payments/one-time-payments-sdk-sessions)
+](/Tiny-doc/tink_docs_home/resources/payments/one-time-payments/one-time-payments-sdk-sessions/)
 
 [
 
@@ -149,7 +149,7 @@ Parameters, responses, versions and market availability for the One-Time Payment
 
 
 
-](https://docs.tink.com/resources/payments/one-time-payments/one-time-payments-sdk-reference)
+](/Tiny-doc/tink_docs_home/resources/payments/one-time-payments/one-time-payments-sdk-reference/)
 
 [
 
@@ -163,7 +163,7 @@ Set up webhooks to listen for Tink event notifications.
 
 
 
-](https://docs.tink.com/resources/payments/one-time-payments/one-time-payments-notifications-and-webhooks)
+](/Tiny-doc/tink_docs_home/resources/payments/one-time-payments/one-time-payments-notifications-and-webhooks/)
 
 [
 
@@ -173,7 +173,7 @@ Where to show the bank selection screen and how to populate the users' chosen ba
 
 
 
-](https://docs.tink.com/resources/payments/one-time-payments/payments-flow-optimization-bank-selection)
+](/Tiny-doc/tink_docs_home/resources/payments/one-time-payments/payments-flow-optimization-bank-selection/)
 
 ## Additional information
 
@@ -183,7 +183,7 @@ Market-specific information
 
 
 
-](https://docs.tink.com/resources/payments/one-time-payments/one-time-payments-market-specific-information)
+](/Tiny-doc/tink_docs_home/resources/payments/one-time-payments/one-time-payments-market-specific-information/)
 
 [
 
@@ -191,7 +191,7 @@ Payment status transitions
 
 
 
-](https://docs.tink.com/resources/payments/one-time-payments/one-time-payments-status-transitions)
+](/Tiny-doc/tink_docs_home/resources/payments/one-time-payments/one-time-payments-status-transitions/)
 
 [
 
@@ -199,7 +199,7 @@ Payment conditions
 
 
 
-](https://docs.tink.com/resources/payments/one-time-payments/payment-conditions-one-time-payments)
+](/Tiny-doc/tink_docs_home/resources/payments/one-time-payments/payment-conditions-one-time-payments/)
 
 [
 
@@ -207,7 +207,7 @@ Partner integration
 
 
 
-](https://docs.tink.com/resources/payments/one-time-payments/partner-integration-one-time-payments)
+](/Tiny-doc/tink_docs_home/resources/payments/one-time-payments/partner-integration-one-time-payments/)
 
 [
 
@@ -215,7 +215,7 @@ Cross-border payments
 
 
 
-](https://docs.tink.com/resources/payments/one-time-payments/cross-border-payments-one-time-payments)
+](/Tiny-doc/tink_docs_home/resources/payments/one-time-payments/cross-border-payments-one-time-payments/)
 
 [
 
@@ -223,7 +223,7 @@ Payment schemes
 
 
 
-](https://docs.tink.com/resources/payments/one-time-payments/payment-schemes)
+](/Tiny-doc/tink_docs_home/resources/payments/one-time-payments/payment-schemes/)
 
 [
 
@@ -231,7 +231,7 @@ Consent and authentication
 
 
 
-](https://docs.tink.com/resources/payments/one-time-payments/consent-and-authentication-one-time-payments)
+](/Tiny-doc/tink_docs_home/resources/payments/one-time-payments/consent-and-authentication-one-time-payments/)
 
 [
 
@@ -239,7 +239,7 @@ Skip the AIS SCA
 
 
 
-](https://docs.tink.com/resources/payments/one-time-payments/one-sca-for-one-time-payments)
+](/Tiny-doc/tink_docs_home/resources/payments/one-time-payments/one-sca-for-one-time-payments/)
 
 [
 
@@ -247,7 +247,7 @@ Endpoints overview
 
 
 
-](https://docs.tink.com/resources/payments/one-time-payments/endpoints-overview)
+](/Tiny-doc/tink_docs_home/resources/payments/one-time-payments/endpoints-overview/)
 
 [
 
@@ -255,7 +255,7 @@ Cancel a future-dated payment
 
 
 
-](https://docs.tink.com/resources/payments/one-time-payments/cancel-a-future-dated-payment)
+](/Tiny-doc/tink_docs_home/resources/payments/one-time-payments/cancel-a-future-dated-payment/)
 
 [
 

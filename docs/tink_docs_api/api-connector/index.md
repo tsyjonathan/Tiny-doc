@@ -1,11 +1,11 @@
 ---
 title: "Tink Docs"
-source: "https://docs.tink.com/api-connector"
+source: "/Tiny-doc/tink_docs_api/api-connector/"
 exportedAt: "2026-01-13T13:02:40.806Z"
 ---
-## Connector[](https://docs.tink.com/api-connector)
+## Connector[](/Tiny-doc/tink_docs_api/api-connector/)
 
-The Connector API contains resources for feeding your own account and transaction data directly into the Tink platform. The Connector API is mainly used in combination with [Finance Management](https://docs.tink.com/api-finance-management#finance-management) products.
+The Connector API contains resources for feeding your own account and transaction data directly into the Tink platform. The Connector API is mainly used in combination with [Finance Management](/Tiny-doc/tink_docs_api/api-finance-management/#finance-management) products.
 
 Use the endpoints to ingest, update and delete accounts or transactions.
 
@@ -256,7 +256,7 @@ The transaction accounts.
 
 type `string` required
 
-Defines the priority of the delete request. Only `REAL_TIME` is supported for reflecting the most recent updates on a user's account. For deleting whole account with transactions use [Delete account](https://docs.tink.com/api#connector/account/delete-account) instead. Please use [Delete user](https://docs.tink.com/api#general/user/delete-user) for deleting all user data with transactions.  
+Defines the priority of the delete request. Only `REAL_TIME` is supported for reflecting the most recent updates on a user's account. For deleting whole account with transactions use [Delete account](/Tiny-doc/tink_docs_api/api/#connector/account/delete-account) instead. Please use [Delete user](/Tiny-doc/tink_docs_api/api/#general/user/delete-user) for deleting all user data with transactions.  
 Values: `REAL_TIME`, `HISTORICAL`, `BATCH`
 
 #### DeleteTransactionAccountEntity[](#connector/transaction/delete-transactions/request-body-deletetransactionaccountscontainer/deletetransactionaccountentity)

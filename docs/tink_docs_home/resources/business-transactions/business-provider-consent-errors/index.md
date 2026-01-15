@@ -1,6 +1,6 @@
 ---
 title: "Provider Consent Errors - Tink Docs"
-source: "https://docs.tink.com/resources/business-transactions/business-provider-consent-errors"
+source: "/Tiny-doc/tink_docs_home/resources/business-transactions/business-provider-consent-errors/"
 exportedAt: "2026-01-13T12:46:51.511Z"
 ---
 | Type | Reason | Error description |

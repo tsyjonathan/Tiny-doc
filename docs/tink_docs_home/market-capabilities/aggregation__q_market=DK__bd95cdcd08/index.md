@@ -1,6 +1,6 @@
 ---
 title: "Tink Docs"
-source: "https://docs.tink.com/market-capabilities/aggregation?market=DK"
+source: "/Tiny-doc/tink_docs_home/market-capabilities/aggregation__q_market=DK__bd95cdcd08/"
 exportedAt: "2026-01-13T12:53:07.010Z"
 ---
 | 

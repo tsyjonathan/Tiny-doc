@@ -1,6 +1,6 @@
 ---
 title: "Prevent your users from reusing Tink Link"
-source: "https://docs.tink.com/resources/payments/preventing-your-users-from-reusing-tink-link"
+source: "/Tiny-doc/tink_docs_home/resources/payments/preventing-your-users-from-reusing-tink-link/"
 exportedAt: "2026-01-13T12:53:40.552Z"
 ---
 You might want to use a Tink URL over and over, without any kind of expiration. Some may want to prevent Tink URLs from being used more than once.

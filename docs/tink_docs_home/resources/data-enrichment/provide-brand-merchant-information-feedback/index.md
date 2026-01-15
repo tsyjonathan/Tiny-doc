@@ -1,13 +1,13 @@
 ---
 title: "Provide brand and merchant information feedback"
-source: "https://docs.tink.com/resources/data-enrichment/provide-brand-merchant-information-feedback"
+source: "/Tiny-doc/tink_docs_home/resources/data-enrichment/provide-brand-merchant-information-feedback/"
 exportedAt: "2026-01-13T12:48:00.873Z"
 ---
 This article shows how to provide feedback about Brand Identification for transactions. Brand identification on transactions refers to the process of clearly marking or identifying transactions with a specific brand.The purpose of this is to gather the information if provided data is reliable and correct.
 
 _**Note!** The Merchant Information and Brand Identification objects, both found in the same endpoint, are distinct. The Merchant Information object is populated by some providers, however often found blank, while Brand Identification is derived using Tink’s machine learning techniques on all types of transactions._
 
-To provide feedback about Brand Identification for user transactions call firstly the endpoint `GET /enrichment/v1/transactions` endpoint to retrieve enriched transactions. More information about Brand Identification results you can find [here](http://docs.tink.com/resources/data-enrichment/fetch-brand-identification-from-transactions)
+To provide feedback about Brand Identification for user transactions call firstly the endpoint `GET /enrichment/v1/transactions` endpoint to retrieve enriched transactions. More information about Brand Identification results you can find [here](/Tiny-doc/tink_docs_home/resources/data-enrichment/fetch-brand-identification-from-transactions/)
 
 If the provided data contains any inaccuracies, you may submit feedback by invoking the `POST /enrichment/v1/feedback` endpoint and specifying the nature of the issue.
 

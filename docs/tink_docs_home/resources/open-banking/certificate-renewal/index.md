@@ -1,6 +1,6 @@
 ---
 title: "Certificate renewal - Tink Docs"
-source: "https://docs.tink.com/resources/open-banking/certificate-renewal"
+source: "/Tiny-doc/tink_docs_home/resources/open-banking/certificate-renewal/"
 exportedAt: "2026-01-13T12:55:01.869Z"
 ---
 TPPs' open banking certificates are valid for 1 to 2 years. To ensure uninterrupted service, it's essential that you obtain new certificates and install them on Tink before the current ones expire.
@@ -47,11 +47,11 @@ When acquiring new certificates, we recommend the following:
 
 ### EU certificates[](#eu-certificates)
 
-Acquire the new certificates from your QTSP and install them into Tink by following the instructions in [Install Certificates](https://docs.tink.com/resources/open-banking/install-certificates). Make sure to use the `encrypt-and-upload-spare` option when running the script to prevent a service outage.
+Acquire the new certificates from your QTSP and install them into Tink by following the instructions in [Install Certificates](/Tiny-doc/tink_docs_home/resources/open-banking/install-certificates/). Make sure to use the `encrypt-and-upload-spare` option when running the script to prevent a service outage.
 
 ### UK certificates[](#uk-certificates)
 
-To renew your certificates in the UK, you need to generate a CSR file with the script `tink_secret_utils.py` and follow the instructions outlined in [Install Certificates](https://docs.tink.com/resources/open-banking/install-certificates).
+To renew your certificates in the UK, you need to generate a CSR file with the script `tink_secret_utils.py` and follow the instructions outlined in [Install Certificates](/Tiny-doc/tink_docs_home/resources/open-banking/install-certificates/).
 
 After creating the CSR files, uploading them to the Open Banking Implementation Entity (OBIE) directory, and generating new certificates, make sure that you associate the appropriate Software Statements with the new certificates.
 

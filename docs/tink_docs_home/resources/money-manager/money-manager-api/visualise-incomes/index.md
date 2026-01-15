@@ -1,6 +1,6 @@
 ---
 title: "Visualise incomes - Tink Docs"
-source: "https://docs.tink.com/resources/money-manager/money-manager-api/visualise-incomes"
+source: "/Tiny-doc/tink_docs_home/resources/money-manager/money-manager-api/visualise-incomes/"
 exportedAt: "2026-01-13T12:50:29.005Z"
 ---
 ## Introduction[](#introduction)

@@ -1,6 +1,6 @@
 ---
 title: "Customize Budgets on Android - Tink Docs"
-source: "https://docs.tink.com/resources/pfm-sdk-android/customize-budgets-on-android"
+source: "/Tiny-doc/tink_docs_home/resources/pfm-sdk-android/customize-budgets-on-android/"
 exportedAt: "2026-01-13T12:58:37.764Z"
 ---
 ![Customization Budgets Android](https://images.ctfassets.net/tmqu5vj33f7w/2wetsRl0bObyUr4m7VRqdE/0fcb99bae5a3730295a598a3edb1b2d8/ColorCustomisation-BudgetsAndroid.png)
@@ -32,4 +32,4 @@ TinkMoneyManager.init(
 )
 ```
 
-[All available colors](https://docs.tink.com/resources/pfm-sdk-android/pfm-sdk-android-customization#colors) can be customized specifically for budgets.
+[All available colors](/Tiny-doc/tink_docs_home/resources/pfm-sdk-android/pfm-sdk-android-customization/#colors) can be customized specifically for budgets.

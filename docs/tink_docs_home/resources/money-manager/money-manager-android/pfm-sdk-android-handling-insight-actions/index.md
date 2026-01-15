@@ -1,6 +1,6 @@
 ---
 title: "Actionable Insights for Android - Tink Docs"
-source: "https://docs.tink.com/resources/money-manager/money-manager-android/pfm-sdk-android-handling-insight-actions"
+source: "/Tiny-doc/tink_docs_home/resources/money-manager/money-manager-android/pfm-sdk-android-handling-insight-actions/"
 exportedAt: "2026-01-13T12:51:40.525Z"
 ---
 ![Actionable insights](https://images.ctfassets.net/tmqu5vj33f7w/6hWc7Y7AgAMdvzBrKWwXWK/2f88a9ccf106b3a1fefd5832ec7e6415/Android_MM_insights.png)

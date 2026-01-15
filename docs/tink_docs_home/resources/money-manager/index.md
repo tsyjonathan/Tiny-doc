@@ -1,6 +1,6 @@
 ---
 title: "Money Manager - Tink Docs"
-source: "https://docs.tink.com/resources/money-manager"
+source: "/Tiny-doc/tink_docs_home/resources/money-manager/"
 exportedAt: "2026-01-13T12:40:29.345Z"
 ---
 [
@@ -11,4 +11,4 @@ This guide shows how to retrieve expenses by tags, brands, subscriptions, cost s
 
 
 
-](https://docs.tink.com/resources/money-manager/money-manager-api/visualise-expenses)
+](/Tiny-doc/tink_docs_home/resources/money-manager/money-manager-api/visualise-expenses/)

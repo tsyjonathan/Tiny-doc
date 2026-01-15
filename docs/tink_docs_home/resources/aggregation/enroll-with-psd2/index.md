@@ -1,9 +1,9 @@
 ---
 title: "PSD2 API registration - Tink Docs"
-source: "https://docs.tink.com/resources/aggregation/enroll-with-psd2"
+source: "/Tiny-doc/tink_docs_home/resources/aggregation/enroll-with-psd2/"
 exportedAt: "2026-01-13T12:54:10.872Z"
 ---
-A [TPP](https://docs.tink.com/resources/aggregation/open-banking-glossary) must register with every [ASPSP](https://docs.tink.com/resources/aggregation/open-banking-glossary) from which it intends to access [PSD2](https://docs.tink.com/resources/aggregation/open-banking-glossary) data and services. ASPSPs offer one of three onboarding approaches:
+A [TPP](/Tiny-doc/tink_docs_home/resources/aggregation/open-banking-glossary/) must register with every [ASPSP](/Tiny-doc/tink_docs_home/resources/aggregation/open-banking-glossary/) from which it intends to access [PSD2](/Tiny-doc/tink_docs_home/resources/aggregation/open-banking-glossary/) data and services. ASPSPs offer one of three onboarding approaches:
 
 -   **Dynamic Client Registration (DCR):** ASPSPs that have implemented DCR offer an API that facilitates an automated process for TPPs to verify their applications and obtain a client ID and registration details to access Open Banking APIs.
 -   **Automatic Onboarding:** this streamlined process uses a single API call for onboarding and authorization. This simple, efficient process relies on certificate-based authorization with an EIDAS-compliant certificate to verify TPP identity and grant access to Open Banking APIs.
@@ -15,7 +15,7 @@ Once the enrolment process is fulfilled, the ASPSP will grant you secure access 
 
 A JSON Web Key Set (JWKS) is a collection of JSON Web Keys (JWKs) used to secure communications between TPPs and ASPSPs. Many banks require a JWKS endpoint to expose the active TPP's public keys for validation during the registration process. Additionally, banks often require a JWKS revoked endpoint that lists all revoked keys.
 
-Tink simplifies the management of these URLs for you. When you [install your TPP certificates for the EU into Tink](https://docs.tink.com/resources/open-banking/install-certificates), a JWKS endpoint is automatically generated. This endpoint includes the public keys of your certificate, and a URL is created in our Content Delivery Network (CDN) for each of your active certificates. These URLs are updated each time you upload a new certificate, ensuring your keys remain current and secure.
+Tink simplifies the management of these URLs for you. When you [install your TPP certificates for the EU into Tink](/Tiny-doc/tink_docs_home/resources/open-banking/install-certificates/), a JWKS endpoint is automatically generated. This endpoint includes the public keys of your certificate, and a URL is created in our Content Delivery Network (CDN) for each of your active certificates. These URLs are updated each time you upload a new certificate, ensuring your keys remain current and secure.
 
 In the UK, the JWKS URL is managed by the TPP through their [OBIE directory account](https://directory.openbanking.org.uk/s/login/).
 
@@ -43,7 +43,7 @@ Regardless of the registration method, we recommend generating a Tink Link in Co
 
 After creating the Tink Link, test the connection by attempting to connect to the bank using the Tink Link. If you are redirected to the bank's login page, this generally indicates that your certificates have been successfully onboarded. However, the most reliable confirmation of a successful registration is completing either a data refresh operation or a payment, provided you or one of your testers has a real account with the bank.
 
-> **Note**: To test PSD2 API registration, you need to have enabled Open Banking connections in your Tink Console configuration. See [Configure available bank connections](https://docs.tink.com/resources/api-setup/configure-available-bank-connections).
+> **Note**: To test PSD2 API registration, you need to have enabled Open Banking connections in your Tink Console configuration. See [Configure available bank connections](/Tiny-doc/tink_docs_home/resources/api-setup/configure-available-bank-connections/).
 
 ## Handling errors[](#handling-errors)
 

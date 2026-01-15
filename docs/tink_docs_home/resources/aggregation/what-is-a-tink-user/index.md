@@ -1,6 +1,6 @@
 ---
 title: "What is a Tink User?"
-source: "https://docs.tink.com/resources/aggregation/what-is-a-tink-user"
+source: "/Tiny-doc/tink_docs_home/resources/aggregation/what-is-a-tink-user/"
 exportedAt: "2026-01-13T12:55:34.954Z"
 ---
 ## Example[](#example)
@@ -21,4 +21,4 @@ When you sign up to a bank in this way, we take a snapshot and aggregate all you
 
 **Can I keep the same user for more than 24 hours?**
 
--   Yes. There are some use cases when you want to update data on an existing user, and keep it for a longer time. In that case you should use our [continuous access](https://docs.tink.com/resources/transactions/continuous-connect-to-a-bank-account) solution.
+-   Yes. There are some use cases when you want to update data on an existing user, and keep it for a longer time. In that case you should use our [continuous access](/Tiny-doc/tink_docs_home/resources/transactions/continuous-connect-to-a-bank-account/) solution.

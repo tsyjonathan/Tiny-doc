@@ -1,15 +1,15 @@
 ---
 title: "One-time access to a business account"
-source: "https://docs.tink.com/resources/business-transactions/one-time-access-to-a-business-account"
+source: "/Tiny-doc/tink_docs_home/resources/business-transactions/one-time-access-to-a-business-account/"
 exportedAt: "2026-01-13T12:46:41.732Z"
 ---
 Tink can provide one-time or continuous access to a user's bank data. By following the steps in this guide, you will get a **one-time snapshot** of the transactions, which means that we will fetch the data once and automatically delete it 24 hours later.
 
-If you need access to the data for longer than 24 hours and/or access to continuously updated transactions, see [Continuous access to a business account](https://docs.tink.com/resources/business-transactions/continuous-access-to-a-business-account).
+If you need access to the data for longer than 24 hours and/or access to continuously updated transactions, see [Continuous access to a business account](/Tiny-doc/tink_docs_home/resources/business-transactions/continuous-access-to-a-business-account/).
 
 ## 1\. Build the URL[](#build-the-url)
 
-In Console, use the [Build your own Tink Link URL](https://console.tink.com/business-transactions/tink-link) view to create your own URL. Your resulting URL is used to allow users to authenticate with their bank and select an account from which to fetch report data. For information on how the URL works, see [Setup and integrate Business Transactions](https://docs.tink.com/resources/business-transactions/setup-and-integrate-business-transactions).
+In Console, use the [Build your own Tink Link URL](https://console.tink.com/business-transactions/tink-link) view to create your own URL. Your resulting URL is used to allow users to authenticate with their bank and select an account from which to fetch report data. For information on how the URL works, see [Setup and integrate Business Transactions](/Tiny-doc/tink_docs_home/resources/business-transactions/setup-and-integrate-business-transactions/).
 
 Integrate the URL with a site or in an app. For example, start an end user's Tink flow by redirecting them to a URL.
 
@@ -37,7 +37,7 @@ Some possible failure reasons:
 -   The end user didn't successfully authenticate with their bank
 -   The end user didn't have any accounts available with the selected bank
 
-For more information about errors, see [Handle Business Transactions error codes](https://docs.tink.com/resources/business-transactions/handle-business-transactions-error-codes).
+For more information about errors, see [Handle Business Transactions error codes](/Tiny-doc/tink_docs_home/resources/business-transactions/handle-business-transactions-error-codes/).
 
 **The successful callback has this structure:**
 

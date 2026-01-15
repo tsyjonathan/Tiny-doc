@@ -1,6 +1,6 @@
 ---
 title: "Fetch transaction refinement questions - Tink Docs"
-source: "https://docs.tink.com/resources/data-enrichment/fetch-transaction-refinement-questions"
+source: "/Tiny-doc/tink_docs_home/resources/data-enrichment/fetch-transaction-refinement-questions/"
 exportedAt: "2026-01-13T12:48:12.936Z"
 ---
 The responses to the questions will influence the calculation of CO2 emissions for the specified transaction. For example, for a gas station transaction, the CO2 value calculated might include emissions from buying gas. By using this endpoint, it is possible to update transactions to reflect what was purchased. In this case, the purchase might be adjusted to specify that it was for charging an EV instead of buying gas, thereby reducing emissions.

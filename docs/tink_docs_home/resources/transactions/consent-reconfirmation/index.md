@@ -1,6 +1,6 @@
 ---
 title: "Consent reconfirmation - Tink Docs"
-source: "https://docs.tink.com/resources/transactions/consent-reconfirmation"
+source: "/Tiny-doc/tink_docs_home/resources/transactions/consent-reconfirmation/"
 exportedAt: "2026-01-13T12:46:01.103Z"
 ---
 ## Introduction[](#introduction)
@@ -21,7 +21,7 @@ If a credential has the `sessionExtendable` flag set to `true` it can be extende
 
 When your users are in their Tink screen flow, they're presented with a reconfirmation screen. Here, they must confirm that they want to continue to allow access to their account information.
 
-To extend a consent session, redirect your user to the “Extend Consent” Tink URL and include the `credentialsId` field of the consent and a single-use authorization code. To generate the `authorization_code`, follow the steps in [Generate the code](https://docs.tink.com/resources/transactions/continuous-connect-to-a-bank-account#generate-the-code).
+To extend a consent session, redirect your user to the “Extend Consent” Tink URL and include the `credentialsId` field of the consent and a single-use authorization code. To generate the `authorization_code`, follow the steps in [Generate the code](/Tiny-doc/tink_docs_home/resources/transactions/continuous-connect-to-a-bank-account/#generate-the-code).
 
 **Input parameters (required):**
 
@@ -50,7 +50,7 @@ If you use your own license and you use the Tink API to reconfirm consent, you a
 
 For the UK market, this means adhering to [the UK Open Banking Standards](https://standards.openbanking.org.uk/customer-experience-guidelines/appendices/90-days-reauthentication-delegated-sca/latest/).
 
-After you have obtained consent reconfirmation, call the [Extend a consent](https://docs.tink.com/api#connectivity/provider-consent/extend-a-consent) endpoint.
+After you have obtained consent reconfirmation, call the [Extend a consent](/Tiny-doc/tink_docs_api/api/#connectivity/provider-consent/extend-a-consent) endpoint.
 
 Request example
 

@@ -1,11 +1,11 @@
 ---
 title: "Continuous access to a business account"
-source: "https://docs.tink.com/resources/business-transactions/continuous-access-to-a-business-account"
+source: "/Tiny-doc/tink_docs_home/resources/business-transactions/continuous-access-to-a-business-account/"
 exportedAt: "2026-01-13T12:46:44.778Z"
 ---
 Continuous access provides you with a **continuous flow** of end-user transaction data. This means we fetch data continuously for 90 days (which is the maximum consent time).
 
-If you need data access only once and to automatically have the data deleted 24 hours later, see [One-time access to a business account](https://docs.tink.com/resources/business-transactions/one-time-access-to-a-business-account).
+If you need data access only once and to automatically have the data deleted 24 hours later, see [One-time access to a business account](/Tiny-doc/tink_docs_home/resources/business-transactions/one-time-access-to-a-business-account/).
 
 ## 1\. Create a user[](#create-a-user)
 
@@ -87,7 +87,7 @@ curl -v -X POST https://api.tink.com/api/v1/oauth/token \
 }
 ```
 
-For an end-user to connect their account, they must use a Tink URL. To achieve this, Tink must be granted access to your user. This is done by delegating access from your app to Tink. To delegate access to Tink, you will need to use the [create delegated authorization](https://docs.tink.com/api#general/oauth/create-delegated-authorization) endpoint to retrieve an authorization code and propagate it to Tink.
+For an end-user to connect their account, they must use a Tink URL. To achieve this, Tink must be granted access to your user. This is done by delegating access from your app to Tink. To delegate access to Tink, you will need to use the [create delegated authorization](/Tiny-doc/tink_docs_api/api/#general/oauth/create-delegated-authorization) endpoint to retrieve an authorization code and propagate it to Tink.
 
 To delegate, you must use a client access token with the scope `authorization:grant`.
 
@@ -130,7 +130,7 @@ https://link.tink.com/1.0/business-transactions/connect-accounts?client_id=&stat
 
 > The parameter **state** is optional. It can be included in the initial Tink URL, and will be returned back to you as-is once the user returns to your stated redirect\_url. Use this value to further redirect the user to a specific location within your app, and for CSRF attack prevention.
 
-Once you’ve created a Tink URL, you can authenticate yourself at the many banks and financial institutions that Tink supports. You can either use your own bank credentials or use test credentials via [Demo Bank](https://docs.tink.com/resources/console/demo-bank).
+Once you’ve created a Tink URL, you can authenticate yourself at the many banks and financial institutions that Tink supports. You can either use your own bank credentials or use test credentials via [Demo Bank](/Tiny-doc/tink_docs_home/resources/console/demo-bank/).
 
 ![transactions-flow-example](https://images.ctfassets.net/tmqu5vj33f7w/3wWVoQiT8tq9Fpc8nPaETA/9bba00a95828824edfb81d969ccf5544/transactions-flow-example.gif)
 

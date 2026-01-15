@@ -1,6 +1,6 @@
 ---
 title: "Analytics - Tink Docs"
-source: "https://docs.tink.com/resources/console/analytics"
+source: "/Tiny-doc/tink_docs_home/resources/console/analytics/"
 exportedAt: "2026-01-13T12:54:42.279Z"
 ---
 ![Account Check - Analytics](https://images.ctfassets.net/tmqu5vj33f7w/22lXbQgxBB3jctJQHBf4kS/3032b10373a5366c87f13c7409a154a8/Account_Check_-_Analytics.png)

@@ -1,6 +1,6 @@
 ---
 title: "Fetch Account Insights - Tink Docs"
-source: "https://docs.tink.com/resources/data-enrichment/fetch-account-insights"
+source: "/Tiny-doc/tink_docs_home/resources/data-enrichment/fetch-account-insights/"
 exportedAt: "2026-01-13T12:48:06.617Z"
 ---
 Account insights are personalized sustainability and eco-friendly advice based on user account and profiling responses. The insights provided are designed to broaden a user’s understanding of the environmental impact of various activities. These insights are not tied to specific transactions but rather provide general advice on how to minimize carbon footprints.

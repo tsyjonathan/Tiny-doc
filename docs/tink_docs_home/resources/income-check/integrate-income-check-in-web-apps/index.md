@@ -1,11 +1,11 @@
 ---
 title: "Integrate Income Check in web apps"
-source: "https://docs.tink.com/resources/income-check/integrate-income-check-in-web-apps"
+source: "/Tiny-doc/tink_docs_home/resources/income-check/integrate-income-check-in-web-apps/"
 exportedAt: "2026-01-13T12:48:35.474Z"
 ---
 ## Launching the SDK[](#launching-the-sdk)
 
-You will first need to construct a URL to launch the SDK flow. In Console, you can use the Tink Link visual editor to easily create and configure the end-user flow. For a list of all possible request and response parameters, see the [Income Check SDK reference](https://docs.tink.com/resources/income-check/income-check-sdk-reference). The resulting URL is used to launch the SDK flow, allowing the user to initiate their one-time payment.
+You will first need to construct a URL to launch the SDK flow. In Console, you can use the Tink Link visual editor to easily create and configure the end-user flow. For a list of all possible request and response parameters, see the [Income Check SDK reference](/Tiny-doc/tink_docs_home/resources/income-check/income-check-sdk-reference/). The resulting URL is used to launch the SDK flow, allowing the user to initiate their one-time payment.
 
 ### Example URL[](#example-url)
 
@@ -25,4 +25,4 @@ When your user completes the flow, they're redirected to the `redirect_uri` you 
 {YOUR_REDIRECT_URI}?income_check_id=ff8ae53bc46e45fe9a37c4fd1353e60d
 ```
 
-See the [Income Check SDK reference](https://docs.tink.com/resources/income-check/income-check-sdk-reference) for success and error response formats and their parameters.
+See the [Income Check SDK reference](/Tiny-doc/tink_docs_home/resources/income-check/income-check-sdk-reference/) for success and error response formats and their parameters.

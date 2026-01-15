@@ -1,6 +1,6 @@
 ---
 title: "TPP integration manager - Tink Docs"
-source: "https://docs.tink.com/resources/open-banking/tpp-integration-manager"
+source: "/Tiny-doc/tink_docs_home/resources/open-banking/tpp-integration-manager/"
 exportedAt: "2026-01-13T12:55:03.918Z"
 ---
 Tink provides a Python script, `tink_secret_utils.py`, to securely share open banking certificates, private keys, and PSD2 registration credentials (often called "TPP credentials"), between Tink customers (TPPs) and Tink.
@@ -32,7 +32,7 @@ python tink_secret_utils.py certificates get –h
 
 To execute any command, you must provide the client ID and client secret associated with your app by passing them to --client-id and --client-secret. You can find these in the App settings section in Console under API client > App details.
 
-For added security, we recommend creating a temporary client secret specifically for this script and deleting it when it’s finished. For more details, see [Access your API credentials](https://docs.tink.com/resources/console/set-up-your-tink-account#access-your-api-credentials).
+For added security, we recommend creating a temporary client secret specifically for this script and deleting it when it’s finished. For more details, see [Access your API credentials](/Tiny-doc/tink_docs_home/resources/console/set-up-your-tink-account/#access-your-api-credentials).
 
 ## Main commands[](#main-commands)
 

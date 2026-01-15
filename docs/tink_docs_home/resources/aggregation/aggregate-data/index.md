@@ -1,13 +1,13 @@
 ---
 title: "Aggregate data - Tink Docs"
-source: "https://docs.tink.com/resources/aggregation/aggregate-data"
+source: "/Tiny-doc/tink_docs_home/resources/aggregation/aggregate-data/"
 exportedAt: "2026-01-13T12:55:21.415Z"
 ---
 ## Get providers[](#get-providers)
 
-**Documentation**: Visit the [Provider API](https://docs.tink.com/api#connectivity/provider).
+**Documentation**: Visit the [Provider API](/Tiny-doc/tink_docs_api/api/#connectivity/provider).
 
-**Purpose**: Get all available providers for a market. This API endpoint is public and can be used without prior authentication. Tink also has a number of [test providers](https://docs.tink.com/resources/aggregation/available-test-providers) which can be used during development.
+**Purpose**: Get all available providers for a market. This API endpoint is public and can be used without prior authentication. Tink also has a number of [test providers](/Tiny-doc/tink_docs_home/resources/aggregation/available-test-providers/) which can be used during development.
 
 **Request example**:
 
@@ -21,9 +21,9 @@ curl https://api.tink.com/api/v1/providers/ES
 
 ## Create credentials[](#create-credentials)
 
-**Documentation**: Visit the [Credentials API](https://docs.tink.com/api#connectivity/credentials).
+**Documentation**: Visit the [Credentials API](/Tiny-doc/tink_docs_api/api/#connectivity/credentials).
 
-**Purpose**: Add a credential for a provider that will be used for aggregation. You can also use [test providers](https://docs.tink.com/resources/aggregation/available-test-providers) for a full experience without sharing real login details.
+**Purpose**: Add a credential for a provider that will be used for aggregation. You can also use [test providers](/Tiny-doc/tink_docs_home/resources/aggregation/available-test-providers/) for a full experience without sharing real login details.
 
 **Request example (username+password):**
 
@@ -72,7 +72,7 @@ curl -v -X POST 'https://api.tink.com/api/v1/credentials?items=INVESTMENT_ACCOUN
 
 ## Get credentials[](#get-credentials)
 
-**Documentation**: Visit the [Credentials API](https://docs.tink.com/api#connectivity/credentials).
+**Documentation**: Visit the [Credentials API](/Tiny-doc/tink_docs_api/api/#connectivity/credentials).
 
 **Purpose**: In step [Create credentials](#create-credentials) above, the Tink platform started the aggregation process. You need to call this API endpoint to know when this task has ended: `status: UPDATED` means the aggregation is complete. As long as the `status` returns something else (e.g. `CREATED` or `UPDATING)`, the Tink platform is still aggregating data. Please read the documentation for full information about different `status` codes.
 
@@ -86,7 +86,7 @@ curl -v https://api.tink.com/api/v1/credentials/ \
 -H 'Authorization: Bearer '
 ```
 
-**Response**: Visit the [Credentials API](https://docs.tink.com/api#connectivity/credentials).
+**Response**: Visit the [Credentials API](/Tiny-doc/tink_docs_api/api/#connectivity/credentials).
 
 ## Using test providers[](#using-test-providers)
 
@@ -94,7 +94,7 @@ The Tink test providers are static implementations of providers and banks that a
 
 ## Get test providers[](#get-test-providers)
 
-**Documentation**: Visit the [Provider API](https://docs.tink.com/api#connectivity/provider).
+**Documentation**: Visit the [Provider API](/Tiny-doc/tink_docs_api/api/#connectivity/provider).
 
 **Purpose**: Get all available providers for a market (note that we have used `ES` as country code). This API endpoint is public and can be used without prior authentication.
 
@@ -110,7 +110,7 @@ curl https://api.tink.com/api/v1/providers/ES?excludeNonTestProviders=true&inclu
 
 ## Create test credentials[](#create-test-credentials)
 
-**Documentation**: Visit the [Credentials API](https://docs.tink.com/api#connectivity/credentials).
+**Documentation**: Visit the [Credentials API](/Tiny-doc/tink_docs_api/api/#connectivity/credentials).
 
 **Purpose**: When you don’t want to use real accounts to get financial data you can use the test providers.
 
@@ -133,4 +133,4 @@ curl -v -X POST https://api.tink.com/api/v1/credentials \
 '
 ```
 
-**Response**: Visit the [Credentials API](https://docs.tink.com/api#connectivity/credentials).
+**Response**: Visit the [Credentials API](/Tiny-doc/tink_docs_api/api/#connectivity/credentials).

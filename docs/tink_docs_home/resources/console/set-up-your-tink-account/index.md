@@ -1,6 +1,6 @@
 ---
 title: "Set up your Tink Console account"
-source: "https://docs.tink.com/resources/console/set-up-your-tink-account"
+source: "/Tiny-doc/tink_docs_home/resources/console/set-up-your-tink-account/"
 exportedAt: "2026-01-13T12:41:15.471Z"
 ---
 Tink Console is where you create, configure, and manage your apps. It's also the place where you find analytics.
@@ -19,7 +19,7 @@ When you’re ready to create a production app, [contact sales](https://tink.com
 
 An app is a data bucket and security concept in the Tink platform. An app allows you to gather multiple users and their data, and access the data with a set of keys. Our recommended app setup is as follows:
 
--   **Sandbox app**: Sandbox apps allow you to perform tests by only using test credentials and test data. Create one sandbox app per product, which you can use with our [Demo Bank](https://docs.tink.com/resources/console/demo-bank) feature.
+-   **Sandbox app**: Sandbox apps allow you to perform tests by only using test credentials and test data. Create one sandbox app per product, which you can use with our [Demo Bank](/Tiny-doc/tink_docs_home/resources/console/demo-bank/) feature.
 -   **Pre-production app** (optional): Many developers like to run tests using real credentials. For example, they might use their own or a colleague's bank credentials to test their Tink integration's end-user experience. In this case, we suggest creating a production app and giving it a name that clearly shows it's a pre-production app. This allows you to separate test and production data.
 -   **Production app**: Production apps only connect with live banks and allow you to store real end-user data. This is the app you should use once you’ve tried and tested your integration and are ready to go live.
 

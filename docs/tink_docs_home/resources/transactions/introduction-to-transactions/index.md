@@ -1,6 +1,6 @@
 ---
 title: "Introduction to Transactions - Tink Docs"
-source: "https://docs.tink.com/resources/transactions/introduction-to-transactions"
+source: "/Tiny-doc/tink_docs_home/resources/transactions/introduction-to-transactions/"
 exportedAt: "2026-01-13T12:41:26.103Z"
 ---
 ![Transactions-intro](https://images.ctfassets.net/tmqu5vj33f7w/39ObJjvpYoQiRARWw4Ezqy/d25e47c658f9d3b12e87e05b892d61aa/Transactions-intro.jpg)
@@ -47,8 +47,8 @@ Here's a list of data types that we offer.
 
 We provide two types of data-access models, depending on your need.
 
--   **One-time access:** A one-time retrieval of an end user’s transaction data, which results in a standardized view of their finances at one point in time. For more information, see [One-time access to a bank account](https://docs.tink.com/resources/transactions/connect-to-a-bank-account).
--   **Continuous access:** Uninterrupted access to an end user’s transaction data. Continuous access is suitable for financial management products. For more information, see [Continuous access to a bank account](https://docs.tink.com/resources/transactions/continuous-connect-to-a-bank-account).
+-   **One-time access:** A one-time retrieval of an end user’s transaction data, which results in a standardized view of their finances at one point in time. For more information, see [One-time access to a bank account](/Tiny-doc/tink_docs_home/resources/transactions/connect-to-a-bank-account/).
+-   **Continuous access:** Uninterrupted access to an end user’s transaction data. Continuous access is suitable for financial management products. For more information, see [Continuous access to a bank account](/Tiny-doc/tink_docs_home/resources/transactions/continuous-connect-to-a-bank-account/).
 
 |  | ONE-TIME ACCESS | CONTINUOUS ACCESS |
 | --- | --- | --- |

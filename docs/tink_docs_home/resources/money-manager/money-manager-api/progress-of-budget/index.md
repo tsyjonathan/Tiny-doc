@@ -1,11 +1,11 @@
 ---
 title: "Check the progress of your Budget"
-source: "https://docs.tink.com/resources/money-manager/money-manager-api/progress-of-budget"
+source: "/Tiny-doc/tink_docs_home/resources/money-manager/money-manager-api/progress-of-budget/"
 exportedAt: "2026-01-13T12:51:15.858Z"
 ---
 With the Budget you've previously set-up, we're now going to walkthrough how to display it's latest balance.
 
-Using the `id` of the budget you've previously set-up, you're going to call the [get budget details](https://docs.tink.com/api#finance-management/budget/get-budget-details) endpoint with a `user access token` with the `budget:read` scope. In the API call, you also need to specify the `start` and `end` of the period.
+Using the `id` of the budget you've previously set-up, you're going to call the [get budget details](/Tiny-doc/tink_docs_api/api/#finance-management/budget/get-budget-details) endpoint with a `user access token` with the `budget:read` scope. In the API call, you also need to specify the `start` and `end` of the period.
 
 > **NOTE:** when specifying the `start` and `end` date, this has to be expressed as an epoch timestamp in milliseconds.
 

@@ -1,6 +1,6 @@
 ---
 title: "Fetch brand identification from transactions"
-source: "https://docs.tink.com/resources/data-enrichment/fetch-brand-identification-from-transactions"
+source: "/Tiny-doc/tink_docs_home/resources/data-enrichment/fetch-brand-identification-from-transactions/"
 exportedAt: "2026-01-13T12:47:58.750Z"
 ---
 This article shows how to retrieve Brand Identification for transactions. Brand identification on transactions refers to the process of clearly marking or identifying transactions with a specific brand. This could mean including the brand's name and logo, or other identifying information on the transactions themselves. The purpose of this is to make it clear to users who the transaction is with, which can help build brand recognition and trust as well as open up other opportunities for further feature development.
@@ -11,7 +11,7 @@ To retrieve Brand Identification for user transactions call the endpoint `GET /e
 
 This endpoint will try to enrich transactions with multiple data points and brand identification is one of them. The fields will be populated with data only if the product has been purchased and the permission granted. If the request towards this product fails it will be reflected in the response body as a status. Failures will include their corresponding error ID for troubleshooting.
 
-Results are paginated – to learn more about pagination and how to work with it click [here](https://docs.tink.com/resources/data-enrichment/generating-a-user-access-token-and-querying-end-user-data#pagination).
+Results are paginated – to learn more about pagination and how to work with it click [here](/Tiny-doc/tink_docs_home/resources/data-enrichment/generating-a-user-access-token-and-querying-end-user-data/#pagination).
 
 **Example request:**
 

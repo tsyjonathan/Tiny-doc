@@ -1,6 +1,6 @@
 ---
 title: "Documentation - Tink Docs"
-source: "https://docs.tink.com/"
+source: "/Tiny-doc/tink_docs_home/index/"
 exportedAt: "2026-01-13T12:39:59.799Z"
 ---
 All the guides, resources and sample projects to get you up and running with Tink
@@ -19,7 +19,7 @@ Get familiar with the fundamental concepts and resources related to Tink
 
 
 
-](https://docs.tink.com/resources/landing/introduction-to-the-tink-platform)
+](/Tiny-doc/tink_docs_home/resources/landing/introduction-to-the-tink-platform/)
 
 [
 
@@ -33,7 +33,7 @@ Learn how to activate your Tink Console account and retrieve your API credential
 
 
 
-](https://docs.tink.com/resources/console/set-up-your-tink-account)
+](/Tiny-doc/tink_docs_home/resources/console/set-up-your-tink-account/)
 
 ## Product guides
 
@@ -49,7 +49,7 @@ Verifying account ownership can be a tedious process. Here's how Account Check c
 
 
 
-](https://docs.tink.com/resources/account-check/introduction-to-account-check)
+](/Tiny-doc/tink_docs_home/resources/account-check/introduction-to-account-check/)
 
 [
 
@@ -63,7 +63,7 @@ Onboard customers fast by quickly verifying account ownership.
 
 
 
-](https://docs.tink.com/resources/business-account-check/introduction-to-business-account-check)
+](/Tiny-doc/tink_docs_home/resources/business-account-check/introduction-to-business-account-check/)
 
 [
 
@@ -77,7 +77,7 @@ Fetch real time holding data from investment and pension accounts
 
 
 
-](https://docs.tink.com/resources/investments/introduction-to-investments)
+](/Tiny-doc/tink_docs_home/resources/investments/introduction-to-investments/)
 
 [
 
@@ -91,7 +91,7 @@ Fetch real time loans data
 
 
 
-](https://docs.tink.com/resources/loans/introduction-to-loans)
+](/Tiny-doc/tink_docs_home/resources/loans/introduction-to-loans/)
 
 [
 
@@ -105,7 +105,7 @@ Fetch standardized transaction data once or continuously.
 
 
 
-](https://docs.tink.com/resources/transactions/introduction-to-transactions)
+](/Tiny-doc/tink_docs_home/resources/transactions/introduction-to-transactions/)
 
 [
 
@@ -119,7 +119,7 @@ Business Transactions provides access to enriched and real-time financial data f
 
 
 
-](https://docs.tink.com/resources/business-transactions/introduction-to-business-transactions)
+](/Tiny-doc/tink_docs_home/resources/business-transactions/introduction-to-business-transactions/)
 
 [
 
@@ -133,7 +133,7 @@ Income verification used to take days, but can now be done in minutes through op
 
 
 
-](https://docs.tink.com/resources/income-check/introduction-to-income-check)
+](/Tiny-doc/tink_docs_home/resources/income-check/introduction-to-income-check/)
 
 [
 
@@ -147,7 +147,7 @@ Expense verification used to take days, but can now be done in minutes through o
 
 
 
-](https://docs.tink.com/resources/expense-check/introduction-to-expense-check)
+](/Tiny-doc/tink_docs_home/resources/expense-check/introduction-to-expense-check/)
 
 [
 
@@ -161,7 +161,7 @@ Risk Insights provides lenders with sophisticated features based on real-time da
 
 
 
-](https://docs.tink.com/resources/risk-insights/introduction-to-risk-insights)
+](/Tiny-doc/tink_docs_home/resources/risk-insights/introduction-to-risk-insights/)
 
 [
 
@@ -175,7 +175,7 @@ Create more innovative features and develop enhanced digital banking experiences
 
 
 
-](https://docs.tink.com/resources/data-enrichment/introduction-to-data-enrichment)
+](/Tiny-doc/tink_docs_home/resources/data-enrichment/introduction-to-data-enrichment/)
 
 [
 
@@ -189,4 +189,4 @@ Money Manager is a suite of financial management tools, available as SDKs or via
 
 
 
-](https://docs.tink.com/resources/money-manager-api/introduction-to-money-manager)
+](/Tiny-doc/tink_docs_home/resources/money-manager-api/introduction-to-money-manager/)

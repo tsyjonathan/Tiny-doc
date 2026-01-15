@@ -1,9 +1,9 @@
 ---
 title: "How to use authorization grant JWTs"
-source: "https://docs.tink.com/resources/api-setup/how-to-use-authorization-grant-jwts"
+source: "/Tiny-doc/tink_docs_home/resources/api-setup/how-to-use-authorization-grant-jwts/"
 exportedAt: "2026-01-13T12:59:56.741Z"
 ---
-Tink offers a [standardized](https://tools.ietf.org/html/rfc7523) way to use JWTs in the OAuth 2.0 flow for acquiring access tokens. This allows clients to use a private key as a proof of possession, avoiding [an extra request](https://docs.tink.com/resources/getting-started/get-access-token) to Tink's authorization grant endpoint and improves security by avoiding sending a secret over the network.
+Tink offers a [standardized](https://tools.ietf.org/html/rfc7523) way to use JWTs in the OAuth 2.0 flow for acquiring access tokens. This allows clients to use a private key as a proof of possession, avoiding [an extra request](/Tiny-doc/tink_docs_home/resources/getting-started/get-access-token/) to Tink's authorization grant endpoint and improves security by avoiding sending a secret over the network.
 
 For Tink to identify the signature on your authorization grant JWTs, Tink must associate your private key used for signing with a corresponding public key. This process currently involves some manual steps.
 
@@ -31,9 +31,9 @@ Remember to keep your generated private key secure. This will be used in later a
 
 ### Reach out to us[](#reach-out-to-us)
 
-Contact your Account Manager or get in touch with [Tink Support](https://docs.tink.com/resources/support/how-to-find-technical-support) to send them the CSR file you generated, requesting authorization grant JWTs enabled on your OAuth client. After a few business days, a client certificate signed by Tink will be sent back to you. The private key will now be ready to be used for authentication towards the Tink API.
+Contact your Account Manager or get in touch with [Tink Support](/Tiny-doc/tink_docs_home/resources/support/how-to-find-technical-support/) to send them the CSR file you generated, requesting authorization grant JWTs enabled on your OAuth client. After a few business days, a client certificate signed by Tink will be sent back to you. The private key will now be ready to be used for authentication towards the Tink API.
 
-The returned client certificate functions solely as a receipt including the expiration date by which you need to perform a renewal unless you later want to enable [mutual TLS authentication](https://docs.tink.com/resources/getting-started/set-up-mutual-tls-authentication) on your OAuth client.
+The returned client certificate functions solely as a receipt including the expiration date by which you need to perform a renewal unless you later want to enable [mutual TLS authentication](/Tiny-doc/tink_docs_home/resources/getting-started/set-up-mutual-tls-authentication/) on your OAuth client.
 
 ### Enforcing the use of authorization grant JWT[](#enforcing-the-use-of-authorization-grant-jwt)
 
@@ -132,7 +132,7 @@ The following parameters are required in the request:
 | assertion | The authorization grant JWT generated in the previous step |
 | scope | Space-separated list of requested scopes |
 
-You can find more detailed documentation about the endpoints in the [API documentation](https://docs.tink.com/api#general/oauth/get-access-token)
+You can find more detailed documentation about the endpoints in the [API documentation](/Tiny-doc/tink_docs_api/api/#general/oauth/get-access-token)
 
 #### Example[](#example)
 
@@ -147,7 +147,7 @@ curl --verbose -X POST https://api.tink.com/api/v1/oauth/token \
 
 ### Handling the response[](#handling-the-response)
 
-If everything is correct, you’ll get a response as defined in the [API documentation](https://docs.tink.com/api#general/oauth/get-access-token):
+If everything is correct, you’ll get a response as defined in the [API documentation](/Tiny-doc/tink_docs_api/api/#general/oauth/get-access-token):
 
 ```
 {
@@ -158,4 +158,4 @@ If everything is correct, you’ll get a response as defined in the [API documen
 }
 ```
 
-Once the access token is acquired, you can use it to make requests to the [Tink API](https://docs.tink.com/api).
+Once the access token is acquired, you can use it to make requests to the [Tink API](/Tiny-doc/tink_docs_api/api/).

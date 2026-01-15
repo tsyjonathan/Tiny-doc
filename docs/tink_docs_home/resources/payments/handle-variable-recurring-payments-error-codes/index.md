@@ -1,6 +1,6 @@
 ---
 title: "Handle Variable Recurring Payments error codes"
-source: "https://docs.tink.com/resources/payments/handle-variable-recurring-payments-error-codes"
+source: "/Tiny-doc/tink_docs_home/resources/payments/handle-variable-recurring-payments-error-codes/"
 exportedAt: "2026-01-13T12:57:27.852Z"
 ---
 This article contains two different types of error codes sections:
@@ -18,7 +18,7 @@ The SDK journey can result in a non-recoverable error. After the user has encoun
 | --- | --- | --- |
 | `error` | Always | A status code that describes the category of the error. For details, see [Error statuses](#error-statuses). |
 | `error_reason` | Always | The error reason that describes the cause of the error. For details, see the error reasons below for the specific `error` status code. |
-| `error_type` | If `error=AUTHENTICATION_ERROR` | Describes the type of authentication error that has occurred. For details, see [Provider Consent errors](https://docs.tink.com/resources/transactions/provider-consent-errors). |
+| `error_type` | If `error=AUTHENTICATION_ERROR` | Describes the type of authentication error that has occurred. For details, see [Provider Consent errors](/Tiny-doc/tink_docs_home/resources/transactions/provider-consent-errors/). |
 | `message` | Always | A localized end-user facing error message that can be presented directly to the end user. |
 | `tracking_id` | Always | Tink's internal identifier for this specific error instance. Make sure to include the `tracking_id` value when communicating with Tink to reduce time required to troubleshooting issues. |
 | `consent_id` | Always | The identifier of the consent. |
@@ -39,7 +39,7 @@ The error status describes the category for the error that occurred. The error s
 | --- | --- |
 | USER\_CANCELLED | The end user canceled the journey. This status should not be considered as an error. |
 | AUTHENTICATION\_ERROR | The error occurred during the authentication process with the bank. |
-| INTERNAL\_ERROR | An unexpected internal error in Tink's platform. Please contact [support](https://docs.tink.com/resources/getting-started/support) for help. |
+| INTERNAL\_ERROR | An unexpected internal error in Tink's platform. Please contact [support](/Tiny-doc/tink_docs_home/resources/getting-started/support/) for help. |
 
 ### USER\_CANCELLED[](#user_cancelled)
 
@@ -60,7 +60,7 @@ This category of errors is the result of an error occurring during the authentic
 | `INVALID_STATE_CONSENT` | The consent was revoked or expired. |
 | `BANK_AUTHORIZATION_FAILED` | The consent authorization failed. |
 
-For a complete list of authentication errors, see [Provider Consent errors](https://docs.tink.com/resources/transactions/provider-consent-errors).
+For a complete list of authentication errors, see [Provider Consent errors](/Tiny-doc/tink_docs_home/resources/transactions/provider-consent-errors/).
 
 ### INTERNAL\_ERROR[](#internal_error)
 

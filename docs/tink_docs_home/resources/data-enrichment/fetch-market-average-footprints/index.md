@@ -1,6 +1,6 @@
 ---
 title: "Fetch Market Average Footprints - Tink Docs"
-source: "https://docs.tink.com/resources/data-enrichment/fetch-market-average-footprints"
+source: "/Tiny-doc/tink_docs_home/resources/data-enrichment/fetch-market-average-footprints/"
 exportedAt: "2026-01-13T12:48:18.585Z"
 ---
 To fetch market average footprints, call the `/enrichment/v1/sustainability/market-average?market={MARKET_CODE}` endpoint.

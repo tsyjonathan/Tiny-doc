@@ -1,6 +1,6 @@
 ---
 title: "Provider Consent errors - Tink Docs"
-source: "https://docs.tink.com/resources/transactions/provider-consent-errors"
+source: "/Tiny-doc/tink_docs_home/resources/transactions/provider-consent-errors/"
 exportedAt: "2026-01-13T12:46:03.301Z"
 ---
 | Type | Reason | Error description |

@@ -1,6 +1,6 @@
 ---
 title: "Answer transaction refinement questions - Tink Docs"
-source: "https://docs.tink.com/resources/data-enrichment/answer-transaction-refinement-questions"
+source: "/Tiny-doc/tink_docs_home/resources/data-enrichment/answer-transaction-refinement-questions/"
 exportedAt: "2026-01-13T12:48:14.934Z"
 ---
 There are two types of answers:

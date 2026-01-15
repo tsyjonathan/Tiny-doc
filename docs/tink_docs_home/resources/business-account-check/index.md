@@ -1,6 +1,6 @@
 ---
 title: "Business Account Check - Tink Docs"
-source: "https://docs.tink.com/resources/business-account-check"
+source: "/Tiny-doc/tink_docs_home/resources/business-account-check/"
 exportedAt: "2026-01-13T12:40:08.416Z"
 ---
 [
@@ -15,7 +15,7 @@ Onboard customers fast by quickly verifying account ownership.
 
 
 
-](https://docs.tink.com/resources/business-account-check/introduction-to-business-account-check)
+](/Tiny-doc/tink_docs_home/resources/business-account-check/introduction-to-business-account-check/)
 
 ## Getting started
 
@@ -31,7 +31,7 @@ Follow this step-by-step guide to fetch your first report.
 
 
 
-](https://docs.tink.com/resources/business-account-check/fetch-your-first-business-account-check-report)
+](/Tiny-doc/tink_docs_home/resources/business-account-check/fetch-your-first-business-account-check-report/)
 
 [
 
@@ -45,7 +45,7 @@ Test your integration by using demo credentials.
 
 
 
-](https://docs.tink.com/resources/business-account-check/test-different-business-account-check-scenarios)
+](/Tiny-doc/tink_docs_home/resources/business-account-check/test-different-business-account-check-scenarios/)
 
 [
 
@@ -59,7 +59,7 @@ Combine two products to fetch data in one flow
 
 
 
-](https://docs.tink.com/resources/business-account-check/fetch-business-account-and-transaction-data-in-one-flow)
+](/Tiny-doc/tink_docs_home/resources/business-account-check/fetch-business-account-and-transaction-data-in-one-flow/)
 
 ## Integration
 
@@ -75,7 +75,7 @@ Learn how to best integrate our SDKs with your app.
 
 
 
-](https://docs.tink.com/resources/business-account-check/setup-and-integrate-business-account-check)
+](/Tiny-doc/tink_docs_home/resources/business-account-check/setup-and-integrate-business-account-check/)
 
 [
 
@@ -89,7 +89,7 @@ Make sure that your integration is seamless and leads to the highest conversion 
 
 
 
-](https://docs.tink.com/resources/business-account-check/optimize-your-business-account-check-integration)
+](/Tiny-doc/tink_docs_home/resources/business-account-check/optimize-your-business-account-check-integration/)
 
 [
 
@@ -103,7 +103,7 @@ Business Account Check error codes and formats, described and explained.
 
 
 
-](https://docs.tink.com/resources/business-account-check/handle-business-account-check-error-codes)
+](/Tiny-doc/tink_docs_home/resources/business-account-check/handle-business-account-check-error-codes/)
 
 [
 
@@ -117,7 +117,7 @@ Launch the SDK with sensitive user information
 
 
 
-](https://docs.tink.com/resources/business-account-check/business-account-check-sdk-sessions)
+](/Tiny-doc/tink_docs_home/resources/business-account-check/business-account-check-sdk-sessions/)
 
 [
 
@@ -131,7 +131,7 @@ Parameters, responses, versions and market availability for the Business Account
 
 
 
-](https://docs.tink.com/resources/business-account-check/business-account-check-sdk-reference)
+](/Tiny-doc/tink_docs_home/resources/business-account-check/business-account-check-sdk-reference/)
 
 [
 
@@ -145,4 +145,4 @@ Use our Postman collection for Account Check.
 
 
 
-](https://docs.tink.com/resources/business-account-check/postman-collection-for-business-account-check)
+](/Tiny-doc/tink_docs_home/resources/business-account-check/postman-collection-for-business-account-check/)

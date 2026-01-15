@@ -1,9 +1,9 @@
 ---
 title: "Tink Docs"
-source: "https://docs.tink.com/api-data-v2"
+source: "/Tiny-doc/tink_docs_api/api-data-v2/"
 exportedAt: "2026-01-13T13:03:16.893Z"
 ---
-## Data v2[](https://docs.tink.com/api-data-v2)
+## Data v2[](/Tiny-doc/tink_docs_api/api-data-v2/)
 
 The Data v2 section contains resources that are used by multiple account information products, including Transactions.
 

@@ -1,19 +1,19 @@
 ---
 title: "One-time access to a bank account"
-source: "https://docs.tink.com/resources/transactions/connect-to-a-bank-account"
+source: "/Tiny-doc/tink_docs_home/resources/transactions/connect-to-a-bank-account/"
 exportedAt: "2026-01-13T12:45:49.761Z"
 ---
 Before we get into the steps of how you set up a one-time access to a bank account, there are two things that you should know.
 
-First, if you want to experiment with Transactions by using our API, try our [Postman collection for Transactions](https://docs.tink.com/resources/transactions/postman-collection-for-transactions).
+First, if you want to experiment with Transactions by using our API, try our [Postman collection for Transactions](/Tiny-doc/tink_docs_home/resources/transactions/postman-collection-for-transactions/).
 
 Second, one-time access provides you with a **one-time snapshot** of the end user's transactions, which means that we will fetch data once and automatically delete it 24 hours later.
 
-If you need access to the data for longer than 24 hours and/or access to transactions that are updated continuously, see [Continuous access to a bank account](https://docs.tink.com/resources/transactions/continuous-connect-to-a-bank-account).
+If you need access to the data for longer than 24 hours and/or access to transactions that are updated continuously, see [Continuous access to a bank account](/Tiny-doc/tink_docs_home/resources/transactions/continuous-connect-to-a-bank-account/).
 
 ## 1\. Build the URL[](#build-the-url)
 
-In Console, use the [Build your own Tink Link URL](https://console.tink.com/transactions/tink-link) view to create your own URL. Your resulting URL is used to allow users to authenticate with their bank and select an account from which to fetch report data. For information on how the URL works, see [Setup and integrate Transactions](https://docs.tink.com/resources/transactions/setup-and-integrate-transactions).
+In Console, use the [Build your own Tink Link URL](https://console.tink.com/transactions/tink-link) view to create your own URL. Your resulting URL is used to allow users to authenticate with their bank and select an account from which to fetch report data. For information on how the URL works, see [Setup and integrate Transactions](/Tiny-doc/tink_docs_home/resources/transactions/setup-and-integrate-transactions/).
 
 Integrate the URL with a site or in an app. For example, start an end user's Tink flow by redirecting them to a URL.
 
@@ -41,7 +41,7 @@ Some possible failure reasons:
 -   The end user didn't successfully authenticate with their bank
 -   The end user didn't have any accounts available with the selected bank
 
-For more information about errors, see [Handle Transactions error codes](https://docs.tink.com/resources/transactions/handle-transactions-error-codes).
+For more information about errors, see [Handle Transactions error codes](/Tiny-doc/tink_docs_home/resources/transactions/handle-transactions-error-codes/).
 
 **The successful callback has this structure:**
 

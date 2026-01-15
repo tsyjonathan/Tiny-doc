@@ -1,6 +1,6 @@
 ---
 title: "Migrating from iframe to redirect"
-source: "https://docs.tink.com/resources/tink-link-web/tink-link-web-migrating-from-iframe-to-redirect"
+source: "/Tiny-doc/tink_docs_home/resources/tink-link-web/tink-link-web-migrating-from-iframe-to-redirect/"
 exportedAt: "2026-01-13T12:59:19.280Z"
 ---
 Using Tink Link with a redirect integration provides a more linear user journey, improves reliability of redirect handling during authentication and as a result provides better success rates overall. Follow the steps below to migrate from an existing iframe integration to a redirect integration instead.
@@ -30,7 +30,7 @@ With a navigation link (or similar):
 <a href="{YOUR_TINK_LINK_URL}">Connect your bank</a>
 ```
 
-If you are using Tink Link in a web view inside a mobile app, you can have the web view load your Tink Link URL directly. See our articles on embedding Tink Link [in an iOS app](https://docs.tink.com/resources/tink-link-web/tink-link-web-embed-in-ios-app) or [an Android app](https://docs.tink.com/resources/tink-link-web/tink-link-web-embed-in-android-app).
+If you are using Tink Link in a web view inside a mobile app, you can have the web view load your Tink Link URL directly. See our articles on embedding Tink Link [in an iOS app](/Tiny-doc/tink_docs_home/resources/tink-link-web/tink-link-web-embed-in-ios-app/) or [an Android app](/Tiny-doc/tink_docs_home/resources/tink-link-web/tink-link-web-embed-in-android-app/).
 
 ## 3\. Change how you receive responses from Tink Link[](#change-how-you-receive-responses-from-tink-link)
 
@@ -42,7 +42,7 @@ This `redirect_uri` can be:
 -   a [universal link](https://developer.apple.com/ios/universal-links/), [app link](https://developer.android.com/training/app-links) or deep link to your mobile app where you process the response and asynchronously communicate with your backend service
 -   alternatively an API endpoint to your backend service where you process the response and redirect back to your application
 
-For the exact response format and parameters see the [Tink Link Reference](https://docs.tink.com/resources/tink-link-web) for your respective product and journey.
+For the exact response format and parameters see the [Tink Link Reference](/Tiny-doc/tink_docs_home/resources/tink-link-web/) for your respective product and journey.
 
 **Example**
 
@@ -68,9 +68,9 @@ if (error) {
 
 When migrating from iframe to redirect, your application chrome will no longer be present. To still provide a consistent user experience and reassure users that they are still within your application, make sure to leverage Tink Link's customization options:
 
--   [Add a logo](https://docs.tink.com/resources/tink-link-web/tink-link-web-customization#logo)
--   [Change colors and fonts](https://docs.tink.com/resources/tink-link-web/tink-link-web-customization#theming)
+-   [Add a logo](/Tiny-doc/tink_docs_home/resources/tink-link-web/tink-link-web-customization/#logo)
+-   [Change colors and fonts](/Tiny-doc/tink_docs_home/resources/tink-link-web/tink-link-web-customization/#theming)
 
-Learn more about [how to change your Tink Link appearance](https://docs.tink.com/resources/tink-link-web/tink-link-web-customization#changing-your-configuration).
+Learn more about [how to change your Tink Link appearance](/Tiny-doc/tink_docs_home/resources/tink-link-web/tink-link-web-customization/#changing-your-configuration).
 
 Tink Link in redirect mode is fully responsive and will use all available screen space to provide a mobile or desktop like experience.

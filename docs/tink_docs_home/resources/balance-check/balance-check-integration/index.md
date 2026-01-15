@@ -1,6 +1,6 @@
 ---
 title: "Balance Check integration - Tink Docs"
-source: "https://docs.tink.com/resources/balance-check/balance-check-integration"
+source: "/Tiny-doc/tink_docs_home/resources/balance-check/balance-check-integration/"
 exportedAt: "2026-01-13T12:44:13.866Z"
 ---
 ## 1\. Continuous access[](#continuous-access)
@@ -196,7 +196,7 @@ curl -X POST https://api.tink.com/api/v1/oauth/token \
 }
 ```
 
-To fetch report JSON data based on a report identifier, see the [Account Verification Report API](https://docs.tink.com/api#data-v1/account-verification).
+To fetch report JSON data based on a report identifier, see the [Account Verification Report API](/Tiny-doc/tink_docs_api/api/#data-v1/account-verification).
 
 **cURL example**
 
@@ -329,7 +329,7 @@ curl "https://api.tink.com/api/v1/provider-consents" \
 }
 ```
 
-The Provider Consent model provides details about the state of a user's consents towards financial institutions. For more information about consents, see [Manage Consents](https://docs.tink.com/resources/account-check/manage-consents).
+The Provider Consent model provides details about the state of a user's consents towards financial institutions. For more information about consents, see [Manage Consents](/Tiny-doc/tink_docs_home/resources/account-check/manage-consents/).
 
 ## 4\. Refreshing the balance[](#refreshing-the-balance)
 
@@ -387,7 +387,7 @@ When the API responds with a `finished` status, the refresh has finished success
 
 ## 5\. Fetch the balance[](#fetch-the-balance)
 
-To fetch the balance of the account, generate a token and then call the [API](https://docs.tink.com/api#data-v2/account/get-account-balance) with the specific `accountId`. You can find instructions on how to generate the tokens in the [consent management](https://docs.tink.com/resources/account-check/balance-check-integration#consent-management) section.
+To fetch the balance of the account, generate a token and then call the [API](/Tiny-doc/tink_docs_api/api/#data-v2/account/get-account-balance) with the specific `accountId`. You can find instructions on how to generate the tokens in the [consent management](/Tiny-doc/tink_docs_home/resources/account-check/balance-check-integration/#consent-management) section.
 
 Get balances
 

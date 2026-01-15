@@ -1,6 +1,6 @@
 ---
 title: "Introduction to Loans - Tink Docs"
-source: "https://docs.tink.com/resources/loans/introduction-to-loans"
+source: "/Tiny-doc/tink_docs_home/resources/loans/introduction-to-loans/"
 exportedAt: "2026-01-13T12:41:23.782Z"
 ---
 The urgency for gaining comprehensive, fast and reliable insights into your clients loan data is higher than ever before. High inflation rates pressuring consumers ability to keep up with cost of living and financial obligations. Lenders, on the other hand face the challenge of handling an increasing share of customers running into arrears or seeking repayment adjustments and debt restructuring. However, businesses encounter a hurdle when it comes to accessing timely and relevant information about their clients loans. This challenge stems from the lack of accessible data beyond the boundaries of individual financial institutions. Tink's Loan product is here to bridge this gap by harnessing the power of Open Banking.

@@ -1,6 +1,6 @@
 ---
 title: "Set up and integrate Transactions"
-source: "https://docs.tink.com/resources/transactions/setup-and-integrate-transactions"
+source: "/Tiny-doc/tink_docs_home/resources/transactions/setup-and-integrate-transactions/"
 exportedAt: "2026-01-13T12:46:39.216Z"
 ---
 ## Introduction[](#introduction)
@@ -21,7 +21,7 @@ For the best authentication experience, use the SDK appropriate for your platfor
 
 ### Launching the SDK[](#launching-the-sdk)
 
-You will first need to construct a URL to launch the SDK flow. In [Console](https://console.tink.com/), you can use the [Tink Link visual editor](https://console.tink.com/transactions/tink-link) to easily create and configure the end-user flow. For a list of all possible request and response parameters, see the [Transactions SDK reference](https://docs.tink.com/resources/transactions/transactions-sdk-reference). The resulting URL is used to launch the SDK flow, allowing the user to authenticate with their bank and select an account from which Transactions data will be fetched.
+You will first need to construct a URL to launch the SDK flow. In [Console](https://console.tink.com/), you can use the [Tink Link visual editor](https://console.tink.com/transactions/tink-link) to easily create and configure the end-user flow. For a list of all possible request and response parameters, see the [Transactions SDK reference](/Tiny-doc/tink_docs_home/resources/transactions/transactions-sdk-reference/). The resulting URL is used to launch the SDK flow, allowing the user to authenticate with their bank and select an account from which Transactions data will be fetched.
 
 **Example URL**
 
@@ -39,13 +39,13 @@ To launch the SDK in your web app, simply navigate the user to the URL above. Th
 {YOUR_REDIRECT_URI}?code=18fd1334216748869b98sde50631e74
 ```
 
-See the [Transactions SDK reference](https://docs.tink.com/resources/transactions/transactions-sdk-reference) for success and error response formats and their parameters.
+See the [Transactions SDK reference](/Tiny-doc/tink_docs_home/resources/transactions/transactions-sdk-reference/) for success and error response formats and their parameters.
 
-To successfully integrate the web SDK in a mobile app, see [using the web SDK in mobile apps](https://docs.tink.com/resources/transactions/using-the-transactions-web-sdk-in-mobile-apps).
+To successfully integrate the web SDK in a mobile app, see [using the web SDK in mobile apps](/Tiny-doc/tink_docs_home/resources/transactions/using-the-transactions-web-sdk-in-mobile-apps/).
 
 ### API Reference[](#api-reference)
 
-For the full reference documentation, see the [Transactions SDK reference](https://docs.tink.com/resources/transactions/transactions-sdk-reference).
+For the full reference documentation, see the [Transactions SDK reference](/Tiny-doc/tink_docs_home/resources/transactions/transactions-sdk-reference/).
 
 ## Tink Link for iOS[](#tink-link-for-ios)
 

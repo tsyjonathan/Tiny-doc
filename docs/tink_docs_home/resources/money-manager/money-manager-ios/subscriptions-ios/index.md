@@ -1,6 +1,6 @@
 ---
 title: "Subscriptions for iOS - Tink Docs"
-source: "https://docs.tink.com/resources/money-manager/money-manager-ios/subscriptions-ios"
+source: "/Tiny-doc/tink_docs_home/resources/money-manager/money-manager-ios/subscriptions-ios/"
 exportedAt: "2026-01-13T12:52:28.015Z"
 ---
 ## Overview[](#overview)

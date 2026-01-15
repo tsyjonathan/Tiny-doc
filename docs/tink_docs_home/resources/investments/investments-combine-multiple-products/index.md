@@ -1,6 +1,6 @@
 ---
 title: "Combine multiple products - Tink Docs"
-source: "https://docs.tink.com/resources/investments/investments-combine-multiple-products"
+source: "/Tiny-doc/tink_docs_home/resources/investments/investments-combine-multiple-products/"
 exportedAt: "2026-01-13T12:45:21.315Z"
 ---
 Tink requires only a single authentication to fetch multiple data points from a bank account. In other words, you can combine multiple data products from Tink and get access to all the underlying data by sending your user on a single authentication journey. You also have the option of choosing between one-time and continuous access to the data.
@@ -20,12 +20,12 @@ This URL can include these parameters:
 | client\_id | ✅ | The `client_id` for your app. |
 | redirect\_uri | ✅ | The URL to which the user is redirected to with the response. This must be registered in the app settings in Console before use. |
 | products | ✅ | A comma-separated list of products you wish to combine (`ACCOUNT_CHECK`, `INVESTMENTS`, `LOANS`, `TRANSACTIONS`). |
-| refreshable\_items | ❌ | A comma-separated list of [refreshable items](https://docs.tink.com/api#connectivity-v1/credentials/create-credentials/query-parameters) that specifies the data types to aggregate. This list overrides the default list of refreshable items for the respective products. |
-| authorization\_code | ❌ | The created `USER_AUTHORIZATION_CODE` when using continuous access (see [generating a user authorization code](https://docs.tink.com/resources/tink-link-web/tink-link-web-permanent-users#generate-a-user-authorization-code)). |
+| refreshable\_items | ❌ | A comma-separated list of [refreshable items](/Tiny-doc/tink_docs_api/api/#connectivity-v1/credentials/create-credentials/query-parameters) that specifies the data types to aggregate. This list overrides the default list of refreshable items for the respective products. |
+| authorization\_code | ❌ | The created `USER_AUTHORIZATION_CODE` when using continuous access (see [generating a user authorization code](/Tiny-doc/tink_docs_home/resources/tink-link-web/tink-link-web-permanent-users/#generate-a-user-authorization-code)). |
 | market | ❌ | Market code specifying which providers should be listed. |
 | locale | ❌ | Locale to be used for end-user facing text. |
 
-For a full list of parameters and options, see [Investments SDK reference](https://docs.tink.com/resources/investments/investments-sdk-reference).
+For a full list of parameters and options, see [Investments SDK reference](/Tiny-doc/tink_docs_home/resources/investments/investments-sdk-reference/).
 
 **Example URL**
 
@@ -81,7 +81,7 @@ curl -v -X POST https://api.tink.com/api/v1/oauth/token \
 
 ## 4\. Fetch the data[](#fetch-the-data)
 
-To retrieve the report, we need to call the API endpoints for the [respective products](https://docs.tink.com/api). Use the user access token that you fetched in step 3, for the examples below.
+To retrieve the report, we need to call the API endpoints for the [respective products](/Tiny-doc/tink_docs_api/api/). Use the user access token that you fetched in step 3, for the examples below.
 
 **Examples**
 

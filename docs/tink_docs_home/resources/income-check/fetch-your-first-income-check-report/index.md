@@ -1,11 +1,11 @@
 ---
 title: "Fetch your first Income Check report"
-source: "https://docs.tink.com/resources/income-check/fetch-your-first-income-check-report"
+source: "/Tiny-doc/tink_docs_home/resources/income-check/fetch-your-first-income-check-report/"
 exportedAt: "2026-01-13T12:48:22.740Z"
 ---
 ## 1\. Build the URL[](#build-the-url)
 
-In Console, use the [Build your own Tink Link URL](https://console.tink.com/income-check/tink-link) view to create your own URL. Your resulting URL is used to allow users to authenticate with their bank and select an account from which to fetch report data. For more information on how the URL works, see see [Setup and integrate Income Check](https://docs.tink.com/resources/income-check/setup-and-integrate-income-check).
+In Console, use the [Build your own Tink Link URL](https://console.tink.com/income-check/tink-link) view to create your own URL. Your resulting URL is used to allow users to authenticate with their bank and select an account from which to fetch report data. For more information on how the URL works, see see [Setup and integrate Income Check](/Tiny-doc/tink_docs_home/resources/income-check/setup-and-integrate-income-check/).
 
 For actual use of the URL, integrate it with a site or in an app. For example, you can start a user's flow by redirecting them to the URL.
 
@@ -19,7 +19,7 @@ https://link.tink.com/1.0/income-check?client_id={YOUR_CLIENT_ID}&redirect_uri=h
 
 **Note**: make sure that you exchange `{YOUR_CLIENT_ID}` in the URL for your `client_id` value.
 
-When your users access the URL, they'll see a list of demo banks. Once they choose a bank, they'll see a list of demo bank accounts to choose from. Select the username and password for a Demo Bank user that suits your use case. For more information about Demo Bank, see [Demo Bank](https://docs.tink.com/resources/income-check/test-different-income-check-scenarios).
+When your users access the URL, they'll see a list of demo banks. Once they choose a bank, they'll see a list of demo bank accounts to choose from. Select the username and password for a Demo Bank user that suits your use case. For more information about Demo Bank, see [Demo Bank](/Tiny-doc/tink_docs_home/resources/income-check/test-different-income-check-scenarios/).
 
 ## 2\. Handle callback[](#handle-callback)
 
@@ -31,7 +31,7 @@ Some possible failure reasons:
 -   The end user did not successfully authenticate with their bank
 -   The end user didn't have any accounts available with the selected bank
 
-For more information about error statuses, see [Handle Income Check error codes](https://docs.tink.com/resources/income-check/handle-income-check-error-codes).
+For more information about error statuses, see [Handle Income Check error codes](/Tiny-doc/tink_docs_home/resources/income-check/handle-income-check-error-codes/).
 
 **The successful callback has this structure**
 
@@ -74,7 +74,7 @@ curl -v -X POST https://api.tink.com/api/v1/oauth/token \
 
 ## 4\. Fetch the report[](#fetch-the-report)
 
-To fetch the income report, see the [Get an income check API](https://docs.tink.com/api#risk/income-check/get-an-income-check).
+To fetch the income report, see the [Get an income check API](/Tiny-doc/tink_docs_api/api/#risk/income-check/get-an-income-check).
 
 **cURL example**
 

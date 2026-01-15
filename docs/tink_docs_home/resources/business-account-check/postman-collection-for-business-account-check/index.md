@@ -1,6 +1,6 @@
 ---
 title: "Postman collection - Tink Docs"
-source: "https://docs.tink.com/resources/business-account-check/postman-collection-for-business-account-check"
+source: "/Tiny-doc/tink_docs_home/resources/business-account-check/postman-collection-for-business-account-check/"
 exportedAt: "2026-01-13T12:44:49.580Z"
 ---
 ![Postman collections](https://images.ctfassets.net/tmqu5vj33f7w/43zFjDIgiqxX6KkX2SoLUZ/4896345ade7f5948c8d21c61aee408e1/Screenshot_2022-03-16_at_12.58.11.png) This article shows how to use Tink's Postman collection for Business Account Check. For documentation and help to use Postman, go to the [Postman docs introduction](https://learning.postman.com/docs/getting-started/introduction/)

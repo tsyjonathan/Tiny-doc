@@ -1,6 +1,6 @@
 ---
 title: "Tink Docs"
-source: "https://docs.tink.com/market-capabilities/aggregation?market=GB"
+source: "/Tiny-doc/tink_docs_home/market-capabilities/aggregation__q_market=GB__0096e11120/"
 exportedAt: "2026-01-13T12:52:52.649Z"
 ---
 ## Account aggregation

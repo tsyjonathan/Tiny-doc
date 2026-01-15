@@ -1,9 +1,9 @@
 ---
 title: "Tink Docs"
-source: "https://docs.tink.com/api-risk"
+source: "/Tiny-doc/tink_docs_api/api-risk/"
 exportedAt: "2026-01-13T13:07:18.741Z"
 ---
-## Risk v1[](https://docs.tink.com/api-risk)
+## Risk v1[](/Tiny-doc/tink_docs_api/api-risk/)
 
 The Risk Decisioning section contains resources for our three risk products: Expense Check, Income Check, and Risk Insights. Use the endpoints to create, delete, get, and list risk data and reports.
 
@@ -5619,7 +5619,7 @@ The object to be sent for creating an income check.
 
 engineVersion `string`
 
-Optional version of the engine that generates the income check. If omitted, the latest engine version will be used. See [Changelog](https://docs.tink.com/changelog) for more details.
+Optional version of the engine that generates the income check. If omitted, the latest engine version will be used. See [Changelog](/Tiny-doc/tink_docs_home/changelog/) for more details.
 
 externalReference `string`
 

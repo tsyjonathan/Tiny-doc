@@ -1,6 +1,6 @@
 ---
 title: "Collaborate with others - Tink Docs"
-source: "https://docs.tink.com/resources/console/console-organisations-and-collaboration"
+source: "/Tiny-doc/tink_docs_home/resources/console/console-organisations-and-collaboration/"
 exportedAt: "2026-01-13T12:54:44.411Z"
 ---
 ## Create an organisation[](#create-an-organisation)

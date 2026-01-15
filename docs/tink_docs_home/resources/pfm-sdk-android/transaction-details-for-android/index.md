@@ -1,6 +1,6 @@
 ---
 title: "Not Found - Tink Docs"
-source: "https://docs.tink.com/resources/pfm-sdk-android/transaction-details-for-android"
+source: "/Tiny-doc/tink_docs_home/resources/pfm-sdk-android/transaction-details-for-android/"
 exportedAt: "2026-01-13T12:53:32.177Z"
 ---
 ![](https://docs.tink.com/assets/banana-guy-CNjP65Mx.png)

@@ -1,6 +1,6 @@
 ---
 title: "Fetch all recurring transaction groups for a user"
-source: "https://docs.tink.com/resources/data-enrichment/fetch-all-recurring-transaction-groups-for-a-user"
+source: "/Tiny-doc/tink_docs_home/resources/data-enrichment/fetch-all-recurring-transaction-groups-for-a-user/"
 exportedAt: "2026-01-13T12:47:48.241Z"
 ---
 To fetch the user’s recurring transactions, call the `/enrichment/v1/recurring-transactions-groups` endpoint.
@@ -14,7 +14,7 @@ curl -X 'GET' \
   -H 'accept: application/json'
 ```
 
-Results are paginated – to learn more about pagination and how to work with it click [here](https://docs.tink.com/resources/data-enrichment/generating-a-user-access-token-and-querying-end-user-data#pagination).
+Results are paginated – to learn more about pagination and how to work with it click [here](/Tiny-doc/tink_docs_home/resources/data-enrichment/generating-a-user-access-token-and-querying-end-user-data/#pagination).
 
 **Example response:**
 
@@ -78,7 +78,7 @@ Results are paginated – to learn more about pagination and how to work with it
 }
 ```
 
-_**Note!** If you are ingesting accounts through [the Connector](https://docs.tink.com/api#connector), you can choose to exclude recurring transactions for those accounts by setting the 'exclusion' flag to either 'PFM\_DATA' or 'PFM\_AND\_SEARCH'. For more information see [the account ingestion documentation here](https://docs.tink.com/api#connector/account)._
+_**Note!** If you are ingesting accounts through [the Connector](/Tiny-doc/tink_docs_api/api/#connector), you can choose to exclude recurring transactions for those accounts by setting the 'exclusion' flag to either 'PFM\_DATA' or 'PFM\_AND\_SEARCH'. For more information see [the account ingestion documentation here](/Tiny-doc/tink_docs_api/api/#connector/account)._
 
 You have now all you need in order to get and present all recurring transactions groups for each individual end user.
 

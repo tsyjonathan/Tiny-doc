@@ -1,6 +1,6 @@
 ---
 title: "Configure which Actionable Insights your users can see"
-source: "https://docs.tink.com/resources/money-manager/money-manager-api/configure-actionable-insights"
+source: "/Tiny-doc/tink_docs_home/resources/money-manager/money-manager-api/configure-actionable-insights/"
 exportedAt: "2026-01-13T12:50:50.010Z"
 ---
 To get the most out of the Actionable Insights feature you want to configure the messages they bring in different languages, to fit your specific user audience. You can achieve that by using Tink Console.

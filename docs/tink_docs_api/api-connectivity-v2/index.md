@@ -1,9 +1,9 @@
 ---
 title: "Tink Docs"
-source: "https://docs.tink.com/api-connectivity-v2"
+source: "/Tiny-doc/tink_docs_api/api-connectivity-v2/"
 exportedAt: "2026-01-13T13:02:34.241Z"
 ---
-## Connectivity v2[](https://docs.tink.com/api-connectivity-v2)
+## Connectivity v2[](/Tiny-doc/tink_docs_api/api-connectivity-v2/)
 
 The Authorization and Consent models contain information on what is required to authenticate end users and obtain consent to access their financial services.
 

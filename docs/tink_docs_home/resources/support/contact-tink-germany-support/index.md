@@ -1,11 +1,11 @@
 ---
 title: "Contact Tink Germany Support - Tink Docs"
-source: "https://docs.tink.com/resources/support/contact-tink-germany-support"
+source: "/Tiny-doc/tink_docs_home/resources/support/contact-tink-germany-support/"
 exportedAt: "2026-01-13T12:56:25.635Z"
 ---
 Support for Tink products is managed in the Visa Support Hub. There, you can create, view, and manage cases together with Tink Support to get the help you need.
 
-> **Note**: This article outlines how to contact Tink Germany Support for customers who use XS2A. **If aren't operating in Germany or don't use X2SA**, see [Contact Tink Support](https://docs.tink.com/resources/support/how-to-find-technical-support).
+> **Note**: This article outlines how to contact Tink Germany Support for customers who use XS2A. **If aren't operating in Germany or don't use X2SA**, see [Contact Tink Support](/Tiny-doc/tink_docs_home/resources/support/how-to-find-technical-support/).
 
 ## How to access Visa Support Hub[](#how-to-access-visa-support-hub)
 
@@ -37,7 +37,7 @@ To resolve your case as quickly as possible, we'll need some information from yo
 
 -   What percentage of your users are affected, and how?
 -   Which Tink products are affected? Does the issue relate to a specific API endpoint and/or integration provider?
--   What is the [userId](https://docs.tink.com/api#general/user), [credentialsId](https://docs.tink.com/api#connectivity/credentials) or [payments request id](https://docs.tink.com/api#payment/payment-request) related to the issue
+-   What is the [userId](/Tiny-doc/tink_docs_api/api/#general/user), [credentialsId](/Tiny-doc/tink_docs_api/api/#connectivity/credentials) or [payments request id](/Tiny-doc/tink_docs_api/api/#payment/payment-request) related to the issue
 -   For Tink Link users: what is the full response from Tink Link (with any sensitive info redacted)
 -   When did the issue occur?
 -   What's your application’s `clientId`?

@@ -1,6 +1,6 @@
 ---
 title: "Additional requirements for Android - Tink Docs"
-source: "https://docs.tink.com/resources/money-manager-android/sdk-additional-requirements"
+source: "/Tiny-doc/tink_docs_home/resources/money-manager-android/sdk-additional-requirements/"
 exportedAt: "2026-01-13T13:01:04.175Z"
 ---
 ## Handling the back navigation[](#handling-the-back-navigation)

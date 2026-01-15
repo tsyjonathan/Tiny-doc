@@ -1,6 +1,6 @@
 ---
 title: "Optimize your Business Transactions integration"
-source: "https://docs.tink.com/resources/business-transactions/optimize-your-business-transactions-integration"
+source: "/Tiny-doc/tink_docs_home/resources/business-transactions/optimize-your-business-transactions-integration/"
 exportedAt: "2026-01-13T12:47:04.555Z"
 ---
 Tests always show that the best–performing integrations are ones where the transition between an app and Tink feels smooth, secure, and coherent. Integrate successfully in three steps:
@@ -45,11 +45,11 @@ If you know which bank your users access, or you are reauthenticating the user a
 
 ### Pre-filling information[](#pre-filling-information)
 
-If you have access to a user's bank credentials, you can pre-fill certain fields (such as SSN) and remove another step. For more information, see [Sessions](https://docs.tink.com/resources/business-transactions/business-transactions-sdk-sessions). ![AC article prefill fields](https://images.ctfassets.net/tmqu5vj33f7w/4bPB1nPjX5aFDnPFihAOFI/cba03d36a2aa65ecfeb878750295f69d/Prefill_fields.png)
+If you have access to a user's bank credentials, you can pre-fill certain fields (such as SSN) and remove another step. For more information, see [Sessions](/Tiny-doc/tink_docs_home/resources/business-transactions/business-transactions-sdk-sessions/). ![AC article prefill fields](https://images.ctfassets.net/tmqu5vj33f7w/4bPB1nPjX5aFDnPFihAOFI/cba03d36a2aa65ecfeb878750295f69d/Prefill_fields.png)
 
 ### Business Transactions success screen[](#business-transactions-success-screen)
 
-Our success screen is, by default, disabled, which sends the user directly back to you once their bank is successfully connected. If you want to display our success screen, contact [Tink Support](https://docs.tink.com/resources/support/how-to-find-technical-support) to enable it.
+Our success screen is, by default, disabled, which sends the user directly back to you once their bank is successfully connected. If you want to display our success screen, contact [Tink Support](/Tiny-doc/tink_docs_home/resources/support/how-to-find-technical-support/) to enable it.
 
 ![TRX optimize success screen example 1.0](https://images.ctfassets.net/tmqu5vj33f7w/4SxF9Zx6FjwkOycgAApA0t/bd1306c945dfb43b2218d042a983b7a5/TRX_success_screen_example_1.0.png)
 

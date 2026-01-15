@@ -1,6 +1,6 @@
 ---
 title: "Payment schemes - Tink Docs"
-source: "https://docs.tink.com/resources/payments/one-time-payments/payment-schemes"
+source: "/Tiny-doc/tink_docs_home/resources/payments/one-time-payments/payment-schemes/"
 exportedAt: "2026-01-13T12:42:45.545Z"
 ---
 ## What are payment schemes?[](#what-are-payment-schemes-)
@@ -49,13 +49,13 @@ Fees table:
 
 ### When to credit a user[](#when-to-credit-a-user)
 
-Depending on your use case and requirements the moment when you decide to credit the user and what scheme to use may differ. Read through our [Payment status transition](https://docs.tink.com/resources/payments/one-time-payments/one-time-payments-status-transitions) article to get an overview of our different statuses. Here are some guiding examples that could be of help:
+Depending on your use case and requirements the moment when you decide to credit the user and what scheme to use may differ. Read through our [Payment status transition](/Tiny-doc/tink_docs_home/resources/payments/one-time-payments/one-time-payments-status-transitions/) article to get an overview of our different statuses. Here are some guiding examples that could be of help:
 
 -   **Low risk & no fee**: In case you have a low risk use case such as billing and invoice payments ,where there is a high intent to pay and low risk of fraud, then you can usually use a slower payment scheme that is free of charge (ex SEPA credit) and credit the user once the payment has been Sent (initiated) and Executed.
     
--   **Medium & High risk no fee**: For these use cases, such as in an account funding or eCommerce setting, we recommend that you use a non-instant scheme that is free of charge (ex SEPA credit) in conjunction with our [Risk Signals](https://docs.tink.com/resources/payments/one-time-payments/risk-signals) to de-risk the payment and ensure high settlement rates. You can here also rely on the Sent status.
+-   **Medium & High risk no fee**: For these use cases, such as in an account funding or eCommerce setting, we recommend that you use a non-instant scheme that is free of charge (ex SEPA credit) in conjunction with our [Risk Signals](/Tiny-doc/tink_docs_home/resources/payments/one-time-payments/risk-signals/) to de-risk the payment and ensure high settlement rates. You can here also rely on the Sent status.
     
--   **Medium & High risk with fee**: In case you believe that users are not as sensitive to a fee, such as in high ATV cases, you can use SEPA instant as the executing scheme to receive funds as fast as possible and credit the user once those have settled, we recommend using the Payer\_settled & Payee\_settled statuses or waiting for funds to arrive on your destination account before crediting the user. Tip is to use Tink’s [settlement accounts](https://docs.tink.com/resources/payments/one-time-payments/set-up-settlement-accounts-one-time-payments) for automatic reconciliation and the settled status.
+-   **Medium & High risk with fee**: In case you believe that users are not as sensitive to a fee, such as in high ATV cases, you can use SEPA instant as the executing scheme to receive funds as fast as possible and credit the user once those have settled, we recommend using the Payer\_settled & Payee\_settled statuses or waiting for funds to arrive on your destination account before crediting the user. Tip is to use Tink’s [settlement accounts](/Tiny-doc/tink_docs_home/resources/payments/one-time-payments/set-up-settlement-accounts-one-time-payments/) for automatic reconciliation and the settled status.
     
 
 In general we recommend customers that have a low risk use case or that are using Risk Signals to credit their users once the payment has been sent and initiated. For High risk use cases without Risk Signals we recommend using an instant scheme or waiting for the funds to settle and use our Settlement accounts feature.
@@ -66,9 +66,9 @@ Tink uses a fallback to SEPA credit when customers have selected SEPA instant as
 
 ## How to use a payment scheme[](#how-to-use-a-payment-scheme)
 
-All providers and their supported schemes can be found on our [public connection capability](https://docs.tink.com/market-capabilities/payments) page for our payment product.
+All providers and their supported schemes can be found on our [public connection capability](/Tiny-doc/tink_docs_home/market-capabilities/payments/) page for our payment product.
 
-The payment scheme is set when you create your [payment request](https://docs.tink.com/api#payment/payment-request/create-payment-request) as one of the main fields, this is done in the PaymentScheme field. Read the guide on [Market-specific information](https://docs.tink.com/resources/payments/one-time-payments/one-time-payments-market-specific-information) to understand which scheme that is available per market and how to construct the payment request.
+The payment scheme is set when you create your [payment request](/Tiny-doc/tink_docs_api/api/#payment/payment-request/create-payment-request) as one of the main fields, this is done in the PaymentScheme field. Read the guide on [Market-specific information](/Tiny-doc/tink_docs_home/resources/payments/one-time-payments/one-time-payments-market-specific-information/) to understand which scheme that is available per market and how to construct the payment request.
 
 ### Smart routing (Scheme picker)[](#smart-routing-scheme-picker-)
 

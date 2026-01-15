@@ -1,6 +1,6 @@
 ---
 title: "List of available insights - Tink Docs"
-source: "https://docs.tink.com/resources/money-manager/money-manager-api/list-of-available-insights"
+source: "/Tiny-doc/tink_docs_home/resources/money-manager/money-manager-api/list-of-available-insights/"
 exportedAt: "2026-01-13T12:50:47.492Z"
 ---
 Actionable insights differ in types. Each type has specific data relevant to that insight, as well as a set of actions which lets users interact with your app. Here you can find a list of the available insights on the Tink platform, along with their default actions.

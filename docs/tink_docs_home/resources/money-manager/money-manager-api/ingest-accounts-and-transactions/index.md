@@ -1,6 +1,6 @@
 ---
 title: "Ingest accounts & transactions into the Tink Platform"
-source: "https://docs.tink.com/resources/money-manager/money-manager-api/ingest-accounts-and-transactions"
+source: "/Tiny-doc/tink_docs_home/resources/money-manager/money-manager-api/ingest-accounts-and-transactions/"
 exportedAt: "2026-01-13T12:51:32.863Z"
 ---
 These are the steps we will go through:
@@ -13,7 +13,7 @@ These are the steps we will go through:
 
 ## Ingest account data to an existing user[](#ingest-account-data-to-an-existing-user)
 
-**Documentation**: Visit the **Account service** section in the [Connector API reference](https://docs.tink.com/api/connector/).
+**Documentation**: Visit the **Account service** section in the [Connector API reference](/Tiny-doc/tink_docs_api/api/).
 
 **Purpose**: Creates accounts for a specific `externalUserId` via the connector API. When creating the user prior to doing ingestion, you must define an `externalUserId` for the user. `external_user_id` is an identifier you associate with this user, which is unique within your app. We suggest avoiding PII and recommend using a generated ID containing only `a-z`, `0-9` and `-`. This parameter is global unique for the app.
 
@@ -54,11 +54,11 @@ curl -v -X POST 'https://api.tink.com/connector/users/{externalUserId}/accounts'
 
 ## Review the added accounts[](#review-the-added-accounts)
 
-**Documentation**: Visit the [Account API](https://docs.tink.com/api#data-v1/account).
+**Documentation**: Visit the [Account API](/Tiny-doc/tink_docs_api/api/#data-v1/account).
 
 **Purpose**: Returns an object with a list of the authenticated user's accounts. This list can then be reviewed to verify that the ingested information is correct.
 
-> **Note**: To be able to list the account, a `YOUR_USER_ACCESS_TOKEN` for the specific user must be generated and authenticated. For a detailed description of how to do this, please read the [Getting started](https://docs.tink.com/resources/api-setup) section.
+> **Note**: To be able to list the account, a `YOUR_USER_ACCESS_TOKEN` for the specific user must be generated and authenticated. For a detailed description of how to do this, please read the [Getting started](/Tiny-doc/tink_docs_home/resources/api-setup/) section.
 
 Request example
 
@@ -123,7 +123,7 @@ curl -X GET 'https://api.tink.com/api/v1/accounts/list' \
 
 ## Ingest Transactions[](#ingest-transactions)
 
-**Documentation:** Visit the **Transaction service** section in the [Connector API reference](https://docs.tink.com/api/connector/).
+**Documentation:** Visit the **Transaction service** section in the [Connector API reference](/Tiny-doc/tink_docs_api/api/).
 
 **Purpose**: Adds transactions to an account, historical transactions or real time transactions.
 
@@ -171,7 +171,7 @@ curl -v -X POST 'https://api.tink.com/connector/users/{externalUserId}/transacti
 
 ## Verify that transactions has been processed and enriched[](#verify-that-transactions-has-been-processed-and-enriched)
 
-**Documentation**: Visit the [Credentials API](https://docs.tink.com/api#connectivity/credentials).
+**Documentation**: Visit the [Credentials API](/Tiny-doc/tink_docs_api/api/#connectivity/credentials).
 
 **Purpose**: When you have inserted a bulk of `transactions` Tink will respond with a `HTTP 204` asynchronously from the processing of transaction. The response from Tink means that the request past validation and is put on queue for ingestion. That means that the accounts/transactions will not be ready to be used via the account and transaction API instantaneously. This could take up to a few seconds. To verify that the ingested data has been enriched you need to check the credential before the ingestion. The ingested transactions are available when the credential is in the state `UPDATED` and the timestamp is later then compared to before ingestion. Note that the `YOUR_USER_ACCESS_TOKEN` shall be used as bearer token.
 
@@ -213,7 +213,7 @@ curl -X GET 'https://api.tink.com/api/v1/credentials' \
 
 ## Verify that the transactions have been added to the account[](#verify-that-the-transactions-have-been-added-to-the-account)
 
-**Documentation**: Visit the [Search API](https://docs.tink.com/api#data-v1/search).
+**Documentation**: Visit the [Search API](/Tiny-doc/tink_docs_api/api/#data-v1/search).
 
 **Purpose**: Returns an object with a list of the ingested transactions for the specific account. This list can then be reviewed to verify that the ingested information is correct.
 

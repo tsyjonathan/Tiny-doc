@@ -1,6 +1,6 @@
 ---
 title: "Visualise carbon footprint - Tink Docs"
-source: "https://docs.tink.com/resources/money-manager/money-manager-api/visualise-carbon-footprint"
+source: "/Tiny-doc/tink_docs_home/resources/money-manager/money-manager-api/visualise-carbon-footprint/"
 exportedAt: "2026-01-13T12:50:18.051Z"
 ---
 ## Introduction[](#introduction)
@@ -170,7 +170,7 @@ In the response, the description field will contain a tag of the transactions. T
 
 ## 2\. Fetch Category Names[](#fetch-category-names)
 
-You then may need to fetch a list of available categories to match up against the category IDs you received from the statistics endpoint. This is achieved by using the [list categories](https://docs.tink.com/api#general/category/list-categories) endpoint while unauthenticated.
+You then may need to fetch a list of available categories to match up against the category IDs you received from the statistics endpoint. This is achieved by using the [list categories](/Tiny-doc/tink_docs_api/api/#general/category/list-categories) endpoint while unauthenticated.
 
 Example request:
 
@@ -197,4 +197,4 @@ Example response:
 ]
 ```
 
-You then need to match the `description` field from the [Statistics](https://docs.tink.com/api#finance-management/statistics) endpoint response to the ID from the [List categories](https://docs.tink.com/api#general/category/list-categories) endpoint response, so you can return a category back to the user.
+You then need to match the `description` field from the [Statistics](/Tiny-doc/tink_docs_api/api/#finance-management/statistics) endpoint response to the ID from the [List categories](/Tiny-doc/tink_docs_api/api/#general/category/list-categories) endpoint response, so you can return a category back to the user.

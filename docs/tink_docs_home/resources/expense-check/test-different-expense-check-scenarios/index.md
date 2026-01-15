@@ -1,6 +1,6 @@
 ---
 title: "Test different Expense Check scenarios"
-source: "https://docs.tink.com/resources/expense-check/test-different-expense-check-scenarios"
+source: "/Tiny-doc/tink_docs_home/resources/expense-check/test-different-expense-check-scenarios/"
 exportedAt: "2026-01-13T12:48:58.211Z"
 ---
 ## Demo Bank[](#demo-bank)
@@ -84,7 +84,7 @@ Store your `access_token`.
 
 ### Fetch your report[](#fetch-your-report)
 
-Now is the time to fetch the Expense Check report in the JSON format through the [Expense Check API](https://docs.tink.com/api#risk/expense-check/get-an-expense-check).
+Now is the time to fetch the Expense Check report in the JSON format through the [Expense Check API](/Tiny-doc/tink_docs_api/api/#risk/expense-check/get-an-expense-check).
 
 Fetch your Expense Check report
 

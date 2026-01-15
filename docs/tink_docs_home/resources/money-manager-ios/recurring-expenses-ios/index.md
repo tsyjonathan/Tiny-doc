@@ -1,6 +1,6 @@
 ---
 title: "Recurring Expenses for iOS - Tink Docs"
-source: "https://docs.tink.com/resources/money-manager-ios/recurring-expenses-ios"
+source: "/Tiny-doc/tink_docs_home/resources/money-manager-ios/recurring-expenses-ios/"
 exportedAt: "2026-01-13T13:01:50.868Z"
 ---
 ## Overview[](#overview)

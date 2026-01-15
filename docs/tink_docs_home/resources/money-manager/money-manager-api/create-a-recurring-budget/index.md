@@ -1,6 +1,6 @@
 ---
 title: "Create a recurring Budget - Tink Docs"
-source: "https://docs.tink.com/resources/money-manager/money-manager-api/create-a-recurring-budget"
+source: "/Tiny-doc/tink_docs_home/resources/money-manager/money-manager-api/create-a-recurring-budget/"
 exportedAt: "2026-01-13T12:51:11.612Z"
 ---
 ## Introduction[](#introduction)
@@ -9,7 +9,7 @@ Budgets is a feature allowing your users to keep track of expenses matching a pr
 
 ## Create a budget[](#create-a-budget)
 
-In this guide, we will show you how to create a simple recurring monthly budget for the category “coffee”. To create a budget you make a request to the [Create Recurring Budget](https://docs.tink.com/api#finance-management/budget/create-recurring-budget) endpoint with a `user access token` with the `budget:write` scope.
+In this guide, we will show you how to create a simple recurring monthly budget for the category “coffee”. To create a budget you make a request to the [Create Recurring Budget](/Tiny-doc/tink_docs_api/api/#finance-management/budget/create-recurring-budget) endpoint with a `user access token` with the `budget:write` scope.
 
 The only fields that are required in the request body are the following:
 
@@ -81,4 +81,4 @@ Example response:
 
 You created a recurring budget to track your coffee spending!
 
-For more information on periods in recurring budgets, see [Configure Periods](https://docs.tink.com/resources/money-manager/money-manager-api/configure-periods).
+For more information on periods in recurring budgets, see [Configure Periods](/Tiny-doc/tink_docs_home/resources/money-manager/money-manager-api/configure-periods/).

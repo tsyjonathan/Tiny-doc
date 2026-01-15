@@ -1,6 +1,6 @@
 ---
 title: "Test different Investments scenarios - Tink Docs"
-source: "https://docs.tink.com/resources/investments/test-different-investments-scenarios"
+source: "/Tiny-doc/tink_docs_home/resources/investments/test-different-investments-scenarios/"
 exportedAt: "2026-01-13T12:45:07.558Z"
 ---
 ## Demo Bank[](#demo-bank)
@@ -19,7 +19,7 @@ Each user represents a different test case. The **Description** field explains a
 
 ## Tink URL[](#tink-url)
 
-When you have selected a Demo Bank user for your test, store the username and password for the next step. It's now time to build your Tink Link. For a list of parameters that you can use, see [Investments SDK reference](https://docs.tink.com/resources/investments/investments-sdk-reference). When you're done building your Tink Link, copy the URL, paste it into a browser, and hit enter to start the Tink flow.
+When you have selected a Demo Bank user for your test, store the username and password for the next step. It's now time to build your Tink Link. For a list of parameters that you can use, see [Investments SDK reference](/Tiny-doc/tink_docs_home/resources/investments/investments-sdk-reference/). When you're done building your Tink Link, copy the URL, paste it into a browser, and hit enter to start the Tink flow.
 
 ## The Tink flow[](#the-tink-flow)
 

@@ -1,6 +1,6 @@
 ---
 title: "Fetch Account profiling questions - Tink Docs"
-source: "https://docs.tink.com/resources/data-enrichment/fetch-account-profiling-questions"
+source: "/Tiny-doc/tink_docs_home/resources/data-enrichment/fetch-account-profiling-questions/"
 exportedAt: "2026-01-13T12:48:08.773Z"
 ---
 The responses to the questions will influence the calculation of CO2 emissions for transactions tied to a specific account, as well as influence account insights. For example, for a grocery transaction, the model calculating CO2 emissions will assume that people typically include meat in their diets. By using this endpoint, it is possible to refine the knowledge of the end user, making the model results more precise. In this case, the end user can specify that their diet is vegetarian, and thus reducing the emissions of grocery transactions by default.

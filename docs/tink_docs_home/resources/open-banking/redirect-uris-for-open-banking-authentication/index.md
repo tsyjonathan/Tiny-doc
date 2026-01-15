@@ -1,9 +1,9 @@
 ---
 title: "Redirect URIs for open banking authentication"
-source: "https://docs.tink.com/resources/open-banking/redirect-uris-for-open-banking-authentication"
+source: "/Tiny-doc/tink_docs_home/resources/open-banking/redirect-uris-for-open-banking-authentication/"
 exportedAt: "2026-01-13T12:55:05.871Z"
 ---
-A redirect URI (also called callback URI) is used in most open banking authentication flows where an Account Service Payment Service Provider (ASPSP) needs to redirect an end-user after a successful authentication (providers supporting this flow have [authenticationFlow](https://docs.tink.com/api-connectivity-v1#connectivity-v1/provider) set to `REDIRECT`).
+A redirect URI (also called callback URI) is used in most open banking authentication flows where an Account Service Payment Service Provider (ASPSP) needs to redirect an end-user after a successful authentication (providers supporting this flow have [authenticationFlow](/Tiny-doc/tink_docs_api/api-connectivity-v1/#connectivity-v1/provider) set to `REDIRECT`).
 
 The redirect URI is the second key component in ASPSP enrolment after open-banking certificates. The ASPSP uses the redirect URI to send a code that is required to complete the authentication for each end user.
 
@@ -24,14 +24,14 @@ All you need to do is register `https://api.tink.com/api/v1/credentials/third-pa
 1.  Register a redirect URI with the ASPSPs that follows the format `your_domain.com/callback`. You can register `redirect_uri` for Tink in [Console](#configure-a-redirect-uri-in-Console).
 2.  Implement a reverse proxy server on your redirect URI and configure it to redirect to `https://api.tink.com/api/v1/credentials/third-party/callback`. Keep the method and body the same and return a `307` status. Most ASPSPs will use GET when they redirect, but as Tink accepts both GET and POST. All your proxy needs to do is to preserve the method.
     
-    An alternative is to accept the redirect on your redirect URI and then pass the payload in a backend call to the `POST /api/v1/credentials/third-party/callback/relayed` [endpoint](https://docs.tink.com/api-connectivity-v1#connectivity-v1/credentials/third-party-callback-with-redirect).
+    An alternative is to accept the redirect on your redirect URI and then pass the payload in a backend call to the `POST /api/v1/credentials/third-party/callback/relayed` [endpoint](/Tiny-doc/tink_docs_api/api-connectivity-v1/#connectivity-v1/credentials/third-party-callback-with-redirect).
     
 
 ## Multiple redirect URIs[](#multiple-redirect-uris)
 
 Most ASPSPs allow multiple redirects to be registered.
 
-Tink lets you configure multiple redirects and decide which one to use by specifying the `callbackUri` in the [create](https://docs.tink.com/api-connectivity-v1#connectivity-v1/credentials/create-credentials) and [refresh credentials](https://docs.tink.com/api-connectivity-v1#connectivity-v1/credentials/refresh-credentials) calls.
+Tink lets you configure multiple redirects and decide which one to use by specifying the `callbackUri` in the [create](/Tiny-doc/tink_docs_api/api-connectivity-v1/#connectivity-v1/credentials/create-credentials) and [refresh credentials](/Tiny-doc/tink_docs_api/api-connectivity-v1/#connectivity-v1/credentials/refresh-credentials) calls.
 
 The URI in the top of the list in Console will be used unless an overriding configuration is made (contact us if you need a specific URI configured for an ASPSP).
 

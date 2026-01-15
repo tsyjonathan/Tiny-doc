@@ -1,6 +1,6 @@
 ---
 title: "Webhooks for Business Transactions - Tink Docs"
-source: "https://docs.tink.com/resources/business-transactions/webhooks-for-business-transactions"
+source: "/Tiny-doc/tink_docs_home/resources/business-transactions/webhooks-for-business-transactions/"
 exportedAt: "2026-01-13T12:47:19.196Z"
 ---
 This document contains everything you need to get started with setting up webhooks for Business Transactions. This document includes the following sections:
@@ -55,7 +55,7 @@ curl -v -X POST https://api.tink.com/api/v1/oauth/token \
 
 ### 3\. Use the Events API[](#use-the-events-api)
 
-Set up the webhook by using your `client access token` to call the Tink API. For more information about the fields for this request, see [Request Body: CreateWebhookEndpointRequest](https://docs.tink.com/api#events-v2/webhook/create-webhook-endpoint/request-body-createwebhookendpointrequest).
+Set up the webhook by using your `client access token` to call the Tink API. For more information about the fields for this request, see [Request Body: CreateWebhookEndpointRequest](/Tiny-doc/tink_docs_api/api/#events-v2/webhook/create-webhook-endpoint/request-body-createwebhookendpointrequest).
 
 **Request example:**
 
@@ -84,7 +84,7 @@ curl -v -X POST https://api.tink.com/events/v2/webhook-endpoints \
 }
 ```
 
-Store the `secret` value safely as it can't be retrieved again. Use the secret to verify the signature of incoming notifications. For more information, see [Webhook signature validation](#webhook-signature-validation) and the [Events API](https://docs.tink.com/api#events-v2) API reference.
+Store the `secret` value safely as it can't be retrieved again. Use the secret to verify the signature of incoming notifications. For more information, see [Webhook signature validation](#webhook-signature-validation) and the [Events API](/Tiny-doc/tink_docs_api/api/#events-v2) API reference.
 
 ### Message structure[](#message-structure)
 
@@ -137,7 +137,7 @@ You have set up webhooks for your app and stored your `secret` value. If you're 
 
 ### Introduction[](#introduction)
 
-Tink signs every message that's delivered via the [Events V2](https://docs.tink.com/api#events-v2/webhook/create-webhook-endpoint) webhook with a signature header that's added to the outgoing HTTP request.
+Tink signs every message that's delivered via the [Events V2](/Tiny-doc/tink_docs_api/api/#events-v2/webhook/create-webhook-endpoint) webhook with a signature header that's added to the outgoing HTTP request.
 
 When using the Events V2 API, we recommend you to implement signature verification to validate the authenticity of an incoming request.
 
@@ -237,7 +237,7 @@ In Console, go to **\[your\_app\]** > **App settings** > **API client**. For the
 
 Use webhooks to subscribe to a `refresh:finished` event. A trigger of this event notifies you when the refresh operation has finished for a user's `credentials`. For more details on this type of event, see [Available events](#available-events).
 
-For more details on how to subscribe to webhooks, see [Set up a webhook](#set-up-a-webhook) and [Webhook API reference](https://docs.tink.com/api#events-v1/webhook).
+For more details on how to subscribe to webhooks, see [Set up a webhook](#set-up-a-webhook) and [Webhook API reference](/Tiny-doc/tink_docs_api/api/#events-v1/webhook).
 
 ### Event logic[](#event-logic)
 
@@ -245,7 +245,7 @@ The `refresh:finished` event is triggered when a refresh operation has finished 
 
 The event is triggered if the refresh attempt was successsful or unsuccessful. In the case of an unsuccessful refresh, the type of error is specified in the event.
 
-This event is only triggered by an attempted refresh. For example, it will not be trigged for refreshes that have been rate limited. For more information, see [rate limits](https://docs.tink.com/api#introduction/rate-limits).
+This event is only triggered by an attempted refresh. For example, it will not be trigged for refreshes that have been rate limited. For more information, see [rate limits](/Tiny-doc/tink_docs_api/api/#introduction/rate-limits).
 
 ### Event content[](#event-content)
 
@@ -292,7 +292,7 @@ Below is an example of a `refresh:finished` event when the refresh operation fin
 
 ## Event: Account transactions modified[](#event-account-transactions-modified)
 
-Use our webhooks to subscribe to the following events: `account-transactions:modified` and `account-booked-transactions:modified`. For more information about the webhooks, see our [Events API reference](https://docs.tink.com/api#events-v2).
+Use our webhooks to subscribe to the following events: `account-transactions:modified` and `account-booked-transactions:modified`. For more information about the webhooks, see our [Events API reference](/Tiny-doc/tink_docs_api/api/#events-v2).
 
 ### Event logic[](#event-logic)
 
@@ -316,7 +316,7 @@ These events are triggered if an account has new or modified transactions (e.g: 
 | transactions\[updated\] | string | Number of updated transactions for the account after refresh. | No |
 | transactions\[deleted\] | string | Number of deleted transactions for the account after refresh. | No |
 
-To find the earliest and latest modified transaction `bookedDate`, use the `transaction[earliestModifiedBookedDate]` and `transaction[latestModifiedBookedDate]` content fields. Then, combine these dates with the `account[id]` using [Business Transactions Query Parameters](https://docs.tink.com/api#data-v2/transaction/list-transactions/query-parameters) like `bookedDateGte`, `bookedDateLte`, and `accountIdIn` to fetch the list of all modified transactions.
+To find the earliest and latest modified transaction `bookedDate`, use the `transaction[earliestModifiedBookedDate]` and `transaction[latestModifiedBookedDate]` content fields. Then, combine these dates with the `account[id]` using [Business Transactions Query Parameters](/Tiny-doc/tink_docs_api/api/#data-v2/transaction/list-transactions/query-parameters) like `bookedDateGte`, `bookedDateLte`, and `accountIdIn` to fetch the list of all modified transactions.
 
 If you store Business Transactions data and want to sync only deleted transactions (when no inserted or updated transactions occurred after a refresh), see [Events: Account transactions deleted](#event-account-transactions-deleted).
 
@@ -378,7 +378,7 @@ Here's an examples of an `account-transactions:modified` and `account-booked-tra
 
 ## Event: Account transactions deleted[](#event-account-transactions-deleted)
 
-Use our webhook to subscribe to the following event: `account-transactions:deleted`. For more information about the webhooks, see our [Events API](https://docs.tink.com/api#events-v2) reference.
+Use our webhook to subscribe to the following event: `account-transactions:deleted`. For more information about the webhooks, see our [Events API](/Tiny-doc/tink_docs_api/api/#events-v2) reference.
 
 ### Event logic[](#event-logic)
 
@@ -397,7 +397,7 @@ This event is triggered if an account has deleted transactions (e.g. one or more
 | account\[id\] | string | The Tink Account ID | Yes |
 | transactions\[ids\] | list | List of deleted transactions identifiers (`id`). | No |
 
-If you store Business Transactions data locally and you want to synchronize only deleted transactions (when no inserted or updated transactions occurred after a refresh) you can use a `transactions[ids]` list to get all deleted transaction identifiers (`id` from [List Transactions](https://docs.tink.com/api#data-v2/transaction/list-transactions) endpoint). These identifiers can be used to synchronize the deleted transactions without having to fetch the entire list of transactions.
+If you store Business Transactions data locally and you want to synchronize only deleted transactions (when no inserted or updated transactions occurred after a refresh) you can use a `transactions[ids]` list to get all deleted transaction identifiers (`id` from [List Transactions](/Tiny-doc/tink_docs_api/api/#data-v2/transaction/list-transactions) endpoint). These identifiers can be used to synchronize the deleted transactions without having to fetch the entire list of transactions.
 
 ### Example[](#example)
 

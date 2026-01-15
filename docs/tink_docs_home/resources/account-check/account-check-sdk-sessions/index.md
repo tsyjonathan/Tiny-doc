@@ -1,6 +1,6 @@
 ---
 title: "Sessions - Tink Docs"
-source: "https://docs.tink.com/resources/account-check/account-check-sdk-sessions"
+source: "/Tiny-doc/tink_docs_home/resources/account-check/account-check-sdk-sessions/"
 exportedAt: "2026-01-13T12:43:49.979Z"
 ---
 ## Overview[](#overview)
@@ -16,7 +16,7 @@ To use sessions, you simply need to:
 
 ## Create a session[](#create-a-session)
 
-Create a session by using the `POST /link/v1/session` endpoint. The request must be authenticated using a [client access token](https://docs.tink.com/resources/getting-started/get-access-token) and contain the `link-session:write` scope.
+Create a session by using the `POST /link/v1/session` endpoint. The request must be authenticated using a [client access token](/Tiny-doc/tink_docs_home/resources/getting-started/get-access-token/) and contain the `link-session:write` scope.
 
 Example client access token request
 
@@ -43,7 +43,7 @@ Content-Type: application/json
 }
 ```
 
-Then, create a session using the `CLIENT_ACCESS_TOKEN` in the authorization header when calling the [session endpoint](https://docs.tink.com/api#general/tink-link/session).
+Then, create a session using the `CLIENT_ACCESS_TOKEN` in the authorization header when calling the [session endpoint](/Tiny-doc/tink_docs_api/api/#general/tink-link/session).
 
 Example session request
 
@@ -73,7 +73,7 @@ All fields in the Session request body are optional, but you need to provide at 
 | `externalReference` | The external reference identifier to include in report-based products. Allowed characters: uppercase or lowercase letters, numbers, and the dash character. Maximum 50 characters. |
 | `merchantId` | The merchant identifier. When provided, Tink Link will load the theme for that merchant. |
 | `personalIdentifier` | The personal identifier to prefill in bank authorization forms. |
-| `user` | The user’s first and last name. Used for Tink’s [User Match](https://docs.tink.com/resources/account-check/user-match) functionality. |
+| `user` | The user’s first and last name. Used for Tink’s [User Match](/Tiny-doc/tink_docs_home/resources/account-check/user-match/) functionality. |
 
 ## Initiate Tink Link with a session[](#initiate-tink-link-with-a-session)
 
@@ -128,7 +128,7 @@ curl -X POST https://api.tink.com/link/v1/session \
 
 ## User[](#user)
 
-Pass the user’s first and last name on `user` object to check how closely the name provided by the user matches what the bank has on the account. For details on this use case, see [User Match](https://docs.tink.com/resources/account-check/user-match).
+Pass the user’s first and last name on `user` object to check how closely the name provided by the user matches what the bank has on the account. For details on this use case, see [User Match](/Tiny-doc/tink_docs_home/resources/account-check/user-match/).
 
 Example session using the user object
 

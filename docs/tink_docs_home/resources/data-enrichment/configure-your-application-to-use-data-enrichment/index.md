@@ -1,6 +1,6 @@
 ---
 title: "Configure your application to use Data Enrichment"
-source: "https://docs.tink.com/resources/data-enrichment/configure-your-application-to-use-data-enrichment"
+source: "/Tiny-doc/tink_docs_home/resources/data-enrichment/configure-your-application-to-use-data-enrichment/"
 exportedAt: "2026-01-13T12:47:25.958Z"
 ---
 ### Set up permanent users[](#set-up-permanent-users)

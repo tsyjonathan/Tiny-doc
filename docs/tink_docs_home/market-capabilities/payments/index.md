@@ -1,6 +1,6 @@
 ---
 title: "Tink Docs"
-source: "https://docs.tink.com/market-capabilities/payments"
+source: "/Tiny-doc/tink_docs_home/market-capabilities/payments/"
 exportedAt: "2026-01-13T12:53:53.107Z"
 ---
 ## Payments

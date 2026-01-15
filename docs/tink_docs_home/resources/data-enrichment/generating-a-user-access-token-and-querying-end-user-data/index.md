@@ -1,6 +1,6 @@
 ---
 title: "Generating a user access token and querying end-user data"
-source: "https://docs.tink.com/resources/data-enrichment/generating-a-user-access-token-and-querying-end-user-data"
+source: "/Tiny-doc/tink_docs_home/resources/data-enrichment/generating-a-user-access-token-and-querying-end-user-data/"
 exportedAt: "2026-01-13T12:47:34.316Z"
 ---
 In previous guides when ingesting or aggregating data, we have been generating client access tokens to authenticate and authorize the application itself. Almost all endpoints under Data Enrichment, and especially when getting a single user’s data, will instead require a user access token. Which type of token is needed is always documented in the endpoint documentation, and the technical definitions can be found in the [OAuth standard](https://www.rfc-editor.org/rfc/rfc6749#section-4.4).
@@ -39,7 +39,7 @@ curl -v -X POST https://api.tink.com/api/v1/oauth/token \
 }
 ```
 
-For more information, see [complete documentation reference](https://docs.tink.com/api#general/oauth/get-access-token).
+For more information, see [complete documentation reference](/Tiny-doc/tink_docs_api/api/#general/oauth/get-access-token).
 
 Use the generated client token to create a new authorization grant code. Use the external\_user\_id connected to the end-user whose data you want to fetch. In the scope field, add the scopes needed for the particular endpoint you want to access for your user.
 
@@ -60,7 +60,7 @@ curl -X POST https://api.tink.com/api/v1/oauth/authorization-grant \
 }
 ```
 
-For more information, see [complete documentation reference](https://docs.tink.com/api#general/oauth/create-authorization).
+For more information, see [complete documentation reference](/Tiny-doc/tink_docs_api/api/#general/oauth/create-authorization).
 
 ### Step 3: Create a user access token[](#step-3-create-a-user-access-token)
 
@@ -87,7 +87,7 @@ curl -v -X POST https://api.tink.com/api/v1/oauth/token \
 }
 ```
 
-For more information, see [complete documentation reference](https://docs.tink.com/api#general/oauth/get-access-token).
+For more information, see [complete documentation reference](/Tiny-doc/tink_docs_api/api/#general/oauth/get-access-token).
 
 ### Step 4: Fetch end-user data[](#step-4-fetch-end-user-data)
 

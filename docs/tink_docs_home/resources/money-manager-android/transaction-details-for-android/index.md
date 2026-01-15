@@ -1,6 +1,6 @@
 ---
 title: "Transaction details for Android - Tink Docs"
-source: "https://docs.tink.com/resources/money-manager-android/transaction-details-for-android"
+source: "/Tiny-doc/tink_docs_home/resources/money-manager-android/transaction-details-for-android/"
 exportedAt: "2026-01-13T12:59:15.462Z"
 ---
 ![Transaction details](https://images.ctfassets.net/tmqu5vj33f7w/gKGGQADZuffEynI6a1irI/b4eebeba1f49fc5fc54fa785d0e34004/image-20220622-135541.png)

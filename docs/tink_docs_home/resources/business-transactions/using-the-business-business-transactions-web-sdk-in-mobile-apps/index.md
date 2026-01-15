@@ -1,6 +1,6 @@
 ---
 title: "Using the web SDK in mobile apps"
-source: "https://docs.tink.com/resources/business-transactions/using-the-business-business-transactions-web-sdk-in-mobile-apps"
+source: "/Tiny-doc/tink_docs_home/resources/business-transactions/using-the-business-business-transactions-web-sdk-in-mobile-apps/"
 exportedAt: "2026-01-13T12:58:07.673Z"
 ---
 ## Integrate in an iOS app[](#integrate-in-an-ios-app)
@@ -122,7 +122,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 }
 ```
 
-See the [Business Transactions SDK reference](https://docs.tink.com/resources/business-transactions/business-transactions-sdk-reference) for success and error response formats and parameters.
+See the [Business Transactions SDK reference](/Tiny-doc/tink_docs_home/resources/business-transactions/business-transactions-sdk-reference/) for success and error response formats and parameters.
 
 ### iOS: Automatic redirects[](#ios-automatic-redirects)
 
@@ -207,7 +207,7 @@ override fun onNewIntent(intent: Intent?) {
 }
 ```
 
-See the [Business Transactions SDK reference](https://docs.tink.com/resources/business-transactions/business-transactions-sdk-reference) for success and error response formats and parameters.
+See the [Business Transactions SDK reference](/Tiny-doc/tink_docs_home/resources/business-transactions/business-transactions-sdk-reference/) for success and error response formats and parameters.
 
 ### Android: Automatic redirects[](#android-automatic-redirects)
 

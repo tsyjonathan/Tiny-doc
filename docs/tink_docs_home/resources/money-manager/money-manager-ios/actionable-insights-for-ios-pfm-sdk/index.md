@@ -1,6 +1,6 @@
 ---
 title: "Actionable Insights for iOS - Tink Docs"
-source: "https://docs.tink.com/resources/money-manager/money-manager-ios/actionable-insights-for-ios-pfm-sdk"
+source: "/Tiny-doc/tink_docs_home/resources/money-manager/money-manager-ios/actionable-insights-for-ios-pfm-sdk/"
 exportedAt: "2026-01-13T12:52:11.163Z"
 ---
 ![Actionable insights](https://images.ctfassets.net/tmqu5vj33f7w/2n3LTfV6OQay5R5psf4IBt/d79756c7c5ccbc76eace4b0851e09667/Actionable_insights.png)

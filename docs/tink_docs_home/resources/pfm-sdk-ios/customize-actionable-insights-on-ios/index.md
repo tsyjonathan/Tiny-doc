@@ -1,6 +1,6 @@
 ---
 title: "Customize Actionable Insights on iOS"
-source: "https://docs.tink.com/resources/pfm-sdk-ios/customize-actionable-insights-on-ios"
+source: "/Tiny-doc/tink_docs_home/resources/pfm-sdk-ios/customize-actionable-insights-on-ios/"
 exportedAt: "2026-01-13T12:58:51.312Z"
 ---
 ![Customization Actionable Insights iOS](https://images.ctfassets.net/tmqu5vj33f7w/75woEVvPjza8h8MUQ5GoiS/b4cfcf0dc6f4997505715ad53db82a09/ActionableInsights-Customization-iOS.png)
@@ -24,7 +24,7 @@ insightColors.label = <#UIColor#>
 Appearance.provider.actionableInsightColors = insightColors
 ```
 
-[All available colors](https://docs.tink.com/resources/pfm-sdk-ios/customization/#colors) can be customized specifically for insights. For example, you can set a separate accent color in actionable insights by specifying `accent`, like in the example below:
+[All available colors](/Tiny-doc/tink_docs_home/resources/pfm-sdk-ios/customization/#colors) can be customized specifically for insights. For example, you can set a separate accent color in actionable insights by specifying `accent`, like in the example below:
 
 ```
 // Change the accent color to magenta only for the insights feature

@@ -1,6 +1,6 @@
 ---
 title: "Cancel a future-dated payment - Tink Docs"
-source: "https://docs.tink.com/resources/payments/one-time-payments/cancel-a-future-dated-payment"
+source: "/Tiny-doc/tink_docs_home/resources/payments/one-time-payments/cancel-a-future-dated-payment/"
 exportedAt: "2026-01-13T12:42:55.446Z"
 ---
 Cancellation of payments is available for future-dated payments where funds have not yet been exchanged. Immediate payments can’t be canceled, as they’re considered irrevocable by banks.
@@ -88,4 +88,4 @@ We also recommend adding the `locale` parameter that is relevant for that user o
 
 After the user finishes the SCA, the cancellation process will continue as normal.
 
-For more details, check out the [Cancellation endpoint](https://docs.tink.com/api-payment#payment/cancellation) in our API reference.
+For more details, check out the [Cancellation endpoint](/Tiny-doc/tink_docs_api/api-payment/#payment/cancellation) in our API reference.

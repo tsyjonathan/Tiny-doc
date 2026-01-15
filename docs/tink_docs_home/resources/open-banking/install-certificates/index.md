@@ -1,12 +1,12 @@
 ---
 title: "Install certificates - Tink Docs"
-source: "https://docs.tink.com/resources/open-banking/install-certificates"
+source: "/Tiny-doc/tink_docs_home/resources/open-banking/install-certificates/"
 exportedAt: "2026-01-13T12:54:59.621Z"
 ---
 After you’ve acquired your eIDAS certificates, it’s time to install them. If you don't have certificates, you'll need to get them first.
 
--   [Learn how to get EU certificates](https://docs.tink.com/resources/open-banking/get-eu-certificates)
--   [Learn how to get UK certificates](https://docs.tink.com/resources/open-banking/get-uk-certificates)
+-   [Learn how to get EU certificates](/Tiny-doc/tink_docs_home/resources/open-banking/get-eu-certificates/)
+-   [Learn how to get UK certificates](/Tiny-doc/tink_docs_home/resources/open-banking/get-uk-certificates/)
 
 ## Differences between EU and UK certificates[](#differences-between-eu-and-uk-certificates)
 
@@ -24,7 +24,7 @@ UK certificates are issued solely by the Open Banking Implementation Entity (OBI
 
 ## Install certificates with the Python script[](#install-certificates-with-the-python-script)
 
-You’ll install certificates with the help of our Python script, `tink_secret_utils.py`. For details on the tool and instructions on how to get it, see [TPP Integration Tool](https://docs.tink.com/resources/open-banking/tpp-integration-manager).
+You’ll install certificates with the help of our Python script, `tink_secret_utils.py`. For details on the tool and instructions on how to get it, see [TPP Integration Tool](/Tiny-doc/tink_docs_home/resources/open-banking/tpp-integration-manager/).
 
 With the full certificate chain saved in a `.pem` file, the private key in a `.key` file, and the latest versions of our Python tool and OpenSSL installed, you're ready to begin.
 
@@ -52,7 +52,7 @@ To execute any command, you must provide the client ID and client secret associa
 
 The `--certificate-type` parameter accepts either `qwac`or `qsealc`. If you're uploading both certificate types, run the command separately for each.
 
-For added security, we recommend creating a temporary client secret specifically for this script and deleting it when it’s finished. For more details, see [Access your API credentials](https://docs.tink.com/resources/console/set-up-your-tink-account#access-your-api-credentials).
+For added security, we recommend creating a temporary client secret specifically for this script and deleting it when it’s finished. For more details, see [Access your API credentials](/Tiny-doc/tink_docs_home/resources/console/set-up-your-tink-account/#access-your-api-credentials).
 
 > **Note:** Operations performed using the Python script are highly sensitive and may affect your Tink production applications. To ensure stability and minimise risk, we strongly recommend notifying your primary Tink contact before making any production changes involving certificates or TPP credentials.
 
